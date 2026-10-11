@@ -44,10 +44,16 @@ tools/
      3. 裁成 16:9、縮成 1600×900 WebP（q≈82，<300KB），存成 `issues/<date>/img/news-<id>.webp`。
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
-2. **汽車新知（3–5 則）**：EV、電池、自駕、法規、製造、市場；摘要＋連結。   **今日設計名詞（必要步驟，每期都要畫新圖）**：寫一則和當期新聞呼應的名詞（`term.name / zh / body`），並**為這個名詞手繪一張新的線稿示意圖**：
-   - 存成 `issues/<date>/term.svg`，在 data.json 加 `"term": {..., "diagram": "term.svg"}`。
-   - 格式：單一 `<svg class="diagram" viewBox="0 0 520 …" width="100%" role="img" aria-label="…">`；線條用 `stroke="currentColor"`（自動適應深淺色），重點標註用強調色 `#f08a5d`，文字 font-size 10–12、中文標註。風格參考 `issues/2026-10-08/term.svg`（dash-to-axle）與 `issues/2026-10-09/term.svg`（Heritage cue）。
-   - 圖的內容必須對應當天名詞與內文舉的例子；**不可沿用前一期的圖**。build.py 會內嵌這個 SVG，缺檔、缺 `diagram` 欄位，或與其他期（不同名詞）內容相同時，**build 會直接失敗**。
+2. **汽車新知（3–5 則）**：EV、電池、自駕、法規、製造、市場；摘要＋連結。
+   **今日設計名詞（必要步驟，每期都要畫新圖）**：寫一則和當期新聞呼應的名詞（`term.name / zh / body / source`），並**為這個名詞手繪一張新的線稿示意圖**：
+   - **選詞**：只用汽車設計圈公認、查得到用法的術語（例：lighting signature、DRG／down-the-road graphic、dash-to-axle、greenhouse、DLO、shoulder line、C-pillar、heritage cue）。來源以 Car Design News、Interior Motives、車廠設計新聞稿或設計師訪談為準；**不可自創名詞**，也不要用某位設計師的一次性口語（例如 Jaguar 的「strike-through graphic」）當主詞條，必要時改用它所屬的通用術語。
+   - **內文寫法（約 100–150 字，白話繁體中文）**：① 第一句直接定義「它是什麼」；② 接著舉一台**本期新聞裡的真實車款**，具體說是哪個部位、長什麼樣子；③ 最多再一句說設計師為什麼這樣做。不用比喻（如「劃破」「同一筆簽名」）、不堆砌術語（如「面處理」「母題」「顯影」）；寫完自己讀一遍，一般讀者一次看得懂才算數。
+   - **出處**：`"source": [["來源名稱：簡述", "URL"], ...]`（1–2 個，實際讀過的頁面），頁面會在內文下方顯示一行「出處：…」。
+   - **示意圖**：存成 `issues/<date>/term.svg`，在 data.json 加 `"diagram": "term.svg"`。
+     - 必須畫出**一眼看得出是車**的線稿：正面／背面／側面擇一或並排，要有車身輪廓、輪胎、擋風玻璃（或車窗），以及水箱護罩或車燈；不可只畫抽象方框或線條。
+     - 名詞指的部位用強調色 `#f08a5d` 標出，並加 **2–3 個簡短中文標註**（如「① 四條細長頭燈」）用虛線指到該部位；最下方可加一行白話說明。
+     - 格式：單一 `<svg class="diagram" viewBox="0 0 520 …" width="100%" role="img" aria-label="…">`；線條用 `stroke="currentColor"`（自動適應深淺色），文字 font-size 10–12。風格參考 `issues/2026-10-11/term.svg`（lighting signature：Type 01 正面＋背面）與 `issues/2026-10-09/term.svg`（Heritage cue）。
+     - 圖的內容必須對應當天名詞與內文舉的例子；**不可沿用前一期的圖**。build.py 會內嵌這個 SVG，缺檔、缺 `diagram` 欄位，或與其他期（不同名詞）內容相同時，**build 會直接失敗**。
 3. **情緒板（1–2 組）**：`python3 tools/pick_themes.py 2` 抽主題 → 每組 4–6 張原創虛構圖（不可出現真實車款或 logo）＋6 色 hex 色票、關鍵字、材質筆記。
    - 有 GenerateImage 等生圖工具時優先使用，輸出後轉 WebP（≤1400px、q≈80）放 `issues/<date>/img/`，命名 `mb1-1…`、`mb2-1…`，每組第一張為 hero（16:9），其餘 4:3。
    - 沒有時用 `tools/moodart.py` 的做法（SVG 插畫＋numpy 材質）為新主題寫對應函式。

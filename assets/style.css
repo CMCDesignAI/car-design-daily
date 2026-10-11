@@ -114,6 +114,8 @@ section{padding:clamp(44px,5vw,72px) 0 10px}
 .term .zh{font-family:var(--serif);font-size:18px;opacity:.85}
 .term p{margin:0;font-family:var(--serif);font-size:17px;line-height:1.85;max-width:70ch}
 .diagram{margin-top:16px;max-width:420px}
+.term p.tsrc{margin-top:14px;font-family:var(--sans);font-size:13px;line-height:1.7;opacity:.7}
+.term .tsrc a{color:inherit}
 
 /* ---------- mood boards ---------- */
 .board{margin-bottom:clamp(44px,5vw,72px)}

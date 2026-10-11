@@ -13,14 +13,32 @@
    "orig": "Type 01 – the most important Jaguar ever – as explained by its designers",
    "summary": "Car Design News 在 Gaydon 預覽後整理 Type 01 外觀：全電 GT、約 12.5 萬英鎊起、2027 上路。車長 5.2 m、高僅 1.4 m、軸距 3,200 mm、23 吋輪圈；前臉不用「燈牆」式假水箱罩，改以四條極細頭燈夾住幾何肋紋金屬面，設計師稱此為 strike-through graphic。後方是幾乎無玻璃的金屬尾艙，水平貫穿線延續同一母題，尾燈平時藏進面內、需要時才亮。",
    "analysis": [
-    ["比例", "近一公尺的 dash-to-axle（官方稱 luxury gap）加上超低車頂，把 GT 站姿拉到極致；電池前移才騰出後座腳空間，卻仍承認後門進出不便。"],
-    ["燈號", "四線頭燈貼到車寬邊緣建立遠距辨識；尾燈採「用時才見」的隱藏光源，讓整塊金屬背面保持乾淨。"],
-    ["面處理", "沖洗式玻璃與門把、前下緣黑區收納主動風門與感測器，刻意把科技藏起來，把視線留給金屬與貫穿線。"],
-    ["室內 UX", "24 吋駕駛顯示器＋中央脊骨上的直向小螢幕，放棄大型中控觸控牆；無後窗改以擋風玻璃底部小螢幕串流後方影像。"],
-    ["品牌方向", "從 Type 00 概念走到可量產的 Type 01，把 Copy Nothing 落到可賣的比例與細節，是捷豹能否拉高均價的關鍵一役。"]
+    [
+     "比例",
+     "近一公尺的 dash-to-axle（官方稱 luxury gap）加上超低車頂，把 GT 站姿拉到極致；電池前移才騰出後座腳空間，卻仍承認後門進出不便。"
+    ],
+    [
+     "燈號",
+     "四線頭燈貼到車寬邊緣建立遠距辨識；尾燈採「用時才見」的隱藏光源，讓整塊金屬背面保持乾淨。"
+    ],
+    [
+     "面處理",
+     "沖洗式玻璃與門把、前下緣黑區收納主動風門與感測器，刻意把科技藏起來，把視線留給金屬與貫穿線。"
+    ],
+    [
+     "室內 UX",
+     "24 吋駕駛顯示器＋中央脊骨上的直向小螢幕，放棄大型中控觸控牆；無後窗改以擋風玻璃底部小螢幕串流後方影像。"
+    ],
+    [
+     "品牌方向",
+     "從 Type 00 概念走到可量產的 Type 01，把 Copy Nothing 落到可賣的比例與細節，是捷豹能否拉高均價的關鍵一役。"
+    ]
    ],
    "sources": [
-    ["Car Design News", "https://www.cardesignnews.com/cars/type-01-the-most-important-jaguar-ever-as-explained-by-its-designers-but-not-gerry/2747068"]
+    [
+     "Car Design News",
+     "https://www.cardesignnews.com/cars/type-01-the-most-important-jaguar-ever-as-explained-by-its-designers-but-not-gerry/2747068"
+    ]
    ],
    "image": {
     "file": "news-jaguar-type01.webp",
@@ -38,14 +56,32 @@
    "orig": "Alfa Romeo reveals the first details of Cuorerosso",
    "summary": "Alfa Romeo 於 10/10 公布 Cuorerosso 概念車更多細節：由都靈 Centro Stile 打造，官方定位為設計宣言而非量產預告，10/12 巴黎車展 Hall 4 世界首發。最新預告露出紅色車尾上一組分成三段弧形的圓角尾燈，燈腔內以深度與肋紋製造層次；稍早側面則可見 11 分段後視鏡殼，其中三格嵌入義大利國旗色。",
    "analysis": [
-    ["燈號", "三段弧形尾燈刻意不像現行量產 Alfa，用光的深度與留白做出新的後方簽名。"],
-    ["細節", "11 分段鏡殼＋三色嵌條，把熟悉零件做成辨識點，又不走攝影機後視鏡路線。"],
-    ["品牌方向", "官方反覆強調 driver-centric：每項創新都要服務駕馭情緒；名稱 Cuorerosso（紅心）把情感連結寫進專案本身。"],
-    ["展會節奏", "與 33 Stradale、Arese 博物館 Spider Duetto（60 週年）同台，用概念＋經典夾擊說「義式駕駛」。"]
+    [
+     "燈號",
+     "三段弧形尾燈刻意不像現行量產 Alfa，用光的深度與留白做出新的後方簽名。"
+    ],
+    [
+     "細節",
+     "11 分段鏡殼＋三色嵌條，把熟悉零件做成辨識點，又不走攝影機後視鏡路線。"
+    ],
+    [
+     "品牌方向",
+     "官方反覆強調 driver-centric：每項創新都要服務駕馭情緒；名稱 Cuorerosso（紅心）把情感連結寫進專案本身。"
+    ],
+    [
+     "展會節奏",
+     "與 33 Stradale、Arese 博物館 Spider Duetto（60 週年）同台，用概念＋經典夾擊說「義式駕駛」。"
+    ]
    ],
    "sources": [
-    ["Stellantis Media（Alfa Romeo）", "https://www.media.stellantis.com/em-en/alfa-romeo/press/alfa-romeo-reveals-the-first-details-of-cuorerosso"],
-    ["ClubAlfa", "https://www.clubalfa.it/en/alfa-romeo-cuorerosso-gives-another-glimpse-of-its-mysterious-rear-end-46056"]
+    [
+     "Stellantis Media（Alfa Romeo）",
+     "https://www.media.stellantis.com/em-en/alfa-romeo/press/alfa-romeo-reveals-the-first-details-of-cuorerosso"
+    ],
+    [
+     "ClubAlfa",
+     "https://www.clubalfa.it/en/alfa-romeo-cuorerosso-gives-another-glimpse-of-its-mysterious-rear-end-46056"
+    ]
    ],
    "image": {
     "file": "news-alfa-cuorerosso.webp",
@@ -63,14 +99,32 @@
    "orig": "阿维塔 T09 概念版汽车更多亮点公布：全新水晶立标、晶钻阵列大灯，10 月 11 日全球首秀",
    "summary": "阿維塔 T09（概念版／旗艦六座）定檔 10/11 線上全球首秀，並將亮相巴黎車展。官方預熱強調 Vortex「情感渦流」造型、全新水晶立標與晶鑽陣列大燈；申報尺寸約 5,285×2,025×1,810–1,820 mm、軸距 3,150 mm，屋頂可見雷射雷達，半隱藏門把，動力為插混雙／三馬達配置，與華為乾崑聯合設計。",
    "analysis": [
-    ["燈號", "分體式大燈＋晶鑽陣列／垂直日行燈，把「尊崇」敘事寫進光語，而不是只堆螢幕。"],
-    ["面處理", "點陣封閉式前臉與幾何紋理面板，讓大型 SUV 前臉有材質層次而不靠傳統水箱罩。"],
-    ["比例", "5.3 米級六座＋3.15 米軸距，站姿偏直立旗艦，與轎跑跨界形成對比。"],
-    ["品牌方向", "標註華為乾崑聯合設計，把智駕硬體（車頂雷達）直接做成外觀元素的一部分。"]
+    [
+     "燈號",
+     "分體式大燈＋晶鑽陣列／垂直日行燈，把「尊崇」敘事寫進光語，而不是只堆螢幕。"
+    ],
+    [
+     "面處理",
+     "點陣封閉式前臉與幾何紋理面板，讓大型 SUV 前臉有材質層次而不靠傳統水箱罩。"
+    ],
+    [
+     "比例",
+     "5.3 米級六座＋3.15 米軸距，站姿偏直立旗艦，與轎跑跨界形成對比。"
+    ],
+    [
+     "品牌方向",
+     "標註華為乾崑聯合設計，把智駕硬體（車頂雷達）直接做成外觀元素的一部分。"
+    ]
    ],
    "sources": [
-    ["IT之家", "https://www.ithome.com/1/011/535.htm"],
-    ["汽車之家車家號", "https://chejiahao.autohome.com.cn/info/26606814"]
+    [
+     "IT之家",
+     "https://www.ithome.com/1/011/535.htm"
+    ],
+    [
+     "汽車之家車家號",
+     "https://chejiahao.autohome.com.cn/info/26606814"
+    ]
    ],
    "image": {
     "file": "news-avatr-t09.webp",
@@ -88,13 +142,28 @@
    "orig": "Geely Galaxy launches Cruiser 700 to take on BYD, GWM in off-road SUV market",
    "summary": "吉利銀河首款硬派越野 SUV 戰艦 700（Cruiser 700／Zhanjian 700）於 10/10 上市，官方起價 18.98 萬元，限時含置換可至約 16.98 萬；發布後 12 分鐘內鎖單逾 1 萬。車長 5,085 mm、軸距 2,900 mm，方正車身、側開尾門與外掛備胎走傳統越野語彙；GTA 架構插混，高階三馬達四驅系統綜效可達 830 kW。",
    "analysis": [
-    ["比例", "近兩米車寬＋方盒子側影，刻意對標方程豹、坦克等硬派場，而不是城市 SUV 的圓潤跨界。"],
-    ["機能造型", "側開尾門與外掛備胎把「能裝、能修、能露營」寫在外形上；車內保留實體排檔與地形模式旋鈕。"],
-    ["燈號", "水平貫穿燈條銜接圓形頭燈，夜間識別偏「戰艦」而非轎車。"],
-    ["品牌方向", "銀河用一台ชัด的越野產品切進新市場，設計語言與日常轎跑產品線刻意拉開距離。"]
+    [
+     "比例",
+     "近兩米車寬＋方盒子側影，刻意對標方程豹、坦克等硬派場，而不是城市 SUV 的圓潤跨界。"
+    ],
+    [
+     "機能造型",
+     "側開尾門與外掛備胎把「能裝、能修、能露營」寫在外形上；車內保留實體排檔與地形模式旋鈕。"
+    ],
+    [
+     "燈號",
+     "水平貫穿燈條銜接圓形頭燈，夜間識別偏「戰艦」而非轎車。"
+    ],
+    [
+     "品牌方向",
+     "銀河用一台ชัด的越野產品切進新市場，設計語言與日常轎跑產品線刻意拉開距離。"
+    ]
    ],
    "sources": [
-    ["CnEVPost", "https://cnevpost.com/2026/10/10/geely-galaxy-launches-cruiser-700-suv/"]
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/10/geely-galaxy-launches-cruiser-700-suv/"
+    ]
    ],
    "image": {
     "file": "news-geely-cruiser700.webp",
@@ -112,13 +181,28 @@
    "orig": "The JAS Tensei, aka the resurrected NSX, has been fully revealed",
    "summary": "義大利 JAS 與 Pininfarina 發表 Tensei（日文「轉生」）——以初代 Honda NSX 為底的限量重製，僅 35 台、售價自約 77 萬英鎊起（另加捐贈車與稅）。車身略加長加寬，保留掀起式頭燈並改為超高速伺服＋撞擊感測與鈦合金運動學；強調內部氣流而非誇張尾翼，尾燈改成立體 3D 造型，座艙以碳纖單件儀表與 Alcantara 提高質感。",
    "analysis": [
-    ["燈號", "在法規與科技都不利 pop-up 的時代，限量車仍堅持隱藏頭燈，並用感測與鈦合金機構處理安全與速度。"],
-    ["空力", "避免顯眼尾翼，改走鼻部、輪圈與引擎進氣的內部風道，讓側影維持 1990 年代楔形乾淨感。"],
-    ["CMF", "從 90 年代塑料感換成碳纖、Alcantara 與類比導向介面，復刻外殼、當代觸感。"],
-    ["品牌方向", "Pininfarina 回頭修飾自己參與過的 NSX 語彙，是「設計史閉環」多於新平台宣言。"]
+    [
+     "燈號",
+     "在法規與科技都不利 pop-up 的時代，限量車仍堅持隱藏頭燈，並用感測與鈦合金機構處理安全與速度。"
+    ],
+    [
+     "空力",
+     "避免顯眼尾翼，改走鼻部、輪圈與引擎進氣的內部風道，讓側影維持 1990 年代楔形乾淨感。"
+    ],
+    [
+     "CMF",
+     "從 90 年代塑料感換成碳纖、Alcantara 與類比導向介面，復刻外殼、當代觸感。"
+    ],
+    [
+     "品牌方向",
+     "Pininfarina 回頭修飾自己參與過的 NSX 語彙，是「設計史閉環」多於新平台宣言。"
+    ]
    ],
    "sources": [
-    ["Top Gear Philippines", "https://www.topgear.com.ph/news/car-news/jas-tensei-honda-nsx-tguk-a2603-20261010"]
+    [
+     "Top Gear Philippines",
+     "https://www.topgear.com.ph/news/car-news/jas-tensei-honda-nsx-tguk-a2603-20261010"
+    ]
    ],
    "image": {
     "file": "news-jas-tensei.webp",
@@ -136,13 +220,28 @@
    "orig": "BYD to launch Da Han sedan on October 13 with up to 1,008 km of EV range",
    "summary": "比亞迪王朝系列旗艦轎車「大漢」將於 10/13 正式上市。純電版預售 24.99–29.99 萬元，兩款後驅 CLTC 續航達 1,008 km，四驅版 880 km；定位高於現有漢，與已上市的大唐 SUV 一起打王朝旗艦層。流線型四門快背、貫穿式燈眉與車頂感測模組，延續近期比亞迪旗艦的簡潔電氣化面容。",
    "analysis": [
-    ["比例", "大型轎車快背側影，用低風阻姿勢支撐「千里續航」敘事，而不是再做一台高車頂行政廂型。"],
-    ["燈號", "全寬燈條銜接矩陣式頭燈模組，夜間識別走旗艦寬度而非運動窄燈。"],
-    ["面處理", "封閉前臉＋腰線鍍鉻飾條，把「大」做成安靜的豪華面，而不是誇張進氣口。"],
-    ["產品節奏", "成都車展預售後國慶檔期收單、10/13 上市，與巴黎週的歐系發表錯峰搶國內關注。"]
+    [
+     "比例",
+     "大型轎車快背側影，用低風阻姿勢支撐「千里續航」敘事，而不是再做一台高車頂行政廂型。"
+    ],
+    [
+     "燈號",
+     "全寬燈條銜接矩陣式頭燈模組，夜間識別走旗艦寬度而非運動窄燈。"
+    ],
+    [
+     "面處理",
+     "封閉前臉＋腰線鍍鉻飾條，把「大」做成安靜的豪華面，而不是誇張進氣口。"
+    ],
+    [
+     "產品節奏",
+     "成都車展預售後國慶檔期收單、10/13 上市，與巴黎週的歐系發表錯峰搶國內關注。"
+    ]
    ],
    "sources": [
-    ["CnEVPost", "https://cnevpost.com/2026/09/25/byd-to-launch-da-han-oct-13/"]
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/09/25/byd-to-launch-da-han-oct-13/"
+    ]
    ],
    "image": {
     "file": "news-byd-dahan.webp",
@@ -159,8 +258,14 @@
    "title": "巴黎車展明早開幕：Alfa／Alpine／Renault／Opel 概念車密集首發",
    "summary": "Mondial de l'Auto 2026 於 10/12–18 在 Porte de Versailles 舉行。本週已預告的設計重點包括 Alfa Cuorerosso、Alpine PS1、Renault E-Space、Opel STX、Fiat Multiplay，以及多個中國品牌展台；明日見真章後本刊會跟進實車燈語與比例。",
    "sources": [
-    ["Stellantis Media", "https://www.media.stellantis.com/em-en/alfa-romeo/press/alfa-romeo-reveals-the-first-details-of-cuorerosso"],
-    ["Euronews", "https://www.euronews.com/2026/10/09/electrification-and-chinese-brands-paris-motor-show-opens-monday"]
+    [
+     "Stellantis Media",
+     "https://www.media.stellantis.com/em-en/alfa-romeo/press/alfa-romeo-reveals-the-first-details-of-cuorerosso"
+    ],
+    [
+     "Euronews",
+     "https://www.euronews.com/2026/10/09/electrification-and-chinese-brands-paris-motor-show-opens-monday"
+    ]
    ]
   },
   {
@@ -169,7 +274,10 @@
    "title": "銀河戰艦 700：12 分鐘鎖單破萬，越野插混價格戰升溫",
    "summary": "CnEVPost 報導戰艦 700 上市後 12 分鐘內累積逾 1 萬張鎖單；限時含置換價可到約 16.98 萬元起。這顯示方程豹、坦克之後，更多主流集團用「可負擔硬派外觀＋長續航插混」搶越野需求。",
    "sources": [
-    ["CnEVPost", "https://cnevpost.com/2026/10/10/geely-galaxy-launches-cruiser-700-suv/"]
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/10/geely-galaxy-launches-cruiser-700-suv/"
+    ]
    ]
   },
   {
@@ -178,7 +286,10 @@
    "title": "理想 i6 今日起進駐 485 家門店展出，明日巴黎以 Li 6 之名亮相",
    "summary": "2026 理想 i6 自今日起在中國 485 家門店展車，10/12 巴黎展出歐洲版 Li 6，中國發表會訂於 10/28、預計 11 月初交付。半隱藏門把是外觀最醒目更新，動力與智駕改為自研 5C 電池與 Mach 晶片。",
    "sources": [
-    ["CnEVPost", "https://cnevpost.com/2026/10/09/li-auto-launch-2026-li-i6-oct-28/"]
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/09/li-auto-launch-2026-li-i6-oct-28/"
+    ]
    ]
   },
   {
@@ -187,14 +298,27 @@
    "title": "阿維塔 T09 線上首秀日，六座旗艦插混同步瞄準巴黎展台",
    "summary": "T09 在申報資訊中提供 1.5T／2.0T 增程＋雙或三馬達組合，車長逾 5.2 米、六座。今日首秀若公開更多內裝與燈語動畫，將是觀察阿維塔如何把「情感渦流」落到量產旗艦的關鍵。",
    "sources": [
-    ["IT之家", "https://www.ithome.com/1/011/535.htm"]
+    [
+     "IT之家",
+     "https://www.ithome.com/1/011/535.htm"
+    ]
    ]
   }
  ],
  "term": {
-  "name": "Strike-through graphic",
-  "zh": "貫穿線圖形",
-  "body": "Strike-through graphic（貫穿線圖形）是把一條強烈的水平「劃破」線當成全車識別母題：它不一定是實體飾條，也可以是燈縫、面轉折或可點亮的燈帶。Jaguar Type 01 的做法是——車頭用四條極細燈線夾住肋紋金屬面，建立遠距可辨的「臉」；車尾則在幾乎無玻璃的金屬背面拉一條同語彙的水平貫穿，尾燈平時藏進面內，需要時才亮。重點不在單件燈具有多炫，而在前後讀起來是同一筆簽名。它和單純的 light bar（貫穿燈條）不同：貫穿線可以是結構性的面處理，燈只是這條線在夜間的顯影。",
+  "name": "Lighting signature",
+  "zh": "燈光識別",
+  "body": "Lighting signature（燈光識別）是指把頭燈、日行燈和尾燈設計成固定的形狀，讓人遠遠看到燈就認得出是哪個品牌。本期的 Jaguar Type 01，車頭是四條很細的橫向頭燈，一直拉到車身兩側；車尾是一條同樣細長的橫向尾燈，平常藏在車身裡，亮了才看得到。電動車不再需要大水箱護罩，設計師就改用燈光來當品牌的「臉」。",
+  "source": [
+   [
+    "Car Design News：Volvo 設計團隊談燈光識別（Thor’s Hammer）",
+    "https://www.cardesignnews.com/lighting/volvo-on-people-awards-win-and-lighting-design/493617"
+   ],
+   [
+    "Car Design News：Jaguar Type 01 設計師訪談（“signature lamp graphic”）",
+    "https://www.cardesignnews.com/cars/type-01-the-most-important-jaguar-ever-as-explained-by-its-designers-but-not-gerry/2747068"
+   ]
+  ],
   "diagram": "term.svg"
  },
  "moodboards": [
@@ -203,42 +327,138 @@
    "zh": "義大利 1970 年代楔形超跑",
    "intro": "尖鼻、平直腰線與剪刀門幻想：一台像紙模型折出來的楔形超跑，橘紅車身、黑下裙，停在黃昏的混凝土測試道上。",
    "images": [
-    ["mb1-1", "原創虛構概念：橘紅楔形超跑側前方，極低鼻線與隱藏頭燈縫", true],
-    ["mb1-2", "座艙：單環儀表、麂皮方向盤與露鋁換檔（程式繪製）", false],
-    ["mb1-3", "細節：楔形剖面線、六點式皮帶扣與網紋進氣（程式繪製）", false],
-    ["mb1-4", "材質：焦橘金屬漆與細緻橘皮紋（程式生成）", false]
+    [
+     "mb1-1",
+     "原創虛構概念：橘紅楔形超跑側前方，極低鼻線與隱藏頭燈縫",
+     true
+    ],
+    [
+     "mb1-2",
+     "座艙：單環儀表、麂皮方向盤與露鋁換檔（程式繪製）",
+     false
+    ],
+    [
+     "mb1-3",
+     "細節：楔形剖面線、六點式皮帶扣與網紋進氣（程式繪製）",
+     false
+    ],
+    [
+     "mb1-4",
+     "材質：焦橘金屬漆與細緻橘皮紋（程式生成）",
+     false
+    ]
    ],
    "palette": [
-    ["Rosso Wedge", "#E85D04"],
-    ["Asphalt", "#2B2B2B"],
-    ["Alu Bare", "#C5C8CC"],
-    ["Suede Tan", "#A67C52"],
-    ["Night Navy", "#1A2744"],
-    ["Lamp Amber", "#F4A261"]
+    [
+     "Rosso Wedge",
+     "#E85D04"
+    ],
+    [
+     "Asphalt",
+     "#2B2B2B"
+    ],
+    [
+     "Alu Bare",
+     "#C5C8CC"
+    ],
+    [
+     "Suede Tan",
+     "#A67C52"
+    ],
+    [
+     "Night Navy",
+     "#1A2744"
+    ],
+    [
+     "Lamp Amber",
+     "#F4A261"
+    ]
    ],
-   "keywords": ["Wedge", "隱藏頭燈縫", "平直腰線", "剪刀門意象", "單環儀表", "1970s 義式"],
-   "materials": ["焦橘單層金屬漆", "麂皮／Alcantara 座椅", "裸鋁儀表罩", "黑色橡膠下裙", "網紋鋁進氣口", "琥珀色尾燈玻璃"]
+   "keywords": [
+    "Wedge",
+    "隱藏頭燈縫",
+    "平直腰線",
+    "剪刀門意象",
+    "單環儀表",
+    "1970s 義式"
+   ],
+   "materials": [
+    "焦橘單層金屬漆",
+    "麂皮／Alcantara 座椅",
+    "裸鋁儀表罩",
+    "黑色橡膠下裙",
+    "網紋鋁進氣口",
+    "琥珀色尾燈玻璃"
+   ]
   },
   {
    "theme": "Martian terraformer rover",
    "zh": "火星地貌改造探測車",
    "intro": "氧化鐵紅塵、加壓座艙與太陽能翼：一台為外星工地設計的六輪漫遊車，強調密封關節、模組化工具臂與能在低重力下站穩的寬履。",
    "images": [
-    ["mb2-1", "原創虛構概念：赭紅六輪探測車於火星沙丘，太陽能翼展開", true],
-    ["mb2-2", "座艙：圓窗、壓力表與手套箱式操作台（程式繪製）", false],
-    ["mb2-3", "細節：密封關節、工具臂卡榫與防塵褶紋（程式繪製）", false],
-    ["mb2-4", "材質：氧化鐵塵土紋與陽極鈦表面（程式生成）", false]
+    [
+     "mb2-1",
+     "原創虛構概念：赭紅六輪探測車於火星沙丘，太陽能翼展開",
+     true
+    ],
+    [
+     "mb2-2",
+     "座艙：圓窗、壓力表與手套箱式操作台（程式繪製）",
+     false
+    ],
+    [
+     "mb2-3",
+     "細節：密封關節、工具臂卡榫與防塵褶紋（程式繪製）",
+     false
+    ],
+    [
+     "mb2-4",
+     "材質：氧化鐵塵土紋與陽極鈦表面（程式生成）",
+     false
+    ]
    ],
    "palette": [
-    ["Iron Oxide", "#8B3A2A"],
-    ["Dust Rose", "#C47B5A"],
-    ["Habitat White", "#E8E4DC"],
-    ["Anodized Ti", "#6E7F8A"],
-    ["Solar Blue", "#3A6B8A"],
-    ["Warning", "#E9C46A"]
+    [
+     "Iron Oxide",
+     "#8B3A2A"
+    ],
+    [
+     "Dust Rose",
+     "#C47B5A"
+    ],
+    [
+     "Habitat White",
+     "#E8E4DC"
+    ],
+    [
+     "Anodized Ti",
+     "#6E7F8A"
+    ],
+    [
+     "Solar Blue",
+     "#3A6B8A"
+    ],
+    [
+     "Warning",
+     "#E9C46A"
+    ]
    ],
-   "keywords": ["六輪漫遊", "加壓艙", "太陽能翼", "密封關節", "模組工具臂", "低重力站姿"],
-   "materials": ["陽極處理鈦合金蒙皮", "陶瓷隔熱塗層", "矽膠防塵褶", "透明聚碳酸酯圓窗", "高摩擦橡膠履塊", "太陽能薄膜翼"]
+   "keywords": [
+    "六輪漫遊",
+    "加壓艙",
+    "太陽能翼",
+    "密封關節",
+    "模組工具臂",
+    "低重力站姿"
+   ],
+   "materials": [
+    "陽極處理鈦合金蒙皮",
+    "陶瓷隔熱塗層",
+    "矽膠防塵褶",
+    "透明聚碳酸酯圓窗",
+    "高摩擦橡膠履塊",
+    "太陽能薄膜翼"
+   ]
   }
  ]
 }

@@ -55,6 +55,13 @@ def issues():
         out.append(json.load(open(p, encoding="utf-8")))
     return out
 
+def term_text(t):
+    """Term body; optional t["source"] = [[name, url], ...] rendered as a small 出處 line."""
+    if not t.get("source"):
+        return f'<p>{e(t["body"])}</p>'
+    src = "、".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in t["source"])
+    return f'<div><p>{e(t["body"])}</p><p class="tsrc">出處：{src}</p></div>'
+
 def term_diagram(d, all_issues):
     """Per-issue term illustration: issues/<date>/<term.diagram> (inline SVG, class="diagram").
     Fails the build if missing, or if the same SVG is reused for a different term."""
@@ -124,7 +131,7 @@ def page(d, base, all_issues, is_root):
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in k["sources"])
         H.append(f'<article class="k"><span class="tag">{e(k["tag"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(k["date"])}</span><h3>{e(k["title"])}</h3><p>{e(k["summary"])}</p><div class="src">{src}</div></article>')
     t = d["term"]
-    H.append(f'</div><div class="term"><div><div class="lab">今日設計名詞 · Term of the Day</div><h3>{e(t["name"])}</h3><div class="zh">{e(t["zh"])}</div>{term_diagram(d, all_issues)}</div><p>{e(t["body"])}</p></div></section>')
+    H.append(f'</div><div class="term"><div><div class="lab">今日設計名詞 · Term of the Day</div><h3>{e(t["name"])}</h3><div class="zh">{e(t["zh"])}</div>{term_diagram(d, all_issues)}</div>{term_text(t)}</div></section>')
     # mood boards
     H.append('<section id="mood"><div class="sec-head"><span class="num">03</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
     H.append('<p class="note">情緒板裡的車輛都是原創虛構的概念設計，不代表任何真實車款或品牌。圖像為程式生成的插畫和材質紋理，主題每期隨機抽選。</p>')
