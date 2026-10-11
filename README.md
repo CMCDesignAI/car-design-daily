@@ -52,7 +52,7 @@ tools/
    - **示意圖**：存成 `issues/<date>/term.svg`，在 data.json 加 `"diagram": "term.svg"`。
      - 必須畫出**一眼看得出是車**的線稿：正面／背面／側面擇一或並排，要有車身輪廓、輪胎、擋風玻璃（或車窗），以及水箱護罩或車燈；不可只畫抽象方框或線條。
      - 名詞指的部位用強調色 `#f08a5d` 標出，並加 **2–3 個簡短中文標註**（如「① 四條細長頭燈」）用虛線指到該部位；最下方可加一行白話說明。
-     - 格式：單一 `<svg class="diagram" viewBox="0 0 520 …" width="100%" role="img" aria-label="…">`；線條用 `stroke="currentColor"`（自動適應深淺色），文字 font-size 10–12。風格參考 `issues/2026-10-11/term.svg`（lighting signature：Type 01 正面＋背面）與 `issues/2026-10-09/term.svg`（Heritage cue）。
+     - 格式：單一 `<svg class="diagram" viewBox="0 0 520 …" width="100%" role="img" aria-label="…">`；線條用 `stroke="currentColor"`（自動適應深淺色），文字要在頁面上縮小後仍看得清楚（viewBox 520 寬時，標註 font-size 15–16、次要文字 ≥12）。風格參考 `issues/2026-10-11/term.svg`（lighting signature：Type 01 正面＋背面）與 `issues/2026-10-09/term.svg`（Heritage cue）。
      - 圖的內容必須對應當天名詞與內文舉的例子；**不可沿用前一期的圖**。build.py 會內嵌這個 SVG，缺檔、缺 `diagram` 欄位，或與其他期（不同名詞）內容相同時，**build 會直接失敗**。
 3. **情緒板（1–2 組）**：`python3 tools/pick_themes.py 2` 抽主題 → 每組 4–6 張原創虛構圖（不可出現真實車款或 logo）＋6 色 hex 色票、關鍵字、材質筆記。
    - 有 GenerateImage 等生圖工具時優先使用，輸出後轉 WebP（≤1400px、q≈80）放 `issues/<date>/img/`，命名 `mb1-1…`、`mb2-1…`，每組第一張為 hero（16:9），其餘 4:3。
