@@ -37,6 +37,8 @@ tools/
 
 ## 產生下一期（每日流程）
 1. **蒐集設計新聞（5–8 則，近 24–72 小時）**：用 WebSearch/WebFetch 實際讀過原文才收錄；不得杜撰日期、引言。
+   - **固定 7 則（自 2026-10-13 起；10-12 已補到 7 則）**：≥1200px 三欄格線剛好排滿 3+3+1→實際以 7 張卡片自動換行，build.py 不需改動（卡片數不寫死）。
+     第 7 則優先給 **Mitsubishi**（合作夥伴）：有重要新消息就放在 `design_news` 第一則（首則圖也會成為 og:image 與往期列表標題）；未經官方證實的報導要在標題／摘要寫明「報導」並附雙方回應。沒有夠重要的新消息就不硬塞，改放其他日系車廠（Toyota、Honda、Nissan、Mazda…）的設計新聞。
    每則：品牌、標籤、日期、中文標題、原文標題、2–3 句摘要、3–5 點設計解析（比例／燈號／面處理／CMF／室內 UX／品牌方向）、來源連結。
    - **每則設計新聞都必須有 1 張代表圖（必要步驟）**：
      1. 優先用車廠官方新聞室／press kit 圖片（BMW PressClub、JLR Media、VW Newsroom、Renault/Alpine Media、Hyundai Newsroom、Porsche Newsroom…）；找不到才用來源報導的 `og:image`。
