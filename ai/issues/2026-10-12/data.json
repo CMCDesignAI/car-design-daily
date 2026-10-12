@@ -1,0 +1,193 @@
+{
+ "date": "2026-10-12",
+ "weekday": "週一",
+ "issue_no": 5,
+ "lede": "週一聚焦加速與角色工具：Krea 2 Turbo 社群 2 步蒸餾 LoRA 釋出最終檢查點 chk51195（約 4× 去噪加速）；Qwen Image 2.1 生態補上角色參考表 LoRA 與 Turbo 漫畫分鏡 LoRA。MiniMax H3 本地方案 FreeVideo 推到 v0.3.24，針對 8GB／低記憶體 Windows 再優化。開源圈另有 LAION Humaneness Voice Converter；封閉端 Vivix W1 以約每秒 0.003 美元推即時影片 API。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "本地方案持續修：FreeVideo v0.3.24；本體權重無新版",
+   "updates": [
+    {
+     "title": "FreeVideo v0.3.24：背景編譯、8GB RTX 30 第二遍更快",
+     "date": "2026-10-11",
+     "summary": "FlashML-org 的 FreeVideo（ComfyUI 外掛本機跑 MiniMax H3 文／圖生影片＋音訊）在 10/11 標註 v0.3.24。重點：更新／安裝／修復或換驅動後改在空閒時背景編譯（約 2–3 分鐘），之後第一次生成不必再等；編譯快取改存 FreeVideo 目錄，清系統暫存不再拖慢下一支片。記憶體較小的 Windows、以及 8GB RTX 30 系列在兩遍生成的第二遍更省讀盤、更快。開啟提示詞增強時，改寫可早 3–4 秒開始（背景預熱約 0.7 GiB RAM、不佔顯存）。Repair 會補回被改動的 ComfyUI 套件與不符測試版的模型檔；離線安裝也可用啟動器更新引擎。Windows／macOS／Linux 安裝包與夸克離線包一併更新。程式碼仍 Apache-2.0，權重受 H3 Community License 約束。",
+     "links": [
+      [
+       "GitHub · FreeVideo v0.3.24",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.3.24"
+      ],
+      [
+       "GitHub · FlashML-org/FreeVideo",
+       "https://github.com/FlashML-org/FreeVideo"
+      ]
+     ],
+     "image": {
+      "file": "freevideo.webp",
+      "alt": "GitHub Release 預覽：FreeVideo v0.3.24",
+      "credit": "GitHub · FlashML-org/FreeVideo",
+      "credit_url": "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.3.24"
+     }
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "角色參考表與 Turbo 漫畫 LoRA 補位；官方 Turbo 無新權重",
+   "updates": [
+    {
+     "title": "Character Sheet Edit LoRA：一張全身照→六格角色參考表",
+     "date": "2026-10-10",
+     "summary": "houseofboern 釋出給 Qwen-Image-2.1 底模（非 Turbo）的角色表編輯 LoRA（rank 8、約 42 MB）：輸入一張站立、至少看到大腿中段的單人全身照，輸出灰底 3×2 六格——第 1 格臉部特寫，其餘可選角度表（正／背／側／三四侧）或姿勢表。作者附 ComfyUI 工作流會自動灰邊填充並縮到訓練解析度 1344×768；設定建議 steps 25、CFG 1、euler／simple、LoRA 強度 1.0。坐姿或半身特寫容易破格；鞋子不在畫面裡會臆造。可選第二條工作流用原圖當臉部參考把表放大到約 2704×1552。授權跟隨 Qwen Research License（非商用預設）。",
+     "links": [
+      [
+       "Hugging Face · character-sheet LoRA",
+       "https://huggingface.co/houseofboern/character-sheet-qwen-image-2.1-edit-lora"
+      ]
+     ],
+     "image": {
+      "file": "charsheet.webp",
+      "alt": "Hugging Face 模型卡縮圖：Character Sheet Edit LoRA",
+      "credit": "Hugging Face · houseofboern",
+      "credit_url": "https://huggingface.co/houseofboern/character-sheet-qwen-image-2.1-edit-lora"
+     }
+    },
+    {
+     "title": "Turbo 漫畫分鏡 LoRA：黑白多格頁＋對話框位置提示",
+     "date": "2026-10-11",
+     "summary": "ysharma 釋出專給 Qwen-Image-2.1-Turbo 的漫畫頁 LoRA（rank 32）：目標是黑白多格頁、網點陰影與對話框。訓練時把 timesteps 限制在 Turbo 的 8 點 sample_sigmas 上，因此能跟 8 步推論對齊。資料約 2,197 張真實漫畫頁（PSImera／manga_bubbles_detect，CC-BY-NC-4.0）＋ YOLO 框出的對話框標註；提示詞格式為「manga page with N speech bubbles:」再列出各框位置與對白。作者坦言 v1：格內畫面偏糊、長對白常成偽文字、框位僅大致正確。授權非商用（Qwen Research＋資料集 CC-BY-NC）。",
+     "links": [
+      [
+       "Hugging Face · turbo-manga-lora",
+       "https://huggingface.co/ysharma/qwen-image-2.1-turbo-manga-lora"
+      ]
+     ],
+     "image": {
+      "file": "manga.webp",
+      "alt": "Hugging Face 模型卡縮圖：Qwen-Image-2.1-Turbo Manga LoRA",
+      "credit": "Hugging Face · ysharma",
+      "credit_url": "https://huggingface.co/ysharma/qwen-image-2.1-turbo-manga-lora"
+     }
+    }
+   ]
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "官方無新權重；社群 2 步蒸餾 LoRA 結案最終檢查點",
+   "updates": [
+    {
+     "title": "Krea 2 Turbo 2 步蒸餾 LoRA：最終檢查點 chk51195",
+     "date": "2026-10-11",
+     "summary": "社群作者 lvladikov 在 Hugging Face 標註 Krea2-Turbo-Distill-2step-LoRA 最終檢查點 chk00051195（約 10/9 訓練結案、10/11 前後社群／彙整報導）：把 Turbo 從 8 步壓到 2 步（σ≈1.0 與 0.7595），作者自測 1024×1024 去噪約 56.9s→14.3s（約 4×）。提供 diffusers 與 ComfyUI 兩套鍵名權重、以及純官方節點的 T2I 工作流；ComfyUI 請用 steps 2、cfg 1.0（不是 0）、euler／simple、LoRA 強度 1.0。定位為快速預覽／草稿；品質向仍建議同作者的 4 步 LoRA。近景人像較穩，遠景小人臉容易糊／重影。衍生權重受 Krea 2 Community License 約束，非官方產品。作者表示此專案已結案，訓練機轉往 Qwen-Image-2.1-Turbo 的 3 步適配器。",
+     "links": [
+      [
+       "Hugging Face · Krea2-Turbo-Distill-2step-LoRA",
+       "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-2step-LoRA"
+      ],
+      [
+       "ComfyUI Wiki · 2-step distill",
+       "https://comfyui-wiki.com/en/news/2026-09-17-krea2-2step-distill"
+      ]
+     ],
+     "image": {
+      "file": "krea2step.webp",
+      "alt": "Hugging Face 模型卡縮圖：Krea 2 Turbo 2-Step Distill LoRA",
+      "credit": "Hugging Face · lvladikov",
+      "credit_url": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-2step-LoRA"
+     }
+    }
+   ]
+  }
+ ],
+ "news": [
+  {
+   "id": "laion-humaneness-vc",
+   "org": "LAION",
+   "tag": "開源 · 語音轉換",
+   "date": "2026-10-11",
+   "title": "Humaneness Voice Converter：開源 Chatterbox 語音轉換，較保情緒",
+   "orig": "LAION Humaneness Voice Converter",
+   "summary": "LAION 於 10/11 在 Hugging Face 上架完整語音轉換檢查點：輸入一段源語音＋另一位已同意講者的短樣本（建議 5–10 秒），輸出同內容、目標音色、並較保留源表演節奏與情緒的 24 kHz WAV。架構建在 Resemble AI Chatterbox 上，加入分數條件化 flow decoder 與凍結的 Humaneness Ears Medium（99 維情緒／聲音屬性）。作者自測相對原版 Chatterbox：內容愉悅度與製作品質代理分數上升，情緒誤差下降，但目標講者相似度略降；可選 Best-of-N 取回部分相似度。英德有訓練／評測資料，其他語言不保證。LAION 增補採 CC BY 4.0，Chatterbox 部分保留 MIT。僅研究／授權語音用途，禁止冒充與詐欺。",
+   "links": [
+    [
+     "ArtRealmAI 整理",
+     "https://artrealmai.com/article/laion-humaneness-voice-converter-open-chatterbox-vc"
+    ],
+    [
+     "Hugging Face · Humaneness-Voice-Converter",
+     "https://huggingface.co/laion/Humaneness-Voice-Converter"
+    ]
+   ],
+   "image": {
+    "file": "laion.webp",
+    "alt": "ArtRealmAI 分享卡：LAION Humaneness Voice Converter",
+    "credit": "ArtRealmAI",
+    "credit_url": "https://artrealmai.com/article/laion-humaneness-voice-converter-open-chatterbox-vc"
+   }
+  },
+  {
+   "id": "vivix-w1",
+   "org": "Vivix",
+   "tag": "封閉 · 即時影片 API",
+   "date": "2026-10-11",
+   "title": "Vivix W1：即時影片生成開放 playground／API，促銷約每秒 0.003 美元",
+   "orig": "Vivix W1 Real-Time AI Video",
+   "summary": "Vivix 本週把 W1 推到可公開試用：10/9 開 playground、10/10 上線限時約每產出秒 0.003 美元價、10/11 補上 19 美元試用包（約 5,700 W credits）。封閉模型、無開源權重；支援文生影片、最多 5 張圖參考、最多 3 段音訊參考、首尾幀（同圖可做循環），片長 5–15 秒。三檔速度（standard／fast／ultrafast）官方稱畫質相同、只差 credits。廠商自測 8 秒單圖參考 720p：W1 約 8.4 秒完成，對照 fal 上 H3 Max 約 10.8 秒與更慢的 Kling／Seedance——屬廠商數字，非正式獨立評測。Preview、限量供應；促銷價標到 10/31。與本期開源 H3 本地方案分開理解。",
+   "links": [
+    [
+     "ArtRealmAI 整理",
+     "https://artrealmai.com/article/vivix-w1-real-time-video-api-0-003-per-second"
+    ]
+   ],
+   "image": {
+    "file": "vivix.webp",
+    "alt": "ArtRealmAI 分享卡：Vivix W1 Real-Time AI Video",
+    "credit": "ArtRealmAI",
+    "credit_url": "https://artrealmai.com/article/vivix-w1-real-time-video-api-0-003-per-second"
+   }
+  },
+  {
+   "id": "scenario-dreamlands-3d",
+   "org": "Scenario / Dreamlands",
+   "tag": "封閉 · 可編輯 AI 3D",
+   "date": "2026-10-10",
+   "title": "Scenario Opus 5.5 3D 與 Dreamlands 1.0：瞄準可編輯遊戲資產",
+   "orig": "Scenario Opus 5.5 3D and Dreamlands 1.0",
+   "summary": "約 10/8–10 兩家封閉服務同打「生成網格要能繼續編」：Scenario 的 Claude Opus 5.5 3D 強調零件分開命名、輸出可進 Blender 的乾淨拓樸＋PBR，並提供 REST／MCP（mcp.scenario.com）給編程代理直接要資產。Dreamlands 1.0 公開訂閱（約 20–200 美元／月），從道具拉到可編輯場景／城市，含一鍵材質、程序化建築、Unity／Unreal／UEFN／Roblox／Blender 等外掛。皆無開源權重；商用前請核條款。與上期開源 Building Rome（單圖度量場景）形成閉源管線對照。",
+   "links": [
+    [
+     "ArtRealmAI 整理",
+     "https://artrealmai.com/article/scenario-claude-opus-5-5-3d-dreamlands-1-0-editable-game-assets"
+    ]
+   ],
+   "image": null
+  }
+ ],
+ "video": {
+  "title": "Krea 2 Turbo 兩步出圖？速度與畫質實測",
+  "orig": "Krea 2 Turbo in Just 2 Steps?! Speed vs Quality Tested",
+  "channel": "YouTube",
+  "youtube_id": "V_qgoV0iPDM",
+  "url": "https://www.youtube.com/watch?v=V_qgoV0iPDM",
+  "date": "約 2026-10",
+  "summary": "對應本期 Krea 2 步蒸餾 LoRA：實測 2 步與品質取捨，可搭配 Hugging Face 上的最終檢查點 chk51195 與官方節點工作流一起看。需要更穩細節時仍建議改回 4 步或 8 步 Turbo。",
+  "thumb": {
+   "file": "yt.webp",
+   "alt": "YouTube 縮圖：Krea 2 Turbo in Just 2 Steps",
+   "credit": "YouTube"
+  }
+ },
+ "caveats": [
+  "FreeVideo、Krea 2 步 LoRA、Vivix 的速度／價格／畫質數字多為作者或廠商自測，硬體、網路與設定不同會差很多。",
+  "Qwen-Image-2.1 與相關 LoRA／Turbo 衍生權重受 Qwen Research License 約束（角色表、漫畫 LoRA 皆標非商用預設）；MiniMax H3／FreeVideo 權重受 H3 Community License 約束；Krea 2 步 LoRA 受 Krea 2 Community License 約束。",
+  "LAION Humaneness Voice Converter 為研究向語音轉換，僅限已授權／同意的語音；禁止冒充。代理評分非人類 MOS。",
+  "Vivix W1、Scenario、Dreamlands 皆為封閉服務、無開源權重；Vivix 促銷價標到 10/31。",
+  "中國來源：本次嘗試機器之心首頁僅得片段；B 站／知乎／小紅書／Liblib／吐司／魔搭本次未取得可獨立核對的新料，未單列。Reddit JSON 未穩定抓取。YouTube 搜尋頁僅得有限結果。"
+ ]
+}
