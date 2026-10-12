@@ -87,7 +87,7 @@ def page(d, base, all_issues, is_root):
     date = d["date"]; y, m, dd = date.split("-")
     img = f"{base}issues/{date}/img/" if is_root else "img/"
     css = f"{base}assets/style.css"
-    title = f"汽車設計日報 Car Design Daily · {y}.{m}.{dd}"
+    title = f"Car Design Daily · {y}.{m}.{dd}"
     desc = d["lede"]
     lead = d["design_news"][0].get("image")
     ogimg = (f"{SITE}/issues/{date}/img/{lead['file']}" if lead else f"{SITE}/issues/{date}/img/{d['moodboards'][0]['images'][0][0]}.webp") if SITE else ""
@@ -108,7 +108,7 @@ def page(d, base, all_issues, is_root):
 {topbar(base, "car", base, f'<nav class="nav"><a href="#design">設計新聞</a><a href="#knowledge">汽車新知</a><a href="#mood">情緒板</a><a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
-<h1>Car Design Daily<span class="zh">汽車設計日報</span></h1>
+<h1>Car Design Daily</h1>
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span><span>汽車新知 {len(d['knowledge'])} 則</span><span>情緒板 {len(d['moodboards'])} 組</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     # design news

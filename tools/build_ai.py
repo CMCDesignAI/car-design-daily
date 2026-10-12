@@ -37,7 +37,7 @@ def head(title, desc, css, canon, ogimg):
 def page(d, root, aibase, all_issues, is_latest):
     date = d["date"]; y, m, dd = date.split("-")
     img = f"issues/{date}/img/" if is_latest else "img/"
-    title = f"AI 模型日報 AI Model Daily · {y}.{m}.{dd}"
+    title = f"AI Model Daily · {y}.{m}.{dd}"
     first = next((u["image"] for w in d["watch"] for u in w["updates"] if u.get("image")), None)
     ogimg = f"{SITE}/ai/issues/{date}/img/{first['file']}" if (SITE and first) else ""
     canon = f"{SITE}/ai/issues/{date}/" if SITE else ""
@@ -46,7 +46,7 @@ def page(d, root, aibase, all_issues, is_latest):
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
-<h1>AI Model Daily<span class="zh">AI 模型日報</span></h1>
+<h1>AI Model Daily</h1>
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span><span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     # 01 watch list
@@ -88,7 +88,7 @@ def page(d, root, aibase, all_issues, is_latest):
 
 def archive_page(all_issues):
     li = "".join(f'<li><a href="../issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]} {e(x["weekday"])}</a> — {e("、".join(w["model"] for w in x["watch"]))}</li>' for x in all_issues)
-    return f'''{head("往期 · AI Model Daily", "AI 模型日報往期列表", "../../assets/style.css", f"{SITE}/ai/archive/" if SITE else "", "")}
+    return f'''{head("往期 · AI Model Daily", "AI Model Daily 往期列表", "../../assets/style.css", f"{SITE}/ai/archive/" if SITE else "", "")}
 <body class="mode-ai">{topbar("../../", "ai", "../")}
 <main class="wrap"><section class="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section></main>{theme_toggle("ai")}</body></html>'''
 
