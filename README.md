@@ -69,24 +69,37 @@ tools/
 6. 預覽圖：`google-chrome --headless=new --no-sandbox --window-size=1280,2400 --screenshot=preview.png <URL>`
 
 ## AI Model Daily：每日流程
-1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目。
-   - `category` = `watch:<model>` 放進「追蹤清單」（每個追蹤模型一張卡，列出該模型當天的所有更新）。
-   - `other` 放進「其他新聞」，`youtube` 放「推薦影片」。
-   - `seen-not-reported` **不當主新聞**，只在注意事項簡短帶過。
-2. **核對原文**：每則都用 WebFetch 讀過主連結（`url`），讀不到再讀 `alt_urls`，摘要只寫原文有的內容；官方頁擋抓取時要在 caveats 註明依哪個轉載來源整理。
+**版面順序（2026-10-12 起，v3）**：01 閉源模型 → ≡ 本週榜單（緊接閉源之後、不編號）→ 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
+
+1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目；**先比對所有舊 `run_date` 的標題／網址，已報過的不再當主新聞**（例：GPT-6、Claude Haiku 5.5 已於 10/08 報導）。
+   - `closed` → 「閉源模型」：各大 AI 公司的閉源新模型與重大功能更新，**文字／LLM**（OpenAI、Anthropic、Google Gemini、xAI Grok、Meta 等）與**圖像／影片**（Midjourney、Runway、Kling、Seedance、Vidu、Veo／Omni、BFL Pro…），以及能力測試、跑分、榜單變化、重要評測報導。**4–6 則，依重要性排序，沒有就少放，絕不湊數**；只收最近幾天的消息。
+   - `open` → 「開源模型」：重要的新開放權重發布，文字／LLM（Qwen、DeepSeek、Llama、Mistral、GLM、Kimi…）與圖像、影片、音訊模型。**4–6 則**，依重要性排序，必須是新的。
+   - `watch:<model>` → 「追蹤清單」（MiniMax H3、Qwen Image 2.1、Krea 2；每個模型一張卡）。
+   - `other` → 「其他新聞」：約 6 則，範圍同原本：工具、ComfyUI 更新、社群工作流、研究、API／服務。**已屬閉源／開源模型區的不放這裡，也不重複**。
+     - **forge-classic**（https://github.com/Haoming02/sd-webui-forge-classic，預設分支 `neo`）：每天用 `gh api repos/Haoming02/sd-webui-forge-classic/commits?sha=neo` 與 `/releases` 檢查，和 reported.json 的 `forge_classic.last_seen_commit` 比較；**只有真的有新 commit／release 才放一則**（寫改了什麼、台灣時間），沒有就完全不提。放了之後更新 `forge_classic`。
+   - `youtube` → 「推薦影片」。`seen-not-reported` 不當主新聞，只在注意事項簡短帶過。
+2. **核對原文**：每則都讀過主連結，讀不到再讀 `alt_urls`，摘要只寫原文有的內容；官方頁擋抓取時要在 caveats 註明依哪個轉載來源整理。抓取一律 15 秒逾時。
 3. **代表圖（有就放，沒有就不放）**：抓主連結或 alt 的 `og:image`（curl 加瀏覽器 UA），轉成 ≤1600px WebP、<300KB，存到 `ai/issues/DATE/img/`，在 data.json 的 `image` 填 `file / alt / credit / credit_url`。
    - 只用官方或來源頁自己的圖（官方宣傳圖、HF／GitHub 分享卡、專案示例、官方貼文影片縮圖）。
    - **絕不用 AI 生成圖代表真實產品**；第三方部落格的 AI 插畫封面也不用。
    - 沒有專屬圖（只有網站通用圖）就設 `"image": null`，頁面會註明「來源頁沒有可用的官方圖片」。
    - YouTube 縮圖：`https://i.ytimg.com/vi/<id>/maxresdefault.jpg`。頁面先顯示縮圖，點擊才載入 youtube-nocookie 內嵌播放。
-4. **寫 `ai/issues/YYYY-MM-DD/data.json`**（可複製上一期再改），欄位如下：
-   - `date`、`weekday`、`issue_no`、`lede`
-   - `watch[]`：`{id, model, kind, status, updates[]}`；每則 update 是 `{title, date, summary, links[[名稱, url]], image|null}`
-   - `news[]`：`{id, org, tag, date, title, orig, summary, links, image|null}`
+4. **本週榜單（leaderboard 模組）**：
+   - 兩張圖：(a) **文字 LLM 總榜**：LMArena Text Arena Overall 前 10（`curl -A "Mozilla/5.0" https://lmarena.ai/leaderboard/text`，HTML 內含名次／分數／±／票數／更新日）；(b) **生圖或生影片榜**：Artificial Analysis 前 10（`https://artificialanalysis.ai/image/leaderboard/text-to-image` 或 `/video/leaderboard/text-to-video`，HTML 內含 Elo）。**只用實際抓到的數字，絕不編造**；記下來源與資料更新日（as_of）、抓取日。AA 頁面沒有廠商欄位，org 依模型名對應。
+   - 每天存快照 `/workspace/ai-digest/leaderboards/YYYY-MM-DD.json`（格式同 2026-10-12.json：`boards[]` 每個有 `id,title,en,source,source_url,as_of,fetched,metric,rows[{rank,model,org,score,ci,note?}]`），供隔天比對。
+   - **顯示規則**：週一、或沒有前一份快照 → `"mode": "full"` 顯示完整兩張圖。其他日子和最近一份快照比較：有新模型進入前 5、或第 1 名換人 → `"mode": "changes"`，照樣放兩張圖，在變動的 row 加 `"new": true` 或 `"up": true`（顏色會改成 accent2），並在 `changes[]` 用一句話寫出變化；都沒有 → `"mode": "note"`，`note` 寫「榜單無重大變化，最新更新日 YYYY-MM-DD」。
+   - 某個榜抓不到（JS 渲染等）時先試公開 API／資料檔或其他可信彙整站（如 BenchLeader），仍失敗就只放另一張並在 caveats 註明。
+   - data.json：`"leaderboards": {"mode", "snapshot", "boards"[同快照], "changes"?, "note"?}`。
+5. **寫 `ai/issues/YYYY-MM-DD/data.json`**（可複製上一期再改），欄位如下：
+   - `date`、`weekday`、`issue_no`、`lede`（先閉源、再榜單重點、再開源與追蹤清單）
+   - `closed[]`、`open[]`、`news[]`：都是 `{id, org, tag, date, title, orig, summary, links[[名稱, url]], image|null}`；tag 以「閉源 · …」「開源 · …」開頭
+   - `leaderboards`：見上
+   - `watch[]`：`{id, model, kind, status, updates[]}`；每則 update 是 `{title, date, summary, links, image|null}`
    - `video`：`{title, orig, channel, youtube_id, url, date, thumb{file, alt, credit}}`
-   - `caveats[]`：未經驗證的自評數字、權重尚未釋出、授權、日期推估、讀不到的原文等
-5. **版面順序固定**：追蹤清單 → 其他新聞 → 推薦影片 → 注意事項 → 往期。
-6. **發布**：`./tools/publish.sh "AI 002 · YYYY-MM-DD"`（會同時重建汽車與 AI 兩區），約 1 分鐘後檢查 `/ai/`、`/ai/issues/DATE/`、`/ai/archive/`。
+   - `caveats[]`：廠商自評數字、權重尚未釋出、授權、榜單 Preliminary／信賴區間、讀不到的原文等
+   - masthead 會自動顯示：追蹤模型／更新數、閉源 N 則、開源 N 則、其他新聞 N 則、推薦影片。
+6. **更新** `reported.json`（每則加 `category`：`closed`／`open`／`watch:*`／`other`／`youtube`／`seen-not-reported`）與 `/workspace/ai-digest/today_summary.md`（3–5 行：閉源、榜單、開源、追蹤清單重點）。
+7. **發布**：`./tools/publish.sh "AI 00N · YYYY-MM-DD"`（內含 `--site-url`，會同時重建汽車與 AI 兩區；注意它用 `git add -A`，根目錄不要留預覽截圖），約 1 分鐘後檢查 `/ai/`、`/ai/issues/DATE/`、`/ai/archive/`。手動重建時一定要加 `--site-url "$(cat .site-url)"`，否則 og:image／canonical 會消失。
 
 ## 新聞來源清單
 - 設計專業：Car Design News、Interior Motives、Auto&Design（義）、Dezeen、Designboom、Design Week、Wallpaper*、Yanko Design

@@ -28,6 +28,38 @@ def story(s, img):
 def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
 
+def lb_chart(b):
+    """Horizontal bar chart (inline SVG) for one leaderboard. Rows flagged "new"/"up" get highlighted."""
+    rows = b["rows"][:10]
+    hi, lo = max(r["score"] for r in rows), min(r["score"] for r in rows)
+    base = lo - max(8, round((hi - lo) * 0.5))          # axis floor so gaps stay readable
+    W, L, R, rh, top = 720, 300, 70, 34, 6
+    bw = W - L - R
+    g = []
+    for i, r in enumerate(rows):
+        y = top + i * rh
+        w = max(4, bw * (r["score"] - base) / (hi - base))
+        cls = "lb-bar" + (" lead" if i == 0 else "") + (" chg" if r.get("new") or r.get("up") else "")
+        tag = " · 新進" if r.get("new") else (" · 上升" if r.get("up") else "")
+        pre = " · 暫定" if r.get("note") == "Preliminary" else ""
+        g.append(f'<text class="lb-rank" x="0" y="{y+21}">{r["rank"]:02d}</text>'
+                 f'<text class="lb-name" x="34" y="{y+15}">{e(r["model"])}</text><text class="lb-org" x="34" y="{y+29}">{e(r["org"])}{pre}{tag}</text>'
+                 f'<rect class="{cls}" x="{L}" y="{y+8}" width="{w:.1f}" height="16" rx="3"></rect>'
+                 f'<text class="lb-score" x="{L+w+8:.1f}" y="{y+21}">{r["score"]}{f" ±{r[chr(99)+chr(105)]}" if r.get("ci") else ""}</text>')
+    H = top + len(rows) * rh + 4
+    return (f'<figure class="lbcard"><figcaption class="lbhead"><h3>{e(b["title"])}</h3><span class="en">{e(b["en"])}</span></figcaption>'
+            f'<svg class="lbsvg" viewBox="0 0 {W} {H}" role="img" aria-label="{e(b["title"])} 前 10 名">{"".join(g)}</svg>'
+            f'<p class="lbsrc">來源：<a href="{e(b["source_url"])}" target="_blank" rel="noopener">{e(b["source"])} ↗</a> · 資料更新 {e(b["as_of"])} · 抓取 {e(b["fetched"])} · 軸起點 {base}</p></figure>')
+
+def leaderboard(lb):
+    if not lb: return ""
+    head_ = '<section id="board"><div class="sec-head"><span class="num">≡</span><h2>本週榜單</h2><span class="en">Leaderboards</span></div>'
+    if lb.get("mode") == "note":
+        return head_ + f'<p class="lbnote">{e(lb["note"])}</p></section>'
+    chg = "".join(f"<li>{e(c)}</li>" for c in lb.get("changes", []))
+    return (head_ + (f'<ul class="lbchg">{chg}</ul>' if chg else "")
+            + '<div class="lbgrid">' + "".join(lb_chart(b) for b in lb["boards"]) + '</div></section>')
+
 def head(title, desc, css, canon, ogimg):
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -51,18 +83,25 @@ def page(d, root, aibase, all_issues, is_latest):
     canon = f"{SITE}/ai/issues/{date}/" if SITE else ""
     nupd = sum(len(w["updates"]) for w in d["watch"])
     closed = d.get("closed") or []
-    nav = f'<nav class="nav">{"<a href=\"#closed\">閉源模型</a>" if closed else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    opn = d.get("open") or []
+    nav = f'<nav class="nav">{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
 <h1>AI Model Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源動態 {len(closed)} 則</span>" if closed else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     n = 0
     # closed-source models (from 2026-10-12; absent in older issues)
     if closed:
         n += 1
-        H.append(f'<section id="closed">{sec_head(n, "閉源模型動態", "Closed Models")}<div class="news">' + "".join(story(s, img) for s in closed) + '</div></section>')
+        H.append(f'<section id="closed">{sec_head(n, "閉源模型" if opn else "閉源模型動態", "Closed Models")}<div class="news">' + "".join(story(s, img) for s in closed) + '</div></section>')
+    # leaderboard module (unnumbered), right after the closed section
+    H.append(leaderboard(d.get("leaderboards")))
+    # open-source models (from 2026-10-12 v3)
+    if opn:
+        n += 1
+        H.append(f'<section id="open">{sec_head(n, "開源模型", "Open Models")}<div class="news">' + "".join(story(s, img) for s in opn) + '</div></section>')
     # watch list (open-source)
     n += 1
     H.append(f'<section id="watch">{sec_head(n, "追蹤清單", "Watch List")}<div class="wgrid">')
@@ -94,7 +133,7 @@ def page(d, root, aibase, all_issues, is_latest):
     H.append(f'<section id="caveats">{sec_head(n, "注意事項", "Caveats")}<ul class="caveats">{cv}</ul></section>')
     li = "".join(f'<li><a href="{aibase}issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]}</a> — {e(x["watch"][0]["model"])} 等 {len(x["watch"])} 個追蹤模型</li>' for x in all_issues)
     H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section>')
-    H.append(f'''</main><footer><div class="wrap">AI Model Daily · 每日整理各大 AI 公司的閉源模型動態，並追蹤指定開源模型的更新與其他重要模型新聞。摘要為編輯整理，事實以原始來源為準；圖片取自官方或來源頁的分享圖（og:image），版權屬原權利人，均標示來源並連結原頁；不使用 AI 生成圖像代表真實產品。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
+    H.append(f'''</main><footer><div class="wrap">AI Model Daily · 每日整理閉源與開源模型的重要發布、每週排行榜，並追蹤指定開源模型的更新與其他工具新聞。摘要為編輯整理，事實以原始來源為準；圖片取自官方或來源頁的分享圖（og:image），版權屬原權利人，均標示來源並連結原頁；不使用 AI 生成圖像代表真實產品。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
 {theme_toggle("ai")}
 </body></html>''')
     return "\n".join(H)
