@@ -84,7 +84,7 @@ def page(d, root, aibase, all_issues, is_latest):
     nupd = sum(len(w["updates"]) for w in d["watch"])
     closed = d.get("closed") or []
     opn = d.get("open") or []
-    nav = f'<nav class="nav">{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
@@ -92,12 +92,12 @@ def page(d, root, aibase, all_issues, is_latest):
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     n = 0
+    # leaderboard module (unnumbered): always at the very top, right after the masthead/lede
+    H.append(leaderboard(d.get("leaderboards")))
     # closed-source models (from 2026-10-12; absent in older issues)
     if closed:
         n += 1
         H.append(f'<section id="closed">{sec_head(n, "閉源模型" if opn else "閉源模型動態", "Closed Models")}<div class="news">' + "".join(story(s, img) for s in closed) + '</div></section>')
-    # leaderboard module (unnumbered), right after the closed section
-    H.append(leaderboard(d.get("leaderboards")))
     # open-source models (from 2026-10-12 v3)
     if opn:
         n += 1

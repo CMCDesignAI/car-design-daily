@@ -69,7 +69,7 @@ tools/
 6. 預覽圖：`google-chrome --headless=new --no-sandbox --window-size=1280,2400 --screenshot=preview.png <URL>`
 
 ## AI Model Daily：每日流程
-**版面順序（2026-10-12 起，v3）**：01 閉源模型 → ≡ 本週榜單（緊接閉源之後、不編號）→ 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
+**版面順序（2026-10-12 起，v3）**：≡ 本週榜單（**永遠在頁面最上方**：masthead／導言之後、01 閉源模型之前，不編號；「榜單無重大變化」的一行提示日也一樣放最上方）→ 01 閉源模型 → 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
 
 1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目；**先比對所有舊 `run_date` 的標題／網址，已報過的不再當主新聞**（例：GPT-6、Claude Haiku 5.5 已於 10/08 報導）。
    - `closed` → 「閉源模型」：各大 AI 公司的閉源新模型與重大功能更新，**文字／LLM**（OpenAI、Anthropic、Google Gemini、xAI Grok、Meta 等）與**圖像／影片**（Midjourney、Runway、Kling、Seedance、Vidu、Veo／Omni、BFL Pro…），以及能力測試、跑分、榜單變化、重要評測報導。**4–6 則，依重要性排序，沒有就少放，絕不湊數**；只收最近幾天的消息。
