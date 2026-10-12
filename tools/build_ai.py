@@ -29,36 +29,55 @@ def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
 
 def lb_chart(b):
-    """Horizontal bar chart (inline SVG) for one leaderboard. Rows flagged "new"/"up" get highlighted."""
+    """One leaderboard card: status badge + inline-SVG horizontal bars (top 10) + zh-TW analysis.
+    Row flags written by tools/lb_diff.py: new (NEW tag), move (+n up / -n down), delta (score change)."""
     rows = b["rows"][:10]
+    st = b.get("status", "baseline")
     hi, lo = max(r["score"] for r in rows), min(r["score"] for r in rows)
     base = lo - max(8, round((hi - lo) * 0.5))          # axis floor so gaps stay readable
-    W, L, R, rh, top = 720, 300, 70, 34, 6
+    W, L, R, rh, top = 720, 300, 120, 34, 6
     bw = W - L - R
     g = []
     for i, r in enumerate(rows):
         y = top + i * rh
         w = max(4, bw * (r["score"] - base) / (hi - base))
-        cls = "lb-bar" + (" lead" if i == 0 else "") + (" chg" if r.get("new") or r.get("up") else "")
-        tag = " · 新進" if r.get("new") else (" · 上升" if r.get("up") else "")
+        mv = r.get("move", 0) if st == "changed" else 0
+        new = r.get("new") and st == "changed"
+        cls = "lb-bar" + (" lead" if i == 0 else "") + (" chg" if (new or mv) else "")
         pre = " · 暫定" if r.get("note") == "Preliminary" else ""
+        mark = ('<tspan class="lb-new"> NEW</tspan>' if new else
+                f'<tspan class="lb-up"> ↑{mv}</tspan>' if mv > 0 else f'<tspan class="lb-down"> ↓{-mv}</tspan>' if mv < 0 else "")
+        dl = r.get("delta") if st == "changed" else None
+        ci = f" ±{r['ci']}" if r.get("ci") else ""
+        dls = f'<tspan class="lb-delta"> {dl:+d}</tspan>' if dl else ""
         g.append(f'<text class="lb-rank" x="0" y="{y+21}">{r["rank"]:02d}</text>'
-                 f'<text class="lb-name" x="34" y="{y+15}">{e(r["model"])}</text><text class="lb-org" x="34" y="{y+29}">{e(r["org"])}{pre}{tag}</text>'
+                 f'<text class="lb-name" x="34" y="{y+15}">{e(r["model"])}{mark}</text><text class="lb-org" x="34" y="{y+29}">{e(r["org"])}{pre}</text>'
                  f'<rect class="{cls}" x="{L}" y="{y+8}" width="{w:.1f}" height="16" rx="3"></rect>'
-                 f'<text class="lb-score" x="{L+w+8:.1f}" y="{y+21}">{r["score"]}{f" ±{r[chr(99)+chr(105)]}" if r.get("ci") else ""}</text>')
+                 f'<text class="lb-score" x="{L+w+8:.1f}" y="{y+21}">{r["score"]}{ci}'
+                 f'{dls}</text>')
     H = top + len(rows) * rh + 4
+    badge = {"unchanged": f'榜單無重大變化 · 資料更新 {e(b["as_of"])}',
+             "changed": f'榜單有變動 · 對比 {e(b.get("compared_to") or "")}',
+             "baseline": "首份快照（Baseline）· 之後每日對比"}.get(st, "")
+    carry = (f" · 沿用 {e(b['carried_from'])} 的資料（最新檢查 {e(b.get('latest_as_of') or b.get('fetched',''))}）"
+             if st == "unchanged" and b.get("carried_from") else "")
+    out = ""
+    if st == "changed":
+        if b.get("dropped"):
+            out = '<p class="lbout">跌出前 10：' + "、".join(f'{e(x["model"])}（前次 #{x["rank"]}）' for x in b["dropped"]) + '</p>'
+        if b.get("analysis"):
+            out += f'<p class="lbana">{e(b["analysis"])}</p>'
     return (f'<figure class="lbcard"><figcaption class="lbhead"><h3>{e(b["title"])}</h3><span class="en">{e(b["en"])}</span></figcaption>'
-            f'<svg class="lbsvg" viewBox="0 0 {W} {H}" role="img" aria-label="{e(b["title"])} 前 10 名">{"".join(g)}</svg>'
-            f'<p class="lbsrc">來源：<a href="{e(b["source_url"])}" target="_blank" rel="noopener">{e(b["source"])} ↗</a> · 資料更新 {e(b["as_of"])} · 抓取 {e(b["fetched"])} · 軸起點 {base}</p></figure>')
+            f'<p class="lbbadge {st}">{badge}</p>'
+            f'<svg class="lbsvg" viewBox="0 0 {W} {H}" role="img" aria-label="{e(b["title"])} 前 10 名">{"".join(g)}</svg>{out}'
+            f'<p class="lbsrc">來源：<a href="{e(b["source_url"])}" target="_blank" rel="noopener">{e(b["source"])} ↗</a> · 資料更新 {e(b["as_of"])} · 抓取 {e(b.get("fetched",""))}'
+            f'{carry} · 軸起點 {base}</p></figure>')
 
 def leaderboard(lb):
-    if not lb: return ""
-    head_ = '<section id="board"><div class="sec-head"><span class="num">≡</span><h2>本週榜單</h2><span class="en">Leaderboards</span></div>'
-    if lb.get("mode") == "note":
-        return head_ + f'<p class="lbnote">{e(lb["note"])}</p></section>'
-    chg = "".join(f"<li>{e(c)}</li>" for c in lb.get("changes", []))
-    return (head_ + (f'<ul class="lbchg">{chg}</ul>' if chg else "")
-            + '<div class="lbgrid">' + "".join(lb_chart(b) for b in lb["boards"]) + '</div></section>')
+    """Shown every day at the very top (after masthead/lede). Data comes from tools/lb_diff.py."""
+    if not lb or not lb.get("boards"): return ""
+    return ('<section id="board"><div class="sec-head"><span class="num">≡</span><h2>本週榜單</h2><span class="en">Leaderboards</span></div>'
+            '<div class="lbgrid">' + "".join(lb_chart(b) for b in lb["boards"]) + '</div></section>')
 
 def head(title, desc, css, canon, ogimg):
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
@@ -92,7 +111,7 @@ def page(d, root, aibase, all_issues, is_latest):
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     n = 0
-    # leaderboard module (unnumbered): always at the very top, right after the masthead/lede
+    # leaderboard module (unnumbered): every day, always at the very top, right after the masthead/lede
     H.append(leaderboard(d.get("leaderboards")))
     # closed-source models (from 2026-10-12; absent in older issues)
     if closed:

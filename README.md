@@ -69,7 +69,7 @@ tools/
 6. 預覽圖：`google-chrome --headless=new --no-sandbox --window-size=1280,2400 --screenshot=preview.png <URL>`
 
 ## AI Model Daily：每日流程
-**版面順序（2026-10-12 起，v3）**：≡ 本週榜單（**永遠在頁面最上方**：masthead／導言之後、01 閉源模型之前，不編號；「榜單無重大變化」的一行提示日也一樣放最上方）→ 01 閉源模型 → 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
+**版面順序（2026-10-12 起，v3）**：≡ 本週榜單（**每天都顯示、永遠在頁面最上方**：masthead／導言之後、01 閉源模型之前，不編號；無變化的日子也照樣顯示兩張圖並標「榜單無重大變化」）→ 01 閉源模型 → 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
 
 1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目；**先比對所有舊 `run_date` 的標題／網址，已報過的不再當主新聞**（例：GPT-6、Claude Haiku 5.5 已於 10/08 報導）。
    - `closed` → 「閉源模型」：各大 AI 公司的閉源新模型與重大功能更新，**文字／LLM**（OpenAI、Anthropic、Google Gemini、xAI Grok、Meta 等）與**圖像／影片**（Midjourney、Runway、Kling、Seedance、Vidu、Veo／Omni、BFL Pro…），以及能力測試、跑分、榜單變化、重要評測報導。**4–6 則，依重要性排序，沒有就少放，絕不湊數**；只收最近幾天的消息。
@@ -84,16 +84,23 @@ tools/
    - **絕不用 AI 生成圖代表真實產品**；第三方部落格的 AI 插畫封面也不用。
    - 沒有專屬圖（只有網站通用圖）就設 `"image": null`，頁面會註明「來源頁沒有可用的官方圖片」。
    - YouTube 縮圖：`https://i.ytimg.com/vi/<id>/maxresdefault.jpg`。頁面先顯示縮圖，點擊才載入 youtube-nocookie 內嵌播放。
-4. **本週榜單（leaderboard 模組）**：
-   - 兩張圖：(a) **文字 LLM 總榜**：LMArena Text Arena Overall 前 10（`curl -A "Mozilla/5.0" https://lmarena.ai/leaderboard/text`，HTML 內含名次／分數／±／票數／更新日）；(b) **生圖或生影片榜**：Artificial Analysis 前 10（`https://artificialanalysis.ai/image/leaderboard/text-to-image` 或 `/video/leaderboard/text-to-video`，HTML 內含 Elo）。**只用實際抓到的數字，絕不編造**；記下來源與資料更新日（as_of）、抓取日。AA 頁面沒有廠商欄位，org 依模型名對應。
-   - 每天存快照 `/workspace/ai-digest/leaderboards/YYYY-MM-DD.json`（格式同 2026-10-12.json：`boards[]` 每個有 `id,title,en,source,source_url,as_of,fetched,metric,rows[{rank,model,org,score,ci,note?}]`），供隔天比對。
-   - **顯示規則**：週一、或沒有前一份快照 → `"mode": "full"` 顯示完整兩張圖。其他日子和最近一份快照比較：有新模型進入前 5、或第 1 名換人 → `"mode": "changes"`，照樣放兩張圖，在變動的 row 加 `"new": true` 或 `"up": true`（顏色會改成 accent2），並在 `changes[]` 用一句話寫出變化；都沒有 → `"mode": "note"`，`note` 寫「榜單無重大變化，最新更新日 YYYY-MM-DD」。
-   - 某個榜抓不到（JS 渲染等）時先試公開 API／資料檔或其他可信彙整站（如 BenchLeader），仍失敗就只放另一張並在 caveats 註明。
-   - data.json：`"leaderboards": {"mode", "snapshot", "boards"[同快照], "changes"?, "note"?}`。
+4. **本週榜單（leaderboard 模組）——每天都顯示，固定在頁面最上方**（masthead／導言之後、01 閉源模型之前）：
+   - **兩張圖**：(a) 文字 LLM 總榜：LMArena Text Arena Overall 前 10（`curl -sL -m 15 -A "Mozilla/5.0" https://lmarena.ai/leaderboard/text`，HTML 內有名次／模型／廠商／分數／±／Preliminary／資料更新日）；(b) 文生圖：Artificial Analysis AA-Image-T2I 前 10（`https://artificialanalysis.ai/image/leaderboard/text-to-image`，HTML 內有 Elo／±；沒有廠商欄位，org 依模型名對應）。**只用當天實際抓到的數字，絕不編造或估算**。
+   - **每天的步驟**：
+     1. 抓兩個榜，寫成 `/tmp/lb_fresh_YYYY-MM-DD.json`：`{"boards":[{id,title,en,source,source_url,as_of,fetched,metric,rows:[{rank,model,org,score,ci?,note?}]}]}`。`id` 固定 `text`／`image`，`title`／`en`／`source` 沿用前一天的寫法；`as_of` = 榜單頁標示的資料更新日，`fetched` = 今天；`note` 只填 `"Preliminary"`；模型名稱每天用同一種寫法（diff 是用名稱比對）。
+     2. 執行 `python3 tools/lb_diff.py --date YYYY-MM-DD --fresh /tmp/lb_fresh_YYYY-MM-DD.json`。它會找 `/workspace/ai-digest/leaderboards/` 裡**日期早於今天的最新一份快照**來比對，每個榜給一個 `status`：
+        - `baseline`：沒有前一份快照 → 顯示今天的圖，標「首份快照（Baseline）」。
+        - `unchanged`：沒有重大變化 → **沿用前一份快照的圖與 as_of**，標「榜單無重大變化 · 資料更新 <as_of>」，來源列註明沿用哪天的資料與最新檢查日。
+        - `changed`：有重大變化 → 顯示今天的圖，變動的列標 ↑n／↓n、NEW、分數差，並列出跌出前 10 的模型。
+        - **重大變化的定義**：第 1 名換人，或前 10 名單有進出，或任一模型名次變動 ≥ 2，或任一分數變動 ≥ 5。小於這些的微幅波動視為無變化（沿用舊圖，誤差累積到門檻才會觸發）。
+     3. 它會寫入今天的快照 `/workspace/ai-digest/leaderboards/YYYY-MM-DD.json`（存的是**實際顯示的資料**，含 `status`、`diff.summary`、`carried_from`），並把 `leaderboards` 寫進當天 `data.json`，再把 diff 摘要印出來。
+     4. **`status` = `changed` 的榜，一定要填 `leaderboards.boards[i].analysis`**：繁中 3–5 句，只根據抓到的數字（加上相關的真實發布新聞）：誰上升／下滑、幅度多少；哪些模型新進前 10；有沒有突破（新的第 1 名、分數大跳、開源模型擠進前段）；代表什麼意義。`unchanged`／`baseline` 不用寫分析。
+     5. 某個榜抓不到（JS 渲染、被擋）時，先試公開 API／資料檔或其他可信彙整站（如 BenchLeader）；仍失敗就**不要放進 fresh.json**（該榜那天不顯示），並在 caveats 註明。不要拿舊資料假裝是當天抓的。
+   - 同一天重跑 `lb_diff.py` 沒問題：它永遠和「今天以前」的最新快照比較，並覆寫今天的快照；已寫好的 `analysis` 只要該榜仍是 `changed` 就會保留。
 5. **寫 `ai/issues/YYYY-MM-DD/data.json`**（可複製上一期再改），欄位如下：
    - `date`、`weekday`、`issue_no`、`lede`（先閉源、再榜單重點、再開源與追蹤清單）
    - `closed[]`、`open[]`、`news[]`：都是 `{id, org, tag, date, title, orig, summary, links[[名稱, url]], image|null}`；tag 以「閉源 · …」「開源 · …」開頭
-   - `leaderboards`：見上
+   - `leaderboards`：由 `tools/lb_diff.py` 產生，**不要手寫**；只需補 `boards[i].analysis`（status = changed 時）
    - `watch[]`：`{id, model, kind, status, updates[]}`；每則 update 是 `{title, date, summary, links, image|null}`
    - `video`：`{title, orig, channel, youtube_id, url, date, thumb{file, alt, credit}}`
    - `caveats[]`：廠商自評數字、權重尚未釋出、授權、榜單 Preliminary／信賴區間、讀不到的原文等

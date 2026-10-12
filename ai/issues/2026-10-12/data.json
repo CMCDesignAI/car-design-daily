@@ -438,8 +438,8 @@
   }
  ],
  "leaderboards": {
-  "mode": "full",
   "snapshot": "2026-10-12",
+  "compared_to": null,
   "boards": [
    {
     "id": "text",
@@ -450,6 +450,7 @@
     "as_of": "2026-10-08",
     "fetched": "2026-10-12",
     "metric": "Arena score",
+    "status": "baseline",
     "rows": [
      {
       "rank": 1,
@@ -523,7 +524,13 @@
       "score": 1494,
       "ci": 4
      }
-    ]
+    ],
+    "compared_to": null,
+    "diff": {
+     "summary": [
+      "首份快照（baseline）"
+     ]
+    }
    },
    {
     "id": "image",
@@ -534,6 +541,7 @@
     "as_of": "2026-10-12",
     "fetched": "2026-10-12",
     "metric": "Elo",
+    "status": "baseline",
     "rows": [
      {
       "rank": 1,
@@ -605,7 +613,13 @@
       "score": 1108,
       "ci": 8
      }
-    ]
+    ],
+    "compared_to": null,
+    "diff": {
+     "summary": [
+      "首份快照（baseline）"
+     ]
+    }
    }
   ]
  }
