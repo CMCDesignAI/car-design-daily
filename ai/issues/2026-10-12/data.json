@@ -2,7 +2,7 @@
  "date": "2026-10-12",
  "weekday": "週一",
  "issue_no": 5,
- "lede": "週一聚焦加速與角色工具：Krea 2 Turbo 社群 2 步蒸餾 LoRA 釋出最終檢查點 chk51195（約 4× 去噪加速）；Qwen Image 2.1 生態補上角色參考表 LoRA 與 Turbo 漫畫分鏡 LoRA。MiniMax H3 本地方案 FreeVideo 推到 v0.3.24，針對 8GB／低記憶體 Windows 再優化。開源圈另有 LAION Humaneness Voice Converter；封閉端 Vivix W1 以約每秒 0.003 美元推即時影片 API。",
+ "lede": "閉源端：生數科技發布支援 4K、單次 16 秒的 Vidu Q4 Preview；Google Veo 3.1 預覽 API 最快 10/22 停用，由 Gemini Omni 1.1 Flash 接手；盲測榜上生圖仍由 GPT Image 2.5 領先，影片則是 Wan 3.0 居首、MiniMax H3 排第 4；Midjourney 開放 MCP 小規模測試。開源端：Krea 2 Turbo 社群 2 步蒸餾 LoRA 釋出最終檢查點（約 4× 加速），Qwen Image 2.1 補上角色參考表與 Turbo 漫畫分鏡 LoRA，FreeVideo v0.3.24 再優化 8GB 本機跑 H3；Forge Classic 2.30 支援 Qwen-Image-2.1 並持續修正。",
  "watch": [
   {
    "id": "minimax-h3",
@@ -167,6 +167,31 @@
     ]
    ],
    "image": null
+  },
+  {
+   "id": "forge-classic",
+   "org": "Haoming02",
+   "tag": "開源 · WebUI 更新",
+   "date": "2026-10-11",
+   "title": "Forge Classic：2.30 支援 Qwen-Image-2.1，之後連續修正 Flash Attention 與 VAE",
+   "orig": "sd-webui-forge-classic · neo 分支",
+   "summary": "10/8（台灣時間 13:07）發布 2.30 版，主打支援 Qwen-Image-2.1。之後 neo 分支持續更新到 10/11 14:12：Flash Attention 改成支援 Qwen-Image-2.1 的 causal 注意力，用 flash-attn 跑 2.1 不必再退回其他後端；修正分塊 VAE 解碼；Checkpoint 下拉選單多了顯示資料夾的選項；Prompts from file 的 infotext 會分別記錄每組負面提示詞與種子；移除舊的 autocrop 程式。10/7 另外加入後處理 DeGrid（去格紋），並改善 AMD Strix Halo（gfx1151）的 SDPA 與 Mac MPS 的 VAE 記憶體切分。",
+   "links": [
+    [
+     "GitHub · Release 2.30",
+     "https://github.com/Haoming02/sd-webui-forge-classic/releases/tag/2.30"
+    ],
+    [
+     "GitHub · neo 分支 commits",
+     "https://github.com/Haoming02/sd-webui-forge-classic/commits/neo"
+    ]
+   ],
+   "image": {
+    "file": "forgeclassic.webp",
+    "alt": "GitHub 分享卡：Haoming02/sd-webui-forge-classic",
+    "credit": "GitHub",
+    "credit_url": "https://github.com/Haoming02/sd-webui-forge-classic"
+   }
   }
  ],
  "video": {
@@ -184,10 +209,111 @@
   }
  },
  "caveats": [
+  "閉源模型的功能與效能數字（如 Vidu Q4）多為廠商自述；Artificial Analysis 排行為 10/12 查詢時的盲測 Elo，會隨投票變動。Midjourney MCP 仍是申請制測試，規格與價格未公布。",
   "FreeVideo、Krea 2 步 LoRA、Vivix 的速度／價格／畫質數字多為作者或廠商自測，硬體、網路與設定不同會差很多。",
   "Qwen-Image-2.1 與相關 LoRA／Turbo 衍生權重受 Qwen Research License 約束（角色表、漫畫 LoRA 皆標非商用預設）；MiniMax H3／FreeVideo 權重受 H3 Community License 約束；Krea 2 步 LoRA 受 Krea 2 Community License 約束。",
   "LAION Humaneness Voice Converter 為研究向語音轉換，僅限已授權／同意的語音；禁止冒充。代理評分非人類 MOS。",
   "Vivix W1、Scenario、Dreamlands 皆為封閉服務、無開源權重；Vivix 促銷價標到 10/31。",
   "中國來源：本次嘗試機器之心首頁僅得片段；B 站／知乎／小紅書／Liblib／吐司／魔搭本次未取得可獨立核對的新料，未單列。Reddit JSON 未穩定抓取。YouTube 搜尋頁僅得有限結果。"
+ ],
+ "closed": [
+  {
+   "id": "vidu-q4-preview",
+   "org": "生數科技 Shengshu",
+   "tag": "閉源 · 影片生成",
+   "date": "2026-10-10",
+   "title": "Vidu Q4 Preview：支援 4K／10-bit、單次 16 秒，最多 15 張參考圖",
+   "orig": "Vidu Q4 Preview",
+   "summary": "生數科技 10/10 發布新一代旗艦影片模型 Vidu Q4 的預覽版，鎖定電影製作、AI 短劇與廣告。可輸出 2K／4K、10-bit 色深，單次最長 16 秒；支援圖生影片與參考生影片，最多吃 15 張參考圖（角色、場景、道具）和 3 段參考音訊，用來維持角色聲線一致。官方說運鏡、轉場與複雜鏡頭的銜接更順。入門價每秒 0.09 元人民幣起，提供 540P 到 4K 多種規格，建議先用低解析度試開場與分鏡，再用高解析度出成品。效能數字目前只有官方說法，尚未上獨立盲測榜。",
+   "links": [
+    [
+     "AIbase 報導",
+     "https://news.aibase.com/news/31521"
+    ]
+   ]
+  },
+  {
+   "id": "google-veo31-omni",
+   "org": "Google",
+   "tag": "閉源 · 影片生成",
+   "date": "2026-10-11",
+   "title": "Veo 3.1 預覽版 API 10/22 起可能停用，Gemini Omni 1.1 Flash 接手；實測報導出爐",
+   "orig": "Gemini API deprecations · Gemini Omni Flash review",
+   "summary": "Google Gemini API 的停用清單列出 veo-3.1、veo-3.1-fast、veo-3.1-lite 三個預覽模型最快 10/22 停用，唯一建議替代是 8/27 推出的 gemini-omni-1.1-flash（Gemini App 裡 Omni 也已取代 Veo）。ZOOOP 10/11 發表兩週實測：Omni Flash 可生成 3–10 秒影片、最多 10 張參考圖加參考影片、用一句話對已生成影片做對話式修改並延長鏡頭，先用 360p 試方向再出高解析度；缺點是沒有關閉音訊的開關，只能在提示詞裡控制。目前官方文件裡找不到 Veo 4。還在用 Veo 3.1 API 的工作流要盡快遷移。",
+   "links": [
+    [
+     "Gemini API 停用時程",
+     "https://ai.google.dev/gemini-api/docs/deprecations"
+    ],
+    [
+     "ZOOOP 實測",
+     "https://zooop.ai/blog/gemini-omni-flash-review"
+    ],
+    [
+     "Google 官方：Omni 1.1 Flash",
+     "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+    ]
+   ],
+   "image": {
+    "file": "omniflash.webp",
+    "alt": "ZOOOP 評測封面：Gemini Omni Flash",
+    "credit": "ZOOOP",
+    "credit_url": "https://zooop.ai/blog/gemini-omni-flash-review"
+   }
+  },
+  {
+   "id": "aa-leaderboards-1012",
+   "org": "Artificial Analysis",
+   "tag": "排行榜 · 圖像／影片",
+   "date": "2026-10-12",
+   "title": "盲測排行榜：生圖由 GPT Image 2.5 包辦前二，影片 Wan 3.0 居首、MiniMax H3 第 4",
+   "orig": "AA-Image-T2I v2.0 · AA-Video-T2V v2.0",
+   "summary": "10/12 查 Artificial Analysis 的人類盲測排行：文生圖前五為 GPT Image 2.5 Sunburst（max，Elo 1198）、GPT Image 2.5 Flare（max，1191）、GPT Image 2（high，1172）、Nano Banana 2.1（1160）、Grok Imagine Image 2.0（1155），OpenAI 9/8 推出的 2.5 系列仍穩坐第一。文生影片（含音訊）前五為阿里 Wan 3.0（1156）、Utopai X（1149）、字節 Seedance 2.5（1143）、MiniMax H3 768p（1137）與 H3 Max（1130）；Google Gemini Omni Flash 1.1 排第 8（1113）。快手 Kling 4.0 完整版官方仍只說「10 月上線」，尚無確切日期，目前只有限量的 4.0 Flash。",
+   "links": [
+    [
+     "AA 文生圖排行",
+     "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+    ],
+    [
+     "AA 文生影片排行",
+     "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+    ],
+    [
+     "Kuca：Kling 4.0 上線狀態",
+     "https://kuca.ai/blog/kling-4-0-vs-seedance-2-5"
+    ]
+   ],
+   "image": {
+    "file": "aa.webp",
+    "alt": "Artificial Analysis 官方分享圖",
+    "credit": "Artificial Analysis",
+    "credit_url": "https://artificialanalysis.ai/"
+   }
+  },
+  {
+   "id": "midjourney-mcp-test",
+   "org": "Midjourney",
+   "tag": "閉源 · 生圖工具",
+   "date": "2026-10-10",
+   "title": "Midjourney 開放 MCP 小規模測試：讓 Claude、ChatGPT 等 AI 助手直接操作 Midjourney",
+   "orig": "Midjourney MCP test group",
+   "summary": "Midjourney 10/10 在 X 宣布要和少數社群成員測試 Midjourney MCP（Model Context Protocol，讓 AI 助手呼叫外部工具的標準），並開放申請表。官方強調只給純藝術與創作用途，不是讓人把 Midjourney 包進 SaaS 產品。申請表問到會搭配的 LLM（Claude、ChatGPT、GLM、DeepSeek、Kimi、Mistral、Qwen、Cursor）、目前方案、每週用量，以及之後願意為 MCP 付多少（每月 10 到 1,000 美元，含基本額度），看起來未來可能是獨立付費方案。目前還沒有公開規格、價格或上線日期。",
+   "links": [
+    [
+     "Midjourney 官方 X 貼文（轉錄）",
+     "https://twiscan.com/en/x/midjourney/2108717365068509447"
+    ],
+    [
+     "ArtRealmAI 整理",
+     "https://artrealmai.com/article/midjourney-mcp-test-group-application"
+    ]
+   ],
+   "image": {
+    "file": "mjmcp.webp",
+    "alt": "ArtRealmAI 分享卡：Midjourney MCP 測試",
+    "credit": "ArtRealmAI",
+    "credit_url": "https://artrealmai.com/article/midjourney-mcp-test-group-application"
+   }
+  }
  ]
 }

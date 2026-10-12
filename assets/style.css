@@ -269,3 +269,6 @@ body.mode-ai{--bg:#f3f5f9;--bg2:#e6eaf1;--ink:#0d1320;--muted:#5a6577;--line:#d3
   .modes a span{font-size:13px;letter-spacing:.1em}
 }
 @media (min-width:768px){.topbar .brand{min-width:182px}}
+/* AI: closed-source models section (2-up grid so 4 items fill evenly) */
+@media (min-width:1200px){.mode-ai #closed .news{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mode-ai #closed .story{border-top:2px solid var(--accent)}

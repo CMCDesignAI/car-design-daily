@@ -20,6 +20,14 @@ def figure(im, img, eager=False, cls="news-img"):
     return (f'<figure class="{cls}"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="{"eager" if eager else "lazy"}" decoding="async" width="1600" height="900"></div>'
             f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>')
 
+def story(s, img):
+    return (f'<article class="story" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
+            f'<h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p></div>'
+            f'{"" if s.get("image") else "<p class=\"noimg\">來源頁沒有可用的官方圖片，因此不放圖。</p>"}<div class="src">來源：{links(s["links"])}</div></article>')
+
+def sec_head(n, zh, en):
+    return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
+
 def head(title, desc, css, canon, ogimg):
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -42,15 +50,22 @@ def page(d, root, aibase, all_issues, is_latest):
     ogimg = f"{SITE}/ai/issues/{date}/img/{first['file']}" if (SITE and first) else ""
     canon = f"{SITE}/ai/issues/{date}/" if SITE else ""
     nupd = sum(len(w["updates"]) for w in d["watch"])
-    nav = f'<nav class="nav"><a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    closed = d.get("closed") or []
+    nav = f'<nav class="nav">{"<a href=\"#closed\">閉源模型</a>" if closed else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
 <h1>AI Model Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span><span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源動態 {len(closed)} 則</span>" if closed else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
-    # 01 watch list
-    H.append('<section id="watch"><div class="sec-head"><span class="num">01</span><h2>追蹤清單</h2><span class="en">Watch List</span></div><div class="wgrid">')
+    n = 0
+    # closed-source models (from 2026-10-12; absent in older issues)
+    if closed:
+        n += 1
+        H.append(f'<section id="closed">{sec_head(n, "閉源模型動態", "Closed Models")}<div class="news">' + "".join(story(s, img) for s in closed) + '</div></section>')
+    # watch list (open-source)
+    n += 1
+    H.append(f'<section id="watch">{sec_head(n, "追蹤清單", "Watch List")}<div class="wgrid">')
     k = 0
     for w in d["watch"]:
         ups = []
@@ -61,27 +76,25 @@ def page(d, root, aibase, all_issues, is_latest):
         H.append(f'<article class="wcard" id="{e(w["id"])}"><div class="whead"><span class="tag">{e(w["kind"])}</span><span class="count">{len(w["updates"])} 則更新</span>'
                  f'<h3>{e(w["model"])}</h3><p class="status">{e(w["status"])}</p></div><ol class="ulist">{"".join(ups)}</ol></article>')
     H.append('</div></section>')
-    # 02 other news
-    H.append('<section id="news"><div class="sec-head"><span class="num">02</span><h2>其他新聞</h2><span class="en">More News</span></div><div class="news">')
-    for s in d["news"]:
-        H.append(f'<article class="story" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
-                 f'<h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p></div>'
-                 f'{"" if s.get("image") else "<p class=\"noimg\">來源頁沒有可用的官方圖片，因此不放圖。</p>"}<div class="src">來源：{links(s["links"])}</div></article>')
-    H.append('</div></section>')
+    # other news
+    n += 1
+    H.append(f'<section id="news">{sec_head(n, "其他新聞", "More News")}<div class="news">' + "".join(story(s, img) for s in d["news"]) + '</div></section>')
     # 03 video
     v = d.get("video")
     if v:
-        H.append(f'''<section id="video"><div class="sec-head"><span class="num">03</span><h2>推薦影片</h2><span class="en">Watch This</span></div>
+        n += 1
+        H.append(f'''<section id="video">{sec_head(n, "推薦影片", "Watch This")}
 <div class="vid"><div class="vframe"><div class="ratio" id="yt" data-id="{e(v["youtube_id"])}"><a href="{e(v["url"])}" target="_blank" rel="noopener" class="play" aria-label="在 YouTube 播放：{e(v["title"])}"><img src="{img}{e(v["thumb"]["file"])}" alt="{e(v["thumb"]["alt"])}" loading="lazy" decoding="async" width="1280" height="720"><span class="pbtn">▶</span></a></div>
 <p class="vcap">縮圖：{e(v["thumb"]["credit"])} · 點擊即在頁面內播放（youtube-nocookie）</p></div>
 <div class="vtext"><span class="tag">{e(v["channel"])}</span><span class="date">{e(v["date"])}</span><h3>{e(v["title"])}</h3><p class="orig">{e(v["orig"])}</p><p>{e(v["summary"])}</p><div class="src"><a href="{e(v["url"])}" target="_blank" rel="noopener">在 YouTube 觀看 ↗</a></div></div></div>
 <script>(function(){{var b=document.getElementById('yt');if(!b)return;b.querySelector('a').addEventListener('click',function(ev){{ev.preventDefault();var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1';f.title='YouTube video';f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;b.innerHTML='';b.appendChild(f);}});}})();</script></section>''')
     # 04 caveats
     cv = "".join(f"<li>{e(c)}</li>" for c in d["caveats"])
-    H.append(f'<section id="caveats"><div class="sec-head"><span class="num">04</span><h2>注意事項</h2><span class="en">Caveats</span></div><ul class="caveats">{cv}</ul></section>')
+    n += 1
+    H.append(f'<section id="caveats">{sec_head(n, "注意事項", "Caveats")}<ul class="caveats">{cv}</ul></section>')
     li = "".join(f'<li><a href="{aibase}issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]}</a> — {e(x["watch"][0]["model"])} 等 {len(x["watch"])} 個追蹤模型</li>' for x in all_issues)
     H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section>')
-    H.append(f'''</main><footer><div class="wrap">AI Model Daily · 每日追蹤指定 AI 模型的更新與其他重要模型新聞。摘要為編輯整理，事實以原始來源為準；圖片取自官方或來源頁的分享圖（og:image），版權屬原權利人，均標示來源並連結原頁；不使用 AI 生成圖像代表真實產品。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
+    H.append(f'''</main><footer><div class="wrap">AI Model Daily · 每日整理各大 AI 公司的閉源模型動態，並追蹤指定開源模型的更新與其他重要模型新聞。摘要為編輯整理，事實以原始來源為準；圖片取自官方或來源頁的分享圖（og:image），版權屬原權利人，均標示來源並連結原頁；不使用 AI 生成圖像代表真實產品。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
 {theme_toggle("ai")}
 </body></html>''')
     return "\n".join(H)
