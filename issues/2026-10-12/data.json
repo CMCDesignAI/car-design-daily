@@ -1,0 +1,472 @@
+{
+ "date": "2026-10-12",
+ "weekday": "週一",
+ "issue_no": 5,
+ "lede": "巴黎車展開幕日：Alfa Romeo Cuorerosso 正式世界首發，用 Coda tronca 截尾說完空氣動力；Hyundai 全新 Tucson 以 Art of Steel 亮相，動態版今晚同台；Renault E-Space 概念重做家庭車；中國這邊理想 i6 赴巴黎、比亞迪三代唐與 BMW M 新世代概念車中國首秀同日發酵。",
+ "design_news": [
+  {
+   "id": "alfa-cuorerosso",
+   "tag": "世界首發 · 巴黎車展",
+   "date": "2026-10-12",
+   "brand": "Alfa Romeo",
+   "title": "Cuorerosso 正式亮相：一體雕塑、Coda tronca 截尾，Cx 0.28",
+   "orig": "World premiere of Alfa Romeo Cuorerosso",
+   "summary": "Alfa Romeo 於巴黎車展 Hall 4 世界首發 Cuorerosso 概念車：定位設計宣言而非量產預告，2+2 轎跑、長 4,700 mm、寬 1,980 mm、高僅 1,331 mm、軸距 2,930 mm。Centro Stile 先當一塊實心體雕塑，再挖出輪圈與玻璃；前臉 Scudetto 三角背光織紋會脈動，楔形側面收進經典 Coda tronca 截尾，雙圓尾燈嵌其中，風阻係數 Cx 0.28。",
+   "analysis": [
+    [
+     "比例",
+     "近超跑的低趴高度配 GT 軸距，把運動與優雅壓在同一條連續曲面裡。"
+    ],
+    [
+     "空氣動力",
+     "連續車身＋Coda tronca＋內建下分流器三件套，把截尾當成效率與辨識的共同解。"
+    ],
+    [
+     "燈號與臉",
+     "Scudetto 與雙眼式頭燈組成新 Trilobo；格柵三角單元會像心跳一樣亮。"
+    ],
+    [
+     "室內 UX",
+     "Cannocchiale Vivente 雙儀表可合成單環；Magma Display 混用旋鈕與觸控，強調駕駛者中心。"
+    ],
+    [
+     "品牌方向",
+     "官方稱 bellezza necessaria（必要之美）：去掉多餘件，只留好看又有用的。"
+    ]
+   ],
+   "sources": [
+    [
+     "Stellantis Media（Alfa Romeo）",
+     "https://www.media.stellantis.com/uk-en/alfa-romeo/press/world-premiere-of-alfa-romeo-cuorerosso"
+    ],
+    [
+     "CAR Magazine",
+     "https://www.carmagazine.co.uk/car-news/first-official-pictures/alfa-romeo/2026-cuorerosso-concept/"
+    ]
+   ],
+   "image": {
+    "file": "news-alfa-cuorerosso.webp",
+    "alt": "紅色 Alfa Romeo Cuorerosso 概念車前視，Scudetto 護罩與細長頭燈",
+    "credit": "Alfa Romeo（via Autocar）",
+    "credit_url": "https://www.autocar.co.uk/car-news/new-cars/alfa-romeo-cuorerosso-previews-brands-future-%E2%80%93-twin-turbo-v6"
+   }
+  },
+  {
+   "id": "hyundai-tucson",
+   "tag": "量產 · 全新世代",
+   "date": "2026-10-01",
+   "brand": "Hyundai",
+   "title": "全新 Tucson：Art of Steel 鼓起輪拱，H-Edge 燈帶把車身拉寬",
+   "orig": "The all-new Hyundai TUCSON Blends Bold Design, Intelligent Hybrid and Next-Generation Connectivity",
+   "summary": "Hyundai 歐洲新聞室公布第五代 Tucson：定位 The Boldest SUV，設計語彙 Art of Steel，強調鼓起的肌肉輪拱與克制門板。車長 4,560 mm（+35）、寬 1,900（+35）、高 1,670（+20）、軸距 2,720（+40）。車頭 H-Edge 燈把間接中央光與邊緣光合成橫向簽名；車尾 Prism Rear Lamp 以立體棱鏡結構當辨識點。動態版將於 10/12 巴黎車展再亮相。",
+   "analysis": [
+    [
+     "比例",
+     "加長加寬加高後仍維持 C-SUV 站姿，前懸多 20 mm 兼顧行人防護。"
+    ],
+    [
+     "燈號",
+     "H-Edge 用水平光把臉拉寬；Prism 尾燈用 3D 內部結構強化夜間輪廓。"
+    ],
+    [
+     "面處理",
+     "鼓起輪拱對比平整門板，把「鋼的張力」寫在外觀上。"
+    ],
+    [
+     "室內 UX",
+     "雙層儀表板＋家具感軟墊，9.9 吋細長儀表與可選 12.9／17 吋中控；實體鍵保留在螢幕下方。"
+    ],
+    [
+     "品牌方向",
+     "歐洲主力休旅換代，用燈光與輪拱升級辨識，而不是再加一層複雜飾條。"
+    ]
+   ],
+   "sources": [
+    [
+     "Hyundai Newsroom Europe",
+     "https://www.hyundai.news/eu/articles/press-releases/all-new-hyundai-tucson-october-2026.html"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-tucson.webp",
+    "alt": "全新 Hyundai Tucson 正面工作室照，H-Edge 橫向燈帶與垂直邊緣燈",
+    "credit": "Hyundai Motor Europe",
+    "credit_url": "https://www.hyundai.news/eu/articles/press-releases/all-new-hyundai-tucson-october-2026.html"
+   }
+  },
+  {
+   "id": "renault-espace",
+   "tag": "概念 · 巴黎車展",
+   "date": "2026-10-12",
+   "brand": "Renault",
+   "title": "E-Space Concept：4.70 米一廂體，U 形燈帶與懸浮菱形標",
+   "orig": "E-Space Concept: Renault reinvents the voiture à vivre",
+   "summary": "Renault 在巴黎車展新聞會世界首發 E-Space Concept：向 1984 年第一代 Espace 致敬的電動家庭車想像，長 4.70 m、寬 2.02 m、高 1.67 m、23 吋輪圈貼四角。深黑 rubé 車身，前後寬幅 U 形燈帶勾出輪廓，車頭中央是像素感懸浮菱形標；官方刻意說它不是 SUV——低腰線、一廂側影、風擋從引擎蓋一路流下來。六張同尺寸獨立座椅、全平地板，OpenR Panorama 弧形寬螢幕取代傳統儀表台。",
+   "analysis": [
+    [
+     "比例",
+     "一廂體＋低離地，和當紅高底盤 SUV 唱反調，把空間感放回家庭車。"
+    ],
+    [
+     "燈號",
+     "前後 U 形燈帶當遠距輪廓；懸浮菱形標把品牌符號做成光的雕塑。"
+    ],
+    [
+     "玻璃艙",
+     "大風擋與低腰線讓座艙更亮，呼應 voiture à vivre（為生活而造的車）。"
+    ],
+    [
+     "室內 UX",
+     "六座可微轉、可圍桌；1,130×110 mm OpenR Panorama 橫貫座艙。"
+    ],
+    [
+     "品牌方向",
+     "概念車不等于量產預告，但把「空間優先」重新推上巴黎舞台。"
+    ]
+   ],
+   "sources": [
+    [
+     "Renault Media",
+     "https://media.renault.com/e-space-concept-renault-reinvents-the-voiture-a-vivre-and-sets-a-date-for-the-2026-paris-motor-show/?lang=eng"
+    ]
+   ],
+   "image": {
+    "file": "news-renault-espace.webp",
+    "alt": "Renault E-Space Concept 深紅一廂概念車三四分前視，U 形燈帶與菱形標",
+    "credit": "Renault",
+    "credit_url": "https://media.renault.com/e-space-concept-renault-reinvents-the-voiture-a-vivre-and-sets-a-date-for-the-2026-paris-motor-show/?lang=eng"
+   }
+  },
+  {
+   "id": "li-i6",
+   "tag": "中國 · 全球車",
+   "date": "2026-10-12",
+   "brand": "Li Auto（理想）",
+   "title": "2026 款理想 i6 進店＋赴巴黎：半隱藏門把，歐洲名 Li 6",
+   "orig": "Li Auto to launch 2026 Li i6 on October 28, deliveries to start in early November",
+   "summary": "理想汽車宣布 2026 款 i6 自 10/11 起於中國 485 家門店展車，10/12 以首款純電全球車身份亮相巴黎車展，歐洲版車名 Li 6。外觀延續既有設計語言，改採半隱藏門把；動力有單／雙馬達，將搭載自研 5C 電池與 Mach 智駕晶片。10/28 上市發表，中國交付預計 11 月初；歐洲銷售規劃亦將於巴黎公布。",
+   "analysis": [
+    [
+     "細節",
+     "半隱藏門把是這次最明顯的外觀差，配合中國對全隱藏門把的監管風向。"
+    ],
+    [
+     "品牌方向",
+     "把主力純電休旅推成「全球車」，巴黎是歐洲敘事的起點。"
+    ],
+    [
+     "比例",
+     "維持既有 i6 休旅站姿與玻璃艙比例，改款偏局部精修而非換臉。"
+    ],
+    [
+     "產品節奏",
+     "延後至 10/28 發表，縮短訂車到交車空窗，服務中國與歐洲雙線。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/09/li-auto-launch-2026-li-i6-oct-28/"
+    ]
+   ],
+   "image": {
+    "file": "news-li-i6.webp",
+    "alt": "白色 2026 款理想 i6 電動休旅側面動態照，懸浮車頂與半隱藏門把",
+    "credit": "Li Auto（via CnEVPost）",
+    "credit_url": "https://cnevpost.com/2026/10/09/li-auto-launch-2026-li-i6-oct-28/"
+   }
+  },
+  {
+   "id": "bmw-m-nk",
+   "tag": "中國首秀 · 概念",
+   "date": "2026-10-11",
+   "brand": "BMW M",
+   "title": "BMW M 新世代概念車中國首秀：寬輪拱、黃色賽事燈組",
+   "orig": "BMW M新世代概念車中國首秀",
+   "summary": "10/11 於「2026 BMW M 熱血嘉年華」，BMW M 新世代概念車迎來中國首秀。純電高性能宣言車採用四電機 M eDrive、800 伏平台與第六代圓柱電芯；外觀以寬闊輪拱與強勁肩線拉出蓄勢站姿，引擎蓋出風口、M 空力鏡、懸浮擴散器與鴨尾擾流板服務下壓力。醒目黃色燈組取材 GT 與 M Hybrid V8 賽事識別，作為未來 M 車的視覺符號。",
+   "analysis": [
+    [
+     "比例",
+     "寬輪拱＋肩線把賽事寬體寫進概念車，延續 M1／初代 M3「為性能長肉」的傳統。"
+    ],
+    [
+     "燈號",
+     "黃色燈組刻意不像量產日行燈，把賽道識別直接搬到量產前語言。"
+    ],
+    [
+     "空力",
+     "出風口、擴散器、鴨尾都是可讀的性能零件，不是純裝飾。"
+    ],
+    [
+     "品牌方向",
+     "用中國首秀宣告 M 進入純電高性能篇章，設計服務功能再說一次。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車商務網",
+     "https://www.bcar.com.cn/showinfo-34-175058-0.html"
+    ]
+   ],
+   "image": {
+    "file": "news-bmw-m.webp",
+    "alt": "BMW M 新世代概念車正面特寫，發光雙腎與黃色斜向燈組",
+    "credit": "BMW（via 汽車商務網／上海熱線）",
+    "credit_url": "https://www.bcar.com.cn/showinfo-34-175058-0.html"
+   }
+  },
+  {
+   "id": "byd-tang3",
+   "tag": "中國 · 三代唐",
+   "date": "2026-10-08",
+   "brand": "BYD（比亞迪）",
+   "title": "三代唐 EV 釋出內裝：星環螢幕、懸浮車頂與貫穿燈帶",
+   "orig": "BYD unveils interior of its third-generation Tang EV",
+   "summary": "比亞迪王朝銷售事業部總經理盧天公布三代唐（8 系唐）官方內裝圖，兩套配色沙丘米與琥珀棕。外觀延續王朝語言：車頭全寬 LED 燈帶、側面懸浮車頂與半隱藏門把，可選 20／21 吋輪圈；尺寸約 5,045×1,980×1,760 mm、軸距 2,950 mm。座艙採 Star Ring 星環螢幕與全景玻璃頂，菱格縫線真皮與貫穿氛圍燈。動力單電機 300 kW，刀片電池兩種容量，CLTC 續航最高約 850 km。",
+   "analysis": [
+    [
+     "面處理",
+     "全寬燈帶＋封閉前臉，把王朝臉再收斂一輪。"
+    ],
+    [
+     "比例",
+     "懸浮車頂拉長側視玻璃艙，半隱藏門把維持光潔側面。"
+    ],
+    [
+     "室內 UX",
+     "星環螢幕成為視覺中心；氛圍燈沿儀表與門板串起來。"
+    ],
+    [
+     "產品定位",
+     "卡在唐 L 與大唐之間，海外相關車或稱 Atto 8／Sealion 8。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina",
+     "https://carnewschina.com/2026/10/08/byd-unveils-interior-of-its-third-generation-tang-ev/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-tang.webp",
+    "alt": "深綠色比亞迪三代唐 EV 三四分前視，全寬燈帶與懸浮車頂",
+    "credit": "BYD（via CarNewsChina）",
+    "credit_url": "https://carnewschina.com/2026/10/08/byd-unveils-interior-of-its-third-generation-tang-ev/"
+   }
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "法規 · 中國",
+   "date": "2026-10-10",
+   "title": "四部門徵求意見：擬禁全隱藏門把與摺疊螢幕，創新設計納入准入",
+   "summary": "工信部等四部門發布汽車創新設計與研發測試管理通知（徵求意見稿），強調部分新功能驗證不足。草案重申禁止全隱藏式門把，並擬禁止摺疊／柔性螢幕；行駛中限制零重力座、旋轉座與座椅變床；燈光雨刷等關鍵功能須保留實體控制。自 2027/1/1 起，涉創新設計的新申報產品須補技術參數與驗證；已公告車型須於 2027/7/1 前補報。公開徵求意見至 11/10。",
+   "sources": [
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/10/china-proposes-tighter-vehicle-design-rules/"
+    ],
+    [
+     "京報網",
+     "https://news.bjd.com.cn/2026/10/10/11990035.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 歐洲",
+   "date": "2026-10-06",
+   "title": "Renault 全系 E-Tech 導入 LFP：Scenic、R5 跟進，Cell-to-Pack",
+   "summary": "Renault 在巴黎車展預告中確認，磷酸鐵鋰（LFP）電池將逐步覆蓋全電動乘用車系：Twingo、Mégane 之後輪到 Scenic 與 Renault 5，Renault 4 隨後跟上。採 cell-to-pack 架構，容量例為 Twingo 27.5 kWh、R5 37 kWh、Mégane／Scenic 67 kWh；並標配 Fireman Access 滅火注水口。目標是用更優的售價／續航比，把電動門檻再往下推。",
+   "sources": [
+    [
+     "Renault Media",
+     "https://media.renault.com/e-space-concept-renault-reinvents-the-voiture-a-vivre-and-sets-a-date-for-the-2026-paris-motor-show/?lang=eng"
+    ]
+   ]
+  },
+  {
+   "tag": "展會",
+   "date": "2026-10-12",
+   "title": "2026 巴黎車展開幕：Hall 4／6 概念車密集首發",
+   "summary": "巴黎車展（Paris Expo Porte de Versailles）今日起至 18 日對公眾開放，媒體日已開始。Alfa Romeo Cuorerosso 在 Hall 4 世界首發；Renault 於 Hall 6 揭幕 E-Space，並展出 8 Gordini、4 JP4x4 概念與多款量產升級；Alpine PS1 同日揭幕（官方僅先釋頭燈預告）。中國品牌方面，理想 i6／Li 6、阿維塔 T09、深藍 S07／S05 等亦在展區現身，形成歐亞設計同台。",
+   "sources": [
+    [
+     "Stellantis Media",
+     "https://www.media.stellantis.com/uk-en/alfa-romeo/press/world-premiere-of-alfa-romeo-cuorerosso"
+    ],
+    [
+     "Renault Media",
+     "https://media.renault.com/e-space-concept-renault-reinvents-the-voiture-a-vivre-and-sets-a-date-for-the-2026-paris-motor-show/?lang=eng"
+    ]
+   ]
+  },
+  {
+   "tag": "座艙科技",
+   "date": "2026-10-01",
+   "title": "Tucson HEV Stay Mode：停車熄火仍可吹冷氣、充電、聽歌",
+   "summary": "全新 Tucson 油電版導入級距首見的 HEV Stay Mode：短暫停車或休息時可關閉引擎，仍維持空調、音響與裝置充電，讓座艙接近純電靜謐感。搭配 Multi-Air 多風道氣流、金屬鍍膜電熱擋風玻璃與 Pleos Connect（AAOS）＋Gleo AI 語音，顯示休旅內裝競爭已從「螢幕尺寸」轉向「停下來好不好待」。",
+   "sources": [
+    [
+     "Hyundai Newsroom Europe",
+     "https://www.hyundai.news/eu/articles/press-releases/all-new-hyundai-tucson-october-2026.html"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Coda tronca",
+  "zh": "截尾造型",
+  "body": "Coda tronca（截尾造型）是指車尾被齊齊削短、不做圓滑收尾，用來減少後方亂流。本期巴黎首發的 Alfa Romeo Cuorerosso，側面楔形線一路收到截短車尾，雙圓尾燈嵌在截面上，風阻係數 Cx 0.28。設計師用它同時顧到效率與品牌臉——Alfa 從 1960 年代 SZ 就常這樣做。",
+  "source": [
+   [
+    "Stellantis Media：Cuorerosso 官方稿（Coda Tronca／truncated tail）",
+    "https://www.media.stellantis.com/uk-en/alfa-romeo/press/world-premiere-of-alfa-romeo-cuorerosso"
+   ],
+   [
+    "CAR Magazine：Cuorerosso 設計解析（coda tronca／1960s SZ）",
+    "https://www.carmagazine.co.uk/car-news/first-official-pictures/alfa-romeo/2026-cuorerosso-concept/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [
+  {
+   "theme": "Cyber-organic biomorphic EV",
+   "zh": "賽博有機生物形態電動車",
+   "intro": "像珊瑚與外骨骼長在一起的虛構電動跑旅：半透明殼、脈動光紋、沒有品牌標，停在濕潤的夜色碼頭。",
+   "images": [
+    [
+     "mb1-1",
+     "原創虛構概念：青綠生物形態電動車側前方，脈動燈脈與外骨骼輪拱",
+     true
+    ],
+    [
+     "mb1-2",
+     "座艙：有機曲面儀表與半透明儀表膜（程式繪製）",
+     false
+    ],
+    [
+     "mb1-3",
+     "細節：殼層接縫、光脈導管與蜂巢散熱孔（程式繪製）",
+     false
+    ],
+    [
+     "mb1-4",
+     "材質：虹彩樹脂皮與濕潤碳纖維紋（程式生成）",
+     false
+    ]
+   ],
+   "palette": [
+    [
+     "Biolume Teal",
+     "#1FA7A0"
+    ],
+    [
+     "Deep Abyss",
+     "#0B1C24"
+    ],
+    [
+     "Coral Pulse",
+     "#F08A5D"
+    ],
+    [
+     "Shell Mist",
+     "#D7E8E4"
+    ],
+    [
+     "Nerve Violet",
+     "#6B5B95"
+    ],
+    [
+     "Wet Carbon",
+     "#2A2F33"
+    ]
+   ],
+   "keywords": [
+    "生物形態",
+    "半透明殼",
+    "脈動燈",
+    "外骨骼輪拱",
+    "無標誌",
+    "碼頭夜色"
+   ],
+   "materials": [
+    "虹彩半透明樹脂",
+    "濕潤碳纖維紋理",
+    "矽膠軟邊密封",
+    "導光纖維燈脈",
+    "陽極鈦關節",
+    "霧面陶瓷輪圈"
+   ]
+  },
+  {
+   "theme": "Scandinavian calm interior",
+   "zh": "北歐靜謐座艙",
+   "intro": "淺橡木、羊毛灰與霧白：一台虛構旅行車的安靜座艙，光線從大面積側窗灑進來，沒有螢幕牆，只有一條細長資訊帶。",
+   "images": [
+    [
+     "mb2-1",
+     "原創虛構概念：霧白旅行車側前方停在雪松林道",
+     true
+    ],
+    [
+     "mb2-2",
+     "座艙：淺橡木儀表、羊毛座椅與細長資訊帶（程式繪製）",
+     false
+    ],
+    [
+     "mb2-3",
+     "細節：木紋旋鈕、編織門板與隱藏出風口（程式繪製）",
+     false
+    ],
+    [
+     "mb2-4",
+     "材質：橡木年輪與羊毛織紋特寫（程式生成）",
+     false
+    ]
+   ],
+   "palette": [
+    [
+     "Fog White",
+     "#F4F1EA"
+    ],
+    [
+     "Wool Grey",
+     "#A8A29A"
+    ],
+    [
+     "Pale Oak",
+     "#D2B48C"
+    ],
+    [
+     "Pine Shadow",
+     "#3E4A3C"
+    ],
+    [
+     "Soft Clay",
+     "#C4A484"
+    ],
+    [
+     "Ice Blue",
+     "#C9D6D5"
+    ]
+   ],
+   "keywords": [
+    "淺橡木",
+    "羊毛織物",
+    "細長資訊帶",
+    "大側窗",
+    "無螢幕牆",
+    "林道光線"
+   ],
+   "materials": [
+    "水洗橡木飾板",
+    "可再生羊毛織物",
+    "植物鞣軟皮",
+    "霧面鋁旋鈕",
+    "亞麻地毯",
+    "再生PET隔音棉"
+   ]
+  }
+ ]
+}
