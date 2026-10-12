@@ -24,6 +24,9 @@ Array.prototype.forEach.call(n.querySelectorAll('a[data-mode]'),function(a){a.ad
  n.setAttribute('data-pos',to);var done=false,go=function(){if(done)return;done=true;location.href=url;};
  n.querySelector('.mind').addEventListener('transitionend',function(e){if(e.propertyName==='transform')go();});setTimeout(go,520);});});})();</script>"""
 
+WAKE_JS = """<script>(()=>{let lock=null;async function req(){if(!('wakeLock' in navigator)||document.visibilityState!=='visible')return;try{lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>{lock=null;});}catch(e){}}
+window.addEventListener('load',req);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&!lock)req();});['click','touchstart','keydown'].forEach(t=>document.addEventListener(t,()=>{if(!lock)req();},{passive:true}));})();</script>"""
+
 def switcher(root, mode):
     """Segmented section switcher shown on every page. root = relative path to site root.
     Plain links (work without JS); SWITCH_JS slides the frame (.mind) to the target, then navigates."""
@@ -45,7 +48,7 @@ def theme_init(mode):
 
 def theme_toggle(mode):
     key = "cdd-theme-ai" if mode == "ai" else "cdd-theme"
-    return SWITCH_JS + ("<script>document.getElementById('tg').onclick=function(){var r=document.documentElement,c=r.getAttribute('data-theme');"
+    return SWITCH_JS + WAKE_JS + ("<script>document.getElementById('tg').onclick=function(){var r=document.documentElement,c=r.getAttribute('data-theme');"
             "var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';"
             f"r.setAttribute('data-theme',n);localStorage.setItem('{key}',n);}};</script>")
 

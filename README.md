@@ -6,7 +6,7 @@
 - 每期固定網址：`/issues/YYYY-MM-DD/`；首頁 `/` = 最新一期；`/archive/` = 往期列表
 - **AI Model Daily**（同一個 repo／網站）：`/ai/` = 最新一期、`/ai/issues/YYYY-MM-DD/`、`/ai/archive/`
 - **站名只用英文**：「Car Design Daily」與「AI Model Daily」。**不要**再使用任何中文站名（例如「汽車設計日報」「AI 模型日報」「AI 模型每日快報」——前者已被其他汽車媒體使用）。這適用於 masthead `<h1>`（不加中文副標）、`<title>`、og:title、meta description、往期頁、頁尾、左上角 wordmark，以及每日通知訊息裡對網站的稱呼。分頁標題格式：`Car Design Daily · YYYY.MM.DD`、`AI Model Daily · YYYY.MM.DD`。文章內容仍為繁體中文；切換器的分類標籤（CAR DESIGN 汽車設計／AI MODELS AI 模型）是分類名稱，保留不變。
-- 每頁頂端都有切換器「CAR DESIGN 汽車設計｜AI MODELS AI 模型」（kicker 字體樣式，手機版在第二列、全寬）。外框（`.mind`）會滑到目標再換頁（0.38s；`prefers-reduced-motion` 時直接換頁），沒有 JS 時就是一般連結。程式在 `tools/build.py` 的 `switcher()` 和 `SWITCH_JS`。兩個區塊共用 `assets/style.css` 的設計系統與 RWD 格線（<768 一欄、768–1199 兩欄、≥1200 三欄）；AI 區塊用 `body.mode-ai` 套上科技感深色配色（預設深色，深淺色偏好與汽車區分開記憶）。
+- 每頁頂端都有切換器「CAR DESIGN 汽車設計｜AI MODELS AI 模型」（kicker 字體樣式，手機版在第二列、全寬）。外框（`.mind`）會滑到目標再換頁（0.38s；`prefers-reduced-motion` 時直接換頁），沒有 JS 時就是一般連結。程式在 `tools/build.py` 的 `switcher()` 和 `SWITCH_JS`。每頁也內嵌 Screen Wake Lock（`WAKE_JS`），開啟時螢幕不會休眠。兩個區塊共用 `assets/style.css` 的設計系統與 RWD 格線（<768 一欄、768–1199 兩欄、≥1200 三欄）；AI 區塊用 `body.mode-ai` 套上科技感深色配色（預設深色，深淺色偏好與汽車區分開記憶）。
 
 ## 結構
 ```
