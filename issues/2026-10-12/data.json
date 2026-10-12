@@ -2,67 +2,8 @@
  "date": "2026-10-12",
  "weekday": "週一",
  "issue_no": 5,
- "lede": "Mitsubishi 先看：日經報導 Honda 擬 2028 年起貼牌販售泰國製 Triton 皮卡。巴黎車展開幕日：Alfa Romeo Cuorerosso 正式世界首發，用 Coda tronca 截尾說完空氣動力；Hyundai 全新 Tucson 以 Art of Steel 亮相，動態版今晚同台；Renault E-Space 概念重做家庭車；中國這邊理想 i6 赴巴黎、比亞迪三代唐與 BMW M 新世代概念車中國首秀同日發酵。",
+ "lede": "巴黎車展開幕日：Alfa Romeo Cuorerosso 正式世界首發，用 Coda tronca 截尾說完空氣動力；Hyundai 全新 Tucson 以 Art of Steel 亮相，動態版今晚同台；Renault E-Space 概念重做家庭車；中國這邊理想 i6 赴巴黎、比亞迪三代唐與 BMW M 新世代概念車中國首秀同日發酵。另外日經報導 Honda 擬 2028 年起貼牌販售泰國製 Mitsubishi Triton 皮卡。",
  "design_news": [
-  {
-   "id": "mitsubishi-triton-honda",
-   "tag": "聯盟動態 · 貼牌報導",
-   "date": "2026-10-10",
-   "brand": "Mitsubishi",
-   "title": "日經：Honda 擬 2028 年起貼牌販售泰國製 Mitsubishi Triton 皮卡",
-   "orig": "Honda to sell Thai-built Mitsubishi pickup under own brand in Southeast Asia",
-   "summary": "日經亞洲 10/10 報導，Honda 計畫最快 2028 年起，把 Mitsubishi 在泰國生產的 Triton 皮卡掛上 Honda 品牌，在東南亞等地銷售，是 Honda 約 30 年來首次貼牌車；時事通信 10/11 也引述消息人士報導同一計畫。Honda 在東南亞沒有大梁式皮卡，可省下開發與生產成本，Mitsubishi 泰國廠則能提高產能利用率。目前兩家都未正式證實：Honda 表示尚未宣布任何決定，Mitsubishi 稱三家（含 Nissan）仍在討論各種合作，會在適當時機公布。",
-   "analysis": [
-    [
-     "貼牌看點",
-     "皮卡貼牌通常只換水箱護罩、廠徽、保險桿與燈組內部，車門和車斗沿用；Triton 的臉能被改到多像 Honda，是最值得觀察的地方。"
-    ],
-    [
-     "前臉",
-     "現行第六代 Triton 用 Dynamic Shield 的皮卡版：立體大格柵＋護板，上方三段 L 形 LED 日行燈像鷹眼，下方是三燈式頭燈。"
-    ],
-    [
-     "側面與比例",
-     "設計概念 BEAST MODE：水平走向的大面門板，配上明顯外凸的輪拱，讓車看起來更寬、更穩。"
-    ],
-    [
-     "車尾",
-     "兩側 T 字形尾燈強調寬度；尾燈與車斗門是貼牌時常見的換件區。"
-    ],
-    [
-     "品牌方向",
-     "若成真，Honda 的皮卡 DNA 將借自 Mitsubishi，日系三家合作從研發延伸到產品線共用。"
-    ]
-   ],
-   "sources": [
-    [
-     "Nikkei Asia（10/10）",
-     "https://asia.nikkei.com/business/automobiles/honda-to-sell-thai-built-mitsubishi-pickup-under-own-brand-in-southeast-asia"
-    ],
-    [
-     "Nippon.com／時事通信（10/11）",
-     "https://www.nippon.com/en/news/yjj2026100901134/"
-    ],
-    [
-     "Automotive News",
-     "https://www.autonews.com/honda/an-honda-sourcing-mitsubishi-triton-pickup-1009/"
-    ],
-    [
-     "AutoCar Philippines（雙方回應）",
-     "https://autocar.com.ph/honda-to-offer-rebadged-mitsubishi-triton-by-2028-report/"
-    ],
-    [
-     "Mitsubishi Motors：Triton 設計（BEAST MODE）",
-     "https://www.mitsubishi-motors.com/en/brand/design/production_cars/l200/"
-    ]
-   ],
-   "image": {
-    "file": "news-mitsubishi-triton.webp",
-    "alt": "橘色 Mitsubishi Triton 皮卡前側視，立體格柵與 L 形 LED 日行燈",
-    "credit": "Mitsubishi Motors",
-    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2023/20230726_2.html"
-   }
-  },
   {
    "id": "alfa-cuorerosso",
    "tag": "世界首發 · 巴黎車展",
@@ -311,6 +252,65 @@
     "alt": "深綠色比亞迪三代唐 EV 三四分前視，全寬燈帶與懸浮車頂",
     "credit": "BYD（via CarNewsChina）",
     "credit_url": "https://carnewschina.com/2026/10/08/byd-unveils-interior-of-its-third-generation-tang-ev/"
+   }
+  },
+  {
+   "id": "mitsubishi-triton-honda",
+   "tag": "聯盟動態 · 貼牌報導",
+   "date": "2026-10-10",
+   "brand": "Mitsubishi",
+   "title": "日經：Honda 擬 2028 年起貼牌販售泰國製 Mitsubishi Triton 皮卡",
+   "orig": "Honda to sell Thai-built Mitsubishi pickup under own brand in Southeast Asia",
+   "summary": "日經亞洲 10/10 報導，Honda 計畫最快 2028 年起，把 Mitsubishi 在泰國生產的 Triton 皮卡掛上 Honda 品牌，在東南亞等地銷售，是 Honda 約 30 年來首次貼牌車；時事通信 10/11 也引述消息人士報導同一計畫。Honda 在東南亞沒有大梁式皮卡，可省下開發與生產成本，Mitsubishi 泰國廠則能提高產能利用率。目前兩家都未正式證實：Honda 表示尚未宣布任何決定，Mitsubishi 稱三家（含 Nissan）仍在討論各種合作，會在適當時機公布。",
+   "analysis": [
+    [
+     "貼牌看點",
+     "皮卡貼牌通常只換水箱護罩、廠徽、保險桿與燈組內部，車門和車斗沿用；Triton 的臉能被改到多像 Honda，是最值得觀察的地方。"
+    ],
+    [
+     "前臉",
+     "現行第六代 Triton 用 Dynamic Shield 的皮卡版：立體大格柵＋護板，上方三段 L 形 LED 日行燈像鷹眼，下方是三燈式頭燈。"
+    ],
+    [
+     "側面與比例",
+     "設計概念 BEAST MODE：水平走向的大面門板，配上明顯外凸的輪拱，讓車看起來更寬、更穩。"
+    ],
+    [
+     "車尾",
+     "兩側 T 字形尾燈強調寬度；尾燈與車斗門是貼牌時常見的換件區。"
+    ],
+    [
+     "品牌方向",
+     "若成真，Honda 的皮卡 DNA 將借自 Mitsubishi，日系三家合作從研發延伸到產品線共用。"
+    ]
+   ],
+   "sources": [
+    [
+     "Nikkei Asia（10/10）",
+     "https://asia.nikkei.com/business/automobiles/honda-to-sell-thai-built-mitsubishi-pickup-under-own-brand-in-southeast-asia"
+    ],
+    [
+     "Nippon.com／時事通信（10/11）",
+     "https://www.nippon.com/en/news/yjj2026100901134/"
+    ],
+    [
+     "Automotive News",
+     "https://www.autonews.com/honda/an-honda-sourcing-mitsubishi-triton-pickup-1009/"
+    ],
+    [
+     "AutoCar Philippines（雙方回應）",
+     "https://autocar.com.ph/honda-to-offer-rebadged-mitsubishi-triton-by-2028-report/"
+    ],
+    [
+     "Mitsubishi Motors：Triton 設計（BEAST MODE）",
+     "https://www.mitsubishi-motors.com/en/brand/design/production_cars/l200/"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-triton.webp",
+    "alt": "橘色 Mitsubishi Triton 皮卡前側視，立體格柵與 L 形 LED 日行燈",
+    "credit": "Mitsubishi Motors",
+    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2023/20230726_2.html"
    }
   }
  ],
