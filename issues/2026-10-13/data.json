@@ -506,73 +506,78 @@
   ],
   "cmf": [
     {
-      "id": "cmf-smart-2-couture",
-      "car": "smart #2 Couture Edition",
-      "tag": "新車 · 巴黎車展",
-      "title": "霧白車身配白金色車頂，限量版把「時裝」穿上身",
+      "id": "cmf-citroen-2cv-concept",
+      "car": "Citroën 2 CV Concept",
+      "tag": "概念車 · 巴黎車展",
+      "title": "黃格紋座椅配電木米色，把老 2CV 的記憶搬進車裡",
       "points": [
-        "車身是 Atelier White Matte 霧面白，車頂對比 Platinum Gold 白金色。",
-        "金色細節延伸到外觀飾條，搭配專屬 16 吋 Lyra 輪圈。",
-        "車內有編號銘牌；歐洲版標配玻璃車頂、氛圍燈與加熱座椅。",
-        "主題是「Function becomes Fashion」，歐洲、中國各限量 999 台。"
+        "座椅用 1953–1990 年 2CV 的經典格紋，重新配成黃色系。",
+        "方向盤、控制鍵與座椅管架用米色，呼應早年的電木（Bakelite）零件。",
+        "地板與門板包覆仿藤編、編籃質感的布料。",
+        "中控改成可拆的籃子，用木材加生質塑料 3D 列印；車外是橘底的 Infra Red 色。"
       ],
       "image": {
-        "file": "cmf-smart-2-couture.webp",
-        "alt": "霧白車身、白金色車頂的 smart #2 Couture Edition",
-        "credit": "smart Media",
-        "credit_url": "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+        "file": "cmf-citroen-2cv-concept.webp",
+        "alt": "Citroën 2 CV Concept 座艙：黃色格紋長椅、米色方向盤與置物籃",
+        "credit": "Citroën（via Auto&Design）",
+        "credit_url": "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/"
       },
       "sources": [
         [
-          "smart 官方新聞稿",
-          "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+          "Auto&Design",
+          "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/"
+        ],
+        [
+          "Citroën 官方新聞稿",
+          "https://www.media.stellantis.com/em-en/citroen/press/citroen-2-cv-concept-time-2-meet-again"
         ]
       ]
     },
     {
-      "id": "cmf-renault-8-gordini",
-      "car": "Renault 8 Gordini 概念",
-      "tag": "概念車 · 巴黎車展",
-      "title": "Gordini 藍白條紋回歸，車內是鋁件配軟布料",
+      "id": "cmf-ferrari-purosangue-denim",
+      "car": "Ferrari Purosangue「DENIM」",
+      "tag": "Tailor Made 一台限定 · 岡山",
+      "title": "岡山 KUROKI 丹寧包進座艙，車身是藍色漸層霧面",
       "points": [
-        "外觀用 Gordini 傳統的藍底白色賽車條紋塗裝。",
-        "儀表板是鋁製面板，嵌入圓形數位儀表。",
-        "儀表板表面包覆柔軟布料，跟冷硬的鋁件形成對比。",
-        "鋁製中控台排滿撥桿開關，副駕腳邊還有拉力賽式踏板。"
+        "座艙使用岡山井原 KUROKI 的丹寧布，染色、織布、整理加工都由同一家廠完成。",
+        "車身由下方 Blu O.Z Matt 漸變到上方 Blu Hembery Matt 的霧面藍。",
+        "藍色漸層從車身延續到內裝細節，連紀念銘牌也是同樣漸層。",
+        "同場的姊妹車「KATANA」則是拉絲鋁車身配 Tortora 色內裝。"
       ],
       "image": {
-        "file": "cmf-renault-8-gordini.webp",
-        "alt": "Renault 8 Gordini 概念車座艙，鋁製儀表板與藍色布料",
-        "credit": "Renault（via Autocar）",
-        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+        "file": "cmf-ferrari-purosangue-denim.webp",
+        "alt": "Ferrari Purosangue DENIM 的丹寧布座椅",
+        "credit": "M-Auto Italia（via Car Watch）",
+        "credit_url": "https://car.watch.impress.co.jp/docs/news/2146093.html"
       },
       "sources": [
         [
-          "Autocar",
-          "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+          "Car Watch",
+          "https://car.watch.impress.co.jp/docs/news/2146093.html"
         ]
       ]
     },
     {
-      "id": "cmf-alpine-a310",
-      "car": "Alpine A310 Vision",
-      "tag": "概念車 · 巴黎車展",
-      "title": "70 年代橘色玻璃，座艙按鍵像音響面板",
+      "id": "cmf-porsche-911-land-down-under",
+      "car": "Porsche 911 Turbo S Land Down Under",
+      "tag": "特別版 · 澳洲 75 週年",
+      "title": "深夜藍配桉木棕皮革，儀表板嵌澳洲絲橡木",
       "points": [
-        "車窗用 1970 年代風格的橘色玻璃。",
-        "座艙走有機曲線造型，控制鍵的靈感來自 hi-fi 音響。",
-        "兩段式尾翼中間嵌一小段透明件，保留駕駛的後方視野。"
+        "內裝是 Dark Night Blue 皮革，搭配專為此案調出的 Coolibah Brown。",
+        "座椅中段有筆刷狀打孔圖案，共 14,417 個孔，呼應藝術家 Werner Bronkhorst 的筆觸。",
+        "儀表板與後座飾板是手工處理的澳洲 Silky Oak 木飾，點綴 Neodyme 色。",
+        "上儀表板印藍山地形等高線，車頂刺繡 1951 年烏魯魯上空星圖。"
       ],
       "image": {
-        "file": "cmf-alpine-a310.webp",
-        "alt": "Alpine A310 Vision 概念車側前方",
-        "credit": "Alpine（via Autocar）",
-        "credit_url": "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+        "file": "cmf-porsche-911-land-down-under.webp",
+        "alt": "911 Turbo S Land Down Under 的木飾儀表板與棕色皮革",
+        "credit": "Porsche Newsroom",
+        "credit_url": "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html"
       },
       "sources": [
         [
-          "Autocar",
-          "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+          "Porsche Newsroom",
+          "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html"
         ]
       ]
     }
