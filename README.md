@@ -51,6 +51,12 @@ tools/
      3. 裁成 16:9、縮成 1600×900 WebP（q≈82，<300KB），存成 `issues/<date>/img/news-<id>.webp`。
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
+1b. **色彩與材質 CMF（2–3 則，有好素材才放）**：放在 7 則設計新聞之後。對象：近期新車／特別版／Tailor Made 一車一款、原廠內裝設計專文，或經典車型的 CMF 回顧。
+   - 欄位：`cmf[]`：`{id, car, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{file:"cmf-<id>.webp", alt, credit, credit_url}, sources[[名稱, url]]}`；圖 16:9、1600×900 WebP。build.py 中 `cmf` 為選填，沒有就不顯示此區（舊期不受影響）。
+   - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**（例：smart #2 已在設計新聞，用同一篇 smart 新聞稿再做 CMF 不行）。同一台車可以放，但必須用**另一篇專門詳細介紹內裝、色彩、材質的來源**（原廠 CMF／內裝新聞稿、設計師訪談、Interior Motives 等），並配內裝或材質照。優先選設計新聞以外的車，素材夠好時才用同車。
+   - **規則 2：照片必須是內裝或材質特寫**：座艙、座椅、儀表板、飾板、縫線、布料／皮革紋理、漆面細節的近拍，清晰度至少要像座艙全景照那樣看得清材質。**禁止外觀 3/4 角度或全車照**（車身色只能在近拍細節中呈現）。找不到合格照片就換一台車，不放無圖或不合格圖。
+   - **來源規則**：優先原廠新聞稿／press kit（有色名、材質名）；其次 Auto&Design、Car Design News、Interior Motives、Dezeen、Designboom、Wallpaper*、Autocar、Top Gear、Car Watch。每一句 point 都要能在來源原文找到；色名、材質名保留原廠英文名稱；不可從照片推測材質；原文矛盾或模糊的細節不寫。媒體圖庫照 credit 寫「品牌（via 媒體）」；不可用 AI 生成圖。
+   - **去重（30 天）**：每則寫入 `cmf-log.json`（repo 根目錄，`{date, car_key, angle, url, image}`，`car_key` 例：`ferrari-purosangue-denim`）。30 天內同 `car_key` 或同 `url` 不再放；同車型不同版本只有出現新的 CMF 內容才可放。沒有合格素材就放 2 則，不湊數；0 則時省略 `cmf`，此區自動不顯示。
 2. **汽車新知（3–5 則）**：EV、電池、自駕、法規、製造、市場；摘要＋連結。
    **今日設計名詞（必要步驟，每期都要畫新圖）**：寫一則和當期新聞呼應的名詞（`term.name / zh / body / source`），並**為這個名詞手繪一張新的線稿示意圖**：
    - **選詞**：只用汽車設計圈公認、查得到用法的術語（例：lighting signature、DRG／down-the-road graphic、dash-to-axle、greenhouse、DLO、shoulder line、C-pillar、heritage cue）。來源以 Car Design News、Interior Motives、車廠設計新聞稿或設計師訪談為準；**不可自創名詞**，也不要用某位設計師的一次性口語（例如 Jaguar 的「strike-through graphic」）當主詞條，必要時改用它所屬的通用術語。
