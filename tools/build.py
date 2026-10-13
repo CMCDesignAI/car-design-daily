@@ -131,11 +131,11 @@ def page(d, base, all_issues, is_root):
 <link rel="stylesheet" href="{css}">
 {theme_init("car")}
 </head><body class="mode-car">
-{topbar(base, "car", base, f'<nav class="nav"><a href="#design">設計新聞</a><a href="#knowledge">汽車新知</a><a href="#mood">情緒板</a><a href="{base}archive/">往期</a></nav>')}
+{topbar(base, "car", base, f'<nav class="nav"><a href="#design">設計新聞</a>{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a><a href="#mood">情緒板</a><a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
 <h1>Car Design Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span><span>汽車新知 {len(d['knowledge'])} 則</span><span>情緒板 {len(d['moodboards'])} 組</span></div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span><span>情緒板 {len(d['moodboards'])} 組</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     # design news
     H.append('<section id="design"><div class="sec-head"><span class="num">01</span><h2>設計新聞</h2><span class="en">Design News</span></div><div class="news">')
@@ -151,15 +151,28 @@ def page(d, base, all_issues, is_root):
         else:
             H.append(f'<article class="story" id="{s["id"]}">{fig}{head}</div><p class="alabel">設計解析 Design Notes</p><ul class="analysis">{an}</ul><div class="src">來源：{src}</div></article>')
     H.append('</div></section>')
+    # colour & material (optional; issues without "cmf" render exactly as before)
+    cmf = d.get("cmf") or []
+    n_k, n_m = ("03", "04") if cmf else ("02", "03")
+    if cmf:
+        H.append('<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div><div class="cmf">')
+        for c in cmf:
+            im = c.get("image")
+            fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1600" height="900"></div>'
+                   f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
+            pts = "".join(f'<li>{e(x)}</li>' for x in c["points"])
+            src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in c["sources"])
+            H.append(f'<article class="cmf-card" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
+        H.append('</div></section>')
     # knowledge
-    H.append('<section id="knowledge"><div class="sec-head"><span class="num">02</span><h2>汽車新知</h2><span class="en">Industry &amp; Tech</span></div><div class="kgrid">')
+    H.append(f'<section id="knowledge"><div class="sec-head"><span class="num">{n_k}</span><h2>汽車新知</h2><span class="en">Industry &amp; Tech</span></div><div class="kgrid">')
     for k in d["knowledge"]:
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in k["sources"])
         H.append(f'<article class="k"><span class="tag">{e(k["tag"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(k["date"])}</span><h3>{e(k["title"])}</h3><p>{e(k["summary"])}</p><div class="src">{src}</div></article>')
     t = d["term"]
     H.append(f'</div><div class="term"><div><div class="lab">今日設計名詞 · Term of the Day</div><h3>{e(t["name"])}</h3><div class="zh">{e(t["zh"])}</div>{term_diagram(d, all_issues)}</div>{term_text(t)}</div></section>')
     # mood boards
-    H.append('<section id="mood"><div class="sec-head"><span class="num">03</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
+    H.append(f'<section id="mood"><div class="sec-head"><span class="num">{n_m}</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
     H.append('<p class="note">情緒板裡的車輛都是原創虛構的概念設計，不代表任何真實車款或品牌。圖像為程式生成的插畫和材質紋理，主題每期隨機抽選。</p>')
     for b in d["moodboards"]:
         figs = "".join(f'<figure class="tile{" hero" if h else ""}"><img src="{img}{n}.webp" alt="{e(c)}" loading="lazy" decoding="async"><figcaption>{e(c)}</figcaption></figure>' for n, c, h in b["images"])

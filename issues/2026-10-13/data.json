@@ -1,507 +1,580 @@
 {
- "date": "2026-10-13",
- "weekday": "週二",
- "issue_no": 6,
- "lede": "巴黎車展第二天：Peugeot E-T16 以 816 hp 重現 205 T16，橫向三爪燈預告下一代 E-208；smart #2 兩人座回歸，短懸伸守住招牌輪廓；Peugeot Vision RCZ、Alpine A310 Vision、Renault 8 Gordini 與 DS F3VER 把法系 heritage 玩到極致，Hyundai 全新 Bayon 同場首發。產業面：歐盟對中國油電車設 35 萬輛配額，中國同日下調新能源車出口退稅。",
- "design_news": [
-  {
-   "id": "peugeot-et16",
-   "tag": "世界首發 · 巴黎車展",
-   "date": "2026-10-12",
-   "brand": "Peugeot",
-   "title": "E-T16 Concept：205 T16 拉力魂重生，三爪燈改成橫向，預告下一代 E-208",
-   "orig": "PEUGEOT E-T16 CONCEPT: an icon reinvented",
-   "summary": "Peugeot 在巴黎車展世界首發 E-T16 Concept，向兩度奪得 WRC 冠軍的 205 T16 致敬。三馬達、816 hp，0–300 km/h 16 秒，是品牌史上最強的 Peugeot。官方明說它是下一代 E-208 的「終極預告」，也是 Feline Future 設計語言首次亮相；設計總監 Matthias Hossann 對 Autocar 表示，若有足夠買家興趣就考慮量產。",
-   "analysis": [
-    [
-     "比例",
-     "寬體、短懸、輪拱外擴的 Group B 站姿，把小車做成 hyper-hatch。"
-    ],
-    [
-     "燈號",
-     "經典三爪燈改成橫向三條細長光條，中間夾發光獅標，前後同一套語彙。"
-    ],
-    [
-     "品牌方向",
-     "Feline Future 從這台開始，明年的新 E-208 會先接手。"
-    ],
-    [
-     "室內 UX",
-     "新一代 i-Cockpit 加入 Hypersquare 方形方向控制。"
-    ]
-   ],
-   "sources": [
-    [
-     "Stellantis Media（Peugeot）",
-     "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-e-t16-concept-an-icon-reinvented"
-    ],
-    [
-     "Autocar",
-     "https://www.autocar.co.uk/car-news/electric-cars/new-805bhp-peugeot-e-t16-concept-reinvents-80s-rally-hero"
-    ]
-   ],
-   "image": {
-    "file": "news-peugeot-et16.webp",
-    "alt": "Peugeot E-T16 Concept 在巴黎車展展台，黑紅車身與橫向三爪燈",
-    "credit": "Peugeot（via Autocar）",
-    "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/new-805bhp-peugeot-e-t16-concept-reinvents-80s-rally-hero"
-   }
-  },
-  {
-   "id": "smart-2",
-   "tag": "世界首發 · 量產",
-   "date": "2026-10-12",
-   "brand": "smart",
-   "title": "smart #2 回歸：2.746 米兩人座，短懸伸、輪子推到四角",
-   "orig": "The All-Electric smart #2 Makes Its World Premiere at the Paris Motor Show",
-   "summary": "smart 在巴黎世界首發純電 smart #2，接替 Fortwo 回到兩人座城市車。由 Mercedes-Benz 全球設計團隊操刀，車長 2,746 mm，採全新 ECA 平台與 Tridion Cell Evo 安全車殼，迴轉半徑 6.95 m。歐洲與中國將開放預訂，另有 Couture Edition。",
-   "analysis": [
-    [
-     "比例",
-     "短前後懸＋輪子推到四角，守住 smart 一眼可認的方塊輪廓。"
-    ],
-    [
-     "面處理",
-     "飽滿量體、柔和雕塑面，走親和路線（Love, Pure, Unexpected）。"
-    ],
-    [
-     "燈號",
-     "燈具造型取自品牌 logo。"
-    ],
-    [
-     "CMF",
-     "Tridion 車殼與「浮動車頂」重新詮釋，雙色對比延續。"
-    ],
-    [
-     "室內 UX",
-     "長椅式座椅＋S 形座艙，在極小車身裡擠出空間感。"
-    ]
-   ],
-   "sources": [
-    [
-     "smart Newsroom",
-     "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
-    ]
-   ],
-   "image": {
-    "file": "news-smart-2.webp",
-    "alt": "紅白兩台 smart #2 在巴黎車展世界首發舞台",
-    "credit": "smart Europe Newsroom",
-    "credit_url": "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
-   }
-  },
-  {
-   "id": "peugeot-rcz",
-   "tag": "世界首發 · 概念",
-   "date": "2026-10-12",
-   "brand": "Peugeot",
-   "title": "Vision RCZ：四座電動 GT 回歸，長 4.65 米、高 1.35 米",
-   "orig": "Peugeot RCZ returns as sleek four-seat GT - with production plans",
-   "summary": "Peugeot 另一台世界首發是 RCZ Vision：長 4.65 m、高 1.35 m、寬 1.94 m，與 BMW 4 系 Coupé 相近，後座是真能坐人的四座，不再是 2+2。設計總監 Hossann 說刻意不做「太未來」，要讓它有量產可能；它和 E-T16 一起示範品牌下一代設計語言。",
-   "analysis": [
-    [
-     "比例",
-     "低車頂、長車頭的 GT 輪廓，但保留後座頭部空間。"
-    ],
-    [
-     "品牌方向",
-     "和 E-T16 同屬 Feline Future，一台講性能、一台講優雅。"
-    ],
-    [
-     "室內 UX",
-     "同樣搭載 Hypersquare 方向控制。"
-    ],
-    [
-     "量產性",
-     "官方強調可實現性，若需求足夠可能上市。"
-    ]
-   ],
-   "sources": [
-    [
-     "Autocar",
-     "https://www.autocar.co.uk/car-news/electric-cars/peugeot-rcz-returns-sleek-four-seat-gt-production-plans"
-    ],
-    [
-     "Stellantis Media（Peugeot 巴黎車展）",
-     "https://www.media.stellantis.com/em-en/peugeot/press/2026-paris-motor-show-peugeot-unveils-two-world-premieres-and-puts-emotion-elegance-and-driving-pleasure-at-its-core"
-    ]
-   ],
-   "image": {
-    "file": "news-peugeot-rcz.webp",
-    "alt": "Peugeot Vision RCZ 灰色四座 GT 概念車在巴黎車展",
-    "credit": "Peugeot（via Autocar）",
-    "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/peugeot-rcz-returns-sleek-four-seat-gt-production-plans"
-   }
-  },
-  {
-   "id": "alpine-a310",
-   "tag": "概念 · 巴黎車展",
-   "date": "2026-10-12",
-   "brand": "Alpine",
-   "title": "A310 Vision：1971 年幾何 GT 的復古未來版，可能限量生產",
-   "orig": "Stunning Alpine A310 Vision previews retro-futuristic special",
-   "summary": "Alpine 在巴黎發表 A310 Vision 一次性概念車，靈感來自 1971 年 A310 與後來的 V6 寬體版。長 4,550 mm、高僅 1,180 mm、寬 2,030 mm，兩人座，建立在下一代 A110 的 Alpine Performance Platform 上。設計主管 Antony Villain 暗示它可能成為下一個限量特別車款。",
-   "analysis": [
-    [
-     "比例",
-     "極低車身、寬輪距，混合原版純粹輪廓與 V6 寬體的力量感。"
-    ],
-    [
-     "面處理",
-     "原版的銳利幾何線被刻意「加一點柔」。"
-    ],
-    [
-     "燈號",
-     "前臉細長橫向燈帶，延續 A310 的楔形鼻。"
-    ],
-    [
-     "品牌方向",
-     "展示 APP 平台的彈性：同一底盤可做跑車、2+2 與限量車。"
-    ]
-   ],
-   "sources": [
-    [
-     "Autocar",
-     "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
-    ]
-   ],
-   "image": {
-    "file": "news-alpine-a310.webp",
-    "alt": "銀色 Alpine A310 Vision 概念車在巴黎車展 Alpine 展台",
-    "credit": "Alpine（via Autocar）",
-    "credit_url": "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
-   }
-  },
-  {
-   "id": "hyundai-bayon",
-   "tag": "世界首發 · 量產",
-   "date": "2026-10-12",
-   "brand": "Hyundai",
-   "title": "全新 Bayon：更像真 SUV 的 B 級跨界，N Line 加黑色包圍",
-   "orig": "Hyundai Motor Company Presents All-New BAYON and TUCSON SUVs Plus Key Brand Initiatives at Paris Motor Show",
-   "summary": "Hyundai 在巴黎世界首發全新 Bayon，定位「真正的 B-SUV」，主打歐洲市場、於土耳其 İzmit 廠生產，2027 年加入油電動力。N Line 版有專屬 18 吋輪圈與高光黑包圍；同場還有歐規 Tucson 與 Tucson N Line。",
-   "analysis": [
-    [
-     "比例",
-     "從小跨界改成更方正、更高挺的 SUV 站姿。"
-    ],
-    [
-     "燈號",
-     "車頭橫貫細燈帶，與 Tucson 的水平簽名同一家族。"
-    ],
-    [
-     "CMF",
-     "N Line 用高光黑包圍與 18 吋專屬輪圈拉出運動感。"
-    ],
-    [
-     "品牌方向",
-     "歐洲小型 SUV 主力換代，設計與 Tucson 一起統一家族臉。"
-    ]
-   ],
-   "sources": [
-    [
-     "Hyundai Newsroom Europe",
-     "https://www.hyundai.news/eu/articles/press-releases/paris-motor-show-2026.html"
-    ]
-   ],
-   "image": {
-    "file": "news-hyundai-bayon.webp",
-    "alt": "白色全新 Hyundai Bayon N Line 前三分之四工作室照",
-    "credit": "Hyundai Motor Europe",
-    "credit_url": "https://www.hyundai.news/eu/articles/press-releases/paris-motor-show-2026.html"
-   }
-  },
-  {
-   "id": "renault-8-gordini",
-   "tag": "概念 · 巴黎車展",
-   "date": "2026-10-12",
-   "brand": "Renault",
-   "title": "8 Gordini 概念：1962 年小房車變電動雙座跑車，新設計主管首作",
-   "orig": "Gordini returns: Renault revives 8 as futuristic electric sports car",
-   "summary": "Renault 以 8 Gordini 概念車重現 1962 年的 Renault 8：從四座房車變成兩座電動 Coupé，長 4,120 mm、前 19 吋後 20 吋輪圈、270 hp。這是 Alexandre Malval 接任設計主管後工作室第一件作品；官方說是一次性展示車，將進駐 Flins 新博物館，但會透露未來量產車的線索。",
-   "analysis": [
-    [
-     "比例",
-     "小而短的雙座車，強調好玩、靈活，而不是比圈速。"
-    ],
-    [
-     "燈號",
-     "前臉四圓燈＋賽車白條紋，直接向 Gordini 致敬。"
-    ],
-    [
-     "CMF",
-     "法國藍車身配白條，Gordini 最經典的配色。"
-    ],
-    [
-     "品牌方向",
-     "Malval 時代第一個訊號：用 heritage 做出平易近人的性能形象。"
-    ]
-   ],
-   "sources": [
-    [
-     "Autocar",
-     "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
-    ]
-   ],
-   "image": {
-    "file": "news-renault-8-gordini.webp",
-    "alt": "藍色 Renault 8 Gordini 概念車，四圓燈與白色條紋",
-    "credit": "Renault（via Autocar）",
-    "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
-   }
-  },
-  {
-   "id": "ds-f3ver",
-   "tag": "概念 · 巴黎車展",
-   "date": "2026-10-12",
-   "brand": "DS",
-   "title": "F3VER：DS 3 放棄跨界、回到低趴掀背，無限鏡尾燈可量產",
-   "orig": "DS to return to hatchback roots for next-generation No3",
-   "summary": "DS 發表 F3VER 概念車，預告明年的 No3：設計總監 Thierry Métroz 說客戶直言「不要再一台 SUV」，所以下一代改回貼地掀背。車長 4.19 m，方形尾燈與雙色車身呼應初代 DS 3；「無限鏡」尾燈可量產（但不含動畫），數位後窗則不會上市。內裝明年另一台概念車再公布。",
-   "analysis": [
-    [
-     "比例",
-     "從高跨界回到低腰掀背，車長只比現款略長。"
-    ],
-    [
-     "燈號",
-     "無限鏡（infinity mirror）尾燈做出深度感，是量產可行的亮點。"
-    ],
-    [
-     "CMF",
-     "雙色車身回到初代 DS 3 的辨識。"
-    ],
-    [
-     "品牌方向",
-     "以更短的兩年開發週期救銷量。"
-    ]
-   ],
-   "sources": [
-    [
-     "Autocar",
-     "https://www.autocar.co.uk/car-news/new-cars/ds-return-hatchback-roots-next-generation-no3"
-    ]
-   ],
-   "image": {
-    "file": "news-ds-f3ver.webp",
-    "alt": "藍紫色 DS F3VER 概念車在巴黎車展",
-    "credit": "DS Automobiles（via Autocar）",
-    "credit_url": "https://www.autocar.co.uk/car-news/new-cars/ds-return-hatchback-roots-next-generation-no3"
-   }
-  }
- ],
- "knowledge": [
-  {
-   "tag": "貿易 · 歐中",
-   "date": "2026-10-12",
-   "title": "歐盟對中國油電／插電車設年 35 萬輛配額，在歐組裝者豁免",
-   "summary": "歐盟執委會確認以 WTO 防衛措施限制中國油電與插電混合車進口，每年 35 萬輛，最快 12 月生效、為期四年，第二年起每年增 6%。歐盟預估中國市佔將從 6% 減半；在歐洲當地組裝的中國品牌（如比亞迪匈牙利廠）不受限。中國商務部則表示安排允許在 2025 年 30.2 萬輛基礎上成長。",
-   "sources": [
-    [
-     "The Guardian",
-     "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles"
-    ],
-    [
-     "CnEVPost",
-     "https://cnevpost.com/2026/10/12/china-eu-hybrid-trade-allows-growth/"
-    ]
-   ]
-  },
-  {
-   "tag": "政策 · 中國",
-   "date": "2026-10-12",
-   "title": "中國新能源車出口退稅由 13% 降到 9%，2027/4/1 起",
-   "summary": "財政部與稅務總局宣布，新能源車出口增值稅退稅率自 2027 年 4 月 1 日起由 13% 降至 9%。德意志銀行估算比亞迪每輛出口車淨利約減 5,000 元人民幣，奇瑞、吉利、上汽、長城、零跑等出口獲利也將受壓。",
-   "sources": [
-    [
-     "CnEVPost",
-     "https://cnevpost.com/2026/10/12/china-cuts-nev-export-tax-rebates/"
-    ]
-   ]
-  },
-  {
-   "tag": "市場 · 中國",
-   "date": "2026-10-12",
-   "title": "9 月中國新能源車銷量 182.3 萬創年內新高，出口暴增 160%",
-   "summary": "中汽協數據：9 月新能源車（含出口）銷量 182.3 萬輛、年增 13.6%，出口 57.1 萬輛年增 160%，國內則年減 9.4%。乘聯會零售口徑下滑 16.7%，但新能源滲透率創新高 67%。",
-   "sources": [
-    [
-     "CnEVPost（CAAM）",
-     "https://cnevpost.com/2026/10/12/china-sept-2026-nev-sales-caam/"
-    ],
-    [
-     "CnEVPost（CPCA）",
-     "https://cnevpost.com/2026/10/12/china-sept-2026-nev-retail-cpca/"
-    ]
-   ]
-  },
-  {
-   "tag": "市場 · 歐洲",
-   "date": "2026-10-12",
-   "title": "巴黎車展新車潮：歐洲車廠反擊中國品牌，Renault 法國電動車產能擬增 50%",
-   "summary": "路透報導，巴黎車展開幕即湧現大量新車，回應中國品牌在歐擴張；Renault 表示未來 12 個月在法國的電動車產量可增加至少 50%。馬克宏在會場表示，法德對「Made in Europe」在地含量規則的共識「即將達成」。",
-   "sources": [
-    [
-     "Reuters（via Euronext）",
-     "https://live.euronext.com/en/financial-news/model-blitz-paris-motor-show-europe-china-rivalry-heats"
-    ]
-   ]
-  }
- ],
- "term": {
-  "name": "Overhang",
-  "zh": "懸伸（前懸／後懸）",
-  "body": "懸伸是指車輪中心到車頭或車尾最外緣的距離，分成前懸和後懸。本期的 smart #2 車長只有 2,746 mm，四個輪子幾乎貼在車身四角，車頭和車尾在輪子外只多出一小段，從側面看就是一個方方的小盒子。設計師把懸伸做短，是為了在最短的車身裡留出最大的座艙，也讓車看起來站得穩。",
-  "source": [
-   [
-    "smart Newsroom：smart #2 官方稿（short overhangs／wheels-at-the-corners）",
-    "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
-   ],
-   [
-    "Wikipedia：Overhang (vehicles)",
-    "https://en.wikipedia.org/wiki/Overhang_(vehicles)"
-   ]
+  "date": "2026-10-13",
+  "weekday": "週二",
+  "issue_no": 6,
+  "lede": "巴黎車展第二天：Peugeot E-T16 以 816 hp 重現 205 T16，橫向三爪燈預告下一代 E-208；smart #2 兩人座回歸，短懸伸守住招牌輪廓；Peugeot Vision RCZ、Alpine A310 Vision、Renault 8 Gordini 與 DS F3VER 把法系 heritage 玩到極致，Hyundai 全新 Bayon 同場首發。產業面：歐盟對中國油電車設 35 萬輛配額，中國同日下調新能源車出口退稅。",
+  "design_news": [
+    {
+      "id": "peugeot-et16",
+      "tag": "世界首發 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Peugeot",
+      "title": "E-T16 Concept：205 T16 拉力魂重生，三爪燈改成橫向，預告下一代 E-208",
+      "orig": "PEUGEOT E-T16 CONCEPT: an icon reinvented",
+      "summary": "Peugeot 在巴黎車展世界首發 E-T16 Concept，向兩度奪得 WRC 冠軍的 205 T16 致敬。三馬達、816 hp，0–300 km/h 16 秒，是品牌史上最強的 Peugeot。官方明說它是下一代 E-208 的「終極預告」，也是 Feline Future 設計語言首次亮相；設計總監 Matthias Hossann 對 Autocar 表示，若有足夠買家興趣就考慮量產。",
+      "analysis": [
+        [
+          "比例",
+          "寬體、短懸、輪拱外擴的 Group B 站姿，把小車做成 hyper-hatch。"
+        ],
+        [
+          "燈號",
+          "經典三爪燈改成橫向三條細長光條，中間夾發光獅標，前後同一套語彙。"
+        ],
+        [
+          "品牌方向",
+          "Feline Future 從這台開始，明年的新 E-208 會先接手。"
+        ],
+        [
+          "室內 UX",
+          "新一代 i-Cockpit 加入 Hypersquare 方形方向控制。"
+        ]
+      ],
+      "sources": [
+        [
+          "Stellantis Media（Peugeot）",
+          "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-e-t16-concept-an-icon-reinvented"
+        ],
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/new-805bhp-peugeot-e-t16-concept-reinvents-80s-rally-hero"
+        ]
+      ],
+      "image": {
+        "file": "news-peugeot-et16.webp",
+        "alt": "Peugeot E-T16 Concept 在巴黎車展展台，黑紅車身與橫向三爪燈",
+        "credit": "Peugeot（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/new-805bhp-peugeot-e-t16-concept-reinvents-80s-rally-hero"
+      }
+    },
+    {
+      "id": "smart-2",
+      "tag": "世界首發 · 量產",
+      "date": "2026-10-12",
+      "brand": "smart",
+      "title": "smart #2 回歸：2.746 米兩人座，短懸伸、輪子推到四角",
+      "orig": "The All-Electric smart #2 Makes Its World Premiere at the Paris Motor Show",
+      "summary": "smart 在巴黎世界首發純電 smart #2，接替 Fortwo 回到兩人座城市車。由 Mercedes-Benz 全球設計團隊操刀，車長 2,746 mm，採全新 ECA 平台與 Tridion Cell Evo 安全車殼，迴轉半徑 6.95 m。歐洲與中國將開放預訂，另有 Couture Edition。",
+      "analysis": [
+        [
+          "比例",
+          "短前後懸＋輪子推到四角，守住 smart 一眼可認的方塊輪廓。"
+        ],
+        [
+          "面處理",
+          "飽滿量體、柔和雕塑面，走親和路線（Love, Pure, Unexpected）。"
+        ],
+        [
+          "燈號",
+          "燈具造型取自品牌 logo。"
+        ],
+        [
+          "CMF",
+          "Tridion 車殼與「浮動車頂」重新詮釋，雙色對比延續。"
+        ],
+        [
+          "室內 UX",
+          "長椅式座椅＋S 形座艙，在極小車身裡擠出空間感。"
+        ]
+      ],
+      "sources": [
+        [
+          "smart Newsroom",
+          "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+        ]
+      ],
+      "image": {
+        "file": "news-smart-2.webp",
+        "alt": "紅白兩台 smart #2 在巴黎車展世界首發舞台",
+        "credit": "smart Europe Newsroom",
+        "credit_url": "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+      }
+    },
+    {
+      "id": "peugeot-rcz",
+      "tag": "世界首發 · 概念",
+      "date": "2026-10-12",
+      "brand": "Peugeot",
+      "title": "Vision RCZ：四座電動 GT 回歸，長 4.65 米、高 1.35 米",
+      "orig": "Peugeot RCZ returns as sleek four-seat GT - with production plans",
+      "summary": "Peugeot 另一台世界首發是 RCZ Vision：長 4.65 m、高 1.35 m、寬 1.94 m，與 BMW 4 系 Coupé 相近，後座是真能坐人的四座，不再是 2+2。設計總監 Hossann 說刻意不做「太未來」，要讓它有量產可能；它和 E-T16 一起示範品牌下一代設計語言。",
+      "analysis": [
+        [
+          "比例",
+          "低車頂、長車頭的 GT 輪廓，但保留後座頭部空間。"
+        ],
+        [
+          "品牌方向",
+          "和 E-T16 同屬 Feline Future，一台講性能、一台講優雅。"
+        ],
+        [
+          "室內 UX",
+          "同樣搭載 Hypersquare 方向控制。"
+        ],
+        [
+          "量產性",
+          "官方強調可實現性，若需求足夠可能上市。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/peugeot-rcz-returns-sleek-four-seat-gt-production-plans"
+        ],
+        [
+          "Stellantis Media（Peugeot 巴黎車展）",
+          "https://www.media.stellantis.com/em-en/peugeot/press/2026-paris-motor-show-peugeot-unveils-two-world-premieres-and-puts-emotion-elegance-and-driving-pleasure-at-its-core"
+        ]
+      ],
+      "image": {
+        "file": "news-peugeot-rcz.webp",
+        "alt": "Peugeot Vision RCZ 灰色四座 GT 概念車在巴黎車展",
+        "credit": "Peugeot（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/peugeot-rcz-returns-sleek-four-seat-gt-production-plans"
+      }
+    },
+    {
+      "id": "alpine-a310",
+      "tag": "概念 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Alpine",
+      "title": "A310 Vision：1971 年幾何 GT 的復古未來版，可能限量生產",
+      "orig": "Stunning Alpine A310 Vision previews retro-futuristic special",
+      "summary": "Alpine 在巴黎發表 A310 Vision 一次性概念車，靈感來自 1971 年 A310 與後來的 V6 寬體版。長 4,550 mm、高僅 1,180 mm、寬 2,030 mm，兩人座，建立在下一代 A110 的 Alpine Performance Platform 上。設計主管 Antony Villain 暗示它可能成為下一個限量特別車款。",
+      "analysis": [
+        [
+          "比例",
+          "極低車身、寬輪距，混合原版純粹輪廓與 V6 寬體的力量感。"
+        ],
+        [
+          "面處理",
+          "原版的銳利幾何線被刻意「加一點柔」。"
+        ],
+        [
+          "燈號",
+          "前臉細長橫向燈帶，延續 A310 的楔形鼻。"
+        ],
+        [
+          "品牌方向",
+          "展示 APP 平台的彈性：同一底盤可做跑車、2+2 與限量車。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+        ]
+      ],
+      "image": {
+        "file": "news-alpine-a310.webp",
+        "alt": "銀色 Alpine A310 Vision 概念車在巴黎車展 Alpine 展台",
+        "credit": "Alpine（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+      }
+    },
+    {
+      "id": "hyundai-bayon",
+      "tag": "世界首發 · 量產",
+      "date": "2026-10-12",
+      "brand": "Hyundai",
+      "title": "全新 Bayon：更像真 SUV 的 B 級跨界，N Line 加黑色包圍",
+      "orig": "Hyundai Motor Company Presents All-New BAYON and TUCSON SUVs Plus Key Brand Initiatives at Paris Motor Show",
+      "summary": "Hyundai 在巴黎世界首發全新 Bayon，定位「真正的 B-SUV」，主打歐洲市場、於土耳其 İzmit 廠生產，2027 年加入油電動力。N Line 版有專屬 18 吋輪圈與高光黑包圍；同場還有歐規 Tucson 與 Tucson N Line。",
+      "analysis": [
+        [
+          "比例",
+          "從小跨界改成更方正、更高挺的 SUV 站姿。"
+        ],
+        [
+          "燈號",
+          "車頭橫貫細燈帶，與 Tucson 的水平簽名同一家族。"
+        ],
+        [
+          "CMF",
+          "N Line 用高光黑包圍與 18 吋專屬輪圈拉出運動感。"
+        ],
+        [
+          "品牌方向",
+          "歐洲小型 SUV 主力換代，設計與 Tucson 一起統一家族臉。"
+        ]
+      ],
+      "sources": [
+        [
+          "Hyundai Newsroom Europe",
+          "https://www.hyundai.news/eu/articles/press-releases/paris-motor-show-2026.html"
+        ]
+      ],
+      "image": {
+        "file": "news-hyundai-bayon.webp",
+        "alt": "白色全新 Hyundai Bayon N Line 前三分之四工作室照",
+        "credit": "Hyundai Motor Europe",
+        "credit_url": "https://www.hyundai.news/eu/articles/press-releases/paris-motor-show-2026.html"
+      }
+    },
+    {
+      "id": "renault-8-gordini",
+      "tag": "概念 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Renault",
+      "title": "8 Gordini 概念：1962 年小房車變電動雙座跑車，新設計主管首作",
+      "orig": "Gordini returns: Renault revives 8 as futuristic electric sports car",
+      "summary": "Renault 以 8 Gordini 概念車重現 1962 年的 Renault 8：從四座房車變成兩座電動 Coupé，長 4,120 mm、前 19 吋後 20 吋輪圈、270 hp。這是 Alexandre Malval 接任設計主管後工作室第一件作品；官方說是一次性展示車，將進駐 Flins 新博物館，但會透露未來量產車的線索。",
+      "analysis": [
+        [
+          "比例",
+          "小而短的雙座車，強調好玩、靈活，而不是比圈速。"
+        ],
+        [
+          "燈號",
+          "前臉四圓燈＋賽車白條紋，直接向 Gordini 致敬。"
+        ],
+        [
+          "CMF",
+          "法國藍車身配白條，Gordini 最經典的配色。"
+        ],
+        [
+          "品牌方向",
+          "Malval 時代第一個訊號：用 heritage 做出平易近人的性能形象。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+        ]
+      ],
+      "image": {
+        "file": "news-renault-8-gordini.webp",
+        "alt": "藍色 Renault 8 Gordini 概念車，四圓燈與白色條紋",
+        "credit": "Renault（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+      }
+    },
+    {
+      "id": "ds-f3ver",
+      "tag": "概念 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "DS",
+      "title": "F3VER：DS 3 放棄跨界、回到低趴掀背，無限鏡尾燈可量產",
+      "orig": "DS to return to hatchback roots for next-generation No3",
+      "summary": "DS 發表 F3VER 概念車，預告明年的 No3：設計總監 Thierry Métroz 說客戶直言「不要再一台 SUV」，所以下一代改回貼地掀背。車長 4.19 m，方形尾燈與雙色車身呼應初代 DS 3；「無限鏡」尾燈可量產（但不含動畫），數位後窗則不會上市。內裝明年另一台概念車再公布。",
+      "analysis": [
+        [
+          "比例",
+          "從高跨界回到低腰掀背，車長只比現款略長。"
+        ],
+        [
+          "燈號",
+          "無限鏡（infinity mirror）尾燈做出深度感，是量產可行的亮點。"
+        ],
+        [
+          "CMF",
+          "雙色車身回到初代 DS 3 的辨識。"
+        ],
+        [
+          "品牌方向",
+          "以更短的兩年開發週期救銷量。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/new-cars/ds-return-hatchback-roots-next-generation-no3"
+        ]
+      ],
+      "image": {
+        "file": "news-ds-f3ver.webp",
+        "alt": "藍紫色 DS F3VER 概念車在巴黎車展",
+        "credit": "DS Automobiles（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/new-cars/ds-return-hatchback-roots-next-generation-no3"
+      }
+    }
   ],
-  "diagram": "term.svg"
- },
- "moodboards": [
-  {
-   "theme": "Neo-Tokyo night delivery van",
-   "zh": "新東京夜間配送車",
-   "intro": "深夜小巷裡的虛構電動配送廂型車：米白方盒車身、霓虹粉腰線、青色側燈，倒映在濕潤柏油上。",
-   "images": [
-    [
-     "mb1-1",
-     "原創虛構概念：米白配送廂型車停在霓虹街區（程式繪製）",
-     true
+  "knowledge": [
+    {
+      "tag": "貿易 · 歐中",
+      "date": "2026-10-12",
+      "title": "歐盟對中國油電／插電車設年 35 萬輛配額，在歐組裝者豁免",
+      "summary": "歐盟執委會確認以 WTO 防衛措施限制中國油電與插電混合車進口，每年 35 萬輛，最快 12 月生效、為期四年，第二年起每年增 6%。歐盟預估中國市佔將從 6% 減半；在歐洲當地組裝的中國品牌（如比亞迪匈牙利廠）不受限。中國商務部則表示安排允許在 2025 年 30.2 萬輛基礎上成長。",
+      "sources": [
+        [
+          "The Guardian",
+          "https://www.theguardian.com/environment/2026/oct/12/eu-deal-china-limit-imports-hybrid-electric-vehicles"
+        ],
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/12/china-eu-hybrid-trade-allows-growth/"
+        ]
+      ]
+    },
+    {
+      "tag": "政策 · 中國",
+      "date": "2026-10-12",
+      "title": "中國新能源車出口退稅由 13% 降到 9%，2027/4/1 起",
+      "summary": "財政部與稅務總局宣布，新能源車出口增值稅退稅率自 2027 年 4 月 1 日起由 13% 降至 9%。德意志銀行估算比亞迪每輛出口車淨利約減 5,000 元人民幣，奇瑞、吉利、上汽、長城、零跑等出口獲利也將受壓。",
+      "sources": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/12/china-cuts-nev-export-tax-rebates/"
+        ]
+      ]
+    },
+    {
+      "tag": "市場 · 中國",
+      "date": "2026-10-12",
+      "title": "9 月中國新能源車銷量 182.3 萬創年內新高，出口暴增 160%",
+      "summary": "中汽協數據：9 月新能源車（含出口）銷量 182.3 萬輛、年增 13.6%，出口 57.1 萬輛年增 160%，國內則年減 9.4%。乘聯會零售口徑下滑 16.7%，但新能源滲透率創新高 67%。",
+      "sources": [
+        [
+          "CnEVPost（CAAM）",
+          "https://cnevpost.com/2026/10/12/china-sept-2026-nev-sales-caam/"
+        ],
+        [
+          "CnEVPost（CPCA）",
+          "https://cnevpost.com/2026/10/12/china-sept-2026-nev-retail-cpca/"
+        ]
+      ]
+    },
+    {
+      "tag": "市場 · 歐洲",
+      "date": "2026-10-12",
+      "title": "巴黎車展新車潮：歐洲車廠反擊中國品牌，Renault 法國電動車產能擬增 50%",
+      "summary": "路透報導，巴黎車展開幕即湧現大量新車，回應中國品牌在歐擴張；Renault 表示未來 12 個月在法國的電動車產量可增加至少 50%。馬克宏在會場表示，法德對「Made in Europe」在地含量規則的共識「即將達成」。",
+      "sources": [
+        [
+          "Reuters（via Euronext）",
+          "https://live.euronext.com/en/financial-news/model-blitz-paris-motor-show-europe-china-rivalry-heats"
+        ]
+      ]
+    }
+  ],
+  "term": {
+    "name": "Overhang",
+    "zh": "懸伸（前懸／後懸）",
+    "body": "懸伸是指車輪中心到車頭或車尾最外緣的距離，分成前懸和後懸。本期的 smart #2 車長只有 2,746 mm，四個輪子幾乎貼在車身四角，車頭和車尾在輪子外只多出一小段，從側面看就是一個方方的小盒子。設計師把懸伸做短，是為了在最短的車身裡留出最大的座艙，也讓車看起來站得穩。",
+    "source": [
+      [
+        "smart Newsroom：smart #2 官方稿（short overhangs／wheels-at-the-corners）",
+        "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+      ],
+      [
+        "Wikipedia：Overhang (vehicles)",
+        "https://en.wikipedia.org/wiki/Overhang_(vehicles)"
+      ]
     ],
-    [
-     "mb1-2",
-     "貨艙：模組化收納格與粉色定位線（程式繪製）",
-     false
-    ],
-    [
-     "mb1-3",
-     "車頭：圓潤方盒臉、青色燈條（程式繪製）",
-     false
-    ],
-    [
-     "mb1-4",
-     "材質：夜色金屬漆與霓虹反光（程式生成）",
-     false
-    ]
-   ],
-   "palette": [
-    [
-     "Midnight Ink",
-     "#0D0F1F"
-    ],
-    [
-     "Alley Navy",
-     "#151A2E"
-    ],
-    [
-     "Neon Pink",
-     "#FF3D7F"
-    ],
-    [
-     "Cyan Sign",
-     "#29E3FF"
-    ],
-    [
-     "Paper Van",
-     "#E8E6DF"
-    ],
-    [
-     "Taxi Yellow",
-     "#FFD23F"
-    ]
-   ],
-   "keywords": [
-    "方盒量體",
-    "霓虹腰線",
-    "濕地反光",
-    "最後一哩",
-    "城市夜色",
-    "無標誌"
-   ],
-   "materials": [
-    "霧面米白烤漆",
-    "霓虹導光條",
-    "回收鋁貨架",
-    "防滑橡膠地板",
-    "半透明聚碳酸酯燈罩",
-    "深藍織布座椅"
-   ]
+    "diagram": "term.svg"
   },
-  {
-   "theme": "Desert rally pastel",
-   "zh": "沙漠拉力粉彩",
-   "intro": "夕陽沙丘上的虛構拉力車：薄荷綠車身、蜜桃粉條紋、車頂一排輔助燈，柔和色調配上越野姿態。",
-   "images": [
-    [
-     "mb2-1",
-     "原創虛構概念：薄荷綠拉力車與沙丘夕陽（程式繪製）",
-     true
-    ],
-    [
-     "mb2-2",
-     "色票：粉彩沙漠六色條（程式繪製）",
-     false
-    ],
-    [
-     "mb2-3",
-     "細節：車頂輔助燈陣列（程式繪製）",
-     false
-    ],
-    [
-     "mb2-4",
-     "材質：風吹沙紋與薄荷霧面（程式生成）",
-     false
-    ]
-   ],
-   "palette": [
-    [
-     "Mint Rally",
-     "#9FD3C7"
-    ],
-    [
-     "Peach Stripe",
-     "#F7CAC9"
-    ],
-    [
-     "Dune Apricot",
-     "#E8A87C"
-    ],
-    [
-     "Desert Clay",
-     "#D98A6A"
-    ],
-    [
-     "Dusk Blue",
-     "#385170"
-    ],
-    [
-     "Sun Cream",
-     "#FFF4E0"
-    ]
-   ],
-   "keywords": [
-    "拉力姿態",
-    "粉彩配色",
-    "車頂燈陣",
-    "沙丘",
-    "復古賽事",
-    "柔和越野"
-   ],
-   "materials": [
-    "霧面粉彩烤漆",
-    "耐磨帆布",
-    "陽極鋁防護板",
-    "麂皮方向盤",
-    "沙色橡膠踏墊",
-    "霧化燈罩"
-   ]
-  }
- ]
+  "moodboards": [
+    {
+      "theme": "Neo-Tokyo night delivery van",
+      "zh": "新東京夜間配送車",
+      "intro": "深夜小巷裡的虛構電動配送廂型車：米白方盒車身、霓虹粉腰線、青色側燈，倒映在濕潤柏油上。",
+      "images": [
+        [
+          "mb1-1",
+          "原創虛構概念：米白配送廂型車停在霓虹街區（程式繪製）",
+          true
+        ],
+        [
+          "mb1-2",
+          "貨艙：模組化收納格與粉色定位線（程式繪製）",
+          false
+        ],
+        [
+          "mb1-3",
+          "車頭：圓潤方盒臉、青色燈條（程式繪製）",
+          false
+        ],
+        [
+          "mb1-4",
+          "材質：夜色金屬漆與霓虹反光（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Midnight Ink",
+          "#0D0F1F"
+        ],
+        [
+          "Alley Navy",
+          "#151A2E"
+        ],
+        [
+          "Neon Pink",
+          "#FF3D7F"
+        ],
+        [
+          "Cyan Sign",
+          "#29E3FF"
+        ],
+        [
+          "Paper Van",
+          "#E8E6DF"
+        ],
+        [
+          "Taxi Yellow",
+          "#FFD23F"
+        ]
+      ],
+      "keywords": [
+        "方盒量體",
+        "霓虹腰線",
+        "濕地反光",
+        "最後一哩",
+        "城市夜色",
+        "無標誌"
+      ],
+      "materials": [
+        "霧面米白烤漆",
+        "霓虹導光條",
+        "回收鋁貨架",
+        "防滑橡膠地板",
+        "半透明聚碳酸酯燈罩",
+        "深藍織布座椅"
+      ]
+    },
+    {
+      "theme": "Desert rally pastel",
+      "zh": "沙漠拉力粉彩",
+      "intro": "夕陽沙丘上的虛構拉力車：薄荷綠車身、蜜桃粉條紋、車頂一排輔助燈，柔和色調配上越野姿態。",
+      "images": [
+        [
+          "mb2-1",
+          "原創虛構概念：薄荷綠拉力車與沙丘夕陽（程式繪製）",
+          true
+        ],
+        [
+          "mb2-2",
+          "色票：粉彩沙漠六色條（程式繪製）",
+          false
+        ],
+        [
+          "mb2-3",
+          "細節：車頂輔助燈陣列（程式繪製）",
+          false
+        ],
+        [
+          "mb2-4",
+          "材質：風吹沙紋與薄荷霧面（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Mint Rally",
+          "#9FD3C7"
+        ],
+        [
+          "Peach Stripe",
+          "#F7CAC9"
+        ],
+        [
+          "Dune Apricot",
+          "#E8A87C"
+        ],
+        [
+          "Desert Clay",
+          "#D98A6A"
+        ],
+        [
+          "Dusk Blue",
+          "#385170"
+        ],
+        [
+          "Sun Cream",
+          "#FFF4E0"
+        ]
+      ],
+      "keywords": [
+        "拉力姿態",
+        "粉彩配色",
+        "車頂燈陣",
+        "沙丘",
+        "復古賽事",
+        "柔和越野"
+      ],
+      "materials": [
+        "霧面粉彩烤漆",
+        "耐磨帆布",
+        "陽極鋁防護板",
+        "麂皮方向盤",
+        "沙色橡膠踏墊",
+        "霧化燈罩"
+      ]
+    }
+  ],
+  "cmf": [
+    {
+      "id": "cmf-smart-2-couture",
+      "car": "smart #2 Couture Edition",
+      "tag": "新車 · 巴黎車展",
+      "title": "霧白車身配白金色車頂，限量版把「時裝」穿上身",
+      "points": [
+        "車身是 Atelier White Matte 霧面白，車頂對比 Platinum Gold 白金色。",
+        "金色細節延伸到外觀飾條，搭配專屬 16 吋 Lyra 輪圈。",
+        "車內有編號銘牌；歐洲版標配玻璃車頂、氛圍燈與加熱座椅。",
+        "主題是「Function becomes Fashion」，歐洲、中國各限量 999 台。"
+      ],
+      "image": {
+        "file": "cmf-smart-2-couture.webp",
+        "alt": "霧白車身、白金色車頂的 smart #2 Couture Edition",
+        "credit": "smart Media",
+        "credit_url": "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+      },
+      "sources": [
+        [
+          "smart 官方新聞稿",
+          "https://media.smart.com/en-INT/273151-it-s-back-that-s-big-the-all-electric-smart-2-makes-its-world-premiere-at-the-paris-motor-show/"
+        ]
+      ]
+    },
+    {
+      "id": "cmf-renault-8-gordini",
+      "car": "Renault 8 Gordini 概念",
+      "tag": "概念車 · 巴黎車展",
+      "title": "Gordini 藍白條紋回歸，車內是鋁件配軟布料",
+      "points": [
+        "外觀用 Gordini 傳統的藍底白色賽車條紋塗裝。",
+        "儀表板是鋁製面板，嵌入圓形數位儀表。",
+        "儀表板表面包覆柔軟布料，跟冷硬的鋁件形成對比。",
+        "鋁製中控台排滿撥桿開關，副駕腳邊還有拉力賽式踏板。"
+      ],
+      "image": {
+        "file": "cmf-renault-8-gordini.webp",
+        "alt": "Renault 8 Gordini 概念車座艙，鋁製儀表板與藍色布料",
+        "credit": "Renault（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+      },
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/gordini-returns-renault-revives-8-futuristic-electric-sports-car"
+        ]
+      ]
+    },
+    {
+      "id": "cmf-alpine-a310",
+      "car": "Alpine A310 Vision",
+      "tag": "概念車 · 巴黎車展",
+      "title": "70 年代橘色玻璃，座艙按鍵像音響面板",
+      "points": [
+        "車窗用 1970 年代風格的橘色玻璃。",
+        "座艙走有機曲線造型，控制鍵的靈感來自 hi-fi 音響。",
+        "兩段式尾翼中間嵌一小段透明件，保留駕駛的後方視野。"
+      ],
+      "image": {
+        "file": "cmf-alpine-a310.webp",
+        "alt": "Alpine A310 Vision 概念車側前方",
+        "credit": "Alpine（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+      },
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/motor-shows-paris-motor-show/stunning-alpine-a310-vision-previews-retro-futuristic-special"
+        ]
+      ]
+    }
+  ]
 }

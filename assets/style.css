@@ -313,3 +313,13 @@ details.more>summary::-webkit-details-marker{display:none}
 details.more>summary::before{content:"▸ "}details.more[open]>summary::before{content:"▾ "}
 details.more p{font-size:14px;color:var(--muted)}
 .tut .steps{font-size:14px;color:var(--muted);padding-left:1.3em;line-height:1.7}
+
+/* ---------- colour & material (CMF) ---------- */
+.cmf{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:var(--gap,24px)}
+.cmf-card{min-width:0;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:var(--cardpad);display:flex;flex-direction:column}
+.cmf-card .tag{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:600;text-transform:uppercase}
+.cmf-card h3{font-family:var(--serif);font-size:clamp(18px,1.4vw,21px);line-height:1.45;margin:8px 0 10px}
+.cpts{margin:0 0 14px;padding:0;list-style:none;border-top:1px dashed var(--line)}
+.cpts li{position:relative;padding:8px 0 8px 16px;border-bottom:1px dashed var(--line);font-size:14.5px;line-height:1.6}
+.cpts li::before{content:"";position:absolute;left:2px;top:16px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.cmf-card .src{margin-top:auto}
