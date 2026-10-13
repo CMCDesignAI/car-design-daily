@@ -1,0 +1,37 @@
+<svg class="diagram" viewBox="0 0 520 270" width="100%" role="img" aria-label="Overhang 懸伸示意圖：smart #2 側面線稿，前後輪中心到車頭、車尾的距離以強調色標出，兩端都很短">
+<text x="260" y="22" fill="currentColor" font-size="16" text-anchor="middle" opacity=".8">側面（smart #2 示意，全長 2,746 mm）</text>
+<line x1="40" y1="200" x2="480" y2="200" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+<!-- body -->
+<path d="M150,165 L148,120 Q150,92 175,88 L215,60 Q228,50 250,50 L325,50 Q350,50 360,62 L372,95 L376,165 Q376,172 368,172 L158,172 Q150,172 150,165 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+<!-- windscreen + side window -->
+<path d="M180,90 L220,62 L262,60 L262,95 Z" fill="currentColor" fill-opacity=".10" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M270,60 L322,60 Q340,60 346,72 L354,95 L270,95 Z" fill="currentColor" fill-opacity=".10" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+<!-- tridion cell band -->
+<path d="M262,58 L262,172" stroke="currentColor" stroke-width="2" opacity=".55"/>
+<!-- head / tail lamps -->
+<rect x="150" y="108" width="16" height="9" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<rect x="364" y="104" width="10" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+<!-- wheels -->
+<circle cx="190" cy="168" r="30" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<circle cx="190" cy="168" r="16" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".7"/>
+<circle cx="336" cy="168" r="30" fill="none" stroke="currentColor" stroke-width="2.5"/>
+<circle cx="336" cy="168" r="16" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".7"/>
+<!-- axle centre lines -->
+<line x1="190" y1="135" x2="190" y2="225" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+<line x1="336" y1="135" x2="336" y2="225" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+<line x1="148" y1="150" x2="148" y2="225" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+<line x1="376" y1="150" x2="376" y2="225" stroke="currentColor" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+<!-- overhang highlights -->
+<line x1="148" y1="218" x2="190" y2="218" stroke="#f08a5d" stroke-width="5" stroke-linecap="round"/>
+<line x1="336" y1="218" x2="376" y2="218" stroke="#f08a5d" stroke-width="5" stroke-linecap="round"/>
+<line x1="196" y1="218" x2="330" y2="218" stroke="currentColor" stroke-width="1.5" opacity=".5"/>
+<text x="263" y="238" fill="currentColor" font-size="13" text-anchor="middle" opacity=".75">軸距</text>
+<!-- labels -->
+<path d="M120,236 L160,222" stroke="#f08a5d" stroke-width="1.4" stroke-dasharray="4 3" fill="none"/>
+<text x="40" y="252" fill="#f08a5d" font-size="15">① 前懸：很短</text>
+<path d="M420,236 L362,222" stroke="#f08a5d" stroke-width="1.4" stroke-dasharray="4 3" fill="none"/>
+<text x="380" y="252" fill="#f08a5d" font-size="15">② 後懸：很短</text>
+<path d="M420,140 L370,168" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" fill="none" opacity=".7"/>
+<text x="400" y="132" fill="currentColor" font-size="15">③ 輪子推到四角</text>
+<text x="260" y="268" fill="currentColor" font-size="12" text-anchor="middle" opacity=".7">懸伸 = 輪軸中心到車頭／車尾最外緣的距離</text>
+</svg>
