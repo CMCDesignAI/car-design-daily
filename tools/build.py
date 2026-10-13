@@ -24,8 +24,31 @@ Array.prototype.forEach.call(n.querySelectorAll('a[data-mode]'),function(a){a.ad
  n.setAttribute('data-pos',to);var done=false,go=function(){if(done)return;done=true;location.href=url;};
  n.querySelector('.mind').addEventListener('transitionend',function(e){if(e.propertyName==='transform')go();});setTimeout(go,520);});});})();</script>"""
 
-WAKE_JS = """<script>(()=>{let lock=null;async function req(){if(!('wakeLock' in navigator)||document.visibilityState!=='visible')return;try{lock=await navigator.wakeLock.request('screen');lock.addEventListener('release',()=>{lock=null;});}catch(e){}}
-window.addEventListener('load',req);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&!lock)req();});['click','touchstart','keydown'].forEach(t=>document.addEventListener(t,()=>{if(!lock)req();},{passive:true}));})();</script>"""
+WAKE_MARK = 'assets/wakelock.js'
+WRITTEN = []   # every page written by write_page in this run
+
+def write_page(path, html_text):
+    """Shared writer for EVERY generated page (car + ai). Injects the wake-lock <script> into <head>
+    with the right relative path, so redesigns of headers/footers can never drop it. DO NOT bypass."""
+    rel = os.path.relpath(os.path.dirname(os.path.abspath(path)), ROOT)
+    depth = 0 if rel == "." else rel.count(os.sep) + 1
+    tag = f'<script src="{"../" * depth}{WAKE_MARK}" defer></script>'
+    if WAKE_MARK not in html_text:
+        assert "</head>" in html_text, f"no </head> in {path}"
+        html_text = html_text.replace("</head>", tag + "</head>", 1)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    open(path, "w", encoding="utf-8").write(html_text)
+    WRITTEN.append(path)
+
+def check_wakelock():
+    """Fail loudly (exit 2) if any page written in this run lacks the wake lock, or the JS file is gone."""
+    bad = []
+    for p in WRITTEN:
+        if WAKE_MARK not in open(p, encoding="utf-8").read(): bad.append(os.path.relpath(p, ROOT))
+    if not os.path.exists(f"{ROOT}/{WAKE_MARK}"): bad.append(WAKE_MARK + " (file missing)")
+    if bad:
+        sys.stderr.write("WAKE LOCK MISSING: " + ", ".join(bad) + "\n"); sys.exit(2)
+    print("wakelock ok")
 
 def switcher(root, mode):
     """Segmented section switcher shown on every page. root = relative path to site root.
@@ -48,7 +71,7 @@ def theme_init(mode):
 
 def theme_toggle(mode):
     key = "cdd-theme-ai" if mode == "ai" else "cdd-theme"
-    return SWITCH_JS + WAKE_JS + ("<script>document.getElementById('tg').onclick=function(){var r=document.documentElement,c=r.getAttribute('data-theme');"
+    return SWITCH_JS + ("<script>document.getElementById('tg').onclick=function(){var r=document.documentElement,c=r.getAttribute('data-theme');"
             "var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';"
             f"r.setAttribute('data-theme',n);localStorage.setItem('{key}',n);}};</script>")
 
@@ -164,8 +187,9 @@ def archive_page(all_issues):
 if __name__ == "__main__":
     al = issues()
     for d in al:
-        open(f"{ROOT}/issues/{d['date']}/index.html", "w", encoding="utf-8").write(page(d, "../../", al, False))
-    open(f"{ROOT}/index.html", "w", encoding="utf-8").write(page(al[0], "./", al, True))
+        write_page(f"{ROOT}/issues/{d['date']}/index.html", page(d, "../../", al, False))
+    write_page(f"{ROOT}/index.html", page(al[0], "./", al, True))
     os.makedirs(f"{ROOT}/archive", exist_ok=True)
-    open(f"{ROOT}/archive/index.html", "w", encoding="utf-8").write(archive_page(al))
+    write_page(f"{ROOT}/archive/index.html", archive_page(al))
+    check_wakelock()
     print("built", [d["date"] for d in al])

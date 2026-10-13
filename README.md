@@ -6,7 +6,11 @@
 - 每期固定網址：`/issues/YYYY-MM-DD/`；首頁 `/` = 最新一期；`/archive/` = 往期列表
 - **AI Model Daily**（同一個 repo／網站）：`/ai/` = 最新一期、`/ai/issues/YYYY-MM-DD/`、`/ai/archive/`
 - **站名只用英文**：「Car Design Daily」與「AI Model Daily」。**不要**再使用任何中文站名（例如「汽車設計日報」「AI 模型日報」「AI 模型每日快報」——前者已被其他汽車媒體使用）。這適用於 masthead `<h1>`（不加中文副標）、`<title>`、og:title、meta description、往期頁、頁尾、左上角 wordmark，以及每日通知訊息裡對網站的稱呼。分頁標題格式：`Car Design Daily · YYYY.MM.DD`、`AI Model Daily · YYYY.MM.DD`。文章內容仍為繁體中文；切換器的分類標籤（CAR DESIGN 汽車設計／AI MODELS AI 模型）是分類名稱，保留不變。
-- 每頁頂端都有切換器「CAR DESIGN 汽車設計｜AI MODELS AI 模型」（kicker 字體樣式，手機版在第二列、全寬）。外框（`.mind`）會滑到目標再換頁（0.38s；`prefers-reduced-motion` 時直接換頁），沒有 JS 時就是一般連結。程式在 `tools/build.py` 的 `switcher()` 和 `SWITCH_JS`。每頁也內嵌 Screen Wake Lock（`WAKE_JS`），開啟時螢幕不會休眠。兩個區塊共用 `assets/style.css` 的設計系統與 RWD 格線（<768 一欄、768–1199 兩欄、≥1200 三欄）；AI 區塊用 `body.mode-ai` 套上科技感深色配色（預設深色，深淺色偏好與汽車區分開記憶）。
+- 每頁頂端都有切換器「CAR DESIGN 汽車設計｜AI MODELS AI 模型」（kicker 字體樣式，手機版在第二列、全寬）。外框（`.mind`）會滑到目標再換頁（0.38s；`prefers-reduced-motion` 時直接換頁），沒有 JS 時就是一般連結。程式在 `tools/build.py` 的 `switcher()` 和 `SWITCH_JS`。每頁都有 Screen Wake Lock（開啟時螢幕不會休眠）。兩個區塊共用 `assets/style.css` 的設計系統與 RWD 格線（<768 一欄、768–1199 兩欄、≥1200 三欄）；AI 區塊用 `body.mode-ai` 套上科技感深色配色（預設深色，深淺色偏好與汽車區分開記憶）。
+
+## ⚠️ 不可移除：Screen Wake Lock
+- 程式在 `assets/wakelock.js`。**所有頁面一律用 `tools/build.py` 的 `write_page()` 寫出**，它會自動在 `</head>` 前插入 `<script src="…assets/wakelock.js" defer>`（依頁面深度算相對路徑），所以改版 header／footer 也不會掉。
+- 兩個 build 結尾都會跑 `check_wakelock()`：本次寫出的任何頁面缺 wake lock、或 `assets/wakelock.js` 不存在，就以 exit 2 失敗並列出頁面。**不要繞過 `write_page()`、不要刪這個檢查**；發布後也要抽查線上頁面含 `wakelock.js`。
 
 ## 結構
 ```
@@ -69,15 +73,26 @@ tools/
 6. 預覽圖：`google-chrome --headless=new --no-sandbox --window-size=1280,2400 --screenshot=preview.png <URL>`
 
 ## AI Model Daily：每日流程
-**版面順序（2026-10-12 起，v3）**：≡ 本週榜單（**每天都顯示、永遠在頁面最上方**：masthead／導言之後、01 閉源模型之前，不編號；無變化的日子也照樣顯示兩張圖並標「榜單無重大變化」）→ 01 閉源模型 → 02 開源模型 → 03 追蹤清單 → 04 其他新聞 → 05 推薦影片 → 06 注意事項 → 往期。區塊編號由 `build_ai.py` 依實際出現的區塊自動計算；舊期（沒有 `closed`／`open`／`leaderboards`）照舊顯示 01 追蹤清單起。
+**版面順序（2026-10-13 起，v4：新手友善）**：≡ 本週榜單（每天都顯示、永遠在最上方，不編號；無變化標「榜單無重大變化」）→ 01 AI 新聞 → 02 追蹤清單 → 03 教學區 → 04 推薦影片 → 05 注意事項 → 往期。`data.json` 有 `ainews` 就是 v4（不再輸出閉源／開源／其他新聞）；舊期（v3 的 `closed`／`open`／`news`）照原樣顯示。
 
-1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目；**先比對所有舊 `run_date` 的標題／網址，已報過的不再當主新聞**（例：GPT-6、Claude Haiku 5.5 已於 10/08 報導）。
-   - `closed` → 「閉源模型」：各大 AI 公司的閉源新模型與重大功能更新，**文字／LLM**（OpenAI、Anthropic、Google Gemini、xAI Grok、Meta 等）與**圖像／影片**（Midjourney、Runway、Kling、Seedance、Vidu、Veo／Omni、BFL Pro…），以及能力測試、跑分、榜單變化、重要評測報導。**4–6 則，依重要性排序，沒有就少放，絕不湊數**；只收最近幾天的消息。
-   - `open` → 「開源模型」：重要的新開放權重發布，文字／LLM（Qwen、DeepSeek、Llama、Mistral、GLM、Kimi…）與圖像、影片、音訊模型。**4–6 則**，依重要性排序，必須是新的。
-   - `watch:<model>` → 「追蹤清單」（MiniMax H3、Qwen Image 2.1、Krea 2；每個模型一張卡）。
-   - `other` → 「其他新聞」：約 6 則，範圍同原本：工具、ComfyUI 更新、社群工作流、研究、API／服務。**已屬閉源／開源模型區的不放這裡，也不重複**。
-     - **forge-classic**（https://github.com/Haoming02/sd-webui-forge-classic，預設分支 `neo`）：每天用 `gh api repos/Haoming02/sd-webui-forge-classic/commits?sha=neo` 與 `/releases` 檢查，和 reported.json 的 `forge_classic.last_seen_commit` 比較；**只有真的有新 commit／release 才放一則**（寫改了什麼、台灣時間），沒有就完全不提。放了之後更新 `forge_classic`。
-   - `youtube` → 「推薦影片」。`seen-not-reported` 不當主新聞，只在注意事項簡短帶過。
+**v4 共通短格式（每一則都要）**：`short_title`（短標題）＋ `one`（一句白話：這是什麼、對讀者有什麼用）＋ `gloss`（`[[名詞, 一句白話解釋]]`，**該名詞在當期第一次出現時才加**）；細節（`orig`、`summary`、來源）自動收進「看更多」。`lede` 1–2 句、`caveats` 最多 2 行、榜單 `analysis_short` 1–2 句（只有 changed 時）。
+
+1. **來源資料**：`/workspace/ai-digest/reported.json`，取 `run_date` = 當天的項目；**先比對所有舊 `run_date` 的標題／網址，已報過的不再當主新聞**。
+   - `ainews` → 「AI 新聞」：**約 5–6 則**，依重要性排序，沒有就少放、不湊數。範圍：
+     - 大廠的模型與產品新聞：Google（Gemini、Gemini App、Nano Banana 各版本、Flow 影片平台的服務異動）、OpenAI（GPT、ChatGPT）、Anthropic（Claude）、xAI（Grok、Grok App、Grok Bot，以及 Musk 在 X 上的產品宣布）、Meta，及同級公司（Mistral、DeepSeek、Qwen 等）。
+     - **平台／服務異動也算新聞**（Flow、Gemini App、ChatGPT、Grok App 的功能、方案、價格、下架）。
+     - 圖像／影片生成模型的**世代升級**；大型文字／圖像／影片模型的**重磅開源**。
+     - **不收**一般人用不到的小眾、領域專用或純論文模型。
+     - **X 帳號**（用 x 工具 `get_users_posts`，exclude replies,retweets，只取近 36 小時）：@elonmusk、@xai、@grok、@OpenAI、@AnthropicAI、@GoogleDeepMind、@GeminiApp、@NanoBanana。**只收產品宣布**，政治、迷因、轉推閒聊一律不收；引用時附 x.com 貼文連結。
+     - **版本升級（例：Nano Banana 2.0 → 2.1）**：看更多裡必寫【比上一版進步在哪】（官方說法）、新限制或價格變化、在哪裡能用；再附 **2–4 則真實使用者／評測者的實測比較（含連結）**，註明樣本小、屬初步實測。
+     - **延伸規則**：已在 reported.json 的主題，只有出現新實質內容（新實測、新平台／地區上線、價格變動、下架日）才可再放，`tag` 前加「延伸 · 」；否則不放。
+   - `watch:<model>` → 「追蹤清單」（MiniMax H3、Qwen Image 2.1、Krea 2；每個模型一張卡，同樣短格式，每則更新一句 `one`）。**沒有消息的模型**：`updates: []`、`status` 寫「今天沒有新消息。」（卡片顯示「今日無更新」）。
+   - `tutorial` → 「教學區」：每天 **2–3 篇**新手部署／操作教學（圖像或影片生成：安裝 ComfyUI、本地跑 Qwen Image／影片模型、LoRA、放大、img2img／inpaint、量化省顯存…）。欄位 `{id, title, learn（一句：學到什麼）, level（入門／中階／進階）, vram, kind（常青教學／本週新教學／追蹤模型教學）, gloss, steps[], links}`。
+     - 來源只用官方文件、GitHub README、Hugging Face 模型卡或知名教學；**每個連結發布前 curl 確認 200**（被擋 403 的改用其他可信來源）。VRAM 寫官方數字，沒有就標「約／依原頁為準」，**不得編造**。
+     - 組合：至少 1 篇和本週新聞或追蹤模型相關（有好的才放），其餘從常青主題輪替。
+     - **去重**：每篇寫進 reported.json（`category: "tutorial"`、`url`、`topic` 例如 `install-comfyui`、`qwen-image-2.1-run`、`lora-basics`）；**30 天內同 URL 或同 topic 不重複**；常青主題 30 天後只有換來源或新版本（如 ComfyUI Desktop 新版）才可再上；同一模型每週最多 1 篇；沒有合格的就只放 2 篇，不重複湊數。
+   - **forge-classic**（https://github.com/Haoming02/sd-webui-forge-classic，分支 `neo`）：每天用 `gh api repos/Haoming02/sd-webui-forge-classic/commits?sha=neo` 與 `/releases` 對照 reported.json 的 `forge_classic.last_seen_commit`；**只有正式 release 或重大功能**才放（放 AI 新聞，或做成教學區一篇），零星 commit 不放、不提；都要更新 `forge_classic`。
+   - `youtube` → 「推薦影片」1 支（和當期新聞相關才放）。`seen-not-reported` 不當主新聞。
 2. **核對原文**：每則都讀過主連結，讀不到再讀 `alt_urls`，摘要只寫原文有的內容；官方頁擋抓取時要在 caveats 註明依哪個轉載來源整理。抓取一律 15 秒逾時。
 3. **代表圖（有就放，沒有就不放）**：抓主連結或 alt 的 `og:image`（curl 加瀏覽器 UA），轉成 ≤1600px WebP、<300KB，存到 `ai/issues/DATE/img/`，在 data.json 的 `image` 填 `file / alt / credit / credit_url`。
    - 只用官方或來源頁自己的圖（官方宣傳圖、HF／GitHub 分享卡、專案示例、官方貼文影片縮圖）。
@@ -97,15 +112,15 @@ tools/
      4. **`status` = `changed` 的榜，一定要填 `leaderboards.boards[i].analysis`**：繁中 3–5 句，只根據抓到的數字（加上相關的真實發布新聞）：誰上升／下滑、幅度多少；哪些模型新進前 10；有沒有突破（新的第 1 名、分數大跳、開源模型擠進前段）；代表什麼意義。`unchanged`／`baseline` 不用寫分析。
      5. 某個榜抓不到（JS 渲染、被擋）時，先試公開 API／資料檔或其他可信彙整站（如 BenchLeader）；仍失敗就**不要放進 fresh.json**（該榜那天不顯示），並在 caveats 註明。不要拿舊資料假裝是當天抓的。
    - 同一天重跑 `lb_diff.py` 沒問題：它永遠和「今天以前」的最新快照比較，並覆寫今天的快照；已寫好的 `analysis` 只要該榜仍是 `changed` 就會保留。
-5. **寫 `ai/issues/YYYY-MM-DD/data.json`**（可複製上一期再改），欄位如下：
-   - `date`、`weekday`、`issue_no`、`lede`（先閉源、再榜單重點、再開源與追蹤清單）
-   - `closed[]`、`open[]`、`news[]`：都是 `{id, org, tag, date, title, orig, summary, links[[名稱, url]], image|null}`；tag 以「閉源 · …」「開源 · …」開頭
-   - `leaderboards`：由 `tools/lb_diff.py` 產生，**不要手寫**；只需補 `boards[i].analysis`（status = changed 時）
-   - `watch[]`：`{id, model, kind, status, updates[]}`；每則 update 是 `{title, date, summary, links, image|null}`
-   - `video`：`{title, orig, channel, youtube_id, url, date, thumb{file, alt, credit}}`
-   - `caveats[]`：廠商自評數字、權重尚未釋出、授權、榜單 Preliminary／信賴區間、讀不到的原文等
-   - masthead 會自動顯示：追蹤模型／更新數、閉源 N 則、開源 N 則、其他新聞 N 則、推薦影片。
-6. **更新** `reported.json`（每則加 `category`：`closed`／`open`／`watch:*`／`other`／`youtube`／`seen-not-reported`）與 `/workspace/ai-digest/today_summary.md`（3–5 行：閉源、榜單、開源、追蹤清單重點）。
+5. **寫 `ai/issues/YYYY-MM-DD/data.json`**（可複製上一期再改）：
+   - `date`、`weekday`、`issue_no`、`lede`（1–2 句）
+   - `ainews[]`：`{id, org, tag, date, title, orig, summary, links[[名稱, url]], image|null, short_title, one, gloss?}`；`closed`／`open`／`news` 留空陣列
+   - `tutorials[]`：見上方教學區欄位
+   - `leaderboards`：由 `tools/lb_diff.py` 產生，**不要手寫**；status = changed 時補 `analysis`（3–5 句）與 `analysis_short`（1–2 句，頁面顯示這個）
+   - `watch[]`：`{id, model, kind, status, updates[]}`；update 是 `{title, date, summary, links, image|null, short_title, one, gloss?}`
+   - `video`：`{title, orig, channel, youtube_id, url, date, thumb{file, alt, credit}, one}`
+   - `caveats[]`：最多 2 行
+6. **更新** `reported.json`（`category`：`ainews`／`watch:*`／`tutorial`／`youtube`／`seen-not-reported`；教學加 `topic`）與 `/workspace/ai-digest/today_summary.md`（3–5 行：AI 新聞、榜單、追蹤清單、教學重點）。
 7. **發布**：`./tools/publish.sh "AI 00N · YYYY-MM-DD"`（內含 `--site-url`，會同時重建汽車與 AI 兩區；注意它用 `git add -A`，根目錄不要留預覽截圖），約 1 分鐘後檢查 `/ai/`、`/ai/issues/DATE/`、`/ai/archive/`。手動重建時一定要加 `--site-url "$(cat .site-url)"`，否則 og:image／canonical 會消失。
 
 ## 新聞來源清單

@@ -5,7 +5,7 @@ Shares assets/style.css and the topbar/switcher with tools/build.py (car section
 Usage: python3 tools/build_ai.py [--site-url https://user.github.io/repo]"""
 import json, os, glob, html, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build import topbar, theme_init, theme_toggle, ROOT, SITE
+from build import write_page, check_wakelock, topbar, theme_init, theme_toggle, ROOT, SITE
 e = html.escape
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+TC:wght@400;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">'
 
@@ -160,8 +160,8 @@ def page(d, root, aibase, all_issues, is_latest):
             ups.append(f'<li class="upd"><div class="uhead"><span class="date">{e(u["date"])}</span><h4>{e(u["title"])}</h4></div>'
                        f'{figure(u.get("image"), img, eager=(k == 0), cls="uimg")}<p>{e(u["summary"])}</p><div class="src">{links(u["links"])}</div></li>')
             if u.get("image"): k += 1
-        H.append(f'<article class="wcard" id="{e(w["id"])}"><div class="whead"><span class="tag">{e(w["kind"])}</span><span class="count">{len(w["updates"])} 則更新</span>'
-                 f'<h3>{e(w["model"])}</h3><p class="status">{e(w["status"])}</p></div><ol class="ulist">{"".join(ups)}</ol></article>')
+        H.append(f'<article class="wcard" id="{e(w["id"])}"><div class="whead"><span class="tag">{e(w["kind"])}</span><span class="count">{f"{len(w['updates'])} 則更新" if w["updates"] else "今日無更新"}</span>'
+                 f'<h3>{e(w["model"])}</h3><p class="status">{e(w["status"])}</p></div>{f'<ol class="ulist">{"".join(ups)}</ol>' if ups else ""}</article>')
     H.append('</div></section>')
     # v4 tutorials
     if d.get("tutorials"):
@@ -200,8 +200,9 @@ def archive_page(all_issues):
 if __name__ == "__main__":
     al = issues()
     for d in al:
-        open(f"{ROOT}/ai/issues/{d['date']}/index.html", "w", encoding="utf-8").write(page(d, "../../../", "../../", al, False))
-    open(f"{ROOT}/ai/index.html", "w", encoding="utf-8").write(page(al[0], "../", "./", al, True))
+        write_page(f"{ROOT}/ai/issues/{d['date']}/index.html", page(d, "../../../", "../../", al, False))
+    write_page(f"{ROOT}/ai/index.html", page(al[0], "../", "./", al, True))
     os.makedirs(f"{ROOT}/ai/archive", exist_ok=True)
-    open(f"{ROOT}/ai/archive/index.html", "w", encoding="utf-8").write(archive_page(al))
+    write_page(f"{ROOT}/ai/archive/index.html", archive_page(al))
+    check_wakelock()
     print("built ai", [d["date"] for d in al])
