@@ -9,3 +9,7 @@ __pycache__/
 *.log
 .DS_Store
 tmp/
+
+# Local preview / debug screenshots — never publish
+/*.png
+/preview*.png
