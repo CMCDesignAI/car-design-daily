@@ -21,9 +21,21 @@ def figure(im, img, eager=False, cls="news-img"):
             f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>')
 
 def story(s, img):
+    if s.get("one"): return story_lite(s, img)
     return (f'<article class="story" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
             f'<h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p></div>'
             f'{"" if s.get("image") else "<p class=\"noimg\">來源頁沒有可用的官方圖片，因此不放圖。</p>"}<div class="src">來源：{links(s["links"])}</div></article>')
+
+def gloss(g):
+    """Lite format: first-use jargon explanations, rendered as small inline notes."""
+    if not g: return ""
+    return '<p class="gloss">' + "".join(f'<span><b>{e(t)}</b>：{e(x)}</span>' for t, x in g) + '</p>'
+
+def story_lite(s, img):
+    """Lite format (from 2026-10-13 preview): one plain sentence up front, details folded into <details>."""
+    return (f'<article class="story lite" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
+            f'<h3>{e(s.get("short_title") or s["title"])}</h3><p class="one">{e(s["one"])}</p>{gloss(s.get("gloss"))}</div>'
+            f'<details class="more"><summary>看更多</summary><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p><div class="src">來源：{links(s["links"])}</div></details></article>')
 
 def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
@@ -66,7 +78,7 @@ def lb_chart(b):
         if b.get("dropped"):
             out = '<p class="lbout">跌出前 10：' + "、".join(f'{e(x["model"])}（前次 #{x["rank"]}）' for x in b["dropped"]) + '</p>'
         if b.get("analysis"):
-            out += f'<p class="lbana">{e(b["analysis"])}</p>'
+            out += f'<p class="lbana">{e(b.get("analysis_short") or b["analysis"])}</p>'
     return (f'<figure class="lbcard"><figcaption class="lbhead"><h3>{e(b["title"])}</h3><span class="en">{e(b["en"])}</span></figcaption>'
             f'<p class="lbbadge {st}">{badge}</p>'
             f'<svg class="lbsvg" viewBox="0 0 {W} {H}" role="img" aria-label="{e(b["title"])} 前 10 名">{"".join(g)}</svg>{out}'
@@ -128,6 +140,11 @@ def page(d, root, aibase, all_issues, is_latest):
     for w in d["watch"]:
         ups = []
         for u in w["updates"]:
+            if u.get("one"):
+                ups.append(f'<li class="upd lite"><div class="uhead"><span class="date">{e(u["date"])}</span><h4>{e(u.get("short_title") or u["title"])}</h4></div>'
+                           f'<p class="one">{e(u["one"])}</p>{gloss(u.get("gloss"))}<details class="more"><summary>看更多</summary>{figure(u.get("image"), img, cls="uimg")}<p>{e(u["summary"])}</p><div class="src">{links(u["links"])}</div></details></li>')
+                if u.get("image"): k += 1
+                continue
             ups.append(f'<li class="upd"><div class="uhead"><span class="date">{e(u["date"])}</span><h4>{e(u["title"])}</h4></div>'
                        f'{figure(u.get("image"), img, eager=(k == 0), cls="uimg")}<p>{e(u["summary"])}</p><div class="src">{links(u["links"])}</div></li>')
             if u.get("image"): k += 1
@@ -144,7 +161,7 @@ def page(d, root, aibase, all_issues, is_latest):
         H.append(f'''<section id="video">{sec_head(n, "推薦影片", "Watch This")}
 <div class="vid"><div class="vframe"><div class="ratio" id="yt" data-id="{e(v["youtube_id"])}"><a href="{e(v["url"])}" target="_blank" rel="noopener" class="play" aria-label="在 YouTube 播放：{e(v["title"])}"><img src="{img}{e(v["thumb"]["file"])}" alt="{e(v["thumb"]["alt"])}" loading="lazy" decoding="async" width="1280" height="720"><span class="pbtn">▶</span></a></div>
 <p class="vcap">縮圖：{e(v["thumb"]["credit"])} · 點擊即在頁面內播放（youtube-nocookie）</p></div>
-<div class="vtext"><span class="tag">{e(v["channel"])}</span><span class="date">{e(v["date"])}</span><h3>{e(v["title"])}</h3><p class="orig">{e(v["orig"])}</p><p>{e(v["summary"])}</p><div class="src"><a href="{e(v["url"])}" target="_blank" rel="noopener">在 YouTube 觀看 ↗</a></div></div></div>
+<div class="vtext"><span class="tag">{e(v["channel"])}</span><span class="date">{e(v["date"])}</span><h3>{e(v["title"])}</h3>{f'<p class="one">{e(v["one"])}</p>' if v.get("one") else f'<p class="orig">{e(v["orig"])}</p><p>{e(v["summary"])}</p>'}<div class="src"><a href="{e(v["url"])}" target="_blank" rel="noopener">在 YouTube 觀看 ↗</a></div></div></div>
 <script>(function(){{var b=document.getElementById('yt');if(!b)return;b.querySelector('a').addEventListener('click',function(ev){{ev.preventDefault();var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1';f.title='YouTube video';f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;b.innerHTML='';b.appendChild(f);}});}})();</script></section>''')
     # 04 caveats
     cv = "".join(f"<li>{e(c)}</li>" for c in d["caveats"])
