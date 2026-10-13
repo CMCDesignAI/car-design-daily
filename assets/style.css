@@ -312,3 +312,4 @@ details.more>summary{cursor:pointer;font-size:13px;color:var(--accent);list-styl
 details.more>summary::-webkit-details-marker{display:none}
 details.more>summary::before{content:"▸ "}details.more[open]>summary::before{content:"▾ "}
 details.more p{font-size:14px;color:var(--muted)}
+.tut .steps{font-size:14px;color:var(--muted);padding-left:1.3em;line-height:1.7}

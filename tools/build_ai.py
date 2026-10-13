@@ -37,6 +37,13 @@ def story_lite(s, img):
             f'<h3>{e(s.get("short_title") or s["title"])}</h3><p class="one">{e(s["one"])}</p>{gloss(s.get("gloss"))}</div>'
             f'<details class="more"><summary>看更多</summary><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p><div class="src">來源：{links(s["links"])}</div></details></article>')
 
+def tutorial(t):
+    """v4 教學區 card: title, what you'll learn, difficulty, VRAM, folded steps + source links."""
+    steps = "".join(f"<li>{e(x)}</li>" for x in t.get("steps", []))
+    return (f'<article class="story lite tut" id="{e(t["id"])}"><div class="shead"><span class="tag">{e(t["level"])} · VRAM {e(t["vram"])}</span><span class="date">{e(t.get("kind","教學"))}</span>'
+            f'<h3>{e(t["title"])}</h3><p class="one">{e(t["learn"])}</p>{gloss(t.get("gloss"))}</div>'
+            f'<details class="more"><summary>看更多：步驟</summary><ol class="steps">{steps}</ol><div class="src">教學來源：{links(t["links"])}</div></details></article>')
+
 def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
 
@@ -115,16 +122,21 @@ def page(d, root, aibase, all_issues, is_latest):
     nupd = sum(len(w["updates"]) for w in d["watch"])
     closed = d.get("closed") or []
     opn = d.get("open") or []
-    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}<a href="#watch">追蹤清單</a><a href="#news">其他新聞</a><a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}{"<a href=\"#ainews\">AI 新聞</a>" if d.get("ainews") else ""}<a href="#watch">追蹤清單</a>{"<a href=\"#learn\">教學區</a>" if d.get("tutorials") else "<a href=\"#news\">其他新聞</a>"}<a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
 <h1>AI Model Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}<span>其他新聞 {len(d['news'])} 則</span><span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}{f"<span>AI 新聞 {len(d['ainews'])} 則</span><span>教學 {len(d.get('tutorials') or [])} 篇</span>" if d.get("ainews") else f"<span>其他新聞 {len(d['news'])} 則</span>"}<span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     n = 0
     # leaderboard module (unnumbered): every day, always at the very top, right after the masthead/lede
     H.append(leaderboard(d.get("leaderboards")))
+    ainews = d.get("ainews")
+    if ainews:   # v4 (from 2026-10-13 preview): one AI 新聞 section replaces 閉源/開源/其他新聞
+        n += 1
+        H.append(f'<section id="ainews">{sec_head(n, "AI 新聞", "AI News")}<div class="news">' + "".join(story(s, img) for s in ainews) + '</div></section>')
+        closed, opn = [], []
     # closed-source models (from 2026-10-12; absent in older issues)
     if closed:
         n += 1
@@ -151,9 +163,14 @@ def page(d, root, aibase, all_issues, is_latest):
         H.append(f'<article class="wcard" id="{e(w["id"])}"><div class="whead"><span class="tag">{e(w["kind"])}</span><span class="count">{len(w["updates"])} 則更新</span>'
                  f'<h3>{e(w["model"])}</h3><p class="status">{e(w["status"])}</p></div><ol class="ulist">{"".join(ups)}</ol></article>')
     H.append('</div></section>')
-    # other news
-    n += 1
-    H.append(f'<section id="news">{sec_head(n, "其他新聞", "More News")}<div class="news">' + "".join(story(s, img) for s in d["news"]) + '</div></section>')
+    # v4 tutorials
+    if d.get("tutorials"):
+        n += 1
+        H.append(f'<section id="learn">{sec_head(n, "教學區", "Learn")}<div class="news">' + "".join(tutorial(t) for t in d["tutorials"]) + '</div></section>')
+    # other news (pre-v4 only)
+    if d["news"] and not ainews:
+     n += 1
+     H.append(f'<section id="news">{sec_head(n, "其他新聞", "More News")}<div class="news">' + "".join(story(s, img) for s in d["news"]) + '</div></section>')
     # 03 video
     v = d.get("video")
     if v:
