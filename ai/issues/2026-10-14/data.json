@@ -1,0 +1,581 @@
+{
+ "date": "2026-10-14",
+ "weekday": "週三",
+ "issue_no": 7,
+ "lede": "今天重點：Google 新旗艦 Gemini 4 Argon 正式開放（限付費會員）；Claude 文件與簡報功能免費版也能用；Grok Bot 有了自己的信箱。榜單無重大變化。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "FreeVideo v0.4 大改版；微軟研究用 H3 做鏡頭規劃",
+   "updates": [
+    {
+     "title": "FreeVideo v0.4.0／v0.4.1：新增剪輯時間線、長影片分段接續生成、AI 代理操作",
+     "date": "2026-10-13",
+     "summary": "本機跑 MiniMax H3 的 FreeVideo（ComfyUI 外掛）10/13 連發 v0.4.0 與 v0.4.1。v0.4.0：新增剪輯畫面（時間線、字幕、變速、倒放、匯出畫質）；長影片可分段接續生成（30 秒分兩段），可從片尾拉出新段落續拍並有「首幀參考」減少漂移；自動辨識中英日韓粵語產生字幕；可接 AI 代理生成／剪輯／匯出；區網手機可開啟；創作面板直接加 LoRA；生成更快。v0.4.1：修好舊影片不能「接著生成」、進度顯示百分比與剩餘時間、透過代理生成 16–29 秒影片可一次完成、小尺寸時更多模型留在顯存。官方稱最低 8GB VRAM＋16GB 記憶體可跑。",
+     "links": [
+      [
+       "GitHub · v0.4.0",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.0"
+      ],
+      [
+       "GitHub · v0.4.1",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.1"
+      ]
+     ],
+     "image": {
+      "file": "freevideo.webp",
+      "alt": "GitHub 分享卡：FreeVideo v0.4.0",
+      "credit": "GitHub · FlashML-org/FreeVideo",
+      "credit_url": "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.0"
+     },
+     "short_title": "FreeVideo v0.4：能剪輯、能接長片",
+     "one": "本機跑 H3 的軟體多了剪輯時間線，長影片可以一段接一段生成，還會自動上字幕。"
+    },
+    {
+     "title": "Microsoft Research Code Video Model：先用程式畫出粗略鏡頭，再交給凍結的 MiniMax H3 生成",
+     "date": "2026-10-12",
+     "summary": "微軟研究 10/12 公開 Code Video Model：先把鏡頭寫成 Three.js 程式、一分鐘內算出低多邊形預覽，再用 MiniMax H3 的 reference-to-video 權重依預覽與參考圖生成最終影片；不需訓練新模型。程式碼 Apache-2.0；需 Ubuntu 22.04、NVIDIA GPU（CUDA 12.6）、H3 權重與 OpenRouter API 金鑰（部分步驟呼叫 GPT-6 與 GPT-Image-2）。屬研究專案。",
+     "links": [
+      [
+       "GitHub · CodeVideoModel",
+       "https://github.com/code-video-model/CodeVideoModel"
+      ],
+      [
+       "sloptvnews 報導",
+       "https://sloptvnews.com/microsoft-code-video-model-previs/"
+      ]
+     ],
+     "image": {
+      "file": "cvm.webp",
+      "alt": "GitHub 分享卡：CodeVideoModel",
+      "credit": "GitHub · code-video-model",
+      "credit_url": "https://github.com/code-video-model/CodeVideoModel"
+     },
+     "short_title": "微軟用 H3 做「先打草稿再拍」",
+     "one": "微軟研究讓 AI 先用程式排好鏡頭草稿，再交給 H3 生成影片，鏡頭走位更好控制；目前偏研究用途。"
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "LightX2V 4 步加速 LoRA",
+   "updates": [
+    {
+     "title": "LightX2V Lightning for Qwen-Image-2.1：4 步蒸餾 LoRA，生圖與編輯都能用",
+     "date": "2026-10-13",
+     "summary": "lightx2v（ModelTC LightX2V 團隊）10/13 在 Hugging Face 上傳 Qwen-Image-2.1-Lightning：以 DMD 蒸餾出的 4 步 LoRA，支援文生圖與圖片編輯，模型卡附 diffusers 範例（4 步、true_cfg_scale 1.0）；訓練在 16 張華為昇騰 910B 上完成。屬社群加速外掛，非官方權重，授權請看原頁。",
+     "links": [
+      [
+       "Hugging Face · Lightning",
+       "https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning"
+      ]
+     ],
+     "image": {
+      "file": "lightning.webp",
+      "alt": "Hugging Face 分享卡：Qwen-Image-2.1-Lightning",
+      "credit": "Hugging Face · lightx2v",
+      "credit_url": "https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning"
+     },
+     "short_title": "4 步出圖加速外掛",
+     "one": "把出圖步數壓到 4 步的加速外掛，生圖和修圖都更快；非官方，畫質請自己比較。",
+     "gloss": [
+      [
+       "蒸餾 LoRA",
+       "把大模型的多步流程壓縮成少步的小外掛，換取速度"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": {
+  "title": "Google Cloud 官方：Hands on with Gemini 4 Argon",
+  "orig": "Hands on with Gemini 4 Argon",
+  "channel": "Google Cloud",
+  "youtube_id": "opNsprLPCKc",
+  "url": "https://www.youtube.com/watch?v=opNsprLPCKc",
+  "date": "2026-10-14",
+  "summary": "對應本期頭條：Google Cloud 約 3 分鐘的 Gemini 4 Argon 上手示範。",
+  "thumb": {
+   "file": "yt.webp",
+   "alt": "YouTube 縮圖：Hands on with Gemini 4 Argon",
+   "credit": "YouTube／Google Cloud"
+  },
+  "one": "Google 官方 3 分鐘示範 Gemini 4 Argon 實際能做什麼。"
+ },
+ "caveats": [
+  "LMArena 官網今天擋自動抓取，文字榜改依 BenchLeader 轉載的 LMArena 官方資料集（資料仍是 10/08，無變化）。",
+  "ChatGPT 廣告測試為媒體轉述 OpenAI 公告；社群外掛與 LoRA 非官方，授權看原頁。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "gemini-4-argon-ga",
+   "org": "Google",
+   "tag": "延伸 · 正式開放",
+   "date": "2026-10-13",
+   "title": "Gemini 4 Argon 全球正式開放：Pro／Ultra 訂戶可在 Gemini App 使用，API 限時 2／10 美元",
+   "orig": "Gemini 4 Argon is now available for everyone",
+   "summary": "昨天還只給少數資安夥伴試用的 Gemini 4 Argon，Google 10/13 宣布全球開放。【在哪能用】Gemini App 與 Google 搜尋 AI 模式：Google AI Pro 與 Ultra 訂戶；開發者：Gemini API 付費層（AI Studio、Android Studio）；Antigravity 寫程式平台限 Ultra。免費方案與 Pro 方案的 API 額度都不能用（官方文件）。【價格】API 到 11/30 前為限時價：每百萬 token 輸入 2、輸出 10 美元（快取輸入打 95 折扣至 0.10）；12/1 起變成 4／20 美元，和 Claude Opus 5.5 同級。【比上一代進步在哪（官方說法）】回答更直接、少廢話與套話，長任務會更常回報進度；寫程式大幅進步，官方稱在 Vals Index 排第一，Chrome 團隊用它重構大型程式碼。它也是目前 LMArena 文字榜第一（Preliminary）。Ars Technica 另提到 Google 近期已把免費用戶的 Flash 模型收回、只剩 Flash-Lite。【實測】以下為 YouTube 創作者的上手實測影片，屬初步、樣本小。",
+   "links": [
+    [
+     "Google 官方：全面開放",
+     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    ],
+    [
+     "Gemini API 文件（價格／限制）",
+     "https://ai.google.dev/gemini-api/docs/latest-model"
+    ],
+    [
+     "Ars Technica",
+     "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/"
+    ],
+    [
+     "實測：Sam Witteveen",
+     "https://www.youtube.com/watch?v=4iK_UFzW6Zw"
+    ],
+    [
+     "實測：Matt Wolfe",
+     "https://www.youtube.com/watch?v=eBszYxzE2dk"
+    ],
+    [
+     "實測：Bijan Bowen",
+     "https://www.youtube.com/watch?v=mfsUVN8ykLA"
+    ],
+    [
+     "Sundar Pichai 貼文",
+     "https://x.com/sundarpichai/status/2110038898009407584"
+    ]
+   ],
+   "image": {
+    "file": "argon.webp",
+    "alt": "Google 官方頭圖：Gemini 4 Argon",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+   },
+   "short_title": "Gemini 4 Argon 正式開放（要付費）",
+   "one": "排行榜第一名的 Google 新模型今天起開放，但只有 AI Pro／Ultra 付費會員能在 Gemini App 用；API 到 11/30 前半價。",
+   "gloss": [
+    [
+     "Gemini 4 Argon",
+     "Google 最新一代旗艦 AI 模型"
+    ],
+    [
+     "token",
+     "AI 計算文字量的單位，約等於一小段字"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-app-tasks",
+   "org": "Google",
+   "tag": "平台更新",
+   "date": "2026-10-13",
+   "title": "Gemini App 更新：聊天一鍵切換「任務」模式、可連 40+ 個 App，Mac 版內建 Antigravity",
+   "orig": "Gemini 4 Argon comes to the Gemini app",
+   "summary": "同一天 Gemini App 推出幾項更新：主聊天視窗可一鍵從「聊天」切到「任務」，選任務後 Gemini 可在你離開電腦時繼續在 Google 各 App 間幫你做事；可連接 40 多個 App（Instacart、OpenTable、Adobe、Shopify 等），用來訂餐廳、買菜、做設計；macOS 版 Gemini App 直接內建 Antigravity 的寫程式介面。官方說法是 Pro 與 Ultra 訂戶可用 Argon 並交派任務。",
+   "links": [
+    [
+     "Google 官方：Gemini App",
+     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
+    ],
+    [
+     "@GeminiApp 貼文",
+     "https://x.com/GeminiApp/status/2110039322229649783"
+    ]
+   ],
+   "image": null,
+   "short_title": "Gemini App 新增任務模式",
+   "one": "Gemini 現在可以切到「任務」模式替你跑腿，還能連 40 多個 App 幫你訂位、買東西。",
+   "gloss": [
+    [
+     "Antigravity",
+     "Google 讓 AI 代理幫你寫程式的開發平台"
+    ]
+   ]
+  },
+  {
+   "id": "claude-dashboards",
+   "org": "Anthropic",
+   "tag": "平台更新 · 免費權益",
+   "date": "2026-10-13",
+   "title": "Claude Docs／Slides／Design 結束測試、免費方案也能用；新推 Dashboards 與 Motion（測試版）",
+   "orig": "Build live dashboards and animate explainers with Claude",
+   "summary": "Anthropic 10/13 宣布：Claude 的文件（Docs）、簡報（Slides）、設計（Design）功能結束測試，所有方案含免費版都能用；獨立網站 claude.ai/design 會保留到 12/14，之後併入 Claude 對話中。新功能 Claude Dashboards（測試版、付費方案）可連 BigQuery、Databricks、Snowflake、Salesforce 等資料來源做出會自動更新的儀表板；Claude Motion（測試版、限 Team／Enterprise）用程式碼產生動畫解說影片並可匯出 MP4。企業版的 Docs／Slides／Design 10/15 起預設開啟。",
+   "links": [
+    [
+     "Claude 官方",
+     "https://claude.com/resources/articles/dashboards-and-motion"
+    ]
+   ],
+   "image": {
+    "file": "claude.webp",
+    "alt": "Claude 官方分享圖：Dashboards and Motion",
+    "credit": "Anthropic／Claude",
+    "credit_url": "https://claude.com/resources/articles/dashboards-and-motion"
+   },
+   "short_title": "Claude 免費版也能做簡報、文件",
+   "one": "Claude 做文件、簡報和設計的功能現在免費版就能用；付費版另外多了自動更新的資料儀表板。",
+   "gloss": [
+    [
+     "儀表板（Dashboard）",
+     "把數據整理成圖表、一眼看懂的頁面"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-0702",
+   "org": "xAI",
+   "tag": "產品更新",
+   "date": "2026-10-13",
+   "title": "Grok Bot 0.70.2：每個 Bot 有自己的 Email、App 即時卡片、免連線讀 X；Supabase 加入合作",
+   "orig": "grok @bot 0.70.2 is rolling out",
+   "summary": "Grok Bot 10/13 推出 0.70.2：每個 Bot 可以申請自己在 @mail.grokbot.com 的信箱，並幫你起草信件給你自己寄出；Figma、Notion、Canva 等 App 會以即時卡片出現在對話中；Bot 不用連帳號也能搜尋 X、讀公開貼文與個人頁。同日 Supabase 宣布加入 SpaceXAI 合作夥伴網路：在 Grok Bot 對話裡提出需求，就由 Cursor 透過 Supabase MCP 伺服器直接修改後端資料庫。Musk 當天也連發多則 Grok Bot 用例（偵測詐騙信、手機快捷鍵呼叫等）。",
+   "links": [
+    [
+     "更新說明（X 貼文）",
+     "https://x.com/ericzakariasson/status/2110057450850435451"
+    ],
+    [
+     "Supabase 官方部落格",
+     "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+    ],
+    [
+     "Musk 貼文",
+     "https://x.com/elonmusk/status/2110127808718741920"
+    ]
+   ],
+   "image": {
+    "file": "supabase.webp",
+    "alt": "Supabase 部落格分享圖：Ship changes with Grok Bot",
+    "credit": "Supabase",
+    "credit_url": "https://supabase.com/blog/ship-changes-to-your-supabase-backend-with-grok-bot"
+   },
+   "short_title": "Grok Bot 有自己的信箱了",
+   "one": "Grok Bot 新版讓每個 Bot 有專屬 Email 能幫你起草信，Figma、Notion 等 App 也能直接在對話裡操作。",
+   "gloss": [
+    [
+     "MCP",
+     "讓 AI 連接外部工具與資料的標準接口"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-image-ads",
+   "org": "OpenAI",
+   "tag": "免費方案異動",
+   "date": "2026-10-13",
+   "title": "ChatGPT 將在生圖等待畫面測試廣告：美國 Free 與 Go 用戶，10 月下旬開始",
+   "orig": "OpenAI says it will test ads inside ChatGPT image loading screens",
+   "summary": "據 Pivot News 引述 shopifreaks.com 轉述的 OpenAI 公告：OpenAI 將於 10 月下旬在美國對 ChatGPT Free 與 Go 方案測試新廣告，出現在等待圖片生成的畫面中；這是第一種不一定依對話內容投放的 ChatGPT 廣告。OpenAI 表示廣告會標示、與使用者的圖分開，且不影響回答內容。付費方案不在此次測試範圍。",
+   "links": [
+    [
+     "Pivot News",
+     "https://pivotnews.ai/five/openai-says-it-will-test-ads-inside-chatgpt-image-loading"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 免費版生圖時要看廣告",
+   "one": "美國的 ChatGPT 免費與 Go 用戶，10 月底起等圖生成時可能會看到廣告；付費方案不受影響。"
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-freevideo-long",
+   "title": "用 FreeVideo 在自己電腦跑 MiniMax H3 影片",
+   "learn": "學會安裝 FreeVideo，生成第一支 H3 影片，並用新的剪輯畫面把影片接長。",
+   "level": "入門",
+   "vram": "官方稱最低 8GB VRAM＋16GB 記憶體",
+   "kind": "追蹤模型教學",
+   "gloss": [
+    [
+     "ComfyUI",
+     "用拖拉「節點」組合 AI 生圖／影片流程的免費軟體"
+    ],
+    [
+     "VRAM",
+     "顯示卡記憶體，決定能跑多大的模型"
+    ]
+   ],
+   "steps": [
+    "到 GitHub Releases 下載 FreeVideo（Windows 為 FreeVideo.exe，需 NVIDIA 顯卡）。",
+    "執行後選擇既有的 ComfyUI 資料夾或安裝新的，按「Install & launch」。",
+    "在創作面板輸入描述，生成第一支短片。",
+    "要更長：到剪輯畫面把片尾往後拉出新段落，打開「首幀參考」後按生成。"
+   ],
+   "links": [
+    [
+     "FreeVideo GitHub（說明與系統需求）",
+     "https://github.com/FlashML-org/FreeVideo"
+    ],
+    [
+     "v0.4.0 更新說明",
+     "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.0"
+    ]
+   ]
+  },
+  {
+   "id": "tut-upscale",
+   "title": "把小圖放大變清楚：ComfyUI 放大流程",
+   "learn": "學會下載放大模型，把 AI 生出的小圖放大 4 倍且保留細節。",
+   "level": "入門",
+   "vram": "約 4GB 以上即可（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "放大模型（ESRGAN）",
+     "專門把低解析圖補出細節、放大的 AI 模型"
+    ]
+   ],
+   "steps": [
+    "到 OpenModelDB 下載放大模型（官方範例用 4x-ESRGAN）。",
+    "把 .pth 檔放進 ComfyUI/models/upscale_models。",
+    "把官方範例流程圖拖進 ComfyUI，確認「Load Upscale Model」選到 4x-ESRGAN.pth。",
+    "在「Load Image」上傳小圖，按 Queue（或 Ctrl+Enter）執行。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：放大教學",
+     "https://docs.comfy.org/tutorials/basic/upscale"
+    ]
+   ]
+  },
+  {
+   "id": "tut-inpaint",
+   "title": "只改圖的一小塊：ComfyUI 局部重繪（Inpaint）",
+   "learn": "學會用遮罩只重畫不滿意的地方，例如手、衣服或多餘物件，其他部分不動。",
+   "level": "入門",
+   "vram": "依所用模型而定（官方範例為 SD 2.1 inpainting）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Inpaint（局部重繪）",
+     "只重新生成圖中被遮住的區域"
+    ],
+    [
+     "遮罩（Mask）",
+     "標出「要改哪裡」的範圍"
+    ]
+   ],
+   "steps": [
+    "下載官方範例的 512-inpainting-ema.safetensors，放進 ComfyUI/models/checkpoints。",
+    "把官方範例流程圖拖進 ComfyUI，載入範例輸入圖（已含遮罩）。",
+    "按 Queue（或 Ctrl+Enter）生成，不滿意就換 KSampler 的種子重試。",
+    "改自己的圖時，用遮罩編輯器（Mask Editor）塗出要改的區域。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Inpaint 教學",
+     "https://docs.comfy.org/tutorials/basic/inpaint"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-14",
+  "compared_to": "2026-10-13",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-08",
+    "fetched": "2026-10-14",
+    "metric": "Arena score",
+    "carried_from": "2026-10-12",
+    "latest_as_of": "2026-10-08",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1525,
+      "ci": 9,
+      "note": "Preliminary"
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 8
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 3
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1498,
+      "ci": 3
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1497,
+      "ci": 5,
+      "note": "Preliminary"
+     },
+     {
+      "rank": 9,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.7",
+      "org": "Anthropic",
+      "score": 1494,
+      "ci": 4
+     }
+    ],
+    "compared_to": "2026-10-13",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.0",
+    "source": "Artificial Analysis · AA-Image-T2I v2.0（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-12",
+    "fetched": "2026-10-14",
+    "metric": "Elo",
+    "carried_from": "2026-10-12",
+    "latest_as_of": "2026-10-14",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1198,
+      "ci": 9
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1191,
+      "ci": 9
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1172,
+      "ci": 8
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1160,
+      "ci": 10
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1155,
+      "ci": 10
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1151,
+      "ci": 9
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1125,
+      "ci": 7
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3 Image",
+      "org": "Black Forest Labs",
+      "score": 1116,
+      "ci": 10
+     },
+     {
+      "rank": 9,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1114,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1108,
+      "ci": 8
+     }
+    ],
+    "compared_to": "2026-10-13",
+    "diff": {
+     "summary": [
+      "Nano Banana 2.1: #4→#4 (0 名), 1160→1159 (-1)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1151→1152 (+1)",
+      "Muse Image: #9→#8 (+1 名), 1114→1114 (+0)",
+      "FLUX 3 Image: #8→#9 (-1 名), 1116→1114 (-2)",
+      "GPT Image 1.5 (high): #10→#10 (0 名), 1108→1109 (+1)"
+     ]
+    }
+   }
+  ]
+ }
+}
