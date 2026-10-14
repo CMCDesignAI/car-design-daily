@@ -1,0 +1,503 @@
+{
+  "date": "2026-10-14",
+  "weekday": "週三",
+  "issue_no": 7,
+  "lede": "巴黎車展的復古電動潮：Citroën 2 CV Concept 以 3.76 米、約 1.5 萬歐元重現國民車，Audi A2 以圓弧剪影回歸；Vauxhall STX 與 Fiat Multiplay 用概念車預告新設計語言，Dacia Spring 換代、Alpine 以雕塑預告純電 A110。Mitsubishi ASX VR-e 由台灣鴻華先進供應、裕隆生產。產業面：中國 9 月新能源車市佔比亞迪居首，小鵬喊出歐洲年銷 50 萬。",
+  "design_news": [
+    {
+      "id": "citroen-2cv",
+      "tag": "世界首發 · 巴黎車展",
+      "date": "2026-10-11",
+      "brand": "Citroën",
+      "title": "2 CV Concept：3.76 米、目標 1.5 萬歐元，把「鐵皮蝸牛」做成電動國民車",
+      "orig": "Citroën 2CV is back: new concept previews £13k EV for 2028",
+      "summary": "Citroën 在巴黎車展發表 2 CV Concept，是兩年後量產車的近似預告，目標售價約 15,000 歐元、車重約一噸，車長 3.76 m，比 1948 年原版還短。首席設計師 Antoine Gaillot-Drevon 說靈感來自戰前原型 TPV；同場還亮相 2CV Fourgonnette 廂型車，官方稱短期內不會量產。",
+      "analysis": [
+        [
+          "比例",
+          "保留招牌的「鐵皮蝸牛」側面輪廓，用現代比例重新詮釋。"
+        ],
+        [
+          "燈號",
+          "在 Stellantis 歐洲設計主管 Gilles Vidal 建議下，把圓頭燈放大、往內移，做出友善的臉。"
+        ],
+        [
+          "面處理",
+          "V 形引擎蓋＋凸出的頭燈，設計師說「就這樣，不需要更多」。"
+        ],
+        [
+          "CMF",
+          "刻意不漆成 TPV 的平光灰，改用鮮豔車色，內裝要「明亮、清新」。"
+        ],
+        [
+          "品牌方向",
+          "以情感與歷史對抗中國新品牌的低價攻勢。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar（設計師訪談）",
+          "https://www.autocar.co.uk/car-news/electric-cars/citro%C3%ABn-2cv-back-new-concept-previews-%C2%A313k-ev-2028"
+        ],
+        [
+          "Autocar（2CV Fourgonnette）",
+          "https://www.autocar.co.uk/car-news/electric-cars/fourgonnette-returns-new-citroen-2cv-gets-van-treatment"
+        ],
+        [
+          "Stellantis Media（Citroën）",
+          "https://www.media.stellantis.com/em-en/citroen/press/citroen-2-cv-concept-time-2-meet-again"
+        ]
+      ],
+      "image": {
+        "file": "news-citroen-2cv.webp",
+        "alt": "橘紅色 Citroën 2 CV Concept 在巴黎車展，圓形頭燈與 V 形引擎蓋",
+        "credit": "Citroën（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/citro%C3%ABn-2cv-back-new-concept-previews-%C2%A313k-ev-2028"
+      }
+    },
+    {
+      "id": "audi-a2",
+      "tag": "公開首演 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Audi",
+      "title": "A2 e-tron 回歸：圓弧輪廓、短懸伸，主打「史上最省電的 Audi」",
+      "orig": "New Audi A2 revealed as ultra-efficient EV with 400-mile range",
+      "summary": "Audi 讓 A2 以電動家用掀背車復活，在巴黎首次公開亮相，取代已停產的 A1 與 Q2。車長約 4.3 m、軸距 2,770 mm，建在 MEB 平台上，最大電池 84 kWh、WLTP 續航最長約 401 英里；官方稱最省的版本每 kWh 可跑 4.85 英里，是「史上最有效率的 Audi」。英國售價自 32,200 英鎊起。",
+      "analysis": [
+        [
+          "比例",
+          "比初代大很多，但守住圓弧車頂、短懸伸與截平車尾的原版剪影。"
+        ],
+        [
+          "空力",
+          "整體輪廓以降低風阻、換取續航為優先。"
+        ],
+        [
+          "品牌方向",
+          "成為 Audi 最小、最便宜的電動車，對手是 Volvo EX30、Mini Aceman。"
+        ],
+        [
+          "室內 UX",
+          "長軸距把空間讓給座艙，延續原版 A2「小車大空間」的定位。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/new-audi-a2-revealed-ultra-efficient-ev-400-mile-range"
+        ]
+      ],
+      "image": {
+        "file": "news-audi-a2.webp",
+        "alt": "淺綠色 Audi A2 e-tron 前三分之四，圓弧車頂與細長頭燈",
+        "credit": "Audi（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/new-audi-a2-revealed-ultra-efficient-ev-400-mile-range"
+      }
+    },
+    {
+      "id": "vauxhall-stx",
+      "tag": "概念 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Vauxhall／Opel",
+      "title": "STX 概念：低趴電動旅行車，預告下一代 Astra 與品牌新臉",
+      "orig": "Bold Vauxhall STX estate revealed as first look at Astra's future",
+      "summary": "Vauxhall（歐陸為 Opel）發表 STX（Sports Tourer Experimental）概念車，車長只比現行 Astra Tourer 略長，預告約在本世紀末推出、以旅行車為主的新 Astra。它延續 2018 年 GTX 概念開創的傳統，是四驅純電、極速超過 124 mph，也是第一台用新版獅鷲（griffin）廠徽的車。",
+      "analysis": [
+        [
+          "燈號",
+          "Vizor 前臉改成漸層燈條，日行燈好認，兩端藏著幾乎看不見的小頭燈。"
+        ],
+        [
+          "面處理",
+          "延續 compass 中心線：從前臉中央一路貫穿車身長度與寬度。"
+        ],
+        [
+          "比例",
+          "寬而低的車頭、前傾擋風玻璃接弧形車頂，車尾斷然截平。"
+        ],
+        [
+          "空力",
+          "車尾在 50 mph 以上會加寬、加長，降低風阻、提升穩定。"
+        ],
+        [
+          "品牌方向",
+          "新廠徽簡化，因歐規已允許護罩與廠徽發光。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/bold-vauxhall-stx-estate-revealed-first-look-astras-future"
+        ]
+      ],
+      "image": {
+        "file": "news-vauxhall-stx.webp",
+        "alt": "銀色 Opel／Vauxhall STX 概念車正面，漸層發光 Vizor 前臉",
+        "credit": "Vauxhall／Opel（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/bold-vauxhall-stx-estate-revealed-first-look-astras-future"
+      }
+    },
+    {
+      "id": "fiat-multiplay",
+      "tag": "概念 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Fiat",
+      "title": "Multiplay 概念：Multipla 變身皮卡＋SUV，車頂後段會滑動變貨斗",
+      "orig": "Fiat Multipla returns as a cross between a pick-up and SUV",
+      "summary": "Fiat 以 1998 年 Multipla MPV 為靈感推出 Multiplay 概念車，混合皮卡與 SUV，定位休閒為主、也能當家庭唯一一台車。可電動從載人模式切換成皮卡：C 柱後段車頂滑向前、最後排座椅前移、後擋板向外開。Fiat 尚未說明是否量產。",
+      "analysis": [
+        [
+          "比例",
+          "圓泡狀的座艙放在雕塑感更強的車身上，Multipla 的影子一看就懂。"
+        ],
+        [
+          "燈號",
+          "燈具靈感來自夜裡的 Fiat Lingotto 老工廠燈光。"
+        ],
+        [
+          "CMF",
+          "未上漆的輪拱、側裙與保險桿，配大顆全地形胎，強調越野。"
+        ],
+        [
+          "室內 UX",
+          "大螢幕橫跨整個儀表板、緊貼擋風玻璃下方，取消傳統中控觸控螢幕。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/new-cars/fiat-multipla-returns-cross-between-pick-and-suv"
+        ]
+      ],
+      "image": {
+        "file": "news-fiat-multiplay.webp",
+        "alt": "綠色 Fiat Multiplay 概念車在巴黎車展，圓泡狀座艙與黑色輪拱",
+        "credit": "Fiat（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/new-cars/fiat-multipla-returns-cross-between-pick-and-suv"
+      }
+    },
+    {
+      "id": "mitsubishi-asx-vre",
+      "tag": "新車 · 澳紐上市",
+      "date": "2026-10-11",
+      "brand": "Mitsubishi",
+      "title": "ASX VR-e：台灣鴻華先進代工的電動 SUV，GSR 版 459 匹超越 Evo",
+      "orig": "Mitsubishi's Taiwanese EV Has More Grunt Than The Most Powerful Evo Ever",
+      "summary": "Mitsubishi 公布 ASX VR-e 細節：由鴻海集團旗下鴻華先進（Foxtron）供應、以 Foxtron Bria 為基礎，由裕隆生產，年底先在澳洲上市，也將供應紐西蘭。頂規 GSR 雙馬達四驅 342 kW（459 hp）、0–100 km/h 3.9 秒，比最強的 Lancer Evo 還快；電池 57.7 kWh LFP。",
+      "analysis": [
+        [
+          "品牌方向",
+          "造型直接沿用 Pininfarina 為 Foxtron 設計的車身，和過去任何 Mitsubishi 都不同，帶歐式風格。"
+        ],
+        [
+          "空力",
+          "加入導流通道與主動式水箱護罩，降低風阻。"
+        ],
+        [
+          "室內 UX",
+          "15.6 吋中控＋9.2 吋數位儀表，可調氛圍燈與跑車方向盤。"
+        ],
+        [
+          "CMF",
+          "內裝只有灰或黑兩色，配藍色縫線；依車型為皮革或布椅。"
+        ]
+      ],
+      "sources": [
+        [
+          "Carscoops",
+          "https://www.carscoops.com/2026/10/mitsubishis-taiwanese-ev-has-more-grunt-than-the-most-powerful-evo-ever/"
+        ],
+        [
+          "Electrek",
+          "https://electrek.co/2026/10/11/459-hp-0-60-in-3-9-sec-and-awd-meet-mitsubishis-new-age-electric-evo-video/"
+        ],
+        [
+          "Digital Today",
+          "https://www.digitaltoday.co.kr/en/view/113048/mitsubishi-unveils-459-hp-electric-suv-asx-vr-e"
+        ]
+      ],
+      "image": {
+        "file": "news-mitsubishi-asx-vre.webp",
+        "alt": "藍色 Mitsubishi ASX VR-e 行駛中前三分之四",
+        "credit": "Mitsubishi（via Carscoops）",
+        "credit_url": "https://www.carscoops.com/2026/10/mitsubishis-taiwanese-ev-has-more-grunt-than-the-most-powerful-evo-ever/"
+      }
+    },
+    {
+      "id": "dacia-spring",
+      "tag": "世界首發 · 量產",
+      "date": "2026-10-12",
+      "brand": "Dacia",
+      "title": "新 Spring：Twingo 的平價兄弟，加寬加大做出「強悍站姿」",
+      "orig": "Dacia Spring reinvented as sub-£18k EV with 155-mile range",
+      "summary": "第二代 Dacia Spring 在巴黎首發，以 Renault Twingo 為基礎、改在斯洛維尼亞生產，從構想到量產只花 16 個月，是 Renault 集團最快的一台。車長 3,850 mm、寬 1,740 mm、高 1,490 mm，四座、27.5 kWh 電池、WLTP 155 英里，英國起價略低於 1.8 萬英鎊。",
+      "analysis": [
+        [
+          "比例",
+          "設計主管 David Durand 說舊款「太窄、輪子太小」，新款加寬放大，追求「強悍、平衡的站姿」。"
+        ],
+        [
+          "面處理",
+          "厚實保險桿與鼓起的輪拱，讓小車看起來更耐操。"
+        ],
+        [
+          "品牌方向",
+          "Dacia 到 2030 年四款新電動車的第一款，直接迎戰 Citroën 2CV。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/electric-cars/dacia-spring-reinvented-sub-%C2%A318k-ev-155-mile-range"
+        ]
+      ],
+      "image": {
+        "file": "news-dacia-spring.webp",
+        "alt": "淺藍灰色新 Dacia Spring 在巴黎車展，黑色厚實保險桿",
+        "credit": "Dacia（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/dacia-spring-reinvented-sub-%C2%A318k-ev-155-mile-range"
+      }
+    },
+    {
+      "id": "alpine-a110",
+      "tag": "預告 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Alpine",
+      "title": "下一代 A110 雕塑：以協和號超音速震波為靈感，首次透露純電新造型",
+      "orig": "New 2027 Alpine A110 design previewed in full-scale sculpture",
+      "summary": "Alpine 在巴黎展出等比例雕塑，預告 2027 年登場、首度純電的第三代 A110，建在 Alpine Performance Platform 上。雕塑模仿新車揭幕前蓋著的布幔，但已透露流線外型；車高與現款幾乎相同，因為電池分置前後而不是平鋪在地板。",
+      "analysis": [
+        [
+          "燈號",
+          "保留 Alpine 招牌 V 形車頭，頭燈改成六角形。"
+        ],
+        [
+          "面處理",
+          "側面雕塑感更強，設計主管 Antony Villain 說取材自協和號突破音速時的「回聲」形狀。"
+        ],
+        [
+          "比例",
+          "前後分置電池，讓車身維持貼地低矮。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/new-cars/new-2027-alpine-a110-design-previewed-full-scale-sculpture"
+        ]
+      ],
+      "image": {
+        "file": "news-alpine-a110.webp",
+        "alt": "Alpine 展台上的下一代 A110 布幔造型雕塑（後方），前景為藍色 Alpine 車款",
+        "credit": "Alpine（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/new-cars/new-2027-alpine-a110-design-previewed-full-scale-sculpture"
+      }
+    }
+  ],
+  "knowledge": [
+    {
+      "tag": "市場 · 中國",
+      "date": "2026-10-13",
+      "title": "9 月中國新能源車零售市佔：比亞迪 22.8% 居首，特斯拉升到第四",
+      "summary": "乘聯會數據：比亞迪 9 月零售 246,816 輛、市佔 22.8%，吉利 11.0%、零跑 7.2% 分居二三，特斯拉中國 64,837 輛、6.0% 升至第四；小米汽車 3.7% 進入前十，理想與蔚來則跌出前十。",
+      "sources": [
+        [
+          "CnEVPost（CPCA）",
+          "https://cnevpost.com/2026/10/13/china-nev-market-share-sept-2026-byd-tesla/"
+        ]
+      ]
+    },
+    {
+      "tag": "出海 · 中國",
+      "date": "2026-10-13",
+      "title": "小鵬目標 2030 年全球年銷 100 萬輛、一半在歐洲",
+      "summary": "小鵬董事長何小鵬在巴黎車展受訪時表示，2030 年全球年銷目標 100 萬輛，其中歐洲 50 萬輛，產能是在歐洲最關鍵的瓶頸；正與代工夥伴 Magna 討論擴大奧地利產能。若達成，歐洲銷量將超過 Ford 與 Opel 2025 年在歐洲的規模。",
+      "sources": [
+        [
+          "CnEVPost（引 Bloomberg）",
+          "https://cnevpost.com/2026/10/13/xpeng-targets-1-million-sales-2030-half-europe/"
+        ]
+      ]
+    },
+    {
+      "tag": "電池 · 固態",
+      "date": "2026-10-13",
+      "title": "輝能與 Rimac：固態電池 2027 年完成電池包、2028 年上車測試",
+      "summary": "台灣輝能科技（ProLogium）與 Rimac Technology 公布固態電池合作時程：巴黎車展展出的是電池包模型，2027 年做出可運作硬體與完整電池包，2028 年開始首批實車測試；目前沒有商品化上市日期。",
+      "sources": [
+        [
+          "Lithium News",
+          "https://lithium-news.com/prologium-rimac-2028-goal-vehicle-battery-tests/"
+        ]
+      ]
+    },
+    {
+      "tag": "電池 · 製造",
+      "date": "2026-10-13",
+      "title": "GM 在密西根設電池電芯開發中心，鋰錳富（LMR）電芯 2028 年量產",
+      "summary": "GM 在 Warren 園區設立電芯開發中心，在量產前驗證實驗室電芯並優化製程，目標縮短開發時間、壓低電動車價格（電池占整車成本 30–40%）。首先試產鋰錳富方形電芯，今年第四季做出首批試產電芯、2028 年量產。",
+      "sources": [
+        [
+          "Digital Today（引 The Verge）",
+          "https://www.digitaltoday.co.kr/en/view/114049/gms-secret-weapon-to-lower-ev-prices-battery-development-time-to-be-cut-in-half"
+        ]
+      ]
+    }
+  ],
+  "term": {
+    "name": "Greenhouse",
+    "zh": "溫室（車窗與車頂部分）",
+    "body": "Greenhouse（溫室）是指車身腰線以上、由車窗玻璃、車柱和車頂圍成的上半部。本期的 Fiat Multiplay 概念車就很好認：它的座艙是一顆圓圓的「泡泡」，整片車窗和車頂往上鼓起，放在下方稜角較硬、輪拱厚實的車身上，上下兩段一眼就分得出來。設計師用溫室的大小和形狀，決定一台車看起來是輕巧通透，還是低矮緊湊。",
+    "source": [
+      [
+        "Wikipedia：Glossary of automotive design（Greenhouse）",
+        "https://en.wikipedia.org/wiki/Glossary_of_automotive_design"
+      ],
+      [
+        "Autocar：Fiat Multiplay（rounded, bubble-style cabin）",
+        "https://www.autocar.co.uk/car-news/new-cars/fiat-multipla-returns-cross-between-pick-and-suv"
+      ]
+    ],
+    "diagram": "term.svg"
+  },
+  "moodboards": [
+    {
+      "theme": "Monaco Riviera grand tourer",
+      "zh": "摩納哥蔚藍海岸 GT",
+      "intro": "夕陽下的海岸公路，一台虛構的酒紅色長頭 GT：低矮座艙、香檳金腰線，背景是粉杏色的山城與地中海藍。",
+      "images": [
+        [
+          "mb1-1",
+          "原創虛構概念：酒紅長頭 GT 停在海岸公路（程式繪製）",
+          true
+        ],
+        [
+          "mb1-2",
+          "色票：蔚藍海岸六色條（程式繪製）",
+          false
+        ],
+        [
+          "mb1-3",
+          "內裝：酒紅縫線座椅與金色環形飾件（程式繪製）",
+          false
+        ],
+        [
+          "mb1-4",
+          "材質：深酒紅金屬漆與香檳金光澤（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Riviera Bordeaux",
+          "#7A1F2B"
+        ],
+        [
+          "Mediterranean",
+          "#1F5F8B"
+        ],
+        [
+          "Champagne Gold",
+          "#C9A96E"
+        ],
+        [
+          "Villa Cream",
+          "#F2E6D0"
+        ],
+        [
+          "Terracotta Dusk",
+          "#E9B98F"
+        ],
+        [
+          "Harbour Night",
+          "#20303F"
+        ]
+      ],
+      "keywords": [
+        "長車頭",
+        "低矮座艙",
+        "海岸公路",
+        "香檳金飾條",
+        "度假優雅",
+        "無標誌"
+      ],
+      "materials": [
+        "深酒紅金屬漆",
+        "香檳金陽極鋁飾條",
+        "奶油色 Nappa 皮革",
+        "手工對比縫線",
+        "胡桃木飾板",
+        "細編織頂棚"
+      ]
+    },
+    {
+      "theme": "Kyoto craft & washi interior",
+      "zh": "京都工藝與和紙座艙",
+      "intro": "以町家格子窗與和紙拉門為靈感的虛構座艙：米白和紙透光、木格框架、苔綠與朱紅點綴，安靜而有手作溫度。",
+      "images": [
+        [
+          "mb2-1",
+          "原創虛構概念：和紙格窗前的米白座艙（程式繪製）",
+          true
+        ],
+        [
+          "mb2-2",
+          "細節：和紙紋理與木格拉門（程式繪製）",
+          false
+        ],
+        [
+          "mb2-3",
+          "圖樣：苔綠、朱紅、米色市松格紋（程式繪製）",
+          false
+        ],
+        [
+          "mb2-4",
+          "材質：和紙纖維與木紋（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Washi White",
+          "#F7F1E3"
+        ],
+        [
+          "Shoji Beige",
+          "#EFE6D6"
+        ],
+        [
+          "Cedar Brown",
+          "#8A6A4A"
+        ],
+        [
+          "Tatami Straw",
+          "#C8B48A"
+        ],
+        [
+          "Moss Green",
+          "#3E5641"
+        ],
+        [
+          "Shu Vermilion",
+          "#A33B2A"
+        ]
+      ],
+      "keywords": [
+        "透光和紙",
+        "木格框架",
+        "市松格紋",
+        "手作溫度",
+        "靜謐",
+        "無標誌"
+      ],
+      "materials": [
+        "和紙複合透光飾板",
+        "杉木格柵",
+        "藺草編織地墊",
+        "植鞣皮革",
+        "朱漆點綴",
+        "麻布座椅"
+      ]
+    }
+  ]
+}
