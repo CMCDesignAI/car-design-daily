@@ -499,5 +499,55 @@
         "麻布座椅"
       ]
     }
+  ],
+  "cmf": [
+    {
+      "id": "cmf-renault-e-space-concept",
+      "car": "Renault E-Space Concept",
+      "tag": "概念車 · 巴黎車展",
+      "title": "一整車的紅：稻草鑲嵌、羊毛厚地毯",
+      "points": [
+        "內裝只用一種顏色：猩紅、紫紅到石榴紅的紅色系。",
+        "3 cm 厚 100% 羊毛長毛地毯，珊瑚色中心向外漸深。",
+        "飾板用染色稻草直接貼覆，椅背餐桌是稻草鑲嵌工藝。",
+        "門把包絎縫布料；車內塗料含 18% 生質樹脂。"
+      ],
+      "image": {
+        "file": "cmf-renault-e-space-concept.webp",
+        "alt": "Renault E-Space Concept 座艙：紅色漆面椅殼座椅與紅色內裝",
+        "credit": "Renault Group",
+        "credit_url": "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng"
+      },
+      "sources": [
+        [
+          "Renault Group 官方新聞稿",
+          "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng"
+        ]
+      ]
+    },
+    {
+      "id": "cmf-alfa-romeo-cuorerosso",
+      "car": "Alfa Romeo Cuorerosso",
+      "tag": "概念車 · 巴黎車展",
+      "title": "紅色漸層座艙，儀表板用帆船透明布",
+      "points": [
+        "座艙紅色是真漸層：越靠近駕駛越濃，往後座越深。",
+        "手工上色 Poltrona Frau 磨砂皮只用在接觸處。",
+        "再生皮革含 60% 工業廢料；也試驗再生碳纖與紅樹脂。",
+        "儀表板用透明單絲布，源自 Luna Rossa 帆船服。"
+      ],
+      "image": {
+        "file": "cmf-alfa-romeo-cuorerosso.webp",
+        "alt": "Alfa Romeo Cuorerosso 座艙：紅色磨砂皮座椅、儀表板與中央通道",
+        "credit": "Alfa Romeo（via Auto&Design）",
+        "credit_url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/"
+      },
+      "sources": [
+        [
+          "Auto&Design",
+          "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/"
+        ]
+      ]
+    }
   ]
 }
