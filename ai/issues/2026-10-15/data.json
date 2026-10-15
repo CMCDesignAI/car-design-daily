@@ -1,0 +1,654 @@
+{
+ "date": "2026-10-15",
+ "weekday": "週四",
+ "issue_no": 8,
+ "lede": "今天重點：xAI 推出 Grok Voice 3.0，語音對話評測拿下第一、價格不變；Meta 的 Muse Wonder 新進文字榜第 2 名，文生圖榜也改版重算。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "FreeVideo v0.4.2–v0.4.5 加入生圖與多角度角色卡；ComfyUI v0.40.0 改善 H3 單張圖解碼",
+   "updates": [
+    {
+     "title": "FreeVideo v0.4.2–v0.4.5：加入可選的生圖模型、角色卡多角度、接續生成不再爆記憶體",
+     "date": "2026-10-14",
+     "summary": "本機跑 MiniMax H3 的 FreeVideo 10/14 連發 v0.4.2 到 v0.4.5。v0.4.2：新增可選的圖像生成模型（安裝約 16 GB），可一句話生圖、修改圖片；角色卡先生成正面再自動做出四分之三側、側面、背面與臉部特寫；AI 代理可先生成人物站位首幀再生影片。v0.4.4：一段接一段生成從第二段起不再記憶體不足；Windows 16GB 以下顯卡第二遍恢復速度；剪輯畫面可設參考圖／首幀／尾幀，也能接續從電腦匯入的影片。v0.4.5：進度改為實際百分比、生圖失敗會說明原因並自動排隊、每個 LoRA 可設自己的觸發詞、輸入提示詞時會提示運鏡詞。",
+     "links": [
+      [
+       "GitHub · v0.4.5",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.5"
+      ],
+      [
+       "GitHub · v0.4.2",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.2"
+      ]
+     ],
+     "image": {
+      "file": "fv.webp",
+      "alt": "GitHub 分享卡：FreeVideo v0.4.5",
+      "credit": "GitHub · FlashML-org/FreeVideo",
+      "credit_url": "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.5"
+     },
+     "short_title": "FreeVideo 能生圖、接長片更穩",
+     "one": "跑 H3 的 FreeVideo 一天出 4 版：多了生圖和角色多角度，長影片接續生成不再爆記憶體。",
+     "gloss": [
+      [
+       "LoRA",
+       "加掛在模型上的小外掛，用來學特定風格或角色"
+      ]
+     ]
+    },
+    {
+     "title": "ComfyUI v0.40.0：MiniMax H3 單張圖改用片段第一格解碼",
+     "date": "2026-10-13",
+     "summary": "ComfyUI 10/13 發布 v0.40.0，其中一項是把 MiniMax H3 的單張圖片改成以影片片段的第一個 latent 解碼（kijai 提交）；同版也加入 CameraAngle 運鏡節點與 Nano Banana 2.1 合作節點。",
+     "links": [
+      [
+       "GitHub · ComfyUI v0.40.0",
+       "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+      ]
+     ],
+     "image": null,
+     "short_title": "ComfyUI 0.40 改善 H3 單圖",
+     "one": "ComfyUI 新版調整了 H3 生成單張圖的方式，同版還多了運鏡節點。"
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "ComfyUI v0.40.0 修正低顯存問題",
+   "updates": [
+    {
+     "title": "ComfyUI v0.40.0：修正 Qwen Image 2.1 在低顯存時的異常",
+     "date": "2026-10-13",
+     "summary": "ComfyUI v0.40.0 更新紀錄列出「Comfy Aimdo 0.5.6 + Fix qwen 2.1 rogues in low VRAM conditions」，修正 Qwen Image 2.1 在顯存不足情況下的問題。顯卡記憶體較小、跑 Qwen Image 2.1 遇到異常的人可更新後再試。",
+     "links": [
+      [
+       "GitHub · ComfyUI v0.40.0",
+       "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+      ]
+     ],
+     "image": null,
+     "short_title": "ComfyUI 修好低顯存問題",
+     "one": "顯卡記憶體小、跑 Qwen Image 2.1 出問題的人，更新到 ComfyUI 0.40 可能就好了。",
+     "gloss": [
+      [
+       "VRAM",
+       "顯示卡記憶體，決定能跑多大的模型"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": null,
+ "caveats": [
+  "LMArena 官網擋自動抓取，文字榜改用 LMArena 官方 Hugging Face 資料集（10/13 版）；本次未標 Preliminary。",
+  "Artificial Analysis 文生圖榜改版為 v2.1，分數整體重算上升約 11–19 分，跨版本比較僅供參考；今天沒有合適的推薦影片。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "grok-voice-3",
+   "org": "xAI（SpaceXSI）",
+   "tag": "新模型 · 語音",
+   "date": "2026-10-14",
+   "title": "Grok Voice 3.0：語音對語音模型登上 Artificial Analysis 第一，API 價格與 2.0 相同",
+   "orig": "Introducing Grok Voice 3.0",
+   "summary": "xAI（現稱 SpaceXSI）10/14 推出 Grok Voice 3.0，是直接「聽語音、回語音」的對話模型。【比上一版進步在哪（官方引用 Artificial Analysis 10/13 數據）】綜合 Speech-to-Speech Index 86.9（2.0 為 81.3，GPT-Live-1 83.2、Gemini 3.8 Live 82.6）；盲測偏好 Elo 1070（2.0 為 1011）；處理停頓、插話的 Full Duplex Bench 97%（2.0 為 95.1%）；首次回應不到 1 秒。τ-Voice 客服通話測試 71.6%，與 GPT-Live-1 相當但延遲低 40%。【價格／在哪能用】Voice Agent API 每分鐘 0.08 美元（每小時 4.8 美元），與 2.0 相同；用 grok-voice-latest 的程式已自動升級，API 不變；grok-voice-2.0 列為淘汰。也是 Tesla 車上語音與 Grok Bot 語音模式的底層。官方稱 Starlink 客服每天用它接 2 萬通電話，約 70% 不需真人。【實測】以下為第三方評測，屬初步、樣本有限：Cekura 3,198 通電話比較認為它在穩定度、反應速度與成本勝過 GPT Realtime 2.1，但回答準確度較弱。",
+   "links": [
+    [
+     "xAI 官方公告",
+     "https://x.ai/news/grok-voice-3"
+    ],
+    [
+     "xAI API 更新紀錄",
+     "https://docs.x.ai/developers/release-notes"
+    ],
+    [
+     "實測比較：Cekura（vs GPT Realtime 2.1）",
+     "https://benchmarks.cekura.ai/speech-to-speech/compare/grok-realtime-3-vs-openai-realtime"
+    ],
+    [
+     "評測整理：OrcaRouter",
+     "https://www.orcarouter.ai/blog/grok-voice-3-0-tops-speech-to-speech-index"
+    ],
+    [
+     "SiliconANGLE 報導",
+     "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/"
+    ],
+    [
+     "Elon Musk 貼文",
+     "https://x.com/elonmusk/status/2110483960312799675"
+    ]
+   ],
+   "image": {
+    "file": "gv.webp",
+    "alt": "xAI 官方分享圖：Grok Voice 3.0",
+    "credit": "SpaceXSI／xAI",
+    "credit_url": "https://x.ai/news/grok-voice-3"
+   },
+   "short_title": "Grok Voice 3.0 語音模型拿第一",
+   "one": "xAI 新的語音對話模型在第三方評測排第一，回應不到 1 秒、價格沒漲，Tesla 車上和 Grok Bot 的語音模式都用它。",
+   "gloss": [
+    [
+     "語音對語音（Speech-to-Speech）",
+     "AI 直接聽你說話、直接用聲音回答，不必先轉成文字"
+    ],
+    [
+     "API",
+     "讓開發者把 AI 接進自己程式的介面，通常按用量計費"
+    ]
+   ]
+  },
+  {
+   "id": "muse-wonder-lmarena",
+   "org": "Meta",
+   "tag": "延伸 · 榜單",
+   "date": "2026-10-13",
+   "title": "Meta Muse Wonder（max）首次進入 LMArena 文字榜，直接排第 2",
+   "orig": "LMArena Text Arena leaderboard dataset (2026-10-13)",
+   "summary": "10/13 才報過的 Meta 新模型 Muse Wonder，在 LMArena 官方資料集 10/13 更新中首次上榜：Text Arena 總榜（風格控制）1513 分排第 2，僅次 Gemini 4 Argon（1525），超過 Claude Opus 5.5（1508）。目前只有約 1,944 票、誤差 ±13，名次仍可能變動。另一款 Muse Spark 1.2（xhigh）也回到前 10。",
+   "links": [
+    [
+     "LMArena 官方資料集（Hugging Face）",
+     "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+    ],
+    [
+     "LMArena 文字榜",
+     "https://lmarena.ai/leaderboard/text"
+    ],
+    [
+     "Meta 官方：Muse Wonder",
+     "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Muse Wonder 新進文字榜第 2",
+   "one": "Meta 上週剛發表的 Muse Wonder 第一次上榜就排第 2，只輸 Google 的 Gemini 4 Argon，但票數還少、名次可能再變。",
+   "gloss": [
+    [
+     "LMArena",
+     "讓網友盲選哪個 AI 回答比較好、再算出排名的公開排行榜"
+    ]
+   ]
+  },
+  {
+   "id": "argon-science",
+   "org": "Google",
+   "tag": "延伸 · 方案",
+   "date": "2026-10-14",
+   "title": "Google 送 1 萬名科學家半年免費 Antigravity 最高用量方案（含 Gemini 4 Argon）",
+   "orig": "Gemini 4 Argon is already unlocking new scientific breakthroughs…",
+   "summary": "Google DeepMind 10/14 宣布，提供最多 10,000 名科學家 6 個月免費使用 Google Antigravity 最高用量方案（可用 Gemini 4 Argon）。需申請、名額依資格與容量逐批審核；對象是大學、非營利研究機構或國家實驗室的非商業研究人員。同時公布 Argon 協助的研究案例：量子錯誤更正解碼器加速近一倍、找到電漿物理 Grad 猜想的新反例、數小時內設計出 5 種經實驗驗證的酵素。一般用戶仍須 Google AI Pro／Ultra 才能用 Argon。",
+   "links": [
+    [
+     "Google DeepMind 貼文",
+     "https://x.com/GoogleDeepMind/status/2110421873242861711"
+    ],
+    [
+     "Antigravity 科學用途頁",
+     "https://antigravity.google/use-cases/science/"
+    ],
+    [
+     "Antigravity 部落格：Argon",
+     "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity/"
+    ]
+   ],
+   "image": {
+    "file": "ag.webp",
+    "alt": "Google Antigravity 官方部落格頭圖：Gemini 4 Argon",
+    "credit": "Google Antigravity",
+    "credit_url": "https://antigravity.google/blog/gemini-4-argon-in-google-antigravity/"
+   },
+   "short_title": "Argon 免費給 1 萬名科學家用",
+   "one": "學術研究者可以申請半年免費用 Google 最強的 Argon 模型寫程式做研究；一般人還是要付費會員才能用。",
+   "gloss": [
+    [
+     "Antigravity",
+     "Google 的 AI 寫程式平台，讓 AI 代理幫你寫、改、跑程式"
+    ]
+   ]
+  },
+  {
+   "id": "characterai-ch11",
+   "org": "Character.AI",
+   "tag": "平台異動",
+   "date": "2026-10-13",
+   "title": "Character.AI 申請破產保護，迪士尼出價 2,000 萬美元買部分技術授權",
+   "orig": "Character.ai Initiates Voluntary Chapter 11 Proceeding to Facilitate Value-Maximizing Sale Process",
+   "summary": "AI 角色聊天平台 Character.AI 10/12 在美國德拉瓦州申請 Chapter 11 破產保護，以出售資產並處理法律求償。迪士尼以 2,000 萬美元作為底價出價，取得部分 AI 技術與專利的永久、非獨家授權，仍可被更高出價取代。出售期間平台照常營運；據報導若找不到買家，平台可能關閉。",
+   "links": [
+    [
+     "Character.AI 官方新聞稿（Business Wire 轉載）",
+     "https://markets.financialcontent.com/wral/article/bizwire-2026-10-13-characterai-initiates-voluntary-chapter-11-proceeding-to-facilitate-value-maximizing-sale-process"
+    ],
+    [
+     "NBC News",
+     "https://www.nbcnews.com/tech/tech-news/characterai-files-bankruptcy-sell-assets-disney-20-million-rcna603174"
+    ],
+    [
+     "Ars Technica",
+     "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Character.AI 破產保護",
+   "one": "知名的 AI 角色聊天 App 申請破產保護、準備出售，目前還能用，但如果沒人接手可能會關站。",
+   "gloss": [
+    [
+     "Chapter 11",
+     "美國的破產重整程序，公司可以邊營運邊整理債務或出售資產"
+    ]
+   ]
+  },
+  {
+   "id": "claude-otel",
+   "org": "Anthropic",
+   "tag": "開發者功能",
+   "date": "2026-10-14",
+   "title": "Claude 平台支援 OpenTelemetry 追蹤：看清 AI 代理每一步做了什麼（公開測試）",
+   "orig": "Trace agents with OpenTelemetry on the Claude Platform",
+   "summary": "Anthropic 10/14 宣布 Claude Managed Agents、Messages API 與 Claude SDK 可以把 OpenTelemetry 追蹤資料送到任何相容的監控工具，逐步查看代理執行的每一步；已在用 Claude Code／Cowork 追蹤的團隊可放在同一處看。屬公開測試：Managed Agents 與 Messages API 要先在 Claude Console 設定目的地，SDK 則自動匯出。",
+   "links": [
+    [
+     "Claude 官方文章",
+     "https://claude.com/resources/articles/agent-observability-on-the-claude-platform"
+    ]
+   ],
+   "image": null,
+   "short_title": "Claude 代理可逐步追蹤",
+   "one": "用 Claude 打造 AI 代理的開發者，現在能在常用的監控工具裡看到代理每一步做了什麼，方便除錯。",
+   "gloss": [
+    [
+     "OpenTelemetry",
+     "業界通用的監控資料格式，用來記錄程式每一步的執行過程"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-img2img",
+   "title": "ComfyUI 圖生圖：拿一張圖當參考，生成新版本",
+   "learn": "學會用 denoise 數值控制「新圖跟原圖要多像」，做風格轉換或線稿上色。",
+   "level": "入門",
+   "vram": "依原頁為準（範例用 SD 1.5 fp16 模型）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "圖生圖（img2img）",
+     "給 AI 一張參考圖加文字描述，讓它畫出新版本"
+    ],
+    [
+     "denoise",
+     "重繪強度：越小越像原圖，1 就等於完全重畫"
+    ]
+   ],
+   "steps": [
+    "下載 v1-5-pruned-emaonly-fp16.safetensors，放到 ComfyUI/models/checkpoints。",
+    "把官方頁的工作流程圖片拖進 ComfyUI，載入流程。",
+    "在 Load Image 節點上傳你的參考圖，按 Queue（Ctrl+Enter）生成。",
+    "在 KSampler 把 denoise 從 1 慢慢往下調，比較新圖和原圖的差別。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Image to Image",
+     "https://docs.comfy.org/tutorials/basic/image-to-image"
+    ],
+    [
+     "ComfyUI 官方：Text to Image（原理說明）",
+     "https://docs.comfy.org/tutorials/basic/text-to-image"
+    ]
+   ]
+  },
+  {
+   "id": "tut-outpaint",
+   "title": "ComfyUI 擴圖（Outpainting）：把畫面往外延伸",
+   "learn": "學會用 Pad Image for Outpainting 節點，把太窄的構圖往左右上下補出更大的場景。",
+   "level": "入門",
+   "vram": "依原頁為準（範例用 512-inpainting 模型）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "擴圖（Outpainting）",
+     "讓 AI 在原圖外面補畫出新的區域，把畫布變大"
+    ],
+    [
+     "遮罩（mask）",
+     "標出「哪裡要讓 AI 重畫」的黑白圖"
+    ]
+   ],
+   "steps": [
+    "下載 512-inpainting-ema.safetensors，放到 ComfyUI/models/checkpoints。",
+    "把官方頁的工作流程圖片拖進 ComfyUI。",
+    "在 Load Image 上傳要擴的圖。",
+    "在 Pad Image for outpainting 設定 left／top／right／bottom 要延伸多少，feathering 調大讓接縫更自然，再按 Queue。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Outpainting",
+     "https://docs.comfy.org/tutorials/basic/outpaint"
+    ],
+    [
+     "ComfyUI 官方：Inpaint（相關基礎）",
+     "https://docs.comfy.org/tutorials/basic/inpaint"
+    ]
+   ]
+  },
+  {
+   "id": "tut-gguf",
+   "title": "用 GGUF 量化模型，讓小顯卡也能跑大模型",
+   "learn": "學會安裝 ComfyUI-GGUF 外掛，用壓縮過的 .gguf 模型檔取代原本的大檔，省顯存。",
+   "level": "中階",
+   "vram": "依模型與量化等級而定（原頁未列固定數字）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "量化（GGUF）",
+     "把模型的數字精度降低、檔案變小，用較少顯存換一點畫質"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI-GGUF 用 git clone 到 ComfyUI/custom_nodes，並執行 pip install --upgrade gguf（Windows 免安裝版請照 README 用 python_embeded 安裝 requirements）。",
+    "下載想用模型的 .gguf 檔，放到 ComfyUI/models/unet。",
+    "在工作流程中，把原本的 Load Diffusion Model 換成 bootleg 分類下的 Unet Loader (GGUF)。",
+    "需要時文字編碼器也可換成 CLIPLoader (gguf) 進一步省顯存；LoRA 屬實驗性支援。"
+   ],
+   "links": [
+    [
+     "GitHub · city96/ComfyUI-GGUF",
+     "https://github.com/city96/ComfyUI-GGUF"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-15",
+  "compared_to": "2026-10-14",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-13",
+    "fetched": "2026-10-15",
+    "metric": "Arena score",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1525,
+      "ci": 9
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1513,
+      "ci": 13,
+      "new": true
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 8,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -2,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 6,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1498,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.2 (xhigh)",
+      "org": "Meta",
+      "score": 1495,
+      "ci": 7,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-14",
+    "diff": {
+     "summary": [
+      "NEW #2 Muse Wonder (max) (Meta) 1513",
+      "Claude Opus 5.5 (high): #2→#3 (-1 名), 1507→1508 (+1)",
+      "Claude Fable 5 (high): #4→#4 (0 名), 1504→1503 (-1)",
+      "Claude Opus 4.6 (high): #3→#5 (-2 名), 1504→1503 (-1)",
+      "Claude Opus 4.7 (high): #5→#6 (-1 名), 1501→1501 (+0)",
+      "Claude Fable 5.1 (max): #6→#7 (-1 名), 1501→1501 (+0)",
+      "Claude Opus 4.6: #7→#8 (-1 名), 1498→1498 (+0)",
+      "Gemini 3.8 Flash (high): #8→#9 (-1 名), 1497→1496 (-1)",
+      "NEW #10 Muse Spark 1.2 (xhigh) (Meta) 1495",
+      "OUT Muse Spark 1.3 (max) (前次 #9 1494)",
+      "OUT Claude Opus 4.7 (前次 #10 1494)"
+     ],
+     "dropped": [
+      {
+       "model": "Muse Spark 1.3 (max)",
+       "org": "Meta",
+       "rank": 9,
+       "score": 1494
+      },
+      {
+       "model": "Claude Opus 4.7",
+       "org": "Anthropic",
+       "rank": 10,
+       "score": 1494
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "rank": 9,
+      "score": 1494
+     },
+     {
+      "model": "Claude Opus 4.7",
+      "org": "Anthropic",
+      "rank": 10,
+      "score": 1494
+     }
+    ],
+    "analysis": "LMArena 官方資料集 10/13 更新，前 10 名有明顯變動。Meta 新模型 Muse Wonder（max）首次上榜就以 1513 分排第 2，壓過 Claude Opus 5.5（1508，降到第 3），是本週最大突破；但它只有約 1,944 票、誤差 ±13，名次還不穩。Gemini 4 Argon 仍以 1525 分穩居第一。Claude Opus 4.6（high）從第 3 掉到第 5，其餘 Claude 與 Gemini 3.8 Flash 多半只被往後擠一名；Muse Spark 1.2（xhigh）以 1495 分重回第 10，Muse Spark 1.3（max）與 Claude Opus 4.7 跌出前 10。整體來看，Meta 的 Muse 系列在前段變多，Anthropic 一家獨大的局面稍有鬆動。",
+    "analysis_short": "Meta 新模型 Muse Wonder 首次上榜就排第 2，把 Claude Opus 5.5 擠到第 3；Gemini 4 Argon 仍居第一。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-15",
+    "metric": "Elo",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1217,
+      "ci": 10,
+      "delta": 19
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1207,
+      "ci": 10,
+      "delta": 16
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1187,
+      "ci": 12,
+      "delta": 15
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12,
+      "delta": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13,
+      "delta": 11
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1164,
+      "ci": 12,
+      "delta": 13
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1138,
+      "ci": 10,
+      "delta": 13
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12,
+      "move": 1,
+      "delta": 13
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1120,
+      "ci": 11,
+      "move": 1,
+      "delta": 12
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.5",
+      "org": "Microsoft",
+      "score": 1116,
+      "ci": 11,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-14",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1198→1217 (+19)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1191→1207 (+16)",
+      "GPT Image 2 (high): #3→#3 (0 名), 1172→1187 (+15)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1160→1172 (+12)",
+      "Grok Imagine Image 2.0: #5→#5 (0 名), 1155→1166 (+11)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1151→1164 (+13)",
+      "Nano Banana 2: #7→#7 (0 名), 1125→1138 (+13)",
+      "Muse Image: #9→#8 (+1 名), 1114→1127 (+13)",
+      "GPT Image 1.5 (high): #10→#9 (+1 名), 1108→1120 (+12)",
+      "NEW #10 MAI-Image-2.5 (Microsoft) 1116",
+      "OUT FLUX 3 Image (前次 #8 1116)"
+     ],
+     "dropped": [
+      {
+       "model": "FLUX 3 Image",
+       "org": "Black Forest Labs",
+       "rank": 8,
+       "score": 1116
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "FLUX 3 Image",
+      "org": "Black Forest Labs",
+      "rank": 8,
+      "score": 1116
+     }
+    ],
+    "analysis": "Artificial Analysis 文生圖榜改版為 AA-Image-T2I v2.1，所有模型分數整體上升約 11–19 分，主要是評分方式重算，不代表模型本身變強。名次幾乎不變：前 7 名維持原位，GPT Image 2.5 Sunburst（1217）仍是第一、Nano Banana 2.1（1172）第 4。Muse Image 從第 9 升到第 8、GPT Image 1.5 從第 10 升到第 9；微軟 MAI-Image-2.5 以 1116 分新進第 10，FLUX 3 Image 則掉到第 13、跌出前 10。",
+    "analysis_short": "榜單改版 v2.1、分數整體重算上升；前 7 名不變，微軟 MAI-Image-2.5 新進前 10，FLUX 3 Image 跌出。"
+   }
+  ]
+ }
+}
