@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-15",
+  "weekday": "週四",
+  "issue_no": 8,
+  "lede": "VW 以 Pure Positive 語言發表 ID. Tiguan，接替 ID.4／ID.5；Maybach S-Class 小改、BYD Atto 8（唐 L 歐規）與 Škoda Epiq 把巴黎車展的量產設計推到檯面。日系備選：印度發表的 Honda Elevate 小改；Kia Seltos Hybrid 歐陸首演。Porsche Mission S 今晚揭曉純燃氣旗艦預告。",
+  "design_news": [
+    {
+      "id": "vw-id-tiguan",
+      "tag": "世界首發 · 量產",
+      "date": "2026-10-09",
+      "brand": "Volkswagen",
+      "title": "ID. Tiguan：Pure Positive 做成真 SUV，「水族館」橫燈條取代軟跨界臉",
+      "orig": "A Volkswagen bestseller goes electric: world premiere of the new ID. Tiguan",
+      "summary": "VW 發表全新 ID. Tiguan，接替 ID.4／ID.5，預計 2027 年初與燃油／油電 Tiguan 並列上市。外型全面改走 Pure Positive：精準線條與緊繃面，刻意做成下一級距的存在感；德國預售自 42,695 歐元起，續航最高約 600 km。",
+      "analysis": [
+        [
+          "燈號",
+          "水平 LED「水族館」燈條內嵌頭燈模組，中央可發光廠徽，IQ.LIGHT 再加三道細燈強調銳利視線。"
+        ],
+        [
+          "比例",
+          "軟跨界剪影換成厚實 SUV，車頂與 C 柱同色，視線可一路順著車頂線走到尾翼。"
+        ],
+        [
+          "面處理",
+          "筆直特徵線從前貫到後，對齊 Golf I／Arteon 的水平 DNA，門板張力面強調站姿。"
+        ],
+        [
+          "空力",
+          "Cd 由 0.27 再降到 0.26；回到傳統外拉門把，呼應顧客回饋。"
+        ],
+        [
+          "品牌方向",
+          "歐洲最大一款 Pure Positive 量產車，定位成 ID. Cross 的大哥。"
+        ]
+      ],
+      "sources": [
+        [
+          "Volkswagen Newsroom（首發稿）",
+          "https://www.volkswagen-newsroom.com/en/press-releases/a-volkswagen-bestseller-goes-electric-world-premiere-of-the-new-id-tiguan-20728"
+        ],
+        [
+          "Volkswagen Newsroom（外型專頁）",
+          "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/exterior-design-and-dimensions-20720"
+        ]
+      ],
+      "image": {
+        "file": "news-vw-id-tiguan.webp",
+        "alt": "芥末黃色 Volkswagen ID. Tiguan 前三分之四，水平發光燈條與 VW 標",
+        "credit": "Volkswagen Newsroom",
+        "credit_url": "https://www.volkswagen-newsroom.com/en/press-releases/a-volkswagen-bestseller-goes-electric-world-premiere-of-the-new-id-tiguan-20728"
+      }
+    },
+    {
+      "id": "maybach-s",
+      "tag": "小改 · 豪華轎車",
+      "date": "2026-10-05",
+      "brand": "Mercedes-Maybach",
+      "title": "S-Class 小改：水箱護罩加大兩成、豎條燈柵與星形日行燈",
+      "orig": "2026 Mercedes-Maybach S-Class launch on October 5",
+      "summary": "Maybach S-Class 小改版跟進標準 S-Class：水箱護罩加大約 20% 並可發光，豎條燈柵上方有發光 Maybach 字樣，頭燈改成三叉星日行燈；車尾 D 柱標誌也可發光。內裝導入 Superscreen，並首度提供無皮革素食內裝選項。",
+      "analysis": [
+        [
+          "燈號",
+          "更大的頭燈組搭配三叉星日行燈，與標準 S 同級；尾燈同樣用星形 LED 簽名。"
+        ],
+        [
+          "面處理",
+          "豎條護罩＋保險桿「雙 M」網格，把 Maybach 識別拉得更醒目。"
+        ],
+        [
+          "室內 UX",
+          "12.3＋14.4＋12.3 吋三螢幕 Superscreen，後座傾角可到 43°。"
+        ],
+        [
+          "CMF",
+          "Manufaktur 雙色車漆與延伸皮革範圍擴大；首度有素食人造皮選項。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar India",
+          "https://www.autocarindia.com/car-news/2026-mercedes-maybach-s-class-launch-on-october-5-440831"
+        ]
+      ],
+      "image": {
+        "file": "news-maybach-s.webp",
+        "alt": "銀白雙色 Mercedes-Maybach S-Class 小改款前三分之四，豎條水箱護罩",
+        "credit": "Mercedes-Maybach（via Autocar India）",
+        "credit_url": "https://www.autocarindia.com/car-news/2026-mercedes-maybach-s-class-launch-on-october-5-440831"
+      }
+    },
+    {
+      "id": "byd-atto8",
+      "tag": "歐規首演 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "BYD",
+      "title": "Atto 8：唐 L 歐規七座旗艦，刀片電池二代＋9 分鐘閃充",
+      "orig": "BYD Tang L debuts as Atto 8 at Paris Motor Show with flash charging",
+      "summary": "比亞迪在巴黎以 Atto 8 之名發表唐 L 歐規版，定位歐洲 SUV 旗艦，預計 2027 年第一季開賣。車長 5,040 mm、七座，115 kWh 二代刀片電池；快充 10→97% 約 9 分鐘，計畫 2027 年底前在歐洲建 3,000 座閃充站。",
+      "analysis": [
+        [
+          "比例",
+          "尺寸對齊中國唐 L：長 5.04 m、寬近 2 m，三排七座大型 SUV 站姿。"
+        ],
+        [
+          "室內 UX",
+          "15.6 吋中控＋Google 導航與語音助理；前排與第二排外側座椅具加熱／通風／按摩。"
+        ],
+        [
+          "品牌方向",
+          "歐洲首款搭載二代刀片＋閃充的 BYD 品牌車，用補能速度打大型電動 SUV。"
+        ]
+      ],
+      "sources": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/14/byd-tang-l-debuts-as-atto-8-paris-motor-show/"
+        ]
+      ],
+      "image": {
+        "file": "news-byd-atto8.webp",
+        "alt": "BYD Atto 8（唐 L 歐規）側前方，大型七座電動 SUV",
+        "credit": "BYD（via CnEVPost）",
+        "credit_url": "https://cnevpost.com/2026/10/14/byd-tang-l-debuts-as-atto-8-paris-motor-show/"
+      }
+    },
+    {
+      "id": "skoda-epiq",
+      "tag": "公開首演 · Sportline",
+      "date": "2026-10-08",
+      "brand": "Škoda",
+      "title": "Epiq Sportline 巴黎首演：首款完整 Modern Solid 量產車",
+      "orig": "Škoda Epiq Sportline debuts at the Paris Motor Show",
+      "summary": "Škoda 在巴黎公開 Epiq Sportline，是品牌第一款完整套用 Modern Solid 設計語言的量產車。T 形頭尾燈搭配亮黑 Tech-Deck Face，車長 4,171 mm、Cd 0.275；與 Peaq 合計接單已逾 7 萬輛。",
+      "analysis": [
+        [
+          "燈號",
+          "量產首度採用 T 形頭燈框住 Tech-Deck Face，尾燈同樣 T 形夾住 Škoda 字樣。"
+        ],
+        [
+          "面處理",
+          "極簡線條、高肩線與寬下盤，設計主管 Oliver Stefani 強調功能性與可辨識度。"
+        ],
+        [
+          "空力",
+          "主動進氣百葉、氣簾與底盤優化，Cd 僅 0.275。"
+        ],
+        [
+          "品牌方向",
+          "Epiq 守入門電動、Peaq 當旗艦，兩車把電動產品線上下拉開。"
+        ]
+      ],
+      "sources": [
+        [
+          "Škoda Storyboard（Sportline 首演）",
+          "https://www.skoda-storyboard.com/en/press-releases/skoda-epiq-sportline-debuts-at-the-paris-motor-show/"
+        ],
+        [
+          "Škoda Storyboard（Modern Solid 外型）",
+          "https://www.skoda-storyboard.com/en/press-kits/skoda-epiq-press-kit/exterior-the-first-skoda-production-model-to-fully-incorporatethe-modern-solid-design-language/"
+        ]
+      ],
+      "image": {
+        "file": "news-skoda-epiq.webp",
+        "alt": "Škoda Epiq 正面，T 形頭燈與亮黑 Tech-Deck Face",
+        "credit": "Škoda Storyboard",
+        "credit_url": "https://www.skoda-storyboard.com/en/press-kits/skoda-epiq-press-kit/exterior-the-first-skoda-production-model-to-fully-incorporatethe-modern-solid-design-language/"
+      }
+    },
+    {
+      "id": "honda-elevate",
+      "tag": "小改 · 印度發表",
+      "date": "2026-10-06",
+      "brand": "Honda",
+      "title": "Elevate 小改：Bold Mesh 護罩、貫穿尾燈，起價約 118 萬盧比",
+      "orig": "Honda Elevate facelift launched at Rs 11.80 lakh",
+      "summary": "Honda Cars India 發表 Elevate 小改款，外型改為 Bold Mesh 水箱護罩與更粗獷的覆件，VX 以上配備貫穿式 LED 尾燈；內裝新增象牙／黑雙色與氣氛燈。印度起價 118 萬盧比。",
+      "analysis": [
+        [
+          "面處理",
+          "Bold Mesh 網狀護罩＋亮黑飾條，整體比舊款更硬派。"
+        ],
+        [
+          "燈號",
+          "三槓 LED 位置燈與可選貫穿尾燈，拉寬車尾視覺。"
+        ],
+        [
+          "室內 UX",
+          "10.25 吋觸控螢幕，前／後排可選通風座椅。"
+        ],
+        [
+          "品牌方向",
+          "在印度 SUV 市場用更粗的臉與配備層級區隔舊款。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar India",
+          "https://www.autocarindia.com/car-news/honda-elevate-facelift-launched-at-rs-1180-lakh-440927"
+        ],
+        [
+          "Honda Cars India",
+          "https://www.hondacarindia.com/press-release/honda-unveils-the-new-honda-elevate"
+        ]
+      ],
+      "image": {
+        "file": "news-honda-elevate.webp",
+        "alt": "青綠色新款 Honda Elevate，Bold Mesh 護罩與黑色下包圍",
+        "credit": "Honda（via Autocar India）",
+        "credit_url": "https://www.autocarindia.com/auto-features/honda-elevate-new-vs-old-differences-and-similarities-explained-441144"
+      }
+    },
+    {
+      "id": "kia-seltos",
+      "tag": "歐陸首演 · 巴黎車展",
+      "date": "2026-10-12",
+      "brand": "Kia",
+      "title": "全新 Seltos Hybrid：歐陸首演，品牌首款 e-AWD 油電 SUV",
+      "orig": "The all-new Kia Seltos Hybrid makes its European Premiere at 2026 Paris Motor Show",
+      "summary": "第二代 Kia Seltos Hybrid 在巴黎做歐陸首演，定位 C-SUV，強調粗獷外型與日常實用。它是 Kia 首款搭載 e-AWD 的車型，可精確分配扭力；同場還有 K4 Hybrid 與完整 GT 電動家族。",
+      "analysis": [
+        [
+          "燈號",
+          "Star Map 式垂直日行燈折入虎鼻水箱護罩，框住矩形投影頭燈。"
+        ],
+        [
+          "面處理",
+          "X-Line 以亮黑輪拱、保桿與側鏡強化越野感。"
+        ],
+        [
+          "品牌方向",
+          "補上歐陸油電 SUV 空缺，與 Sportage、Niro、K4 油電並列。"
+        ]
+      ],
+      "sources": [
+        [
+          "Hyundai Motor Group／Kia",
+          "https://www.hyundaimotorgroup.com/en/news/the-all-new-kia-seltos-hybrid-makes-its-european-premiere-at-2026-paris-motor-show"
+        ]
+      ],
+      "image": {
+        "file": "news-kia-seltos.webp",
+        "alt": "米色 Kia Seltos Hybrid X-Line 巴黎車展，Star Map 日行燈",
+        "credit": "Kia（via Hyundai Motor Group）",
+        "credit_url": "https://www.hyundaimotorgroup.com/en/news/the-all-new-kia-seltos-hybrid-makes-its-european-premiere-at-2026-paris-motor-show"
+      }
+    },
+    {
+      "id": "porsche-mission-s",
+      "tag": "預告 · 今晚揭曉",
+      "date": "2026-10-13",
+      "brand": "Porsche",
+      "title": "Mission S：今晚 21:30 揭曉純燃油中置超跑概念，預告新旗艦平台",
+      "orig": "Porsche to reveal new combustion supercar concept on Thursday",
+      "summary": "Porsche 將於 10 月 15 日晚間揭曉 Mission S 概念車，預告 Sportwagenschmiede 35 策略下的全新「超跑平台」；CEO Michael Leiters 已確認這台旗艦將採純燃油、結構獨立於 Lamborghini／Audi。目前只釋出實體鑰匙預告圖，強調類比駕駛儀式。",
+      "analysis": [
+        [
+          "品牌方向",
+          "定位在 911 之上，對標 Carrera GT／918 一脈的中置燃氣旗艦。"
+        ],
+        [
+          "面處理",
+          "官方尚未公開車身；鑰匙預告圖暗示回歸實體啟動、高轉速類比體驗。"
+        ],
+        [
+          "產業",
+          "與純電 Mission X 分道：Mission S 走燃燒動力，呼應 2:1 燃油／電動產品比重目標。"
+        ]
+      ],
+      "sources": [
+        [
+          "Autocar",
+          "https://www.autocar.co.uk/car-news/new-cars/porsche-reveal-new-combustion-supercar-concept-thursday"
+        ]
+      ],
+      "image": {
+        "file": "news-porsche-mission-s.webp",
+        "alt": "Porsche Mission S 預告用的銀色實體鑰匙與紅色吊繩",
+        "credit": "Porsche（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/new-cars/porsche-reveal-new-combustion-supercar-concept-thursday"
+      }
+    }
+  ],
+  "cmf": [
+    {
+      "id": "cmf-jaguar-type01",
+      "car": "Jaguar Type 01",
+      "tag": "量產預告 · 材質",
+      "title": "黃銅脊骨、Kvadrat 羊毛織物座艙",
+      "points": [
+        "黃銅是內裝核心靈感，帶溫潤氧化質感貫穿座艙。",
+        "座椅像家具：造型墊塊、少縫線，並有 ingot 金屬細節。",
+        "Kvadrat DuoWeave 羊毛混回收材，用於地板、門下緣與立柱。",
+        "用明暗對比（chiaroscuro）安排奶油色與深色層次。"
+      ],
+      "image": {
+        "file": "cmf-jaguar-type01.webp",
+        "alt": "Jaguar Type 01 座艙：奶油色座椅、中央黃銅飾條與全景頂篷",
+        "credit": "Jaguar",
+        "credit_url": "https://media.jaguar.com/image-packs/jaguar-type-01-interior"
+      },
+      "sources": [
+        [
+          "Jaguar：Material Detail",
+          "https://www.jaguar.com/en-us/type-01/material-detail.html"
+        ],
+        [
+          "Car Design News（設計師訪談）",
+          "https://www.cardesignnews.com/cars/type-01-the-most-important-jaguar-ever-as-explained-by-its-designers-but-not-gerry/2747068"
+        ]
+      ]
+    },
+    {
+      "id": "cmf-fiat-multiplay",
+      "car": "Fiat Multiplay",
+      "tag": "概念車 · 巴黎車展",
+      "title": "西瓜配色：3D 針織單材質軟裝",
+      "points": [
+        "外綠內紅粉，靈感來自義大利夏天的西瓜。",
+        "地板軟粉紅；儀表板橫帶像地中海海平線。",
+        "多數軟質面採無縫 3D 針織單材質，減少邊角廢料。",
+        "兒童／寵物區用同材質但防水飾面。"
+      ],
+      "image": {
+        "file": "cmf-fiat-multiplay.webp",
+        "alt": "Fiat Multiplay 座艙：紅橘 3D 針織座椅與綠色飾條特寫",
+        "credit": "Fiat（via Autocar）",
+        "credit_url": "https://www.autocar.co.uk/car-news/new-cars/fiat-multipla-returns-cross-between-pick-and-suv"
+      },
+      "sources": [
+        [
+          "Auto&Design",
+          "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/"
+        ]
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "tag": "市場 · 中國",
+      "date": "2026-10-14",
+      "title": "10 月 1–11 日中國新能源零售跌 13%，滲透率回落至 61.2%",
+      "summary": "乘聯會：10 月 1–11 日乘用新能源零售 28.1 萬輛，年減 13%、較上月同期減 7%；零售滲透率 61.2%，低於 9 月的 67.0%。批發則年增 6%，滲透率 78.1%，出口仍撐整體。",
+      "sources": [
+        [
+          "CnEVPost（CPCA）",
+          "https://cnevpost.com/2026/10/14/china-nev-retail-sales-fall-oct-1-11/"
+        ]
+      ]
+    },
+    {
+      "tag": "法規 · 中國",
+      "date": "2026-10-10",
+      "title": "工信部等擬強化創新設計審批：隱藏門把、摺疊螢幕再收緊",
+      "summary": "工信部等四部門徵求意見：重申禁止全隱藏門把，並擬禁止摺疊／柔性螢幕；行駛中限制零重力座椅等功能，關鍵安全操作需保留實體控制。意見徵集至 11 月 10 日。",
+      "sources": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/10/china-proposes-tighter-vehicle-design-rules/"
+        ]
+      ]
+    },
+    {
+      "tag": "新車 · 中國",
+      "date": "2026-10-14",
+      "title": "比亞迪第二代海鷗預計 10 月 20 日上市：加長 425 mm、五座",
+      "summary": "易車引述比亞迪消息：第二代海鷗預計 10 月 20 日上市；車長 4,205 mm（加長 425 mm）、軸距 2,650 mm，座位由四座改五座，馬達 95 kW，外型改三叉戟燈組。官方尚未自行宣布確切日期。",
+      "sources": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/14/byd-launch-2nd-gen-seagull-oct-20/"
+        ]
+      ]
+    },
+    {
+      "tag": "出海 · 歐洲",
+      "date": "2026-10-14",
+      "title": "BYD Atto 8 歐洲閃充：2027 年底前規劃 3,000 座站點",
+      "summary": "配合 Atto 8 上市，比亞迪計畫在歐洲建置 3,000 座閃充站（至 2027 年底），支撐 10→97% 約 9 分鐘的補能體驗，作為大型電動 SUV 的差異化賣點。",
+      "sources": [
+        [
+          "CnEVPost",
+          "https://cnevpost.com/2026/10/14/byd-tang-l-debuts-as-atto-8-paris-motor-show/"
+        ]
+      ]
+    }
+  ],
+  "term": {
+    "name": "Character line",
+    "zh": "特徵線（腰線／側面主線）",
+    "body": "Character line（特徵線）是車身側面那條最清楚、從頭貫到尾的主線，通常在車窗下方，用來切分上面的溫室與下面的車身量塊，也決定一台車看起來修長還是厚實。本期的 Volkswagen ID. Tiguan 就強調一條筆直的特徵線：從前葉子板一路拉到車尾，設計師說這是從 Golf I、Arteon 一路傳下來的水平 DNA。有了它，側面才會顯得乾淨、有秩序，而不只是一張鼓起的曲面。",
+    "source": [
+      [
+        "Volkswagen Newsroom：ID. Tiguan exterior（iconic character line）",
+        "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/exterior-design-and-dimensions-20720"
+      ],
+      [
+        "Wikipedia：Glossary of automotive design（Character line）",
+        "https://en.wikipedia.org/wiki/Glossary_of_automotive_design"
+      ]
+    ],
+    "diagram": "term.svg"
+  },
+  "moodboards": [
+    {
+      "theme": "Arctic expedition shuttle",
+      "zh": "極地探險接駁艙",
+      "intro": "虛構的冰原接駁艙：雪白艙體、訊號橘飾帶、履帶式輪組與天線，背景是冷灰藍冰原與遠山。",
+      "images": [
+        [
+          "mb1-1",
+          "原創虛構概念：極地接駁艙停在冰原（程式繪製）",
+          true
+        ],
+        [
+          "mb1-2",
+          "色票：冰霧、冰河、艙白、訊號橘、履帶黑、艙玻璃（程式繪製）",
+          false
+        ],
+        [
+          "mb1-3",
+          "內裝：冷灰儀表與橘色安全帶飾條（程式繪製）",
+          false
+        ],
+        [
+          "mb1-4",
+          "材質：刷紋金屬與橘點訊號塗層（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Ice Mist",
+          "#E8EEF4"
+        ],
+        [
+          "Glacier",
+          "#B8C8D6"
+        ],
+        [
+          "Hull White",
+          "#F2F5F7"
+        ],
+        [
+          "Signal Orange",
+          "#E07030"
+        ],
+        [
+          "Track Black",
+          "#2A3038"
+        ],
+        [
+          "Cabin Glass",
+          "#6A8FA8"
+        ]
+      ],
+      "keywords": [
+        "冰原",
+        "訊號橘",
+        "接駁艙",
+        "履帶輪",
+        "冷灰藍",
+        "無標誌"
+      ],
+      "materials": [
+        "啞光珍珠白複合艙體",
+        "訊號橘高可見度飾帶",
+        "刷紋鋁合金飾件",
+        "防寒織物座椅",
+        "橡膠履帶護罩",
+        "強化艙窗玻璃"
+      ]
+    },
+    {
+      "theme": "Bauhaus city micro-car",
+      "zh": "包浩斯城市微型車",
+      "intro": "虛構的城市微型車：紅藍黃三原色塊面、黑色輪框與紙白背景，像活動的幾何積木。",
+      "images": [
+        [
+          "mb2-1",
+          "原創虛構概念：三原色積木微型車（程式繪製）",
+          true
+        ],
+        [
+          "mb2-2",
+          "色票：包浩斯紅、藍、黃、黑、紙白、灰泥（程式繪製）",
+          false
+        ],
+        [
+          "mb2-3",
+          "細節：圓窗與色塊門板特寫（程式繪製）",
+          false
+        ],
+        [
+          "mb2-4",
+          "材質：色塊織紋格面（程式生成）",
+          false
+        ]
+      ],
+      "palette": [
+        [
+          "Bauhaus Red",
+          "#D64545"
+        ],
+        [
+          "Primary Blue",
+          "#3A5FBF"
+        ],
+        [
+          "Signal Yellow",
+          "#F0C040"
+        ],
+        [
+          "Graphic Black",
+          "#1A1A1A"
+        ],
+        [
+          "Paper White",
+          "#F5F0E6"
+        ],
+        [
+          "Plaster",
+          "#E0D8C8"
+        ]
+      ],
+      "keywords": [
+        "三原色",
+        "幾何塊面",
+        "微型車",
+        "城市",
+        "無標誌",
+        "包浩斯"
+      ],
+      "materials": [
+        "亮面色漆塊面",
+        "啞光黑色輪圈",
+        "硬質塑膠飾板",
+        "紙白內襯",
+        "圓形玻璃窗",
+        "平面金屬門把"
+      ]
+    }
+  ]
+}

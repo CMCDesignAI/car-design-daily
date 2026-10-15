@@ -1,0 +1,56 @@
+<svg class="diagram" viewBox="0 0 520 250" width="100%" role="img" aria-label="Character line 特徵線示意圖：SUV 側面線稿，腰線下方一條從頭貫到尾的主線以強調色標出">
+  <text x="260" y="22" fill="currentColor" font-size="15" text-anchor="middle" opacity=".75">側面（ID. Tiguan 式 SUV）</text>
+
+  <!-- ground -->
+  <line x1="40" y1="200" x2="480" y2="200" stroke="currentColor" stroke-opacity=".2" stroke-width="1"/>
+
+  <!-- wheels -->
+  <circle cx="130" cy="188" r="28" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="130" cy="188" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".55"/>
+  <circle cx="390" cy="188" r="28" fill="none" stroke="currentColor" stroke-width="2.4"/>
+  <circle cx="390" cy="188" r="12" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".55"/>
+
+  <!-- body lower silhouette -->
+  <path d="M70,168
+           L95,150
+           L155,145
+           L175,118
+           L250,112
+           L320,114
+           L355,120
+           L375,145
+           L445,150
+           L460,168
+           L455,188
+           L420,188
+           Q390,175 360,188
+           L160,188
+           Q130,175 100,188
+           L75,188 Z"
+        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- greenhouse / windows -->
+  <path d="M178,145 L185,122 L248,116 L315,118 L348,124 L355,145 Z"
+        fill="currentColor" fill-opacity=".1" stroke="currentColor" stroke-width="1.6"/>
+  <line x1="248" y1="116" x2="252" y2="145" stroke="currentColor" stroke-width="1.4" opacity=".55"/>
+  <line x1="310" y1="118" x2="318" y2="145" stroke="currentColor" stroke-width="1.4" opacity=".55"/>
+  <text x="255" y="136" fill="currentColor" font-size="12" text-anchor="middle" opacity=".55">溫室</text>
+
+  <!-- CHARACTER LINE accent -->
+  <line x1="95" y1="150" x2="445" y2="150" stroke="#f08a5d" stroke-width="3.4" stroke-linecap="round"/>
+
+  <!-- belt reference dashed -->
+  <line x1="175" y1="145" x2="355" y2="145" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" opacity=".35"/>
+
+  <!-- labels -->
+  <line x1="200" y1="150" x2="200" y2="218" stroke="#f08a5d" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="200" y="236" fill="#f08a5d" font-size="15" text-anchor="middle">① 特徵線：從前貫到後</text>
+
+  <line x1="270" y1="118" x2="270" y2="78" stroke="#f08a5d" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="270" y="70" fill="#f08a5d" font-size="15" text-anchor="middle">② 線上＝溫室／線下＝車身</text>
+
+  <line x1="420" y1="150" x2="455" y2="78" stroke="#f08a5d" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="455" y="70" fill="#f08a5d" font-size="14" text-anchor="end">③ 拉長側面比例</text>
+
+  <text x="260" y="248" fill="currentColor" font-size="13" text-anchor="middle" opacity=".7">一條清楚的主線，讓 SUV 側面看起來乾淨、修長</text>
+</svg>

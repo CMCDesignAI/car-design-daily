@@ -33,5 +33,19 @@
     "angle": "紅色漸層座艙、Poltrona Frau 磨砂皮、Luna Rossa 透明布",
     "url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/",
     "image": "cmf-alfa-romeo-cuorerosso.webp"
+  },
+  {
+    "date": "2026-10-15",
+    "car_key": "jaguar-type01-kvadrat-brass",
+    "angle": "Kvadrat DuoWeave、黃銅脊骨、家具式少縫線座椅",
+    "url": "https://www.jaguar.com/en-us/type-01/material-detail.html",
+    "image": "cmf-jaguar-type01.webp"
+  },
+  {
+    "date": "2026-10-15",
+    "car_key": "fiat-multiplay-watermelon",
+    "angle": "西瓜配色、無縫 3D 針織單材質、防水兒童／寵物區",
+    "url": "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/",
+    "image": "cmf-fiat-multiplay.webp"
   }
 ]
