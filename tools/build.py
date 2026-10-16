@@ -240,7 +240,7 @@ def page(d, base, all_issues, is_root):
                 mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"]); cards.append(f'<div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div>')
             pts="".join(f'<li>{e(x)}</li>' for x in cd.get("points",[]))
             src="".join(L(n,u) for n,u in cd.get("sources",[]))
-            H.append(f'<div class="cdata"><div class="kicker">New Colour Release · {e(cd.get("date",""))}</div><h3>{e(cd.get("title","年度色彩與數據"))}</h3>'
+            H.append(f'<div class="cdata"><div class="kicker">{"Data-backed Colour Board" if cd.get("title","")=="年度色彩與數據" else "New Colour Release · "+e(cd.get("date",""))}</div><h3>{e(cd.get("title","年度色彩與數據"))}</h3>'
                      +(f'<ul class="cpts">{pts}</ul>' if pts else "")+(f'<div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p>' if hs else "")
                      +(f'<div class="cgrid">{"".join(cards)}</div>' if cards else "")+(f'<div class="src">來源：{src}</div>' if src else "")+'</div>')
     if cmf:

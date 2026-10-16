@@ -784,6 +784,120 @@
     "console-arm": "#F0EEE9",
     "accent-pod": "#8E1B2C"
    }
+  },
+  "release": {
+   "date": "2026-10-16",
+   "title": "年度色彩與數據",
+   "hues": [
+    [
+     "Pantone 2026",
+     "Cloud Dancer",
+     "PANTONE 11-4201",
+     "#F0EEE9",
+     true,
+     "https://www.pantone.com/color-of-the-year/2026"
+    ],
+    [
+     "WGSN×Coloro 2027",
+     "Luminous Blue",
+     "Coloro 125-28-38",
+     "#2B4DA0",
+     false,
+     "https://www.wgsn.com/en/blog/colour-year-2027-luminous-blue"
+    ],
+    [
+     "WGSN×Coloro 2028",
+     "Radiant Earth",
+     "Coloro 017-42-31",
+     "#9A6A4A",
+     false,
+     "https://www.wgsn.com/en/blog/colour-year-2028-radiant-earth"
+    ],
+    [
+     "Axalta 2027 車色",
+     "Redefined",
+     "寶石紅＋細閃",
+     "#8E1B2C",
+     false,
+     "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+    ],
+    [
+     "PPG 2027",
+     "Country Soil",
+     "PPG15-30",
+     "#A89886",
+     false,
+     "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+    ]
+   ],
+   "pop": {
+    "title": "2025 全球新車顏色佔比",
+    "src": [
+     "Axalta 2025 Global Automotive Color Popularity Report（2025/12/16）",
+     "https://ir.axalta.com/news/press-releases/detail/673/axalta-releases-2025-global-automotive-color-popularity-report"
+    ],
+    "rows": [
+     [
+      "白",
+      "#F2F2F0",
+      29
+     ],
+     [
+      "黑",
+      "#1E1E1E",
+      23
+     ],
+     [
+      "灰",
+      "#8A8C8E",
+      22
+     ],
+     [
+      "銀",
+      "#C4C7CA",
+      7
+     ],
+     [
+      "藍",
+      "#2F5597",
+      6
+     ]
+    ],
+    "note": "其餘（紅、棕／米、綠、黃／金等）合計約 13%，報告未逐一列在新聞稿中。"
+   },
+   "dirs": {
+    "title": "BASF 車色方向",
+    "src": [
+     "BASF Color Report 2025 & Driving the Proxy 2025–2026",
+     "https://www.basf-coatings.com/global/en/products-and-solutions/automotive_oem_coatings/color-design/Automotive-Color-Trends/DRIVING-THE-PROXY-2025-2026"
+    ],
+    "items": [
+     "綠色是 2025 全球成長最明顯的彩色；藍、紅持續下滑。",
+     "灰色 +2%；純色（solid）只剩約 18% 市佔，效果漆成主流。",
+     "亞太：灰上升、白下降，綠色逐年增加。",
+     "2025–26 預測：偽純色、細閃、暖色調（紫紅、棕）、液態金屬效果。"
+    ]
+   },
+   "mat": {
+    "title": "材質趨勢（本期）",
+    "items": [
+     [
+      "生質纖維",
+      "頭髮角蛋白纖維 ādara®（DDW 2026）",
+      "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+     ],
+     [
+      "亞麻複合材",
+      "Polestar 5 亞麻纖維座椅背（Bcomp）",
+      "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
+     ],
+     [
+      "藻類黏著劑",
+      "廢水藻類＋回收紡織纖維（UNSW）",
+      "https://materialdistrict.com/article/wastewater-algae-explored-as-a-binder-for-recycled-textile-materials/"
+     ]
+    ]
+   }
   }
  }
 }
