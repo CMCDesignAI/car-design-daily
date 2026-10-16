@@ -1,6 +1,6 @@
 # Car Design Daily
 
-每日一期的靜態網頁：全球汽車設計新聞＋汽車新知＋隨機情緒板（zh-TW）。
+每日一期的靜態網頁：全球汽車設計新聞＋色彩與材質（含年度色／內裝配色示例）＋汽車新知（zh-TW）。
 
 - 線上（永久）：https://cmcdesignai.github.io/car-design-daily/ （GitHub Pages，repo `CMCDesignAI/car-design-daily`，branch `main`、root）
 - 每期固定網址：`/issues/YYYY-MM-DD/`；首頁 `/` = 最新一期；`/archive/` = 往期列表
@@ -51,12 +51,12 @@ tools/
      3. 裁成 16:9、縮成 1600×900 WebP（q≈82，<300KB），存成 `issues/<date>/img/news-<id>.webp`。
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
-1b. **色彩與材質 CMF（2–3 則，有好素材才放）**：放在 7 則設計新聞之後。對象：近期新車／特別版／Tailor Made 一車一款、原廠內裝設計專文，或經典車型的 CMF 回顧。
-   - 欄位：`cmf[]`：`{id, car, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{file:"cmf-<id>.webp", alt, credit, credit_url}, sources[[名稱, url]]}`；圖 16:9、1600×900 WebP。build.py 中 `cmf` 為選填，沒有就不顯示此區（舊期不受影響）。
-   - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**（例：smart #2 已在設計新聞，用同一篇 smart 新聞稿再做 CMF 不行）。同一台車可以放，但必須用**另一篇專門詳細介紹內裝、色彩、材質的來源**（原廠 CMF／內裝新聞稿、設計師訪談、Interior Motives 等），並配內裝或材質照。優先選設計新聞以外的車，素材夠好時才用同車。
-   - **規則 2：照片必須是內裝或材質特寫**：座艙、座椅、儀表板、飾板、縫線、布料／皮革紋理、漆面細節的近拍，清晰度至少要像座艙全景照那樣看得清材質。**禁止外觀 3/4 角度或全車照**（車身色只能在近拍細節中呈現）。找不到合格照片就換一台車，不放無圖或不合格圖。
-   - **來源規則**：優先原廠新聞稿／press kit（有色名、材質名）；其次 Auto&Design、Car Design News、Interior Motives、Dezeen、Designboom、Wallpaper*、Autocar、Top Gear、Car Watch。每一句 point 都要能在來源原文找到；色名、材質名保留原廠英文名稱；不可從照片推測材質；原文矛盾或模糊的細節不寫。媒體圖庫照 credit 寫「品牌（via 媒體）」；不可用 AI 生成圖。
-   - **去重（30 天）**：每則寫入 `cmf-log.json`（repo 根目錄，`{date, car_key, angle, url, image}`，`car_key` 例：`ferrari-purosangue-denim`）。30 天內同 `car_key` 或同 `url` 不再放；同車型不同版本只有出現新的 CMF 內容才可放。沒有合格素材就放 2 則，不湊數；0 則時省略 `cmf`，此區自動不顯示。
+1b. **色彩與材質 CMF（自 2026-10-16／排程自 10-17 起：每日 5 則）**：放在 7 則設計新聞之後，版面 2＋3（第 1 列 2 則車型寬卡、第 2 列趨勢／塗料／材質各 1）。
+   - 欄位：`cmf[]`：`{id, kind(car|trend|paint|material), car, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{…}（車型／有圖則必填）, sources[[名稱, url]], note?}`。車型圖 16:9、1600×900 WebP。`kind` 決定卡寬與標籤。發布前跑 `python3 tools/check_cmf.py <日期>`。
+   - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**；也避免同車重複講設計新聞已寫過的內裝重點（例：Mission S 已在設計新聞講五圓儀表，就不要再用同一角度當 CMF 車型則）。優先選設計新聞以外的車；素材夠好且有**另一篇**專門內裝／CMF 來源時才用同車。
+   - **規則 2：車型則照片必須是內裝或材質特寫**（座艙、座椅、儀表板、飾板、縫線、布料／皮革、漆面近拍）。**禁止外觀 3/4 或全車照**。找不到合格照片就換車。
+   - **來源（CMF 部門優先 1–3）**：01 色彩趨勢、02 車用塗料／塗裝、03 材質；04 空間／生活設計僅備援。車型則另可原廠新聞稿、Auto&Design、Interior Motives、Car Design News 等。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
+   - **去重（30 天）**：寫入 `cmf-log.json`（`{date, kind?, car_key, angle, url, image?}`）。30 天內同 `car_key` 或同 `url` 不再放。車型湊不到 2 則就少放，不硬湊；0 則車型時仍盡量保留趨勢／塗料／材質。
 2. **汽車新知（3–5 則）**：EV、電池、自駕、法規、製造、市場；摘要＋連結。
    **今日設計名詞（必要步驟，每期都要畫新圖）**：寫一則和當期新聞呼應的名詞（`term.name / zh / body / source`），並**為這個名詞手繪一張新的線稿示意圖**：
    - **選詞**：只用汽車設計圈公認、查得到用法的術語（例：lighting signature、DRG／down-the-road graphic、dash-to-axle、greenhouse、DLO、shoulder line、C-pillar、heritage cue）。來源以 Car Design News、Interior Motives、車廠設計新聞稿或設計師訪談為準；**不可自創名詞**，也不要用某位設計師的一次性口語（例如 Jaguar 的「strike-through graphic」）當主詞條，必要時改用它所屬的通用術語。
@@ -67,14 +67,15 @@ tools/
      - 名詞指的部位用強調色 `#f08a5d` 標出，並加 **2–3 個簡短中文標註**（如「① 四條細長頭燈」）用虛線指到該部位；最下方可加一行白話說明。
      - 格式：單一 `<svg class="diagram" viewBox="0 0 520 …" width="100%" role="img" aria-label="…">`；線條用 `stroke="currentColor"`（自動適應深淺色），文字要在頁面上縮小後仍看得清楚（viewBox 520 寬時，標註 font-size 15–16、次要文字 ≥12）。風格參考 `issues/2026-10-11/term.svg`（lighting signature：Type 01 正面＋背面）與 `issues/2026-10-09/term.svg`（Heritage cue）。
      - 圖的內容必須對應當天名詞與內文舉的例子；**不可沿用前一期的圖**。build.py 會內嵌這個 SVG，缺檔、缺 `diagram` 欄位，或與其他期（不同名詞）內容相同時，**build 會直接失敗**。
-3. **情緒板（1–2 組）**：`python3 tools/pick_themes.py 2` 抽主題 → 每組 4–6 張原創虛構圖（不可出現真實車款或 logo）＋6 色 hex 色票、關鍵字、材質筆記。
-   - 有 GenerateImage 等生圖工具時優先使用，輸出後轉 WebP（≤1400px、q≈80）放 `issues/<date>/img/`，命名 `mb1-1…`、`mb2-1…`，每組第一張為 hero（16:9），其餘 4:3。
-   - 沒有時用 `tools/moodart.py` 的做法（SVG 插畫＋numpy 材質）為新主題寫對應函式。
-4. 複製前一期 `data.json` 為模板，填入新內容（`issue_no` +1、`date`、`weekday`、`lede`）。
+3. **年度色與每日內裝配色（`color_data`，自 2026-10-16 起取代獨立情緒板）**：有 `color_data` 的期數不再做獨立「情緒板」區塊。
+   - `color_data.hues/pop/dirs/mat`：年度色／市佔／方向／材質數據（只寫實際讀過的報告）。
+   - `color_data.interior`：每日一組儀表板＋門板配色示例；以當期引用的年度色／趨勢色**新組**組合（不要直接複製年度色盤），含 `parts`（色票＋來源小字／連結）、`mood`／`mood_text`、`vars`（上色用 CSS 變數）。插圖用固定模板 `assets/door-template.svg`＋`assets/ip-template.svg`，只換顏色。
+   - 舊期（無 `color_data`）仍可保留 `moodboards`；新期不要再加虛構主題情緒板。
+4. 複製前一期（有 `color_data` 的）`data.json` 為模板，填入新內容（`issue_no` +1、`date`、`weekday`、`lede`）；清掉過期 CMF／新聞，保留結構。
 5. 發佈：在 `/workspace/car-design-daily` 執行 `./tools/publish.sh "Issue 00N · YYYY-MM-DD"`
    （= `build.py` + `build_ai.py`（--site-url "$(cat .site-url)"） → `git add -A` → `git commit` → `git push origin main`）。
    GitHub Pages 約 1–2 分鐘重新部署（可用 `gh api repos/CMCDesignAI/car-design-daily/pages/builds/latest` 查狀態）。
-   之後用 WebFetch／curl 驗證 `https://cmcdesignai.github.io/car-design-daily/`、`/issues/<date>/`、`/archive/` 以及所有新聞圖與情緒板圖片都回 200。
+   之後用 WebFetch／curl 驗證 `https://cmcdesignai.github.io/car-design-daily/`、`/issues/<date>/`、`/archive/` 以及新聞圖與 CMF／內裝插圖都回 200。
    - 所有站內連結必須是相對路徑（站點位於子路徑 `/car-design-daily/`）；og:image／canonical 用 `.site-url` 產生絕對網址。
 6. 預覽圖：`google-chrome --headless=new --no-sandbox --window-size=1280,2400 --screenshot=preview.png <URL>`
 
@@ -148,7 +149,7 @@ tools/
 重大新車消息可在當期 `data.json` 加 `breaking`，會以紅框卡片顯示在設計新聞上方（沒有此欄位的期數不受影響）。欄位：`label`（預設「新車特報」）、`brand`、`date`、`title`、`points`（4–6 則重點，標明哪些是廠商說法）、`image`（`file`/`alt`/`credit`/`credit_url`）、`video`（`{"type":"youtube","id":…}` 嵌入 iframe，或 `{"type":"x","url":…,"title":…}` 嵌入 X 貼文並附連結）、`sources`（`[名稱, 網址]`）。只放已有官方來源查證的消息。
 
 
-## 內裝情緒板模板（preview）
+## 內裝配色模板（door／IP）
 `assets/door-template.svg`（完整前門板）與 `assets/ip-template.svg`（儀表板視角）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
 - `parts`：`[部位說明, 色名, HEX, 是否官方, 變數名]`，會顯示成色票與材質清單。
 - `vars`：不顯示色票但要上色的部位。
