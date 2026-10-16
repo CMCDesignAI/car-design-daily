@@ -1,0 +1,604 @@
+{
+ "date": "2026-10-16",
+ "weekday": "週五",
+ "issue_no": 9,
+ "lede": "今天重點：Meta 開放 Muse Spark Open 權重，是目前最強的美國開源模型；可靈 Kling 4.0 全面開放，一次能生成 30 秒影片。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "FreeVideo v0.4.6 長影片聲音人物更一致、新增角色庫；ComfyUI v0.41.0 支援 H3 LightVAE",
+   "updates": [
+    {
+     "title": "FreeVideo v0.4.6：長影片各段聲音與人物一致、新增角色庫",
+     "date": "2026-10-15",
+     "summary": "本機跑 MiniMax H3 的 FreeVideo 10/15 發布 v0.4.6。長影片：各段人聲音色、音量保持一致，有對話的段落接縫不再停頓、人物不再每段回到同一姿勢，每段可分配並編輯自己的描述。角色：新增角色庫，每個角色一張正面圖加最多 5 張其他角度，可用 AI 逐張生成，在提示詞輸入 @ 即可引用。生成時會顯示小預覽、等待中的影片可排到最前；生圖顯存不足時會自動縮小一檔重試。",
+     "links": [
+      [
+       "GitHub · FreeVideo v0.4.6",
+       "https://github.com/FlashML-org/FreeVideo/releases/tag/v0.4.6"
+      ]
+     ],
+     "image": null,
+     "short_title": "FreeVideo 0.4.6：長片更連貫",
+     "one": "跑 H3 的 FreeVideo 新版讓長影片各段聲音和人物更一致，還多了角色庫可以用 @ 叫出角色。"
+    },
+    {
+     "title": "ComfyUI v0.41.0：支援 MiniMax H3 LightVAE",
+     "date": "2026-10-15",
+     "summary": "ComfyUI 發布 v0.41.0，其中一項是支援 MiniMax-H3 的 LightVAE（kijai 提交）；同版也新增 FLUX 3 圖像模型支援、SDR 轉 HDR 節點與 ReferenceMultiLatent 節點。",
+     "links": [
+      [
+       "GitHub · ComfyUI v0.41.0",
+       "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.41.0"
+      ]
+     ],
+     "image": null,
+     "short_title": "ComfyUI 0.41 支援 H3 LightVAE",
+     "one": "ComfyUI 新版可以用 H3 的輕量 VAE，同版還加入 FLUX 3 支援。",
+     "gloss": [
+      [
+       "VAE",
+       "把壓縮過的「潛在圖」還原成看得到的畫面的元件，輕量版比較快、省顯存"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": {
+  "title": "OpenAI 官方：GPT-Live-1.1 新聲音與更好的口音",
+  "orig": "GPT-Live-1.1 has new voices and better accents.",
+  "channel": "OpenAI",
+  "youtube_id": "GyO8Ao7yKJc",
+  "url": "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
+  "date": "2026-10-15",
+  "summary": "對應本期 GPT-Live-1.1 新聞：OpenAI 官方示範新版 ChatGPT 語音的新聲音與多語口音。",
+  "thumb": {
+   "file": "yt.webp",
+   "alt": "YouTube 縮圖：GPT-Live-1.1 has new voices and better accents.",
+   "credit": "YouTube／OpenAI"
+  },
+  "one": "OpenAI 官方短片，直接聽新版 ChatGPT 語音的新聲音和口音。"
+ },
+ "caveats": [
+  "LMArena 官網擋自動抓取，文字榜依官方 Hugging Face 資料集（最新仍是 10/13 版），今天沒有重大變化，沿用前一份資料。",
+  "GPT-Live-1.1 剛推出，尚無正式的新舊版實測比較；Kling 4.0 部分實測來自官方合作創作者，樣本小、僅供參考。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "muse-spark-open",
+   "org": "Meta",
+   "tag": "重磅開源 · 文字模型",
+   "date": "2026-10-15",
+   "title": "Meta 釋出 Muse Spark Open 權重：816B 參數、可在兩台 Mac Studio 上本地跑",
+   "orig": "Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date",
+   "summary": "Meta 10/15 公開 Muse Spark Open 的模型權重，官方稱是「目前最強的美國開源權重模型」。它是原生多模態的混合專家（MoE）模型，總參數 816B、每個 token 只啟用約 42B，支援 100 萬 token 上下文，主打寫程式與長時間執行的 AI 代理任務。【在哪能用】權重可從 Hugging Face、Amazon SageMaker、Google Cloud Model Garden、Microsoft Foundry 下載；也能透過 Baseten、Fireworks、Groq、Modal、Nebius、OpenRouter、Together AI 的 API 使用；支援 SGLang、vLLM、TensorRT-LLM、Transformers、MLX、llama.cpp、Unsloth。官方示範用兩台 M5 Ultra Mac Studio（各 512GB 統一記憶體）以 MLX 在桌機上執行。【授權】Muse Model License，商用條件有限制，但多數開發者可免費使用。【初步實測（樣本小）】Plotly 的資料分析考題答對 38/43（88%），與 GLM 5.3 Flash、Qwen 3.8 27B 並列開源最高、是美國實驗室開源模型最佳；Apple 實測兩台 Mac Studio 約每秒 25 個 token、四台約 37 個，4-bit 版本約需 493GB 記憶體，Plotly 估算本地答一題約 3.5 分鐘（OpenRouter 約 48 秒）。",
+   "links": [
+    [
+     "Meta 官方公告",
+     "https://research.meta.ai/blog/muse-spark-open"
+    ],
+    [
+     "Hugging Face 模型合集",
+     "https://huggingface.co/collections/meta-models/muse-spark-open"
+    ],
+    [
+     "實測：Plotly 資料分析考題（38/43）",
+     "https://plotly.com/blog/meta-muse-spark-open-first-look/"
+    ],
+    [
+     "Apple：MLX 在 Mac Studio 分散式推論實測",
+     "https://machinelearning.apple.com/research/mlx-distributed-inference"
+    ],
+    [
+     "Meta 官方：在 Mac 上執行教學",
+     "https://dev.meta.ai/docs/cookbook/muse-spark-open-mac"
+    ]
+   ],
+   "image": {
+    "file": "muse-open.webp",
+    "alt": "Meta 官方分享圖：Muse Spark Open",
+    "credit": "Meta AI Research",
+    "credit_url": "https://research.meta.ai/blog/muse-spark-open"
+   },
+   "short_title": "Meta 開源最強美國模型 Muse Spark Open",
+   "one": "Meta 把 Muse Spark 的權重放出來，誰都能下載自己架，但要很大的記憶體（約兩台頂規 Mac Studio）。",
+   "gloss": [
+    [
+     "開源權重",
+     "公開模型本體檔案，可下載到自己的機器上執行或微調"
+    ],
+    [
+     "MoE（混合專家）",
+     "模型內有很多「專家」，每次只叫醒一小部分，所以大模型也能跑得比較省"
+    ]
+   ]
+  },
+  {
+   "id": "kling-4-ga",
+   "org": "快手 Kling",
+   "tag": "影片模型 · 世代升級",
+   "date": "2026-10-15",
+   "title": "可靈 Kling 4.0 全面開放：單次生成 3–30 秒、最多 10 個關鍵影格、15 個參考素材",
+   "orig": "KLING 4.0 Is Now Fully Available",
+   "summary": "快手 10/15 宣布 Kling 4.0 全面開放（先前只有 Kling 4.0 Flash 給年費 Ultra 會員），同時改版創作介面，並可透過 MCP 與指令列（CLI）在網站外生成影片。【比上一版進步在哪（官方說法）】單次生成從 3.0 的最長 15 秒拉到 3–30 秒，預設自動分鏡；最多 10 個關鍵影格，可指定第幾秒發生什麼；Omni 參考一次最多 15 個素材（最多 10 張圖、5 段影片合計 ≤30 秒、聲音風格、元素）；雙聲道立體聲、對嘴更準；720p／1080p／4K 與 21:9 畫面比例；提示詞最長 8,000 token。【限制與價格】10-bit HDR 與企業／開發者 API 仍是「即將推出」；4.0 需較高會員等級，官方尚未公布每秒價格，3.0 仍有每日 66 點免費額度。【初步實測（樣本小，部分為官方合作創作者）】MindStudio 用早期 Flash 版（720p）測試：3.0 長對白會跑掉的對嘴問題在 4.0 大致解決、角色一致性不錯，但偶爾會自己加入沒要求的小動作、物理細節有瑕疵。YouArt 比較：快速運鏡時 3.0 的畫面閃爍在 4.0 幾乎消失、背景更穩、更貼近參考素材；短而簡單、在意成本的片段 3.0 仍划算。",
+   "links": [
+    [
+     "RuntimeWire：Kling 4.0 全面開放與 MCP／CLI",
+     "https://runtimewire.com/article/kling-ai-kling-4-mcp-cli-availability"
+    ],
+    [
+     "Kling 官方 4.0 使用手冊",
+     "https://kling.ai/quickstart/kling-4-model-user-guide"
+    ],
+    [
+     "Kling 官方：4.0 vs 3.0 差異",
+     "https://kling.ai/blog/kling-4-vs-3"
+    ],
+    [
+     "實測：MindStudio 首測",
+     "https://www.mindstudio.ai/blog/kling-4-0-first-look"
+    ],
+    [
+     "實測：YouArt 4.0 vs 3.0 比較",
+     "https://youart.ai/blog/kling-4-0-vs-kling-3-0"
+    ],
+    [
+     "創作者實測：Johnson Sheng（Kling 官方部落格）",
+     "https://kling.ai/blog/Kling4-Hands-On-Review-JohnsonSheng"
+    ]
+   ],
+   "image": {
+    "file": "kling4.webp",
+    "alt": "Kling 官方：Kling 4.0 User Guide 封面",
+    "credit": "Kling AI",
+    "credit_url": "https://kling.ai/quickstart/kling-4-model-user-guide"
+   },
+   "short_title": "Kling 4.0 全面開放，一次 30 秒",
+   "one": "可靈影片模型 4.0 人人可用了：一次生成最長 30 秒、能放 15 個參考素材，鏡頭和角色更穩。",
+   "gloss": [
+    [
+     "關鍵影格",
+     "你指定「某一秒畫面要長這樣」，AI 自動把中間補起來"
+    ],
+    [
+     "MCP",
+     "讓 AI 助理直接呼叫外部工具的共通介面"
+    ]
+   ]
+  },
+  {
+   "id": "gpt-live-1-1",
+   "org": "OpenAI",
+   "tag": "版本升級 · 語音",
+   "date": "2026-10-15",
+   "title": "ChatGPT 語音升級 GPT-Live-1.1：13 種新聲音、非英語口音更自然，今天起推送給所有用戶",
+   "orig": "GPT-Live-1.1 is rolling out with new voices and better accents",
+   "summary": "OpenAI 10/15 開始把 ChatGPT、Codex 與 dots 的語音換成 GPT-Live-1.1（Plus 以上預設）與輕量版 GPT-Live-1.1 Quip（其他用戶預設）。【比上一版進步在哪（官方說法）】新增 13 種聲音，含法、德、印地、墨西哥西班牙、韓、日語聲音；這些語言與其他非英語的表現明顯改善；查資料時少說重複的「確認中…」；把任務交給背後模型處理更自然、更聽指令。【限制】API 目前仍是 GPT-Live-1，1.1「即將推出」；官方系統卡指出 1.1 整體安全表現與前代相近，但在性內容、心理健康、情感依賴、血腥類別有統計上顯著的退步，將在後續版本改善。【早期回饋】目前還沒有正式的新舊版實測比較；官方社群已有用戶回報 Android／iOS 上標準與進階語音模式選錯聲音的問題。",
+   "links": [
+    [
+     "OpenAI 社群公告",
+     "https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704"
+    ],
+    [
+     "OpenAI 貼文",
+     "https://x.com/OpenAI/status/2110797830361436604"
+    ],
+    [
+     "GPT-Live-1.1 系統卡",
+     "https://deploymentsafety.openai.com/gpt-live-1-1/introduction"
+    ],
+    [
+     "AlphaSignal 整理",
+     "https://alphasignal.ai/news/openai-s-gpt-live-1-1-adds-multilingual-voices-and-fixes-repetitive-tool-call"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 語音 1.1：多 13 種聲音",
+   "one": "ChatGPT 語音模式升級，日韓等非英語口音更自然，也新增多種聲音，今天開始陸續推送。",
+   "gloss": [
+    [
+     "全雙工語音",
+     "AI 可以一邊聽一邊說，你隨時插話它都接得住"
+    ]
+   ]
+  },
+  {
+   "id": "rosalind-academic",
+   "org": "OpenAI",
+   "tag": "方案權益",
+   "date": "2026-10-15",
+   "title": "OpenAI 推 Rosalind 學術方案：美國大學實驗室最多 30 席、免費用 12 個月",
+   "orig": "Bringing GPT-Rosalind to academic research labs",
+   "summary": "OpenAI 10/15 推出 Rosalind Academic Plan，讓美國大學的學術實驗室免費使用生命科學專用模型 GPT-Rosalind。合格實驗室可獲得最多 30 個 Business Standard 席位，每人每月 0 美元、最長 12 個月；可用所有商用前沿模型（依方案額度），GPT-Rosalind 需通過「受信任存取」審核。不含 API。研究資料預設不拿去訓練模型。沒有 OpenAI 企業合約的學校由 PI 代表實驗室申請，已有企業合約的走學校的企業帳號申請。",
+   "links": [
+    [
+     "OpenAI 官方公告",
+     "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+    ],
+    [
+     "OpenAI 貼文",
+     "https://x.com/OpenAI/status/2110841898076418336"
+    ]
+   ],
+   "image": null,
+   "short_title": "OpenAI 送美國大學實驗室免費 AI",
+   "one": "美國大學的生科實驗室可申請一年免費 ChatGPT 商用席位，還能用專門做生物研究的模型。"
+  },
+  {
+   "id": "amazon-blocks-grok-bot",
+   "org": "Amazon／xAI",
+   "tag": "平台異動",
+   "date": "2026-10-15",
+   "title": "Amazon 擋下 Grok Bot 代購，Musk：去別家買、或許該做 Amazon 的對手",
+   "orig": "Should Start Amazon Competitor, Says Elon Musk After Amazon Blocks Grok Bot On Its Platform",
+   "summary": "10/15 起有用戶回報，讓 Grok Bot 在 Amazon 下單時出現「未經授權的 AI 代理持續存取違反 Amazon 使用條款」的提示，代理無法再登入或下單。Musk 在 X 回應「叫 Grok Bot 去別的網站買、拿到更好的價格」，並提到「也許我們該做一個 Amazon 的競爭對手」。這不是只針對 Grok：Amazon 先前已用同樣提示擋下 Meta 的 Muse 代理，robots.txt 也封鎖 ChatGPT、Claude、Perplexity 等 AI 爬蟲，並與 Perplexity 打官司。Musk 另表示若 Grok Bot 代購出錯或外洩信用卡，SpaceX 會全額賠償。",
+   "links": [
+    [
+     "OfficeChai 報導",
+     "https://officechai.com/ai/elon-musk-amazon-competitor/"
+    ],
+    [
+     "Musk 貼文：去別家買",
+     "https://x.com/elonmusk/status/2110602585572860213"
+    ],
+    [
+     "Musk 貼文：Amazon 競爭對手",
+     "https://x.com/elonmusk/status/2110715556328579219"
+    ],
+    [
+     "Musk 貼文：代購出錯 SpaceX 賠償",
+     "https://x.com/elonmusk/status/2110610960474079445"
+    ]
+   ],
+   "image": null,
+   "short_title": "Amazon 封鎖 Grok Bot 代購",
+   "one": "想讓 AI 代理幫你在 Amazon 買東西？現在會被擋，得改去其他購物網站。",
+   "gloss": [
+    [
+     "AI 代理",
+     "能自己操作網站、幫你完成任務的 AI 助理"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-controlnet",
+   "title": "ComfyUI ControlNet：用線稿控制 AI 畫出的構圖",
+   "learn": "學會用一張草圖或線稿鎖住構圖，不用一直重抽到滿意為止。",
+   "level": "入門",
+   "vram": "依原頁為準（範例用 SD 1.5 模型）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "ControlNet",
+     "外掛在生圖模型上的「控制器」，照你給的線稿、深度圖或姿勢來畫"
+    ]
+   ],
+   "steps": [
+    "把官方頁的 ControlNet 工作流程圖片拖進 ComfyUI，載入流程（會提示下載所需模型）。",
+    "若自動下載失敗，依官方頁把主模型放 models/checkpoints、VAE 放 models/vae、control_v11p_sd15_scribble_fp16 放 models/controlnet。",
+    "在 Load Image 上傳官方提供的線稿範例圖，按 Queue（Ctrl+Enter）生成。",
+    "調整 Apply ControlNet 的 strength，比較數值高低對構圖貼合度的影響；之後可到 ControlNet 模型庫換深度、姿勢等其他類型。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：ControlNet 教學",
+     "https://docs.comfy.org/tutorials/controlnet/controlnet"
+    ],
+    [
+     "Hugging Face：ControlNet v1.1 fp16 模型",
+     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors"
+    ]
+   ]
+  },
+  {
+   "id": "tut-wan22-5b",
+   "title": "本地跑影片模型：Wan2.2 5B 文字／圖片生影片",
+   "learn": "在自己的電腦上用開源 Wan2.2 5B 生成第一段 AI 影片，文字或圖片起手都可以。",
+   "level": "入門",
+   "vram": "官方：5B 版搭配 ComfyUI 原生卸載，約 8GB 顯存可執行",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "卸載（offloading）",
+     "顯存不夠時把部分模型暫放到系統記憶體，速度會慢一些但能跑"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版，在範本庫搜尋「Wan2.2 5B」或下載官方工作流程 JSON。",
+    "下載 wan2.2_ti2v_5B_fp16.safetensors 放到 models/diffusion_models，Wan2.2 VAE 放 models/vae，FP8 文字編碼器放 models/text_encoders。",
+    "確認 Load Diffusion Model 節點載入 5B 模型，輸入提示詞。",
+    "想用圖片起手，按 Ctrl+B 啟用 Load image 節點並上傳圖片；最後按 Run（Ctrl+Enter）生成。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Wan2.2 教學",
+     "https://docs.comfy.org/tutorials/video/wan/wan2_2"
+    ],
+    [
+     "Hugging Face：Wan2.2-TI2V-5B 模型卡",
+     "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B"
+    ],
+    [
+     "Hugging Face：Comfy-Org Wan2.2 重新打包版",
+     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+    ]
+   ]
+  },
+  {
+   "id": "tut-kling4",
+   "title": "Kling 4.0 上手：選對入口，做出 30 秒有劇情的影片",
+   "learn": "搞懂「Omni 參考」和「關鍵影格」兩種入口差在哪，並設定長度、畫質與畫面比例。",
+   "level": "入門",
+   "vram": "不需要（雲端服務，依官方方案計費）",
+   "kind": "本週新教學",
+   "steps": [
+    "在 Kling 創作頁選 Kling 4.0，先決定入口：手上有素材或只有點子選「Omni 參考」，要鎖定某幾秒的畫面選「關鍵影格」。",
+    "Omni 參考最多放 15 個素材（圖片最多 10 張、影片最多 5 段且合計 ≤30 秒），用來保持角色與產品一致。",
+    "關鍵影格最多 10 張，可指定首幀、尾幀和中間任意時間點的畫面。",
+    "設定長度（3–30 秒，預設 10 秒）、畫質（720p／1080p／4K）與比例（21:9／16:9／1:1／9:16／自動），提示詞可寫「第 3 秒舉手、第 7 秒轉身」來控制節奏。"
+   ],
+   "links": [
+    [
+     "Kling 官方：Kling 4.0 使用手冊",
+     "https://kling.ai/quickstart/kling-4-model-user-guide"
+    ],
+    [
+     "Kling 官方：4.0 vs 3.0 差異",
+     "https://kling.ai/blog/kling-4-vs-3"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-16",
+  "compared_to": "2026-10-15",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-13",
+    "fetched": "2026-10-16",
+    "metric": "Arena score",
+    "carried_from": "2026-10-15",
+    "latest_as_of": "2026-10-13",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1525,
+      "ci": 9
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1513,
+      "ci": 13,
+      "new": true
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 8,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -2,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 6,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1498,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.2 (xhigh)",
+      "org": "Meta",
+      "score": 1495,
+      "ci": 7,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-15",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-16",
+    "metric": "Elo",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-15",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1217→1218 (+1)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1207→1208 (+1)",
+      "GPT Image 2 (high): #3→#3 (0 名), 1187→1186 (-1)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1164→1165 (+1)",
+      "Nano Banana 2: #7→#7 (0 名), 1138→1139 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1120→1121 (+1)",
+      "NEW #10 MAI-Image-2.6-Flash (Microsoft) 1117",
+      "OUT MAI-Image-2.5 (前次 #10 1116)"
+     ],
+     "dropped": [
+      {
+       "model": "MAI-Image-2.5",
+       "org": "Microsoft",
+       "rank": 10,
+       "score": 1116
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "MAI-Image-2.5",
+      "org": "Microsoft",
+      "rank": 10,
+      "score": 1116
+     }
+    ],
+    "analysis": "Artificial Analysis 文生圖榜今天只有前 10 名單的小幅進出。微軟 9 月推出的 MAI-Image-2.6-Flash 以 1117 分（±12）新進第 10，原本第 10 的 MAI-Image-2.5（1115）被擠到第 11。前 9 名順序完全沒變，分數變動都在 ±1 分以內：GPT Image 2.5 Sunburst（1218）仍居第一、Nano Banana 2.1（1172）第 4。微軟現在有兩個模型在前 10（MAI-Image-2.6 第 6、2.6-Flash 第 10），但兩者誤差範圍與後段模型重疊，名次仍可能互換。",
+    "analysis_short": "前 9 名不變；微軟 MAI-Image-2.6-Flash 新進第 10，把 MAI-Image-2.5 擠出前 10。"
+   }
+  ]
+ }
+}
