@@ -51,14 +51,14 @@ tools/
      3. 裁成 16:9、縮成 1600×900 WebP（q≈82，<300KB），存成 `issues/<date>/img/news-<id>.webp`。
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
-1b. **色彩與材質 CMF（自 2026-10-16／排程自 10-17 起：每日 5 則）**：放在 7 則設計新聞之後，版面 2＋3（第 1 列 2 則車型寬卡、第 2 列趨勢／塗料／材質各 1）。
-   - 欄位：`cmf[]`：`{id, kind(car|trend|paint|material), car, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{…}（車型／有圖則必填）, sources[[名稱, url]], note?}`。車型圖 16:9、1600×900 WebP。`kind` 決定卡寬與標籤。發布前跑 `python3 tools/check_cmf.py <日期>`。
+1b. **色彩與材質 CMF（排程自 2026-10-17 起：每日 4–7 張卡，數量彈性）**：放在設計新聞之後。中間的「色彩・材質・介面動態」模組，**每個類別一列**：A 列車型內裝（`cmf[]` kind=car）、B 列色彩／塗料／材質（`cmf[]` kind=trend|paint|material）、C 列介面與 HMI（`hmi[]`）。每列 1 張＝全寬（桌機圖左文右）、2 張＝各半、3 張＝三等分；手機一欄。
+   - **每日數量依素材量、重要性與適合度決定，不硬湊**：car 1–2、trend+paint+material 合計 2–3、hmi 0–2，`cmf`＋`hmi` 合計 4–7。欄位：`cmf[]`：`{id, kind(car|trend|paint|material), car（品牌／車型或機構名）, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{file, alt, credit, credit_url}（車型必填；其他有圖就放）, swatch?{label, hex}（無圖的色彩卡）, sources[[名稱, url]], note?（備援說明，顯示 ⚠）}`。`kind` 決定所在列與標籤（車型／趨勢／塗料／材質）。發布前跑 `python3 tools/check_cmf.py <日期>`（會檢查上述數量，舊期無 kind 不檢查）。
    - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**；也避免同車重複講設計新聞已寫過的內裝重點（例：Mission S 已在設計新聞講五圓儀表，就不要再用同一角度當 CMF 車型則）。優先選設計新聞以外的車；素材夠好且有**另一篇**專門內裝／CMF 來源時才用同車。
    - **規則 2：車型則照片必須是內裝或材質特寫**（座艙、座椅、儀表板、飾板、縫線、布料／皮革、漆面近拍）。**禁止外觀 3/4 或全車照**。找不到合格照片就換車。
-   - **來源（CMF 部門優先 1–3）**：01 色彩趨勢、02 車用塗料／塗裝、03 材質；04 空間／生活設計僅備援。車型則另可原廠新聞稿、Auto&Design、Interior Motives、Car Design News 等。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
+   - **來源**：國際車廠原廠新聞稿／內裝圖集、zley 提供的 CMF 部門網站（色彩趨勢 WGSN／Coloro／Pantone／NCS；車用塗料 PPG／Axalta／BASF；材質 MaterialDistrict、Automotive Interiors World /news/materials 等；空間／生活設計 Dezeen／designboom 僅備援）、網路搜尋（Auto&Design、Interior Motives、Car Design News 等），以及相關時的中國車廠（NIO、Li Auto、Xpeng、BYD 等原廠發布）。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
    - **去重（30 天）**：寫入 `cmf-log.json`（`{date, kind?, car_key, angle, url, image?}`）。30 天內同 `car_key` 或同 `url` 不再放。車型湊不到 2 則就少放，不硬湊；0 則車型時仍盡量保留趨勢／塗料／材質。
-1c. **介面與 HMI（自 2026-10-17 起，每日 1 則，強案例日最多 2 則）**：放在色彩與材質區內，5 則 CMF 卡片之後、每日內裝配色之前。給 GUI 設計師看的「以圖為主」設計案例。
-   - 欄位：`hmi[]`：`{id, kind(case|inspiration), brand, tag, title（≤26 字）, date（YYYY-MM-DD，來源真實發布日）, points[3–5 句 zh-TW，寫這個介面設計做得好的地方], image{file（本機 .jpg，存 issues/<日期>/img/）, alt, credit, credit_url}, sources[[名稱, url]]}`。`hmi` 空或缺 → 整塊不顯示。
+1c. **介面與 HMI 卡（`hmi[]`，0–2 張；有好案例時 1 張，強案例日 2 張）**：在上面卡片模組的 C 列，和其他卡片同樣式，標籤「介面與 HMI」（kind=case）或「靈感參考」（kind=inspiration）。給 GUI 設計師看的「以圖為主」設計案例。
+   - 欄位：`hmi[]`：`{id, kind(case|inspiration), brand, tag, title（≤26 字）, date（YYYY-MM-DD，來源真實發布日）, points[3–5 句 zh-TW，寫這個介面設計做得好的地方], image{file（本機 .jpg，存 issues/<日期>/img/）, alt, credit, credit_url}, sources[[名稱, url]]}`。`hmi` 空或缺 → C 列不顯示。
    - 圖片：必須是真實介面截圖或設計圖（中控／儀表 UI、HMI 概念、Android Auto／CarPlay／Tesla 畫面、OEM HMI 案例），下載後轉 JPG（長邊 ≤1600）。credit 格式只能是「Brand (via site)」（例：`GM (via Automotive Interiors World)`）或「site 示意圖」（例：`Not a Tesla App 示意圖`）。沒有可用圖片的消息不放。
    - 來源：Automotive Interiors World /news/hmi（curl 403，用 WebFetch 讀；圖片檔可 curl）、Not a Tesla App（/rss；軟體更新頁附介面圖）、9to5Google Android Auto、9to5Mac CarPlay、Elektrobit newsroom。沒有新案例時改放 `kind: inspiration`，標「靈感參考」：MOMOHMI、Muzli、Apple HIG／design videos、Google Design。
    - 日期照抄來源，不可推測；舊於 30 天的案例只有在當天沒有新案例時才用，並照實標日期。
@@ -162,15 +162,15 @@ tools/
 - 變數名：`ip-upper`（上儀表板軟質）、`ip-decor`（儀表板／門板飾條、出風口框、門把）、`ip-lower`（下儀表板）、`door-upper`（門上飾板）、`door-insert`（門板嵌飾）、`armrest`（門扶手、中央扶手）、`door-lower`（下門板、喇叭網）、`stitch`（縫線）、`console`（中央通道）、`seat`（座椅）、`steering`（方向盤）、`headliner`（車頂襯）、`seat-bolster`（座椅側翼／頭枕，預設←seat）、`seat-center`（座椅中央，預設←seat）、`console-arm`（中央扶手，預設←armrest）、`accent-pod`（左杯架點綴，預設←ip-decor）、`accent-pod2`（右杯架點綴，預設←accent-pod）。
 - 沒給的變數會套預設（如 ip-lower←door-lower、seat←door-insert）。材質紋理（皮紋、織紋、拉絲）是半透明疊層，跟顏色無關。
 
-## 色彩與材質（CMF）每日 5 則
-- 第 1 列：2 則車型內裝／材質（寬卡）；第 2 列：趨勢、塗料、材質各 1 則。每則用 `kind`：car／trend／paint／material。
+## 色彩與材質（CMF）每日 4–7 張卡
+- 一類一列：A 車型（`cmf` kind=car，1–2）、B 色彩／塗料／材質（`cmf` kind=trend|paint|material，2–3）、C 介面與 HMI（`hmi[]`，0–2）。每列 1 張全寬／2 張各半／3 張三等分。
 - 替代內容留在原欄位並加 `note`（顯示為 ⚠）。發布前跑 `python3 tools/check_cmf.py <日期>`。
 
 ## 色彩與材質 合併版（2026-10-16 起）
-有 `color_data` 的期數不再有獨立「情緒板」區塊與導覽；全部併入「色彩與材質」，順序：
+有 `color_data` 的期數不再有獨立「情緒板」區塊與導覽；全部併入「色彩與材質」，順序（三個模組都用同一種小標題樣式；導覽列只有 設計新聞／色彩與材質／汽車新知）：
 1. 新色彩發布（`color_data.release`，**只在當天有新年度色或新色彩報告發布時才填**；沒有就不顯示）：
    `{"date":"YYYY-MM-DD","title":"…","points":[…],"hues":[[機構, 色名, 色號, HEX, 是否官方, url],…],"pop":{"title","rows":[[色,HEX,%],…],"note","src":[名,url]},"dirs":{"title","items":[…],"src":[名,url]},"mat":{…},"sources":[[名,url],…]}`，各欄皆可省略
-2. CMF 5 則（2 車型寬卡＋趨勢／塗料／材質）
+2. 「色彩・材質・介面動態」卡片模組（4–7 張，一類一列，見上）
 3. 每日內裝配色示例（`color_data.interior`：門板＋儀表板插圖、色票、情緒、部位）
 - 色票即佐證：`parts` 每項可加第 6 欄 `{"src":"來源短名","url":"..."}`；沒填時用 `evidence` 中「色名：來源」比對同名色。有來源的色票整塊可點、下方顯示來源小字；沒有來源只顯示「示意色」。
 - 舊期數（無 `color_data`）照舊顯示獨立情緒板。

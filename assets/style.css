@@ -373,10 +373,19 @@ a.swl{display:block;color:inherit;text-decoration:none;transition:transform .15s
 .sw .evs{display:block;margin-top:4px;font-size:11px;color:var(--accent);line-height:1.4}
 #cmf .cdata{margin-bottom:36px}#cmf .cmf{margin-bottom:8px}
 .note.inote{max-width:none;width:100%;box-sizing:border-box}
-/* 介面與 HMI sub-section (inside #cmf) */
-.hmi-sub{margin-top:32px}
-.hmi{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:16px}
-@media (min-width:768px){.hmi.n2{grid-template-columns:repeat(2,minmax(0,1fr))}.hmi.n1 .hmi-card{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);align-items:start;gap:24px}.hmi.n1 .hmi-card .news-img{margin:0}}
-.hmi-card .ratio img{object-fit:cover}
+/* 色彩與材質 modules (shared small subheading) */
+.cmod{margin:0 0 40px}
+.cmod>h3,.cdata>h3{font-family:var(--serif);font-size:24px;margin:6px 0 16px}
+.cmod>h3 small{display:block;font-size:14px;font-weight:400;color:var(--muted);margin-top:4px;line-height:1.6}
+.cmf.cmfx{grid-template-columns:1fr}
+@media (min-width:900px){.cmf.cmfx{grid-template-columns:repeat(6,minmax(0,1fr))}.cmfx .s2{grid-column:span 2}.cmfx .s3{grid-column:span 3}.cmfx .s6{grid-column:span 6}}
 .hmi-card .date{font-size:12px;color:var(--muted);margin-left:8px}
 .hmi-card.insp .tag{color:var(--muted)}
+/* jump nav */
+html{scroll-padding-top:110px}
+.jump{position:sticky;top:var(--tbh,57px);z-index:15;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:8px 0 0;padding:10px 0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.jump::-webkit-scrollbar{display:none}
+.jump a{flex:0 0 auto;text-decoration:none;color:var(--muted);font-size:13px;letter-spacing:.06em;padding:5px 12px;border:1px solid var(--line);border-radius:999px;white-space:nowrap}
+.jump a:hover{color:var(--accent);border-color:var(--accent)}
+@media (max-width:767px){html{scroll-padding-top:100px}}
+@media (min-width:900px){.cmfx .s6:has(.news-img){display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:24px;align-items:start}.cmfx .s6 .news-img{margin:0}}

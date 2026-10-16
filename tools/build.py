@@ -68,29 +68,25 @@ def interior_html(b):
     mt="".join(f'<li><b>{ee(p[0])}</b>：{ee(p[1])} <code>{p[2]}</code></li>' for p in b["parts"])
     offi="、".join(x[1] for x in b["parts"] if x[3]) or "無"
     kw="".join(f'<span>{ee(k)}</span>' for k in b["mood"])
-    return (f'<div class="board" style="margin-top:32px"><div class="board-head"><div><div class="kicker">Daily Interior Palette</div><h3>{ee(b["theme"])}</h3><div class="zh">{ee(b["zh"])}</div></div><p>{ee(b["intro"])}</p></div>'
+    return (f'<div class="cmod ipalette" id="palette"><div class="kicker">Daily Interior Palette</div><h3>內裝配色 · {ee(b["theme"])} <small>{ee(b["zh"])}｜{ee(b["intro"])}</small></h3>'
       f'{svg}<p class="note">插圖為程式繪製示意，不代表任何真實車款。</p>'
       f'<div class="irow"><div><h4>色票 Swatches · 來源</h4><div class="ipal">{pal}</div></div><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:10px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
       f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul class="iparts">{mt}</ul></div></div>'
       f'<p class="note inote">色票下方小字為流行色來源（點色票可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p></div>')
 
-def hmi_html(items, img):
-    """介面與 HMI sub-section (inside 色彩與材質, below the 5 CMF cards). Renders nothing when empty.
+def hmi_cards(items, img):
+    """介面與 HMI cards (0–2), rendered as ordinary cards inside the 色彩與材質 card grid.
     item: {id, kind: case|inspiration, brand, tag, title, date, points[], image{file,alt,credit,credit_url}, sources[[name,url]]}"""
-    items = [x for x in (items or []) if x][:2]
-    if not items: return ""
-    e = html.escape
-    cards = []
-    for x in items:
+    e = html.escape; out = []
+    for x in [x for x in (items or []) if x][:2]:
         im = x["image"]; insp = x.get("kind") == "inspiration"
-        lab = "靈感參考" if insp else "HMI 案例"
+        lab = "靈感參考" if insp else "介面與 HMI"
         pts = "".join(f'<li>{e(p)}</li>' for p in x["points"])
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in x["sources"])
-        cards.append(f'<article class="cmf-card hmi-card{" insp" if insp else ""}" id="{e(x["id"])}"><figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async"></div>'
-                     f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>'
-                     f'<div class="cbody"><span class="tag">{lab} · {e(x["brand"])} · {e(x["tag"])}</span><span class="date">{e(x["date"])}</span><h3>{e(x["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
-    return (f'<div class="hmi-sub"><div class="board-head"><div><div class="kicker">Interface &amp; HMI</div><h3>介面與 HMI</h3><div class="zh">每日座艙介面設計案例</div></div>'
-            f'<p>每日車用介面設計案例：附介面圖片、設計重點與原始來源；沒有新案例時改放「靈感參考」。</p></div><div class="hmi n{len(items)}">{"".join(cards)}</div></div>')
+        out.append(f'<article class="cmf-card hmi-card{" insp" if insp else ""}" id="{e(x["id"])}"><figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async"></div>'
+                   f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>'
+                   f'<div class="cbody"><span class="tag">{lab} · {e(x["brand"])} · {e(x["tag"])}</span><span class="date">{e(x["date"])}</span><h3>{e(x["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
+    return out
 
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
@@ -205,6 +201,8 @@ def page(d, base, all_issues, is_root):
 <h1>Car Design Daily</h1>
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}</div>
 <p class="lede">{e(d['lede'])}</p></div>''')
+    links = [("design","設計新聞",True),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
+    H.append('<nav class="jump" aria-label="本期段落">' + "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in links if ok) + '</nav><script>(()=>{const f=()=>{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")};f();addEventListener("resize",f)})()</script>')
     # breaking news (optional; issues without "breaking" render exactly as before)
     bk = d.get("breaking")
     if bk:
@@ -228,6 +226,7 @@ def page(d, base, all_issues, is_root):
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in bk["sources"])
         H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk.get("label","新車特報"))} · Breaking</div><article class="story bk-card">{vid}{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div><div class="src">來源：{src}</div></article></section>')
     # design news
+    # 今日 3 重點 + jump nav
     H.append('<section id="design"><div class="sec-head"><span class="num">01</span><h2>設計新聞</h2><span class="en">Design News</span></div><div class="news">')
     for i, s in enumerate(d["design_news"]):
         an = "".join(f'<li><b>{e(k)}</b><span>{e(v)}</span></li>' for k, v in s["analysis"])
@@ -264,8 +263,8 @@ def page(d, base, all_issues, is_root):
     if cmf:
         H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div>')
         if (d.get("color_data") or {}).get("release"): cdata_block(d["color_data"]["release"], H)
-        H.append(f'<div class="cmf{" cmf5" if any(x.get("kind") for x in cmf) else ""}">')
-        for c in cmf:
+        modular = any(x.get("kind") for x in cmf)
+        def cmf_card(c, span):
             im = c.get("image")
             fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1600" height="900"></div>'
                    f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
@@ -273,10 +272,19 @@ def page(d, base, all_issues, is_root):
             if sw and not im: fig = f'<figure class="news-img"><div class="ratio" style="background:{e(sw["hex"])}"></div><figcaption>{e(sw["label"])} <code>{e(sw["hex"])}</code></figcaption></figure>'
             pts = "".join(f'<li>{e(x)}</li>' for x in c["points"]) + (f'<li class="fb">⚠ {e(c["note"])}</li>' if c.get("note") else "")
             src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in c["sources"])
-            H.append(f'<article class="cmf-card{' wide' if c.get('kind','car')=='car' and any(x.get('kind') for x in cmf) else ''}" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{ {"car":"車型","trend":"趨勢","paint":"塗料","material":"材質"}.get(c.get("kind","car"),"")} · {e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
-        H.append('</div>')
-        hm = hmi_html(d.get("hmi"), img)
-        if hm: H.append(hm)
+            cls = f" s{span}" if span else ""
+            return f'<article class="cmf-card{cls}" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{ {"car":"車型","trend":"趨勢","paint":"塗料","material":"材質"}.get(c.get("kind","car"),"")} · {e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>'
+        if not modular:
+            H.append('<div class="cmf">' + "".join(cmf_card(c, 0) for c in cmf) + '</div>')
+        else:
+            cars = [c for c in cmf if c.get("kind") == "car"]; rest = [c for c in cmf if c.get("kind") != "car"]
+            hm = hmi_cards(d.get("hmi"), img)
+            sp = lambda n: {1: 6, 2: 3}.get(n, 2)  # one row per category: 1 full / 2 halves / 3 thirds
+            cells = [cmf_card(c, sp(len(cars))) for c in cars]
+            cells += [cmf_card(c, sp(len(rest))) for c in rest]
+            cells += [h.replace('<article class="cmf-card hmi-card', f'<article class="cmf-card s{sp(len(hm))} hmi-card', 1) for h in hm]
+            H.append('<div class="cmod"><div class="kicker">Colour · Material · Interface</div><h3>色彩・材質・介面動態</h3>'
+                     f'<div class="cmf cmfx">{"".join(cells)}</div></div>')
         if d.get("color_data"): H.append(interior_html(d["color_data"].get("interior")))
         H.append('</section>')
     # knowledge

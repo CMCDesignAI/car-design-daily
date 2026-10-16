@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""介面與 HMI check: 0–2 items (1 default). Each needs a local JPG image, ISO date, credit 「Brand (via site)」 or 「site 示意圖」,
+"""介面與 HMI check: 0–2 HMI cards mixed into the 色彩與材質 card grid (total grid count is checked by check_cmf.py). Each needs a local JPG image, ISO date, credit 「Brand (via site)」 or 「site 示意圖」,
 credit_url, ≥1 source link, ≥2 zh-TW points. kind case|inspiration. Fails if id/url repeats within 30 days in hmi-log.json,
 or if today's items are missing from the log. Usage: python3 tools/check_hmi.py YYYY-MM-DD"""
 import json,sys,os,re,datetime as dt
