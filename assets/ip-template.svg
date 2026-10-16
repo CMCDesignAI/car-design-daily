@@ -1,43 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" class="intsvg" role="img" aria-label="儀表板配色示意（程式繪製）">
-<defs>
- <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="none"/><path d="M1 3c3-2 5 2 8 0M5 9c2-1 4 1 7-1M0 12c2 1 3-1 5 0" stroke="#000" stroke-opacity=".10" fill="none"/><circle cx="10" cy="5" r=".8" fill="#fff" fill-opacity=".10"/></pattern>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" class="intsvg" role="img" aria-label="儀表板正視配色示意（程式繪製）"><defs>
+ <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M1 3c3-2 5 2 8 0M5 9c2-1 4 1 7-1M0 12c2 1 3-1 5 0" stroke="#000" stroke-opacity=".10" fill="none"/><circle cx="10" cy="5" r=".8" fill="#fff" fill-opacity=".10"/></pattern>
+ <pattern id="denim" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 1.5h6" stroke="#fff" stroke-opacity=".22" stroke-width="1.2"/><path d="M0 4.5h6" stroke="#000" stroke-opacity=".18" stroke-width="1.2"/><circle cx="2" cy="3" r=".5" fill="#fff" fill-opacity=".25"/></pattern>
  <pattern id="weave" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2h4M4 6h4" stroke="#000" stroke-opacity=".14" stroke-width="2"/><path d="M2 0v4M6 4v4" stroke="#fff" stroke-opacity=".16" stroke-width="2"/></pattern>
+ <pattern id="stipple" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#000" fill-opacity=".14"/><circle cx="3.5" cy="3.5" r=".6" fill="#fff" fill-opacity=".08"/></pattern>
  <pattern id="brushed" width="200" height="4" patternUnits="userSpaceOnUse"><path d="M0 1h200" stroke="#fff" stroke-opacity=".28"/><path d="M0 3h120M140 3h60" stroke="#000" stroke-opacity=".12"/></pattern>
- <pattern id="perf" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="2" fill="#000" fill-opacity=".45"/></pattern>
- <linearGradient id="topLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient>
- <linearGradient id="sideShade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".35"/><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
- <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfd8de"/><stop offset="1" stop-color="#eef1f2"/></linearGradient>
- <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2430"/><stop offset="1" stop-color="#0c1016"/></linearGradient>
- <radialGradient id="vig" cx=".5" cy=".4" r=".8"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></radialGradient>
+ <pattern id="perf" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="1.8" fill="#000" fill-opacity=".5"/></pattern>
+ <pattern id="slats" width="10" height="9" patternUnits="userSpaceOnUse"><rect width="10" height="9" fill="#111"/><rect y="0" width="10" height="4" fill="#3a3a3a"/></pattern>
+ <linearGradient id="topLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".30"/></linearGradient>
+ <radialGradient id="pillow" cx=".5" cy=".35" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".7" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".30"/></radialGradient>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdd5da"/><stop offset="1" stop-color="#eef0f1"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#20262c"/><stop offset="1" stop-color="#0d1013"/></linearGradient>
+ <radialGradient id="vig" cx=".5" cy=".45" r=".8"><stop offset=".65" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".32"/></radialGradient>
 </defs>
-<rect width="1200" height="700" fill="url(#sky)"/>
-<!-- roof / A-pillars (headliner) -->
-<path id="headliner" d="M0 0H1200V70Q600 30 0 90Z" fill="var(--headliner)"/><path d="M0 0H1200V70Q600 30 0 90Z" fill="url(#weave)"/>
-<path d="M0 90 L160 70 L330 250 L180 270Z" fill="var(--headliner)"/><path d="M1200 70 L1060 64 L900 240 L1050 250Z" fill="var(--headliner)"/>
-<!-- IP upper soft pad -->
-<g id="ip-upper"><path d="M0 330 Q120 240 330 236 Q600 215 900 232 Q1100 240 1200 300 V400 H0Z" fill="var(--ip-upper)"/><path d="M0 330 Q120 240 330 236 Q600 215 900 232 Q1100 240 1200 300 V400 H0Z" fill="url(#grain)"/><path d="M0 330 Q120 240 330 236 Q600 215 900 232 Q1100 240 1200 300 V400 H0Z" fill="url(#topLight)"/>
-<path d="M0 352 Q300 300 600 300 Q900 300 1200 330" stroke="var(--stitch)" stroke-width="2.4" stroke-dasharray="7 5" fill="none"/></g>
-<!-- driver cluster -->
-<rect x="250" y="262" width="210" height="62" rx="10" fill="url(#screen)"/><circle cx="300" cy="293" r="20" fill="none" stroke="#5cc2ff" stroke-opacity=".6" stroke-width="3"/><rect x="340" y="282" width="100" height="6" rx="3" fill="#fff" fill-opacity=".35"/><rect x="340" y="296" width="70" height="6" rx="3" fill="#fff" fill-opacity=".2"/>
-<!-- decor strip -->
-<g id="ip-decor"><path d="M0 400 Q600 372 1200 400 V428 Q600 400 0 428Z" fill="var(--ip-decor)"/><path d="M0 400 Q600 372 1200 400 V428 Q600 400 0 428Z" fill="url(#brushed)"/><path d="M0 400 Q600 372 1200 400" stroke="#fff" stroke-opacity=".5" fill="none"/></g>
-<!-- vents -->
-<g fill="var(--door-lower)"><rect x="80" y="404" width="120" height="20" rx="6"/><rect x="980" y="404" width="130" height="20" rx="6"/></g>
-<g stroke="#000" stroke-opacity=".5"><path d="M86 410h108M86 416h108M86 422h108M986 410h118M986 416h118M986 422h118"/></g>
-<!-- IP lower -->
-<g id="ip-lower"><path d="M0 428 Q600 400 1200 428 V560 H0Z" fill="var(--ip-lower)"/><path d="M0 428 Q600 400 1200 428 V560 H0Z" fill="url(#grain)"/><path d="M0 428 Q600 400 1200 428 V560 H0Z" fill="url(#topLight)"/></g>
-<!-- center display -->
-<g><rect x="520" y="300" width="250" height="150" rx="12" fill="#111" /><rect x="528" y="308" width="234" height="134" rx="8" fill="url(#screen)"/><rect x="545" y="325" width="120" height="70" rx="6" fill="#2a6f8f" fill-opacity=".55"/><rect x="675" y="325" width="70" height="30" rx="5" fill="#fff" fill-opacity=".15"/><rect x="675" y="362" width="70" height="30" rx="5" fill="#fff" fill-opacity=".1"/><rect x="545" y="405" width="200" height="18" rx="5" fill="#fff" fill-opacity=".08"/><path d="M528 308h234" stroke="#fff" stroke-opacity=".25"/></g>
-<!-- steering wheel -->
-<g id="steering"><ellipse cx="330" cy="430" rx="150" ry="120" fill="none" stroke="var(--steering)" stroke-width="30"/><ellipse cx="330" cy="430" rx="150" ry="120" fill="none" stroke="url(#grain)" stroke-width="30"/><ellipse cx="330" cy="420" rx="150" ry="120" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="6"/>
-<path d="M190 450 Q330 420 470 450 L430 500 Q330 470 230 500Z" fill="var(--steering)"/><rect x="300" y="440" width="60" height="38" rx="10" fill="var(--ip-decor)"/><rect x="300" y="440" width="60" height="38" rx="10" fill="url(#brushed)"/>
-<ellipse cx="330" cy="430" rx="150" ry="120" fill="none" stroke="var(--stitch)" stroke-width="1.6" stroke-dasharray="5 5"/></g>
-<!-- center console -->
-<g id="console"><path d="M520 700 L560 470 H740 L790 700Z" fill="var(--console)"/><path d="M520 700 L560 470 H740 L790 700Z" fill="url(#sideShade)"/><path d="M560 470 H740 L748 500 H552Z" fill="var(--ip-decor)"/><path d="M560 470 H740 L748 500 H552Z" fill="url(#brushed)"/>
-<ellipse cx="610" cy="540" rx="26" ry="12" fill="#000" fill-opacity=".45"/><ellipse cx="690" cy="540" rx="26" ry="12" fill="#000" fill-opacity=".45"/>
-<path d="M545 600 H775 L790 700 H520Z" fill="var(--armrest)"/><path d="M545 600 H775 L790 700 H520Z" fill="url(#grain)"/><path d="M552 612 H768" stroke="var(--stitch)" stroke-width="2" stroke-dasharray="6 4"/></g>
-<!-- front seat backs -->
-<g id="seat"><path d="M820 700 Q830 560 930 540 Q1060 530 1110 600 L1130 700Z" fill="var(--seat)"/><path d="M820 700 Q830 560 930 540 Q1060 530 1110 600 L1130 700Z" fill="url(#weave)"/><path d="M820 700 Q830 560 930 540 Q1060 530 1110 600 L1130 700Z" fill="url(#topLight)"/><path d="M880 700 Q890 600 970 585 Q1040 580 1070 640 L1080 700" stroke="var(--stitch)" stroke-width="2" stroke-dasharray="6 4" fill="none"/></g>
-
-<rect width="1200" height="700" fill="url(#vig)"/>
-</svg>
+<rect width="1200" height="760" fill="url(#sky)"/>
+<path d="M0 0H1200V40Q600 20 0 40Z" fill="var(--headliner)" /><path d="M0 0H1200V40Q600 20 0 40Z" fill="url(#weave)"/>
+<path d="M0 40 L120 40 L250 250 L0 330Z" fill="var(--headliner)"/><path d="M1200 40 L1080 40 L950 250 L1200 330Z" fill="var(--headliner)"/>
+<path d="M0 40 L120 40 L250 250 L0 330Z" fill="#000" fill-opacity=".12"/><path d="M1200 40 L1080 40 L950 250 L1200 330Z" fill="#000" fill-opacity=".12"/>
+<rect x="520" y="40" width="160" height="34" rx="10" fill="#2a2a2a"/>
+<path d="M0 330 L250 250 H950 L1200 330 V760 H0Z" fill="var(--door-lower)"/><path d="M0 330 L250 250 H950 L1200 330 V760 H0Z" fill="#000" fill-opacity=".35"/>
+<path d="M110 500 H1090 V760 H110Z" fill="#141516"/><path d="M110 500 H1090 V760 H110Z" fill="url(#weave)" opacity=".5"/>
+<!-- upper dash: flat boxy top -->
+<g id="ip-upper"><path d="M140 250 H1060 L1090 300 H110Z" fill="var(--ip-upper)" /><path d="M140 250 H1060 L1090 300 H110Z" fill="url(#stipple)"/><path d="M140 250 H1060 L1090 300 H110Z" fill="url(#topLight)"/><path d="M110 300 H1090 V372 H110Z" fill="var(--ip-upper)" /><path d="M110 300 H1090 V372 H110Z" fill="url(#stipple)"/><path d="M110 300 H1090 V372 H110Z" fill="url(#topLight)"/><path d="M110 300 H1090" stroke="#000" stroke-opacity=".25"/>
+<path d="M130 312 H1070" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g>
+<!-- cluster hood & cluster -->
+<path d="M300 252 Q420 228 540 252 V300 H300Z" fill="var(--ip-upper)" /><path d="M300 252 Q420 228 540 252 V300 H300Z" fill="url(#stipple)"/><path d="M300 252 Q420 228 540 252 V300 H300Z" fill="url(#topLight)"/><rect x="320" y="270" width="200" height="56" rx="6" fill="url(#screen)"/><circle cx="370" cy="298" r="18" fill="none" stroke="#7fc4ff" stroke-opacity=".55" stroke-width="3"/><circle cx="470" cy="298" r="18" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+<!-- decor band -->
+<g id="ip-decor"><path d="M110 372 H1090 V392 H110Z" fill="var(--ip-decor)" /><path d="M110 372 H1090 V392 H110Z" fill="url(#brushed)"/><path d="M110 372 H1090" stroke="#fff" stroke-opacity=".45"/></g>
+<!-- lower dash -->
+<g id="ip-lower"><path d="M110 392 H1090 V500 Q1000 520 900 520 H300 Q200 520 110 500Z" fill="var(--ip-lower)" /><path d="M110 392 H1090 V500 Q1000 520 900 520 H300 Q200 520 110 500Z" fill="url(#stipple)"/><path d="M110 392 H1090 V500 Q1000 520 900 520 H300 Q200 520 110 500Z" fill="url(#topLight)"/>
+<rect x="760" y="410" width="260" height="60" rx="6" fill="#000" fill-opacity=".18"/><rect x="860" y="430" width="60" height="10" rx="4" fill="#000" fill-opacity=".4"/>
+<rect x="830" y="350" width="120" height="14" rx="3" fill="#000" fill-opacity=".3"/></g>
+<!-- square vents + cup pods -->
+<g><rect x="130" y="318" width="96" height="70" rx="10" fill="var(--ip-decor)"/><rect x="138" y="326" width="80" height="54" rx="6" fill="url(#slats)"/><rect x="974" y="318" width="96" height="70" rx="10" fill="var(--ip-decor)"/><rect x="982" y="326" width="80" height="54" rx="6" fill="url(#slats)"/>
+<path d="M140 400 h76 q8 0 6 10 l-6 26 q-2 8 -12 8 h-52 q-10 0 -12 -8 l-6 -26 q-2 -10 6 -10z" fill="var(--accent-pod)"/><path d="M140 400 h76 q8 0 6 10 l-6 26 q-2 8 -12 8 h-52 q-10 0 -12 -8 l-6 -26 q-2 -10 6 -10z" fill="url(#topLight)"/><ellipse cx="178" cy="406" rx="30" ry="6" fill="#000" fill-opacity=".35"/>
+<path d="M984 400 h76 q8 0 6 10 l-6 26 q-2 8 -12 8 h-52 q-10 0 -12 -8 l-6 -26 q-2 -10 6 -10z" fill="var(--accent-pod2)"/><path d="M984 400 h76 q8 0 6 10 l-6 26 q-2 8 -12 8 h-52 q-10 0 -12 -8 l-6 -26 q-2 -10 6 -10z" fill="url(#topLight)"/><ellipse cx="1022" cy="406" rx="30" ry="6" fill="#000" fill-opacity=".35"/></g>
+<!-- center stack: upright rectangle -->
+<g id="stack"><path d="M560 256 H760 V560 H560Z" fill="var(--ip-decor)" /><path d="M560 256 H760 V560 H560Z" fill="url(#topLight)"/><rect x="566" y="262" width="188" height="292" fill="#1d1f22"/><rect x="566" y="262" width="188" height="292" fill="url(#stipple)"/>
+<rect x="580" y="276" width="160" height="40" rx="4" fill="url(#screen)"/><rect x="600" y="288" width="70" height="14" rx="2" fill="#6fb6ff" fill-opacity=".35"/><circle cx="592" cy="296" r="6" fill="#555"/>
+<rect x="580" y="324" width="160" height="34" rx="3" fill="#0b0c0d"/>
+<rect x="580" y="372" width="160" height="22" rx="3" fill="url(#slats)"/>
+<rect x="576" y="410" width="168" height="54" rx="6" fill="var(--ip-decor)"/><rect x="576" y="410" width="168" height="54" rx="6" fill="url(#brushed)"/>
+<circle cx="604" cy="437" r="14" fill="#222" stroke="#999" stroke-width="2"/><circle cx="716" cy="437" r="14" fill="#222" stroke="#999" stroke-width="2"/><path d="M604 425v8M716 425v8" stroke="#e33" stroke-width="2"/>
+<rect x="630" y="430" width="10" height="14" rx="2" fill="#2b2b2b"/><rect x="644" y="430" width="10" height="14" rx="2" fill="#2b2b2b"/><rect x="658" y="430" width="10" height="14" rx="2" fill="#2b2b2b"/><rect x="672" y="430" width="10" height="14" rx="2" fill="#2b2b2b"/><rect x="686" y="430" width="10" height="14" rx="2" fill="#2b2b2b"/>
+<rect x="640" y="480" width="40" height="56" rx="6" fill="#2b2b2b"/><rect x="652" y="474" width="16" height="30" rx="5" fill="#bbb"/></g>
+<!-- steering wheel (round-ish 3 spoke) -->
+<g id="steering"><circle cx="420" cy="420" r="128" fill="none" stroke="var(--steering)" stroke-width="30"/><circle cx="420" cy="420" r="128" fill="none" stroke="url(#perf)" stroke-width="30" opacity=".35"/><circle cx="420" cy="414" r="128" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="6"/>
+<path d="M292 420 A128 128 0 0 1 548 420" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/>
+<path d="M300 430 Q420 400 540 430 L520 460 Q420 440 320 460Z" fill="var(--steering)"/><path d="M400 440 L380 540 H460 L440 440Z" fill="var(--steering)"/>
+<path d="M370 400 Q420 380 470 400 L476 452 Q420 470 364 452Z" fill="var(--steering)"/><path d="M370 400 Q420 380 470 400 L476 452 Q420 470 364 452Z" fill="url(#topLight)"/>
+<circle cx="420" cy="420" r="9" fill="var(--ip-decor)"/></g>
+<!-- console + armrest -->
+<g id="console"><path d="M520 760 L540 600 H780 L800 760Z" fill="var(--console)" /><path d="M520 760 L540 600 H780 L800 760Z" fill="url(#stipple)"/><path d="M520 760 L540 600 H780 L800 760Z" fill="url(#topLight)"/><rect x="560" y="610" width="200" height="40" rx="8" fill="#000" fill-opacity=".35"/><rect x="640" y="590" width="10" height="70" rx="4" fill="#cfcfcf"/>
+<path d="M560 680 Q660 660 760 680 L780 760 H540Z" fill="var(--console-arm)" /><path d="M560 680 Q660 660 760 680 L780 760 H540Z" fill="url(#weave)"/><path d="M560 680 Q660 660 760 680 L780 760 H540Z" fill="url(#pillow)"/><path d="M566 692 Q660 674 754 692" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g>
+<g class="seat"><path d="M60 760 L70 610 Q80 560 140 556 H380 Q440 560 450 610 L460 760Z" fill="var(--seat-bolster)" /><path d="M60 760 L70 610 Q80 560 140 556 H380 Q440 560 450 610 L460 760Z" fill="url(#denim)"/><path d="M60 760 L70 610 Q80 560 140 556 H380 Q440 560 450 610 L460 760Z" fill="url(#pillow)"/><path d="M135 760 L142 600 Q150 575 180 572 H340 Q370 575 378 600 L385 760Z" fill="var(--seat-center)" /><path d="M135 760 L142 600 Q150 575 180 572 H340 Q370 575 378 600 L385 760Z" fill="url(#grain)"/><path d="M135 760 L142 600 Q150 575 180 572 H340 Q370 575 378 600 L385 760Z" fill="url(#pillow)"/><path d="M142 760 L148 604 Q154 582 180 580 H340 Q366 582 372 604 L378 760" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><path d="M236 760 L238 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><g transform="translate(8 0)"><path d="M236 760 L238 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g><path d="M276 760 L274 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><g transform="translate(8 0)"><path d="M276 760 L274 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g><path d="M135 680 Q260 668 385 680" stroke="#000" stroke-opacity=".35" stroke-width="3" fill="none"/></g><g class="seat"><path d="M800 760 L810 610 Q820 560 880 556 H1120 Q1180 560 1190 610 L1200 760Z" fill="var(--seat-bolster)" /><path d="M800 760 L810 610 Q820 560 880 556 H1120 Q1180 560 1190 610 L1200 760Z" fill="url(#denim)"/><path d="M800 760 L810 610 Q820 560 880 556 H1120 Q1180 560 1190 610 L1200 760Z" fill="url(#pillow)"/><path d="M875 760 L882 600 Q890 575 920 572 H1080 Q1110 575 1118 600 L1125 760Z" fill="var(--seat-center)" /><path d="M875 760 L882 600 Q890 575 920 572 H1080 Q1110 575 1118 600 L1125 760Z" fill="url(#grain)"/><path d="M875 760 L882 600 Q890 575 920 572 H1080 Q1110 575 1118 600 L1125 760Z" fill="url(#pillow)"/><path d="M882 760 L888 604 Q894 582 920 580 H1080 Q1106 582 1112 604 L1118 760" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><path d="M976 760 L978 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><g transform="translate(8 0)"><path d="M976 760 L978 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g><path d="M1016 760 L1014 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/><g transform="translate(8 0)"><path d="M1016 760 L1014 586" stroke="var(--stitch)" stroke-width="2.2" stroke-dasharray="6 4" fill="none" stroke-linecap="round"/></g><path d="M875 680 Q1000 668 1125 680" stroke="#000" stroke-opacity=".35" stroke-width="3" fill="none"/></g><rect width="1200" height="760" fill="url(#vig)"/></svg>

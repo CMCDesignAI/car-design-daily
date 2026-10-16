@@ -50,11 +50,11 @@ def interior_html(b):
     if not b: return ""
     ee=html.escape; c=[x[2] for x in b["parts"]]
     v={pt[4]:pt[2] for pt in b["parts"]}; v.update(b.get("vars",{}))
-    for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert")]: v.setdefault(k,v.get(fb,"#888"))
+    for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert"),("seat-bolster","seat"),("seat-center","seat"),("console-arm","armrest"),("accent-pod","ip-decor"),("accent-pod2","accent-pod")]: v.setdefault(k,v.get(fb,"#888"))
     rd=lambda f: open(os.path.join(ROOT,"assets",f),encoding="utf-8").read()
     svg=(f'<div class="intpair" style="{";".join(f"--{k}:{x}" for k,x in v.items())}">'
-         f'<figure><div class="intwrap">{rd("door-template.svg")}</div><figcaption>前門板（上飾板・飾條・嵌飾・扶手・門把・置物袋・喇叭網・縫線）</figcaption></figure>'
-         f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板（上軟質・飾條・螢幕・出風口・方向盤・中央通道）</figcaption></figure></div>')
+         f'<figure><div class="intwrap">{rd("door-template.svg")}</div><figcaption>前門板（上飾板・飾條・嵌飾・門把・扶手開關座・拉手凹槽・喇叭網・置物袋・縫線）</figcaption></figure>'
+         f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板正視（方正儀表台・中控塔・方形出風口・杯架點綴・方向盤・座椅・中央扶手）</figcaption></figure></div>')
     evmap={}
     for it in b.get("evidence",[]):
         nm,_,src=it[0].partition("："); evmap[nm]=(src.split("（")[0] or it[0],it[1])

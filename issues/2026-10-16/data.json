@@ -888,7 +888,11 @@
     "console": "#4E4741",
     "seat": "#A89886",
     "steering": "#3A3430",
-    "headliner": "#E6E1D8"
+    "headliner": "#E6E1D8",
+    "seat-bolster": "#A89886",
+    "seat-center": "#9A6A4A",
+    "console-arm": "#F0EEE9",
+    "accent-pod": "#8E1B2C"
    }
   }
  }

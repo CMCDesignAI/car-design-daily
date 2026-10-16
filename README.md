@@ -150,10 +150,10 @@ tools/
 
 
 ## 內裝配色模板（door／IP）
-`assets/door-template.svg`（完整前門板）與 `assets/ip-template.svg`（儀表板視角）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
+`assets/door-template.svg`（實用型前門板）與 `assets/ip-template.svg`（正視方正儀表板＋中控塔＋座椅）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
 - `parts`：`[部位說明, 色名, HEX, 是否官方, 變數名]`，會顯示成色票與材質清單。
 - `vars`：不顯示色票但要上色的部位。
-- 變數名：`ip-upper`（上儀表板軟質）、`ip-decor`（儀表板／門板飾條、出風口框、門把）、`ip-lower`（下儀表板）、`door-upper`（門上飾板）、`door-insert`（門板嵌飾）、`armrest`（門扶手、中央扶手）、`door-lower`（下門板、喇叭網）、`stitch`（縫線）、`console`（中央通道）、`seat`（座椅）、`steering`（方向盤）、`headliner`（車頂襯）。
+- 變數名：`ip-upper`（上儀表板軟質）、`ip-decor`（儀表板／門板飾條、出風口框、門把）、`ip-lower`（下儀表板）、`door-upper`（門上飾板）、`door-insert`（門板嵌飾）、`armrest`（門扶手、中央扶手）、`door-lower`（下門板、喇叭網）、`stitch`（縫線）、`console`（中央通道）、`seat`（座椅）、`steering`（方向盤）、`headliner`（車頂襯）、`seat-bolster`（座椅側翼／頭枕，預設←seat）、`seat-center`（座椅中央，預設←seat）、`console-arm`（中央扶手，預設←armrest）、`accent-pod`（左杯架點綴，預設←ip-decor）、`accent-pod2`（右杯架點綴，預設←accent-pod）。
 - 沒給的變數會套預設（如 ip-lower←door-lower、seat←door-insert）。材質紋理（皮紋、織紋、拉絲）是半透明疊層，跟顏色無關。
 
 ## 色彩與材質（CMF）每日 5 則
