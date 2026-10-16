@@ -372,3 +372,4 @@ details.more p{font-size:14px;color:var(--muted)}
 a.swl{display:block;color:inherit;text-decoration:none;transition:transform .15s}a.swl:hover{transform:translateY(-2px);border-color:var(--accent)}
 .sw .evs{display:block;margin-top:4px;font-size:11px;color:var(--accent);line-height:1.4}
 #cmf .cdata{margin-bottom:36px}#cmf .cmf{margin-bottom:8px}
+.note.inote{max-width:none;width:100%;box-sizing:border-box}
