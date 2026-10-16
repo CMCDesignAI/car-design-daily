@@ -74,6 +74,24 @@ def interior_html(b):
       f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul class="iparts">{mt}</ul></div></div>'
       f'<p class="note inote">色票下方小字為流行色來源（點色票可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p></div>')
 
+def hmi_html(items, img):
+    """介面與 HMI sub-section (inside 色彩與材質, below the 5 CMF cards). Renders nothing when empty.
+    item: {id, kind: case|inspiration, brand, tag, title, date, points[], image{file,alt,credit,credit_url}, sources[[name,url]]}"""
+    items = [x for x in (items or []) if x][:2]
+    if not items: return ""
+    e = html.escape
+    cards = []
+    for x in items:
+        im = x["image"]; insp = x.get("kind") == "inspiration"
+        lab = "靈感參考" if insp else "HMI 案例"
+        pts = "".join(f'<li>{e(p)}</li>' for p in x["points"])
+        src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in x["sources"])
+        cards.append(f'<article class="cmf-card hmi-card{" insp" if insp else ""}" id="{e(x["id"])}"><figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async"></div>'
+                     f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>'
+                     f'<div class="cbody"><span class="tag">{lab} · {e(x["brand"])} · {e(x["tag"])}</span><span class="date">{e(x["date"])}</span><h3>{e(x["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
+    return (f'<div class="hmi-sub"><div class="board-head"><div><div class="kicker">Interface &amp; HMI</div><h3>介面與 HMI</h3><div class="zh">每日座艙介面設計案例</div></div>'
+            f'<p>每日車用介面設計案例：附介面圖片、設計重點與原始來源；沒有新案例時改放「靈感參考」。</p></div><div class="hmi n{len(items)}">{"".join(cards)}</div></div>')
+
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
 
@@ -257,6 +275,8 @@ def page(d, base, all_issues, is_root):
             src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in c["sources"])
             H.append(f'<article class="cmf-card{' wide' if c.get('kind','car')=='car' and any(x.get('kind') for x in cmf) else ''}" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{ {"car":"車型","trend":"趨勢","paint":"塗料","material":"材質"}.get(c.get("kind","car"),"")} · {e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
         H.append('</div>')
+        hm = hmi_html(d.get("hmi"), img)
+        if hm: H.append(hm)
         if d.get("color_data"): H.append(interior_html(d["color_data"].get("interior")))
         H.append('</section>')
     # knowledge
