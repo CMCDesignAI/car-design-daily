@@ -145,7 +145,7 @@ def page(d, base, all_issues, is_root):
                f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
         vlink = f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a>{f' · <a href="{e(v["x_url"])}" target="_blank" rel="noopener">{e(v.get("x_title","X 影片"))} ↗</a>' if v.get("x_url") else ""}</p>' if v.get("url") else ""
         if v.get("type") == "youtube":
-            vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{vlink}</div>'
+            vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}{f"?start={int(v['start'])}" if v.get("start") else ""}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{vlink}</div>'
         elif v.get("mp4"):
             poster = f' poster="{img}{e(im["file"])}"' if im else ""
             vid = f'<div class="bk-video"><div class="ratio"><video controls playsinline preload="metadata"{poster} title="{e(v.get("title",""))}"><source src="{e(v["mp4"])}" type="video/mp4"></video></div>{vlink}</div>'
