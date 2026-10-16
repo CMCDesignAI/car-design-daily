@@ -586,16 +586,12 @@
       "credit_url": "https://x.com/Tesla/status/2110906094155399277"
     },
     "video": {
-      "type": "x",
-      "url": "https://x.com/Tesla/status/2110906094155399277",
-      "title": "Tesla 官方影片：Roadster — The last best driver's car（86 秒）",
-      "mp4": "https://video.twimg.com/amplify_video/2110905894670139392/vid/avc1/1280x720/IBr7ianuxE8wKYQ7.mp4"
+      "type": "youtube",
+      "id": "qt5p-_tE8d0",
+      "title": "Tesla 官方 YouTube：Roadster Event（發表會直播）",
+      "url": "https://www.youtube.com/watch?v=qt5p-_tE8d0"
     },
     "sources": [
-      [
-        "Tesla on X",
-        "https://x.com/Tesla/status/2110906094155399277"
-      ],
       [
         "Reuters",
         "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021"
