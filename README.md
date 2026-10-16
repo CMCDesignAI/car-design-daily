@@ -162,7 +162,8 @@ tools/
 
 ## 色彩與材質 合併版（2026-10-16 起）
 有 `color_data` 的期數不再有獨立「情緒板」區塊與導覽；全部併入「色彩與材質」，順序：
-1. 年度色彩與數據（`color_data.hues/pop/dirs/mat`）
+1. 新色彩發布（`color_data.release`，**只在當天有新年度色或新色彩報告發布時才填**；沒有就不顯示）：
+   `{"date":"YYYY-MM-DD","title":"…","points":[…],"hues":[[機構, 色名, 色號, HEX, 是否官方, url],…],"pop":{"title","rows":[[色,HEX,%],…],"note","src":[名,url]},"dirs":{"title","items":[…],"src":[名,url]},"mat":{…},"sources":[[名,url],…]}`，各欄皆可省略
 2. CMF 5 則（2 車型寬卡＋趨勢／塗料／材質）
 3. 每日內裝配色示例（`color_data.interior`：門板＋儀表板插圖、色票、情緒、部位）
 - 色票即佐證：`parts` 每項可加第 6 欄 `{"src":"來源短名","url":"..."}`；沒填時用 `evidence` 中「色名：來源」比對同名色。有來源的色票整塊可點、下方顯示來源小字；沒有來源只顯示「示意色」。

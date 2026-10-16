@@ -227,14 +227,25 @@ def page(d, base, all_issues, is_root):
     cmf = d.get("cmf") or []
     n_k, n_m = ("03", "04") if cmf else ("02", "03")  # new issues have no 04 (mood merged into cmf)
     def cdata_block(cd, H):
+            # cd = color_data.release: only on days a new annual colour / colour report is published
             L=lambda n,u:f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
-            hs="".join(f'<a class="hue" href="{e(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><b>{e(nm)}</b><span>{e(org)}</span><code>{e(code)}</code><small>{hx}{"（官方）" if off else "（示意色）"}</small></a>' for org,nm,code,hx,off,u in cd["hues"])
-            p=cd["pop"]; bars="".join(f'<div class="bar"><span>{e(n)}</span><div><i style="width:{v/30*100:.0f}%;background:{c}"></i></div><b>{v}%</b></div>' for n,c,v in p["rows"])
-            dr="".join(f'<li>{e(x)}</li>' for x in cd["dirs"]["items"]); mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"])
-            H.append(f'<div class="cdata"><div class="kicker">Data-backed Colour Board</div><h3>年度色彩與數據</h3><div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p><div class="cgrid"><div class="ccard"><h4>{e(p["title"])}</h4>{bars}<p class="note">{e(p["note"])}</p><div class="src">來源：{L(*p["src"])}</div></div><div class="ccard"><h4>{e(cd["dirs"]["title"])}</h4><ul>{dr}</ul><div class="src">來源：{L(*cd["dirs"]["src"])}</div></div><div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div></div></div>')
+            hs="".join(f'<a class="hue" href="{e(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><b>{e(nm)}</b><span>{e(org)}</span><code>{e(code)}</code><small>{hx}{"（官方）" if off else "（示意色）"}</small></a>' for org,nm,code,hx,off,u in cd.get("hues",[]))
+            cards=[]
+            if cd.get("pop"):
+                p=cd["pop"]; bars="".join(f'<div class="bar"><span>{e(n)}</span><div><i style="width:{v/max(x[2] for x in p["rows"])*100:.0f}%;background:{c}"></i></div><b>{v}%</b></div>' for n,c,v in p["rows"])
+                cards.append(f'<div class="ccard"><h4>{e(p["title"])}</h4>{bars}'+(f'<p class="note">{e(p["note"])}</p>' if p.get("note") else "")+f'<div class="src">來源：{L(*p["src"])}</div></div>')
+            if cd.get("dirs"):
+                dr="".join(f'<li>{e(x)}</li>' for x in cd["dirs"]["items"]); cards.append(f'<div class="ccard"><h4>{e(cd["dirs"]["title"])}</h4><ul>{dr}</ul><div class="src">來源：{L(*cd["dirs"]["src"])}</div></div>')
+            if cd.get("mat"):
+                mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"]); cards.append(f'<div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div>')
+            pts="".join(f'<li>{e(x)}</li>' for x in cd.get("points",[]))
+            src="".join(L(n,u) for n,u in cd.get("sources",[]))
+            H.append(f'<div class="cdata"><div class="kicker">New Colour Release · {e(cd.get("date",""))}</div><h3>{e(cd.get("title","年度色彩與數據"))}</h3>'
+                     +(f'<ul class="cpts">{pts}</ul>' if pts else "")+(f'<div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p>' if hs else "")
+                     +(f'<div class="cgrid">{"".join(cards)}</div>' if cards else "")+(f'<div class="src">來源：{src}</div>' if src else "")+'</div>')
     if cmf:
         H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div>')
-        if d.get("color_data"): cdata_block(d["color_data"], H)
+        if (d.get("color_data") or {}).get("release"): cdata_block(d["color_data"]["release"], H)
         H.append(f'<div class="cmf{" cmf5" if any(x.get("kind") for x in cmf) else ""}">')
         for c in cmf:
             im = c.get("image")
