@@ -57,12 +57,20 @@ def interior_html(b):
          f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板（上軟質・飾條・螢幕・出風口・方向盤・中央通道）</figcaption></figure></div>')
     pal="".join(f'<div class="sw"><i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}{"（官方）" if off else "（示意色）"}</small></span></div>' for pt,nm,hx,off,*_ in b["parts"])
     mt="".join(f'<li><b>{ee(pt)}</b>：{ee(nm)} <code>{hx}</code></li>' for pt,nm,hx,off,*_ in b["parts"])
-    ev="".join(f'<li><a href="{ee(u)}" target="_blank" rel="noopener">{ee(n)} ↗</a></li>' for n,u in b["evidence"])
+    byname={x[1]:(x[2],x[3]) for x in b["parts"]}
+    def evc(it):
+        t,u=it[0],it[1]; nm,_,src=t.partition("：")
+        hx,off=(it[2],False) if len(it)>2 else byname.get(nm,(next((x[2] for x in b["parts"] if len(x)>4 and x[4]=="ip-decor"),"#999"),False))
+        return (f'<a class="evc" href="{ee(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><span><b>{ee(nm)}</b><small>{ee(src or t)}</small>'
+                f'<code>{hx}{"（官方）" if off else "（示意色）"}</code><em>查看來源 ↗</em></span></a>')
+    ev="".join(evc(x) for x in b["evidence"])
+    offi="、".join(x[1] for x in b["parts"] if x[3]) or "無"
     kw="".join(f'<span>{ee(k)}</span>' for k in b["mood"])
     return (f'<div class="board" style="margin-top:32px"><div class="board-head"><div><div class="kicker">Daily Interior Palette</div><h3>{ee(b["theme"])}</h3><div class="zh">{ee(b["zh"])}</div></div><p>{ee(b["intro"])}</p></div>'
       f'{svg}<p class="note">插圖為程式繪製示意，不代表任何真實車款。</p>'
-      f'<div class="bwrap"><div class="palette">{pal}</div><div class="bmeta"><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:8px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
-      f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul>{mt}</ul></div><div><h4>流行色佐證 Evidence</h4><ul>{ev}</ul><p class="note">只有 Cloud Dancer 是官方色值，其餘為示意色。</p></div></div></div></div>')
+      f'<div class="irow"><div><h4>色票 Swatches</h4><div class="ipal">{pal}</div></div><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:10px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
+      f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul class="iparts">{mt}</ul></div></div>'
+      f'<h4 class="evh">流行色佐證 Evidence <span>官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準</span></h4><div class="evrow">{ev}</div></div>')
 
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
