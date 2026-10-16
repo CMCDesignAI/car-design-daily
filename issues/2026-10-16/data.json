@@ -1,614 +1,891 @@
 {
-  "date": "2026-10-16",
-  "weekday": "週五",
-  "issue_no": 9,
-  "lede": "Porsche 昨晚在紐約碼頭揭曉 Mission S：中置超跑平台站上 911 之上，把 Flyline 與類比座艙做成新旗艦宣言。巴黎餘波還有 Peugeot RCZ Vision 的 Feline Future、Alpine A310 VISION 與 Opel STX；量產面則有 BMW iX4、Hyundai Bayon 與 Toyota GRMN Corolla。",
-  "design_news": [
-    {
-      "id": "porsche-mission-s",
-      "tag": "世界首發 · 概念",
-      "date": "2026-10-15",
-      "brand": "Porsche",
-      "title": "Mission S：中置超跑平台站上 911 之上，紐約碼頭世界首發",
-      "orig": "Porsche Mission S: the essence of the sports car reinterpreted",
-      "summary": "Porsche 於 10 月 15 日在紐約皇后區碼頭揭曉 Mission S 願景車，預告一款位在 911 之上、可長期產品化的中置「超跑平台」。設計主管 Tobias Sühlmann 稱它展示未來產品會採用的設計方向：魚雷式葉子板、環繞主線串起前後燈號，以及刻意減少螢幕的駕駛導向座艙。",
-      "analysis": [
-        [
-          "比例",
-          "中置引擎讓熟悉的 Porsche Flyline 更陡、更戲劇，寬高比誇張、量塊像浮起來。"
-        ],
-        [
-          "燈號",
-          "環繞主線把前後燈號連成一體；圓燈與魚雷葉子板回望 911，車尾有 GT1 式 car-in-car。"
-        ],
-        [
-          "面處理",
-          "主線之上強調肌肉曲面，之下露出技術與輕量構造；後翼全整合、冷卻扇致敬 917。"
-        ],
-        [
-          "室內 UX",
-          "五圓儀表（中央類比轉速表可依模式前移）、推拉旋鈕、無固定中控大螢幕，改用可收納手機架。"
-        ],
-        [
-          "品牌方向",
-          "Sportwagenschmiede ’35 下的永久旗艦平台，可接燃油或油電、手排或 PDK。"
-        ]
-      ],
-      "sources": [
-        [
-          "Porsche Newsroom",
-          "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html"
-        ],
-        [
-          "Top Gear",
-          "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
-        ]
-      ],
-      "image": {
-        "file": "news-porsche-mission-s.webp",
-        "alt": "白色 Porsche Mission S 概念超跑，中置剪影與整合尾翼",
-        "credit": "Porsche（via Top Gear）",
-        "credit_url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
-      }
-    },
-    {
-      "id": "peugeot-rcz-vision",
-      "tag": "世界首發 · 概念",
-      "date": "2026-10-11",
-      "brand": "Peugeot",
-      "title": "RCZ Vision：Feline Future 宣言，三爪橫燈與雙泡頂回來了",
-      "orig": "PEUGEOT RCZ VISION: EMOTION AT THE HEART OF THE FUTURE OF PEUGEOT",
-      "summary": "Peugeot 在巴黎發表 RCZ Vision，作為「Feline Future」設計語言的極致表現，並預告 Hypersquare® 與新一代 i-Cockpit®。固態電池＋1,000 V 架構標榜 500 hp、續航最高約 600 km，10→80% 約 10 分鐘。",
-      "analysis": [
-        [
-          "燈號",
-          "三道水平細爪燈＋超薄 Thin Lens LED 頭燈，車尾三爪整合所有燈功能。"
-        ],
-        [
-          "比例",
-          "肩線飽滿、側身深挖，玻璃艙像泡罩對比寬闊量塊，貓科前傾站姿。"
-        ],
-        [
-          "面處理",
-          "保險桿微穿孔 RCZ 字樣、主動尾翼靜止時藏起；雙泡頂與懸浮拱柱致敬原 RCZ。"
-        ],
-        [
-          "室內 UX",
-          "Hypersquare®＋透明 Micro LED；中央直立螢幕可關到幾乎隱形，強調少螢幕干擾。"
-        ],
-        [
-          "品牌方向",
-          "五原則 Freedom／Courage／Elegance／Strength／Instinct，預告下一代量產包括新 E-208。"
-        ]
-      ],
-      "sources": [
-        [
-          "Stellantis Media／Peugeot",
-          "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-rcz-vision-emotion-at-the-heart-of-the-future-of-peugeot"
-        ],
-        [
-          "Electric Vehicle Web",
-          "https://electricvehicleweb.com/peugeot-rcz-vision/"
-        ]
-      ],
-      "image": {
-        "file": "news-peugeot-rcz.webp",
-        "alt": "銀色 Peugeot RCZ Vision 概念跑車，三爪燈與寬肩線",
-        "credit": "Peugeot（via NetCarShow）",
-        "credit_url": "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-rcz-vision-emotion-at-the-heart-of-the-future-of-peugeot"
-      }
-    },
-    {
-      "id": "alpine-a310-vision",
-      "tag": "概念 · 巴黎車展",
-      "date": "2026-10-12",
-      "brand": "Alpine",
-      "title": "A310 VISION：低趴寬體復古未來，致敬雙甲子 A310",
-      "orig": "Alpine presents A310 VISION, a concept inspired by one of its major icons: the Alpine A310",
-      "summary": "Alpine 在巴黎發表 A310 VISION 一次性概念，慶祝四缸 A310 55 週年與 V6 50 週年。車長 4.55 m、高僅 1.18 m、最寬處 2.03 m；鋁車身對比 F1 靈感黑下盤與半透明座艙泡罩，展示 APP 平台帶來的造型自由度。",
-      "analysis": [
-        [
-          "比例",
-          "極低極寬的雕塑感跑車站姿；三角「A」輪圈向早期全金屬輪致敬。"
-        ],
-        [
-          "燈號",
-          "頭燈藏在前端折線裡，啟動時「pop-down」顯現；尾燈刀鋒形兼具下壓力功能。"
-        ],
-        [
-          "面處理",
-          "引擎蓋 S-duct 凹井、車身中央 Y zero 刀線往後消失點；雙片透明感尾翼像冰山。"
-        ],
-        [
-          "品牌方向",
-          "官方明言非量產預告，而是用 APP 平台探索 Alpine 遺產的當代表達。"
-        ]
-      ],
-      "sources": [
-        [
-          "Alpine Media",
-          "https://media.alpinecars.com/alpine-presents-a310-vision-a-concept-inspired-by-one-of-its-major-icons-the-alpine-a310/?lang=eng"
-        ]
-      ],
-      "image": {
-        "file": "news-alpine-a310.webp",
-        "alt": "Alpine A310 VISION 低趴寬體概念跑車側前方",
-        "credit": "Alpine（via Autocar）",
-        "credit_url": "https://media.alpinecars.com/alpine-presents-a310-vision-a-concept-inspired-by-one-of-its-major-icons-the-alpine-a310/?lang=eng"
-      }
-    },
-    {
-      "id": "bmw-ix4",
-      "tag": "量產發表 · Neue Klasse",
-      "date": "2026-10-07",
-      "brand": "BMW",
-      "title": "iX4：Neue Klasse 第三款，刀鋒 SUV 轎跑 2027 年上市",
-      "orig": "The BMW iX4",
-      "summary": "BMW 發表全電動 iX4，為 Neue Klasse 第三款車型，走流線 SUV 轎跑比例。iX4 50 xDrive 預計 2027 年 3 月上市，旗艦 M60 xDrive 雙電機合計 603 hp；Cd 0.23，並標配 M Sport 外觀套件。",
-      "analysis": [
-        [
-          "比例",
-          "長軸短懸、強輪拱與氣動力車頂線，全景天窗與車身封條齊平，側影乾淨。"
-        ],
-        [
-          "燈號",
-          "腎形護罩與雙頭燈成一體；M60 可選 M Yellow Lights，尾燈兩側抽象 L 形。"
-        ],
-        [
-          "空力",
-          "主動進氣、Cd 0.23；尾翼自後窗延伸並整合煞車燈。"
-        ],
-        [
-          "室內 UX",
-          "Panoramic iDrive／OS X：全寬投影＋17.9 吋自由裁切中控，shy-tech 方向盤。"
-        ],
-        [
-          "品牌方向",
-          "Debrecen 廠生產，把 Neue Klasse 語言推到運動 SUV 轎跑層級。"
-        ]
-      ],
-      "sources": [
-        [
-          "BMW Group PressClub",
-          "https://www.press.bmwgroup.com/usa/article/detail/T0461507EN_US/the-bmw-ix4?language=en_US"
-        ]
-      ],
-      "image": {
-        "file": "news-bmw-ix4.webp",
-        "alt": "BMW iX4 電動 SUV 轎跑前三分之四，Neue Klasse 燈組",
-        "credit": "BMW Group PressClub",
-        "credit_url": "https://www.press.bmwgroup.com/usa/article/detail/T0461507EN_US/the-bmw-ix4?language=en_US"
-      }
-    },
-    {
-      "id": "opel-stx",
-      "tag": "概念 · 巴黎車展",
-      "date": "2026-10-11",
-      "brand": "Opel",
-      "title": "STX Concept：更高更醒目的 Vizor，預告明日旅行車",
-      "orig": "Opel STX Concept: Visionary Study from Rüsselsheim Shows the Estate Design of Tomorrow",
-      "summary": "Opel 在巴黎發表 STX（Sports Tourer eXperimental）概念，把旅行車做成低趴、為高速效率而生的電動車。新 Vizor 更高更醒目，外側斜向百葉燈逐漸向中央淡出；車尾陡降並有可伸出的藍色擴散器與側向保險桿元件。",
-      "analysis": [
-        [
-          "燈號",
-          "垂直斜百葉框住更高的 Vizor，中央發光 Blitz／Compass；尾燈水平百葉呼應車頭。"
-        ],
-        [
-          "比例",
-          "短懸、外擴輪拱與低趴側影，針對德國高速公路長途穩定。"
-        ],
-        [
-          "面處理",
-          "齊平技術感鈑件、C 柱玻璃光帶伸入車頂；側身發光 STX 字樣與鏡頭後視鏡。"
-        ],
-        [
-          "空力",
-          "三區輪圈＋主動後擴散器與輪後垂直葉片，依車速調整下壓力與阻力。"
-        ],
-        [
-          "品牌方向",
-          "延續歐洲旅行車先驅角色，並預告未來量產會用到的造型母題。"
-        ]
-      ],
-      "sources": [
-        [
-          "Stellantis Media／Opel",
-          "https://www.media.stellantis.com/em-en/opel/press/opel-stx-concept-visionary-study-from-ruesselsheim-shows-the-estate-design-of-tomorrow"
-        ]
-      ],
-      "image": {
-        "file": "news-opel-stx.webp",
-        "alt": "銀藍雙色 Opel STX Concept 旅行車概念，高聳 Vizor 燈組",
-        "credit": "Opel（via Auto&Design）",
-        "credit_url": "https://www.media.stellantis.com/em-en/opel/press/opel-stx-concept-visionary-study-from-ruesselsheim-shows-the-estate-design-of-tomorrow"
-      }
-    },
-    {
-      "id": "hyundai-bayon",
-      "tag": "量產發表 · 印度",
-      "date": "2026-10-12",
-      "brand": "Hyundai",
-      "title": "Bayon：Art of Steel 中型 SUV，像縮小版 Tucson",
-      "orig": "Hyundai Bayon revealed ahead of October 26 launch",
-      "summary": "Hyundai 完整公開印度市場新 Bayon，定位 Venue 與 Creta 之間，採最新 Art of Steel 設計語言。分體頭燈、H 形日行燈半幅語彙、雙 12.3 吋螢幕，並宣稱印度首款搭載生成式 AI 語音助理的 Hyundai；10 月 26 日公布售價。",
-      "analysis": [
-        [
-          "燈號",
-          "引擎蓋前緣細黑飾條上的 LED DRL，像對半切開的 H；下方保桿藏主燈。"
-        ],
-        [
-          "比例",
-          "外擴輪拱與銳利特徵線，跨界多於方正 SUV；亮黑立柱做漂浮車頂。"
-        ],
-        [
-          "面處理",
-          "層疊前臉、花瓣輪圈與傳統外拉門把，側影肌肉感強。"
-        ],
-        [
-          "室內 UX",
-          "雙 12.3 吋連屏＋垂直空調區，保留大量實體快捷鍵與觸覺按鍵。"
-        ]
-      ],
-      "sources": [
-        [
-          "Autocar India",
-          "https://www.autocarindia.com/car-news/hyundai-bayon-revealed-ahead-of-october-16-launch-441012"
-        ]
-      ],
-      "image": {
-        "file": "news-hyundai-bayon.webp",
-        "alt": "Hyundai Bayon 中型 SUV，Art of Steel 分體頭燈",
-        "credit": "Hyundai（via Autocar India）",
-        "credit_url": "https://www.autocarindia.com/car-news/hyundai-bayon-revealed-ahead-of-october-16-launch-441012"
-      }
-    },
-    {
-      "id": "grmn-corolla",
-      "tag": "世界首發 · 限量",
-      "date": "2026-10-16",
-      "brand": "Toyota Gazoo Racing",
-      "title": "GRMN Corolla：紐柏林磨成的終極 GR，減重 30 kg 雙座",
-      "orig": "GRMN COROLLA World Premiere",
-      "summary": "Toyota Gazoo Racing 發表 GRMN Corolla，定位為在紐柏林全力攻彎的終極 GR Corolla。碳纖維引擎蓋／葉子板／側擾流與五段可調碳纖尾翼，扭力提升至 415 Nm，較基準車減重約 30 kg 並取消後座；日本預計 2026 秋開放商談、2027 年販售。",
-      "analysis": [
-        [
-          "比例",
-          "維持 GR Corolla 尺碼但改雙座；車高略降，後翼與寬胎強化接地感。"
-        ],
-        [
-          "面處理",
-          "碳纖維外件與 Matte Bronze 鍛造輪，車色 Black Gravite；深色廠徽與專屬 GRMN 標。"
-        ],
-        [
-          "室內 UX",
-          "全桶椅依 Super Taikyu 駕駛姿勢、植絨儀表與 A 柱、本町廠碳纖飾板與 Morizo 簽名。"
-        ],
-        [
-          "品牌方向",
-          "把賽道／紐柏林經驗回灌量產 GR，並用限量旗艦拉高 Corolla 性能天花板。"
-        ]
-      ],
-      "sources": [
-        [
-          "Toyota Gazoo Racing",
-          "https://toyotagazooracing.com/grmn/corolla/wp/"
-        ]
-      ],
-      "image": {
-        "file": "news-grmn-corolla.webp",
-        "alt": "黑色 GRMN Corolla，碳纖維尾翼與 Matte Bronze 輪圈",
-        "credit": "Toyota Gazoo Racing",
-        "credit_url": "https://toyotagazooracing.com/grmn/corolla/wp/"
-      }
-    }
-  ],
-  "cmf": [
-    {
-      "id": "cmf-porsche-mission-s",
-      "car": "Porsche Mission S",
-      "tag": "概念 · 座艙",
-      "title": "類比五圓儀表、無中控大螢幕",
-      "points": [
-        "座艙向 550 Spyder／356 取經：簡潔、朝駕駛傾斜。",
-        "五圓儀表＋中央類比轉速針，實體旋鈕與推拉控制。",
-        "刻意不做固定中控大螢幕，改可收納智慧手機架。",
-        "運動座椅營造「坐進車裡很深」的包圍感。"
-      ],
-      "image": {
-        "file": "cmf-porsche-mission-s.webp",
-        "alt": "Porsche Mission S 座艙：白／黑內裝、五圓儀表與實體旋鈕",
-        "credit": "Porsche（via Car and Driver）",
-        "credit_url": "https://www.caranddriver.com/photos/a74147892/porsche-mission-s-concept-revealed-gallery/"
-      },
-      "sources": [
-        [
-          "Top Gear：Mission S cabin",
-          "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
-        ],
-        [
-          "Car and Driver：Mission S gallery",
-          "https://www.caranddriver.com/photos/a74147892/porsche-mission-s-concept-revealed-gallery/"
-        ]
-      ]
-    },
-    {
-      "id": "cmf-polestar5",
-      "car": "Polestar 5",
-      "tag": "量產 · 生質複合材",
-      "title": "亞麻纖維座椅背：少塑又減重",
-      "points": [
-        "與 Bcomp 合作：可見亞麻纖維／PP 座椅背板。",
-        "ampliTex 炭黑織紋＋銀線仿葉脈，內層 powerRibs。",
-        "相較全塑座椅背約減重 7 kg，塑膠用量約減半。",
-        "單材質亞麻＋PP，利於報廢後磨碎再射出回收。"
-      ],
-      "image": {
-        "file": "cmf-polestar5.webp",
-        "alt": "Polestar 內裝材質特寫：技術織紋飾板與淺色縫線軟裝",
-        "credit": "Polestar（via CompositesWorld）",
-        "credit_url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
-      },
-      "sources": [
-        [
-          "CompositesWorld：Polestar 5 biocomposite seatback",
-          "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
-        ]
-      ]
-    }
-  ],
-  "knowledge": [
-    {
-      "tag": "法規 · 中國／歐盟",
-      "date": "2026-10-15",
-      "title": "中歐談混合動力出口配額：消息指年額約 35 萬輛",
-      "summary": "業界週報引述：北京會談後中國接受對歐混合動力出口配額，Bloomberg 指自 2026 年 12 月起年額約 35 萬輛、次年起年增約 6%；歐盟執委會尚未公布數字。另中國擬自 2027 年 4 月起將電動車出口增值稅退稅由 13% 調至 9%。",
-      "sources": [
-        [
-          "UOB Kay Hian：China Auto Sector Weekly",
-          "https://uobkh.com.hk/en/research/sector-gc-automobile-15102026"
-        ]
-      ]
-    },
-    {
-      "tag": "電池 · 中國",
-      "date": "2026-10-01",
-      "title": "四項動力電池 GB/T 新標：在役檢測、安全與尺寸，2027 生效",
-      "summary": "中國發布四項推薦性 GB/T 動力電池標準，涵蓋在役測試、電芯／模組與電池包安全評估及產品尺寸，預計 2027 年 2–3 月起適用；對外資而言，電池系統登記與可追溯仍是進入市場的關鍵門檻。",
-      "sources": [
-        [
-          "MPR China Certification",
-          "https://www.china-certification.com/en/china-tightens-traction-battery-rules-four-new-gb-t-standards-take-effect-in-2027/"
-        ]
-      ]
-    },
-    {
-      "tag": "政策 · 中國",
-      "date": "2026-10-08",
-      "title": "智能網聯新能源「十五五」：2030 乘用車新能源佔比目標 70%",
-      "summary": "九部委產業規劃提出：到 2030 年國內新能源乘用車、商用車在各自新車銷量佔比分別達 70%、40%，高速公路與部分城市道路實現高度自動駕駛；同時強化產能預警、電池數位身分與安全監測平台。",
-      "sources": [
-        [
-          "SwissCham China／CMG Policy Radar",
-          "https://swisscham.com.cn/policies/cmg-policy-radar-intelligent-nev-industry-15th-five-year-plan"
-        ],
-        [
-          "中國政府網政策解讀",
-          "https://www.gov.cn/zhengce/202609/content_7080809.htm"
-        ]
-      ]
-    },
-    {
-      "tag": "市場 · 中國",
-      "date": "2026-10-14",
-      "title": "中國車企瞄準 2026 年全球交付破紀錄，出口續強",
-      "summary": "南華早報彙整：中國車企受惠海外需求與能源情勢，預期 2026 年全球銷售挑戰更高紀錄；同時也有豪華電動車因煞車踏板等安全議題被監管關注，顯示出口成長與品質監管並行。",
-      "sources": [
-        [
-          "South China Morning Post",
-          "https://www.scmp.com/business/china-evs/article/3370855/chinas-carmakers-eye-record-sales-luxury-model-hits-regulatory-bump-7-ev-reads"
-        ]
-      ]
-    }
-  ],
-  "term": {
-    "name": "Flyline",
-    "zh": "飛線（車頂側影線）",
-    "body": "Flyline（飛線）是車身側面從擋風玻璃上緣一路落到車尾的那條車頂輪廓線，決定一台車看起來是貼地掠過還是厚實站著。Porsche 特別把它當作品牌識別：911 的飛線平順後傾，超跑則往往更陡、更戲劇。本期的 Mission S 因為中置引擎，官方說終於能把熟悉的 Flyline 做得更誇張，再配上魚雷式葉子板與很寬的車身，遠遠一看仍是 Porsche，但站姿比 911 更低、更攻擊。",
-    "source": [
-      [
-        "Porsche Newsroom：Mission S exterior（flyline）",
-        "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html"
-      ],
-      [
-        "Porsche USA：Mission S",
-        "https://www.porsche.com/usa/models/mission-s/"
-      ]
+ "date": "2026-10-16",
+ "weekday": "週五",
+ "issue_no": 9,
+ "lede": "Porsche 昨晚在紐約碼頭揭曉 Mission S：中置超跑平台站上 911 之上，把 Flyline 與類比座艙做成新旗艦宣言。巴黎餘波還有 Peugeot RCZ Vision 的 Feline Future、Alpine A310 VISION 與 Opel STX；量產面則有 BMW iX4、Hyundai Bayon 與 Toyota GRMN Corolla。",
+ "design_news": [
+  {
+   "id": "porsche-mission-s",
+   "tag": "世界首發 · 概念",
+   "date": "2026-10-15",
+   "brand": "Porsche",
+   "title": "Mission S：中置超跑平台站上 911 之上，紐約碼頭世界首發",
+   "orig": "Porsche Mission S: the essence of the sports car reinterpreted",
+   "summary": "Porsche 於 10 月 15 日在紐約皇后區碼頭揭曉 Mission S 願景車，預告一款位在 911 之上、可長期產品化的中置「超跑平台」。設計主管 Tobias Sühlmann 稱它展示未來產品會採用的設計方向：魚雷式葉子板、環繞主線串起前後燈號，以及刻意減少螢幕的駕駛導向座艙。",
+   "analysis": [
+    [
+     "比例",
+     "中置引擎讓熟悉的 Porsche Flyline 更陡、更戲劇，寬高比誇張、量塊像浮起來。"
     ],
-    "diagram": "term.svg"
-  },
-  "moodboards": [
-    {
-      "theme": "Industrial workwear utility pickup",
-      "zh": "工業工作服風多用途皮卡",
-      "intro": "虛構的工地皮卡：卡其帆布、安全黃飾條、刷紋鋼斗與橡膠踏板，背景是灰混凝土與鐵架。",
-      "images": [
-        [
-          "mb1-1",
-          "原創虛構概念：工業風皮卡停在工地（程式繪製）",
-          true
-        ],
-        [
-          "mb1-2",
-          "色票：卡其、安全黃、混凝土灰、鋼藍、橡膠黑、帆布米（程式繪製）",
-          false
-        ],
-        [
-          "mb1-3",
-          "內裝：帆布座椅與金屬儀表（程式繪製）",
-          false
-        ],
-        [
-          "mb1-4",
-          "材質：刷紋鋼與帆布紋理（程式生成）",
-          false
-        ]
-      ],
-      "palette": [
-        [
-          "Khaki Canvas",
-          "#C4A574"
-        ],
-        [
-          "Safety Yellow",
-          "#E8C12A"
-        ],
-        [
-          "Concrete",
-          "#9A9A94"
-        ],
-        [
-          "Steel Blue",
-          "#5A6B78"
-        ],
-        [
-          "Rubber Black",
-          "#2A2A28"
-        ],
-        [
-          "Canvas Cream",
-          "#E8DFC8"
-        ]
-      ],
-      "keywords": [
-        "工地",
-        "帆布",
-        "安全黃",
-        "皮卡",
-        "刷紋鋼",
-        "無標誌"
-      ],
-      "materials": [
-        "卡其帆布座椅",
-        "安全黃高可視飾條",
-        "刷紋鋼車斗",
-        "橡膠踏板墊",
-        "混凝土灰烤漆",
-        "工業尼龍綁帶"
-      ]
-    },
-    {
-      "theme": "Brutalist off-roader",
-      "zh": "粗野主義越野車",
-      "intro": "虛構的混凝土塊越野車：清水模灰、銳角量塊、高離地與小窗，像可移動的粗野主義建築。",
-      "images": [
-        [
-          "mb2-1",
-          "原創虛構概念：粗野主義塊面越野車（程式繪製）",
-          true
-        ],
-        [
-          "mb2-2",
-          "色票：清水模、鏽鐵、炭灰、苔綠、天空灰、陰影黑（程式繪製）",
-          false
-        ],
-        [
-          "mb2-3",
-          "細節：銳角輪拱與小窗（程式繪製）",
-          false
-        ],
-        [
-          "mb2-4",
-          "材質：混凝土紋與鏽蝕金屬（程式生成）",
-          false
-        ]
-      ],
-      "palette": [
-        [
-          "Raw Concrete",
-          "#B8B5AE"
-        ],
-        [
-          "Rust Iron",
-          "#8B5A3C"
-        ],
-        [
-          "Charcoal",
-          "#3A3A38"
-        ],
-        [
-          "Moss",
-          "#5A6B4A"
-        ],
-        [
-          "Sky Grey",
-          "#D0D4D8"
-        ],
-        [
-          "Shadow",
-          "#1E1E1C"
-        ]
-      ],
-      "keywords": [
-        "清水模",
-        "銳角",
-        "越野",
-        "小窗",
-        "塊面",
-        "無標誌"
-      ],
-      "materials": [
-        "清水模質感複合板",
-        "鏽鐵飾件",
-        "厚橡膠輪眉",
-        "霧面炭灰烤漆",
-        "窄縫強化玻璃",
-        "螺栓外露結構"
-      ]
-    }
-  ],
-  "breaking": {
-    "label": "新車特報",
-    "brand": "Tesla",
-    "date": "2026-10-15（美國中部時間）",
-    "title": "Tesla 發表新一代 Roadster：靠 SpaceX 推進器短暫飛行、倒立行駛",
-    "points": [
-      "Tesla 10/15 晚間在德州 McGregor 的 SpaceX 測試場直播發表新一代 Roadster，距 2017 年首次亮相已近九年。",
-      "現場示範：車子靠底部風扇吸附力（Tesla 稱最高 2G）爬上垂直坡道倒立行駛，再用冷氣體推進器翻身、飛越 Tesla 全車系後落地。",
-      "Tesla 宣稱：0–60 mph 不到 1 秒（現場稱 0.81 秒）、極速超過 230 mph；壓縮空氣儲氣約 600 公升、10 個噴嘴，可自行補氣。",
-      "預約頁顯示三種版本：Performance（訂金 5 萬美元）、Thrust（加速推進器，訂金 25 萬美元）、受邀制單座 Rocket（完整飛行系統）。",
-      "馬斯克稱 2028 年投產；發表會沒有公布售價。設計靈感來自 SR-71 和 F-35，雙座、線控方向盤（yoke）、可收折尾翼。",
-      "以上性能多為 Tesla／馬斯克自己的說法。媒體指出飛行功能能否上路、是否合法還不清楚，飛行版很可能只能在賽道或受控場地使用。"
+    [
+     "燈號",
+     "環繞主線把前後燈號連成一體；圓燈與魚雷葉子板回望 911，車尾有 GT1 式 car-in-car。"
     ],
-    "image": {
-      "file": "breaking-tesla-roadster.webp",
-      "alt": "Tesla 新一代 Roadster 官方影片畫面",
-      "credit": "Tesla（X 官方影片截圖）",
-      "credit_url": "https://x.com/Tesla/status/2110906094155399277"
-    },
-    "video": {
-      "type": "youtube",
-      "id": "qt5p-_tE8d0",
-      "title": "Tesla 官方 YouTube：Roadster Event（發表會直播）",
-      "url": "https://www.youtube.com/watch?v=qt5p-_tE8d0&t=330s",
-      "start": 330
-    },
-    "sources": [
-      [
-        "Reuters",
-        "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021"
-      ],
-      [
-        "The Verge",
-        "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
-      ],
-      [
-        "TechCrunch",
-        "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
-      ],
-      [
-        "CNBC",
-        "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
-      ]
+    [
+     "面處理",
+     "主線之上強調肌肉曲面，之下露出技術與輕量構造；後翼全整合、冷卻扇致敬 917。"
+    ],
+    [
+     "室內 UX",
+     "五圓儀表（中央類比轉速表可依模式前移）、推拉旋鈕、無固定中控大螢幕，改用可收納手機架。"
+    ],
+    [
+     "品牌方向",
+     "Sportwagenschmiede ’35 下的永久旗艦平台，可接燃油或油電、手排或 PDK。"
     ]
+   ],
+   "sources": [
+    [
+     "Porsche Newsroom",
+     "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html"
+    ],
+    [
+     "Top Gear",
+     "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
+    ]
+   ],
+   "image": {
+    "file": "news-porsche-mission-s.webp",
+    "alt": "白色 Porsche Mission S 概念超跑，中置剪影與整合尾翼",
+    "credit": "Porsche（via Top Gear）",
+    "credit_url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
+   }
+  },
+  {
+   "id": "peugeot-rcz-vision",
+   "tag": "世界首發 · 概念",
+   "date": "2026-10-11",
+   "brand": "Peugeot",
+   "title": "RCZ Vision：Feline Future 宣言，三爪橫燈與雙泡頂回來了",
+   "orig": "PEUGEOT RCZ VISION: EMOTION AT THE HEART OF THE FUTURE OF PEUGEOT",
+   "summary": "Peugeot 在巴黎發表 RCZ Vision，作為「Feline Future」設計語言的極致表現，並預告 Hypersquare® 與新一代 i-Cockpit®。固態電池＋1,000 V 架構標榜 500 hp、續航最高約 600 km，10→80% 約 10 分鐘。",
+   "analysis": [
+    [
+     "燈號",
+     "三道水平細爪燈＋超薄 Thin Lens LED 頭燈，車尾三爪整合所有燈功能。"
+    ],
+    [
+     "比例",
+     "肩線飽滿、側身深挖，玻璃艙像泡罩對比寬闊量塊，貓科前傾站姿。"
+    ],
+    [
+     "面處理",
+     "保險桿微穿孔 RCZ 字樣、主動尾翼靜止時藏起；雙泡頂與懸浮拱柱致敬原 RCZ。"
+    ],
+    [
+     "室內 UX",
+     "Hypersquare®＋透明 Micro LED；中央直立螢幕可關到幾乎隱形，強調少螢幕干擾。"
+    ],
+    [
+     "品牌方向",
+     "五原則 Freedom／Courage／Elegance／Strength／Instinct，預告下一代量產包括新 E-208。"
+    ]
+   ],
+   "sources": [
+    [
+     "Stellantis Media／Peugeot",
+     "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-rcz-vision-emotion-at-the-heart-of-the-future-of-peugeot"
+    ],
+    [
+     "Electric Vehicle Web",
+     "https://electricvehicleweb.com/peugeot-rcz-vision/"
+    ]
+   ],
+   "image": {
+    "file": "news-peugeot-rcz.webp",
+    "alt": "銀色 Peugeot RCZ Vision 概念跑車，三爪燈與寬肩線",
+    "credit": "Peugeot（via NetCarShow）",
+    "credit_url": "https://www.media.stellantis.com/em-en/peugeot/press/peugeot-rcz-vision-emotion-at-the-heart-of-the-future-of-peugeot"
+   }
+  },
+  {
+   "id": "alpine-a310-vision",
+   "tag": "概念 · 巴黎車展",
+   "date": "2026-10-12",
+   "brand": "Alpine",
+   "title": "A310 VISION：低趴寬體復古未來，致敬雙甲子 A310",
+   "orig": "Alpine presents A310 VISION, a concept inspired by one of its major icons: the Alpine A310",
+   "summary": "Alpine 在巴黎發表 A310 VISION 一次性概念，慶祝四缸 A310 55 週年與 V6 50 週年。車長 4.55 m、高僅 1.18 m、最寬處 2.03 m；鋁車身對比 F1 靈感黑下盤與半透明座艙泡罩，展示 APP 平台帶來的造型自由度。",
+   "analysis": [
+    [
+     "比例",
+     "極低極寬的雕塑感跑車站姿；三角「A」輪圈向早期全金屬輪致敬。"
+    ],
+    [
+     "燈號",
+     "頭燈藏在前端折線裡，啟動時「pop-down」顯現；尾燈刀鋒形兼具下壓力功能。"
+    ],
+    [
+     "面處理",
+     "引擎蓋 S-duct 凹井、車身中央 Y zero 刀線往後消失點；雙片透明感尾翼像冰山。"
+    ],
+    [
+     "品牌方向",
+     "官方明言非量產預告，而是用 APP 平台探索 Alpine 遺產的當代表達。"
+    ]
+   ],
+   "sources": [
+    [
+     "Alpine Media",
+     "https://media.alpinecars.com/alpine-presents-a310-vision-a-concept-inspired-by-one-of-its-major-icons-the-alpine-a310/?lang=eng"
+    ]
+   ],
+   "image": {
+    "file": "news-alpine-a310.webp",
+    "alt": "Alpine A310 VISION 低趴寬體概念跑車側前方",
+    "credit": "Alpine（via Autocar）",
+    "credit_url": "https://media.alpinecars.com/alpine-presents-a310-vision-a-concept-inspired-by-one-of-its-major-icons-the-alpine-a310/?lang=eng"
+   }
+  },
+  {
+   "id": "bmw-ix4",
+   "tag": "量產發表 · Neue Klasse",
+   "date": "2026-10-07",
+   "brand": "BMW",
+   "title": "iX4：Neue Klasse 第三款，刀鋒 SUV 轎跑 2027 年上市",
+   "orig": "The BMW iX4",
+   "summary": "BMW 發表全電動 iX4，為 Neue Klasse 第三款車型，走流線 SUV 轎跑比例。iX4 50 xDrive 預計 2027 年 3 月上市，旗艦 M60 xDrive 雙電機合計 603 hp；Cd 0.23，並標配 M Sport 外觀套件。",
+   "analysis": [
+    [
+     "比例",
+     "長軸短懸、強輪拱與氣動力車頂線，全景天窗與車身封條齊平，側影乾淨。"
+    ],
+    [
+     "燈號",
+     "腎形護罩與雙頭燈成一體；M60 可選 M Yellow Lights，尾燈兩側抽象 L 形。"
+    ],
+    [
+     "空力",
+     "主動進氣、Cd 0.23；尾翼自後窗延伸並整合煞車燈。"
+    ],
+    [
+     "室內 UX",
+     "Panoramic iDrive／OS X：全寬投影＋17.9 吋自由裁切中控，shy-tech 方向盤。"
+    ],
+    [
+     "品牌方向",
+     "Debrecen 廠生產，把 Neue Klasse 語言推到運動 SUV 轎跑層級。"
+    ]
+   ],
+   "sources": [
+    [
+     "BMW Group PressClub",
+     "https://www.press.bmwgroup.com/usa/article/detail/T0461507EN_US/the-bmw-ix4?language=en_US"
+    ]
+   ],
+   "image": {
+    "file": "news-bmw-ix4.webp",
+    "alt": "BMW iX4 電動 SUV 轎跑前三分之四，Neue Klasse 燈組",
+    "credit": "BMW Group PressClub",
+    "credit_url": "https://www.press.bmwgroup.com/usa/article/detail/T0461507EN_US/the-bmw-ix4?language=en_US"
+   }
+  },
+  {
+   "id": "opel-stx",
+   "tag": "概念 · 巴黎車展",
+   "date": "2026-10-11",
+   "brand": "Opel",
+   "title": "STX Concept：更高更醒目的 Vizor，預告明日旅行車",
+   "orig": "Opel STX Concept: Visionary Study from Rüsselsheim Shows the Estate Design of Tomorrow",
+   "summary": "Opel 在巴黎發表 STX（Sports Tourer eXperimental）概念，把旅行車做成低趴、為高速效率而生的電動車。新 Vizor 更高更醒目，外側斜向百葉燈逐漸向中央淡出；車尾陡降並有可伸出的藍色擴散器與側向保險桿元件。",
+   "analysis": [
+    [
+     "燈號",
+     "垂直斜百葉框住更高的 Vizor，中央發光 Blitz／Compass；尾燈水平百葉呼應車頭。"
+    ],
+    [
+     "比例",
+     "短懸、外擴輪拱與低趴側影，針對德國高速公路長途穩定。"
+    ],
+    [
+     "面處理",
+     "齊平技術感鈑件、C 柱玻璃光帶伸入車頂；側身發光 STX 字樣與鏡頭後視鏡。"
+    ],
+    [
+     "空力",
+     "三區輪圈＋主動後擴散器與輪後垂直葉片，依車速調整下壓力與阻力。"
+    ],
+    [
+     "品牌方向",
+     "延續歐洲旅行車先驅角色，並預告未來量產會用到的造型母題。"
+    ]
+   ],
+   "sources": [
+    [
+     "Stellantis Media／Opel",
+     "https://www.media.stellantis.com/em-en/opel/press/opel-stx-concept-visionary-study-from-ruesselsheim-shows-the-estate-design-of-tomorrow"
+    ]
+   ],
+   "image": {
+    "file": "news-opel-stx.webp",
+    "alt": "銀藍雙色 Opel STX Concept 旅行車概念，高聳 Vizor 燈組",
+    "credit": "Opel（via Auto&Design）",
+    "credit_url": "https://www.media.stellantis.com/em-en/opel/press/opel-stx-concept-visionary-study-from-ruesselsheim-shows-the-estate-design-of-tomorrow"
+   }
+  },
+  {
+   "id": "hyundai-bayon",
+   "tag": "量產發表 · 印度",
+   "date": "2026-10-12",
+   "brand": "Hyundai",
+   "title": "Bayon：Art of Steel 中型 SUV，像縮小版 Tucson",
+   "orig": "Hyundai Bayon revealed ahead of October 26 launch",
+   "summary": "Hyundai 完整公開印度市場新 Bayon，定位 Venue 與 Creta 之間，採最新 Art of Steel 設計語言。分體頭燈、H 形日行燈半幅語彙、雙 12.3 吋螢幕，並宣稱印度首款搭載生成式 AI 語音助理的 Hyundai；10 月 26 日公布售價。",
+   "analysis": [
+    [
+     "燈號",
+     "引擎蓋前緣細黑飾條上的 LED DRL，像對半切開的 H；下方保桿藏主燈。"
+    ],
+    [
+     "比例",
+     "外擴輪拱與銳利特徵線，跨界多於方正 SUV；亮黑立柱做漂浮車頂。"
+    ],
+    [
+     "面處理",
+     "層疊前臉、花瓣輪圈與傳統外拉門把，側影肌肉感強。"
+    ],
+    [
+     "室內 UX",
+     "雙 12.3 吋連屏＋垂直空調區，保留大量實體快捷鍵與觸覺按鍵。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar India",
+     "https://www.autocarindia.com/car-news/hyundai-bayon-revealed-ahead-of-october-16-launch-441012"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-bayon.webp",
+    "alt": "Hyundai Bayon 中型 SUV，Art of Steel 分體頭燈",
+    "credit": "Hyundai（via Autocar India）",
+    "credit_url": "https://www.autocarindia.com/car-news/hyundai-bayon-revealed-ahead-of-october-16-launch-441012"
+   }
+  },
+  {
+   "id": "grmn-corolla",
+   "tag": "世界首發 · 限量",
+   "date": "2026-10-16",
+   "brand": "Toyota Gazoo Racing",
+   "title": "GRMN Corolla：紐柏林磨成的終極 GR，減重 30 kg 雙座",
+   "orig": "GRMN COROLLA World Premiere",
+   "summary": "Toyota Gazoo Racing 發表 GRMN Corolla，定位為在紐柏林全力攻彎的終極 GR Corolla。碳纖維引擎蓋／葉子板／側擾流與五段可調碳纖尾翼，扭力提升至 415 Nm，較基準車減重約 30 kg 並取消後座；日本預計 2026 秋開放商談、2027 年販售。",
+   "analysis": [
+    [
+     "比例",
+     "維持 GR Corolla 尺碼但改雙座；車高略降，後翼與寬胎強化接地感。"
+    ],
+    [
+     "面處理",
+     "碳纖維外件與 Matte Bronze 鍛造輪，車色 Black Gravite；深色廠徽與專屬 GRMN 標。"
+    ],
+    [
+     "室內 UX",
+     "全桶椅依 Super Taikyu 駕駛姿勢、植絨儀表與 A 柱、本町廠碳纖飾板與 Morizo 簽名。"
+    ],
+    [
+     "品牌方向",
+     "把賽道／紐柏林經驗回灌量產 GR，並用限量旗艦拉高 Corolla 性能天花板。"
+    ]
+   ],
+   "sources": [
+    [
+     "Toyota Gazoo Racing",
+     "https://toyotagazooracing.com/grmn/corolla/wp/"
+    ]
+   ],
+   "image": {
+    "file": "news-grmn-corolla.webp",
+    "alt": "黑色 GRMN Corolla，碳纖維尾翼與 Matte Bronze 輪圈",
+    "credit": "Toyota Gazoo Racing",
+    "credit_url": "https://toyotagazooracing.com/grmn/corolla/wp/"
+   }
   }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-porsche-mission-s",
+   "car": "Porsche Mission S",
+   "tag": "概念 · 座艙",
+   "title": "類比五圓儀表、無中控大螢幕",
+   "points": [
+    "座艙向 550 Spyder／356 取經：簡潔、朝駕駛傾斜。",
+    "五圓儀表＋中央類比轉速針，實體旋鈕與推拉控制。",
+    "刻意不做固定中控大螢幕，改可收納智慧手機架。",
+    "運動座椅營造「坐進車裡很深」的包圍感。"
+   ],
+   "image": {
+    "file": "cmf-porsche-mission-s.webp",
+    "alt": "Porsche Mission S 座艙：白／黑內裝、五圓儀表與實體旋鈕",
+    "credit": "Porsche（via Car and Driver）",
+    "credit_url": "https://www.caranddriver.com/photos/a74147892/porsche-mission-s-concept-revealed-gallery/"
+   },
+   "sources": [
+    [
+     "Car and Driver：Mission S gallery",
+     "https://www.caranddriver.com/photos/a74147892/porsche-mission-s-concept-revealed-gallery/"
+    ]
+   ],
+   "kind": "car"
+  },
+  {
+   "id": "cmf-polestar5",
+   "car": "Polestar 5",
+   "tag": "量產 · 生質複合材",
+   "title": "亞麻纖維座椅背：少塑又減重",
+   "points": [
+    "與 Bcomp 合作：可見亞麻纖維／PP 座椅背板。",
+    "ampliTex 炭黑織紋＋銀線仿葉脈，內層 powerRibs。",
+    "相較全塑座椅背約減重 7 kg，塑膠用量約減半。",
+    "單材質亞麻＋PP，利於報廢後磨碎再射出回收。"
+   ],
+   "image": {
+    "file": "cmf-polestar5.webp",
+    "alt": "Polestar 內裝材質特寫：技術織紋飾板與淺色縫線軟裝",
+    "credit": "Polestar（via CompositesWorld）",
+    "credit_url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
+   },
+   "sources": [
+    [
+     "CompositesWorld：Polestar 5 biocomposite seatback",
+     "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
+    ]
+   ],
+   "kind": "car"
+  },
+  {
+   "id": "cmf-trend-ppg-2027",
+   "kind": "trend",
+   "car": "年度色彩",
+   "tag": "PPG 2027",
+   "title": "PPG 2027 年度色「Country Soil」：回到泥土的暖中性色",
+   "points": [
+    "PPG 於 9/29 公布 2027 年度色 Country Soil（PPG15-30），米、灰褐、灰三色之間的暖中性色。",
+    "靈感來自富含黏土的土壤與風化石材，主打「安定、踏實」的感受。",
+    "同屬 2027「Foundations」色彩預測，下分 Solid Ground、Quiet Zone、Life Shared 三組色盤。",
+    "和 WGSN×Coloro 2028 年度色 Radiant Earth（暖大地色）方向一致：大地暖中性色仍在上升。"
+   ],
+   "swatch": {
+    "hex": "#A89886",
+    "label": "Country Soil（示意色，非官方色值）"
+   },
+   "note": "本週 01 色彩趨勢來源（WGSN／Coloro／Pantone／NCS）沒有新的公開發布，改用 02 PPG 的年度色預測。",
+   "sources": [
+    [
+     "PPG：Country Soil 2027 Color of the Year",
+     "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+    ],
+    [
+     "WGSN：Colour of the Year 2028 Radiant Earth",
+     "https://www.wgsn.com/en/blog/colour-year-2028-radiant-earth"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-axalta-redefined",
+   "kind": "paint",
+   "car": "車用塗料",
+   "tag": "Axalta",
+   "title": "Axalta 2027 全球車色「Redefined」：帶細閃的寶石紅",
+   "points": [
+    "9/8 在 Automechanika Frankfurt 發表：飽和、明亮的紅寶石紅，帶細緻閃光。",
+    "13 年前 Axalta 第一個年度色就是紅色（Radiant Red），這次是它的現代版。",
+    "新顏料與效果技術讓紅色更有層次和景深，呈現像寶石一樣的質感。",
+    "對照：Axalta 2025 數據中紅色只是小眾色，全球仍以白 29%、黑 23%、灰 22% 為主。"
+   ],
+   "swatch": {
+    "hex": "#8E1B2C",
+    "label": "Redefined（示意色，非官方色值）"
+   },
+   "sources": [
+    [
+     "Axalta：Redefined 2027 Color of the Year",
+     "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+    ],
+    [
+     "Axalta 2025 Color Popularity Report",
+     "https://ir.axalta.com/news/press-releases/detail/673/axalta-releases-2025-global-automotive-color-popularity-report"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-ddw-fibre",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "Dutch Design Week",
+   "title": "DDW 2026：頭髮廢料做成的蛋白質纖維，瞄準室內織物",
+   "points": [
+    "荷蘭設計週 10/17–25 在 Eindhoven 舉行，主題之一是纖維來源與製程。",
+    "Human Material 的 ādara®：用頭髮廢料製成的角蛋白纖維，鎖定室內產業。",
+    "可用現有紡織機台量產，不必另建產線。",
+    "其他展出：在地羊毛、回收 PET 焊接織物、生質聚合物 3D 編織。"
+   ],
+   "image": {
+    "file": "cmf-ddw-fibre.webp",
+    "alt": "Dutch Design Week 2026 纖維與織物材質展出特寫",
+    "credit": "MaterialDistrict",
+    "credit_url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+   },
+   "sources": [
+    [
+     "MaterialDistrict：Fibres, Fabrication and New Textile Structures at DDW 2026",
+     "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "法規 · 中國／歐盟",
+   "date": "2026-10-15",
+   "title": "中歐談混合動力出口配額：消息指年額約 35 萬輛",
+   "summary": "業界週報引述：北京會談後中國接受對歐混合動力出口配額，Bloomberg 指自 2026 年 12 月起年額約 35 萬輛、次年起年增約 6%；歐盟執委會尚未公布數字。另中國擬自 2027 年 4 月起將電動車出口增值稅退稅由 13% 調至 9%。",
+   "sources": [
+    [
+     "UOB Kay Hian：China Auto Sector Weekly",
+     "https://uobkh.com.hk/en/research/sector-gc-automobile-15102026"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-10-01",
+   "title": "四項動力電池 GB/T 新標：在役檢測、安全與尺寸，2027 生效",
+   "summary": "中國發布四項推薦性 GB/T 動力電池標準，涵蓋在役測試、電芯／模組與電池包安全評估及產品尺寸，預計 2027 年 2–3 月起適用；對外資而言，電池系統登記與可追溯仍是進入市場的關鍵門檻。",
+   "sources": [
+    [
+     "MPR China Certification",
+     "https://www.china-certification.com/en/china-tightens-traction-battery-rules-four-new-gb-t-standards-take-effect-in-2027/"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 中國",
+   "date": "2026-10-08",
+   "title": "智能網聯新能源「十五五」：2030 乘用車新能源佔比目標 70%",
+   "summary": "九部委產業規劃提出：到 2030 年國內新能源乘用車、商用車在各自新車銷量佔比分別達 70%、40%，高速公路與部分城市道路實現高度自動駕駛；同時強化產能預警、電池數位身分與安全監測平台。",
+   "sources": [
+    [
+     "SwissCham China／CMG Policy Radar",
+     "https://swisscham.com.cn/policies/cmg-policy-radar-intelligent-nev-industry-15th-five-year-plan"
+    ],
+    [
+     "中國政府網政策解讀",
+     "https://www.gov.cn/zhengce/202609/content_7080809.htm"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 中國",
+   "date": "2026-10-14",
+   "title": "中國車企瞄準 2026 年全球交付破紀錄，出口續強",
+   "summary": "南華早報彙整：中國車企受惠海外需求與能源情勢，預期 2026 年全球銷售挑戰更高紀錄；同時也有豪華電動車因煞車踏板等安全議題被監管關注，顯示出口成長與品質監管並行。",
+   "sources": [
+    [
+     "South China Morning Post",
+     "https://www.scmp.com/business/china-evs/article/3370855/chinas-carmakers-eye-record-sales-luxury-model-hits-regulatory-bump-7-ev-reads"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Flyline",
+  "zh": "飛線（車頂側影線）",
+  "body": "Flyline（飛線）是車身側面從擋風玻璃上緣一路落到車尾的那條車頂輪廓線，決定一台車看起來是貼地掠過還是厚實站著。Porsche 特別把它當作品牌識別：911 的飛線平順後傾，超跑則往往更陡、更戲劇。本期的 Mission S 因為中置引擎，官方說終於能把熟悉的 Flyline 做得更誇張，再配上魚雷式葉子板與很寬的車身，遠遠一看仍是 Porsche，但站姿比 911 更低、更攻擊。",
+  "source": [
+   [
+    "Porsche Newsroom：Mission S exterior（flyline）",
+    "https://newsroom.porsche.com/en/2026/products/porsche-mission-s-vision-model-43528.html"
+   ],
+   [
+    "Porsche USA：Mission S",
+    "https://www.porsche.com/usa/models/mission-s/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [
+  {
+   "theme": "Industrial workwear utility pickup",
+   "zh": "工業工作服風多用途皮卡",
+   "intro": "虛構的工地皮卡：卡其帆布、安全黃飾條、刷紋鋼斗與橡膠踏板，背景是灰混凝土與鐵架。",
+   "images": [
+    [
+     "mb1-1",
+     "原創虛構概念：工業風皮卡停在工地（程式繪製）",
+     true
+    ],
+    [
+     "mb1-2",
+     "色票：卡其、安全黃、混凝土灰、鋼藍、橡膠黑、帆布米（程式繪製）",
+     false
+    ],
+    [
+     "mb1-3",
+     "內裝：帆布座椅與金屬儀表（程式繪製）",
+     false
+    ],
+    [
+     "mb1-4",
+     "材質：刷紋鋼與帆布紋理（程式生成）",
+     false
+    ]
+   ],
+   "palette": [
+    [
+     "Khaki Canvas",
+     "#C4A574"
+    ],
+    [
+     "Safety Yellow",
+     "#E8C12A"
+    ],
+    [
+     "Concrete",
+     "#9A9A94"
+    ],
+    [
+     "Steel Blue",
+     "#5A6B78"
+    ],
+    [
+     "Rubber Black",
+     "#2A2A28"
+    ],
+    [
+     "Canvas Cream",
+     "#E8DFC8"
+    ]
+   ],
+   "keywords": [
+    "工地",
+    "帆布",
+    "安全黃",
+    "皮卡",
+    "刷紋鋼",
+    "無標誌"
+   ],
+   "materials": [
+    "卡其帆布座椅",
+    "安全黃高可視飾條",
+    "刷紋鋼車斗",
+    "橡膠踏板墊",
+    "混凝土灰烤漆",
+    "工業尼龍綁帶"
+   ]
+  },
+  {
+   "theme": "Brutalist off-roader",
+   "zh": "粗野主義越野車",
+   "intro": "虛構的混凝土塊越野車：清水模灰、銳角量塊、高離地與小窗，像可移動的粗野主義建築。",
+   "images": [
+    [
+     "mb2-1",
+     "原創虛構概念：粗野主義塊面越野車（程式繪製）",
+     true
+    ],
+    [
+     "mb2-2",
+     "色票：清水模、鏽鐵、炭灰、苔綠、天空灰、陰影黑（程式繪製）",
+     false
+    ],
+    [
+     "mb2-3",
+     "細節：銳角輪拱與小窗（程式繪製）",
+     false
+    ],
+    [
+     "mb2-4",
+     "材質：混凝土紋與鏽蝕金屬（程式生成）",
+     false
+    ]
+   ],
+   "palette": [
+    [
+     "Raw Concrete",
+     "#B8B5AE"
+    ],
+    [
+     "Rust Iron",
+     "#8B5A3C"
+    ],
+    [
+     "Charcoal",
+     "#3A3A38"
+    ],
+    [
+     "Moss",
+     "#5A6B4A"
+    ],
+    [
+     "Sky Grey",
+     "#D0D4D8"
+    ],
+    [
+     "Shadow",
+     "#1E1E1C"
+    ]
+   ],
+   "keywords": [
+    "清水模",
+    "銳角",
+    "越野",
+    "小窗",
+    "塊面",
+    "無標誌"
+   ],
+   "materials": [
+    "清水模質感複合板",
+    "鏽鐵飾件",
+    "厚橡膠輪眉",
+    "霧面炭灰烤漆",
+    "窄縫強化玻璃",
+    "螺栓外露結構"
+   ]
+  }
+ ],
+ "breaking": {
+  "label": "新車特報",
+  "brand": "Tesla",
+  "date": "2026-10-15（美國中部時間）",
+  "title": "Tesla 發表新一代 Roadster：靠 SpaceX 推進器短暫飛行、倒立行駛",
+  "points": [
+   "Tesla 10/15 晚間在德州 McGregor 的 SpaceX 測試場直播發表新一代 Roadster，距 2017 年首次亮相已近九年。",
+   "現場示範：車子靠底部風扇吸附力（Tesla 稱最高 2G）爬上垂直坡道倒立行駛，再用冷氣體推進器翻身、飛越 Tesla 全車系後落地。",
+   "Tesla 宣稱：0–60 mph 不到 1 秒（現場稱 0.81 秒）、極速超過 230 mph；壓縮空氣儲氣約 600 公升、10 個噴嘴，可自行補氣。",
+   "預約頁顯示三種版本：Performance（訂金 5 萬美元）、Thrust（加速推進器，訂金 25 萬美元）、受邀制單座 Rocket（完整飛行系統）。",
+   "馬斯克稱 2028 年投產；發表會沒有公布售價。設計靈感來自 SR-71 和 F-35，雙座、線控方向盤（yoke）、可收折尾翼。",
+   "以上性能多為 Tesla／馬斯克自己的說法。媒體指出飛行功能能否上路、是否合法還不清楚，飛行版很可能只能在賽道或受控場地使用。"
+  ],
+  "image": {
+   "file": "breaking-tesla-roadster.webp",
+   "alt": "Tesla 新一代 Roadster 官方影片畫面",
+   "credit": "Tesla（X 官方影片截圖）",
+   "credit_url": "https://x.com/Tesla/status/2110906094155399277"
+  },
+  "video": {
+   "type": "youtube",
+   "id": "qt5p-_tE8d0",
+   "title": "Tesla 官方 YouTube：Roadster Event（發表會直播）",
+   "url": "https://www.youtube.com/watch?v=qt5p-_tE8d0&t=330s",
+   "start": 330
+  },
+  "sources": [
+   [
+    "Reuters",
+    "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021"
+   ],
+   [
+    "The Verge",
+    "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+   ],
+   [
+    "TechCrunch",
+    "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+   ],
+   [
+    "CNBC",
+    "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+   ]
+  ]
+ },
+ "color_data": {
+  "hues": [
+   [
+    "Pantone 2026",
+    "Cloud Dancer",
+    "PANTONE 11-4201",
+    "#F0EEE9",
+    true,
+    "https://www.pantone.com/color-of-the-year/2026"
+   ],
+   [
+    "WGSN×Coloro 2027",
+    "Luminous Blue",
+    "Coloro 125-28-38",
+    "#2B4DA0",
+    false,
+    "https://www.wgsn.com/en/blog/colour-year-2027-luminous-blue"
+   ],
+   [
+    "WGSN×Coloro 2028",
+    "Radiant Earth",
+    "Coloro 017-42-31",
+    "#9A6A4A",
+    false,
+    "https://www.wgsn.com/en/blog/colour-year-2028-radiant-earth"
+   ],
+   [
+    "Axalta 2027 車色",
+    "Redefined",
+    "寶石紅＋細閃",
+    "#8E1B2C",
+    false,
+    "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+   ],
+   [
+    "PPG 2027",
+    "Country Soil",
+    "PPG15-30",
+    "#A89886",
+    false,
+    "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+   ]
+  ],
+  "pop": {
+   "title": "2025 全球新車顏色佔比",
+   "src": [
+    "Axalta 2025 Global Automotive Color Popularity Report（2025/12/16）",
+    "https://ir.axalta.com/news/press-releases/detail/673/axalta-releases-2025-global-automotive-color-popularity-report"
+   ],
+   "rows": [
+    [
+     "白",
+     "#F2F2F0",
+     29
+    ],
+    [
+     "黑",
+     "#1E1E1E",
+     23
+    ],
+    [
+     "灰",
+     "#8A8C8E",
+     22
+    ],
+    [
+     "銀",
+     "#C4C7CA",
+     7
+    ],
+    [
+     "藍",
+     "#2F5597",
+     6
+    ]
+   ],
+   "note": "其餘（紅、棕／米、綠、黃／金等）合計約 13%，報告未逐一列在新聞稿中。"
+  },
+  "dirs": {
+   "title": "BASF 車色方向",
+   "src": [
+    "BASF Color Report 2025 & Driving the Proxy 2025–2026",
+    "https://www.basf-coatings.com/global/en/products-and-solutions/automotive_oem_coatings/color-design/Automotive-Color-Trends/DRIVING-THE-PROXY-2025-2026"
+   ],
+   "items": [
+    "綠色是 2025 全球成長最明顯的彩色；藍、紅持續下滑。",
+    "灰色 +2%；純色（solid）只剩約 18% 市佔，效果漆成主流。",
+    "亞太：灰上升、白下降，綠色逐年增加。",
+    "2025–26 預測：偽純色、細閃、暖色調（紫紅、棕）、液態金屬效果。"
+   ]
+  },
+  "mat": {
+   "title": "材質趨勢（本期）",
+   "items": [
+    [
+     "生質纖維",
+     "頭髮角蛋白纖維 ādara®（DDW 2026）",
+     "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+    ],
+    [
+     "亞麻複合材",
+     "Polestar 5 亞麻纖維座椅背（Bcomp）",
+     "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design"
+    ],
+    [
+     "藻類黏著劑",
+     "廢水藻類＋回收紡織纖維（UNSW）",
+     "https://materialdistrict.com/article/wastewater-algae-explored-as-a-binder-for-recycled-textile-materials/"
+    ]
+   ]
+  },
+  "interior": {
+   "theme": "Warm Earth Cabin",
+   "zh": "暖大地座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以本期引用的年度色為基礎，套用到儀表板（IP）與門板。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆（搪塑 TPO 皮紋）",
+     "Country Soil",
+     "#A89886",
+     false,
+     "ip-upper"
+    ],
+    [
+     "儀表板飾條 · 拉絲鋁效果",
+     "液態金屬灰",
+     "#B8B8B4",
+     false,
+     "ip-decor"
+    ],
+    [
+     "門板嵌飾 · 平織織物",
+     "Cloud Dancer",
+     "#F0EEE9",
+     true,
+     "door-insert"
+    ],
+    [
+     "門扶手 · 棕色皮革",
+     "Radiant Earth",
+     "#9A6A4A",
+     false,
+     "armrest"
+    ],
+    [
+     "縫線／點綴 · 寶石紅",
+     "Redefined",
+     "#8E1B2C",
+     false,
+     "stitch"
+    ],
+    [
+     "下門板 · 耐刮硬塑",
+     "深暖灰（示意）",
+     "#4E4741",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Country Soil：PPG 2027 年度色（暖米灰褐）",
+     "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+    ],
+    [
+     "Radiant Earth：WGSN×Coloro 2028 年度色（Coloro 017-42-31）",
+     "https://www.wgsn.com/en/blog/colour-year-2028-radiant-earth"
+    ],
+    [
+     "Cloud Dancer：Pantone 2026 年度色（11-4201，官方 #F0EEE9）",
+     "https://www.pantone.com/color-of-the-year/2026"
+    ],
+    [
+     "Redefined：Axalta 2027 年度車色（寶石紅細閃）",
+     "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+    ],
+    [
+     "BASF 2025–26：色調轉暖（紫紅、棕）、液態金屬效果",
+     "https://www.basf-coatings.com/global/en/products-and-solutions/automotive_oem_coatings/color-design/Automotive-Color-Trends/DRIVING-THE-PROXY-2025-2026"
+    ]
+   ],
+   "mood": [
+    "安定",
+    "溫暖",
+    "居家感",
+    "低調質感",
+    "一點個性（紅縫線）"
+   ],
+   "mood_text": "大面積暖中性色讓座艙安靜、放鬆；米白嵌飾提亮空間，寶石紅縫線只在細節出現，帶一點個性但不搶戲。",
+   "vars": {
+    "ip-lower": "#4E4741",
+    "door-upper": "#A89886",
+    "console": "#4E4741",
+    "seat": "#A89886",
+    "steering": "#3A3430",
+    "headliner": "#E6E1D8"
+   }
+  }
+ }
 }

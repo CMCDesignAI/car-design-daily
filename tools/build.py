@@ -24,6 +24,46 @@ Array.prototype.forEach.call(n.querySelectorAll('a[data-mode]'),function(a){a.ad
  n.setAttribute('data-pos',to);var done=false,go=function(){if(done)return;done=true;location.href=url;};
  n.querySelector('.mind').addEventListener('transitionend',function(e){if(e.propertyName==='transform')go();});setTimeout(go,520);});});})();</script>"""
 
+CAR_PATHS={
+ "suv":("M30 118 L40 78 L80 52 L210 48 L250 78 L282 86 L290 118 Z","M88 60 L200 57 L232 80 L82 82 Z","M214 82 L282 92"),
+ "sport":("M18 120 L28 100 L110 72 L180 70 L250 92 L298 104 L300 120 Z","M118 78 L176 76 L214 94 L106 96 Z","M30 108 L298 112"),
+ "ev":("M50 118 L56 80 L96 50 L196 50 L236 82 L262 92 L266 118 Z","M102 58 L190 58 L220 84 L96 84 Z","M60 100 L262 100")}
+def car_svg(t,body,acc,win):
+    b,w,l=CAR_PATHS[t]
+    return (f'<svg viewBox="0 0 320 150" class="carsvg" role="img" aria-label="示意車型剪影"><ellipse cx="160" cy="132" rx="140" ry="7" fill="#0002"/>'
+      f'<path d="{b}" fill="{body}" stroke="#0005"/><path d="{w}" fill="{win}" opacity=".85"/><path d="{l}" stroke="{acc}" stroke-width="5" fill="none"/>'
+      f'<path d="M24 116 L300 116" stroke="{acc}" stroke-width="6"/>'
+      + "".join(f'<circle cx="{x}" cy="120" r="19" fill="#1b1b1b"/><circle cx="{x}" cy="120" r="9" fill="{acc}"/>' for x in ((82,238) if t!="sport" else (78,248))) + '</svg>')
+def apps_html(apps):
+    if not apps: return ""
+    ee=html.escape
+    def sw(lab,n,hx,off): return f'<div class="asw"><i style="background:{hx}"></i><span><small>{lab}</small>{ee(n)}<code>{hx}{"（官方）" if off else "（示意色）"}</code></span></div>'
+    out=[]
+    for a in apps:
+        win=a["interior"][0][1]
+        sws=sw("車身",*a["body"])+sw("飾條",*a["accent"])+"".join(sw("內裝",*x) for x in a["interior"])
+        src="".join(f'<a href="{ee(u)}" target="_blank" rel="noopener">{ee(n)} ↗</a>' for n,u in a["src"])
+        out.append(f'<article class="app">{car_svg(a["type"],a["body"][1],a["accent"][1],win)}<h4>{ee(a["name"])}</h4><div class="asws">{sws}</div><p>{ee(a["why"])}</p><div class="src">來源：{src}</div></article>')
+    return '<h4 class="apph">配色應用示例 · 依上方數據套用到車型（剪影與配色為示意）</h4><div class="apps">'+"".join(out)+'</div>'
+
+def interior_html(b):
+    if not b: return ""
+    ee=html.escape; c=[x[2] for x in b["parts"]]
+    v={pt[4]:pt[2] for pt in b["parts"]}; v.update(b.get("vars",{}))
+    for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert")]: v.setdefault(k,v.get(fb,"#888"))
+    rd=lambda f: open(os.path.join(ROOT,"assets",f),encoding="utf-8").read()
+    svg=(f'<div class="intpair" style="{";".join(f"--{k}:{x}" for k,x in v.items())}">'
+         f'<figure><div class="intwrap">{rd("door-template.svg")}</div><figcaption>前門板（上飾板・飾條・嵌飾・扶手・門把・置物袋・喇叭網・縫線）</figcaption></figure>'
+         f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板（上軟質・飾條・螢幕・出風口・方向盤・中央通道）</figcaption></figure></div>')
+    pal="".join(f'<div class="sw"><i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}{"（官方）" if off else "（示意色）"}</small></span></div>' for pt,nm,hx,off,*_ in b["parts"])
+    mt="".join(f'<li><b>{ee(pt)}</b>：{ee(nm)} <code>{hx}</code></li>' for pt,nm,hx,off,*_ in b["parts"])
+    ev="".join(f'<li><a href="{ee(u)}" target="_blank" rel="noopener">{ee(n)} ↗</a></li>' for n,u in b["evidence"])
+    kw="".join(f'<span>{ee(k)}</span>' for k in b["mood"])
+    return (f'<div class="board" style="margin-top:32px"><div class="board-head"><div><div class="kicker">Daily Interior Palette</div><h3>{ee(b["theme"])}</h3><div class="zh">{ee(b["zh"])}</div></div><p>{ee(b["intro"])}</p></div>'
+      f'{svg}<p class="note">插圖為程式繪製示意，不代表任何真實車款。</p>'
+      f'<div class="bwrap"><div class="palette">{pal}</div><div class="bmeta"><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:8px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
+      f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul>{mt}</ul></div><div><h4>流行色佐證 Evidence</h4><ul>{ev}</ul><p class="note">只有 Cloud Dancer 是官方色值，其餘為示意色。</p></div></div></div></div>')
+
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
 
@@ -177,14 +217,16 @@ def page(d, base, all_issues, is_root):
     cmf = d.get("cmf") or []
     n_k, n_m = ("03", "04") if cmf else ("02", "03")
     if cmf:
-        H.append('<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div><div class="cmf">')
+        H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div><div class="cmf{" cmf5" if any(x.get("kind") for x in cmf) else ""}">')
         for c in cmf:
             im = c.get("image")
             fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1600" height="900"></div>'
                    f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
-            pts = "".join(f'<li>{e(x)}</li>' for x in c["points"])
+            sw = c.get("swatch")
+            if sw and not im: fig = f'<figure class="news-img"><div class="ratio" style="background:{e(sw["hex"])}"></div><figcaption>{e(sw["label"])} <code>{e(sw["hex"])}</code></figcaption></figure>'
+            pts = "".join(f'<li>{e(x)}</li>' for x in c["points"]) + (f'<li class="fb">⚠ {e(c["note"])}</li>' if c.get("note") else "")
             src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in c["sources"])
-            H.append(f'<article class="cmf-card" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
+            H.append(f'<article class="cmf-card{' wide' if c.get('kind','car')=='car' and any(x.get('kind') for x in cmf) else ''}" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{ {"car":"車型","trend":"趨勢","paint":"塗料","material":"材質"}.get(c.get("kind","car"),"")} · {e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
         H.append('</div></section>')
     # knowledge
     H.append(f'<section id="knowledge"><div class="sec-head"><span class="num">{n_k}</span><h2>汽車新知</h2><span class="en">Industry &amp; Tech</span></div><div class="kgrid">')
@@ -195,6 +237,13 @@ def page(d, base, all_issues, is_root):
     H.append(f'</div><div class="term"><div><div class="lab">今日設計名詞 · Term of the Day</div><h3>{e(t["name"])}</h3><div class="zh">{e(t["zh"])}</div>{term_diagram(d, all_issues)}</div>{term_text(t)}</div></section>')
     # mood boards
     H.append(f'<section id="mood"><div class="sec-head"><span class="num">{n_m}</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
+    cd = d.get("color_data")
+    if cd:
+        L=lambda n,u:f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
+        hs="".join(f'<a class="hue" href="{e(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><b>{e(nm)}</b><span>{e(org)}</span><code>{e(code)}</code><small>{hx}{"（官方）" if off else "（示意色）"}</small></a>' for org,nm,code,hx,off,u in cd["hues"])
+        p=cd["pop"]; bars="".join(f'<div class="bar"><span>{e(n)}</span><div><i style="width:{v/30*100:.0f}%;background:{c}"></i></div><b>{v}%</b></div>' for n,c,v in p["rows"])
+        dr="".join(f'<li>{e(x)}</li>' for x in cd["dirs"]["items"]); mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"])
+        H.append(f'<div class="cdata"><div class="kicker">Data-backed Colour Board</div><h3>年度色彩與數據</h3><div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p><div class="cgrid"><div class="ccard"><h4>{e(p["title"])}</h4>{bars}<p class="note">{e(p["note"])}</p><div class="src">來源：{L(*p["src"])}</div></div><div class="ccard"><h4>{e(cd["dirs"]["title"])}</h4><ul>{dr}</ul><div class="src">來源：{L(*cd["dirs"]["src"])}</div></div><div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div></div>{interior_html(cd.get("interior"))}</div>')
     H.append('<p class="note">情緒板裡的車輛都是原創虛構的概念設計，不代表任何真實車款或品牌。圖像為程式生成的插畫和材質紋理，主題每期隨機抽選。</p>')
     for b in d["moodboards"]:
         figs = "".join(f'<figure class="tile{" hero" if h else ""}"><img src="{img}{n}.webp" alt="{e(c)}" loading="lazy" decoding="async"><figcaption>{e(c)}</figcaption></figure>' for n, c, h in b["images"])

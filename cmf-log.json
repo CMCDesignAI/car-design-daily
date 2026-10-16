@@ -61,5 +61,26 @@
     "angle": "亞麻纖維／PP 座椅背、ampliTex＋powerRibs",
     "url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design",
     "image": "cmf-polestar5.webp"
+  },
+  {
+    "date": "2026-10-16",
+    "kind": "trend",
+    "car_key": "trend:ppg-country-soil-2027",
+    "angle": "PPG 2027 年度色",
+    "url": "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+  },
+  {
+    "date": "2026-10-16",
+    "kind": "paint",
+    "car_key": "paint:axalta-redefined-2027",
+    "angle": "Axalta 2027 車色",
+    "url": "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+  },
+  {
+    "date": "2026-10-16",
+    "kind": "material",
+    "car_key": "material:adara-hair-keratin-fibre",
+    "angle": "DDW 頭髮角蛋白纖維",
+    "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
   }
 ]
