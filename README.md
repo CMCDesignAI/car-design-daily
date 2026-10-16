@@ -158,3 +158,6 @@ tools/
 ## 色彩與材質（CMF）每日 5 則
 - 第 1 列：2 則車型內裝／材質（寬卡）；第 2 列：趨勢、塗料、材質各 1 則。每則用 `kind`：car／trend／paint／material。
 - 替代內容留在原欄位並加 `note`（顯示為 ⚠）。發布前跑 `python3 tools/check_cmf.py <日期>`。
+
+## 情緒板（2026-10-16 起）
+有 `color_data` 的期數只顯示「年度色彩與數據」＋「每日內裝配色示例」，不再渲染虛構主題情緒板（`moodboards`）。舊期數照舊顯示。新期數可不填 `moodboards`。
