@@ -143,17 +143,22 @@ def page(d, base, all_issues, is_root):
         im = bk.get("image"); v = bk.get("video") or {}
         fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="eager" decoding="async" width="1600" height="900"></div>'
                f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
+        vlink = f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a></p>' if v.get("url") else ""
         if v.get("type") == "youtube":
-            vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div></div>'
+            vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>{vlink}</div>'
+        elif v.get("mp4"):
+            poster = f' poster="{img}{e(im["file"])}"' if im else ""
+            vid = f'<div class="bk-video"><div class="ratio"><video controls playsinline preload="metadata"{poster} title="{e(v.get("title",""))}"><source src="{e(v["mp4"])}" type="video/mp4"></video></div>{vlink}</div>'
         elif v.get("url"):
-            vid = (f'<div class="bk-video"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"><a href="{e(v["url"])}">{e(v.get("title",""))}</a></blockquote>'
-                   f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a></p></div>'
+            vid = (f'<div class="bk-video"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" data-conversation="none"><a href="{e(v["url"])}">{e(v.get("title",""))}</a></blockquote>{vlink}</div>'
                    '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>')
         else:
             vid = ""
+        if vid:
+            fig = ""  # video takes the hero position; no duplicate still image
         pts = "".join(f'<li>{e(x)}</li>' for x in bk["points"])
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in bk["sources"])
-        H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk.get("label","新車特報"))} · Breaking</div><article class="story bk-card">{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div>{vid}<div class="src">來源：{src}</div></article></section>')
+        H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk.get("label","新車特報"))} · Breaking</div><article class="story bk-card">{vid}{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div><div class="src">來源：{src}</div></article></section>')
     # design news
     H.append('<section id="design"><div class="sec-head"><span class="num">01</span><h2>設計新聞</h2><span class="en">Design News</span></div><div class="news">')
     for i, s in enumerate(d["design_news"]):

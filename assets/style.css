@@ -330,7 +330,9 @@ details.more p{font-size:14px;color:var(--muted)}
 .breaking .bk-card{border:2px solid #d7263d;border-radius:0 4px 4px 4px}
 .breaking .bk-card h3{font-size:clamp(22px,3vw,32px);line-height:1.3;margin:8px 0}
 .breaking .cpts{margin:8px 0 12px;padding-left:1.2em;line-height:1.7}
-.breaking .bk-video{margin:12px 0;max-width:720px}
+.breaking .bk-video{margin:0 0 12px;width:100%}
+.breaking .bk-video video{position:absolute;inset:0;width:100%;height:100%;background:#000;border-radius:2px}
+.breaking .bk-video .twitter-tweet{margin:0 auto!important}
 .breaking .bk-video .ratio{position:relative;aspect-ratio:16/9}
 .breaking .bk-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .breaking .bk-vlink{font-size:14px;margin:6px 0}
