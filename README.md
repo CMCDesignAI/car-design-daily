@@ -57,6 +57,12 @@ tools/
    - **規則 2：車型則照片必須是內裝或材質特寫**（座艙、座椅、儀表板、飾板、縫線、布料／皮革、漆面近拍）。**禁止外觀 3/4 或全車照**。找不到合格照片就換車。
    - **來源（CMF 部門優先 1–3）**：01 色彩趨勢、02 車用塗料／塗裝、03 材質；04 空間／生活設計僅備援。車型則另可原廠新聞稿、Auto&Design、Interior Motives、Car Design News 等。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
    - **去重（30 天）**：寫入 `cmf-log.json`（`{date, kind?, car_key, angle, url, image?}`）。30 天內同 `car_key` 或同 `url` 不再放。車型湊不到 2 則就少放，不硬湊；0 則車型時仍盡量保留趨勢／塗料／材質。
+1c. **介面與 HMI（自 2026-10-17 起，每日 1 則，強案例日最多 2 則）**：放在色彩與材質區內，5 則 CMF 卡片之後、每日內裝配色之前。給 GUI 設計師看的「以圖為主」設計案例。
+   - 欄位：`hmi[]`：`{id, kind(case|inspiration), brand, tag, title（≤26 字）, date（YYYY-MM-DD，來源真實發布日）, points[3–5 句 zh-TW，寫這個介面設計做得好的地方], image{file（本機 .jpg，存 issues/<日期>/img/）, alt, credit, credit_url}, sources[[名稱, url]]}`。`hmi` 空或缺 → 整塊不顯示。
+   - 圖片：必須是真實介面截圖或設計圖（中控／儀表 UI、HMI 概念、Android Auto／CarPlay／Tesla 畫面、OEM HMI 案例），下載後轉 JPG（長邊 ≤1600）。credit 格式只能是「Brand (via site)」（例：`GM (via Automotive Interiors World)`）或「site 示意圖」（例：`Not a Tesla App 示意圖`）。沒有可用圖片的消息不放。
+   - 來源：Automotive Interiors World /news/hmi（curl 403，用 WebFetch 讀；圖片檔可 curl）、Not a Tesla App（/rss；軟體更新頁附介面圖）、9to5Google Android Auto、9to5Mac CarPlay、Elektrobit newsroom。沒有新案例時改放 `kind: inspiration`，標「靈感參考」：MOMOHMI、Muzli、Apple HIG／design videos、Google Design。
+   - 日期照抄來源，不可推測；舊於 30 天的案例只有在當天沒有新案例時才用，並照實標日期。
+   - 去重（30 天）：寫入 `hmi-log.json`（`{date, key(=id), url, image}`），30 天內同 key 或同 url 不再放。發布前跑 `python3 tools/check_hmi.py <日期>`。
 2. **汽車新知（3–5 則）**：EV、電池、自駕、法規、製造、市場；摘要＋連結。
    **今日設計名詞（必要步驟，每期都要畫新圖）**：寫一則和當期新聞呼應的名詞（`term.name / zh / body / source`），並**為這個名詞手繪一張新的線稿示意圖**：
    - **選詞**：只用汽車設計圈公認、查得到用法的術語（例：lighting signature、DRG／down-the-road graphic、dash-to-axle、greenhouse、DLO、shoulder line、C-pillar、heritage cue）。來源以 Car Design News、Interior Motives、車廠設計新聞稿或設計師訪談為準；**不可自創名詞**，也不要用某位設計師的一次性口語（例如 Jaguar 的「strike-through graphic」）當主詞條，必要時改用它所屬的通用術語。
