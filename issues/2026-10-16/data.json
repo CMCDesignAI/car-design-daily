@@ -817,7 +817,11 @@
      "液態金屬灰",
      "#B8B8B4",
      false,
-     "ip-decor"
+     "ip-decor",
+     {
+      "src": "BASF 2025–26 液態金屬效果",
+      "url": "https://www.basf-coatings.com/global/en/products-and-solutions/automotive_oem_coatings/color-design/Automotive-Color-Trends/DRIVING-THE-PROXY-2025-2026"
+     }
     ],
     [
      "門板嵌飾 · 平織織物",

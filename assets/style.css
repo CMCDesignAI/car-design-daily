@@ -368,3 +368,7 @@ details.more p{font-size:14px;color:var(--muted)}
 @media (max-width:1000px){.irow{grid-template-columns:1fr 1fr}.irow>div:first-child{grid-column:1/-1}}
 @media (max-width:900px){.evrow{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.irow{grid-template-columns:1fr}}
+
+a.swl{display:block;color:inherit;text-decoration:none;transition:transform .15s}a.swl:hover{transform:translateY(-2px);border-color:var(--accent)}
+.sw .evs{display:block;margin-top:4px;font-size:11px;color:var(--accent);line-height:1.4}
+#cmf .cdata{margin-bottom:36px}#cmf .cmf{margin-bottom:8px}

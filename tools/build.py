@@ -55,22 +55,24 @@ def interior_html(b):
     svg=(f'<div class="intpair" style="{";".join(f"--{k}:{x}" for k,x in v.items())}">'
          f'<figure><div class="intwrap">{rd("door-template.svg")}</div><figcaption>前門板（上飾板・飾條・嵌飾・扶手・門把・置物袋・喇叭網・縫線）</figcaption></figure>'
          f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板（上軟質・飾條・螢幕・出風口・方向盤・中央通道）</figcaption></figure></div>')
-    pal="".join(f'<div class="sw"><i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}{"（官方）" if off else "（示意色）"}</small></span></div>' for pt,nm,hx,off,*_ in b["parts"])
-    mt="".join(f'<li><b>{ee(pt)}</b>：{ee(nm)} <code>{hx}</code></li>' for pt,nm,hx,off,*_ in b["parts"])
-    byname={x[1]:(x[2],x[3]) for x in b["parts"]}
-    def evc(it):
-        t,u=it[0],it[1]; nm,_,src=t.partition("：")
-        hx,off=(it[2],False) if len(it)>2 else byname.get(nm,(next((x[2] for x in b["parts"] if len(x)>4 and x[4]=="ip-decor"),"#999"),False))
-        return (f'<a class="evc" href="{ee(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><span><b>{ee(nm)}</b><small>{ee(src or t)}</small>'
-                f'<code>{hx}{"（官方）" if off else "（示意色）"}</code><em>查看來源 ↗</em></span></a>')
-    ev="".join(evc(x) for x in b["evidence"])
+    evmap={}
+    for it in b.get("evidence",[]):
+        nm,_,src=it[0].partition("："); evmap[nm]=(src.split("（")[0] or it[0],it[1])
+    def swc(p):
+        pt,nm,hx,off=p[:4]; ev=(p[5]["src"],p[5]["url"]) if len(p)>5 and p[5] else evmap.get(nm)
+        tag="（官方）" if off else "（示意色）"
+        sub=f'<small class="evs">{ee(ev[0])}{tag}{" ↗"}</small>' if ev else f'<small class="evs">示意色</small>'
+        inner=f'<i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}</small>{sub}</span>'
+        return f'<a class="sw swl" href="{ee(ev[1])}" target="_blank" rel="noopener">{inner}</a>' if ev else f'<div class="sw">{inner}</div>'
+    pal="".join(swc(p) for p in b["parts"])
+    mt="".join(f'<li><b>{ee(p[0])}</b>：{ee(p[1])} <code>{p[2]}</code></li>' for p in b["parts"])
     offi="、".join(x[1] for x in b["parts"] if x[3]) or "無"
     kw="".join(f'<span>{ee(k)}</span>' for k in b["mood"])
     return (f'<div class="board" style="margin-top:32px"><div class="board-head"><div><div class="kicker">Daily Interior Palette</div><h3>{ee(b["theme"])}</h3><div class="zh">{ee(b["zh"])}</div></div><p>{ee(b["intro"])}</p></div>'
       f'{svg}<p class="note">插圖為程式繪製示意，不代表任何真實車款。</p>'
-      f'<div class="irow"><div><h4>色票 Swatches</h4><div class="ipal">{pal}</div></div><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:10px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
+      f'<div class="irow"><div><h4>色票 Swatches · 來源</h4><div class="ipal">{pal}</div></div><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:10px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
       f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul class="iparts">{mt}</ul></div></div>'
-      f'<h4 class="evh">流行色佐證 Evidence <span>官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準</span></h4><div class="evrow">{ev}</div></div>')
+      f'<p class="note">色票下方小字為流行色來源（點色票可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p></div>')
 
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
@@ -179,7 +181,7 @@ def page(d, base, all_issues, is_root):
 <link rel="stylesheet" href="{css}">
 {theme_init("car")}
 </head><body class="mode-car">
-{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">設計新聞</a>{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a><a href="#mood">情緒板</a><a href="{base}archive/">往期</a></nav>')}
+{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">設計新聞</a>{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
 <h1>Car Design Daily</h1>
@@ -223,9 +225,17 @@ def page(d, base, all_issues, is_root):
     H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
-    n_k, n_m = ("03", "04") if cmf else ("02", "03")
+    n_k, n_m = ("03", "04") if cmf else ("02", "03")  # new issues have no 04 (mood merged into cmf)
+    def cdata_block(cd, H):
+            L=lambda n,u:f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
+            hs="".join(f'<a class="hue" href="{e(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><b>{e(nm)}</b><span>{e(org)}</span><code>{e(code)}</code><small>{hx}{"（官方）" if off else "（示意色）"}</small></a>' for org,nm,code,hx,off,u in cd["hues"])
+            p=cd["pop"]; bars="".join(f'<div class="bar"><span>{e(n)}</span><div><i style="width:{v/30*100:.0f}%;background:{c}"></i></div><b>{v}%</b></div>' for n,c,v in p["rows"])
+            dr="".join(f'<li>{e(x)}</li>' for x in cd["dirs"]["items"]); mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"])
+            H.append(f'<div class="cdata"><div class="kicker">Data-backed Colour Board</div><h3>年度色彩與數據</h3><div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p><div class="cgrid"><div class="ccard"><h4>{e(p["title"])}</h4>{bars}<p class="note">{e(p["note"])}</p><div class="src">來源：{L(*p["src"])}</div></div><div class="ccard"><h4>{e(cd["dirs"]["title"])}</h4><ul>{dr}</ul><div class="src">來源：{L(*cd["dirs"]["src"])}</div></div><div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div></div></div>')
     if cmf:
-        H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div><div class="cmf{" cmf5" if any(x.get("kind") for x in cmf) else ""}">')
+        H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質</h2><span class="en">Colour &amp; Material</span></div>')
+        if d.get("color_data"): cdata_block(d["color_data"], H)
+        H.append(f'<div class="cmf{" cmf5" if any(x.get("kind") for x in cmf) else ""}">')
         for c in cmf:
             im = c.get("image")
             fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1600" height="900"></div>'
@@ -235,7 +245,9 @@ def page(d, base, all_issues, is_root):
             pts = "".join(f'<li>{e(x)}</li>' for x in c["points"]) + (f'<li class="fb">⚠ {e(c["note"])}</li>' if c.get("note") else "")
             src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in c["sources"])
             H.append(f'<article class="cmf-card{' wide' if c.get('kind','car')=='car' and any(x.get('kind') for x in cmf) else ''}" id="{e(c["id"])}">{fig}<div class="cbody"><span class="tag">{ {"car":"車型","trend":"趨勢","paint":"塗料","material":"材質"}.get(c.get("kind","car"),"")} · {e(c["car"])} · {e(c["tag"])}</span><h3>{e(c["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
-        H.append('</div></section>')
+        H.append('</div>')
+        if d.get("color_data"): H.append(interior_html(d["color_data"].get("interior")))
+        H.append('</section>')
     # knowledge
     H.append(f'<section id="knowledge"><div class="sec-head"><span class="num">{n_k}</span><h2>汽車新知</h2><span class="en">Industry &amp; Tech</span></div><div class="kgrid">')
     for k in d["knowledge"]:
@@ -243,16 +255,11 @@ def page(d, base, all_issues, is_root):
         H.append(f'<article class="k"><span class="tag">{e(k["tag"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(k["date"])}</span><h3>{e(k["title"])}</h3><p>{e(k["summary"])}</p><div class="src">{src}</div></article>')
     t = d["term"]
     H.append(f'</div><div class="term"><div><div class="lab">今日設計名詞 · Term of the Day</div><h3>{e(t["name"])}</h3><div class="zh">{e(t["zh"])}</div>{term_diagram(d, all_issues)}</div>{term_text(t)}</div></section>')
-    # mood boards
-    H.append(f'<section id="mood"><div class="sec-head"><span class="num">{n_m}</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
+    # mood boards (legacy issues only; issues with color_data merge colour data into 色彩與材質)
     cd = d.get("color_data")
-    if cd:
-        L=lambda n,u:f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
-        hs="".join(f'<a class="hue" href="{e(u)}" target="_blank" rel="noopener"><i style="background:{hx}"></i><b>{e(nm)}</b><span>{e(org)}</span><code>{e(code)}</code><small>{hx}{"（官方）" if off else "（示意色）"}</small></a>' for org,nm,code,hx,off,u in cd["hues"])
-        p=cd["pop"]; bars="".join(f'<div class="bar"><span>{e(n)}</span><div><i style="width:{v/30*100:.0f}%;background:{c}"></i></div><b>{v}%</b></div>' for n,c,v in p["rows"])
-        dr="".join(f'<li>{e(x)}</li>' for x in cd["dirs"]["items"]); mt="".join(f'<li><b>{e(a)}</b>：{L(b,u)}</li>' for a,b,u in cd["mat"]["items"])
-        H.append(f'<div class="cdata"><div class="kicker">Data-backed Colour Board</div><h3>年度色彩與數據</h3><div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p><div class="cgrid"><div class="ccard"><h4>{e(p["title"])}</h4>{bars}<p class="note">{e(p["note"])}</p><div class="src">來源：{L(*p["src"])}</div></div><div class="ccard"><h4>{e(cd["dirs"]["title"])}</h4><ul>{dr}</ul><div class="src">來源：{L(*cd["dirs"]["src"])}</div></div><div class="ccard"><h4>{e(cd["mat"]["title"])}</h4><ul>{mt}</ul></div></div>{interior_html(cd.get("interior"))}</div>')
-    if not cd:  # legacy issues only; new issues (with color_data) skip the fictional theme boards
+    if not cd:
+      H.append(f'<section id="mood"><div class="sec-head"><span class="num">{n_m}</span><h2>情緒板</h2><span class="en">Mood Boards</span></div>')
+    if not cd:
         H.append('<p class="note">情緒板裡的車輛都是原創虛構的概念設計，不代表任何真實車款或品牌。圖像為程式生成的插畫和材質紋理，主題每期隨機抽選。</p>')
         for b in d["moodboards"]:
             figs = "".join(f'<figure class="tile{" hero" if h else ""}"><img src="{img}{n}.webp" alt="{e(c)}" loading="lazy" decoding="async"><figcaption>{e(c)}</figcaption></figure>' for n, c, h in b["images"])
@@ -260,7 +267,7 @@ def page(d, base, all_issues, is_root):
             kw = "".join(f'<span>{e(k)}</span>' for k in b["keywords"])
             mt = "".join(f'<li>{e(x)}</li>' for x in b["materials"])
             H.append(f'<div class="board"><div class="board-head"><div><div class="kicker">Random Theme</div><h3>{e(b["theme"])}</h3><div class="zh">{e(b["zh"])}</div></div><p>{e(b["intro"])}</p></div><div class="mgrid">{figs}</div><div class="bwrap"><div class="palette">{pal}</div><div class="bmeta"><div><h4>關鍵字 Keywords</h4><div class="chips">{kw}</div></div><div><h4>材質筆記 Material Notes</h4><ul>{mt}</ul></div></div></div></div>')
-    H.append('</section>')
+    if not cd: H.append('</section>')
     # archive
     li = "".join(f'<li><a href="{base}issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]}</a> — {e(x["design_news"][0]["title"])}</li>' for x in all_issues)
     H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section>')
