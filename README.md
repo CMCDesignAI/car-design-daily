@@ -143,3 +143,6 @@ tools/
 ## 託管
 - **正式**：GitHub Pages（`main` / root，含 `.nojekyll`），push 即更新，網址永久。gh CLI 已在本機以 `CMCDesignAI` 登入（active，git 經 gh auth setup-git）。
 - **已棄用備案**：flypod 匿名部署 https://2b80368e7d1741c6.flypod.page（2026-10-22 到期；`tools/publish-flypod.sh`）。更新權杖在本機 `~/.config/flypod/`，絕不可 commit。
+
+## 新車特報（`breaking`，選填）
+重大新車消息可在當期 `data.json` 加 `breaking`，會以紅框卡片顯示在設計新聞上方（沒有此欄位的期數不受影響）。欄位：`label`（預設「新車特報」）、`brand`、`date`、`title`、`points`（4–6 則重點，標明哪些是廠商說法）、`image`（`file`/`alt`/`credit`/`credit_url`）、`video`（`{"type":"youtube","id":…}` 嵌入 iframe，或 `{"type":"x","url":…,"title":…}` 嵌入 X 貼文並附連結）、`sources`（`[名稱, 網址]`）。只放已有官方來源查證的消息。

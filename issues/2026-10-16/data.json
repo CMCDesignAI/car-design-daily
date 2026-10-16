@@ -565,5 +565,52 @@
         "螺栓外露結構"
       ]
     }
-  ]
+  ],
+  "breaking": {
+    "label": "新車特報",
+    "brand": "Tesla",
+    "date": "2026-10-15（美國中部時間）",
+    "title": "Tesla 發表新一代 Roadster：靠 SpaceX 推進器短暫飛行、倒立行駛",
+    "points": [
+      "Tesla 10/15 晚間在德州 McGregor 的 SpaceX 測試場直播發表新一代 Roadster，距 2017 年首次亮相已近九年。",
+      "現場示範：車子靠底部風扇吸附力（Tesla 稱最高 2G）爬上垂直坡道倒立行駛，再用冷氣體推進器翻身、飛越 Tesla 全車系後落地。",
+      "Tesla 宣稱：0–60 mph 不到 1 秒（現場稱 0.81 秒）、極速超過 230 mph；壓縮空氣儲氣約 600 公升、10 個噴嘴，可自行補氣。",
+      "預約頁顯示三種版本：Performance（訂金 5 萬美元）、Thrust（加速推進器，訂金 25 萬美元）、受邀制單座 Rocket（完整飛行系統）。",
+      "馬斯克稱 2028 年投產；發表會沒有公布售價。設計靈感來自 SR-71 和 F-35，雙座、線控方向盤（yoke）、可收折尾翼。",
+      "以上性能多為 Tesla／馬斯克自己的說法。媒體指出飛行功能能否上路、是否合法還不清楚，飛行版很可能只能在賽道或受控場地使用。"
+    ],
+    "image": {
+      "file": "breaking-tesla-roadster.webp",
+      "alt": "Tesla 新一代 Roadster 官方影片畫面",
+      "credit": "Tesla（X 官方影片截圖）",
+      "credit_url": "https://x.com/Tesla/status/2110906094155399277"
+    },
+    "video": {
+      "type": "x",
+      "url": "https://x.com/Tesla/status/2110906094155399277",
+      "title": "Tesla 官方影片：Roadster — The last best driver's car（86 秒）"
+    },
+    "sources": [
+      [
+        "Tesla on X",
+        "https://x.com/Tesla/status/2110906094155399277"
+      ],
+      [
+        "Reuters",
+        "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021"
+      ],
+      [
+        "The Verge",
+        "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+      ],
+      [
+        "TechCrunch",
+        "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+      ],
+      [
+        "CNBC",
+        "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+      ]
+    ]
+  }
 }

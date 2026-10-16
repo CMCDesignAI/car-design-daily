@@ -323,3 +323,14 @@ details.more p{font-size:14px;color:var(--muted)}
 .cpts li{position:relative;padding:8px 0 8px 16px;border-bottom:1px dashed var(--line);font-size:14.5px;line-height:1.6}
 .cpts li::before{content:"";position:absolute;left:2px;top:16px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .cmf-card .src{margin-top:auto}
+
+/* breaking news (新車特報) */
+.breaking{margin:0 0 32px}
+.breaking .bk-label{display:inline-block;background:#d7263d;color:#fff;font-weight:700;letter-spacing:.14em;font-size:13px;padding:6px 12px;border-radius:3px 3px 0 0}
+.breaking .bk-card{border:2px solid #d7263d;border-radius:0 4px 4px 4px}
+.breaking .bk-card h3{font-size:clamp(22px,3vw,32px);line-height:1.3;margin:8px 0}
+.breaking .cpts{margin:8px 0 12px;padding-left:1.2em;line-height:1.7}
+.breaking .bk-video{margin:12px 0;max-width:720px}
+.breaking .bk-video .ratio{position:relative;aspect-ratio:16/9}
+.breaking .bk-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.breaking .bk-vlink{font-size:14px;margin:6px 0}
