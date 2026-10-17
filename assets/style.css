@@ -389,3 +389,24 @@ html{scroll-padding-top:110px}
 .jump a:hover{color:var(--accent);border-color:var(--accent)}
 @media (max-width:767px){html{scroll-padding-top:100px}}
 @media (min-width:900px){.cmfx .s6:has(.news-img){display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:24px;align-items:start}.cmfx .s6 .news-img{margin:0}}
+/* archive: "全部往期" link + full vertical list with thumbnails */
+.archive .sec-head .amore{margin-left:auto;font-size:13px;color:var(--accent);text-decoration:none;white-space:nowrap}
+.archive.full .alist{list-style:none;margin:0;padding:0;display:block}
+.archive.full .alist li{padding:0;border-bottom:1px solid var(--line)}
+.arow{display:grid;grid-template-columns:120px minmax(0,1fr);gap:14px;align-items:center;padding:14px 0;text-decoration:none;color:inherit}
+@media (min-width:768px){.arow{grid-template-columns:220px minmax(0,1fr);gap:24px;padding:18px 0}}
+.athumb{display:block;aspect-ratio:16/9;overflow:hidden;border-radius:6px;background:var(--bg2)}
+.athumb img{display:block;width:100%;height:100%;object-fit:cover}
+.atext{display:flex;flex-direction:column;gap:6px;min-width:0}
+.ameta{font-size:12px;letter-spacing:.08em;color:var(--muted)}
+.ahl{font-family:var(--serif);font-size:16px;line-height:1.45}
+@media (min-width:768px){.ahl{font-size:20px}}
+.arow:hover .ahl{color:var(--accent)}
+.afilter{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 8px}
+.afilter select,.afilter input{font:inherit;font-size:14px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 14px;min-height:40px}
+.afilter input{flex:1 1 220px;min-width:0}
+.afilter select:focus,.afilter input:focus{outline:none;border-color:var(--accent)}
+.af-n{font-size:13px;color:var(--muted)}
+.aempty{padding:40px 0;text-align:center;color:var(--muted);font-family:var(--serif)}
+.alist li[hidden]{display:none}
+@media (max-width:767px){.afilter select{flex:1 1 40%}.afilter input{flex-basis:100%}}

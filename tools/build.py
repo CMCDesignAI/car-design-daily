@@ -88,6 +88,53 @@ def hmi_cards(items, img):
                    f'<div class="cbody"><span class="tag">{lab} · {e(x["brand"])} · {e(x["tag"])}</span><span class="date">{e(x["date"])}</span><h3>{e(x["title"])}</h3><ul class="cpts">{pts}</ul><div class="src">來源：{src}</div></div></article>')
     return out
 
+def make_thumb(src, dst, w=480, h=270):
+    """Cached 16:9 JPG thumbnail for archive rows. Returns True if dst exists after the call."""
+    if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src): return True
+    try:
+        from PIL import Image
+        im = Image.open(src).convert("RGB"); r = w / h
+        iw, ih = im.size
+        if iw / ih > r: nw = int(ih * r); im = im.crop(((iw - nw) // 2, 0, (iw - nw) // 2 + nw, ih))
+        else: nh = int(iw / r); im = im.crop((0, (ih - nh) // 2, iw, (ih - nh) // 2 + nh))
+        im.resize((w, h), Image.LANCZOS).save(dst, "JPEG", quality=80, optimize=True, progressive=True); return True
+    except Exception as ex:
+        print("thumb skipped:", src, ex); return False
+
+def archive_rows(rows, full):
+    """rows: [(href, thumb_href|None, no, date, weekday, headline)] newest first. full=True → archive page list with thumbs."""
+    e = html.escape
+    if not full:
+        return "".join(f'<li><a href="{h}">No.{no:03d} · {dt}</a> — {e(hl)}</li>' for h, _, no, dt, wd, hl in rows)
+    out = []; idx = {}; years = set(); months = set()
+    for r in rows:
+        h, th, no, dt, wd, hl = r[:6]; kw = r[6] if len(r) > 6 else ""
+        idx[dt] = (hl + " " + kw).lower(); years.add(dt[:4]); months.add(dt[5:7])
+        im = f'<img src="{th}" alt="" loading="lazy" decoding="async" width="480" height="270">' if th else ''
+        out.append(f'<li data-date="{dt}"><a class="arow" href="{h}"><span class="athumb">{im}</span><span class="atext"><span class="ameta">No.{no:03d} · {dt} {e(wd)}</span><span class="ahl">{e(hl)}</span></span></a></li>')
+    yo = "".join(f'<option value="{y}">{y} 年</option>' for y in sorted(years, reverse=True))
+    mo = "".join(f'<option value="{m}">{int(m)} 月</option>' for m in sorted(months))
+    js = json.dumps(idx, ensure_ascii=False).replace("</", "<\\/")
+    return (f'<div class="afilter"><select id="af-y" aria-label="年份"><option value="">全部年份</option>{yo}</select>'
+            f'<select id="af-m" aria-label="月份"><option value="">全部月份</option>{mo}</select>'
+            f'<input id="af-q" type="search" placeholder="搜尋標題、品牌、新聞…" aria-label="關鍵字搜尋"><span id="af-n" class="af-n"></span></div>'
+            f'<ol class="alist">{"".join(out)}</ol><p class="aempty" id="af-empty" hidden>沒有符合條件的期數。</p>'
+            f'<script type="application/json" id="af-idx">{js}</script>'
+            '<script>(()=>{const I=JSON.parse(document.getElementById("af-idx").textContent),y=document.getElementById("af-y"),m=document.getElementById("af-m"),q=document.getElementById("af-q"),n=document.getElementById("af-n"),E=document.getElementById("af-empty"),L=[...document.querySelectorAll(".alist li")];'
+            'const f=()=>{const t=q.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let c=0;L.forEach(li=>{const d=li.dataset.date,ok=(!y.value||d.slice(0,4)==y.value)&&(!m.value||d.slice(5,7)==m.value)&&t.every(w=>(I[d]||"").includes(w));li.hidden=!ok;c+=ok});E.hidden=c>0;n.textContent=(y.value||m.value||t.length)?`${c} 期`:"";};'
+            '[y,m].forEach(x=>x.addEventListener("change",f));q.addEventListener("input",f);f();})()</script>')
+
+def cover_src(d, base_dir):
+    """Lead image of a car issue: breaking image, else first design-news image."""
+    for im in [(d.get("breaking") or {}).get("image")] + [n.get("image") for n in d.get("design_news", [])]:
+        if im and im.get("file") and os.path.exists(f"{base_dir}/img/{im['file']}"): return f"{base_dir}/img/{im['file']}"
+    return None
+
+def thumb_for(d, base_dir):
+    src = cover_src(d, base_dir) if not isinstance(d, str) else d
+    if not src: return None
+    return "thumb.jpg" if make_thumb(src, f"{base_dir}/thumb.jpg") else None
+
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
 
@@ -308,20 +355,26 @@ def page(d, base, all_issues, is_root):
             H.append(f'<div class="board"><div class="board-head"><div><div class="kicker">Random Theme</div><h3>{e(b["theme"])}</h3><div class="zh">{e(b["zh"])}</div></div><p>{e(b["intro"])}</p></div><div class="mgrid">{figs}</div><div class="bwrap"><div class="palette">{pal}</div><div class="bmeta"><div><h4>關鍵字 Keywords</h4><div class="chips">{kw}</div></div><div><h4>材質筆記 Material Notes</h4><ul>{mt}</ul></div></div></div></div>')
     if not cd: H.append('</section>')
     # archive
-    li = "".join(f'<li><a href="{base}issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]}</a> — {e(x["design_news"][0]["title"])}</li>' for x in all_issues)
-    H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section>')
+    prev = [x for x in all_issues if x["date"] < date][:7]
+    li = archive_rows([(f'{base}issues/{x["date"]}/', None, x["issue_no"], x["date"], x["weekday"], x["design_news"][0]["title"]) for x in prev], False)
+    if prev: H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span><a class="amore" href="{base}archive/">全部往期 →</a></div><ul>{li}</ul></section>')
     H.append(f'''</main><footer><div class="wrap">Car Design Daily · 每日整理全球汽車設計新聞、產業新知與隨機情緒板。內容摘要與分析為編輯整理，事實以原始來源為準；新聞圖片取自車廠官方新聞室／原報導，版權屬原權利人，均標示來源並連結原頁。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
 {theme_toggle("car")}
 </body></html>''')
     return "\n".join(H)
 
 def archive_page(all_issues):
-    li = "".join(f'<li><a href="../issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]} {x["weekday"]}</a> — {e(x["design_news"][0]["title"])}</li>' for x in all_issues)
+    rows = []
+    for x in all_issues:
+        th = thumb_for(x, f"{ROOT}/issues/{x['date']}")
+        kw = " ".join([n.get("brand","") + " " + n.get("title","") for n in x.get("design_news", [])] + [c.get("car","") + " " + c.get("title","") for c in x.get("cmf") or []] + [h.get("brand","") + " " + h.get("title","") for h in x.get("hmi") or []] + [k.get("title","") for k in x.get("knowledge", [])] + [(x.get("breaking") or {}).get("title","")])
+        rows.append((f'../issues/{x["date"]}/', f'../issues/{x["date"]}/{th}' if th else None, x["issue_no"], x["date"], x["weekday"], x["design_news"][0]["title"], kw))
+    li = archive_rows(rows, True)
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>往期 · Car Design Daily</title><link rel="stylesheet" href="../assets/style.css">
 {theme_init("car")}</head>
 <body class="mode-car">{topbar("../", "car", "../")}
-<main class="wrap"><section class="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section></main>{theme_toggle("car")}</body></html>'''
+<main class="wrap"><section class="archive full"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div>{li}</section></main>{theme_toggle("car")}</body></html>'''
 
 if __name__ == "__main__":
     al = issues()
