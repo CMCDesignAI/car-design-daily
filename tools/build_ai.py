@@ -5,7 +5,7 @@ Shares assets/style.css and the topbar/switcher with tools/build.py (car section
 Usage: python3 tools/build_ai.py [--site-url https://user.github.io/repo]"""
 import json, os, glob, html, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build import write_page, check_wakelock, topbar, theme_init, theme_toggle, ROOT, SITE
+from build import write_page, check_wakelock, topbar, theme_init, theme_toggle, ROOT, SITE, archive_rows, thumb_for
 e = html.escape
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+TC:wght@400;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">'
 
@@ -122,7 +122,7 @@ def page(d, root, aibase, all_issues, is_latest):
     nupd = sum(len(w["updates"]) for w in d["watch"])
     closed = d.get("closed") or []
     opn = d.get("open") or []
-    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}{"<a href=\"#ainews\">AI 新聞</a>" if d.get("ainews") else ""}<a href="#watch">追蹤清單</a>{"<a href=\"#learn\">教學區</a>" if d.get("tutorials") else "<a href=\"#news\">其他新聞</a>"}<a href="#video">推薦影片</a><a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}{"<a href=\"#ainews\">AI 新聞</a>" if d.get("ainews") else ""}<a href="#watch">追蹤清單</a>{"<a href=\"#learn\">教學區</a>" if d.get("tutorials") else "<a href=\"#news\">其他新聞</a>"}{"<a href=\"#video\">推薦影片</a>" if d.get("video") else ""}<a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
@@ -184,18 +184,37 @@ def page(d, root, aibase, all_issues, is_latest):
     cv = "".join(f"<li>{e(c)}</li>" for c in d["caveats"])
     n += 1
     H.append(f'<section id="caveats">{sec_head(n, "注意事項", "Caveats")}<ul class="caveats">{cv}</ul></section>')
-    li = "".join(f'<li><a href="{aibase}issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]}</a> — {e(x["watch"][0]["model"])} 等 {len(x["watch"])} 個追蹤模型</li>' for x in all_issues)
-    H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section>')
+    prev = [x for x in all_issues if x["date"] < date][:7]
+    li = archive_rows([(f'{aibase}issues/{x["date"]}/', None, x["issue_no"], x["date"], x["weekday"], ai_headline(x)) for x in prev], False)
+    if prev: H.append(f'<section class="archive" id="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span><a class="amore" href="{aibase}archive/">全部往期 →</a></div><ul>{li}</ul></section>')
     H.append(f'''</main><footer><div class="wrap">AI Model Daily · 每日整理閉源與開源模型的重要發布、每週排行榜，並追蹤指定開源模型的更新與其他工具新聞。摘要為編輯整理，事實以原始來源為準；圖片取自官方或來源頁的分享圖（og:image），版權屬原權利人，均標示來源並連結原頁；不使用 AI 生成圖像代表真實產品。<br>Issue {d["issue_no"]:03d} · {date}</div></footer>
 {theme_toggle("ai")}
 </body></html>''')
     return "\n".join(H)
 
+def ai_headline(x):
+    for k in ("closed", "open", "ainews"):
+        for st in x.get(k) or []:
+            if st.get("title"): return st["title"]
+    return "、".join(w["model"] for w in x["watch"])
+
+def ai_cover(x, base_dir):
+    ims = [st.get("image") for k in ("closed", "open", "ainews") for st in (x.get(k) or [])] + [u.get("image") for w in x["watch"] for u in w["updates"]]
+    for im in ims:
+        if im and im.get("file") and os.path.exists(f"{base_dir}/img/{im['file']}"): return f"{base_dir}/img/{im['file']}"
+    return None
+
 def archive_page(all_issues):
-    li = "".join(f'<li><a href="../issues/{x["date"]}/">No.{x["issue_no"]:03d} · {x["date"]} {e(x["weekday"])}</a> — {e("、".join(w["model"] for w in x["watch"]))}</li>' for x in all_issues)
+    rows = []
+    for x in all_issues:
+        bd = f"{ROOT}/ai/issues/{x['date']}"; src = ai_cover(x, bd)
+        th = thumb_for(src, bd) if src else None
+        kw = " ".join([st.get("org","") + " " + st.get("title","") for k in ("closed", "open", "ainews", "news") for st in (x.get(k) or []) if isinstance(st, dict)] + [w["model"] for w in x["watch"]] + [u.get("title","") for w in x["watch"] for u in w["updates"] if isinstance(u, dict)])
+        rows.append((f'../issues/{x["date"]}/', f'../issues/{x["date"]}/{th}' if th else None, x["issue_no"], x["date"], x["weekday"], ai_headline(x), kw))
+    li = archive_rows(rows, True)
     return f'''{head("往期 · AI Model Daily", "AI Model Daily 往期列表", "../../assets/style.css", f"{SITE}/ai/archive/" if SITE else "", "")}
 <body class="mode-ai">{topbar("../../", "ai", "../")}
-<main class="wrap"><section class="archive"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div><ul>{li}</ul></section></main>{theme_toggle("ai")}</body></html>'''
+<main class="wrap"><section class="archive full"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div>{li}</section></main>{theme_toggle("ai")}</body></html>'''
 
 if __name__ == "__main__":
     al = issues()
