@@ -82,5 +82,35 @@
     "car_key": "material:adara-hair-keratin-fibre",
     "angle": "DDW 頭髮角蛋白纖維",
     "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+  },
+  {
+    "date": "2026-10-17",
+    "kind": "car",
+    "car_key": "rolls-royce-phantom-hummingbird",
+    "angle": "鮑魚殼／珍珠母鑲嵌、Ash burr 木皮",
+    "url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html",
+    "image": "cmf-rr-phantom-hummingbird.webp"
+  },
+  {
+    "date": "2026-10-17",
+    "kind": "trend",
+    "car_key": "trend:wgsn-coloro-aw2829",
+    "angle": "WGSN×Coloro AW28/29 五大關鍵色",
+    "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+  },
+  {
+    "date": "2026-10-17",
+    "kind": "material",
+    "car_key": "material:magna-apple-leather",
+    "angle": "蘋果生質皮革替代材",
+    "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html",
+    "image": "cmf-magna-apple-leather.webp"
+  },
+  {
+    "date": "2026-10-17",
+    "kind": "material",
+    "car_key": "material:elix-pcabs-gr5125",
+    "angle": "低光澤 PC/ABS",
+    "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
   }
 ]

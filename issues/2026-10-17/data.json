@@ -1,0 +1,578 @@
+{
+ "date": "2026-10-17",
+ "weekday": "週六",
+ "issue_no": 10,
+ "lede": "巴黎車展進入最後兩天，國際新車發表放緩，今天以中國品牌為主：小鵬 MONA L05 開啟預售、極氪 9X 在巴黎做歐洲車展首演、零跑最小掀背 B03 亮相；另有 Hyundai STARIA Cargo、小米 SU7 Ultra 空力諜照、Civic e:HEV 小改與 Opel Formula E 塗裝。Mercedes-AMG GT SUV 今晚（台灣時間 10/18 00:30）首發，明天報導。",
+ "design_news": [
+  {
+   "id": "xpeng-mona-l05",
+   "tag": "首秀 · 中國",
+   "date": "2026-10-15",
+   "brand": "XPENG（小鵬）",
+   "title": "MONA L05：前 Ferrari 外型主管操刀的大五座 SUV，10/29 上市",
+   "orig": "年轻人的智能时尚大五座SUV——MONA L05正式首秀，预售价16.98万起",
+   "summary": "小鵬 10 月 15 日在廣州舉行 MONA L05 中國預售發表，是 MONA 系列第三款、首款大五座 SUV，提供純電與超級增程，預售價 16.98 萬元起，10 月 29 日正式上市。外型由前 Ferrari 外造型設計負責人 Juanma López 與 00 後造型團隊共同打造。",
+   "analysis": [
+    [
+     "比例",
+     "延續「Vital Flow 流動的生命力」：0.6 軸長比、低趴寬體，高腰線搭配飽滿圓潤的肌肉曲面。"
+    ],
+    [
+     "燈號",
+     "星艦頭燈用 190 顆 LED 陣列參數化設計＋雙層雷雕紋理；貫穿式星環尾燈超過 300 顆超紅光 LED。"
+    ],
+    [
+     "CMF",
+     "六款車色（仙蹤綠、羅蘭紫等）＋深空灰、氣宇灰兩種內裝；ROAM 套裝含同色系卡鉗罩與專屬內裝主題。"
+    ],
+    [
+     "室內 UX",
+     "雙層懸浮儀表台全圓角＋皮質／3D Mesh 軟包，軟包面積逾 74%，256 色氛圍燈帶長逾 4.6 米。"
+    ]
+   ],
+   "sources": [
+    [
+     "小鵬汽車官網新聞",
+     "https://www.xiaopeng.com/news/company_news/5599.html"
+    ]
+   ],
+   "image": {
+    "file": "news-xpeng-mona-l05.webp",
+    "alt": "藍灰色小鵬 MONA L05 大五座 SUV，發表會現場投影畫面",
+    "credit": "XPENG（小鵬汽車發表會）",
+    "credit_url": "https://www.xiaopeng.com/news/company_news/5599.html"
+   }
+  },
+  {
+   "id": "zeekr-9x-paris",
+   "tag": "歐洲車展首演 · 巴黎",
+   "date": "2026-10-12",
+   "brand": "Zeekr（極氪）",
+   "title": "9X 巴黎首演：哥德堡設計的旗艦 SUV，遊艇式車頂線",
+   "orig": "Zeekr Makes Triumphant Paris Motor Show Debut on The Back of 200% Year on Year Growth in Europe",
+   "summary": "極氪在巴黎車展把首款豪華旗艦 9X 帶上歐洲車展舞台，同場還有全新 7X。9X 在瑞典哥德堡設計，德法售價 119,500 歐元起，2027 年 1 月交車；Super Hybrid 系統最高 897 hp。",
+   "analysis": [
+    [
+     "面處理",
+     "整合式瀑布格柵有黑、車身同色、緞面鉻三種表情。"
+    ],
+    [
+     "燈號",
+     "Diamond Starlight Matrix 頭燈做前臉識別，車尾以無接縫超紅光燈條收尾。"
+    ],
+    [
+     "比例",
+     "車頂線一路掃到車尾，車頂與車身融合成一條不中斷的線，取材自遊艇、藝術與建築。"
+    ],
+    [
+     "CMF",
+     "手工拋光 Nordic Wood、Nappa 皮革，以及珠寶級切面的水晶旋鈕。"
+    ]
+   ],
+   "sources": [
+    [
+     "Zeekr Europe Press：Paris debut",
+     "https://press.zeekr.eu/zeekr-makes-triumphant-paris-motor-show-debut-on-the-back-of-200-year-on-year-growth-in-europe"
+    ],
+    [
+     "Zeekr Europe Press：Introducing the Zeekr 9X",
+     "https://press.zeekr.eu/the-rules-of-luxury-have-changed-introducing-the-zeekr-9x"
+    ]
+   ],
+   "image": {
+    "file": "news-zeekr-9x.webp",
+    "alt": "黑色 Zeekr 9X 旗艦 SUV 停在水岸建築前",
+    "credit": "Zeekr Europe Press",
+    "credit_url": "https://press.zeekr.eu/the-rules-of-luxury-have-changed-introducing-the-zeekr-9x"
+   }
+  },
+  {
+   "id": "leapmotor-b03",
+   "tag": "全球首發 · 巴黎",
+   "date": "2026-10-13",
+   "brand": "Leapmotor（零跑）",
+   "title": "B03：零跑最小電動掀背，摩斯密碼內裝與表情尾燈",
+   "orig": "Leapmotor goes little with new B03 supermini revealed at Paris motor show",
+   "summary": "零跑在巴黎車展發表品牌最小車款 B03，是 B03X 跨界車的掀背版本，瞄準 Renault 5 與 VW ID. Polo，2027 年初在英國上市。車長 4.2 米，405 公升行李廂，53 kWh LFP 電池宣稱續航約 242 英里。",
+   "analysis": [
+    [
+     "比例",
+     "拿掉 B03X 的塑膠包覆並降低車高，C 柱以前幾乎與 B03X 相同。"
+    ],
+    [
+     "面處理",
+     "極簡車身配對比色黑車頂；尾燈藏有 emoji 造型的燈號細節。"
+    ],
+    [
+     "CMF",
+     "內裝以摩斯密碼的點與線為圖案，用在飾板、座椅與喇叭網上，吉祥物 Leapy 藏在車內當彩蛋。"
+    ],
+    [
+     "室內 UX",
+     "14.6 吋大型觸控螢幕＋細長數位儀表；後座可上掀（LeaFlex），前座可完全放平。"
+    ]
+   ],
+   "sources": [
+    [
+     "CAR Magazine",
+     "https://www.carmagazine.co.uk/car-news/first-official-pictures/leapmotor/2027-b03-details/"
+    ]
+   ],
+   "image": {
+    "file": "news-leapmotor-b03.webp",
+    "alt": "紅色車身、黑色車頂的 Leapmotor B03 在巴黎車展展台",
+    "credit": "Leapmotor（via CAR Magazine）",
+    "credit_url": "https://www.carmagazine.co.uk/car-news/first-official-pictures/leapmotor/2027-b03-details/"
+   }
+  },
+  {
+   "id": "hyundai-staria-cargo",
+   "tag": "巴黎車展 · 電動商用車",
+   "date": "2026-10-12",
+   "brand": "Hyundai",
+   "title": "STARIA Cargo：太空艙造型電動廂型車，800V 快充",
+   "orig": "Hyundai sets a new benchmark in the electric LCV segment with STARIA Cargo",
+   "summary": "Hyundai 在巴黎車展媒體日發表純電輕型商用車 STARIA Cargo，三人座廂型車可放三個歐規棧板、載重 1,040 kg。800V 架構 10–80% 充電 20 分鐘，WLTP 續航最高 450 km，依市場 2026 下半年上市。",
+   "analysis": [
+    [
+     "比例",
+     "沿用 STARIA 的一筆劃式側面與大玻璃，車長 5,253 mm、軸距 3,273 mm。"
+    ],
+    [
+     "機能",
+     "兩側滑門＋雙開尾門，載貨區 5.462 m³，低承載高度方便裝卸。"
+    ],
+    [
+     "室內 UX",
+     "ccNC 系統：12.3 吋觸控螢幕＋數位儀表，連網可遠端看充電與空調。"
+    ],
+    [
+     "品牌方向",
+     "把乘用 STARIA 的未來感設計延伸到商用車，主打歐洲 LCV 市場。"
+    ]
+   ],
+   "sources": [
+    [
+     "Hyundai Newsroom Europe",
+     "https://www.hyundai.news/eu/articles/press-releases/staria-cargo-introduction.html"
+    ],
+    [
+     "Auto Express",
+     "https://www.autoexpress.co.uk/hyundai/370658/new-hyundai-staria-cargo-looks-van-future"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-staria-cargo.webp",
+    "alt": "銀色 Hyundai STARIA Cargo 電動廂型車行駛中",
+    "credit": "Hyundai（via Auto Express）",
+    "credit_url": "https://www.autoexpress.co.uk/hyundai/370658/new-hyundai-staria-cargo-looks-van-future"
+   }
+  },
+  {
+   "id": "xiaomi-su7-ultra-aero",
+   "tag": "諜照 · 紐柏林",
+   "date": "2026-10-14",
+   "brand": "Xiaomi（小米）",
+   "title": "諜照：SU7 Ultra 新空力套件，雙層鵝頸尾翼現身紐柏林",
+   "orig": "Xiaomi's Improved SU7 Ultra Could Make The Taycan Seem Slow",
+   "summary": "Carscoops 報導：兩台改良版小米 SU7 Ultra 原型車在紐柏林測試，空力大改，外界推測是要奪回被 Porsche Taycan Turbo GT Manthey 拿走的行政級電動車圈速紀錄。小米官方尚未發布消息，以下為諜照觀察。",
+   "analysis": [
+    [
+     "空力",
+     "新前保桿加大型下擾流與兩側導流片，前輪拱上方加百葉。"
+    ],
+    [
+     "比例",
+     "大型側裙讓車身視覺更貼地，造型更接近當年破紀錄的 SU7 Ultra Prototype。"
+    ],
+    [
+     "車尾",
+     "雙層尾翼配鵝頸支架，尺寸接近 911 GT3 RS，疑似具 DRS；另測試新碳纖擴散器。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（諜照報導）",
+     "https://www.carscoops.com/2287193/xiaomi-su7-nurburging-scoop/"
+    ]
+   ],
+   "image": {
+    "file": "news-xiaomi-su7-ultra.webp",
+    "alt": "偽裝的小米 SU7 Ultra 原型車在紐柏林測試，雙層大尾翼",
+    "credit": "Carscoops（諜照）",
+    "credit_url": "https://www.carscoops.com/2287193/xiaomi-su7-nurburging-scoop/"
+   }
+  },
+  {
+   "id": "honda-civic-ehev-sport",
+   "tag": "小改款 · 歐洲",
+   "date": "2026-10-15",
+   "brand": "Honda",
+   "title": "Civic e:HEV 升級：Sport 紅縫線內裝、新色 Meteoroid Gray",
+   "orig": "Upgraded Honda Civic e:HEV with innovative Honda S+ Shift feature and enhanced Sport grade",
+   "summary": "Honda 英國為 Civic e:HEV 加入首見於新 Prelude 的 S+ Shift（模擬八速換檔），並升級 Sport 等級與車色。英國售價 34,325 英鎊起。",
+   "analysis": [
+    [
+     "CMF",
+     "Sport 等級在前座椅、中央扶手、前後門板與方向盤加紅色縫線，儀表板與水箱護罩加紅色飾條。"
+    ],
+    [
+     "外觀",
+     "Sport 換上亮黑鯊魚鰭天線；新增 Meteoroid Gray Metallic，共五款高級車色。"
+    ],
+    [
+     "室內 UX",
+     "全車系 A 柱加裝駕駛監控攝影機；Sport 標配 12 喇叭 BOSE 音響。"
+    ]
+   ],
+   "sources": [
+    [
+     "Honda News Europe",
+     "https://hondanews.eu/gb/en/cars/media/pressreleases/590200/upgraded-honda-civic-ehev-with-innovative-honda-splus-shift-feature-and-enhanced-sport-grade"
+    ]
+   ],
+   "image": {
+    "file": "news-honda-civic-ehev.webp",
+    "alt": "白色 Honda Civic e:HEV 行駛在海岸公路",
+    "credit": "Honda News Europe",
+    "credit_url": "https://hondanews.eu/gb/en/cars/media/pressreleases/590200/upgraded-honda-civic-ehev-with-innovative-honda-splus-shift-feature-and-enhanced-sport-grade"
+   }
+  },
+  {
+   "id": "opel-gse-27fe",
+   "tag": "巴黎車展 · 賽車塗裝",
+   "date": "2026-10-07",
+   "brand": "Opel",
+   "title": "GSE 27FE 定版塗裝：Lightspeed 條紋加銀，Formula E 首季",
+   "orig": "World Premiere in Paris: Opel Unveils Final Livery of the GSE 27FE for its First Formula E Season",
+   "summary": "Opel 在巴黎車展世界首發 GSE 27FE 的最終塗裝，為品牌首個 Formula E 賽季做準備；同場也有已開放訂購的新 Corsa GSE 首度參展。車隊 12 月 18–19 日在吉達雙賽開季。",
+   "analysis": [
+    [
+     "塗裝",
+     "在概念與測試塗裝的基礎上更精緻化，加入更多銀色；車手 Mitch Evans 形容更俐落、看起來很快。"
+    ],
+    [
+     "品牌方向",
+     "Lightspeed Stripes 與 GSE 世界觀也是 Opel 德國展台設計的主要靈感。"
+    ],
+    [
+     "量產連結",
+     "把 Formula E 與 Corsa GSE 等量產高性能車綁在一起。"
+    ]
+   ],
+   "sources": [
+    [
+     "Opel（via lifePR）",
+     "https://www.lifepr.de/pressemitteilung/opel-automobile-gmbh/world-premiere-in-paris-opel-unveils-final-livery-of-the-gse-27fe-for-its-first-formula-e-season/boxid/1075533"
+    ]
+   ],
+   "image": {
+    "file": "news-opel-gse-27fe.webp",
+    "alt": "Opel GSE 27FE Formula E 賽車最終塗裝高速行駛",
+    "credit": "Opel（via lifePR）",
+    "credit_url": "https://www.lifepr.de/pressemitteilung/opel-automobile-gmbh/world-premiere-in-paris-opel-unveils-final-livery-of-the-gse-27fe-for-its-first-formula-e-season/boxid/1075533"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-rr-phantom-hummingbird",
+   "kind": "car",
+   "car": "Rolls-Royce Phantom Extended",
+   "tag": "Private Commission · 鑲嵌",
+   "title": "蜂鳥鮑魚殼鑲嵌：首見於勞斯萊斯",
+   "points": [
+    "首件使用鮑魚殼鑲嵌的 Private Commission，貝母呈藍綠虹彩。",
+    "每張野餐桌上的蜂鳥由 53 片鮑魚殼與珍珠母拼成。",
+    "雷射切割多留 0.06 mm，再手工銼邊，接縫幾乎看不到。",
+    "Ash burr 木皮打底，Creme Light 皮椅配 Moccasin、Tan 點綴。"
+   ],
+   "image": {
+    "file": "cmf-rr-phantom-hummingbird.webp",
+    "alt": "工匠用鑷子排列鮑魚殼蜂鳥鑲嵌片的特寫",
+    "credit": "Rolls-Royce（via Automotive Interiors World）",
+    "credit_url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html"
+   },
+   "sources": [
+    [
+     "Automotive Interiors World：Phantom Hummingbird",
+     "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-trend-wgsn-aw2829",
+   "kind": "trend",
+   "car": "色彩趨勢",
+   "tag": "WGSN × Coloro AW28/29",
+   "title": "AW28/29 五大關鍵色：以 Bloodstone 為主色",
+   "points": [
+    "10/14 發布，從 Coloro 逾 3,500 色中選出五色。",
+    "主色 Bloodstone（011-27-26）：深沉的氧化鐵紅。",
+    "Elemental Verdigris（091-55-12）：風化的藍綠，代表修復與長久。",
+    "另有 Liminal Yellow、Healing Turmeric 與 Smoky Amethyst。"
+   ],
+   "swatch": {
+    "hex": "#7A2E28",
+    "label": "Bloodstone（示意色，非官方色值）"
+   },
+   "sources": [
+    [
+     "FashionUnited：WGSN × Coloro AW28/29 key colours",
+     "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-magna-apple-leather",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "Magna Seating",
+   "title": "蘋果副產品做的座椅皮革替代材",
+   "points": [
+    "以蘋果副產品等生質原料混合回收材料製成。",
+    "針對座椅耐磨、耐候與外觀一致性等車規需求開發。",
+    "可做多種顏色、皮紋與打孔；可在現有座椅產線加工。",
+    "屬於 Magna EcoSphere 座椅材料組合。"
+   ],
+   "image": {
+    "file": "cmf-magna-apple-leather.webp",
+    "alt": "深藍色菱格縫線座椅表面，Magna 生質皮革替代材特寫",
+    "credit": "Magna（via Automotive Interiors World）",
+    "credit_url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html"
+   },
+   "sources": [
+    [
+     "Automotive Interiors World：Magna sustainable seating material",
+     "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-elix-gr5125",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "Elix Polymers",
+   "title": "低光澤 PC/ABS：霧面內飾不必犧牲性能",
+   "points": [
+    "新等級 Elix PC/ABS GR 5125，主打霧面、低光澤外觀。",
+    "減少反光與指紋，同時保有耐衝擊、尺寸與耐熱穩定。",
+    "低 VOC、低氣味；適用儀表板、中控、飾條、門板、出風口。",
+    "也納入含回收料的 E-Loop 系列。"
+   ],
+   "swatch": {
+    "hex": "#3B3D3F",
+    "label": "霧面深灰（示意色）"
+   },
+   "sources": [
+    [
+     "Automotive Interiors World：Elix low-gloss PC/ABS",
+     "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-carplay-ios27-siri",
+   "kind": "case",
+   "brand": "Apple CarPlay",
+   "tag": "介面與 HMI",
+   "title": "iOS 27 CarPlay：Siri 光球與 MiniPlayer",
+   "date": "2026-09-21",
+   "points": [
+    "新 Siri 以發光圓球出現在螢幕下方中央，不再蓋住整個畫面，地圖與 App 仍看得見。",
+    "在 CarPlay 的對話會自動同步到 iPhone 的 Siri App，並用車子圖示標記，回到手機也能接續。",
+    "媒體 App 右上角新增 MiniPlayer，直接顯示封面與播放控制，比舊的聲波圖示更實用。",
+    "Now Playing 進度條加大、可直接拖曳快轉，App 圖示換成 Liquid Glass 新設計並附新桌布。"
+   ],
+   "image": {
+    "file": "hmi-carplay-ios27.jpg",
+    "alt": "iOS 27 CarPlay 主畫面：App 圖示格與下方中央發光的 Siri 圓球",
+    "credit": "Apple (via 9to5Mac)",
+    "credit_url": "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/"
+   },
+   "sources": [
+    [
+     "9to5Mac：Everything new for CarPlay in iOS 27",
+     "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "新車 · 今晚首發",
+   "date": "2026-10-17",
+   "title": "Mercedes-AMG GT SUV 今晚斯圖加特世界首發（台灣時間 10/18 00:30）",
+   "summary": "Mercedes-AMG 首款在 Affalterbach 自行開發的全尺寸 SUV，基於純電 AMG.EA 平台，將在 Mercedes-Benz 博物館「The 140 Festival」上發表，預計 2027 年初交車、在 Sindelfingen 生產。經銷商資料指頭燈將用獨特的圖案化 LED 日行燈。",
+   "sources": [
+    [
+     "Mercedes-Benz Automobil AG（瑞士經銷）",
+     "https://www.merbag.ch/de/personenwagen/news/amg-gt-suv/"
+    ]
+   ]
+  },
+  {
+   "tag": "新車預告 · 中國",
+   "date": "2026-10-16",
+   "title": "奇瑞 Lepas 10/22 發表首款概念車與新設計語言",
+   "summary": "Lepas 將在蕪湖奇瑞國際用戶大會首發第一款概念車與「Next-Generation Leopard Aesthetics」設計語言，探索雕塑線條、燈光運用與人車互動；同場預覽將導入英國 L6、L4 的技術。",
+   "sources": [
+    [
+     "Just Auto",
+     "https://www.just-auto.com/news/lepas-to-reveal-first-concept-car-and-showcase-technology-for-next-gen-models/"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 歐洲",
+   "date": "2026-10-16",
+   "title": "斯洛伐克成為第 9 個核准 Tesla FSD 的歐洲國家",
+   "summary": "Tesla 在歐洲把 FSD (Supervised) 改名為 Tesla Assisted Driving；斯洛伐克核准後將陸續推送 HW4 車輛。歐盟全體表決延到 12 月，需至少 15 國支持，法國與瑞典對可超速的 Speed Offset 功能有意見。",
+   "sources": [
+    [
+     "Not a Tesla App",
+     "https://www.notateslaapp.com/news/4838/slovakia-becomes-9th-european-country-to-approve-tesla-fsd"
+    ]
+   ]
+  },
+  {
+   "tag": "製造 · 德國",
+   "date": "2026-10-15",
+   "title": "Tesla 規劃柏林廠第二座廠房，長期目標年產 100 萬輛",
+   "summary": "德國 rbb 報導，Tesla 準備在 12 月送件申請 Grünheide 廠北側新廠房，面積約 53.6 萬平方公尺、為現有廠房兩倍多，2027 年動工，整體擴建約需十年；目前週產目標 7,500 輛。",
+   "sources": [
+    [
+     "Not a Tesla App",
+     "https://www.notateslaapp.com/news/4836/tesla-plans-to-expand-giga-berlin-output-to-1-million-vehicles-per-year"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Floating roof",
+  "zh": "懸浮式車頂",
+  "body": "Floating roof（懸浮式車頂）是把車頂和車身做成兩個顏色，再把支撐車頂的立柱塗黑或藏進玻璃後面，讓車頂看起來像只靠車窗撐著、浮在車身上。本期巴黎首發的 Leapmotor B03 就用了對比色的黑色車頂，和車窗連成一條深色帶，讓小車看起來更低、更有層次。設計師常用這招在車越做越高時，讓車身量感看起來輕一點。",
+  "source": [
+   [
+    "Car Design News：The rise of the floating roof",
+    "https://www.cardesignnews.com/cars/the-rise-of-the-floating-roof/507958"
+   ],
+   [
+    "CAR Magazine：Leapmotor B03（contrasting black roof）",
+    "https://www.carmagazine.co.uk/car-news/first-official-pictures/leapmotor/2027-b03-details/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Verdigris & Bloodstone Lounge",
+   "zh": "銅綠與血石座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以 WGSN × Coloro AW28/29 關鍵色為方向重新組合，搭配本期的低光澤 PC/ABS 與生質皮革材質，套用到儀表板（IP）與門板。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆（細皮紋）",
+     "風化銅綠（示意）",
+     "#4A6862",
+     false,
+     "ip-upper",
+     {
+      "src": "WGSN×Coloro AW28/29 Elemental Verdigris",
+      "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+     }
+    ],
+    [
+     "儀表板飾條 · 煙燻金屬",
+     "煙紫金屬（示意）",
+     "#5B4F63",
+     false,
+     "ip-decor",
+     {
+      "src": "WGSN×Coloro AW28/29 Smoky Amethyst",
+      "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+     }
+    ],
+    [
+     "門板嵌飾 · 生質皮革替代材（打孔）",
+     "暖霧灰（示意）",
+     "#CFC6B8",
+     false,
+     "door-insert",
+     {
+      "src": "Magna 蘋果生質皮革",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html"
+     }
+    ],
+    [
+     "門扶手 · 氧化鐵紅皮革",
+     "血石紅（示意）",
+     "#7A2E28",
+     false,
+     "armrest",
+     {
+      "src": "WGSN×Coloro AW28/29 Bloodstone",
+      "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+     }
+    ],
+    [
+     "縫線／點綴 · 薑黃",
+     "薑黃（示意）",
+     "#D99A3A",
+     false,
+     "stitch",
+     {
+      "src": "WGSN×Coloro AW28/29 Healing Turmeric",
+      "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+     }
+    ],
+    [
+     "下門板 · 低光澤 PC/ABS",
+     "霧面石墨（示意）",
+     "#33373A",
+     false,
+     "door-lower",
+     {
+      "src": "Elix 低光澤 PC/ABS",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Elemental Verdigris、Bloodstone、Smoky Amethyst、Healing Turmeric：WGSN × Coloro AW28/29（Coloro 色號，非 HEX 官方值）",
+     "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+    ],
+    [
+     "生質皮革替代材：Magna Seating（蘋果副產品＋回收料）",
+     "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html"
+    ],
+    [
+     "低光澤 PC/ABS：Elix Polymers GR 5125",
+     "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
+    ]
+   ],
+   "mood": [
+    "沉穩",
+    "復古工藝",
+    "暖暗調",
+    "一點亮色（薑黃縫線）"
+   ],
+   "mood_text": "大面積風化銅綠與霧面石墨讓座艙安靜內斂；血石紅扶手與薑黃縫線只出現在手會碰到的地方，暖色點綴不搶戲。",
+   "vars": {
+    "ip-lower": "#33373A",
+    "door-upper": "#4A6862",
+    "console": "#33373A",
+    "seat": "#CFC6B8",
+    "steering": "#2A2C2E",
+    "headliner": "#E3DED5",
+    "seat-bolster": "#4A6862",
+    "seat-center": "#CFC6B8",
+    "console-arm": "#7A2E28",
+    "accent-pod": "#D99A3A"
+   }
+  }
+ }
+}
