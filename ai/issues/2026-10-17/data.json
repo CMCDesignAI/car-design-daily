@@ -1,0 +1,451 @@
+{
+ "date": "2026-10-17",
+ "weekday": "週六",
+ "issue_no": 10,
+ "lede": "今天重點：NVIDIA 開源 Nemotron 3.5 Super VL，還有一版壓到 24GB、能在自家電腦跑的 Bolt；ChatGPT 的 Chrome 擴充功能現在能直接讀你開著的分頁並代你操作。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "FastH3-Omni 預覽上線，開源權重預定 10/20 釋出",
+   "updates": [
+    {
+     "title": "FastH3-Omni：MiniMax H3 加速版支援參考圖、參考音訊與首尾影格，權重 10/20 開源",
+     "date": "2026-10-16",
+     "summary": "FastVideo 團隊與 Nuva Lab、Reactor 合作推出 FastH3-Omni，是經過再訓練的 MiniMax H3 加速版，可同時吃文字、最多 3 張參考圖、最多 3 段參考音訊、首尾影格與接續片段，輸出帶同步聲音的影片。目前只能透過 Nuva Lab 與 Reactor 的預覽使用；官方表示開源權重與訓練程式碼將於 10/20 釋出，並支援 DGX Spark 與 RTX 顯示卡。",
+     "links": [
+      [
+       "Nuva Lab：FastH3-Omni 發布說明",
+       "https://nuvalab.ai/blog/fasth3-omni-minimax-h3-reference-audio-video/"
+      ]
+     ],
+     "image": null,
+     "short_title": "FastH3-Omni 預覽，10/20 開源",
+     "one": "更快、能用參考圖和參考聲音控制的 H3 版本已可預覽，10/20 會放出權重讓大家本地跑。"
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": null,
+ "caveats": [
+  "本期為排程中斷後的補發版，新聞較精簡（3 則），未放推薦影片。",
+  "ChatGPT Chrome 功能依 The Verge 與 The Decoder 報導整理；FastH3-Omni 權重尚未釋出，以官方預告為準。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "nemotron-3-5",
+   "org": "NVIDIA",
+   "tag": "重磅開源 · 多模態模型",
+   "date": "2026-10-15",
+   "title": "NVIDIA 開源 Nemotron 3.5 Super VL 與 Bolt：120B 多模態代理模型，另有 24GB 可本地跑的版本",
+   "orig": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+   "summary": "NVIDIA 10/15 發布三個開源 Nemotron 3.5 模型。Super VL 是 120B 參數的混合專家（MoE）模型、每個 token 啟用約 12B，能看文件、圖片、影片並呼叫工具，主打企業長時間運作的 AI 代理；官方稱是同級最快的開源代理模型（比次佳者快 5 倍），準確度接近 NVIDIA 最大的推理模型、參數只有約五分之一。【本地版】Bolt 74B-A9B 用原生 2-bit 量化塞進 24GB 記憶體，可在 RTX／DGX Spark 及 GeForce RTX 電腦上跑，支援 llama.cpp、Ollama、LM Studio、Unsloth、vLLM；官方稱在 PinchBench 為同級開源第 1、BrowseComp 開源第 2。另一個 4GB 的 Bolt E4B 預定 10/23 推出，鎖定語音助理與互動角色。【在哪能用】Super VL 已上 Hugging Face、OpenRouter、ModelScope 與 NVIDIA NIM；同時釋出多組訓練資料集。",
+   "links": [
+    [
+     "NVIDIA 官方部落格",
+     "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    ],
+    [
+     "NVIDIA 開發者部落格：Super VL 技術說明",
+     "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    ],
+    [
+     "Hugging Face：Bolt 74B-A9B 24GB GGUF",
+     "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF"
+    ]
+   ],
+   "image": {
+    "file": "nemotron.webp",
+    "alt": "NVIDIA 官方宣傳圖：Nemotron 3.5 Super VL",
+    "credit": "NVIDIA",
+    "credit_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+   },
+   "short_title": "NVIDIA 開源 Nemotron 3.5，24GB 就能本地跑",
+   "one": "NVIDIA 放出新的開源多模態代理模型，其中 Bolt 版壓到 24GB，一張高階顯示卡或 Spark 電腦就能在本機跑。",
+   "gloss": [
+    [
+     "量化",
+     "把模型數字存得更精簡（例如 2-bit），檔案和記憶體需求大幅變小，品質略有取捨"
+    ],
+    [
+     "AI 代理（Agent）",
+     "不只回答問題，還會自己查資料、用工具、分步驟把事情做完的 AI"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-chrome-tabs",
+   "org": "OpenAI",
+   "tag": "平台異動 · ChatGPT",
+   "date": "2026-10-15",
+   "title": "ChatGPT Chrome 擴充功能升級：能讀你開著的分頁，Work 模式還能代填表單、傳訊息",
+   "orig": "ChatGPT can peek at your Chrome tabs now",
+   "summary": "OpenAI 10/15 更新 ChatGPT 的 Chrome 擴充功能（Atlas 瀏覽器 8 月已停用）。在 ChatGPT 網頁或桌面版標記 Chrome 後，它可以讀取你開著的分頁，例如一次比較三個沙發商品頁的尺寸、材質、運費與退貨規則。【Work 模式】透過 Computer Use 直接操作分頁：填表單、傳訊息、下載檔案、整理分頁群組，並沿用你已登入的帳號。【權限】預設每個新網站都會先詢問，可選只允許一次、允許該網站或全部網站；重要動作仍需確認。所有 ChatGPT 方案都能用，擴充功能也支援 Edge、Brave、Opera、Vivaldi。【注意】OpenAI 不會另存擴充功能在 Chrome 裡做過的完整操作紀錄。",
+   "links": [
+    [
+     "The Verge 報導",
+     "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+    ],
+    [
+     "The Decoder：功能整理",
+     "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
+    ],
+    [
+     "ChatGPT 官方說明：Work 本機安全性",
+     "https://learn.chatgpt.com/docs/enterprise/chatgpt-work-local-security"
+    ]
+   ],
+   "image": {
+    "file": "chatgpt-chrome.webp",
+    "alt": "OpenAI 示範畫面：ChatGPT 在 Chrome 側邊欄比較分頁內容",
+    "credit": "The Verge（Image: OpenAI）",
+    "credit_url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+   },
+   "short_title": "ChatGPT 能讀你的 Chrome 分頁並代操作",
+   "one": "裝好 ChatGPT 擴充功能後，它能直接看你開著的網頁幫你比價、整理，Work 模式還能代你填表、傳訊息。",
+   "gloss": [
+    [
+     "Computer Use",
+     "讓 AI 像人一樣看畫面、點按鈕、打字來操作電腦或瀏覽器的能力"
+    ]
+   ]
+  },
+  {
+   "id": "opus-5-5-fast-mode",
+   "org": "Anthropic",
+   "tag": "平台異動 · Claude API",
+   "date": "2026-10-15",
+   "title": "Claude Opus 5.5 快速模式正式開放：免排隊申請，輸出速度最高 2.5 倍",
+   "orig": "Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access.",
+   "summary": "Anthropic 10/15 宣布 Claude Opus 5.5 的快速模式（fast mode）結束研究預覽，不必再申請，也不用帶 beta header（舊請求照常可用），Start、Build、Scale 方案都有預設額度。快速模式讓同一個模型的輸出速度最高提升 2.5 倍，價格為每百萬 token 輸入 8 美元、輸出 40 美元（高於標準價）；Opus 5 與 Opus 4.8 的快速模式仍屬研究預覽。Microsoft Foundry 上的 Claude 也可使用；Amazon Bedrock 與 Google Cloud 目前不支援。",
+   "links": [
+    [
+     "Claude Platform 版本紀錄",
+     "https://platform.claude.com/docs/en/release-notes/overview"
+    ],
+    [
+     "官方文件：Fast mode",
+     "https://platform.claude.com/docs/en/build-with-claude/fast-mode"
+    ]
+   ],
+   "image": null,
+   "short_title": "Opus 5.5 快速模式開放，免申請",
+   "one": "開發者現在可以直接讓 Claude Opus 5.5 吐字快約 2.5 倍，代價是價格較高。",
+   "gloss": [
+    [
+     "token",
+     "AI 計算文字的單位，大約一個中文字或半個英文單字"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-t2i-basics",
+   "title": "ComfyUI 文生圖入門：看懂預設工作流程的每個節點",
+   "learn": "跑出第一張圖，並知道模型、提示詞、取樣器各節點在做什麼。",
+   "level": "入門",
+   "vram": "官方頁稱 SD1.5 約 4GB，6GB 顯存可順跑",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Checkpoint",
+     "主模型檔，決定畫風與能力，放在 models/checkpoints"
+    ]
+   ],
+   "steps": [
+    "把一個 SD1.5 模型（例如 v1-5-pruned-emaonly-fp16.safetensors）放進 ComfyUI/models/checkpoints。",
+    "下載官方頁的範例圖，拖進 ComfyUI 載入文生圖工作流程。",
+    "在正向提示詞寫想要的內容、負向提示詞寫不要的內容，按 Queue 生成。",
+    "對照官方頁說明調整 KSampler 的步數、CFG 與 seed，觀察結果差異。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：文生圖教學",
+     "https://docs.comfy.org/tutorials/basic/text-to-image"
+    ],
+    [
+     "Hugging Face：SD1.5 模型檔",
+     "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive"
+    ]
+   ]
+  },
+  {
+   "id": "tut-ltxv",
+   "title": "ComfyUI 跑 LTX-Video：文生影片、圖生影片與首尾影格控制",
+   "learn": "用官方範本做出短影片，並學會用首尾兩張圖控制影片走向。",
+   "level": "中階",
+   "vram": "依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "首尾影格",
+     "給影片開頭和結尾各一張圖，模型負責補出中間的動作"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版（舊版可能找不到範本或缺節點）。",
+    "在範本庫（Template Library）搜尋「LTXV Image to Video」或「LTXV Text to Video」載入工作流程，依提示下載模型。",
+    "圖生影片：在 LoadImage 上傳官方範例圖，寫一段長而具體的描述，按 Queue。",
+    "進階：用官方提供的起始與結束影格試多影格控制。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：LTX-Video 教學",
+     "https://docs.comfy.org/tutorials/video/ltxv"
+    ],
+    [
+     "ComfyUI 官方：工作流程範本",
+     "https://docs.comfy.org/interface/features/template"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-17",
+  "compared_to": "2026-10-16",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-17",
+    "metric": "Arena score",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 11,
+      "delta": -4
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 7
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-16",
+    "diff": {
+     "summary": [
+      "Gemini 4 Argon (high): #1→#1 (0 名), 1525→1524 (-1)",
+      "Muse Wonder (max): #2→#2 (0 名), 1513→1509 (-4)",
+      "Claude Fable 5 (high): #4→#4 (0 名), 1503→1504 (+1)",
+      "Claude Fable 5.1 (max): #7→#6 (+1 名), 1501→1502 (+1)",
+      "Claude Opus 4.7 (high): #6→#7 (-1 名), 1501→1501 (+0)",
+      "Claude Opus 4.6: #8→#8 (0 名), 1498→1497 (-1)",
+      "NEW #10 Muse Spark 1.3 (max) (Meta) 1494",
+      "OUT Muse Spark 1.2 (xhigh) (前次 #10 1495)"
+     ],
+     "dropped": [
+      {
+       "model": "Muse Spark 1.2 (xhigh)",
+       "org": "Meta",
+       "rank": 10,
+       "score": 1495
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Muse Spark 1.2 (xhigh)",
+      "org": "Meta",
+      "rank": 10,
+      "score": 1495
+     }
+    ],
+    "analysis": "文字榜第 1 名仍是 Gemini 4 Argon（1524 分），前段名單大致不變。Muse Wonder (max) 守住第 2，但分數少了 4 分到 1509。Claude Fable 5.1 (max) 上升一名到第 6，和 Claude Opus 4.7 互換位置。Meta 的 Muse Spark 1.3 (max) 以 1494 分新進第 10，取代前一版 Muse Spark 1.2。整體是小幅洗牌，沒有新的榜首。",
+    "analysis_short": "榜首仍是 Gemini 4 Argon；Meta Muse Spark 1.3 新進第 10，Claude Fable 5.1 升到第 6。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-17",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-17",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-16",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "GPT Image 2 (high): #3→#3 (0 名), 1186→1185 (-1)",
+      "Grok Imagine Image 2.0: #5→#5 (0 名), 1166→1165 (-1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1122 (+1)"
+     ]
+    }
+   }
+  ]
+ }
+}
