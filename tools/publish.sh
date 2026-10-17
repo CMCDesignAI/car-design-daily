@@ -8,5 +8,6 @@ python3 tools/build.py --site-url "$SITE_URL"
 python3 tools/build_ai.py --site-url "$SITE_URL"
 git add -A
 git commit -m "${1:-Publish $(date -u +%F)}" || echo "nothing to commit"
+git pull --rebase origin main
 git push origin main
 echo "Pushed. Verify in ~1 min: $SITE_URL/  and  $SITE_URL/ai/"
