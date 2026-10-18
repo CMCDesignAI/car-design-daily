@@ -1,0 +1,535 @@
+{
+ "date": "2026-10-18",
+ "weekday": "週日",
+ "issue_no": 11,
+ "lede": "今天重點：DeepSeek 更新 V4.1 Flash 並開放權重，Reflection 的 501B 大模型 Beam 也正式開源；想在自家電腦跑圖的人，FLUX 3 Image Klein 用 8GB 顯卡就能跑。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": null,
+ "caveats": [
+  "OpenAI 說明中心擋自動抓取，GPT-6 Astra Pro 更新依官方 X 貼文與 TSN、Chasing Next 對照整理；Grok Bot 的 3 倍速度為官方說法。",
+  "本日榜單：文字榜沿用 LMArena 10/15 資料（官方資料集未更新）；DeepSeek、FLUX 3 Klein 分數皆為廠商自測。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "deepseek-v41-flash-1017",
+   "org": "DeepSeek",
+   "tag": "重磅開源 · 文字＋視覺模型",
+   "date": "2026-10-17",
+   "title": "DeepSeek 推出 V4.1-Flash-1017：程式與代理任務分數全面提升，權重同步開源，另開放搜尋 API",
+   "orig": "DeepSeek-V4.1-Flash-1017",
+   "summary": "DeepSeek 10/17 把網站、App 與 API 上的 Flash 模型更新為 V4.1-Flash-1017（API 名稱 deepseek-flash 直接指向新版，舊名 deepseek-v4-flash 仍可呼叫但會轉給新版），權重同步放上 Hugging Face。【比上一版進步在哪】官方模型卡稱這是小改版，但推理、寫程式、代理任務與視覺測試都明顯提升，而且做事更快、輸出更短、成本更低；例如 DeepSWE v1.1 從 74.2 升到 77.0、Automation-Bench 從 54.8 升到 60.5（官方自測）。官方表格中 Opus 5 在 Terminal-Bench 4.0 與 HLE 仍領先。【其他】同時對所有人開放 Search／Fetch API（用自家搜尋引擎），每 1,000 次成功呼叫 0.75 美元（Yahoo／Investing.com 報導）。獨立評測尚未出爐。",
+   "links": [
+    [
+     "Hugging Face：DeepSeek-V4.1-Flash-1017 模型卡",
+     "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+    ],
+    [
+     "DeepSeek API 文件",
+     "https://api-docs.deepseek.com/news/"
+    ],
+    [
+     "Yahoo Tech（Investing.com）報導",
+     "https://tech.yahoo.com/ai/articles/deepseek-releases-ai-model-opens-150321283.html"
+    ]
+   ],
+   "image": {
+    "file": "deepseek.webp",
+    "alt": "Hugging Face 模型分享卡：DeepSeek-V4.1-Flash-1017",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   },
+   "short_title": "DeepSeek V4.1 Flash 小改版，開源又更強",
+   "one": "DeepSeek 便宜的 Flash 模型更新了，寫程式和代理任務分數都往上，權重也能直接下載。",
+   "gloss": [
+    [
+     "開放權重",
+     "把模型檔本身公開給人下載，可以自己架、自己微調，不必只透過官方 API"
+    ],
+    [
+     "代理任務（Agent）",
+     "AI 自己分步驟查資料、用工具、把整件事做完，而不只是回一段話"
+    ]
+   ]
+  },
+  {
+   "id": "reflection-beam",
+   "org": "Reflection",
+   "tag": "延伸 · 重磅開源 · 文字模型",
+   "date": "2026-10-16",
+   "title": "Reflection 正式開源 Beam：501B 參數、Apache 2.0 授權，主打寫程式與 AI 代理",
+   "orig": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "summary": "美國新實驗室 Reflection 10/16 把首個模型 Beam 的權重放上 Hugging Face（之前只預告「10 月稍後開源」，這次是實際釋出）。Beam 是混合專家（MoE）架構，總參數 501B、每個 token 啟用 23B，只吃文字、上下文 1M token，採寬鬆的 Apache 2.0 授權，可商用。提供 BF16、FP8、NVFP4 版本，並附自家開源的 Rust 程式代理工具。【硬體】Hugging Face 說明 BF16 約 1TB，NVFP4 約 280GB，建議 4 張 B200 或 8 張 RTX Pro 6000 等級，不是一般家用電腦能跑；沒有這類硬體可改用推論服務。【在哪能用】Transformers、vLLM、SGLang 首日支援，並已上 Hugging Face 推論服務等平台。",
+   "links": [
+    [
+     "Hugging Face 官方部落格：Welcome Beam",
+     "https://huggingface.co/blog/reflection-beam"
+    ],
+    [
+     "Reflection 官方：Beam is now available",
+     "https://reflection.ai/blog/beam-is-available"
+    ],
+    [
+     "SiliconANGLE 報導",
+     "https://siliconangle.com/2026/10/16/reflection-ai-open-sources-beams-weights-post-training-recipes/"
+    ]
+   ],
+   "image": {
+    "file": "beam.webp",
+    "alt": "Hugging Face 部落格分享圖：Welcome Beam",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/blog/reflection-beam"
+   },
+   "short_title": "501B 的 Beam 正式開源，可商用",
+   "one": "一個前段等級的大模型用最寬鬆的授權放出來，公司可以自己架、自己改，但需要資料中心級的顯卡。",
+   "gloss": [
+    [
+     "MoE（混合專家）",
+     "模型裡有很多「專家」，每次只叫出一小部分來算，所以總參數大但跑起來比較省"
+    ],
+    [
+     "Apache 2.0",
+     "很寬鬆的開源授權，個人和公司都能免費使用、修改、商用"
+    ]
+   ]
+  },
+  {
+   "id": "flux3-klein",
+   "org": "Black Forest Labs",
+   "tag": "重磅開源 · 圖像模型",
+   "date": "2026-10-15",
+   "title": "FLUX 3 Image Klein 開源：5.6B 參數，文生圖、改圖、多張參考圖都能做，8GB 顯卡可跑",
+   "orig": "FLUX 3 Image Klein: open weights, 5.6B parameters",
+   "summary": "Black Forest Labs 10/15 釋出 FLUX 3 Image Klein 權重，一個模型包辦文生圖、改圖與最多 10 張參考圖生成，支援原生 4K 與框選區域控制。【比上一版進步在哪】官方內部評測稱比 FLUX.2 [klein] 9B 在文生圖高 91 Elo、改圖高 70 Elo，參數卻少 38%；也稱在同場比較中領先 Qwen-Image 2.1（7B）與 Krea 2（12.9B）。【硬體】生成器權重 BF16 約 11.2GB、FP8 約 5.6GB；INT8 版可在 8GB 顯存的 RTX 顯卡上透過 ComfyUI 或 Diffusers 跑，RTX 4070 生成一張 1MP 圖約 9 秒內（NVIDIA 實測、蒸餾版 16 步）。【授權與價格】FLUX Kommunity License，年營收 500 萬美元以下可免費商用；API 每張 1K 圖 0.009 美元起。ComfyUI 首日支援（需 0.41.0 以上）。",
+   "links": [
+    [
+     "Black Forest Labs 官方部落格",
+     "https://bfl.ai/blog/flux-3-image-klein"
+    ],
+    [
+     "Hugging Face：flux-3-image-klein",
+     "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+    ],
+    [
+     "ComfyUI 官方教學",
+     "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+    ]
+   ],
+   "image": {
+    "file": "klein.webp",
+    "alt": "Black Forest Labs 官方分享圖：FLUX 3 Image Klein",
+    "credit": "Black Forest Labs",
+    "credit_url": "https://bfl.ai/blog/flux-3-image-klein"
+   },
+   "short_title": "FLUX 3 Klein 開源，8GB 顯卡就能跑",
+   "one": "新一代 FLUX 小模型能生圖也能改圖，一般遊戲顯卡就跑得動，教學區有 ComfyUI 上手步驟。",
+   "gloss": [
+    [
+     "蒸餾（Distilled）",
+     "把大模型的本事「壓縮」到更快的版本，步數變少、出圖更快，品質略有取捨"
+    ],
+    [
+     "顯存（VRAM）",
+     "顯示卡上的記憶體，決定能載入多大的模型"
+    ]
+   ]
+  },
+  {
+   "id": "gpt6-astra-pro-parallel",
+   "org": "OpenAI",
+   "tag": "平台異動 · ChatGPT",
+   "date": "2026-10-16",
+   "title": "ChatGPT 的 GPT-6 Astra Pro 升級：回應更快、工具更好用，還能多個代理同時分工",
+   "orig": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools",
+   "summary": "OpenAI 10/16 在 X 宣布，ChatGPT 聊天分頁裡的 GPT-6 Astra Pro（說明中心寫作 GPT-6 Pro）升級三點：回應更快、更會用外掛與工具、可以讓多個代理同時處理同一個任務的不同部分；你能在對話裡看每個代理的進度，並打開完成的子任務檢查它做了什麼。【誰能用】正在對符合資格的 Pro 用戶推出；企業管理的工作區依設定而定，其他方案未提及。【限制】官方沒有公布具體加速幅度或同時代理數量。",
+   "links": [
+    [
+     "OpenAI 官方 X 貼文",
+     "https://x.com/OpenAI/status/2111192259073094035"
+    ],
+    [
+     "TSN：對照官方發布說明的整理",
+     "https://tsnmedia.org/gpt-6-pro-chatgpt-upgrade/"
+    ],
+    [
+     "Chasing Next 整理",
+     "https://chasingnext.com/updates/parallel-agents-in-gpt-6-astra-pro"
+    ]
+   ],
+   "image": null,
+   "short_title": "GPT-6 Astra Pro 能多代理平行做事",
+   "one": "ChatGPT Pro 用戶的最高階模型變快了，大任務可以拆給好幾個代理同時跑，再逐一檢查結果。",
+   "gloss": [
+    [
+     "平行代理",
+     "把一個大任務拆成幾塊，交給多個 AI 同時做，比一個接一個做更快"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-faster",
+   "org": "xAI",
+   "tag": "平台異動 · Grok Bot",
+   "date": "2026-10-16",
+   "title": "Grok Bot 大更新：電腦任務平均快 3 倍，可讀 X Chat，新增 Robinhood、Coinbase 等連接器",
+   "orig": "Grok Bot is much faster. Computer tasks finish 3x sooner on average, and replies to everything else arrive in less than half the time.",
+   "summary": "官方 @bot 帳號 10/16 發布一串更新，Musk 也轉引「Grok @Bot got much faster」。【速度】電腦操作任務平均快 3 倍完成，其他回覆所需時間不到原本一半；語音通話更快、更穩，也更記得之前聊過的內容。【新功能】連接 X 後可以讀 X Chat 訊息；新增 Robinhood、Coinbase、Trello、PostHog、beehiiv、eToro 等連接器，團隊也能把自己的連接器送上市集；Email 支援加號別名，讓排程只對寄到特定地址的信觸發；通知只送到你正在用的裝置；聊天卡片與字型、主題也重新設計。【限制】官方沒說明 3 倍是怎麼量的，也沒標版本號。",
+   "links": [
+    [
+     "Grok Bot 官方 X 貼文：速度",
+     "https://x.com/bot/status/2111184275374813362"
+    ],
+    [
+     "Elon Musk X 貼文",
+     "https://x.com/elonmusk/status/2111239586873745604"
+    ],
+    [
+     "Chasing Next：更新整理",
+     "https://chasingnext.com/updates/faster-grok-bot-x-chat-access-and-new-connectors"
+    ]
+   ],
+   "image": {
+    "file": "grokbot.webp",
+    "alt": "Grok Bot 官方貼文附圖：新版聊天卡片介面",
+    "credit": "Grok Bot（@bot 官方貼文）",
+    "credit_url": "https://x.com/bot/status/2111184275374813362"
+   },
+   "short_title": "Grok Bot 變快 3 倍，還能讀 X Chat",
+   "one": "Grok Bot 操作電腦的任務快了約 3 倍，也能接上 X 私訊和更多金融、工作類 App。",
+   "gloss": [
+    [
+     "連接器（Connector）",
+     "讓 AI 助理登入並使用其他服務（如 Trello、Coinbase）的橋樑"
+    ]
+   ]
+  },
+  {
+   "id": "krea-3",
+   "org": "Krea",
+   "tag": "圖像模型 · 新世代",
+   "date": "2026-10-15",
+   "title": "Krea 3 上線：專做改圖，2K 改一張不到 8 秒，最多 6 張參考圖保持人物與商品一致",
+   "orig": "Introducing Krea 3",
+   "summary": "Krea 10/15 推出新的改圖模型 Krea 3（和追蹤清單裡的開源文生圖模型 Krea 2 是不同產品）。官方稱多數修改從頭到尾不到 8 秒、原生 2K，換背景時商品標籤保持清楚、同一個人的臉和衣服在下一張圖仍一致，每次最多吃 6 張參考圖。【價格】2K 每張 0.06 美元。【在哪能用】krea.ai，以及 fal、Hedra、Together AI、Nous Research、OpenRouter、Replicate。這次沒有開放權重。LuminaBench 初步試用覺得速度很快，但沒做對照計時，樣本有限。",
+   "links": [
+    [
+     "Krea 官方：Introducing Krea 3",
+     "https://www.krea.ai/blog/introducing-krea-3"
+    ],
+    [
+     "LuminaBench 初步試用",
+     "https://luminabench.com/journal/krea-3/"
+    ]
+   ],
+   "image": {
+    "file": "krea3.webp",
+    "alt": "Krea 官方宣傳圖：Krea 3 發布影片海報",
+    "credit": "Krea",
+    "credit_url": "https://www.krea.ai/blog/introducing-krea-3"
+   },
+   "short_title": "Krea 3：8 秒內改好一張 2K 圖",
+   "one": "Krea 的新改圖模型主打又快又不亂改，適合大量做商品圖和角色一致的系列圖。"
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-flux3-klein",
+   "title": "在 ComfyUI 跑 FLUX 3 Image Klein：文生圖與改圖",
+   "learn": "用官方範本在自己的顯卡跑 FLUX 3 Klein，知道完整版和蒸餾版該怎麼選。",
+   "level": "入門",
+   "vram": "官方稱 INT8 版最低 8GB（RTX 3070 等級）；顯存超過 24GB 可換 BF16 版",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "範本（Template）",
+     "ComfyUI 內建、別人接好節點的工作流程，載入就能用"
+    ],
+    [
+     "提示詞擴寫（Prompt upsampler）",
+     "先用另一個語言模型把你的短提示寫成完整描述，再拿去生圖"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到 0.41.0 以上（舊版找不到 FLUX 3 Klein 範本）。",
+    "在範本庫搜尋「FLUX 3 Image Klein Distilled: Text to Image」載入，依提示下載 INT8 版模型檔。",
+    "輸入提示詞；蒸餾版用 4–16 步（預設 16）、不需要 guidance，按 Queue 生成，圖會存到 ComfyUI/output/。",
+    "想改圖就換成 Image Edit 範本，放入參考圖並用一句指令說要改什麼。",
+    "提示詞擴寫預設開啟；想完全照自己的字生圖，就關掉 enable_prompt_upsampler。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：FLUX 3 Image Klein 教學",
+     "https://docs.comfy.org/tutorials/flux/flux-3-klein"
+    ],
+    [
+     "GitHub：flux-3-image-klein 參考程式",
+     "https://github.com/black-forest-labs/flux-3-image-klein"
+    ]
+   ]
+  },
+  {
+   "id": "tut-multiple-loras",
+   "title": "ComfyUI 同時套用多個 LoRA：串接節點混出新風格",
+   "learn": "把兩個以上的 LoRA 串起來用，並用強度數值調整各自的影響。",
+   "level": "入門",
+   "vram": "依所用主模型而定（範例用 SD1.5，依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "LoRA",
+     "小小的附加模型檔，能在不換主模型的情況下加入特定畫風或角色"
+    ],
+    [
+     "strength_model",
+     "LoRA 的強度，數字越大影響越明顯"
+    ]
+   ],
+   "steps": [
+    "照官方頁下載主模型與兩個範例 LoRA，分別放進 models/checkpoints 與 models/loras。",
+    "載入官方範例工作流程，確認兩個 Load LoRA 節點是一個接一個串起來的。",
+    "在兩個 Load LoRA 節點分別選好 LoRA 檔，按 Queue 生成。",
+    "調整兩個節點的 strength_model，比較不同比例混出的風格差異。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Multiple LoRAs 教學",
+     "https://docs.comfy.org/tutorials/basic/multiple-loras"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-18",
+  "compared_to": "2026-10-17",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-18",
+    "carried_from": "2026-10-17",
+    "latest_as_of": "2026-10-15",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 11,
+      "delta": -4
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 7
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-17",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-18",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-18",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-17",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1220 (+2)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1174 (+2)",
+      "Grok Imagine Image 2.0: #5→#5 (0 名), 1166→1167 (+1)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1165→1166 (+1)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
