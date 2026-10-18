@@ -1,116 +1,154 @@
 [
-  {
-    "date": "2026-10-13",
-    "car_key": "citroen-2cv-concept",
-    "angle": "黃格紋座椅、電木米色、藤編布料",
-    "url": "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/",
-    "image": "cmf-citroen-2cv-concept.webp"
-  },
-  {
-    "date": "2026-10-13",
-    "car_key": "ferrari-purosangue-denim",
-    "angle": "KUROKI 丹寧內裝、藍色漸層霧面車身",
-    "url": "https://car.watch.impress.co.jp/docs/news/2146093.html",
-    "image": "cmf-ferrari-purosangue-denim.webp"
-  },
-  {
-    "date": "2026-10-13",
-    "car_key": "porsche-911-turbo-s-land-down-under",
-    "angle": "Dark Night Blue／Coolibah Brown 皮革、Silky Oak 木飾",
-    "url": "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html",
-    "image": "cmf-porsche-911-land-down-under.webp"
-  },
-  {
-    "date": "2026-10-14",
-    "car_key": "renault-e-space-concept",
-    "angle": "單一紅色系、染色稻草飾板、羊毛漸層地毯",
-    "url": "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng",
-    "image": "cmf-renault-e-space-concept.webp"
-  },
-  {
-    "date": "2026-10-14",
-    "car_key": "alfa-romeo-cuorerosso",
-    "angle": "紅色漸層座艙、Poltrona Frau 磨砂皮、Luna Rossa 透明布",
-    "url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/",
-    "image": "cmf-alfa-romeo-cuorerosso.webp"
-  },
-  {
-    "date": "2026-10-15",
-    "car_key": "jaguar-type01-kvadrat-brass",
-    "angle": "Kvadrat DuoWeave、黃銅脊骨、家具式少縫線座椅",
-    "url": "https://www.jaguar.com/en-us/type-01/material-detail.html",
-    "image": "cmf-jaguar-type01.webp"
-  },
-  {
-    "date": "2026-10-15",
-    "car_key": "fiat-multiplay-watermelon",
-    "angle": "西瓜配色、無縫 3D 針織單材質、防水兒童／寵物區",
-    "url": "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/",
-    "image": "cmf-fiat-multiplay.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "car_key": "porsche-mission-s-analogue-cabin",
-    "angle": "類比五圓儀表、無中控大螢幕、運動座椅",
-    "url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s",
-    "image": "cmf-porsche-mission-s.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "car_key": "polestar-5-flax-seatback",
-    "angle": "亞麻纖維／PP 座椅背、ampliTex＋powerRibs",
-    "url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design",
-    "image": "cmf-polestar5.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "trend",
-    "car_key": "trend:ppg-country-soil-2027",
-    "angle": "PPG 2027 年度色",
-    "url": "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "paint",
-    "car_key": "paint:axalta-redefined-2027",
-    "angle": "Axalta 2027 車色",
-    "url": "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "material",
-    "car_key": "material:adara-hair-keratin-fibre",
-    "angle": "DDW 頭髮角蛋白纖維",
-    "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "car",
-    "car_key": "rolls-royce-phantom-hummingbird",
-    "angle": "鮑魚殼／珍珠母鑲嵌、Ash burr 木皮",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html",
-    "image": "cmf-rr-phantom-hummingbird.webp"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "trend",
-    "car_key": "trend:wgsn-coloro-aw2829",
-    "angle": "WGSN×Coloro AW28/29 五大關鍵色",
-    "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "material",
-    "car_key": "material:magna-apple-leather",
-    "angle": "蘋果生質皮革替代材",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html",
-    "image": "cmf-magna-apple-leather.webp"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "material",
-    "car_key": "material:elix-pcabs-gr5125",
-    "angle": "低光澤 PC/ABS",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
-  }
+ {
+  "date": "2026-10-13",
+  "car_key": "citroen-2cv-concept",
+  "angle": "黃格紋座椅、電木米色、藤編布料",
+  "url": "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/",
+  "image": "cmf-citroen-2cv-concept.webp"
+ },
+ {
+  "date": "2026-10-13",
+  "car_key": "ferrari-purosangue-denim",
+  "angle": "KUROKI 丹寧內裝、藍色漸層霧面車身",
+  "url": "https://car.watch.impress.co.jp/docs/news/2146093.html",
+  "image": "cmf-ferrari-purosangue-denim.webp"
+ },
+ {
+  "date": "2026-10-13",
+  "car_key": "porsche-911-turbo-s-land-down-under",
+  "angle": "Dark Night Blue／Coolibah Brown 皮革、Silky Oak 木飾",
+  "url": "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html",
+  "image": "cmf-porsche-911-land-down-under.webp"
+ },
+ {
+  "date": "2026-10-14",
+  "car_key": "renault-e-space-concept",
+  "angle": "單一紅色系、染色稻草飾板、羊毛漸層地毯",
+  "url": "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng",
+  "image": "cmf-renault-e-space-concept.webp"
+ },
+ {
+  "date": "2026-10-14",
+  "car_key": "alfa-romeo-cuorerosso",
+  "angle": "紅色漸層座艙、Poltrona Frau 磨砂皮、Luna Rossa 透明布",
+  "url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/",
+  "image": "cmf-alfa-romeo-cuorerosso.webp"
+ },
+ {
+  "date": "2026-10-15",
+  "car_key": "jaguar-type01-kvadrat-brass",
+  "angle": "Kvadrat DuoWeave、黃銅脊骨、家具式少縫線座椅",
+  "url": "https://www.jaguar.com/en-us/type-01/material-detail.html",
+  "image": "cmf-jaguar-type01.webp"
+ },
+ {
+  "date": "2026-10-15",
+  "car_key": "fiat-multiplay-watermelon",
+  "angle": "西瓜配色、無縫 3D 針織單材質、防水兒童／寵物區",
+  "url": "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/",
+  "image": "cmf-fiat-multiplay.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "car_key": "porsche-mission-s-analogue-cabin",
+  "angle": "類比五圓儀表、無中控大螢幕、運動座椅",
+  "url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s",
+  "image": "cmf-porsche-mission-s.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "car_key": "polestar-5-flax-seatback",
+  "angle": "亞麻纖維／PP 座椅背、ampliTex＋powerRibs",
+  "url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design",
+  "image": "cmf-polestar5.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "trend",
+  "car_key": "trend:ppg-country-soil-2027",
+  "angle": "PPG 2027 年度色",
+  "url": "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "paint",
+  "car_key": "paint:axalta-redefined-2027",
+  "angle": "Axalta 2027 車色",
+  "url": "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "material",
+  "car_key": "material:adara-hair-keratin-fibre",
+  "angle": "DDW 頭髮角蛋白纖維",
+  "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "car",
+  "car_key": "rolls-royce-phantom-hummingbird",
+  "angle": "鮑魚殼／珍珠母鑲嵌、Ash burr 木皮",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html",
+  "image": "cmf-rr-phantom-hummingbird.webp"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "trend",
+  "car_key": "trend:wgsn-coloro-aw2829",
+  "angle": "WGSN×Coloro AW28/29 五大關鍵色",
+  "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "material",
+  "car_key": "material:magna-apple-leather",
+  "angle": "蘋果生質皮革替代材",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html",
+  "image": "cmf-magna-apple-leather.webp"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "material",
+  "car_key": "material:elix-pcabs-gr5125",
+  "angle": "低光澤 PC/ABS",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "car",
+  "car_key": "mercedes-amg-gt-suv-console",
+  "angle": "RACE ENGINEER 三旋鈕碳纖中控",
+  "url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar",
+  "image": "cmf-amg-gt-suv-console.webp"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "car",
+  "car_key": "volvo-xc40-40series-2026",
+  "angle": "Arianne Cardamom／Brown Ash 內裝更新",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html",
+  "image": "cmf-volvo-xc40.webp"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:asahi-kasei-tpe-coreback",
+  "angle": "同族 TPE 表皮＋發泡 core-back",
+  "url": "https://www.polyformnext.de/news-en/fakuma-2026--new-material-concepts-for-vehicle-interiors.htm"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:zf-recycled-pa6-stabilizer",
+  "angle": "回收 PA6 穩定桿連桿",
+  "url": "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/",
+  "image": "cmf-zf-pa6.webp"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:basf-elastollan-tpu-lightguide",
+  "angle": "透明 Elastollan TPU 導光條",
+  "url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
+ }
 ]

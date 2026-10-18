@@ -1,0 +1,29 @@
+<svg class="diagram" viewBox="0 0 520 250" width="100%" role="img" aria-label="Greenhouse 玻璃艙示意圖：側面線稿標出腰線以上的玻璃艙區塊">
+  <text x="260" y="22" fill="currentColor" font-size="15" text-anchor="middle" opacity=".75">側面：腰線以上＝Greenhouse（玻璃艙）</text>
+  <!-- wheels -->
+  <circle cx="120" cy="178" r="28" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="120" cy="178" r="12" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="390" cy="178" r="28" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="390" cy="178" r="12" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <!-- body lower -->
+  <path d="M55,165 L70,140 L100,132 L160,128 L360,128 L430,132 L470,145 L475,165 Q475,172 468,172 L52,172 Q45,172 45,165 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- beltline -->
+  <path d="M95,128 L430,128" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4" opacity=".55"/>
+  <text x="500" y="124" fill="currentColor" font-size="12" text-anchor="end" opacity=".55">腰線</text>
+  <!-- greenhouse / glasshouse -->
+  <path d="M115,128 L145,78 Q200,55 260,52 Q330,55 380,78 L420,128 Z" fill="#f08a5d" fill-opacity=".18" stroke="#f08a5d" stroke-width="3" stroke-linejoin="round"/>
+  <!-- pillars hint -->
+  <path d="M175,128 L195,78" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".5"/>
+  <path d="M265,128 L265,52" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".45"/>
+  <path d="M340,128 L320,78" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".5"/>
+  <!-- windshield label area -->
+  <text x="210" y="95" fill="currentColor" font-size="12" opacity=".55">擋風</text>
+  <text x="300" y="95" fill="currentColor" font-size="12" opacity=".55">側窗</text>
+  <!-- nose / grille hint -->
+  <path d="M55,165 L48,150 L70,140" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+  <!-- annotations -->
+  <line x1="260" y1="52" x2="260" y2="38" stroke="#f08a5d" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="260" y="210" fill="#f08a5d" font-size="15.5" text-anchor="middle">① 橘色區＝玻璃艙（Greenhouse）</text>
+  <text x="260" y="230" fill="#f08a5d" font-size="15.5" text-anchor="middle">② 虛線＝腰線：之上是窗，之下是車身</text>
+  <text x="260" y="248" fill="currentColor" font-size="13.5" text-anchor="middle" opacity=".8">Ferrari Luce 把這塊做成連續殼狀的「玻璃房子」</text>
+</svg>

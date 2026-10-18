@@ -1,8 +1,14 @@
 [
-  {
-    "date": "2026-10-17",
-    "key": "hmi-carplay-ios27-siri",
-    "url": "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/",
-    "image": "hmi-carplay-ios27.jpg"
-  }
+ {
+  "date": "2026-10-17",
+  "key": "hmi-carplay-ios27-siri",
+  "url": "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/",
+  "image": "hmi-carplay-ios27.jpg"
+ },
+ {
+  "date": "2026-10-18",
+  "key": "hmi-gv90-cinematic",
+  "url": "https://newsroom.genesis.com/redefining-space-with-the-genesis-gv90s-luxury-home-theater/",
+  "image": "hmi-gv90-cinematic.jpg"
+ }
 ]

@@ -1,0 +1,600 @@
+{
+ "date": "2026-10-18",
+ "weekday": "週日",
+ "issue_no": 11,
+ "lede": "Affalterbach 首款全尺寸 SUV 世界首發：Mercedes-AMG GT SUV 以三軸向磁通馬達與星形日行燈登場；Ferrari Luce 在新德里 Universo Ferrari 首度亮相印度；BYD 大漢旗艦轎車、Audi 新一代 Q3、奇瑞 Arrizo 7 與二代海鷗設計細節同步整理。",
+ "design_news": [
+  {
+   "id": "amg-gt-suv",
+   "tag": "世界首發 · Affalterbach",
+   "date": "2026-10-17",
+   "brand": "Mercedes-AMG",
+   "title": "GT SUV：AMG 首款自研全尺寸 SUV，星形日行燈與主動空力",
+   "orig": "High-tech SUV with sports car DNA: The new Mercedes-AMG GT SUV",
+   "summary": "Mercedes-AMG 10 月 17 日在斯圖加特博物館「The 140 Festival」世界首發 GT SUV，是品牌 59 年來首款在 Affalterbach 從頭開發的全尺寸 SUV，也是 AMG.EA 高性能純電架構第二款車。頂規 GT 63 三軸向磁通馬達峰值 860 kW（1,169 hp），GT 53 自 10 月 20 日起可訂，起價 113,050 歐元。",
+   "analysis": [
+    [
+     "比例",
+     "低趴輪廓、寬輪距與肌肉感肩線，刻意壓低正面投影面積；車長 5,084 mm、軸距 3,040 mm、高僅約 1,656 mm。"
+    ],
+    [
+     "燈號",
+     "頭燈日行燈採星形圖案；可選發光水箱護罩與中央星徽；車尾六圓渦輪尾燈，可選貫穿燈條。"
+    ],
+    [
+     "空力",
+     "GT 55／63 的 AEROKINETICS 車頂擾流板 150 km/h 起作動；前保桿 Airpanel 百葉依冷卻需求開合。"
+    ],
+    [
+     "室內 UX",
+     "14 吋中控朝駕駛傾斜＋10.2 吋儀表，可選乘客 14 吋螢幕；GT 63／55 中控有三顆 RACE ENGINEER 旋鈕。"
+    ]
+   ],
+   "sources": [
+    [
+     "Mercedes-Benz Media",
+     "https://media.mercedes-benz.com/en/article/7d4d77de-1aad-4c4c-8a89-a3e140109495"
+    ],
+    [
+     "Autocar India",
+     "https://www.autocarindia.com/car-news/mercedes-amg-gt-suv-revealed-makes-up-to-1169hp-441065"
+    ]
+   ],
+   "image": {
+    "file": "news-amg-gt-suv.webp",
+    "alt": "黃色 Mercedes-AMG GT SUV 在測試道上行駛，Panamericana 護罩與星形日行燈",
+    "credit": "Mercedes-AMG（via Autocar）",
+    "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar"
+   }
+  },
+  {
+   "id": "ferrari-luce-india",
+   "tag": "印度首展 · 純電",
+   "date": "2026-10-17",
+   "brand": "Ferrari",
+   "title": "Luce：首款純電 Ferrari 在新德里 Universo Ferrari 亮相",
+   "orig": "Universo Ferrari Begins in New Delhi, Ferrari Luce Unveiled",
+   "summary": "Ferrari 第五屆 Universo Ferrari 於 10 月 17 日在新德里 Yashobhoomi 開幕（17–18 日邀請制、19 日起對公眾），展覽期間展出品牌首款純電四門五座 Luce。Luce 由 LoveFrom（Jony Ive、Marc Newson）操刀外型、內裝與介面，四馬達、122 kWh 電池，宣稱 0–100 km/h 2.5 秒、續航逾 530 km。",
+   "analysis": [
+    [
+     "比例",
+     "以玻璃艙（glass house）為主體，前後懸浮空氣力學翼包圍，讓車身線條更單純。"
+    ],
+    [
+     "燈號",
+     "透明燈板融入主表面，熄燈時幾乎藏進曲面；車尾光環尾燈向 360 Modena、458 Italia 致敬。"
+    ],
+    [
+     "介面",
+     "實體按鈕、鋁質錶圈與數位顯示並存；方向盤以回收鋁切削，儀表艙隨方向盤移動。"
+    ],
+    [
+     "品牌方向",
+     "開創 Ferrari 全新區隔：性能、駕駛樂趣與五座實用性並存，不取代既有油電與內燃車線。"
+    ]
+   ],
+   "sources": [
+    [
+     "Ferrari：Luce 官方介紹",
+     "https://www.ferrari.com/en-EN/corporate/articles/ferrari-luce-a-new-chapter-for-the-maranello-marque"
+    ],
+    [
+     "CarWale：印度首展",
+     "https://www.carwale.com/news/ferrari-luce-officially-unveiled-in-india/"
+    ]
+   ],
+   "image": {
+    "file": "news-ferrari-luce.webp",
+    "alt": "Ferrari Luce 官方宣傳圖：藍色車身與對比色車頂",
+    "credit": "Ferrari",
+    "credit_url": "https://www.ferrari.com/en-EN/auto/ferrari-luce"
+   }
+  },
+  {
+   "id": "byd-da-han",
+   "tag": "上市 · 中國",
+   "date": "2026-10-16",
+   "brand": "BYD（比亞迪）",
+   "title": "大漢 EV：5.26 米旗艦轎車，龍臉與 0.197 Cd",
+   "orig": "Great Han: BYD launches 5.26-metre battery-electric saloon",
+   "summary": "比亞迪在中國推出 Dynasty 系列旗艦轎車大漢 EV（Da Han），與夏季發表的大唐並列。車長 5.26 米、軸距 3.13 米、高約 1.51 米，1,000V 架構、CLTC 續航最高 1,008 km，起價 235,900 元人民幣。",
+   "analysis": [
+    [
+     "面處理",
+     "延續「龍臉」：細長頭燈、鍍鉻護罩與垂直進氣口；車頂異色並在前緣中央配置 LiDAR。"
+    ],
+    [
+     "空力",
+     "廠稱 Cd 0.197；半隱藏門把、空力後視鏡與 20／21 吋輪圈選配。"
+    ],
+    [
+     "底盤",
+     "雙腔空氣懸吊＋預覽式底盤；後輪轉向最大 7°，迴轉半徑約 5.2 米，支援蟹行。"
+    ],
+    [
+     "室內 UX",
+     "舒適座椅、Nappa 皮革與 31 揚聲器音響；配備「天神之眼 B」與 God’s Eye 5.0 輔助駕駛套件。"
+    ]
+   ],
+   "sources": [
+    [
+     "electrive",
+     "https://www.electrive.com/2026/10/16/great-han-byd-launches-5-26-metre-battery-electric-saloon/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-da-han.webp",
+    "alt": "比亞迪大漢 EV 旗艦轎車側面與前臉",
+    "credit": "BYD（via electrive）",
+    "credit_url": "https://www.electrive.com/2026/10/16/great-han-byd-launches-5-26-metre-battery-electric-saloon/"
+   }
+  },
+  {
+   "id": "audi-q3-india",
+   "tag": "上市 · 印度",
+   "date": "2026-10-16",
+   "brand": "Audi",
+   "title": "第三代 Q3 印度上市：分離式頭燈與蜂巢 Singleframe",
+   "orig": "2026 Audi Q3 launched in India at Rs 51.99 lakh",
+   "summary": "Audi 第三代 Q3 於 10 月 16 日在印度上市，Nova／Zenith 兩等級，起價 51.99 萬盧比起（未稅）。外觀全面重塑：上方 LED 日行燈與下方 Matrix LED 主燈分離，搭配大型蜂巢 Singleframe 護罩；印度本地組裝並已開始交車。",
+   "analysis": [
+    [
+     "燈號",
+     "分離式頭燈：上排 DRL、下排 Matrix LED，可在路面投影 ADAS 提示；車尾亦採分離尾燈＋細燈條，Audi 字標可發光。"
+    ],
+    [
+     "比例",
+     "車長 4,531 mm、軸距 2,681 mm；18 吋輪圈、鍍鉻窗框與略微外擴輪拱。"
+    ],
+    [
+     "室內 UX",
+     "彎曲面雙螢幕：12.8 吋中控＋11.9 吋數位儀表；四幅六角方向盤，右側撥桿兼當排檔。"
+    ],
+    [
+     "品牌方向",
+     "同級少見的標配四驅（Quattro）＋ 2.0T 204 hp，對標 X1／GLA 等前驅對手。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar India",
+     "https://www.autocarindia.com/car-news/2026-audi-q3-launched-in-india-at-rs-5199-lakh-441067"
+    ]
+   ],
+   "image": {
+    "file": "news-audi-q3.webp",
+    "alt": "第三代 Audi Q3 前臉：分離式頭燈與蜂巢護罩",
+    "credit": "Audi（via Autocar India）",
+    "credit_url": "https://www.autocarindia.com/car-news/2026-audi-q3-launched-in-india-at-rs-5199-lakh-441067"
+   }
+  },
+  {
+   "id": "chery-arrizo7",
+   "tag": "工信部申報 · 中國",
+   "date": "2026-10-17",
+   "brand": "Chery（奇瑞）",
+   "title": "全新 Arrizo 7：銳利頭燈與蜂巢護罩，油電雙動力",
+   "orig": "All-New Chery Arrizo 7 Debuts with ICE and PHEV Options in China",
+   "summary": "奇瑞全新 Arrizo 7 出現在中國工信部最新申報名單，提供 1.5T 汽油與插電混動。軸距 2,770 mm、寬 1,850 mm；汽油版長 4,739 mm，採銳利細長頭燈與多面蜂巢護罩，車尾為貫穿尾燈與大型擴散器造型飾板。",
+   "analysis": [
+    [
+     "面處理",
+     "銳利細長頭燈＋多切面蜂巢護罩，整體姿態比前代更運動。"
+    ],
+    [
+     "比例",
+     "油電版車高略增至 1,498 mm；兩版共享前臉，側面差異主要在輪圈與紅色卡鉗選配。"
+    ],
+    [
+     "車尾",
+     "現代貫穿尾燈與侵略感後下擾流飾板收尾。"
+    ]
+   ],
+   "sources": [
+    [
+     "ChinaPEV",
+     "https://www.chinapev.com/chery/all-new-chery-arrizo-7-debuts-with-ice-and-phev-options-in-china/"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-arrizo7.webp",
+    "alt": "奇瑞全新 Arrizo 7 前臉與側面",
+    "credit": "Chery（via ChinaPEV）",
+    "credit_url": "https://www.chinapev.com/chery/all-new-chery-arrizo-7-debuts-with-ice-and-phev-options-in-china/"
+   }
+  },
+  {
+   "id": "byd-seagull2",
+   "tag": "預告 · 10/20 上市",
+   "date": "2026-10-14",
+   "brand": "BYD（比亞迪）",
+   "title": "二代海鷗：車長加 425 mm，車頂 LiDAR 與隱藏立柱",
+   "orig": "Second-generation BYD Seagull set for October 20 launch with LiDAR and expanded dimensions",
+   "summary": "比亞迪二代海鷗（海外或稱 Dolphin Mini／Surf）訂 10 月 20 日上市，已開放盲訂。車長 4,205 mm、軸距 2,650 mm，較現行款分別加長約 425／150 mm；封閉式前臉、多邊形燈組，車頂配置 LiDAR。",
+   "analysis": [
+    [
+     "比例",
+     "明顯加大的軸距與車長，側影採半隱藏門把、亮黑輪圈與隱藏 B／C／D 柱。"
+    ],
+    [
+     "燈號",
+     "多邊形銳利燈組＋新尾燈總成與後擴散器飾板。"
+    ],
+    [
+     "室內 UX",
+     "取消傳統儀表改放大中控，保留部分實體鍵；新雙幅方向盤與無線充電板。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina",
+     "https://carnewschina.com/2026/10/14/second-generation-byd-seagull-set-for-october-20-launch-with-lidar-and-expanded-dimensions/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-seagull2.webp",
+    "alt": "比亞迪二代海鷗藍色車身與車頂 LiDAR",
+    "credit": "BYD（via CarNewsChina）",
+    "credit_url": "https://carnewschina.com/2026/10/14/second-generation-byd-seagull-set-for-october-20-launch-with-lidar-and-expanded-dimensions/"
+   }
+  },
+  {
+   "id": "li-i6-2026",
+   "tag": "小改 · 中國",
+   "date": "2026-10-10",
+   "brand": "Li Auto（理想）",
+   "title": "2026 i6：旗艦頭燈與 29 吋 6K 環景螢幕，10/28 上市",
+   "orig": "Li Auto to launch updated Li i6 in late Oct. with six key upgrades",
+   "summary": "理想公布 2026 款 i6 六項升級：燈組、前行李廂、座椅、螢幕、晶片與續航，並新增 Magnetic Blue、Wind Purple 兩色。車輛 10 月 11 日到店，10 月 28 日正式上市；標配 96 kWh 5C 電池，CLTC 續航最高 780 km。",
+   "analysis": [
+    [
+     "燈號",
+     "改用與 MEGA Home、L9 Livis 同級的旗艦頭燈，照射距離號稱提升近 30%，標配 ADB 自適應遠光。"
+    ],
+    [
+     "室內 UX",
+     "前排 29 吋 6K 環景螢幕可分區或全螢幕；二排升 4K，並加頂部音訊與化妝鏡。"
+    ],
+    [
+     "CMF",
+     "前座全尺寸零重力座椅（16 向＋四向腿托、18 點按摩）；新增兩款外觀色。"
+    ]
+   ],
+   "sources": [
+    [
+     "Gasgoo",
+     "https://autonews.gasgoo.com/articles/ev/li-auto-to-launch-updated-li-i6-in-late-oct-with-six-key-upgrades-2108850844106977281"
+    ]
+   ],
+   "image": {
+    "file": "news-li-i6.webp",
+    "alt": "理想 2026 款 i6 側前方與新頭燈",
+    "credit": "Li Auto（via Gasgoo）",
+    "credit_url": "https://autonews.gasgoo.com/articles/ev/li-auto-to-launch-updated-li-i6-in-late-oct-with-six-key-upgrades-2108850844106977281"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-amg-gt-suv-console",
+   "kind": "car",
+   "car": "Mercedes-AMG GT SUV",
+   "tag": "中控 · RACE ENGINEER",
+   "title": "三旋鈕碳纖中控：Response／Agility／Traction",
+   "points": [
+    "GT 63／55 中控為高光碳纖飾板，三顆金屬滾花旋鈕並排。",
+    "左旋鈕調油門回應（Response），中間調轉向／過彎（Agility）。",
+    "右旋鈕調循跡介入（Traction），九段可調（特定動態模式）。",
+    "旋鈕外圈帶紅色狀態點，與杯架金屬框同屬性能座艙語彙。"
+   ],
+   "image": {
+    "file": "cmf-amg-gt-suv-console.webp",
+    "alt": "AMG GT SUV 碳纖中控特寫：三顆 RACE ENGINEER 旋鈕",
+    "credit": "Mercedes-AMG（via Autocar）",
+    "credit_url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar"
+   },
+   "sources": [
+    [
+     "Autocar：AMG GT SUV interior／RACE ENGINEER",
+     "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-volvo-xc40-2026",
+   "kind": "car",
+   "car": "Volvo XC40 / EX40 / EC40",
+   "tag": "北歐內裝更新",
+   "title": "40 系列：Arianne Cardamom 皮＋Brown Ash 木飾",
+   "points": [
+    "XC40 可選 Arianne Cardamom 皮革搭配 Brown Ash 木飾。",
+    "另有 Black Ash 或鋁質飾板；艙內照明一併精製。",
+    "中控升級 11.2 吋螢幕，並導入 Google Gemini AI 助理。",
+    "無線充電與置物空間重配，延續北歐簡約收納邏輯。"
+   ],
+   "image": {
+    "file": "cmf-volvo-xc40.webp",
+    "alt": "Volvo XC40 駕駛視角：淺色座椅、木紋飾條與直立中控螢幕",
+    "credit": "Volvo（via Automotive Interiors World）",
+    "credit_url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+   },
+   "sources": [
+    [
+     "Automotive Interiors World：Volvo 40 series",
+     "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-asahi-tpe",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "Asahi Kasei · Fakuma",
+   "title": "同族 TPE 表皮＋發泡：少一道黏膠更好回收",
+   "points": [
+    "Fakuma 2026 展示苯乙烯系 TPE 內裝方案。",
+    "表皮與發泡層同材料族，以 core-back 射出一次成型。",
+    "化學鍵結免額外黏膠，簡化製程並利於回收。",
+    "另展出水基硬塗 PC 作為車用玻璃替代，符合 ECE R43 耐磨。"
+   ],
+   "swatch": {
+    "hex": "#D8D2C8",
+    "label": "柔霧米灰（示意色）"
+   },
+   "sources": [
+    [
+     "PolyForm NEXT：Fakuma 2026 Asahi Kasei",
+     "https://www.polyformnext.de/news-en/fakuma-2026--new-material-concepts-for-vehicle-interiors.htm"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-zf-pa6",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "ZF × BASF × Mercedes",
+   "title": "回收 PA6 穩定桿連桿：廢變速箱油底殼重生",
+   "points": [
+    "ZF 與 BASF、Mercedes-Benz 專案獲 2026 MATERIALICA 獎。",
+    "以報廢變速箱油底殼解聚再製 PA6，聚合物含量 100% 回收料。",
+    "在既有產線做近量產驗證，確認可加工與品質。",
+    "示範底盤件閉環：從報廢 ZF 零件到新 ZF 穩定桿連桿。"
+   ],
+   "image": {
+    "file": "cmf-zf-pa6.webp",
+    "alt": "ZF 回收 PA6 製成的穩定桿連桿樣件",
+    "credit": "ZF（via EuropaWire）",
+    "credit_url": "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/"
+   },
+   "sources": [
+    [
+     "EuropaWire：ZF MATERIALICA Award",
+     "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-basf-tpu",
+   "kind": "material",
+   "car": "新材質",
+   "tag": "BASF · Fakuma",
+   "title": "透明 Elastollan TPU 導光條：可彎又耐低溫",
+   "points": [
+    "BASF 於 Fakuma 展出透明 Elastollan TPU 製成的導光件。",
+    "兼具光學表現、柔韌與耐用，適合車內外氣氛燈與識別燈。",
+    "低溫柔韌、低脆性，有助極寒環境可靠點亮。",
+    "可用既有塑膠製程量產，利於異形燈帶與曲面包覆。"
+   ],
+   "swatch": {
+    "hex": "#E8F4F8",
+    "label": "冰透藍白（示意色）"
+   },
+   "sources": [
+    [
+     "Driving Vision News：BASF TPU light guides",
+     "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-gv90-cinematic",
+   "kind": "case",
+   "brand": "Genesis",
+   "tag": "介面與 HMI",
+   "title": "GV90：24.6 吋彈出式 OLED 劇院螢幕",
+   "date": "2026-10-08",
+   "points": [
+    "行駛時以 23.6 吋寬幅顯示導航與駕駛資訊；停車後按鍵升起 90 mm，展開完整 24.6 吋（3840×1440）。",
+    "搭配 Pleos Connect 與 Gleo AI；升起後進入 Media Home，可串流 Netflix、Disney+、YouTube 等。",
+    "25 吋 HUD 同步投影速度、導航與 ADAS；起步後彈出螢幕會自動收回，避免干擾氣囊。",
+    "實體水晶旋鈕上方有 APPS 快捷鍵；介面採圓角方塊、中性色，重點資訊才上強調色。",
+    "後座另有 13.2 吋 OLED ccRC，與 8 吋觸控中控（CTS）分區操作空調、座椅與媒體。"
+   ],
+   "image": {
+    "file": "hmi-gv90-cinematic.jpg",
+    "alt": "Genesis GV90 中控大螢幕 Media Home：串流 App 與電影封面列",
+    "credit": "Genesis (via Genesis Newsroom)",
+    "credit_url": "https://newsroom.genesis.com/redefining-space-with-the-genesis-gv90s-luxury-home-theater/"
+   },
+   "sources": [
+    [
+     "Genesis Newsroom：GV90 Cinematic Display",
+     "https://newsroom.genesis.com/redefining-space-with-the-genesis-gv90s-luxury-home-theater/"
+    ],
+    [
+     "LG Newsroom：GV90 in-cabin solutions",
+     "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-electronics-brings-integrated-next-generation-vehicle-solutions-to-genesis-gv90/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "訂購 · 歐洲",
+   "date": "2026-10-17",
+   "title": "AMG GT 53 SUV 自 10 月 20 日起開放訂購，起價 113,050 歐元",
+   "summary": "入門 GT 53（雙同步馬達、544 hp）本週起可訂；GT 55／63 三軸向磁通馬達車型預計 2027 年春上市。生產在辛德爾芬根廠。",
+   "sources": [
+    [
+     "Mercedes-Benz Media",
+     "https://media.mercedes-benz.com/en/article/7d4d77de-1aad-4c4c-8a89-a3e140109495"
+    ]
+   ]
+  },
+  {
+   "tag": "上市預告 · 中國",
+   "date": "2026-10-14",
+   "title": "比亞迪二代海鷗 10 月 20 日上市，已開放盲訂",
+   "summary": "尺寸大幅加長並配備車頂 LiDAR；動力為 95 kW 永磁同步馬達，預期搭配二代刀片電池閃充。",
+   "sources": [
+    [
+     "CarNewsChina",
+     "https://carnewschina.com/2026/10/14/second-generation-byd-seagull-set-for-october-20-launch-with-lidar-and-expanded-dimensions/"
+    ]
+   ]
+  },
+  {
+   "tag": "展會",
+   "date": "2026-10-18",
+   "title": "2026 巴黎車展今日閉幕（10/12–18）",
+   "summary": "本屆 Mondial de l’Auto 在巴黎 Expo Porte de Versailles 舉行，媒體日後對公眾開放至 18 日；近期國際新車節奏可望放緩。",
+   "sources": [
+    [
+     "Mondial de l’Auto",
+     "https://mondial.paris/en"
+    ]
+   ]
+  },
+  {
+   "tag": "新車預告 · 中國",
+   "date": "2026-10-16",
+   "title": "奇瑞 Lepas 10/22 發表首款概念車與新設計語言",
+   "summary": "將在蕪湖奇瑞國際用戶大會首發概念車與「Next-Generation Leopard Aesthetics」，並預覽導入英國 L6、L4 的技術。",
+   "sources": [
+    [
+     "Just Auto",
+     "https://www.just-auto.com/news/lepas-to-reveal-first-concept-car-and-showcase-technology-for-next-gen-models/"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Greenhouse",
+  "zh": "玻璃艙／車窗面積",
+  "body": "Greenhouse（玻璃艙）指腰線以上的車身區塊：擋風玻璃、側窗、後窗、車頂與立柱合起來的「玻璃房子」。設計師用它的高低、立柱粗細與側窗內傾（tumblehome）來決定車看起來高還是貼地、艙內亮不亮。本期 Ferrari Luce 把玻璃艙做成連續殼狀曲面，甚至延伸到腰線以下，前後再用懸浮空氣力學翼包住，讓車身外型更單純。這樣做是為了在四門五座的空間感之外，仍保持流暢的空力與識別度。",
+  "source": [
+   [
+    "Car Design News：Automotive Design Glossary（Greenhouse）",
+    "https://www.cardesignnews.com/designers/a-is-fora-comprehensive-glossary-of-automotive-design-terms/506932"
+   ],
+   [
+    "Ferrari：Luce glass house 設計說明",
+    "https://www.ferrari.com/en-EN/corporate/articles/ferrari-luce-a-new-chapter-for-the-maranello-marque"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Cardamom Soft Cabin",
+   "zh": "豆蔻柔光座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以 Volvo 40 系列 Arianne Cardamom／Brown Ash 方向為骨幹，搭配本期 AMG 性能座艙的深石墨與一抹暖銅縫線，重新組合成安靜的北歐–性能混搭。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "豆蔻米（示意）",
+     "#C9B8A4",
+     false,
+     "ip-upper",
+     {
+      "src": "Volvo Arianne Cardamom 方向",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 木紋",
+     "Brown Ash（示意）",
+     "#8A7358",
+     false,
+     "ip-decor",
+     {
+      "src": "Volvo Brown Ash",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+     }
+    ],
+    [
+     "門板嵌飾 · 織布／皮",
+     "暖沙色（示意）",
+     "#E6DDD0",
+     false,
+     "door-insert",
+     {
+      "src": "Volvo 淺色內裝",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "煙燻卡其（示意）",
+     "#A89880",
+     false,
+     "armrest"
+    ],
+    [
+     "縫線／點綴",
+     "暖銅（示意）",
+     "#C4783A",
+     false,
+     "stitch",
+     {
+      "src": "AMG Manufaktur 暖色點綴方向",
+      "url": "https://media.mercedes-benz.com/en/article/7d4d77de-1aad-4c4c-8a89-a3e140109495"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "深石墨（示意）",
+     "#2E3134",
+     false,
+     "door-lower",
+     {
+      "src": "AMG 性能深色下飾板",
+      "url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Arianne Cardamom／Brown Ash：Volvo 40 series 內裝更新",
+     "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html"
+    ],
+    [
+     "性能深色飾板與暖色點綴：AMG GT SUV／Manufaktur 方向",
+     "https://media.mercedes-benz.com/en/article/7d4d77de-1aad-4c4c-8a89-a3e140109495"
+    ]
+   ],
+   "mood": [
+    "安靜",
+    "北歐溫暖",
+    "柔光",
+    "一點暖銅"
+   ],
+   "mood_text": "大面積豆蔻米與暖沙色讓座艙像白天的木質客廳；深石墨下飾板壓住重心，暖銅縫線只出現在觸手可及處。",
+   "vars": {
+    "ip-lower": "#2E3134",
+    "door-upper": "#C9B8A4",
+    "console": "#2E3134",
+    "seat": "#E6DDD0",
+    "steering": "#2A2C2E",
+    "headliner": "#F0EBE3",
+    "seat-bolster": "#C9B8A4",
+    "seat-center": "#E6DDD0",
+    "console-arm": "#A89880",
+    "accent-pod": "#C4783A"
+   }
+  }
+ }
+}
