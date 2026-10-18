@@ -349,27 +349,31 @@
    ]
   },
   {
-   "id": "cmf-material-ddw-natural-colour",
+   "id": "cmf-material-alcantara-auto-2026",
    "kind": "material",
-   "car": "表面材質",
-   "tag": "Dutch Design Week 2026",
-   "title": "天然染色與釉料：顏色從材料本身長出來",
+   "car": "Alcantara",
+   "tag": "車用內裝面料 · Automotive Collection 2026",
+   "title": "Alcantara 2026 車用系列：四組內裝面料情境",
    "points": [
-    "DDW 10/17–25 於 Eindhoven，六個專案以植物、在地資源做色彩實驗。",
-    "Kaustik Studio「Strata」：天然染料手簇羊毛，疊出地層般的色階與浮雕。",
-    "Mul-deum 從花、落葉、土壤萃取 20 色，套用在柱、牆與長凳表面。",
-    "色彩受 pH 與塗佈表面影響；另有以餐廳廚餘製成的陶瓷釉料。"
+    "為巴黎車展推出，色彩、紋理、加工與觸感一起提案，供車廠客製。",
+    "Aqualumea：Deep Teal、Aquamarine 藍綠，搭配虹彩效果與雷射層疊。",
+    "Nuvaura 粉彩（Pastel Lilac、Elfin Yellow）配微雕刻與柔和 3D 紋理。",
+    "Archea 大地色＋新色 Brique；Venturis 綠灰配 Ember Orange、雷射與打孔。"
    ],
    "image": {
-    "file": "cmf-ddw-natural-colour.webp",
-    "alt": "Dutch Design Week 2026 天然色彩與材質展出作品",
-    "credit": "Dutch Design Week（via MaterialDistrict）",
-    "credit_url": "https://materialdistrict.com/article/natural-colour-and-material-expression-at-dutch-design-week-2026/"
+    "file": "cmf-alcantara-auto-2026.webp",
+    "alt": "Alcantara Automotive Collection 2026 深藍面料雷射切割紅色線紋特寫",
+    "credit": "Alcantara（官方新聞資料）",
+    "credit_url": "https://www.alcantara.com/press-area/alcantara-presents-its-automotive-collection-2026/"
    },
    "sources": [
     [
-     "MaterialDistrict：Natural Colour and Material Expression at DDW 2026（10/16）",
-     "https://materialdistrict.com/article/natural-colour-and-material-expression-at-dutch-design-week-2026/"
+     "Formula Motori：Alcantara Automotive 2026 quattro scenari（10/6）",
+     "https://www.formulamotori.it/2026/10/06/alcantara-automotive-2026-quattro-scenari/"
+    ],
+    [
+     "Alcantara Press：Automotive Collection 2026",
+     "https://www.alcantara.com/press-area/alcantara-presents-its-automotive-collection-2026/"
     ]
    ]
   },
