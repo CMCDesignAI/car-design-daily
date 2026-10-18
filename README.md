@@ -55,6 +55,7 @@ tools/
    - **每日數量依素材量、重要性與適合度決定，不硬湊**：car 1–2、trend+paint+material 合計 2–3、hmi 0–2，`cmf`＋`hmi` 合計 4–7。欄位：`cmf[]`：`{id, kind(car|trend|paint|material), car（品牌／車型或機構名）, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{file, alt, credit, credit_url}（車型必填；其他有圖就放）, swatch?{label, hex}（無圖的色彩卡）, sources[[名稱, url]], note?（備援說明，顯示 ⚠）}`。`kind` 決定所在列與標籤（車型／趨勢／塗料／材質）。發布前跑 `python3 tools/check_cmf.py <日期>`（會檢查上述數量，舊期無 kind 不檢查）。
    - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**；也避免同車重複講設計新聞已寫過的內裝重點（例：Mission S 已在設計新聞講五圓儀表，就不要再用同一角度當 CMF 車型則）。優先選設計新聞以外的車；素材夠好且有**另一篇**專門內裝／CMF 來源時才用同車。
    - **規則 2：車型則照片必須是內裝或材質特寫**（座艙、座椅、儀表板、飾板、縫線、布料／皮革、漆面近拍）。**禁止外觀 3/4 或全車照**。找不到合格照片就換車。
+   - **材質卡範圍（只收看得到、摸得到的表面材質與表面處理）**：內外飾皮革／布料／紡織、木飾、烤漆／塗層、電鍍／鍍鉻、紋理／皮紋、燈光材質（導光、透光面料）、永續表面材質。**不收**結構件、底盤件、引擎／變速箱、隱藏在內部的零件或純工程材料新聞（例：回收 PA6 穩定桿連桿這類底盤件）。本報主題是造型／設計／色彩。
    - **來源**：國際車廠原廠新聞稿／內裝圖集、zley 提供的 CMF 部門網站（色彩趨勢 WGSN／Coloro／Pantone／NCS；車用塗料 PPG／Axalta／BASF；材質 MaterialDistrict、Automotive Interiors World /news/materials 等；空間／生活設計 Dezeen／designboom 僅備援）、網路搜尋（Auto&Design、Interior Motives、Car Design News 等），以及相關時的中國車廠（NIO、Li Auto、Xpeng、BYD 等原廠發布）。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
    - **去重（30 天）**：寫入 `cmf-log.json`（`{date, kind?, car_key, angle, url, image?}`）。30 天內同 `car_key` 或同 `url` 不再放。車型湊不到 2 則就少放，不硬湊；0 則車型時仍盡量保留趨勢／塗料／材質。
 1c. **介面與 HMI 卡（`hmi[]`，0–2 張；有好案例時 1 張，強案例日 2 張）**：在上面卡片模組的 C 列，和其他卡片同樣式，標籤「介面與 HMI」（kind=case）或「靈感參考」（kind=inspiration）。給 GUI 設計師看的「以圖為主」設計案例。

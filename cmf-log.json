@@ -139,16 +139,16 @@
  {
   "date": "2026-10-18",
   "kind": "material",
-  "car_key": "material:zf-recycled-pa6-stabilizer",
-  "angle": "回收 PA6 穩定桿連桿",
-  "url": "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/",
-  "image": "cmf-zf-pa6.webp"
+  "car_key": "material:basf-elastollan-tpu-lightguide",
+  "angle": "透明 Elastollan TPU 導光條",
+  "url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
  },
  {
   "date": "2026-10-18",
   "kind": "material",
-  "car_key": "material:basf-elastollan-tpu-lightguide",
-  "angle": "透明 Elastollan TPU 導光條",
-  "url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
+  "car_key": "material:ddw-natural-colour-expression",
+  "angle": "天然染料手簇羊毛、植物色料表面、廚餘陶瓷釉",
+  "url": "https://materialdistrict.com/article/natural-colour-and-material-expression-at-dutch-design-week-2026/",
+  "image": "cmf-ddw-natural-colour.webp"
  }
 ]

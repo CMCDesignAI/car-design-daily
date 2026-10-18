@@ -349,27 +349,27 @@
    ]
   },
   {
-   "id": "cmf-material-zf-pa6",
+   "id": "cmf-material-ddw-natural-colour",
    "kind": "material",
-   "car": "新材質",
-   "tag": "ZF × BASF × Mercedes",
-   "title": "回收 PA6 穩定桿連桿：廢變速箱油底殼重生",
+   "car": "表面材質",
+   "tag": "Dutch Design Week 2026",
+   "title": "天然染色與釉料：顏色從材料本身長出來",
    "points": [
-    "ZF 與 BASF、Mercedes-Benz 專案獲 2026 MATERIALICA 獎。",
-    "以報廢變速箱油底殼解聚再製 PA6，聚合物含量 100% 回收料。",
-    "在既有產線做近量產驗證，確認可加工與品質。",
-    "示範底盤件閉環：從報廢 ZF 零件到新 ZF 穩定桿連桿。"
+    "DDW 10/17–25 於 Eindhoven，六個專案以植物、在地資源做色彩實驗。",
+    "Kaustik Studio「Strata」：天然染料手簇羊毛，疊出地層般的色階與浮雕。",
+    "Mul-deum 從花、落葉、土壤萃取 20 色，套用在柱、牆與長凳表面。",
+    "色彩受 pH 與塗佈表面影響；另有以餐廳廚餘製成的陶瓷釉料。"
    ],
    "image": {
-    "file": "cmf-zf-pa6.webp",
-    "alt": "ZF 回收 PA6 製成的穩定桿連桿樣件",
-    "credit": "ZF（via EuropaWire）",
-    "credit_url": "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/"
+    "file": "cmf-ddw-natural-colour.webp",
+    "alt": "Dutch Design Week 2026 天然色彩與材質展出作品",
+    "credit": "Dutch Design Week（via MaterialDistrict）",
+    "credit_url": "https://materialdistrict.com/article/natural-colour-and-material-expression-at-dutch-design-week-2026/"
    },
    "sources": [
     [
-     "EuropaWire：ZF MATERIALICA Award",
-     "https://news.europawire.eu/zf-receives-2026-materialica-award-for-recycled-polyamide-chassis-component-project/eu-press-release/2026/10/16/16/46/03/183342/"
+     "MaterialDistrict：Natural Colour and Material Expression at DDW 2026（10/16）",
+     "https://materialdistrict.com/article/natural-colour-and-material-expression-at-dutch-design-week-2026/"
     ]
    ]
   },
