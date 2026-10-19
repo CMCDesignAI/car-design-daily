@@ -150,5 +150,27 @@
   "angle": "四組車用內裝面料情境：虹彩、微雕刻、雷射打孔、新色 Brique／Ember Orange",
   "url": "https://www.formulamotori.it/2026/10/06/alcantara-automotive-2026-quattro-scenari/",
   "image": "cmf-alcantara-auto-2026.webp"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "car",
+  "car_key": "acura-nexera-vision-circuleather",
+  "angle": "單色座艙粉色點綴、CircuLeather、鍛造碳、回收鋁",
+  "url": "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review",
+  "image": "cmf-acura-nexera.webp"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "paint",
+  "car_key": "paint:mini-frozen-nomad-blue-matt",
+  "angle": "MINI 首款原廠消光漆 Frozen Nomad Blue",
+  "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "material",
+  "car_key": "material:lexus-nx-forged-bamboo",
+  "angle": "55% 生質 Forged Bamboo 飾板",
+  "url": "https://www.carscoops.com/2026/09/lexus-nx-debut/"
  }
 ]

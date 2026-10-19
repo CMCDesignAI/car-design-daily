@@ -1,0 +1,531 @@
+{
+ "date": "2026-10-19",
+ "weekday": "週一",
+ "issue_no": 12,
+ "lede": "Peugeot E-T16 概念車以三爪燈號與膨大輪拱致敬 205 T16，並預告下一代 E-208 的 Feline Future 設計；二代 Tesla Roadster 開放馬來西亞預訂，比亞迪第三代秦 PLUS、埃安 Ray7、一汽-大眾 ID. AURA L5 等中國新車同步整理。",
+ "design_news": [
+  {
+   "id": "peugeot-e-t16",
+   "tag": "概念車 · 致敬 205 T16",
+   "date": "2026-10-18",
+   "brand": "Peugeot",
+   "title": "E-T16 概念車：205 T16 化身純電掀背，預告下一代 E-208",
+   "orig": "Peugeot E-T16 revives a rally icon",
+   "summary": "為紀念 205 T16 在 1985、1986 年連奪 WRC 冠軍 40 週年，Peugeot 與 Peugeot Sport 推出 E-T16 純電概念車：三具馬達合計 600 kW，是史上最強的 Peugeot 道路車型，宣稱 0–100 km/h 2.5 秒。官方表示它導入全新「Feline Future」設計語言，將在下一代 E-208 量產首發；目前沒有量產跡象。",
+   "analysis": [
+    [
+     "燈號",
+     "重新詮釋品牌招牌的三爪燈號，前後都是主要識別。"
+    ],
+    [
+     "比例",
+     "膨大輪拱、誇張的空力件與拉力賽比例，直接向原版 205 T16 致敬。"
+    ],
+    [
+     "室內 UX",
+     "以 Hypersquare 線傳轉向控制器取代傳統方向盤，搭配細長的 21 吋全景螢幕整合儀表與資訊娛樂。"
+    ],
+    [
+     "品牌方向",
+     "800V 架構、85 kWh 電池；設計語言 Feline Future 預告下一代 E-208。"
+    ]
+   ],
+   "sources": [
+    [
+     "Sgcarmart",
+     "https://www.sgcarmart.com/articles/news/peugeot-e-t16-revives-a-rally-icon-39508"
+    ]
+   ],
+   "image": {
+    "file": "news-peugeot-e-t16.webp",
+    "alt": "Peugeot E-T16 概念車正面：三爪燈號與膨大輪拱",
+    "credit": "Peugeot（via Sgcarmart）",
+    "credit_url": "https://www.sgcarmart.com/articles/news/peugeot-e-t16-revives-a-rally-icon-39508"
+   }
+  },
+  {
+   "id": "tesla-roadster",
+   "tag": "開放預訂 · 馬來西亞",
+   "date": "2026-10-18",
+   "brand": "Tesla",
+   "title": "二代 Roadster：Ano White 塗層、金色玻璃與白色座艙",
+   "orig": "Tesla Roadster launches in Malaysia with futuristic cabin, rocket thrusters and RM1m reservation fees",
+   "summary": "全新第二代 Tesla Roadster 在馬來西亞開放預訂，分 Performance、Thrust 與邀請制 Rocket 三種版本；預訂金不等於售價，規格與價格尚未公布，預計 2028 年投產。外型與 2017 年發表版本完全不同。",
+   "analysis": [
+    [
+     "面處理",
+     "極簡外型：隱藏式頭燈、全寬尾燈與齊平車身表面；細輻條超輕量輪圈。"
+    ],
+    [
+     "CMF",
+     "Ano White 車漆號稱具航太技術（抗 UV、低溫防護、靜電消散、防蝕）；Gold Glazed 金色玻璃靈感來自太空衣鍍銅面罩，配細緻鈦金屬點綴。"
+    ],
+    [
+     "室內 UX",
+     "Ultrawhite 內裝配灰色 microsuede 與包覆側翼；為減重採手動控制與固定座椅位置，大量使用鎂、鈦與碳纖。"
+    ],
+    [
+     "空力",
+     "Performance 版以多模式風扇吸地系統配合主動翼產生下壓力。"
+    ]
+   ],
+   "sources": [
+    [
+     "Malay Mail（SoyaCincau）",
+     "https://www.malaymail.com/news/life/2026/10/18/tesla-roadster-launches-in-malaysia-with-futuristic-cabin-rocket-thrusters-and-rm1m-reservation-fees/239591"
+    ]
+   ],
+   "image": {
+    "file": "news-tesla-roadster.webp",
+    "alt": "二代 Tesla Roadster 銀白車身側前方",
+    "credit": "Tesla（via Malay Mail／SoyaCincau）",
+    "credit_url": "https://www.malaymail.com/news/life/2026/10/18/tesla-roadster-launches-in-malaysia-with-futuristic-cabin-rocket-thrusters-and-rm1m-reservation-fees/239591"
+   }
+  },
+  {
+   "id": "byd-qin-plus-3",
+   "tag": "官圖 · 中國",
+   "date": "2026-10-18",
+   "brand": "BYD（比亞迪）",
+   "title": "第三代秦 PLUS：軸距 2.8 米溜背轎車，可選車頂 LiDAR",
+   "orig": "比亚迪第三代秦PLUS官图来了，轴距2米8，或10月下旬上市",
+   "summary": "比亞迪公布第三代秦 PLUS 官圖，預計 10 月下旬上市。車長 4,840 mm、寬 1,900 mm、高 1,498 mm，軸距 2,800 mm；插混版為 1.5L 引擎（74 kW）＋電機（120 kW），純電續航 107／160 km 兩種。",
+   "analysis": [
+    [
+     "燈號",
+     "最新家族式設計：狹長頭燈組，下方兩側配類似風道的造型。"
+    ],
+    [
+     "比例",
+     "側面以溜背線條為重點，前低後高，運動感明顯；輪胎 16／17 吋兩種。"
+    ],
+    [
+     "車尾",
+     "沿用旗下多款車型的尾燈設計，夜間辨識度高。"
+    ],
+    [
+     "配備",
+     "車頂可見 LiDAR，依過往比亞迪新車慣例應為選配。"
+    ]
+   ],
+   "sources": [
+    [
+     "選車網",
+     "https://www.chooseauto.com.cn/news/1029850.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-qin-plus.webp",
+    "alt": "比亞迪第三代秦 PLUS 官圖側面溜背輪廓",
+    "credit": "BYD（via 選車網）",
+    "credit_url": "https://www.chooseauto.com.cn/news/1029850.shtml"
+   }
+  },
+  {
+   "id": "aion-ray7",
+   "tag": "預售 · 中國",
+   "date": "2026-10-18",
+   "brand": "GAC AION（埃安）",
+   "title": "Ray7：大五米低趴轎車，3.25 米雙環燈帶",
+   "orig": "埃安Ray7开启预售：纯电续航最高702公里，预售价12.88万元起",
+   "summary": "純電轎車埃安 Ray7 開啟預售，預售價 12.88–15.88 萬元人民幣，CLTC 續航最高 702 km。採埃安焕新家族式「量子星環」前後燈組，風阻係數 0.22 Cd。",
+   "analysis": [
+    [
+     "比例",
+     "大五米車長、低趴寬體，寬高比 1.30、輪高比 0.48。"
+    ],
+    [
+     "燈號",
+     "量子星環前後燈組＋3.25 米超長雙環燈帶。"
+    ],
+    [
+     "CMF",
+     "金屬感車漆採 3C2B 工藝與超細金屬鋁粉。"
+    ],
+    [
+     "室內 UX",
+     "高通 8295P 晶片配 15.6 吋 2.5K 中控大螢幕。"
+    ]
+   ],
+   "sources": [
+    [
+     "新浪科技",
+     "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-aion-ray7.webp",
+    "alt": "埃安 Ray7 黃色車身側前方",
+    "credit": "GAC AION（via 新浪科技）",
+    "credit_url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml"
+   }
+  },
+  {
+   "id": "vw-id-aura-l5",
+   "tag": "官圖 · 中國",
+   "date": "2026-10-16",
+   "brand": "FAW-Volkswagen（一汽-大眾）",
+   "title": "ID. AURA L5：流水塑形大掀背，還原上海車展概念車",
+   "orig": "智能大掀背，一汽-大众ID. AURA L5官图首秀",
+   "summary": "一汽-大眾發布 ID. AURA L5 官圖，是 ID. AURA 序列第二款、首款純電家轎，由中德設計團隊聯合打造，高度還原 2025 上海車展 ID. AURA 概念車。車長 4,883 mm、軸距 2,820 mm。",
+   "analysis": [
+    [
+     "比例",
+     "「流水塑形」設計語言，短懸長軸勾勒轎跑姿態；尺寸 4,883×1,881×1,506 mm。"
+    ],
+    [
+     "機能",
+     "溜背結合電動掀背尾門：開啟角度超過 70°、開口寬度超過 1,000 mm。"
+    ],
+    [
+     "CMF",
+     "白、灰、銀、紫、金、藍六款外色，鎖定年輕客群。"
+    ],
+    [
+     "品牌方向",
+     "「實用自然主義」貫穿整車；部分車型配備 LiDAR。"
+    ]
+   ],
+   "sources": [
+    [
+     "蓋世汽車",
+     "https://auto.gasgoo.com/news/202610/16I70475109C109.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-aura-l5.webp",
+    "alt": "一汽-大眾 ID. AURA L5 紫色車身側前方",
+    "credit": "一汽-大眾（via 蓋世汽車）",
+    "credit_url": "https://auto.gasgoo.com/news/202610/16I70475109C109.shtml"
+   }
+  },
+  {
+   "id": "leapmotor-a10s",
+   "tag": "上市 · 中國",
+   "date": "2026-10-18",
+   "brand": "Leapmotor（零跑）",
+   "title": "A10s：鏡夜黑專屬車色＋Modern Gray 紅縫線座艙",
+   "orig": "Leapmotor launches A10s with LiDAR for about $13,800",
+   "summary": "零跑 10 月 18 日推出小型純電 SUV A10s，售價 92,800 元人民幣，配 LiDAR、CLTC 續航 505 km。核心規格與 A10 505 LiDAR 相同，差異主要在專屬造型與舒適配備。",
+   "analysis": [
+    [
+     "CMF",
+     "專屬 Mirror Night Black（鏡夜黑）車漆、槍灰色廠徽、18 吋黑色運動輪圈與紅色「S」尾標。"
+    ],
+    [
+     "室內",
+     "Modern Gray 配色，仿麂皮座椅加紅色縫線與頭枕刺繡；前座吸入式通風、後座氛圍燈。"
+    ],
+    [
+     "比例",
+     "尺寸不變：4,270×1,810×1,635 mm、軸距 2,605 mm。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
+    ]
+   ],
+   "image": {
+    "file": "news-leapmotor-a10s.webp",
+    "alt": "零跑 A10s 鏡夜黑車身正面",
+    "credit": "Leapmotor（via CnEVPost）",
+    "credit_url": "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
+   }
+  },
+  {
+   "id": "toyota-glanza",
+   "tag": "上市 · 印度",
+   "date": "2026-10-14",
+   "brand": "Toyota",
+   "title": "新 Glanza：導入 Toyota 全球前臉語彙，新增 Digital Teal Green",
+   "orig": "Toyota Kirloskar Motor Introduces the New Toyota Glanza",
+   "summary": "Toyota Kirloskar Motor 10 月 14 日在印度推出新 Glanza 掀背，起價 69.9 萬盧比（出廠價），10 月 15 日開放預訂、11 月第一週交車；搭載新一代 1.2 升三缸 Z12E 引擎，並首度加入 Level 2 ADAS。",
+   "analysis": [
+    [
+     "面處理",
+     "前臉參考 Toyota 全球前臉設計：上護罩橫跨寬版鍍鉻飾條、加大下護罩與運動側裙。"
+    ],
+    [
+     "燈號",
+     "LED 投射頭燈與日行燈、LED 尾燈；車頂做出懸浮車頂效果。"
+    ],
+    [
+     "CMF",
+     "七色可選，新增 Bluish Black 與 Digital Teal Green；內裝為雙色調。"
+    ],
+    [
+     "室內 UX",
+     "22.86 cm Smart Playcast pro 資訊娛樂、抬頭顯示器與前座通風。"
+    ]
+   ],
+   "sources": [
+    [
+     "Toyota Bharat 新聞稿",
+     "https://www.toyotabharat.com/news/2026/tkm-introduces-the-new-toyota-glanza.html"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-glanza.webp",
+    "alt": "新 Toyota Glanza 紅色車身發表會現場",
+    "credit": "Toyota Kirloskar Motor",
+    "credit_url": "https://www.toyotabharat.com/news/2026/tkm-introduces-the-new-toyota-glanza.html"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-acura-nexera-vision",
+   "kind": "car",
+   "car": "Acura Nexera Vision",
+   "tag": "概念座艙 · 材質櫃",
+   "title": "粉色點綴單色座艙：CircuLeather＋鍛造碳",
+   "points": [
+    "單色座艙穿插粉色點綴，對比鍛造碳與亮黑表面。",
+    "材質主軸是回收鋁與 CircuLeather。",
+    "CircuLeather 取自食品業副產品皮料，保留真皮柔軟手感。",
+    "前座固定於地板，改由方向盤與踏板調整坐姿。"
+   ],
+   "image": {
+    "file": "cmf-acura-nexera.webp",
+    "alt": "Acura Nexera Vision 座艙：方向盤、黑色儀表與粉色點綴",
+    "credit": "Acura（via Wallpaper*）",
+    "credit_url": "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review"
+   },
+   "sources": [
+    [
+     "Wallpaper*：Acura Nexera Vision（10/15）",
+     "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-mini-frozen-nomad-blue",
+   "kind": "paint",
+   "car": "MINI Countryman Untamed Edition",
+   "tag": "原廠消光漆 · 首次",
+   "title": "Frozen Nomad Blue：MINI 首款原廠消光漆",
+   "points": [
+    "Untamed Edition 專屬 Nomad Blue 與 Hideaway Grey 兩色。",
+    "Frozen Nomad Blue 自 2027 年 1 月訂單起提供。",
+    "這是 MINI 首次由原廠提供消光（matt）車漆。",
+    "搭配 Dark Steel 飾件與輪拱紋理消光黑保護膜。"
+   ],
+   "swatch": {
+    "hex": "#56718A",
+    "label": "Frozen Nomad Blue（示意色）"
+   },
+   "sources": [
+    [
+     "Girlracer：MINI Countryman Untamed Edition（10/7）",
+     "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-lexus-forged-bamboo",
+   "kind": "material",
+   "car": "Lexus NX（2027）",
+   "tag": "量產飾板 · 生質材料",
+   "title": "Forged Bamboo 飾板：55% 生質材料",
+   "points": [
+    "2027 年式 NX 小改內裝新增 Forged Bamboo 飾板。",
+    "此飾板由 55% 生質材料製成。",
+    "另可選 Dark Brown Oak 深棕橡木飾板。",
+    "新增 Clay Red 與 F Sport 專屬 Prominence 內裝色。"
+   ],
+   "swatch": {
+    "hex": "#8A7656",
+    "label": "竹纖暖棕（示意色）"
+   },
+   "sources": [
+    [
+     "Carscoops：2027 Lexus NX（9/1）",
+     "https://www.carscoops.com/2026/09/lexus-nx-debut/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-byd-tang-giant-screen-ui",
+   "kind": "case",
+   "brand": "BYD",
+   "tag": "介面與 HMI",
+   "title": "第三代唐 EV：可拼接視窗的 Giant Screen UI",
+   "date": "2026-10-16",
+   "points": [
+    "導航、媒體與車輛資訊可自由組合、縮放並平鋪成多視窗。",
+    "35.4 吋遠置螢幕位於擋風玻璃下緣，搭配橫跨中控與副駕的 30 吋全景觸控螢幕。",
+    "上方螢幕顯示車速、車況與導航，取代傳統儀表與抬頭顯示器。",
+    "固定橫向配置，不同於部分舊款比亞迪的旋轉中控螢幕。",
+    "新增 AI 車內夥伴「小麵包」，以視覺與語音感知打招呼並變換表情。"
+   ],
+   "image": {
+    "file": "hmi-byd-tang-giant-ui.jpg",
+    "alt": "比亞迪第三代唐 EV 座艙：擋風玻璃下的長條遠置螢幕與橫跨副駕的全景觸控螢幕",
+    "credit": "BYD (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/16/byd-unveils-modular-widescreen-ui-on-3rd-gen-tang-ev-ahead-of-q4-launch/"
+   },
+   "sources": [
+    [
+     "CarNewsChina：BYD Tang EV Giant Screen UI",
+     "https://carnewschina.com/2026/10/16/byd-unveils-modular-widescreen-ui-on-3rd-gen-tang-ev-ahead-of-q4-launch/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 日台合作",
+   "date": "2026-10-16",
+   "title": "三菱電機與鴻海簽定車用設備事業合資最終協議",
+   "summary": "鴻海旗下 Lin Yin 將取得三菱電機 Mobility 50% 股權（約 1,150 億日圓），雙方共同經營，結合電動動力總成、軟體與車控技術，提供日本開發的電動車平台；預計 2027 年 10 月 1 日完成交割。（此為三菱電機，非三菱汽車。）",
+   "sources": [
+    [
+     "Foxconn 新聞稿",
+     "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/2124"
+    ]
+   ]
+  },
+  {
+   "tag": "展覽 · 印度",
+   "date": "2026-10-18",
+   "title": "Universo Ferrari 新德里展今日起對公眾開放",
+   "summary": "第五屆 Universo Ferrari 在 Yashobhoomi 展至 11 月 1 日，17、18 日為邀請制預展；除 Luce 外，F80 與 12Cilindri Manuale 也在印度首展。",
+   "sources": [
+    [
+     "DriveSpark",
+     "https://www.drivespark.com/four-wheelers/2026/ferrari-luce-unveiled-at-universo-ferrari-088381.html"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 中國",
+   "date": "2026-10-18",
+   "title": "零跑 9 月全球交付 105,656 輛，連三個月破十萬",
+   "summary": "前九月累計 666,539 輛；要達成全年 100 萬輛目標，第四季月均需約 111,154 輛。A10 9 月交付 24,457 輛，月減 24.08%。",
+   "sources": [
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Haunch",
+  "zh": "後輪拱肩部隆起",
+  "body": "Haunch 指車身肩部在後輪上方往上、往外鼓起的那一塊，名稱來自賽馬或老虎後腿的肌肉。看本期 Peugeot E-T16 概念車：後輪上方的輪拱明顯膨大，車身在這裡比車門處寬出一截，讓人一眼就注意到後輪。設計師這樣做，是為了讓車看起來重心壓在後輪、像隨時準備起跑，跑車與 Jaguar、Ford Mustang 都常用這個手法。",
+  "source": [
+   [
+    "Car Design News：Automotive Design Glossary（Haunch）",
+    "https://www.cardesignnews.com/designers/a-is-fora-comprehensive-glossary-of-automotive-design-terms/506932"
+   ],
+   [
+    "Sgcarmart：Peugeot E-T16 swollen arches",
+    "https://www.sgcarmart.com/articles/news/peugeot-e-t16-revives-a-rally-icon-39508"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Nightshade Trail Cabin",
+   "zh": "夜影藍步道座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以 MINI Countryman Untamed Edition 的 Nightshade Blue、Millennial Melange 針織與 Cornflower Blue 縫線為骨幹，換上 Dark Steel 飾條，再借 Acura Nexera Vision 的一抹粉色點綴杯架，組成戶外感的深藍灰座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 針織包覆",
+     "混紡藍灰（示意）",
+     "#4B5463",
+     false,
+     "ip-upper",
+     {
+      "src": "MINI Millennial Melange 針織方向",
+      "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬色",
+     "Dark Steel（示意）",
+     "#5C6066",
+     false,
+     "ip-decor",
+     {
+      "src": "MINI Dark Steel 飾件",
+      "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+     }
+    ],
+    [
+     "門板嵌飾 · 合成皮",
+     "Nightshade Blue（示意）",
+     "#2C3652",
+     false,
+     "door-insert",
+     {
+      "src": "MINI Vescin Nightshade Blue",
+      "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+     }
+    ],
+    [
+     "門扶手 · 合成皮",
+     "石板灰（示意）",
+     "#3B4049",
+     false,
+     "armrest"
+    ],
+    [
+     "縫線／滾邊",
+     "Cornflower Blue（示意）",
+     "#6A92D8",
+     false,
+     "stitch",
+     {
+      "src": "MINI Cornflower Blue 縫線",
+      "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "炭黑（示意）",
+     "#23262B",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Nightshade Blue／Millennial Melange／Cornflower Blue／Dark Steel：MINI Countryman Untamed Edition",
+     "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+    ],
+    [
+     "粉色點綴：Acura Nexera Vision 座艙",
+     "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review"
+    ]
+   ],
+   "mood": [
+    "戶外",
+    "深藍",
+    "針織",
+    "一點粉"
+   ],
+   "mood_text": "深藍合成皮與藍灰針織像入夜的山徑，Dark Steel 飾條把線條收俐落；矢車菊藍縫線與杯架的一點粉，是手邊才看得到的玩心。",
+   "vars": {
+    "ip-lower": "#23262B",
+    "door-upper": "#4B5463",
+    "console": "#23262B",
+    "seat": "#2C3652",
+    "steering": "#25282D",
+    "headliner": "#C8CBD0",
+    "seat-bolster": "#3B4049",
+    "seat-center": "#2C3652",
+    "console-arm": "#3B4049",
+    "accent-pod": "#E48DAE",
+    "accent-pod2": "#6A92D8"
+   }
+  }
+ }
+}

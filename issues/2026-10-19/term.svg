@@ -1,0 +1,36 @@
+<svg class="diagram" viewBox="0 0 520 270" width="100%" role="img" aria-label="Haunch 後輪拱肩部隆起示意圖：掀背車側面與後視線稿，標出後輪上方往外鼓起的肩部">
+  <text x="260" y="22" fill="currentColor" font-size="15" text-anchor="middle" opacity=".75">側面：後輪上方鼓起的肩部＝Haunch</text>
+  <!-- wheels -->
+  <circle cx="112" cy="190" r="30" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="112" cy="190" r="13" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="318" cy="190" r="30" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="318" cy="190" r="13" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <!-- body: short hatchback -->
+  <path d="M40,180 L44,150 Q48,138 64,134 L130,126 L170,124 L250,124 L268,120 Q300,110 340,116 L366,124 L372,150 L374,180 Q374,186 366,186 L350,186 A34,34 0 0 0 286,186 L144,186 A34,34 0 0 0 80,186 L48,186 Q40,186 40,180 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- greenhouse -->
+  <path d="M128,126 L168,84 Q215,72 270,74 L330,84 L356,118" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M138,124 L172,90 L222,86 L222,124 Z M232,124 L232,86 L292,88 L322,116 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.5"/>
+  <!-- headlamp & tail lamp -->
+  <path d="M46,146 L72,140 L74,148 L48,154 Z" fill="currentColor" fill-opacity=".35" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M360,128 L370,130 L371,146 L362,144 Z" fill="currentColor" fill-opacity=".35" stroke="currentColor" stroke-width="1.4"/>
+  <!-- haunch highlight over rear wheel -->
+  <path d="M262,124 Q300,104 342,116 L364,126 L366,152 Q340,140 318,140 Q290,140 270,152 Z" fill="#f08a5d" fill-opacity=".28" stroke="#f08a5d" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M276,120 Q306,106 340,114" fill="none" stroke="#f08a5d" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- door shoulder (flatter) -->
+  <path d="M150,138 L258,138" stroke="currentColor" stroke-width="1.5" stroke-dasharray="6 4" opacity=".55"/>
+  <!-- callouts side -->
+  <line x1="320" y1="112" x2="350" y2="56" stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="352" y="52" fill="#f08a5d" font-size="15">① 後輪上方肩部鼓起</text>
+  <line x1="200" y1="138" x2="160" y2="236" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" opacity=".6"/>
+  <text x="40" y="252" fill="currentColor" font-size="15">② 車門處肩部較平</text>
+  <!-- rear view -->
+  <text x="458" y="88" fill="currentColor" font-size="12" text-anchor="middle" opacity=".7">後視</text>
+  <path d="M412,200 L410,160 Q408,146 420,142 L430,116 Q458,104 486,116 L496,142 Q508,146 506,160 L504,200 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M434,118 Q458,110 482,118 L490,140 L426,140 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M420,152 L440,150 L440,158 L420,160 Z M496,152 L476,150 L476,158 L496,160 Z" fill="currentColor" fill-opacity=".35" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="414" y="196" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="486" y="196" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M410,166 Q404,150 420,142 M506,166 Q512,150 496,142" fill="none" stroke="#f08a5d" stroke-width="3.5"/>
+  <line x1="508" y1="160" x2="470" y2="236" stroke="#f08a5d" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="508" y="252" fill="#f08a5d" font-size="15" text-anchor="end">③ 從後方看更寬</text>
+</svg>
