@@ -1,0 +1,598 @@
+# 小工具 mood dictionary. One group per line: name|synonym|...:hue,hueSpread,sat0,sat1,light0,light1
+# "=existing|syn|syn" adds synonyms to an existing group. tools/gen_moods.py adds Simplified variants and writes tool/moods.js.
+# --- original 196 groups ---
+戶外|outdoor|戶外感:95,40,20,45,25,50
+森林|forest|woods:130,25,25,50,18,40
+海洋|ocean|sea|marine:205,20,40,70,25,55
+沙漠|desert|dune|沙丘:35,15,30,55,55,78
+山|mountain|山徑:200,40,8,25,30,55
+雪|snow|winter|冬天:210,20,5,18,78,94
+冰川|glacier|ice|冰:190,15,15,40,70,90
+夕陽|sunset:20,25,55,85,45,65
+日出|sunrise|dawn|黎明:30,25,45,75,60,80
+夜晚|night|夜|入夜:230,25,25,50,10,28
+星空|starry|galaxy|銀河:250,30,30,60,10,30
+極光|aurora:160,60,45,75,35,60
+熱帶|tropical:165,40,50,80,40,60
+叢林|jungle:110,25,35,60,20,40
+草原|meadow|grassland:85,20,35,60,45,65
+花園|garden:330,90,30,60,55,75
+櫻花|sakura|cherry blossom:345,10,30,60,75,90
+秋天|autumn|fall|秋:28,25,45,75,30,55
+春天|spring|春:100,60,35,60,65,82
+夏天|summer|夏:190,60,55,85,50,70
+湖泊|lake|湖:195,20,25,50,35,60
+河流|river:185,20,20,45,40,60
+火山|volcano|lava|熔岩:10,15,60,90,20,45
+大地|earth|earthy|土:30,15,25,45,25,45
+岩石|rock|stone|石:30,20,5,15,35,60
+砂岩|sandstone:25,10,30,50,55,72
+苔蘚|moss:80,15,25,45,25,40
+竹|bamboo:75,15,30,50,50,70
+橄欖|olive:70,10,25,45,30,45
+薰衣草|lavender:270,15,25,50,65,82
+海灘|beach|沙灘:40,40,30,60,65,85
+島嶼|island:175,30,40,70,45,70
+雨林|rainforest:140,20,35,60,18,38
+峽谷|canyon:18,12,40,65,35,55
+極地|polar|arctic|北極:200,15,8,30,80,95
+田園|countryside|rural:60,30,20,40,50,70
+深藍|navy|deep blue:225,10,40,65,15,30
+藍|blue|藍色:215,15,50,80,40,60
+天藍|sky blue|light blue|淺藍:205,10,40,70,70,85
+紅|red|紅色:355,8,60,85,35,50
+酒紅|burgundy|wine|勃根地:345,8,40,65,18,32
+粉|pink|粉紅|一點粉:340,10,40,70,70,85
+綠|green|綠色:130,15,35,60,30,50
+墨綠|dark green|bottle green:150,12,30,55,12,25
+黃|yellow|黃色:50,8,60,90,50,70
+橙|orange|橘:25,8,70,95,48,60
+紫|purple|violet:275,15,30,60,25,45
+棕|brown|咖啡|coffee:25,10,30,50,18,35
+米色|beige|cream|奶油:38,10,20,40,75,88
+白|white|純白:40,40,3,10,88,96
+黑|black|全黑:220,40,3,10,6,14
+灰|grey|gray|灰色:220,20,3,10,35,65
+銀|silver:210,10,3,10,65,80
+金|gold|金色:45,8,50,75,45,60
+銅|copper|bronze|古銅:22,8,45,65,35,50
+石墨|graphite:220,10,4,10,18,30
+炭黑|charcoal:210,10,4,10,12,20
+象牙|ivory:45,8,25,45,85,92
+駝色|camel|tan:30,8,35,55,45,60
+芥末|mustard:48,6,55,75,38,50
+薄荷|mint:155,10,30,55,70,85
+青|teal|cyan|青色:180,10,40,70,30,50
+珊瑚|coral:10,10,60,85,60,72
+鐵鏽|rust|紅棕:15,8,50,70,30,42
+土耳其藍|turquoise:178,8,55,80,45,60
+寶石|jewel|gemstone:300,120,45,75,25,40
+霧|mist|foggy|霧面:210,20,6,18,65,82
+寶藍|royal blue|sapphire:225,8,60,85,35,48
+翡翠|emerald|jade|玉:150,10,45,70,30,45
+紅寶石|ruby:350,6,60,85,30,42
+琥珀|amber:38,8,75,95,45,55
+紫水晶|amethyst:280,10,35,60,40,55
+煙燻|smoky|smoke:220,30,4,12,30,50
+磚|brick|紅磚:12,8,45,60,35,48
+混凝土|concrete|水泥:30,30,2,8,50,68
+寧靜|calm|serene|安靜:195,30,10,30,60,80
+奢華|luxury|luxurious|豪華:35,40,25,45,20,80
+運動|sport|sporty|性能:0,30,65,90,15,50
+復古|retro|vintage:30,35,35,60,35,65
+懷舊|nostalgic|nostalgia:35,25,25,45,45,70
+都會|urban|city|城市:220,20,5,20,20,55
+溫暖|warm|暖:25,25,35,65,40,65
+科技|tech|futuristic|未來:200,30,40,80,15,50
+極簡|minimal|minimalist|簡約:40,40,2,10,40,92
+冷靜|cool|cold|冷:210,25,15,40,35,65
+活潑|playful|lively|俏皮:30,160,60,90,50,70
+優雅|elegant|elegance:300,60,10,30,30,75
+浪漫|romantic|romance:340,25,30,60,60,82
+清新|fresh:150,40,30,60,65,85
+自然|natural|nature:90,50,15,40,35,65
+工業|industrial:210,25,5,15,25,50
+粗獷|rugged|tough:60,40,15,40,22,45
+越野|off-road|offroad:45,30,20,45,25,45
+居家|home|家庭|family:35,40,15,35,55,80
+商務|business|executive:220,25,8,25,15,40
+經典|classic:30,20,20,45,20,55
+現代|modern:210,40,5,25,25,75
+大膽|bold|daring:350,120,70,95,40,55
+柔和|soft|pastel|粉彩:300,180,25,45,75,88
+暗黑|dark|noir|黑暗:240,40,5,20,6,18
+明亮|bright|light:50,60,25,55,75,90
+神秘|mystery|mysterious:270,25,30,55,12,28
+夢幻|dreamy|dream:285,40,30,55,70,85
+療癒|healing|soothing:140,40,20,40,65,82
+專注|focus|focused:220,20,10,30,25,45
+放鬆|relax|relaxed|chill:180,40,15,35,55,78
+冒險|adventure:40,40,35,60,30,55
+力量|power|powerful:0,20,55,80,20,40
+速度|speed|fast:10,30,70,95,35,55
+賽道|track|racing|賽車:5,20,75,95,40,52
+GT|grand touring|長途:20,25,35,55,22,40
+電動|ev|electric:190,30,45,80,40,60
+環保|eco|sustainable|永續:100,40,15,35,45,65
+回收|recycled:90,60,10,25,40,60
+手工|handcrafted|craft|工藝:28,15,30,50,30,50
+日式|japanese|japandi|和風:35,30,10,30,55,80
+北歐|nordic|scandinavian:40,40,4,15,70,90
+禪|zen:80,30,8,25,55,78
+溫馨|cozy|cosy:28,20,30,55,45,70
+清爽|crisp|clean:200,30,10,30,75,92
+沉穩|mature|sophisticated|成熟:25,30,10,30,18,40
+年輕|young|youthful:190,160,55,85,50,70
+可愛|cute|kawaii:340,90,45,75,72,86
+中性|neutral:35,30,3,12,40,80
+高級|premium:30,40,15,35,20,70
+低調|understated|subtle:220,30,3,12,25,50
+張揚|flamboyant|loud:320,140,75,100,40,60
+勇敢|brave:5,15,60,85,30,45
+希望|hope|hopeful:55,40,40,70,65,82
+憂鬱|melancholy|moody:220,30,10,30,20,40
+深邃|deep:235,30,30,55,10,22
+光影|chiaroscuro|light and shadow:40,40,5,20,10,85
+玩心|fun|有趣:330,150,55,85,50,70
+地中海|mediterranean:205,160,40,70,45,75
+加州|california:35,170,40,70,55,78
+東京|tokyo:330,140,40,80,20,60
+巴黎|paris:345,40,15,40,60,85
+倫敦|london:220,30,10,30,25,45
+紐約|new york|nyc:30,190,5,25,20,55
+法式|french:220,150,30,60,30,85
+義式|italian:5,140,40,70,25,70
+英倫|british:150,190,25,50,18,45
+德式|german:220,20,3,15,15,45
+美式|american:5,200,50,75,25,55
+蒸氣龐克|steampunk:30,15,40,60,25,45
+賽博龐克|cyberpunk:300,120,75,100,45,60
+霓虹|neon:310,150,85,100,50,60
+太空|space|cosmic|宇宙:240,30,20,50,8,25
+軍事|military|tactical|軍風:80,25,15,35,25,42
+航海|nautical:215,180,40,65,20,85
+遊艇|yacht:210,150,30,60,30,92
+航空|aviation|aerospace:210,20,5,20,60,80
+露營|camping|camp:90,60,25,45,25,50
+野餐|picnic:20,140,45,70,55,75
+復古未來|retro-futurism|retrofuturism:180,150,45,75,40,60
+裝飾藝術|art deco:45,180,30,60,20,60
+包浩斯|bauhaus:0,180,60,85,35,55
+新古典|neoclassical:40,20,10,30,60,85
+波西米亞|boho|bohemian:25,60,35,60,40,65
+爵士|jazz:30,40,35,60,15,40
+藍調|blues:225,20,30,60,20,45
+搖滾|rock and roll|rocknroll:355,40,50,80,12,40
+龐克|punk:330,60,60,90,30,50
+皮革|leather:25,10,35,55,20,40
+針織|knit|knitted:220,30,8,25,40,65
+木紋|wood|wooden|木:30,10,35,55,30,50
+大理石|marble:40,30,3,10,80,92
+陶瓷|ceramic:30,30,8,20,80,90
+絲綢|silk:330,40,15,35,70,85
+絲絨|velvet|絨布:330,40,40,60,20,35
+羊毛|wool:35,20,10,25,60,78
+麂皮|suede|alcantara:220,30,5,20,25,45
+碳纖|carbon|碳纖維:220,10,3,8,10,18
+鈦|titanium:210,20,3,10,45,60
+鋁|aluminium|aluminum:210,10,3,8,70,82
+玻璃|glass:190,20,15,35,70,88
+珍珠|pearl:40,30,8,20,85,94
+香檳|champagne:42,8,25,45,72,85
+咖啡廳|cafe:28,15,30,50,35,65
+巧克力|chocolate:20,8,35,55,15,28
+焦糖|caramel:30,6,55,75,40,55
+抹茶|matcha:85,10,30,50,45,60
+莓果|berry:330,15,45,70,30,45
+柑橘|citrus:40,30,75,95,50,62
+檸檬|lemon:55,5,70,90,60,72
+雨天|rainy|rain|雨:210,20,8,22,40,60
+晨霧|morning mist:200,20,8,20,72,88
+午夜|midnight:235,15,35,60,8,18
+黃昏|dusk|twilight:280,60,25,50,30,55
+暴風|storm|stormy:215,15,10,25,25,42
+陽光|sunny|sunshine:45,15,60,85,58,72
+火焰|fire|flame:15,20,80,100,45,55
+水|water:195,20,40,70,45,65
+風|wind|breeze:185,30,10,30,75,90
+月光|moonlight|moon:220,20,8,25,70,85
+礦物|mineral:190,60,10,30,35,60
+# --- personality / energy ---
+狂野|wild|untamed|狂放:15,40,60,90,25,45
+野性|feral|primal|原始:30,25,45,70,22,40
+奔放|unrestrained|free-spirited|豪放:20,80,65,90,45,60
+性感|sexy|sensual|魅惑:350,15,55,80,22,40
+高冷|aloof|icy chic|冷豔:215,20,5,20,30,70
+帥氣|handsome|dashing|酷帥:220,20,10,30,15,40
+酷|cool vibe|酷炫|炫酷:230,40,15,45,12,35
+叛逆|rebel|rebellious|反叛:350,40,60,85,15,35
+自由|freedom|free|無拘無束:195,40,40,70,50,70
+灑脫|carefree|easygoing|隨性:45,50,30,55,55,75
+甜美|sweet|甜:340,30,40,65,72,86
+溫柔|gentle|tender|柔情:20,30,25,45,70,85
+知性|intellectual|cerebral|書卷氣:30,30,8,25,40,70
+文青|hipster|indie|文藝:35,60,15,35,45,70
+陽剛|masculine|manly|硬派:210,30,10,30,12,32
+陰柔|feminine|delicate|柔美:320,40,20,40,65,82
+沉靜|quiet|still|靜謐:205,25,8,25,35,60
+內斂|reserved|restrained|含蓄:30,30,5,18,22,45
+熱情|passionate|passion|熱烈:5,15,70,95,40,55
+開朗|cheerful|bright mood|爽朗:48,30,60,85,60,75
+樂觀|optimistic|positive|正能量:50,40,55,80,60,78
+幽默|humorous|witty|詼諧:40,140,55,85,55,70
+自信|confident|confidence|篤定:0,30,45,75,25,45
+霸氣|domineering|commanding|威風:0,20,40,70,10,28
+威嚴|majestic|imposing|莊嚴:270,40,25,50,12,30
+尊貴|noble|regal|高貴|貴氣:280,30,25,50,18,35
+貴族|aristocratic|aristocrat|貴族風:275,40,25,45,20,40
+低奢|quiet luxury|understated luxury|輕奢:35,25,8,25,35,75
+精緻|refined|exquisite|細膩:35,30,15,35,55,80
+大氣|grand|expansive|有格局:30,40,10,30,25,60
+穩重|steady|solid|踏實:25,30,10,30,18,38
+可靠|reliable|dependable|信賴:215,20,20,40,25,45
+理性|rational|logical|冷靜理性:215,20,5,20,30,60
+感性|emotional|sentimental|情感:340,40,25,50,55,75
+純真|innocent|pure|天真:200,60,15,35,82,94
+童趣|childlike|whimsical|童心:45,160,60,90,60,75
+慵懶|lazy|languid|悠閒:35,30,15,35,60,78
+休閒|casual|leisure|放假:190,60,30,55,55,75
+勇猛|fierce|ferocious|猛烈:5,20,65,90,25,40
+狂熱|frenzy|fanatic|熱血:10,20,75,100,40,52
+溫潤|mellow|smooth|圓潤:30,20,20,40,55,72
+少女|girly|girlish|少女心:340,30,40,70,75,88
+少年|boyish|youth spirit|少年感:205,60,50,80,45,62
+銀髮|elderly|senior|長者:35,30,5,20,55,75
+# --- emotions ---
+快樂|happy|happiness|喜悅:50,40,65,90,58,72
+興奮|excited|excitement|亢奮:15,40,80,100,48,58
+悲傷|sad|sorrow|哀傷:220,20,10,30,30,50
+孤獨|lonely|solitude|孤寂:225,25,8,25,25,45
+憤怒|angry|rage|怒:0,10,75,95,30,45
+恐懼|fear|dread|驚悚:260,30,15,40,8,22
+驚喜|surprise|surprised|驚艷:320,120,60,90,55,70
+平靜|peaceful|peace|祥和:190,30,10,30,65,82
+安心|reassuring|secure|安穩:35,30,15,30,60,78
+溫情|heartwarming|affectionate|暖心:20,25,35,55,55,72
+期待|anticipation|expectant|期盼:40,40,50,75,55,70
+感動|moved|touching|動人:30,40,30,55,55,75
+嚮往|longing|aspiration|憧憬:205,40,30,55,65,82
+自豪|proud|pride|驕傲:45,30,55,80,40,55
+緊張|tense|tension|緊繃:0,30,50,75,20,40
+舒適|comfortable|comfort|舒服:35,30,15,35,62,80
+活力|energetic|vibrant|元氣:30,120,70,95,50,62
+迷幻|psychedelic|trippy|迷離:290,150,60,95,40,60
+詩意|poetic|lyrical|詩情:220,60,15,35,60,80
+冥想|contemplative|meditative|哲思:240,40,8,25,30,55
+華麗|gorgeous|ornate|富麗:45,60,50,75,30,55
+典雅|dignified|graceful classic|雅致:30,40,10,30,45,75
+清冷|cold clear|crisp cool|冷冽:200,20,10,30,60,85
+質樸|rustic|unpretentious|樸實:30,20,15,35,40,65
+純淨|purity|pure white|純粹:210,40,3,12,85,96
+空靈|ethereal|otherworldly|縹緲:220,40,10,30,78,92
+神聖|sacred|divine|聖潔:48,20,20,45,82,94
+清透|dewy|clear fresh|水透:190,30,20,40,78,90
+暖陽|warm sun|sunlit|和煦:40,15,55,80,62,75
+懸疑|suspense|thriller|懸念:240,30,15,35,10,25
+侘寂|wabi-sabi|wabisabi|寂:35,15,8,22,45,70
+物哀|mono no aware|melancholic beauty|哀愁:340,40,10,25,55,75
+蓬鬆|fluffy|puffy|軟綿綿:40,180,20,40,82,92
+Q彈|bouncy|jelly|果凍:320,180,50,80,65,80
+# --- styles / eras / regions ---
+日系|japanese style|jp style|日風:30,40,8,25,65,88
+韓系|korean style|k-style|韓風:340,40,10,30,75,90
+港風|hong kong retro|hk style|港式:5,60,45,70,30,50
+台味|taiwanese|台式|台灣味:20,180,45,75,40,65
+中國風|chinese style|國潮|新中式:0,30,55,80,25,45
+東方|oriental|eastern|東方美學:10,40,35,60,20,45
+工業風|industrial style|loft|倉庫風:25,20,8,25,25,50
+奢華運動|luxury sport|sport luxury|豪華運動:5,30,45,75,15,40
+復古運動|retro sport|vintage racing|老派跑車:25,30,50,75,30,50
+美式復古|americana|vintage american|美式懷舊:15,190,40,65,30,55
+法式浪漫|french romance|parisian chic|巴黎風:340,30,20,40,65,85
+摩洛哥|moroccan|morocco|北非:20,40,50,75,35,55
+印度|indian|india|寶萊塢:30,60,60,90,40,58
+墨西哥|mexican|mexico|拉丁:15,160,60,90,45,60
+夏威夷|hawaiian|hawaii|阿囉哈:170,150,50,80,50,70
+南洋|southeast asian|tropical asian|峇里島:90,60,30,55,30,55
+蒸汽波|vaporwave|vapourwave|蒸氣波:300,90,50,80,60,78
+千禧|y2k|millennium|千禧風:200,140,40,75,70,88
+八零年代|80s|1980s|eighties:310,140,70,95,45,60
+七零年代|70s|1970s|seventies:30,30,50,75,35,55
+九零年代|90s|1990s|nineties:180,180,35,65,45,65
+世紀中期|mid-century|mid century modern|中古風:25,160,40,65,40,60
+極繁|maximalist|maximalism|繁複:320,180,55,85,35,60
+粗野主義|brutalism|brutalist|清水模:30,20,2,8,40,62
+解構|deconstructivist|deconstruct|解構主義:220,180,5,40,20,80
+未來主義|futurism|futurist|未來派:190,40,30,70,40,80
+參數化|parametric|generative|參數設計:200,40,30,60,40,70
+有機|organic|organic form|生物形態:100,40,20,40,45,65
+仿生|biomimetic|bionic|biomimicry:120,60,25,50,40,62
+雕塑感|sculptural|sculpted|雕塑:30,30,5,20,40,75
+建築感|architectural|structural|結構感:210,30,3,15,35,70
+光感|luminous|glowing|發光:50,40,40,70,75,90
+透明|transparent|translucent|clear:195,30,15,35,80,94
+金屬感|metallic|chrome|鍍鉻:210,20,5,15,55,78
+消光|matte|matt|啞光:220,30,5,20,30,55
+亮面|glossy|high gloss|亮光:0,180,40,70,30,60
+漸層|gradient|ombre|漸變:280,120,40,70,45,70
+摩登|mod|chic modern|時髦:330,180,30,60,30,70
+時尚|fashion|fashionable|潮流:330,120,40,70,25,60
+潮|trendy|streetwear|街頭:15,180,50,85,30,55
+嘻哈|hip hop|hiphop|饒舌:45,200,60,90,25,55
+電音|edm|electronic music|電子樂:280,100,70,100,30,55
+古典樂|classical music|symphony|交響:30,25,20,40,20,45
+哥德|gothic|goth|暗黑哥德:280,40,20,45,8,22
+巴洛克|baroque|rococo|洛可可:42,40,50,75,30,55
+維多利亞|victorian|victoriana|英式古典:340,40,30,55,20,40
+藝術|artistic|art|藝術感:300,180,40,70,40,70
+手繪|hand-drawn|sketchy|手作:35,40,15,30,70,85
+水彩|watercolor|watercolour|水彩畫:200,160,25,50,70,85
+油畫|oil painting|painterly|油彩:30,180,35,60,30,55
+水墨|ink wash|sumi-e|墨:210,20,2,8,15,85
+印象派|impressionist|impressionism|莫內:200,150,30,55,62,80
+普普|pop art|波普|普普風:50,200,75,100,45,60
+漫畫|comic|manga|動漫:200,180,65,95,50,65
+電競|gaming|gamer|遊戲:270,100,70,100,40,58
+奇幻|fantasy|magical|魔幻:270,80,40,70,35,60
+童話|fairy tale|fairytale|童話風:320,80,30,60,72,86
+電影感|cinematic|film noir|黑色電影:30,40,15,35,15,45
+膠片|analog film|film look|底片:30,40,25,45,40,62
+拍立得|polaroid|instant photo|即可拍:35,180,30,55,65,82
+科幻|sci-fi|science fiction|星際:200,60,40,75,15,45
+武俠|wuxia|martial arts|江湖:30,40,15,35,20,45
+幾何|geometric|geometry|幾何感:220,180,40,70,30,60
+線條|linear|line work|線性:220,30,5,15,20,80
+撞色|color block|colour blocking|拼色:20,200,65,95,40,60
+同色系|tone on tone|tonal|同色調:30,10,15,40,30,70
+硬朗|hard-edged|crisp lines|剛硬:215,20,5,20,20,45
+銳利|sharp|edgy|鋒利:200,30,10,40,15,45
+平衡|balance|balanced|和諧:150,180,15,35,45,70
+對比|contrast|high contrast|反差:0,180,30,70,10,90
+層次|layered|layering|分層:30,40,10,30,25,75
+流動|flow|fluid|流線:195,40,25,50,45,70
+輕盈|airy|lightweight|輕巧:200,40,10,30,80,92
+厚重|heavy|massive|沉重:25,30,10,30,12,28
+透氣|breathable|ventilated|通透:180,40,10,30,72,88
+黑白|black and white|bw|黑與白:0,0,0,3,8,92
+# --- materials ---
+織物|textile|fabric|布料:30,40,10,30,45,70
+燈芯絨|corduroy|cord|條絨:30,15,35,55,30,45
+丹寧|denim|jeans|牛仔:215,10,35,55,30,45
+帆布|canvas|duck canvas|帆布料:40,15,15,30,60,75
+亞麻|linen|flax|麻:40,10,15,30,70,82
+棉|cotton|棉質|純棉:40,40,5,15,85,93
+羊絨|cashmere|喀什米爾|開司米:30,15,15,30,70,82
+毛氈|felt|wool felt|羊毛氈:220,40,5,20,40,62
+編織|woven|weave|編織紋:35,15,30,50,45,62
+藤|rattan|wicker|藤編:38,10,40,60,45,60
+軟木|cork|cork board|軟木塞:28,8,35,55,45,60
+胡桃木|walnut|walnut wood|黑胡桃:25,8,35,50,18,30
+橡木|oak|oak wood|橡木紋:35,8,35,55,45,60
+柚木|teak|teak wood|柚木紋:30,8,45,65,32,45
+楓木|maple|maple wood|楓木紋:38,8,35,55,62,75
+花崗岩|granite|granite stone|麻石:30,40,3,10,30,55
+水磨石|terrazzo|terrazzo floor|磨石子:30,160,15,35,70,85
+漆皮|patent leather|vinyl|亮皮:0,180,20,60,8,25
+奈帕|nappa|nappa leather|小羊皮:25,15,25,45,25,45
+鞍皮|saddle leather|cognac|干邑:25,6,55,75,32,45
+牛皮|cowhide|full grain|全粒面:28,10,35,55,25,40
+橡膠|rubber|silicone|矽膠:220,30,3,10,10,22
+塑膠|plastic|polymer|塑料:210,180,20,50,40,70
+壓克力|acrylic|plexiglass|亞克力:195,180,30,60,65,85
+鍛造碳|forged carbon|chopped carbon|鍛碳:220,10,3,8,10,20
+鋼|steel|stainless steel|不鏽鋼:210,10,3,10,50,65
+黃銅|brass|brass finish|銅金:45,6,45,65,40,55
+玫瑰金|rose gold|pink gold|粉金:15,8,35,55,62,75
+琉璃|glaze|colored glaze|琉璃釉:200,60,45,75,40,60
+水晶|crystal|crystalline|晶透:200,40,15,40,85,95
+皮草|fur|faux fur|毛皮:30,20,10,30,55,75
+羽毛|feather|plume|羽絨:40,40,5,20,85,94
+紙|paper|washi|和紙:40,20,10,25,82,92
+磨砂玻璃|frosted glass|frosted|霧玻璃:200,20,5,20,80,90
+# --- nature / time / places ---
+日落|sundown|golden hour|晚霞:25,25,60,90,50,65
+晨曦|morning light|first light|曙光:40,20,40,70,72,86
+正午|noon|midday|艷陽:50,15,50,80,65,80
+季節|seasons|seasonal|四季:120,180,30,60,45,70
+初春|early spring|新春|早春:110,30,30,55,72,85
+盛夏|midsummer|high summer|仲夏:195,50,60,85,45,62
+深秋|late autumn|晚秋|秋末:20,20,45,70,25,40
+寒冬|deep winter|嚴冬|midwinter:215,20,10,30,30,55
+梅雨|plum rain|rainy season|雨季:190,30,10,25,40,58
+冰雪|ice and snow|frost|霜:200,20,8,25,82,94
+沙塵|dust|dusty|塵土:35,15,20,35,50,68
+戈壁|gobi|steppe|荒原:38,15,25,45,45,62
+高原|plateau|highland|高山:150,60,15,35,40,62
+濕地|wetland|marsh|沼澤:95,30,20,40,30,48
+珊瑚礁|coral reef|reef|礁岩:180,160,50,80,45,65
+深海|deep sea|abyss|海底:220,20,40,70,8,22
+冰島|iceland|icelandic|冰島風:200,40,10,30,40,75
+阿爾卑斯|alpine|alps|雪山:205,40,10,30,55,90
+托斯卡尼|tuscany|tuscan|托斯卡納:30,30,35,55,45,65
+普羅旺斯|provence|provencal|薰衣草田:265,40,25,50,65,82
+聖托里尼|santorini|greek island|希臘:210,20,50,80,40,96
+京都|kyoto|古都|京都風:15,40,30,55,25,55
+上海|shanghai|魔都|老上海:20,180,30,60,20,55
+首爾|seoul|seoul style|韓國:330,60,15,35,70,88
+米蘭|milan|milano|義大利設計:15,30,20,45,15,45
+洛杉磯|los angeles|la|西岸:35,170,45,75,55,75
+邁阿密|miami|miami vice|南灘:320,140,60,90,55,70
+杜拜|dubai|arabian|阿拉伯:42,15,45,70,40,70
+山谷|valley|dale|谷地:110,40,20,45,35,55
+瀑布|waterfall|cascade|飛瀑:190,30,25,45,60,80
+海岸|coast|coastal|海濱:200,30,30,55,55,78
+港口|harbour|harbor|碼頭:210,40,15,35,30,55
+鄉村|country|village|農舍:40,60,20,40,45,70
+城堡|castle|palace|宮殿:35,40,15,35,30,60
+教堂|cathedral|chapel|禮拜堂:40,40,10,30,35,70
+向日葵|sunflower|sunflowers|太陽花:48,10,75,95,50,60
+玫瑰|rose|roses|玫瑰花:350,10,55,80,40,55
+鬱金香|tulip|tulips|荷蘭:340,60,60,85,50,65
+楓葉|maple leaf|autumn leaves|紅葉:12,15,65,90,40,52
+松林|pine|pine forest|松樹:150,15,25,45,18,32
+棕櫚|palm|palm tree|椰林:110,30,35,60,30,48
+仙人掌|cactus|succulent|多肉:100,25,20,40,40,58
+蘑菇|mushroom|fungi|菇:30,20,15,30,40,65
+深夜|late night|small hours|凌晨:230,20,25,50,8,20
+霓虹夜|neon night|night city|夜都會:280,100,70,95,25,45
+雨夜|rainy night|night rain|夜雨:220,20,15,35,15,30
+星光|starlight|stardust|星塵:230,40,15,40,70,88
+煙火|fireworks|firework|花火:40,200,80,100,50,62
+燭光|candlelight|candle|燭火:35,10,60,85,45,60
+陰天|overcast|cloudy|多雲:210,20,5,18,55,72
+晴空|clear sky|blue sky|晴天:205,10,55,80,60,72
+彩虹|rainbow|multicolor|多彩:0,360,60,90,50,62
+# --- colour words ---
+奶油色|creamy|butter|奶油白:45,10,35,60,80,90
+奶茶|milk tea|latte|拿鐵:30,8,25,40,60,75
+燕麥|oat|oatmeal|燕麥色:38,8,20,35,70,82
+摩卡|mocha|mocha brown|摩卡色:22,8,25,40,25,38
+可可|cocoa|cacao|可可色:20,8,30,45,22,35
+肉桂|cinnamon|spice|香料:22,6,50,65,35,45
+赤陶|terracotta|terra cotta|陶紅:15,6,50,65,42,55
+陶土|clay|clay pink|黏土:12,10,25,45,55,68
+沙色|sand|sandy|沙褐:38,8,25,45,65,78
+卡其|khaki|khaki tan|卡其色:45,8,25,40,50,62
+軍綠|army green|olive drab|軍綠色:75,10,25,40,25,35
+鼠尾草|sage|sage green|灰綠:95,15,12,28,52,68
+孔雀|peacock|peacock blue|孔雀藍:190,15,55,80,28,40
+湖水綠|lake green|aqua|水綠:170,15,40,65,55,70
+冰藍|ice blue|glacier blue|冰川藍:195,10,30,60,80,90
+鋼青|steel blue|steel teal|鋼藍:210,10,25,45,40,55
+靛藍|indigo|indigo blue|靛青:235,10,40,65,20,35
+普魯士藍|prussian blue|prussian|普藍:210,8,55,80,15,25
+克萊因藍|klein blue|yves klein|ikb:230,5,85,100,35,45
+電光藍|electric blue|electric|電藍:205,10,85,100,48,58
+蒂芬尼藍|tiffany blue|robin egg|知更鳥藍:174,8,45,65,62,72
+霧霾藍|dusty blue|haze blue|莫蘭迪藍:210,15,15,30,55,70
+莫蘭迪|morandi|muted|灰調:30,180,8,22,55,75
+馬卡龍|macaron|candy pastel|糖果色:320,180,40,70,78,88
+霓虹粉|hot pink|neon pink|螢光粉:325,10,85,100,55,65
+玫紅|magenta|fuchsia|桃紅:320,10,65,90,45,58
+櫻桃紅|cherry red|cherry|車厘子:350,6,70,90,38,48
+番茄紅|tomato red|tomato|番茄色:8,6,70,90,48,58
+中國紅|china red|lucky red|正紅:358,5,80,95,40,50
+賽車紅|rosso corsa|racing red|法拉利紅:0,5,85,100,42,50
+牛血紅|oxblood|blood red|深紅:355,6,45,65,18,28
+葡萄紫|grape|grape purple|葡萄色:285,10,35,55,25,38
+茄紫|aubergine|eggplant|茄子色:290,10,30,50,15,25
+丁香|lilac|丁香紫|淡紫:275,15,25,45,70,82
+蜜桃|peach|peachy|水蜜桃:22,10,60,85,72,82
+杏|apricot|apricot orange|杏色:30,8,60,80,65,75
+鵝黃|pale yellow|baby yellow|淡黃:52,8,60,85,78,88
+香蕉|banana|banana yellow|蕉黃:52,6,65,85,65,75
+芒果|mango|mango yellow|芒果黃:38,8,80,95,52,62
+萊姆|lime|lime green|檸檬綠:80,10,65,90,48,58
+螢光綠|neon green|acid green|螢光:95,15,85,100,50,60
+酸性|acid|toxic|毒性:85,60,80,100,45,58
+暖灰|warm grey|greige|灰米:35,15,5,12,55,72
+冷灰|cool grey|cold grey|藍灰:215,15,4,12,50,70
+乳白|milky white|off-white|米白:42,10,15,30,88,94
+曜石黑|obsidian|jet black|曜黑:235,20,8,15,6,12
+槍灰|gunmetal|gun grey|槍色:215,10,5,12,25,35
+古金|antique gold|old gold|復古金:42,8,40,60,38,50
+# --- tech / auto ---
+數位|digital|digital native|數碼:200,40,40,75,30,55
+人工智慧|artificial intelligence|ai|智能:220,60,40,75,30,55
+機甲|mecha|robot|機器人:210,30,10,30,30,55
+太空艙|space capsule|spaceship|飛船:200,20,3,15,80,94
+漂移|drift|drifting|甩尾:300,120,70,95,40,55
+拉力|rally|rally car|拉力賽:210,180,60,90,35,55
+皮卡|pickup|pickup truck|貨卡:30,40,15,35,25,45
+露營車|campervan|rv|房車:40,60,20,40,55,75
+超跑|supercar|hypercar|超級跑車:5,40,80,100,40,55
+經典車|classic car|vintage car|老爺車:20,30,30,50,30,50
+通勤|commute|commuter|城市通勤:210,40,10,30,40,65
+運動休旅|sporty suv|sport utility|跨界休旅:200,30,20,45,25,45
+# --- lifestyle / occasions ---
+健身|fitness|gym|訓練:0,180,40,80,15,50
+瑜伽|yoga|wellness|身心靈:160,60,15,35,65,82
+溫泉|spa|hot spring|水療:180,40,15,35,65,82
+茶|tea|tea house|茶道:80,30,20,40,40,60
+酒吧|bar|lounge|夜店:290,60,40,70,10,28
+威士忌|whisky|whiskey|波本:30,6,60,80,30,42
+香氛|fragrance|perfume|香水:310,60,20,40,70,85
+書房|study|library|書香:25,20,25,45,20,40
+畫廊|gallery|museum|美術館:40,40,2,8,85,95
+飯店|hotel|boutique hotel|酒店:35,30,15,35,30,70
+機場|airport|terminal|候機室:210,30,4,15,60,82
+頭等艙|first class|business class|商務艙:30,30,15,35,25,65
+高爾夫|golf|country club|球場:110,20,25,45,35,55
+馬術|equestrian|horse riding|馬場:28,10,35,55,25,40
+衝浪|surf|surfing|浪人:190,30,45,75,50,70
+滑雪|ski|skiing|雪場:210,180,30,70,50,92
+登山|hiking|trekking|健行:80,60,25,50,30,50
+騎行|cycling|bike|單車:20,180,50,80,40,60
+音樂祭|festival|music festival|音樂節:300,180,60,95,45,65
+派對|party|celebration|慶典:320,150,65,95,50,65
+節慶|festive|holiday|節日:0,120,60,85,35,55
+聖誕|christmas|xmas|耶誕:355,140,60,85,25,45
+新年|new year|lunar new year|春節:0,45,75,95,40,55
+萬聖節|halloween|spooky|南瓜:25,250,60,90,12,50
+情人節|valentine|valentines|告白:345,20,55,80,50,70
+婚禮|wedding|bridal|婚紗:40,40,8,25,85,94
+寵物|pet|pet friendly|毛孩:30,30,25,45,55,72
+嬰兒|baby|newborn|母嬰:200,140,20,40,85,93
+# --- synonyms for original groups ---
+=賽博龐克|賽博朋克|赛博朋克
+=越野|越野風|4x4|overland
+=科技|科技感|未來感|high tech
+=奢華|豪奢|opulent
+=極簡|極簡主義|less is more
+=戶外|outdoorsy|露天
+=都會|都市|metropolitan
+=療癒|治癒|治愈
+=寧靜|tranquil
+=活潑|vivacious
+=神秘|enigmatic|神祕
+=年輕|青春|youth
+=優雅|elegant style
+=沉穩|composed
+=粗獷|rough|豪邁
+=北歐|北欧風|hygge
+=極地|ice cap
+=沙漠|desert sand
+=奶油|奶油感
+=河流|溪流|stream
+=砂岩|紅砂岩|sandstone red
+=竹|竹林|竹子
+=薰衣草|lavender purple|薰衣草紫
+=雨林|熱帶雨林|jungle green
+=石墨|石墨灰|graphite grey
+=炭黑|炭灰|charcoal black
+=象牙|象牙白|ivory white
+=芥末|芥末黃|mustard yellow
+=薄荷|薄荷綠|mint green
+=珊瑚|珊瑚色|coral pink
+=琥珀|琥珀色|amber glow
+=紫水晶|amethyst purple|晶紫
+=清新|清新感|refreshing
+=回收|再生|upcycled
+=中性|中性色|neutrals
+=勇敢|無畏|fearless
+=深邃|幽深|profound
+=地中海|地中海風|med style
+=加州|加州風|west coast
+=巴黎|巴黎風情|parisienne
+=法式|法式風|french style
+=德式|德系|german style
+=美式|美式風|americano style
+=霓虹|霓虹燈|neon light
+=航海|水手|sailor
+=野餐|郊遊|outing
+=包浩斯|bauhaus style|包豪斯
+=新古典|新古典主義|neo-classic
+=爵士|爵士樂|jazz bar
+=皮革|真皮|皮質
+=大理石|大理石紋|marble stone
+=陶瓷|瓷|porcelain
+=羊毛|毛料|woollen
+=玻璃|玻璃感|glassy
+=珍珠|珍珠白|pearlescent
+=巧克力|巧克力色|choco
+=焦糖|焦糖色|toffee
+=抹茶|抹茶綠|green tea
+=莓果|莓果色|berries
+=柑橘|橘子|tangerine
+=午夜|子夜|midnight blue
+=水|水感|aquatic

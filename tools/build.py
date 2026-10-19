@@ -120,7 +120,7 @@ def tool_page(al):
 </div>
 <p class="note">插圖為程式繪製示意，不代表任何真實車款；顏色為螢幕示意，請以實體色卡為準。</p>
 </main>
-<script>(()=>{{const f=()=>{{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")}};f();addEventListener("resize",f)}})()</script><script>window.CDD_HEADLINER={hl};</script><script src="palettes.js"></script><script src="interior.js"></script>
+<script>(()=>{{const f=()=>{{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")}};f();addEventListener("resize",f)}})()</script><script>window.CDD_HEADLINER={hl};</script><script src="palettes.js"></script><script src="moods.js"></script><script src="interior.js"></script>
 {theme_toggle("car")}</body></html>'''
 
 def interior_html(b, date=""):

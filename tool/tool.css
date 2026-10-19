@@ -89,3 +89,6 @@ body.armed .part[data-k]{cursor:copy}
 .symt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .part.dis{opacity:.42;pointer-events:none;filter:grayscale(.6)}
 .part.dis .pcn{color:var(--muted)}
+.kwpop{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:1px 10px;margin:0 0 0 6px;font:inherit;font-size:12.5px;cursor:pointer}
+.kwpop:hover{border-color:var(--accent);color:var(--accent)}
+.kwcount{font-size:11.5px;color:var(--muted);margin:-2px 0 10px}
