@@ -1,0 +1,462 @@
+{
+ "date": "2026-10-19",
+ "weekday": "週一",
+ "issue_no": 12,
+ "lede": "週末大廠新品不多，重點是階躍星辰把 600B 的 Step 5 Preview 開源、NVIDIA 能在筆電本地跑大模型的 RTX Spark 開賣；想自己跑圖的人，可以試試排版和中文字都很準的開源模型 MOSS-Image。",
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "阿里巴巴淘寶直播團隊推出 H3 首尾影格即時串流 LoRA；FastH3-Omni 權重仍預定 10/20 釋出",
+   "updates": [
+    {
+     "title": "TaoMate-H3-FL2VA：給 MiniMax H3 加上「首尾影格」控制的 3 步即時串流 LoRA",
+     "date": "2026-10-15",
+     "summary": "阿里巴巴淘寶直播 AIGC 團隊在 Hugging Face 發布 TaoMate-H3-FL2VA，是建在 MiniMax H3 上的 3 步 LoRA：你先指定第一張和最後一張畫面，它就邊算邊輸出帶同步聲音的影片，最後準確停在你給的結尾畫面；團隊稱這是第一個即時串流的首尾影格轉音訊影片模型，支援 480p、768p 和 1080p。【限制】官方寫明單機推論需要 4 張 GPU 起，一般顯示卡跑不動；早期使用者回報大動作、快速移動時畫面仍會變差。授權沿用 MiniMax H3 社群授權。",
+     "links": [
+      [
+       "Hugging Face：TaoMate-H3-FL2VA 模型卡",
+       "https://huggingface.co/TaoLiveAIGC/TaoMate-H3-FL2VA"
+      ],
+      [
+       "kombitz：本週整理（含早期測試回饋）",
+       "https://www.kombitz.com/2026/10/18/flux-3-image-klein-moss-image-more-weekly-roundup/"
+      ]
+     ],
+     "image": {
+      "file": "taomate-fl2va.webp",
+      "alt": "Hugging Face 模型分享卡：TaoLiveAIGC/TaoMate-H3-FL2VA",
+      "credit": "Hugging Face",
+      "credit_url": "https://huggingface.co/TaoLiveAIGC/TaoMate-H3-FL2VA"
+     },
+     "short_title": "H3 首尾影格即時串流 LoRA",
+     "one": "給定開頭和結尾兩張圖，H3 就能即時生出中間帶聲音的影片，不過要多張大顯卡才跑得動。",
+     "gloss": [
+      [
+       "首尾影格",
+       "先指定影片第一張和最後一張畫面，讓模型自己補出中間的動作"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "news": [],
+ "video": null,
+ "caveats": [
+  "Step 5 Preview 的 Hugging Face 頁面 9 月就已建立，本期依 10/18 多家媒體報導列入；所有成績皆為廠商自測。",
+  "本日榜單：文字榜沿用 LMArena 10/15 資料（官方資料集未更新）；xAI 的 X 帳號今天無法讀取，其餘帳號 36 小時內沒有新產品宣布。"
+ ],
+ "closed": [],
+ "open": [],
+ "ainews": [
+  {
+   "id": "stepfun-step5-preview",
+   "org": "StepFun 階躍星辰",
+   "tag": "重磅開源 · 文字＋視覺模型",
+   "date": "2026-10-18",
+   "title": "階躍星辰開源旗艦代理模型 Step 5 Preview：600B MoE、每次只動用 27B、支援百萬字元上下文",
+   "orig": "Step 5 Preview: StepFun's flagship model for agentic work — 600B total parameters, 27B active, up to 1M context",
+   "summary": "中國 AI 公司階躍星辰（StepFun）的旗艦模型 Step 5 Preview 以開放權重形式放上 Hugging Face 與 ModelScope（FP8、BF16，另有 NVFP4 版），10/18 起多家媒體報導。官方模型卡寫明：600B 總參數、每個 token 只啟用 27B，上下文最長 100 萬 token，可輸入文字、圖片和影片，主打寫程式、長時間的代理任務與專業文件分析，特別強調金融。【成績】依官方自測表，DeepSWE v1.1 67.7、ProgramBench 80.5、FrontierFinance 66.4；在多數項目贏過 Kimi K3、GLM-5.3，但 Terminal-Bench v4 只有 33.3，明顯落後 GPT-6 Astra（57.9）與 Claude Opus 5（52.3），以上皆為廠商數字。【限制】授權是 StepFun Model License 1.0（類 Apache 2.0，但有署名與商用條件），正式上線前要讀授權；完整權重仍需要資料中心等級的 GPU，一般電腦跑不動。【哪裡能用】下載權重用 vLLM／SGLang 自架，或用階躍星辰 API 平台。",
+   "links": [
+    [
+     "Hugging Face：Step-5-Preview 模型卡",
+     "https://huggingface.co/stepfun-ai/Step-5-Preview"
+    ],
+    [
+     "StepFun 官方：Step 5 Preview 介紹",
+     "https://www.stepfun.com/step-5-preview"
+    ],
+    [
+     "Neural Daily：Step 5 Preview 整理（含官方成績表）",
+     "https://www.neuraldaily.news/en/a/stepfun-step-5-preview-open-weights"
+    ]
+   ],
+   "image": {
+    "file": "step5.webp",
+    "alt": "Hugging Face 模型分享卡：stepfun-ai/Step-5-Preview",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+   },
+   "short_title": "Step 5 Preview 開源，600B 代理模型",
+   "one": "又一個大型開源模型，專攻寫程式和多步驟代理任務，金融分析是強項，但要大機房才跑得動。",
+   "gloss": [
+    [
+     "MoE（混合專家）",
+     "模型裡有很多「專家」小網路，每次只叫出其中幾個來算，所以總參數很大、實際運算量卻小很多"
+    ],
+    [
+     "開放權重",
+     "把模型檔本身公開給人下載，可以自己架、自己微調，不必只透過官方 API"
+    ]
+   ]
+  },
+  {
+   "id": "nvidia-rtx-spark-pcs",
+   "org": "NVIDIA",
+   "tag": "硬體 · 本地 AI",
+   "date": "2026-10-16",
+   "title": "NVIDIA RTX Spark 筆電開賣：最高 128GB 共用記憶體，主打在筆電上本地跑大模型和 AI 代理",
+   "orig": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+   "summary": "NVIDIA 10/16 宣布 RTX Spark 筆電開賣，首波來自 ASUS、Dell、HP、Lenovo、Microsoft 與 MSI。它把 Blackwell RTX 顯示晶片和 Grace CPU 做成一顆超級晶片，CPU 和 GPU 共用最高 128GB 記憶體，官方說 AI 算力最高 1 petaflop（FP4）。【能做什麼】官方強調可在本地同時跑大型語言模型、AI 代理與創作軟體，首發就支援 Photoshop、Premiere、Hermes、OpenClaw 等代理，並提供免指令列的安裝引導；NVIDIA 自家的 Nemotron 3.5 Bolt 74B 也能在支援的機型上跑。【價格】媒體報導起價 2,399 美元，但 128GB 是最高配置，起價機型不含；Tom's Hardware 列出的部分機型預購價從 2,599 美元起，各款以廠商公告為準。",
+   "links": [
+    [
+     "NVIDIA 官方新聞稿",
+     "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-RTX-Spark-PCs-Available-Today--A-New-Beginning-for-Windows-PCs/default.aspx"
+    ],
+    [
+     "NVIDIA RTX Spark 產品頁",
+     "https://www.nvidia.com/en-us/products/rtx-spark/"
+    ],
+    [
+     "Tom's Hardware：各機型價格與預購整理",
+     "https://www.tomshardware.com/laptops/pre-orders-are-live-on-nvidia-rtx-spark-devices-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptop-starting-at-usd2-599-pricing-and-availability-revealed-on-several-models"
+    ]
+   ],
+   "image": {
+    "file": "rtx-spark.webp",
+    "alt": "NVIDIA RTX Spark 官方宣傳圖",
+    "credit": "NVIDIA",
+    "credit_url": "https://www.nvidia.com/en-us/products/rtx-spark/"
+   },
+   "short_title": "RTX Spark 筆電開賣，本地跑大模型",
+   "one": "想在筆電上自己跑 AI 模型的人多了一個選擇：記憶體最高 128GB，但高配價格不便宜。",
+   "gloss": [
+    [
+     "共用記憶體",
+     "CPU 和顯示晶片用同一塊記憶體，大模型不必塞進小小的顯示卡記憶體裡"
+    ]
+   ]
+  },
+  {
+   "id": "moss-image-open",
+   "org": "OpenMOSS",
+   "tag": "重磅開源 · 圖像模型",
+   "date": "2026-10-16",
+   "title": "OpenMOSS 開源 5B 文生圖模型 MOSS-Image：用框框指定每個物件和文字的位置，中英文字都能準確畫出",
+   "orig": "MOSS-Image: a 5B open-weights text-to-image model with layout-guided generation",
+   "summary": "復旦 OpenMOSS 團隊開源 MOSS-Image，是 5B 參數的單流 DiT 文生圖模型，授權 Apache 2.0（可商用）。【特色】可以讀一份 JSON 排版：畫框指定每個物件和每行文字放哪裡，模型照著擺；能畫出清楚的中英文字，提示詞可長到約 4K token。分 SFT（一般使用、排版較乾淨）和 Base（給人做 LoRA 微調）兩個版本。【在哪裡用】ComfyUI 當天就原生支援，並附「畫框排版」節點與 4 個範本，官方範本需要 ComfyUI 0.41.3 以上；Comfy-Org 重新打包的 INT8 檔約 5.4GB、BF16 約 10.2GB（依 kombitz 整理）。【限制】官方建議 50 步以上、CFG 3，速度不算快；品質說法來自官方與早期整理，尚無大量實測。",
+   "links": [
+    [
+     "Hugging Face：MOSS-Image-SFT 模型卡",
+     "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+    ],
+    [
+     "GitHub：OpenMOSS/MOSS-Image",
+     "https://github.com/OpenMOSS/MOSS-Image"
+    ],
+    [
+     "kombitz：本週開源圖像模型整理（含 MOSS-Image）",
+     "https://www.kombitz.com/2026/10/18/flux-3-image-klein-moss-image-more-weekly-roundup/"
+    ]
+   ],
+   "image": {
+    "file": "moss-image.webp",
+    "alt": "Hugging Face 模型分享卡：OpenMOSS-Team/MOSS-Image-SFT",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
+   },
+   "short_title": "MOSS-Image 開源，畫框就能排版",
+   "one": "做海報、標題字這類「字要對、位置要準」的圖，多了一個可商用、能在自家電腦跑的開源模型。",
+   "gloss": [
+    [
+     "DiT",
+     "Diffusion Transformer，現在主流圖像模型用的架構，用 Transformer 一步步把雜訊變成圖"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-moss-image",
+   "title": "在 ComfyUI 跑 MOSS-Image：文生圖與畫框排版",
+   "learn": "用官方範本跑 MOSS-Image，並用畫框指定物件和文字的位置。",
+   "level": "入門",
+   "vram": "官方未標示；範本預設載入 INT8 檔，BF16 版要更多顯存（依原頁為準）",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "範本（Template）",
+     "ComfyUI 內建、別人已經接好的工作流程，打開就能用"
+    ],
+    [
+     "Bounding Box",
+     "在畫面上拉出的方框，用來告訴模型東西要放哪裡"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到 0.41.3 以上（官方範本的版本需求）。",
+    "在 Template 搜尋 MOSS-Image，選「MOSS-Image: Text to Image」。",
+    "照官方頁的模型清單，從 Hugging Face 的 Comfy-Org/MOSS-Image 下載檔案放到對應資料夾。",
+    "輸入一句想法按 Queue；範本內建提示詞擴寫，會自動補成完整描述。",
+    "要指定位置時改選 Layout-Guided 範本，在 Create Bounding Boxes 拉框並替每個框寫說明，文字框會直接畫出框裡的字。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：MOSS-Image 教學",
+     "https://docs.comfy.org/tutorials/image/moss-image/moss-image"
+    ],
+    [
+     "Hugging Face：Comfy-Org/MOSS-Image 模型檔",
+     "https://huggingface.co/Comfy-Org/MOSS-Image"
+    ]
+   ]
+  },
+  {
+   "id": "tut-update-comfyui",
+   "title": "安全更新 ComfyUI：可攜版、桌面版、手動安裝各怎麼升級",
+   "learn": "依自己的安裝方式把 ComfyUI 升到新版，跑得動新模型的範本，又不弄壞原本的環境。",
+   "level": "入門",
+   "vram": "不需要（更新軟體本身）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Stable／開發版",
+     "Stable 是測過的穩定版；開發版最新但比較可能有 bug"
+    ],
+    [
+     "虛擬環境",
+     "專門給 ComfyUI 用的獨立 Python 空間，避免和電腦裡其他程式互相干擾"
+    ]
+   ],
+   "steps": [
+    "先確認自己是可攜版（Portable）、桌面版（Desktop）還是手動安裝。",
+    "可攜版：到 update 資料夾執行 update_comfyui.bat（想要穩定版就用 update_comfyui_stable.bat）；官方警告除非要修相依套件，否則不要用會重裝全部套件的那支。",
+    "桌面版：打開 Manage 面板的 Update 分頁，選 Stable 或 Latest on GitHub 頻道更新。",
+    "手動安裝：先啟用虛擬環境，在 ComfyUI 資料夾執行 git pull，再跑 pip install -r requirements.txt，最後重新啟動。",
+    "更新前先備份整個資料夾；更新後若出現節點缺失，照官方頁的常見問題排查。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：How to Update ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  }
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-19",
+  "compared_to": "2026-10-18",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-19",
+    "carried_from": "2026-10-17",
+    "latest_as_of": "2026-10-15",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 11,
+      "delta": -4
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 7
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-18",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-19",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-19",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-18",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1220 (+2)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1174 (+2)",
+      "Grok Imagine Image 2.0: #5→#5 (0 名), 1166→1167 (+1)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1165→1166 (+1)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
