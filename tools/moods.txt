@@ -596,3 +596,5 @@ Q彈|bouncy|jelly|果凍:320,180,50,80,65,80
 =柑橘|橘子|tangerine
 =午夜|子夜|midnight blue
 =水|水感|aquatic
+=野性|野蠻|savage
+=狂野|瘋狂|crazy
