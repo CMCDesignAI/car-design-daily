@@ -13,7 +13,9 @@ const PARTS = [
   ['steering','方向盤'], ['stitch','縫線／滾邊','', 1], ['accent-pod','杯架點綴 1'], ['accent-pod2','杯架點綴 2']];
 const KEYS = PARTS.map(p => p[0]);
 const ALIAS = {'door-upper':'ip-upper'};           // drawing var -> editable part
-const GROUP = k => k === 'ip-upper' ? ['ip-upper','door-upper'] : [k];
+const P1 = 'accent-pod', P2 = 'accent-pod2';      // cup-holder pods; 對稱 toggle mirrors P2 = P1
+const eff = k => (st.sym && k === P2) ? P1 : k;  // redirect pod 2 to pod 1 while symmetric
+const GROUP = k => k === 'ip-upper' ? ['ip-upper','door-upper'] : (st.sym && (k === P1 || k === P2)) ? [P1, P2] : [k];
 const MATS = [['default','預設紋理'],['plain','無紋理（霧面）'],['fabric','織布 Fabric weave'],['leather','皮紋 Leather grain'],['mould','咬花 Mould texture'],['brushed','金屬髮絲紋 Brushed metal'],['gloss','鋼琴烤漆 Gloss'],['carbon','碳纖維 Carbon'],['perf','打孔皮 Perforated']];
 const MATK = MATS.map(m => m[0]);
 
@@ -110,17 +112,18 @@ function paintMat(k){
 
 /* ---------- state ---------- */
 const today = PALS[0] || null;
-const st = {vars: {}, mats: {}, hd: 'light', src: '', names: {}, sel: null};
+const st = {vars: {}, mats: {}, hd: 'light', src: '', names: {}, sel: null, sym: true};
+function mirror(){ if (!st.sym) return; st.vars[P2] = st.vars[P1]; if (st.mats[P1]) st.mats[P2] = st.mats[P1]; else delete st.mats[P2]; }
 function fromPalette(p){ const v = {}; KEYS.forEach(k => v[k] = normHex(p.vars[k]) || '#888888'); return v; }
-function load(vars, hd, src, names, mats){ st.vars = vars; st.hd = HDP[hd] ? hd : 'light'; st.src = src; st.names = names || {}; st.mats = mats || {}; KEYS.forEach(paintMat); render(); }
-function setVar(k, hx, keepSrc){ hx = normHex(hx); if (!hx || !KEYS.includes(k)) return; st.vars[k] = hx; if (!keepSrc) st.src = '已自訂'; render(); }
+function load(vars, hd, src, names, mats){ st.vars = vars; st.hd = HDP[hd] ? hd : 'light'; st.src = src; st.names = names || {}; st.mats = mats || {}; mirror(); KEYS.forEach(paintMat); render(); }
+function setVar(k, hx, keepSrc){ hx = normHex(hx); if (!hx || !KEYS.includes(k)) return; k = eff(k); st.vars[k] = hx; mirror(); if (!keepSrc) st.src = '已自訂'; render(); }
 function cssApply(){ const s = cab.style; KEYS.forEach(k => s.setProperty('--' + k, st.vars[k]));
   s.setProperty('--door-upper', st.vars['ip-upper']);                        // rule: door main = ip-upper
   s.setProperty('--headliner', HDP[st.hd][0]); s.setProperty('--headliner-hi', HDP[st.hd][1]); }
 
 /* ---------- UI: parts list ---------- */
 const partsEl = $('#parts');
-partsEl.innerHTML = PARTS.map(([k, zh, note, nomat]) => `<li class="part" data-k="${k}"><button type="button" class="tpb" aria-pressed="false" data-k="${k}"><i class="dch" data-k="${k}" aria-hidden="true"></i><span class="pn"><b>${zh}</b><small>${k}${note ? ' · ' + note : ''}</small><em class="pcn"></em></span></button><input class="phex" data-k="${k}" type="text" maxlength="7" spellcheck="false" aria-label="${zh} HEX">${nomat ? '<span class="pmat-na">—</span>' : `<select class="pmat" data-k="${k}" aria-label="${zh} 材質">${MATS.map(([m, n]) => `<option value="${m}">${n.split(' ')[0]}</option>`).join('')}</select>`}</li>`).join('')
+partsEl.innerHTML = PARTS.map(([k, zh, note, nomat]) => `<li class="part" data-k="${k}"><button type="button" class="tpb" aria-pressed="false" data-k="${k}"><i class="dch" data-k="${k}" aria-hidden="true"></i><span class="pn"><b>${zh}</b><small>${k}${note ? ' · ' + note : ''}</small><em class="pcn"></em></span></button><input class="phex" data-k="${k}" type="text" maxlength="7" spellcheck="false" aria-label="${zh} HEX">${nomat ? '<span class="pmat-na">—</span>' : `<select class="pmat" data-k="${k}" aria-label="${zh} 材質">${MATS.map(([m, n]) => `<option value="${m}">${n.split(' ')[0]}</option>`).join('')}</select>`}${k === P1 ? '<div class="symrow"><span>杯架點綴 2 跟隨 1（顏色＋材質）</span><button type="button" class="symt" id="symt" role="switch" aria-checked="true">對稱</button></div>' : ''}</li>`).join('')
   + `<li class="part fixed"><span class="tpb"><i id="duchip"></i><span class="pn"><b>門板主色</b><small>door-upper · 固定＝上儀表板</small></span></span></li>`
   + `<li class="part fixed"><span class="tpb"><i style="background:#141516"></i><span class="pn"><b>地毯</b><small>carpet · 固定深黑 #141516</small></span></span></li>`;
 const nameOf = k => (PARTS.find(p => p[0] === k) || [k, k])[1];
@@ -132,7 +135,9 @@ function render(){
     const inp = li.querySelector('.phex'); if (document.activeElement !== inp) inp.value = hx;
     const sel = li.querySelector('.pmat'); if (sel) sel.value = st.mats[k] || 'default';
     const n = st.names[k]; li.querySelector('.pcn').textContent = n && n[2] === hx ? n[1] : '';
-    li.querySelector('.tpb').setAttribute('aria-pressed', String(st.sel === k)); li.classList.toggle('on', st.sel === k); });
+    li.querySelector('.tpb').setAttribute('aria-pressed', String(st.sel === k)); li.classList.toggle('on', st.sel === k);
+    if (k === P2) { const off = st.sym; li.classList.toggle('dis', off); li.setAttribute('aria-disabled', String(off)); li.querySelectorAll('button,input,select').forEach(x => x.disabled = off); li.querySelector('.pcn').textContent = off ? '對稱：跟隨杯架點綴 1' : li.querySelector('.pcn').textContent; } });
+  const sb = $('#symt'); sb.setAttribute('aria-checked', String(st.sym)); sb.classList.toggle('on', st.sym);
   document.querySelectorAll('[data-hd]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.hd === st.hd)));
   $('#curname').textContent = st.src; $('#duchip').style.background = st.vars['ip-upper'];
   syncPicker(); saveHash(); applyHL();
@@ -147,7 +152,7 @@ function select(k){ st.sel = st.sel === k ? null : k; render(); }
 const sv = $('#sv'), svk = $('#svk'), hue = $('#hue'), hk = $('#hk'), hexIn = $('#hex'), ih = $('#ih'), is_ = $('#is'), il = $('#il'), matSel = $('#mat');
 matSel.innerHTML = MATS.map(([m, n]) => `<option value="${m}">${n}</option>`).join('');
 let pk = {h: 0, s: 0, v: 0};
-const pkKey = () => st.sel || 'ip-upper';
+const pkKey = () => eff(st.sel || 'ip-upper');
 function syncPicker(from){ const k = pkKey(), hx = st.vars[k]; if (!hx) return;
   if (from !== 'hsv') { const [h, s, v] = hex2hsv(hx); pk = {h: (s < .5 || v < .5) ? pk.h : h, s, v}; }
   sv.style.setProperty('--h', pk.h); svk.style.left = pk.s + '%'; svk.style.top = (100 - pk.v) + '%'; svk.style.background = hx; hk.style.left = pk.h / 3.6 + '%';
@@ -165,7 +170,8 @@ hue.addEventListener('keydown', e => { const d = (e.shiftKey ? 15 : 3) * ({Arrow
 hexIn.addEventListener('input', () => { if (normHex(hexIn.value) && hexIn.value.replace('#', '').length === 6) setVar(pkKey(), hexIn.value); });
 hexIn.addEventListener('change', () => { if (normHex(hexIn.value)) setVar(pkKey(), hexIn.value); else hexIn.value = st.vars[pkKey()]; });
 [ih, is_, il].forEach(el => el.addEventListener('input', () => { if ([ih, is_, il].some(x => x.value === '')) return; setVar(pkKey(), hsl2hex(+ih.value, +is_.value, +il.value)); }));
-matSel.addEventListener('change', () => { st.mats[pkKey()] = matSel.value; st.src = '已自訂'; paintMat(pkKey()); render(); });
+matSel.addEventListener('change', () => { setMat(pkKey(), matSel.value); });
+function setMat(k, m){ k = eff(k); st.mats[k] = m; mirror(); st.src = '已自訂'; GROUP(k).forEach(x => KEYS.includes(x) && paintMat(x)); render(); }
 
 /* ---------- parts list events ---------- */
 partsEl.addEventListener('click', e => { const b = e.target.closest('.tpb[data-k]'); if (!b || dragState.moved) return;
@@ -173,10 +179,11 @@ partsEl.addEventListener('click', e => { const b = e.target.closest('.tpb[data-k
 partsEl.addEventListener('input', e => { const t = e.target; if (t.classList.contains('phex') && normHex(t.value) && t.value.replace('#', '').length === 6) setVar(t.dataset.k, t.value); });
 partsEl.addEventListener('change', e => { const t = e.target;
   if (t.classList.contains('phex')) { if (normHex(t.value)) setVar(t.dataset.k, t.value); else t.value = st.vars[t.dataset.k]; }
-  if (t.classList.contains('pmat')) { st.mats[t.dataset.k] = t.value; st.src = '已自訂'; paintMat(t.dataset.k); render(); } });
+  if (t.classList.contains('pmat')) setMat(t.dataset.k, t.value); });
+$('#symt').addEventListener('click', e => { e.stopPropagation(); st.sym = !st.sym; if (st.sym) { if (st.sel === P2) st.sel = P1; mirror(); paintMat(P2); st.src = st.src || '已自訂'; } render(); });
 
 /* ---------- drawing click = select ---------- */
-const partOfEl = el => { const t = el && el.closest && el.closest('[data-v]'); if (!t || !svg.contains(t)) return null; const v = ALIAS[t.dataset.v] || t.dataset.v; return KEYS.includes(v) ? v : null; };
+const partOfEl = el => { const t = el && el.closest && el.closest('[data-v]'); if (!t || !svg.contains(t)) return null; const v = eff(ALIAS[t.dataset.v] || t.dataset.v); return KEYS.includes(v) ? v : null; };
 svg.addEventListener('click', e => { if (dragState.moved) return; const k = partOfEl(e.target); if (armed && k) { setVar(k, armed); disarm(); return; } if (k) select(k); else if (st.sel) select(st.sel); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') { if (armed) disarm(); if (st.sel) { st.sel = null; render(); } } });
 document.addEventListener('click', e => { if (st.sel && !e.target.closest('#cab,.part,.picker,.tbar,.combo,.dch,.presets')) { st.sel = null; render(); } });
@@ -194,7 +201,7 @@ document.addEventListener('pointerdown', e => { const c = e.target.closest('.dch
       const k = !li && partOfEl(t); st.hov = k || null; applyHoverHL(k); } };
   const up = ev => { document.removeEventListener('pointermove', mv); document.removeEventListener('pointerup', up); document.removeEventListener('pointercancel', up);
     document.querySelectorAll('.part.drop').forEach(x => x.classList.remove('drop')); applyHoverHL(null);
-    if (on) { ghost.hidden = true; const t = document.elementFromPoint(ev.clientX, ev.clientY), li = t && t.closest('.part[data-k]'), k = li ? li.dataset.k : partOfEl(t);
+    if (on) { ghost.hidden = true; const t = document.elementFromPoint(ev.clientX, ev.clientY), li = t && t.closest('.part[data-k]'), k = li ? eff(li.dataset.k) : partOfEl(t);
       if (k) { setVar(k, hx); msg(`${nameOf(k)} → ${hx}`); } setTimeout(() => dragState.moved = false, 0); }
     else if (!c.closest('.part[data-k]')) { armed === hx ? disarm() : arm(hx); } };
   document.addEventListener('pointermove', mv, {passive: false}); document.addEventListener('pointerup', up); document.addEventListener('pointercancel', up); });
@@ -246,15 +253,15 @@ document.querySelectorAll('[data-hd]').forEach(b => b.addEventListener('click', 
 
 /* ---------- export + shareable hash ---------- */
 const msgEl = $('#expmsg'); function msg(t){ msgEl.textContent = t; }
-function exportObj(){ return {tool: 'Car Design Daily 小工具 · 內裝配色', source: st.src, headliner: st.hd, rules: {carpet: '#141516', 'door-upper': 'ip-upper', headliner: HDP[st.hd][0]},
+function exportObj(){ return {tool: 'Car Design Daily 小工具 · 內裝配色', source: st.src, headliner: st.hd, podSymmetry: st.sym, rules: {carpet: '#141516', 'door-upper': 'ip-upper', headliner: HDP[st.hd][0]},
   vars: Object.assign({}, st.vars, {'door-upper': st.vars['ip-upper'], headliner: HDP[st.hd][0], carpet: '#141516'}), materials: Object.fromEntries(Object.entries(st.mats).filter(([, m]) => m !== 'default'))}; }
-function hashStr(){ const p = new URLSearchParams(); p.set('v', KEYS.map(k => k + '.' + st.vars[k].slice(1)).join(',')); const m = Object.entries(st.mats).filter(([, x]) => x !== 'default'); if (m.length) p.set('m', m.map(([k, x]) => k + '.' + x).join(',')); p.set('h', st.hd); return p.toString(); }
+function hashStr(){ const p = new URLSearchParams(); p.set('v', KEYS.map(k => k + '.' + st.vars[k].slice(1)).join(',')); const m = Object.entries(st.mats).filter(([, x]) => x !== 'default'); if (m.length) p.set('m', m.map(([k, x]) => k + '.' + x).join(',')); p.set('h', st.hd); p.set('s', st.sym ? '1' : '0'); return p.toString(); }
 let hashT = 0; function saveHash(){ clearTimeout(hashT); hashT = setTimeout(() => { try { history.replaceState(null, '', '#' + hashStr()); } catch (_) {} }, 250); }
 function readHash(){ if (location.hash.length < 3) return false; const p = new URLSearchParams(location.hash.slice(1)), v = {}, m = {};
   (p.get('v') || '').split(',').forEach(x => { const [k, h] = x.split('.'); if (KEYS.includes(k) && normHex(h)) v[k] = normHex(h); });
   (p.get('m') || '').split(',').forEach(x => { const [k, mm] = x.split('.'); if (KEYS.includes(k) && MATK.includes(mm)) m[k] = mm; });
   if (!Object.keys(v).length) return false; const base = today ? fromPalette(today) : {}; KEYS.forEach(k => v[k] = v[k] || base[k] || '#888888');
-  load(v, p.get('h') === 'dark' ? 'dark' : 'light', '分享連結', {}, m); return true; }
+  st.sym = p.get('s') !== '0'; load(v, p.get('h') === 'dark' ? 'dark' : 'light', '分享連結', {}, m); return true; }
 async function copy(t, label){ try { await navigator.clipboard.writeText(t); msg(label + ' 已複製'); } catch (_) { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); msg(label + ' 已複製'); } catch (__) { msg('無法自動複製，請手動選取'); } a.remove(); } }
 $('#cpjson').onclick = () => copy(JSON.stringify(exportObj(), null, 2), 'JSON');
 $('#cphex').onclick = () => copy(PARTS.map(([k, zh]) => `${zh}\t${k}\t${st.vars[k]}${st.mats[k] && st.mats[k] !== 'default' ? '\t' + st.mats[k] : ''}`).concat([`門板主色\tdoor-upper\t${st.vars['ip-upper']}`, `頂棚\theadliner\t${HDP[st.hd][0]}`, `地毯\tcarpet\t#141516`]).join('\n'), 'HEX 清單');

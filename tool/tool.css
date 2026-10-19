@@ -81,3 +81,11 @@ body.armed .part[data-k]{cursor:copy}
   .part{grid-template-columns:minmax(0,1fr) 80px 86px}
   .sv{height:150px}
 }
+.symrow{grid-column:1/-1;display:flex;align-items:center;justify-content:flex-end;gap:8px;font-size:11.5px;color:var(--muted);padding:2px 0 2px 36px}
+.symt{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:3px 12px 3px 26px;font:inherit;font-size:12.5px;cursor:pointer;position:relative}
+.symt::before{content:"";position:absolute;left:8px;top:50%;width:11px;height:11px;margin-top:-5.5px;border-radius:50%;border:1.5px solid var(--muted)}
+.symt.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.symt.on::before{border-color:var(--bg);background:var(--accent)}
+.symt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.part.dis{opacity:.42;pointer-events:none;filter:grayscale(.6)}
+.part.dis .pcn{color:var(--muted)}
