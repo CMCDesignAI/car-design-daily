@@ -46,13 +46,20 @@ def apps_html(apps):
         out.append(f'<article class="app">{car_svg(a["type"],a["body"][1],a["accent"][1],win)}<h4>{ee(a["name"])}</h4><div class="asws">{sws}</div><p>{ee(a["why"])}</p><div class="src">來源：{src}</div></article>')
     return '<h4 class="apph">配色應用示例 · 依上方數據套用到車型（剪影與配色為示意）</h4><div class="apps">'+"".join(out)+'</div>'
 
-def interior_html(b):
+COMBINED_FROM = "2026-10-19"   # issues on/after this date use the single combined perspective drawing
+
+def interior_html(b, date=""):
     if not b: return ""
     ee=html.escape; c=[x[2] for x in b["parts"]]
     v={pt[4]:pt[2] for pt in b["parts"]}; v.update(b.get("vars",{}))
     for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert"),("seat-bolster","seat"),("seat-center","seat"),("console-arm","armrest"),("accent-pod","ip-decor"),("accent-pod2","accent-pod")]: v.setdefault(k,v.get(fb,"#888"))
     rd=lambda f: open(os.path.join(ROOT,"assets",f),encoding="utf-8").read()
-    svg=(f'<div class="intpair" style="{";".join(f"--{k}:{x}" for k,x in v.items())}">'
+    style=";".join(f"--{k}:{x}" for k,x in v.items())
+    if date >= COMBINED_FROM:
+      svg=(f'<div class="intpair intcombo" style="{style}">'
+         f'<figure><div class="intwrap">{rd("ip-combined-template.svg")}</div><figcaption>車室透視（門板・車窗・A/B 柱・方正儀表台・中控塔與平板螢幕・方形出風口・杯架點綴・方向盤・座椅・中央扶手）</figcaption></figure></div>')
+    else:
+     svg=(f'<div class="intpair" style="{style}">'
          f'<figure><div class="intwrap">{rd("door-template.svg")}</div><figcaption>前門板（上飾板・飾條・嵌飾・門把・扶手開關座・拉手凹槽・喇叭網・置物袋・縫線）</figcaption></figure>'
          f'<figure><div class="intwrap">{rd("ip-template.svg")}</div><figcaption>儀表板正視（方正儀表台・中控塔・方形出風口・杯架點綴・方向盤・座椅・中央扶手）</figcaption></figure></div>')
     evmap={}
@@ -332,7 +339,7 @@ def page(d, base, all_issues, is_root):
             cells += [h.replace('<article class="cmf-card hmi-card', f'<article class="cmf-card s{sp(len(hm))} hmi-card', 1) for h in hm]
             H.append('<div class="cmod"><div class="kicker">Colour · Material · Interface</div><h3>色彩・材質・介面動態</h3>'
                      f'<div class="cmf cmfx">{"".join(cells)}</div></div>')
-        if d.get("color_data"): H.append(interior_html(d["color_data"].get("interior")))
+        if d.get("color_data"): H.append(interior_html(d["color_data"].get("interior"), date))
         H.append('</section>')
     # knowledge
     H.append(f'<section id="knowledge"><div class="sec-head"><span class="num">{n_k}</span><h2>汽車新知</h2><span class="en">Industry &amp; Tech</span></div><div class="kgrid">')

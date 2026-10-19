@@ -157,7 +157,9 @@ tools/
 
 
 ## 內裝配色模板（door／IP）
-`assets/door-template.svg`（實用型前門板）與 `assets/ip-template.svg`（正視方正儀表板＋中控塔＋座椅）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
+**2026-10-19 起**：改用單張一點透視車室圖 `assets/ip-combined-template.svg`（全寬置中，圖說「車室透視（…）」），由 `tools/gen_ip_combined.py` 產生（改幾何才需重跑；它會讀 `ip-template.svg` 的儀表板正面）。分界日在 `tools/build.py` 的 `COMBINED_FROM`；10/18 以前的期數仍用舊的兩張並排圖。同一組變數照樣上色；透視圖額外對應：`headliner`→車頂＋A/B 柱＋側窗周邊飾板、`door-lower`→地毯／腳踏區側板、`door-upper`→後門段＋門與儀表板交界、`ip-upper`→儀表板上表面、`seat-*`→座墊。黑色陶瓷印刷、後視鏡／照後鏡、方向盤柱與下輻、踏板、螢幕、出風口葉片為固定色。**每日流程不用改**：照常填 `color_data.interior`。
+
+舊版：`assets/door-template.svg`（實用型前門板）與 `assets/ip-template.svg`（正視方正儀表板＋中控塔＋座椅）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
 - `parts`：`[部位說明, 色名, HEX, 是否官方, 變數名]`，會顯示成色票與材質清單。
 - `vars`：不顯示色票但要上色的部位。
 - 變數名：`ip-upper`（上儀表板軟質）、`ip-decor`（儀表板／門板飾條、出風口框、門把）、`ip-lower`（下儀表板）、`door-upper`（門上飾板）、`door-insert`（門板嵌飾）、`armrest`（門扶手、中央扶手）、`door-lower`（下門板、喇叭網）、`stitch`（縫線）、`console`（中央通道）、`seat`（座椅）、`steering`（方向盤）、`headliner`（車頂襯）、`seat-bolster`（座椅側翼／頭枕，預設←seat）、`seat-center`（座椅中央，預設←seat）、`console-arm`（中央扶手，預設←armrest）、`accent-pod`（左杯架點綴，預設←ip-decor）、`accent-pod2`（右杯架點綴，預設←accent-pod）。
