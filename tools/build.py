@@ -46,6 +46,7 @@ def apps_html(apps):
         out.append(f'<article class="app">{car_svg(a["type"],a["body"][1],a["accent"][1],win)}<h4>{ee(a["name"])}</h4><div class="asws">{sws}</div><p>{ee(a["why"])}</p><div class="src">來源：{src}</div></article>')
     return '<h4 class="apph">配色應用示例 · 依上方數據套用到車型（剪影與配色為示意）</h4><div class="apps">'+"".join(out)+'</div>'
 
+IP_HL_MODE = "dark"   # interactive highlight style for the combined drawing: "glow" (halo outline) | "dark" (darken the rest)
 COMBINED_FROM = "2026-10-19"   # issues on/after this date use the single combined perspective drawing
 # combined drawing colour rules: headliner is one of two fixed presets; carpet is fixed black (in the SVG);
 # door main colour (door-upper) always = ip-upper
@@ -63,19 +64,24 @@ def headliner_preset(val):
     print(f"[build] WARN interior headliner {val!r} not 'light'/'dark' -> using {k}", file=sys.stderr)
     return k
 
+IP_HL_JS = """<script>(()=>{const m=document.currentScript.closest('.ipalette'),s=m&&m.querySelector('.intcombo svg');if(!s)return;const NS='http://www.w3.org/2000/svg',L=[...s.querySelectorAll('[data-v]')].filter(e=>!e.closest('defs,clipPath,pattern'));const A=[...s.querySelectorAll('path,rect,circle,ellipse')].filter(e=>!e.closest('defs,clipPath,pattern'));const B=[...m.querySelectorAll('[data-hl]')];let pin=null,ov=null;const hov=matchMedia('(hover:hover)');const dark=!!s.closest('.hl-dark');const show=k=>{if(ov){ov.remove();ov=null}B.forEach(b=>b.setAttribute('aria-pressed',String(pin!==null&&b.dataset.hl===pin)));if(dark){const v=k?k.split(' '):null;A.forEach(e=>e.classList.toggle('hl-dim',!!v&&!v.includes(e.dataset.v)));return}if(!k)return;const v=k.split(' '),inv=s.getScreenCTM().inverse(),seen=new Set();ov=document.createElementNS(NS,'g');ov.setAttribute('class','hl-ov');ov.setAttribute('pointer-events','none');ov.setAttribute('filter','url(#hlglow)');L.forEach(e=>{if(!v.includes(e.dataset.v))return;const t=inv.multiply(e.getScreenCTM()),c=e.cloneNode(false);['fill','stroke','stroke-width','stroke-dasharray','opacity','fill-opacity','stroke-opacity','class','data-v','transform','style','filter'].forEach(a=>c.removeAttribute(a));c.setAttribute('transform',`matrix(${t.a} ${t.b} ${t.c} ${t.d} ${t.e} ${t.f})`);const key=c.outerHTML;if(seen.has(key))return;seen.add(key);c.setAttribute('fill','none');c.setAttribute('stroke','#fff');c.setAttribute('stroke-width','2.5');c.setAttribute('stroke-linejoin','round');c.setAttribute('vector-effect','non-scaling-stroke');ov.appendChild(c)});s.appendChild(ov)};B.forEach(b=>{b.addEventListener('click',e=>{e.stopPropagation();pin=pin===b.dataset.hl?null:b.dataset.hl;show(pin)});b.addEventListener('mouseenter',()=>{if(hov.matches&&pin===null)show(b.dataset.hl)});b.addEventListener('mouseleave',()=>{if(pin===null)show(null)})});document.addEventListener('click',e=>{if(pin!==null&&!e.target.closest('[data-hl]')){pin=null;show(null)}});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&pin!==null){pin=null;show(null)}})})()</script>"""
+
 def interior_html(b, date=""):
     if not b: return ""
     ee=html.escape; c=[x[2] for x in b["parts"]]
     v={pt[4]:pt[2] for pt in b["parts"]}; v.update(b.get("vars",{}))
-    for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert"),("seat-bolster","seat"),("seat-center","seat"),("console-arm","armrest"),("accent-pod","ip-decor"),("accent-pod2","accent-pod")]: v.setdefault(k,v.get(fb,"#888"))
+    alias={}
+    for k,fb in [("ip-lower","door-lower"),("door-upper","ip-upper"),("console","door-lower"),("seat","door-insert"),("steering","door-lower"),("headliner","door-insert"),("seat-bolster","seat"),("seat-center","seat"),("console-arm","armrest"),("accent-pod","ip-decor"),("accent-pod2","accent-pod")]:
+        if k not in v: alias[k]=fb
+        v.setdefault(k,v.get(fb,"#888"))
     rd=lambda f: open(os.path.join(ROOT,"assets",f),encoding="utf-8").read()
     style=";".join(f"--{k}:{x}" for k,x in v.items())
     if date >= COMBINED_FROM:
-      vc=dict(v); vc["door-upper"]=vc.get("ip-upper",vc.get("door-upper"))
+      vc=dict(v); vc["door-upper"]=vc.get("ip-upper",vc.get("door-upper")); alias["door-upper"]="ip-upper"
       hl=HEADLINER_PRESETS[headliner_preset(b.get("vars",{}).get("headliner"))]
       vc["headliner"],vc["headliner-hi"]=hl
       style=";".join(f"--{k}:{x}" for k,x in vc.items())
-      svg=(f'<div class="intpair intcombo" style="{style}">'
+      svg=(f'<div class="intpair intcombo hl-{IP_HL_MODE}" style="{style}">'
          f'<figure><div class="intwrap">{rd("ip-combined-template.svg")}</div><figcaption>車室透視（門板・車窗・A/B 柱・方正儀表台・中控塔與平板螢幕・方形出風口・杯架點綴・方向盤・座椅・中央扶手）</figcaption></figure></div>')
     else:
      svg=(f'<div class="intpair" style="{style}">'
@@ -90,15 +96,37 @@ def interior_html(b, date=""):
         sub=f'<small class="evs">{ee(ev[0])}{tag}{" ↗"}</small>' if ev else f'<small class="evs">示意色</small>'
         inner=f'<i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}</small>{sub}</span>'
         return f'<a class="sw swl" href="{ee(ev[1])}" target="_blank" rel="noopener">{inner}</a>' if ev else f'<div class="sw">{inner}</div>'
-    pal="".join(swc(p) for p in b["parts"])
-    mt="".join(f'<li><b>{ee(p[0])}</b>：{ee(p[1])} <code>{p[2]}</code></li>' for p in b["parts"])
+    combo = date >= COMBINED_FROM
+    def grp(var):
+        # the swatch's variable plus every variable that inherits it (fallbacks, door-upper = ip-upper)
+        def root(k):
+            seen=set()
+            while k in alias and k not in seen: seen.add(k); k=alias[k]
+            return k
+        g=[var]+[k for k in alias if root(k)==var and k!=var]
+        if var=="headliner": g.append("headliner-hi")
+        return " ".join(g)
+    def swc2(p):
+        pt,nm,hx,off=p[:4]; ev=(p[5]["src"],p[5]["url"]) if len(p)>5 and p[5] else evmap.get(nm)
+        tag="（官方）" if off else "（示意色）"
+        src=f'<a class="evs" href="{ee(ev[1])}" target="_blank" rel="noopener">{ee(ev[0])}{tag} ↗</a>' if ev else '<small class="evs">示意色</small>'
+        return (f'<div class="sw swh"><button type="button" class="swb" data-hl="{grp(p[4])}" aria-pressed="false" aria-label="在插圖中標示：{ee(nm)}（{ee(pt.split(" · ")[0])}）">'
+                f'<i style="background:{hx}"></i><span>{ee(nm)}<br><code>{hx}</code><br><small>{ee(pt.split(" · ")[0])}</small></span></button>{src}</div>')
+    if combo:
+        pal="".join(swc2(p) for p in b["parts"])
+        mt="".join(f'<li><button type="button" class="ipb" data-hl="{grp(p[4])}" aria-pressed="false"><b>{ee(p[0])}</b>：{ee(p[1])} <code>{p[2]}</code></button></li>' for p in b["parts"])
+    else:
+        pal="".join(swc(p) for p in b["parts"])
+        mt="".join(f'<li><b>{ee(p[0])}</b>：{ee(p[1])} <code>{p[2]}</code></li>' for p in b["parts"])
     offi="、".join(x[1] for x in b["parts"] if x[3]) or "無"
     kw="".join(f'<span>{ee(k)}</span>' for k in b["mood"])
     return (f'<div class="cmod ipalette" id="palette"><div class="kicker">Daily Interior Palette</div><h3>內裝配色 · {ee(b["theme"])} <small>{ee(b["zh"])}｜{ee(b["intro"])}</small></h3>'
       f'{svg}<p class="note">插圖為程式繪製示意，不代表任何真實車款。</p>'
       f'<div class="irow"><div><h4>色票 Swatches · 來源</h4><div class="ipal">{pal}</div></div><div><h4>情緒 Mood</h4><div class="chips">{kw}</div><p style="margin:10px 0 0;line-height:1.7">{ee(b["mood_text"])}</p></div>'
       f'<div><h4>部位與材質 IP &amp; Door Trim</h4><ul class="iparts">{mt}</ul></div></div>'
-      f'<p class="note inote">色票下方小字為流行色來源（點色票可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p></div>')
+      + (f'<p class="note inote">點色票或部位可在插圖中標示對應位置（再點一次或點空白處取消）；色票下方小字為流行色來源（點連結可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p>'
+         + IP_HL_JS if combo else
+         f'<p class="note inote">色票下方小字為流行色來源（點色票可開來源）。官方色值：{ee(offi)}；其餘為示意色，請以實體色卡為準。</p>') + '</div>')
 
 def hmi_cards(items, img):
     """介面與 HMI cards (0–2), rendered as ordinary cards inside the 色彩與材質 card grid.

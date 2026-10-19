@@ -162,6 +162,7 @@ tools/
 **車室透視圖配色規則（10/19 起）**
 - 地毯（地板＋腳踏區側板）固定深黑 `#141516`＋織紋，不吃色盤。
 - 車頂襯（車頂、A/B 柱、側窗周邊飾板、握把）只有兩種：`vars.headliner` 填 `"light"`（淺灰 `#C8CBD0`）或 `"dark"`（深灰 `#4A4E55`），預設 light；握把自動用同色系略淺一階。填 HEX 或其他值，`check_cmf.py` 會擋下（build 只會依明暗自動歸類並警告）；`parts` 裡不要放 headliner。
+- 互動標示：點色票或「部位與材質」項目，插圖中用到該變數（含 build 對應，例如 door-upper＝ip-upper）的部位維持原色，其餘變暗；再點一次／點空白處／Esc 取消。樣式由 `tools/build.py` 的 `IP_HL_MODE`（`"dark"` 變暗其餘｜`"glow"` 光暈描邊）切換。插圖上緣裁切為約 2:1、全寬顯示。
 - 門板主色（`door-upper`：門上飾板、後門段、門與儀表板交界）一律等於儀表板主色 `ip-upper`，build 會強制套用；門板嵌飾 `door-insert`、扶手 `armrest`、下門板 `door-lower` 仍各自配色。
 
 舊版：`assets/door-template.svg`（實用型前門板）與 `assets/ip-template.svg`（正視方正儀表板＋中控塔＋座椅）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。

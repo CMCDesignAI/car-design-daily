@@ -11,6 +11,7 @@ SRC=os.path.join(ROOT,'assets','ip-template.svg')
 OUT=os.path.join(ROOT,'assets','ip-combined-template.svg')
 W_,H_=1600,780; CX,H0=800,250; F=720; CY=1.30
 VX=104   # side crop per edge (6.5%), view stays centred on the VP x=800
+VY=85    # top crop (less headliner) -> 1392x695 ≈ 2:1
 W=0.78                      # half cabin width (door inner plane)
 ZF=1.55                     # dash rear face
 ZW0,YW0=1.95,1.00           # windshield base
@@ -316,10 +317,29 @@ def frit():
     o.append(f'<path d="{poly(dots)}" fill="url(#fritdots)"/>')
     return "".join(o)
 
+def tag_vars(svg):
+    """Interactive highlight support: every shape filled/stroked with var(--x) gets data-v="x";
+    texture overlays that repeat the same geometry right after it inherit the tag."""
+    out=[]; last_d=None; last_v=None
+    def rep(m):
+        nonlocal last_d,last_v
+        el=m.group(0); vm=re.search(r'(?:fill|stroke)="var\(--([a-z0-9-]+)\)"',el)
+        dm=re.search(r' (?:d|x)="([^"]*)"',el); geo=(m.group(1),dm.group(1) if dm else None, re.sub(r'(fill|stroke|opacity|fill-opacity|stroke-opacity|stroke-width)="[^"]*"','',el))
+        key=geo[0]+'|'+re.sub(r'\s+',' ',geo[2].split(' d="')[1].split('"')[0] if ' d="' in geo[2] else geo[2])
+        if vm:
+            last_v=vm.group(1); last_d=key
+            return el.replace('<'+m.group(1),f'<{m.group(1)} data-v="{last_v}"',1)
+        if last_v and key==last_d:
+            return el.replace('<'+m.group(1),f'<{m.group(1)} data-v="{last_v}"',1)
+        last_v=None; return el
+    body=svg[svg.index('</defs>'):]
+    body=re.sub(r'<(path|rect|circle|ellipse)\b[^>]*>',rep,body)
+    return svg[:svg.index('</defs>')]+body
+
 def build():
     tpl=open(SRC,encoding='utf-8').read()
-    defs=tpl[tpl.index('<defs>'):tpl.index('</defs>')+7].replace('</defs>','<pattern id="fritdots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.3" fill="#0c0d0e"/></pattern></defs>')
-    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{VX} 0 {W_-2*VX} {H_}" class="intsvg" role="img" aria-label="車室透視配色示意（程式繪製）：門板、車窗、A/B 柱、儀表台、中控塔、方向盤、座椅與中央扶手">',defs]
+    defs=tpl[tpl.index('<defs>'):tpl.index('</defs>')+7].replace('</defs>','<pattern id="fritdots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.3" fill="#0c0d0e"/></pattern><filter id="hldim" color-interpolation-filters="sRGB"><feComponentTransfer><feFuncR type="linear" slope=".35"/><feFuncG type="linear" slope=".35"/><feFuncB type="linear" slope=".35"/></feComponentTransfer></filter><filter id="hlglow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .85  0 0 0 2.2 0" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>')
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{VX} {VY} {W_-2*VX} {H_-VY}" class="intsvg" role="img" aria-label="車室透視配色示意（程式繪製）：門板、車窗、A/B 柱、儀表台、中控塔、方向盤、座椅與中央扶手">',defs]
     o.append(f'<rect width="{W_}" height="{H_}" fill="url(#sky)"/>')
     # outside hint: horizon band through the windshield
     o.append(f'<rect y="{H0+50}" width="{W_}" height="160" fill="#b9c0c4" opacity=".35"/>')
@@ -354,6 +374,6 @@ def build():
     o.append(wheel())
     for s in (-1,1): o.append(seat(s))
     o.append(f'<rect x="{VX}" width="{W_-2*VX}" height="{H_}" fill="url(#vig)"/></svg>')
-    open(OUT,'w',encoding='utf-8').write("\n".join(o))
+    open(OUT,'w',encoding='utf-8').write(tag_vars("\n".join(o)))
     print("VP",(CX,H0),"seatX",round(SEATX,3),"wheel",[round(v,1) for v in P(SEATX,0.84,1.33)])
 build()
