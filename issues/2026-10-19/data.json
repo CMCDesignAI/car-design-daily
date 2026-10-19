@@ -519,7 +519,7 @@
     "console": "#23262B",
     "seat": "#2C3652",
     "steering": "#25282D",
-    "headliner": "#C8CBD0",
+    "headliner": "light",
     "seat-bolster": "#3B4049",
     "seat-center": "#2C3652",
     "console-arm": "#3B4049",

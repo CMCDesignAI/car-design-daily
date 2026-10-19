@@ -159,6 +159,11 @@ tools/
 ## 內裝配色模板（door／IP）
 **2026-10-19 起**：改用單張一點透視車室圖 `assets/ip-combined-template.svg`（全寬置中，圖說「車室透視（…）」），由 `tools/gen_ip_combined.py` 產生（改幾何才需重跑；它會讀 `ip-template.svg` 的儀表板正面）。分界日在 `tools/build.py` 的 `COMBINED_FROM`；10/18 以前的期數仍用舊的兩張並排圖。同一組變數照樣上色；透視圖額外對應：`headliner`→車頂＋A/B 柱＋側窗周邊飾板、`door-lower`→地毯／腳踏區側板、`door-upper`→後門段＋門與儀表板交界、`ip-upper`→儀表板上表面、`seat-*`→座墊。黑色陶瓷印刷、後視鏡／照後鏡、方向盤柱與下輻、踏板、螢幕、出風口葉片為固定色。**每日流程不用改**：照常填 `color_data.interior`。
 
+**車室透視圖配色規則（10/19 起）**
+- 地毯（地板＋腳踏區側板）固定深黑 `#141516`＋織紋，不吃色盤。
+- 車頂襯（車頂、A/B 柱、側窗周邊飾板、握把）只有兩種：`vars.headliner` 填 `"light"`（淺灰 `#C8CBD0`）或 `"dark"`（深灰 `#4A4E55`），預設 light；握把自動用同色系略淺一階。填 HEX 或其他值，`check_cmf.py` 會擋下（build 只會依明暗自動歸類並警告）；`parts` 裡不要放 headliner。
+- 門板主色（`door-upper`：門上飾板、後門段、門與儀表板交界）一律等於儀表板主色 `ip-upper`，build 會強制套用；門板嵌飾 `door-insert`、扶手 `armrest`、下門板 `door-lower` 仍各自配色。
+
 舊版：`assets/door-template.svg`（實用型前門板）與 `assets/ip-template.svg`（正視方正儀表板＋中控塔＋座椅）是兩張固定插圖，並排顯示。每天只換顏色：build.py 讀 `data.json → color_data.interior`，把色值注入成 CSS 變數。
 - `parts`：`[部位說明, 色名, HEX, 是否官方, 變數名]`，會顯示成色票與材質清單。
 - `vars`：不顯示色票但要上色的部位。

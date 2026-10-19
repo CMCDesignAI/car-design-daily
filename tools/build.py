@@ -47,6 +47,21 @@ def apps_html(apps):
     return '<h4 class="apph">配色應用示例 · 依上方數據套用到車型（剪影與配色為示意）</h4><div class="apps">'+"".join(out)+'</div>'
 
 COMBINED_FROM = "2026-10-19"   # issues on/after this date use the single combined perspective drawing
+# combined drawing colour rules: headliner is one of two fixed presets; carpet is fixed black (in the SVG);
+# door main colour (door-upper) always = ip-upper
+HEADLINER_PRESETS = {"light": ("#C8CBD0", "#DCDFE3"), "dark": ("#4A4E55", "#61666E")}
+def headliner_preset(val):
+    """'light'|'dark' (default light). Legacy hex values are normalised by luminance (check_cmf.py rejects them)."""
+    if val in (None, ""): return "light"
+    if val in HEADLINER_PRESETS: return val
+    h = str(val).lstrip("#")
+    try:
+        r_, g_, b_ = (int(h[i:i+2], 16) for i in (0, 2, 4)); lum = .2126*r_ + .7152*g_ + .0722*b_
+    except Exception:
+        lum = 255
+    k = "light" if lum >= 128 else "dark"
+    print(f"[build] WARN interior headliner {val!r} not 'light'/'dark' -> using {k}", file=sys.stderr)
+    return k
 
 def interior_html(b, date=""):
     if not b: return ""
@@ -56,6 +71,10 @@ def interior_html(b, date=""):
     rd=lambda f: open(os.path.join(ROOT,"assets",f),encoding="utf-8").read()
     style=";".join(f"--{k}:{x}" for k,x in v.items())
     if date >= COMBINED_FROM:
+      vc=dict(v); vc["door-upper"]=vc.get("ip-upper",vc.get("door-upper"))
+      hl=HEADLINER_PRESETS[headliner_preset(b.get("vars",{}).get("headliner"))]
+      vc["headliner"],vc["headliner-hi"]=hl
+      style=";".join(f"--{k}:{x}" for k,x in vc.items())
       svg=(f'<div class="intpair intcombo" style="{style}">'
          f'<figure><div class="intwrap">{rd("ip-combined-template.svg")}</div><figcaption>車室透視（門板・車窗・A/B 柱・方正儀表台・中控塔與平板螢幕・方形出風口・杯架點綴・方向盤・座椅・中央扶手）</figcaption></figure></div>')
     else:

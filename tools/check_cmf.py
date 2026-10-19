@@ -26,4 +26,10 @@ for r in log:
 for r in [r for r in log if r["date"]==date]:
     for k in (r["car_key"],r["url"]):
         if k in seen: err.append(f"dup within 30 days: {k} ({seen[k]})")
+# combined cabin drawing (2026-10-19+): headliner must be a preset name
+ci=(d.get("color_data") or {}).get("interior") or {}
+if date>="2026-10-19" and ci:
+    hv=(ci.get("vars") or {}).get("headliner")
+    if hv not in (None,"light","dark"): err.append(f"interior vars.headliner must be 'light' or 'dark' (got {hv!r})")
+    if any(p_[4]=="headliner" for p_ in ci.get("parts",[])): err.append("interior parts must not carry 'headliner' (use vars.headliner: light|dark)")
 print("CMF OK" if not err else "\n".join(err)); sys.exit(1 if err else 0)

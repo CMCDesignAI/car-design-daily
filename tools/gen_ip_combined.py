@@ -100,9 +100,10 @@ def door(side):
 
 BPF0,BPF1=0.85,0.86   # B-pillar front edge Z at beltline / roof (raked so it leans toward the VP)
 BPR0,BPR1=0.68,0.69   # B-pillar rear edge
+CARPET='#141516'   # fixed deep-black carpet (floor + kick panels), never palette-driven
 def carpet(pts):
     dd=poly(pts)
-    return f'<path d="{dd}" fill="var(--door-lower)"/><path d="{dd}" fill="#000" fill-opacity=".35"/><path d="{dd}" fill="url(#weave)" opacity=".7"/>'
+    return f'<path d="{dd}" fill="{CARPET}"/><path d="{dd}" fill="url(#weave)" opacity=".5"/>'
 TRIM=["var(--headliner)","url(#weave)"]
 def trim(pts,shade=".12"):
     dd=poly(pts); return "".join(f'<path d="{dd}" fill="{f}"/>' for f in TRIM)+f'<path d="{dd}" fill="#000" fill-opacity="{shade}"/>'
@@ -184,7 +185,7 @@ def apillar(side):
     # grab handle on the pillar
     def gp(dx,t): return P(*wsp(side*(W-0.055)+dx,t))
     pts=[gp(0,.62),gp(-side*0.035,.66),gp(-side*0.04,.86),gp(0,.9)]
-    o.append(f'<path d="{d(pts,False)}" stroke="#000" stroke-opacity=".22" stroke-width="17" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 3)"/><path d="{d(pts,False)}" stroke="var(--headliner)" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="{d(pts,False)}" stroke="#fff" stroke-opacity=".35" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>')
+    o.append(f'<path d="{d(pts,False)}" stroke="#000" stroke-opacity=".22" stroke-width="17" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 3)"/><path d="{d(pts,False)}" stroke="var(--headliner-hi)" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>')
     o.append(f'<path d="{d(pts,False)}" stroke="#fff" stroke-opacity=".6" stroke-width="3" fill="none" stroke-linecap="round" transform="translate(-1 -2)"/>')
     return "".join(o)
 
@@ -332,9 +333,9 @@ def build():
     for s in (-1,1): o.append(sidewall(s))
     # floor (carpet) + firewall / footwells
     fl=[(-W,0,0.25),(W,0,0.25),(W,0,ZW0),(-W,0,ZW0)]
-    o.append(f'<path d="{poly(fl)}" fill="var(--door-lower)"/><path d="{poly(fl)}" fill="#000" fill-opacity=".35"/><path d="{poly(fl)}" fill="url(#weave)" opacity=".7"/>')
+    o.append(carpet(fl))
     fw=[(-W,0,ZW0),(W,0,ZW0),(W,0.75,ZW0),(-W,0.75,ZW0)]
-    o.append(f'<path d="{poly(fw)}" fill="var(--door-lower)"/><path d="{poly(fw)}" fill="#000" fill-opacity=".55"/><path d="{poly(fw)}" fill="url(#weave)" opacity=".6"/>')
+    o.append(f'<path d="{poly(fw)}" fill="#0f1011"/><path d="{poly(fw)}" fill="url(#weave)" opacity=".5"/>')
     for i,dx in enumerate((-0.13,0.0,0.13)):   # pedals on driver side
         X=SEATX+dx*0.8; w=0.03 if i else 0.05
         o.append(f'<path d="{poly([(X-w,0.16,1.88),(X+w,0.16,1.88),(X+w,0.33,1.86),(X-w,0.33,1.86)])}" fill="#1c1d1f" stroke="#3a3c40" stroke-width="1.5"/>')
