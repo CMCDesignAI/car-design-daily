@@ -1,0 +1,43 @@
+<svg class="diagram" viewBox="0 0 520 290" width="100%" role="img" aria-label="C-pillar C 柱示意圖：方正越野 SUV 側面線稿，標出 A、B、C、D 柱，C 柱以強調色標示為取自防滾架的粗壯支柱">
+  <text x="260" y="22" fill="currentColor" font-size="15" text-anchor="middle" opacity=".75">側面：車柱從前往後叫 A、B、C（D）柱</text>
+  <!-- wheels -->
+  <circle cx="122" cy="214" r="32" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="122" cy="214" r="14" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="384" cy="214" r="32" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="384" cy="214" r="14" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <!-- body: boxy SUV -->
+  <path d="M42,204 L42,160 Q44,146 60,144 L150,138 L190,80 Q196,72 210,72 L452,72 Q462,72 464,82 L470,150 L472,204 Q472,210 464,210 L422,210 A38,38 0 0 0 346,210 L160,210 A38,38 0 0 0 84,210 L50,210 Q42,210 42,204 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- roof rails -->
+  <line x1="214" y1="64" x2="446" y2="64" stroke="currentColor" stroke-width="2"/>
+  <line x1="230" y1="64" x2="230" y2="72" stroke="currentColor" stroke-width="2"/><line x1="430" y1="64" x2="430" y2="72" stroke="currentColor" stroke-width="2"/>
+  <!-- windows -->
+  <path d="M166,136 L198,86 L268,86 L268,136 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M280,136 L280,86 L344,86 L344,136 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M386,136 L386,86 L448,86 L452,136 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="1.5"/>
+  <!-- B pillar (blacked out) -->
+  <rect x="268" y="86" width="12" height="50" fill="currentColor" fill-opacity=".55"/>
+  <!-- C pillar highlight: thick roll-bar style -->
+  <path d="M344,74 L386,74 L386,140 L344,140 Z" fill="#f08a5d" fill-opacity=".35" stroke="#f08a5d" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M350,140 L350,80 Q365,76 380,80 L380,140" fill="none" stroke="#f08a5d" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- door shut lines & sill -->
+  <line x1="274" y1="138" x2="274" y2="200" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
+  <line x1="344" y1="140" x2="344" y2="196" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
+  <line x1="60" y1="170" x2="468" y2="170" stroke="currentColor" stroke-width="1.2" stroke-dasharray="6 4" opacity=".45"/>
+  <!-- headlamp (T shape) & tail lamp -->
+  <path d="M44,152 L70,150 L70,156 L60,157 L60,168 L54,168 L54,157 L44,158 Z" fill="currentColor" fill-opacity=".45" stroke="currentColor" stroke-width="1.2"/>
+  <rect x="462" y="96" width="7" height="36" fill="currentColor" fill-opacity=".45" stroke="currentColor" stroke-width="1.2"/>
+  <!-- mirror -->
+  <path d="M168,132 L156,124 L150,132 L160,138 Z" fill="currentColor" fill-opacity=".4" stroke="currentColor" stroke-width="1.2"/>
+  <!-- labels A B D -->
+  <text x="172" y="104" fill="currentColor" font-size="14" font-weight="600">A</text>
+  <text x="269" y="80" fill="currentColor" font-size="14" font-weight="600">B</text>
+  <text x="452" y="80" fill="currentColor" font-size="14" font-weight="600">D</text>
+  <!-- callouts -->
+  <line x1="365" y1="74" x2="330" y2="40" stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="200" y="44" fill="#f08a5d" font-size="15">① C 柱：取自初代防滾架</text>
+  <line x1="190" y1="96" x2="120" y2="110" stroke="currentColor" stroke-width="1.3" stroke-dasharray="4 3" opacity=".8"/>
+  <text x="20" y="108" fill="currentColor" font-size="15">② A 柱</text>
+  <line x1="274" y1="120" x2="250" y2="262" stroke="currentColor" stroke-width="1.3" stroke-dasharray="4 3" opacity=".8"/>
+  <text x="150" y="276" fill="currentColor" font-size="15">③ B 柱常塗黑、不搶眼</text>
+  <text x="510" y="276" fill="currentColor" font-size="12" text-anchor="end" opacity=".7">例：全新 Mitsubishi Pajero</text>
+</svg>

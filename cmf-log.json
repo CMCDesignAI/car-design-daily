@@ -172,5 +172,29 @@
   "car_key": "material:lexus-nx-forged-bamboo",
   "angle": "55% 生質 Forged Bamboo 飾板",
   "url": "https://www.carscoops.com/2026/09/lexus-nx-debut/"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "car",
+  "car_key": "hyundai-elantra-n-monochrome-alcantara",
+  "angle": "單色主題、Alcantara 方向盤與座椅門板、淺藍縫線",
+  "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290",
+  "image": "cmf-elantra-n-monochrome-interior.webp"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "paint",
+  "car_key": "paint:velar-belgravia-satin-film",
+  "angle": "Velar 首見緞面保護膜，三色日本限定",
+  "url": "https://car.watch.impress.co.jp/docs/news/2148133.html",
+  "image": "cmf-velar-belgravia-satin.webp"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "material",
+  "car_key": "material:mercedes-modern-meadow-ledfiber",
+  "angle": "廢輪胎回收聚醯胺＋生質蛋白替代皮",
+  "url": "https://www.emove360.com/ledfiber/",
+  "image": "cmf-ledfiber.webp"
  }
 ]
