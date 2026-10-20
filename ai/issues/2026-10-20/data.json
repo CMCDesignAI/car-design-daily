@@ -2,7 +2,7 @@
  "date": "2026-10-20",
  "weekday": "週二",
  "issue_no": 13,
- "lede": "今天的重點在「便宜又能幹的代理模型」：MiniMax 推出 M3.1 Flash、Inception 推出擴散式語言模型 Mercury 3，OpenAI 則公布新模型寫 COBOL、Fortran 等老程式語言的大幅進步；想自己動手的人，今天教你裝擴充節點和用 FLUX Kontext 改圖。",
+ "lede": "今天的重點是「又快又便宜」：MiniMax 推出代理模型 M3.1 Flash、fal 與 Black Forest Labs 推出 10 秒影片十幾秒生好的 FLUX 3 Max，OpenAI 則公布新模型寫 COBOL 等老語言的大進步；想自己動手的人，今天教你裝擴充節點和用 FLUX Kontext 改圖。",
  "ainews": [
   {
    "id": "minimax-m31-flash",
@@ -79,6 +79,38 @@
     [
      "COBOL",
      "1950 年代末就出現的老程式語言，到現在還在跑很多銀行和 ATM 系統"
+    ]
+   ]
+  },
+  {
+   "id": "fal-flux3-max",
+   "org": "fal × Black Forest Labs",
+   "tag": "影片模型 · 世代升級",
+   "date": "2026-10-19",
+   "title": "fal 與 Black Forest Labs 推出 FLUX 3 Max 影片模型：圖生影片品質並列第一，10 秒影片約 11–12 秒就生好，首發打 2.5 折",
+   "orig": "fal Launches FLUX 3 Max, Delivering #1-Tier Image-to-Video Quality at Industry-Leading Speeds",
+   "summary": "fal 10/19 推出 FLUX 3 Max，是 fal Research 與 Black Forest Labs 合作、以 FLUX 3 影片基礎模型再訓練（後訓練）並優化推論的版本。【比上一版進步在哪】在 Artificial Analysis 圖生影片競技場（初步結果）拿到 1,139 Elo，比原版 FLUX 3 的 1,089 高 50 分，與 Seedance 2.5 同分、信賴區間和第一名重疊（官方頁註明 MiniMax H3 以 1,141 排該榜第一）；生成 10 秒影片新聞稿寫 10.95 秒、官方頁寫 12.45 秒，比 FLUX 3 的 126.44 秒快約 10 倍，比 Seedance 2.5 的 277.80 秒快約 22 倍。【限制】首發只有文生影片和圖生影片兩個端點、720p；原版 FLUX 3 的草稿、關鍵影格、延長功能不在其中。【價格】按輸出秒數計費，720p 原價每秒 0.17 美元，11/7 前打 2.5 折為 0.0425 美元。【哪裡能用】fal 平台 API 與 Playground。目前只有官方與 Artificial Analysis 初步數字，尚無獨立實測比較。",
+   "links": [
+    [
+     "fal 官方：FLUX 3 Max 介紹與價格",
+     "https://fal.ai/flux-3-max"
+    ],
+    [
+     "PR Newswire：fal 新聞稿",
+     "https://www.prnewswire.com/news-releases/fal-launches-flux-3-max-delivering-1-tier-image-to-video-quality-at-industry-leading-speeds-302913033.html"
+    ]
+   ],
+   "image": null,
+   "short_title": "FLUX 3 Max：10 秒影片十幾秒生好",
+   "one": "做影片的人可以用接近即時的速度一直試鏡頭，品質和頂級模型同一級，而且現在打 2.5 折。",
+   "gloss": [
+    [
+     "後訓練（Post-training）",
+     "拿現成的基礎模型繼續訓練、針對特定能力加強，而不是從零開始訓練"
+    ],
+    [
+     "Elo 分數",
+     "像棋賽排名一樣，由大量盲測投票算出的相對分數，越高代表越多人覺得比較好"
     ]
    ]
   },
@@ -200,7 +232,7 @@
  "video": null,
  "caveats": [
   "今日榜單兩榜皆無重大變化：文字榜沿用 LMArena 10/15 資料（官方資料集仍未更新），文生圖榜分數僅 ±2 微動。",
-  "OpenAI、MiniMax、Inception 的成績與速度皆為廠商自測；xAI 的 X 帳號今天無法讀取，其餘帳號 36 小時內無其他產品宣布。"
+  "OpenAI、MiniMax、fal、Inception 的成績與速度皆為廠商自測或初步數字；xAI 的 X 帳號今天無法讀取，其餘帳號 36 小時內無其他產品宣布。"
  ],
  "leaderboards": {
   "snapshot": "2026-10-20",
