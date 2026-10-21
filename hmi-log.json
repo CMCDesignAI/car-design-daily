@@ -22,5 +22,11 @@
   "key": "hmi-tesla-large-font",
   "url": "https://www.notateslaapp.com/news/4847/musk-confirms-bigger-text-option-coming-to-tesla-screens",
   "image": "hmi-tesla-large-font.jpg"
+ },
+ {
+  "date": "2026-10-21",
+  "key": "hmi-tesla-parked-vis-surroundings",
+  "url": "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings",
+  "image": "hmi-tesla-parked-vis.jpg"
  }
 ]

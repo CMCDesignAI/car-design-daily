@@ -196,5 +196,27 @@
   "angle": "廢輪胎回收聚醯胺＋生質蛋白替代皮",
   "url": "https://www.emove360.com/ledfiber/",
   "image": "cmf-ledfiber.webp"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "car",
+  "car_key": "ineos-grenadier-helmsman-oyster",
+  "angle": "黑皮座椅牡蠣色嵌片、Whiteout Blue",
+  "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html",
+  "image": "cmf-grenadier-helmsman-interior.webp"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "material",
+  "car_key": "material:bader-circutex",
+  "angle": "無 PVC、68% 回收 PET 塗層織物替代皮",
+  "url": "https://bader-leather.com/en/what-we-do/circutex/"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "paint",
+  "car_key": "paint:axalta-solar-boost-2026",
+  "angle": "Axalta 2026 年度色暖橙＋香檳玻璃片",
+  "url": "https://www.axalta.com/us/en_US/about-axalta/color/solar-boost-color-of-the-year-2026.html"
  }
 ]

@@ -1,0 +1,530 @@
+{
+ "date": "2026-10-21",
+ "weekday": "週三",
+ "issue_no": 14,
+ "lede": "奇瑞國際用戶大會在蕪湖登場，Omoda X 以「Crossvolution」機甲風越野跨界全球首發，iCaur V25 與國際版五座 Freelander 8 同場亮相；Lexus 發表 2027 NX，福特中國公開新銳界L 設計故事，吉利 2027 款博越換上新中式前臉，本田則定 12 月 2 日發表量產 0 Alpha。",
+ "design_news": [
+  {
+   "id": "omoda-x",
+   "tag": "全球首發 · 中國蕪湖",
+   "date": "2026-10-20",
+   "brand": "Omoda（奇瑞）",
+   "title": "Omoda X 全球首發：機甲風「Crossvolution」越野跨界",
+   "orig": "Omoda X debuts – brand’s first off-road crossover is the edgy-looking T1QC, with BEV, PHEV and HEV options",
+   "summary": "奇瑞旗下 Omoda 在奇瑞國際用戶大會期間的 Omoda X Night 發表品牌首款越野取向跨界車 Omoda X，即 4 月北京車展預告的 T1QC 量產版；將提供純電、插混與油電三種動力，量產時程未公布。",
+   "analysis": [
+    [
+     "品牌方向",
+     "新設計語言「Crossvolution」，品牌稱是 Omoda 4「Cyber Mecha」機甲風的延伸，把都會精緻感與越野野性結合。"
+    ],
+    [
+     "燈號",
+     "前方是鋸齒狀日行燈，尾燈則用閃電造型圖形，呼應銳利幾何線條。"
+    ],
+    [
+     "比例",
+     "車長 4,654 mm、寬 1,920 mm、高 1,702 mm，軸距與 Omoda 4 同為 2,700 mm；輪拱明顯外擴、車頂線向後傾斜。"
+    ],
+    [
+     "CMF",
+     "外漆採自我修復、抗刮的 Progloss Plus 透明漆，用來保護越野時的車漆。"
+    ],
+    [
+     "室內 UX",
+     "「Mecha Starship」座艙採左右對稱雙翼布局，X 形大型中控台橫跨扶手，配一排撥桿開關、實體旋鈕與紅色啟動鈕蓋。"
+    ]
+   ],
+   "sources": [
+    [
+     "paultan.org（10/20）",
+     "https://paultan.org/2026/10/20/omoda-x-debuts-brands-first-off-road-crossover-is-the-edgy-looking-t1qc-with-bev-phev-and-hev-options/"
+    ]
+   ],
+   "image": {
+    "file": "news-omoda-x.webp",
+    "alt": "Omoda X 金色車身在蕪湖全球首發會場展示（側前方）",
+    "credit": "paultan.org",
+    "credit_url": "https://paultan.org/2026/10/20/omoda-x-debuts-brands-first-off-road-crossover-is-the-edgy-looking-t1qc-with-bev-phev-and-hev-options/"
+   }
+  },
+  {
+   "id": "lexus-nx-2027",
+   "tag": "改款發表 · 美國",
+   "date": "2026-10-20",
+   "brand": "Lexus",
+   "title": "2027 Lexus NX：雙線燈號、首見「Double L」尾燈",
+   "orig": "2027 Lexus NX Goes All-In on New-Generation Hybrid Systems, Gains Sharper Design and More Luxurious Cabin",
+   "summary": "Lexus 10 月 20 日發表大幅更新的 2027 年式 NX，全車系改為油電（NX 350h）或插電油電（NX 450h+），延續「Vital Tech」設計主題，預計 2026 年底前推向全球市場。",
+   "analysis": [
+    [
+     "燈號",
+     "頭燈把方向燈與日行燈整合成雙線燈號；尾燈採 Lexus 首見的「Double L Signature」，兩端發光 L 形配發光 Lexus 字標。"
+    ],
+    [
+     "面處理",
+     "頭燈、轉角燈等功能元件無縫融入水箱護罩，改用網狀格柵；後視鏡與飾條由鍍鉻改為以黑色為主。"
+    ],
+    [
+     "CMF",
+     "九種外色含三款新色：灰綠色 Shaded Ivy、F SPORT 專屬 Incognito 與取代 Atomic Silver 的 Iridium；內裝新增以火星沙丘為靈感的 Abalos 與 Radiant Red。"
+    ],
+    [
+     "室內 UX",
+     "12.3 吋儀表與 14 吋觸控螢幕水平排列；方向盤橫寫「L E X U S」，空調鍵改為半透明面板的 Responsive Hidden Switches。"
+    ],
+    [
+     "燈光",
+     "一條光帶從儀表板延伸到門板強化水平主題；Mark Levinson 音響版本的打孔金屬喇叭網後有發光圓環。"
+    ]
+   ],
+   "sources": [
+    [
+     "Lexus USA Newsroom（10/20）",
+     "https://pressroom.lexus.com/2027-lexus-nx-goes-all-in-on-new-generation-hybrid-systems-gains-sharper-design-and-more-luxurious-cabin/"
+    ]
+   ],
+   "image": {
+    "file": "news-lexus-nx-2027.webp",
+    "alt": "2027 Lexus NX 450h+ Luxury（Shaded Ivy）與 NX 350h F SPORT（Incognito）官方主視覺",
+    "credit": "Lexus USA Newsroom",
+    "credit_url": "https://pressroom.lexus.com/2027-lexus-nx-goes-all-in-on-new-generation-hybrid-systems-gains-sharper-design-and-more-luxurious-cabin/"
+   }
+  },
+  {
+   "id": "ford-edge-l-2026",
+   "tag": "設計故事 · 中國",
+   "date": "2026-10-20",
+   "brand": "Ford（福特中國）",
+   "title": "新福特銳界L 設計故事：方正格柵、發光「EDGE」尾燈",
+   "orig": "以简驭繁，为家而生 新福特锐界L的设计故事",
+   "summary": "福特中國 10 月 20 日公開由福特中國設計中心打造的新銳界L 設計細節，強調以更簡練的型面與一體化圖形呈現三排家庭 SUV 的氣場。",
+   "analysis": [
+    [
+     "燈號",
+     "新格柵比例更方正，內部細節與燈組同源，標誌性三段式日行燈與格柵銜接成一體。"
+    ],
+    [
+     "車尾",
+     "尾門大幅簡化、大面積留白；新貫穿式尾燈中央嵌入可點亮的「EDGE」字標。"
+    ],
+    [
+     "CMF",
+     "首次以「黃道金」為主打色，光線下在香檳金與玫瑰金之間變化；另有中國市場專屬的「星雲藍」。"
+    ],
+    [
+     "內裝",
+     "儀表台加大軟質包覆並延伸到門板，配緞面金屬飾件；座椅結合菱格絎縫與漸變打孔，肩部用麂皮呼應門板嵌飾。"
+    ]
+   ],
+   "sources": [
+    [
+     "福特中國新聞中心（10/20）",
+     "https://www.ford.com.cn/newsroom/2026/20261020"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-edge-l.webp",
+    "alt": "新福特銳界L 官方設計草圖：黃道金車身側前方",
+    "credit": "Ford Design（福特中國）",
+    "credit_url": "https://www.ford.com.cn/newsroom/2026/20261020"
+   }
+  },
+  {
+   "id": "geely-boyue-2027",
+   "tag": "10/23 上市 · 中國",
+   "date": "2026-10-20",
+   "brand": "Geely（吉利）",
+   "title": "2027 款博越：「四水歸堂」格柵、「飛簷斗拱」頭燈",
+   "orig": "2027款吉利博越 10月23日上市",
+   "summary": "2027 款吉利博越定於 10 月 23 日上市，外觀換上新中式設計語言，車長 4,570 mm、軸距 2,707 mm，車長比現款增加 21 mm；全系標配 14.6 吋 2K 中控屏。",
+   "analysis": [
+    [
+     "面處理",
+     "前臉採新中式「四水歸堂」直瀑盾形格柵，取自傳統合院四面屋簷向內排水的意象。"
+    ],
+    [
+     "燈號",
+     "「飛簷斗拱」造型的貫穿式 LED 頭燈；車尾是「長卷流霞」貫穿尾燈配黑化 GEELY 字標。"
+    ],
+    [
+     "CMF",
+     "官網外色含「景泰藍」；內裝提供「如意橙」「吉祥米」「福祿灰」三種配色。"
+    ],
+    [
+     "室內 UX",
+     "10.2 吋液晶儀表＋14.6 吋中控全面屏，搭載 Flyme Auto 車機；高配有「棉花糖座椅」。"
+    ]
+   ],
+   "sources": [
+    [
+     "吉利博越官網：2027 款博越",
+     "https://boyue.geely.com/2027kuanboyue"
+    ],
+    [
+     "網易（鴨梨說車，10/20）：本週上市新車",
+     "https://www.163.com/dy/article/L9LVEJCU0514IEU6.html"
+    ]
+   ],
+   "image": {
+    "file": "news-geely-boyue-2027.webp",
+    "alt": "2027 款吉利博越景泰藍車身側前方，背景為天壇（吉利官網官方圖）",
+    "credit": "吉利汽車（博越官網）",
+    "credit_url": "https://boyue.geely.com/2027kuanboyue"
+   }
+  },
+  {
+   "id": "icaur-v25",
+   "tag": "新車發表 · 中國",
+   "date": "2026-10-20",
+   "brand": "iCaur（奇瑞國際）",
+   "title": "iCaur V25：混搭經典越野車元素的方盒子 SUV",
+   "orig": "New iCaur V25 looks like a cyberpunk Land Cruiser",
+   "summary": "奇瑞國際旗下 SUV 品牌 iCaur 發表 V25，車長 4.7 米，提供純電與增程式插電版本；品牌將於 2027 年進軍英國，V25 預計 2027 年夏季前登場。",
+   "analysis": [
+    [
+     "比例",
+     "方正厚實的方盒子造型，整體輪廓有 Jeep Wrangler 的影子。"
+    ],
+    [
+     "傳承元素",
+     "CAR 雜誌指出，圓形頭燈像經典 Land Cruiser、車尾像 G-Class、肩線像 Defender。"
+    ],
+    [
+     "室內 UX",
+     "大中控螢幕配數位儀表，但強調實體開關：中控台有大型撥桿與旋鈕，車頂另有一排開關。"
+    ]
+   ],
+   "sources": [
+    [
+     "CAR Magazine（10/20）",
+     "https://www.carmagazine.co.uk/car-news/first-official-pictures/icaur/2027-v25-suv-details/"
+    ]
+   ],
+   "image": {
+    "file": "news-icaur-v25.webp",
+    "alt": "iCaur V25 深灰色方盒子 SUV 側前方官方圖",
+    "credit": "iCaur（via CAR Magazine）",
+    "credit_url": "https://www.carmagazine.co.uk/car-news/first-official-pictures/icaur/2027-v25-suv-details/"
+   }
+  },
+  {
+   "id": "freelander-8-five-seat",
+   "tag": "國際版首秀 · 中國蕪湖",
+   "date": "2026-10-19",
+   "brand": "Freelander（JLR × 奇瑞）",
+   "title": "Freelander 8 國際版五座首秀：城堡式車身、三角窗藏「FL」",
+   "orig": "FREELANDER Debuts International Five-Seat FREELANDER 8 and Announces AI Voice Assistant at FREELANDER Nightfall",
+   "summary": "Freelander 於 10 月 19 日在蕪湖的品牌之夜首度展出國際版五座 Freelander 8，並宣布 AI 語音助理；預計 2027 年第一季在阿聯酋上市。",
+   "analysis": [
+    [
+     "品牌方向",
+     "曾參與 1997 年初代 Freelander 設計的 Phil Simmons 介紹設計重點：城堡式車身、遊艇式腰線與標誌性三角窗。"
+    ],
+    [
+     "細節",
+     "三角窗的形狀藏著字母 F 與 L。"
+    ],
+    [
+     "家族臉",
+     "Simmons 說家族特徵是簡潔型面、柔和線條與友善臉孔，Freelander 8 更大、更現代也更高級。"
+    ],
+    [
+     "室內 UX",
+     "座艙用 Qualcomm SA8295P 晶片，配 46.3 吋 Mini LED 遠景屏。"
+    ]
+   ],
+   "sources": [
+    [
+     "Chery Group 新聞稿（GlobeNewswire，10/20）",
+     "https://www.globenewswire.com/news-release/2026/10/20/3384541/0/en/freelander-debuts-international-five-seat-freelander-8-and-announces-ai-voice-assistant-at-freelander-nightfall.html"
+    ]
+   ]
+  },
+  {
+   "id": "honda-0-alpha-date",
+   "tag": "發表日確定 · 印度／日本",
+   "date": "2026-10-20",
+   "brand": "Honda",
+   "title": "本田 0 Alpha 量產版 12 月 2 日發表",
+   "orig": "Honda sets 2 December debut for 0 Alpha electric SUV, built in India and kept out of the US",
+   "summary": "本田確認量產版 0 Alpha 純電 SUV 將於 12 月 2 日發表，在印度 Rajasthan 的 Tapukara 廠生產，主要銷往印度與日本，不在美國販售；動力與續航尚未公布。",
+   "analysis": [
+    [
+     "傳承元素",
+     "源自 2025 年日本移動展的 0 Alpha 概念車，保留 0 Series 乾淨的車鼻與發光 H 字標。"
+    ],
+    [
+     "比例",
+     "偽裝測試車大致保留概念車輪廓：粗壯 C 柱、肌肉感後葉子板與直立車尾。"
+    ],
+    [
+     "室內 UX",
+     "諜照顯示簡潔座艙：大型中控螢幕、數位儀表與平底三輻方向盤。"
+    ],
+    [
+     "品牌方向",
+     "本田稱依「Thin, Light, and Wise」理念開發，並針對印度路況與氣候調校。"
+    ]
+   ],
+   "sources": [
+    [
+     "The Daily Car News（10/20）",
+     "https://thedailycar.news/story/2026-10-20-honda-sets-2-december-debut-for-0-alpha-electric-suv-built-in-india-and--8c12a68e"
+    ]
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-grenadier-helmsman",
+   "kind": "car",
+   "car": "INEOS Grenadier Helmsman",
+   "tag": "航海主題 · 特別版",
+   "title": "Helmsman：黑皮座椅嵌牡蠣色",
+   "points": [
+    "航海主題特別版，2027 年式加入 Grenadier 車系。",
+    "黑色皮革座椅首次加入牡蠣色（oyster）嵌片。",
+    "外色 Whiteout Blue 原為 Arcane Works 專屬。",
+    "可選 Inky Black 或 Scottish White 對比色車頂。"
+   ],
+   "image": {
+    "file": "cmf-grenadier-helmsman-interior.webp",
+    "alt": "INEOS Grenadier Helmsman 座艙：黑色皮革座椅配牡蠣色嵌片與方向盤（官方圖）",
+    "credit": "INEOS Automotive",
+    "credit_url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+   },
+   "sources": [
+    [
+     "INEOS Automotive Media（10/14）",
+     "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-bader-circutex",
+   "kind": "material",
+   "car": "BADER CIRCUTEX",
+   "tag": "塗層織物 · 替代皮革",
+   "title": "CIRCUTEX：用皮革塗裝工序做的無 PVC 替代皮",
+   "points": [
+    "以回收消費後 PET 製成織物基材，回收含量最高 68%。",
+    "不含 PVC，用與皮革相同的製程、顏料與塗層技術。",
+    "預塗層打底、底漆定色、面漆決定表面質感。",
+    "適用座椅、門飾板與方向盤，可與真皮配色配紋。"
+   ],
+   "swatch": {
+    "hex": "#3B3735",
+    "label": "示意色：皮革質感深灰"
+   },
+   "sources": [
+    [
+     "BADER Leather：CIRCUTEX",
+     "https://bader-leather.com/en/what-we-do/circutex/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-axalta-solar-boost",
+   "kind": "paint",
+   "car": "Axalta Solar Boost",
+   "tag": "年度色 · 車用塗料",
+   "title": "Axalta 2026 年度色 Solar Boost",
+   "points": [
+    "Axalta 第 12 年選出的年度汽車色（2026）。",
+    "明亮暖橙色，帶香檳色玻璃片效果。",
+    "官方稱適用跑車、跨界車等現代車款。"
+   ],
+   "swatch": {
+    "hex": "#E0782F",
+    "label": "示意色：Solar Boost 橙"
+   },
+   "sources": [
+    [
+     "Axalta：Solar Boost Color of the Year 2026",
+     "https://www.axalta.com/us/en_US/about-axalta/color/solar-boost-color-of-the-year-2026.html"
+    ]
+   ],
+   "note": "今日無新發布的車用塗料新聞，改放 Axalta 2026 年度色作趨勢對照（非今日新發布）。"
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-parked-vis-surroundings",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "停車畫面依所在地即時變換場景",
+   "date": "2026-10-19",
+   "points": [
+    "構想讓停車畫面依實際停車位置生成場景，取代固定的攝影棚背景。",
+    "靠近公園顯示樹木、湖邊顯示水岸、車庫則顯示牆面與 Wall Connector。",
+    "可沿用 Park Assist 與 FSD 視覺化已建立的周遭 3D 模型。",
+    "今年春季更新已改用 Unreal Engine 呈現更真實的車模、光影與反射。",
+    "萬聖節模式已示範停車畫面可整個換成主題場景。"
+   ],
+   "image": {
+    "file": "hmi-tesla-parked-vis.jpg",
+    "alt": "Not a Tesla App 繪製的概念圖：Tesla 中控螢幕停車畫面顯示 Model Y 停在有樹的停車場",
+    "credit": "Not a Tesla App 示意圖",
+    "credit_url": "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（10/19）",
+     "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 日本",
+   "date": "2026-10-20",
+   "title": "三菱汽車加入日產旗下滿 10 年，轉向集中資源做特色車型",
+   "summary": "日經報導，三菱汽車在加入日產聯盟滿 10 年之際，正從重建期轉向加速成長，集中資源開發具辨識度的車型，並以日本版全新 Pajero 作為這個方向的旗艦。",
+   "sources": [
+    [
+     "Nikkei Asia",
+     "https://asia.nikkei.com/business/automobiles/mitsubishi-motors-bets-on-distinctive-vehicles-as-path-diverges-from-nissan"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 英國",
+   "date": "2026-10-20",
+   "title": "理想汽車確認 2027 年秋季進軍英國",
+   "summary": "理想汽車將以 i6 先進軍挪威與荷蘭（2027 年春），英國則於 2027 年秋推出另一款家庭取向車型；i6 長 4,950 mm，以約 29 吋大螢幕集中控制並配超寬抬頭顯示器。",
+   "sources": [
+    [
+     "Autocar",
+     "https://www.autocar.co.uk/car-news/electric-cars/li-auto-chinese-premium-ev-brand-confirms-uk-launch-2027"
+    ]
+   ]
+  },
+  {
+   "tag": "充電 · 美國",
+   "date": "2026-10-20",
+   "title": "BMW iX5 示範 460 kW 充電，10 分鐘補 217 英里",
+   "summary": "BMW 與 IONNA、Alpitronic 在南加州示範首款純電 X5（iX5 60 xDrive）峰值 460 kW 充電；141 kWh 電池 10–80% 需 22 分鐘。BMW 強調這是技術示範，不代表目前美國市售充電設備。",
+   "sources": [
+    [
+     "The Daily Car News",
+     "https://thedailycar.news/story/2026-10-20-honda-sets-2-december-debut-for-0-alpha-electric-suv-built-in-india-and--8c12a68e"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Fender flare",
+  "zh": "葉子板外擴（輪拱外擴）",
+  "body": "葉子板外擴指把包住輪胎的葉子板往外撐寬、讓輪拱明顯鼓出車身側面的設計，通常是為了容納更寬的輪胎，也讓車看起來更寬、更穩。看本期的 Omoda X：前後輪拱都做得又寬又凸，輪拱邊緣再包一圈有稜角的黑色護板，讓這台跨界車在側面一眼就看得出越野姿態。設計師這樣做，是用輪胎外側的「肩膀」把車的重心視覺往下、往外拉，強調抓地和穩定。",
+  "source": [
+   [
+    "paultan.org：Omoda X 外擴輪拱（pronounced wheel arches）",
+    "https://paultan.org/2026/10/20/omoda-x-debuts-brands-first-off-road-crossover-is-the-edgy-looking-t1qc-with-bev-phev-and-hev-options/"
+   ],
+   [
+    "AutoIndustriya：Omoda X 加寬姿態與有稜角的車身護板",
+    "https://www.autoindustriya.com/auto-industry-news/omoda-x-makes-world-premiere-at-chery-international-user-summit.html"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Helmsman Oyster & Tide Blue",
+   "zh": "牡蠣白潮藍座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以 INEOS Grenadier Helmsman 的黑色皮革配牡蠣色嵌片與 Whiteout Blue 外色為骨幹，加上 BADER CIRCUTEX 皮革質感塗層織物的扶手，配淺灰頂棚，組成黑、牡蠣白與深海藍的航海座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 皮革包覆",
+     "墨黑皮（示意）",
+     "#1E1F22",
+     false,
+     "ip-upper",
+     {
+      "src": "Helmsman 黑色皮革",
+      "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 烤漆",
+     "潮藍（示意）",
+     "#2C4A78",
+     false,
+     "ip-decor",
+     {
+      "src": "Helmsman Whiteout Blue 外色",
+      "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "牡蠣白（示意）",
+     "#D9D2C3",
+     false,
+     "door-insert",
+     {
+      "src": "Helmsman oyster 嵌片",
+      "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+     }
+    ],
+    [
+     "門扶手 · 塗層織物",
+     "暖炭灰（示意）",
+     "#3B3735",
+     false,
+     "armrest",
+     {
+      "src": "BADER CIRCUTEX",
+      "url": "https://bader-leather.com/en/what-we-do/circutex/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "牡蠣灰（示意）",
+     "#BDB4A3",
+     false,
+     "stitch"
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "深墨（示意）",
+     "#18191B",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "黑色皮革＋oyster 嵌片／Whiteout Blue：INEOS Grenadier Helmsman",
+     "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html"
+    ],
+    [
+     "皮革質感塗層織物：BADER CIRCUTEX",
+     "https://bader-leather.com/en/what-we-do/circutex/"
+    ]
+   ],
+   "mood": [
+    "航海",
+    "黑白對比",
+    "深海藍",
+    "實用"
+   ],
+   "mood_text": "墨黑皮把儀表板壓低，牡蠣白的門板與座椅中央像船上的帆布一樣明亮；一抹潮藍飾條和杯架點出海的顏色。",
+   "vars": {
+    "ip-lower": "#18191B",
+    "console": "#1E1F22",
+    "seat": "#D9D2C3",
+    "steering": "#1E1F22",
+    "headliner": "light",
+    "seat-bolster": "#1E1F22",
+    "seat-center": "#D9D2C3",
+    "console-arm": "#3B3735",
+    "accent-pod": "#2C4A78",
+    "accent-pod2": "#2C4A78"
+   }
+  }
+ }
+}

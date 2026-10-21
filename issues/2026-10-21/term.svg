@@ -1,0 +1,30 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="Fender flare 葉子板外擴示意圖：跨界 SUV 側面線稿，前後外擴輪拱與輪拱護板以強調色標示">
+  <text x="260" y="22" fill="currentColor" font-size="15" text-anchor="middle" opacity=".75">側面：輪拱往外鼓，包住更寬的輪胎</text>
+  <!-- body: crossover with sloped roof -->
+  <path d="M40,200 L40,150 Q42,136 60,132 L140,124 L196,80 Q204,74 218,74 L360,76 Q384,78 404,96 L452,128 Q476,136 478,156 L482,200 Q482,206 474,206 L448,206 A54,54 0 0 0 340,206 L186,206 A54,54 0 0 0 78,206 L48,206 Q40,206 40,200 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- windows -->
+  <path d="M160,124 L204,88 L282,88 L282,124 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="2"/>
+  <path d="M292,88 L358,88 Q378,90 394,106 L404,124 L292,124 Z" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="2"/>
+  <!-- door cut lines -->
+  <line x1="286" y1="124" x2="290" y2="200" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
+  <!-- headlamp (jagged DRL) / taillamp -->
+  <path d="M44,146 L58,140 L66,146 L80,138 L86,146 L46,154 Z" fill="currentColor" fill-opacity=".35" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M458,134 L476,142 L470,150 L478,156 L462,152 Z" fill="currentColor" fill-opacity=".35" stroke="currentColor" stroke-width="1.5"/>
+  <!-- flared arches (accent) -->
+  <path d="M68,206 L74,170 Q132,124 190,170 L196,206" fill="none" stroke="#f08a5d" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M330,206 L336,170 Q394,124 452,170 L458,206" fill="none" stroke="#f08a5d" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- wheels -->
+  <circle cx="132" cy="212" r="38" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="132" cy="212" r="17" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="394" cy="212" r="38" fill="none" stroke="currentColor" stroke-width="2.5"/>
+  <circle cx="394" cy="212" r="17" fill="currentColor" fill-opacity=".2" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="20" y1="251" x2="500" y2="251" stroke="currentColor" stroke-width="1" opacity=".4"/>
+  <!-- callouts -->
+  <line x1="110" y1="140" x2="90" y2="56" stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="30" y="50" fill="#f08a5d" font-size="15">① 前輪拱往外鼓</text>
+  <line x1="420" y1="142" x2="440" y2="56" stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="340" y="50" fill="#f08a5d" font-size="15">② 有稜角的輪拱護板</text>
+  <line x1="394" y1="250" x2="420" y2="272" stroke="currentColor" stroke-width="1.2" stroke-dasharray="4 3" opacity=".7"/>
+  <text x="300" y="290" fill="currentColor" font-size="15">③ 寬輪胎貼齊車身外緣</text>
+  <text x="20" y="290" fill="currentColor" font-size="12" opacity=".7">例：Omoda X（示意）</text>
+</svg>
