@@ -1,0 +1,450 @@
+{
+ "date": "2026-10-21",
+ "weekday": "週三",
+ "issue_no": 14,
+ "lede": "今天以「大廠 App 新功能」為主：ChatGPT 可以把聊天上鎖、Gemini 全球上車並能讀你的 Google 資料、Gemini 幫小老闆做統一風格的品牌圖；追蹤清單的 MiniMax H3 加速版 FastH3-Omni 開放權重，教學則教你用 Hunyuan3D 把一張圖變 3D 模型。",
+ "ainews": [
+  {
+   "id": "chatgpt-locked-chats",
+   "org": "OpenAI",
+   "tag": "平台服務 · ChatGPT 新功能",
+   "date": "2026-10-20",
+   "title": "ChatGPT 推出「上鎖聊天」：用 4 位數 PIN 或 Face ID／Touch ID 鎖住私密對話，免費版也能用",
+   "orig": "ChatGPT now lets you lock your chats",
+   "summary": "OpenAI 10/20 宣布 ChatGPT 可以把對話上鎖，用 4 位數 PIN，或在支援的裝置上用 Face ID／Touch ID 解鎖。【怎麼運作】上鎖的對話移到獨立的「Locked Chats」區，不會出現在一般聊天紀錄、釘選和搜尋結果；和「臨時聊天」不同，上鎖的對話可以隨時回來繼續。開啟記憶功能時，Locked Chats 有自己獨立的記憶，上鎖後的新內容不會流進一般記憶。【限制】官方說上鎖不是端對端加密、也不是加密保險箱，不改變保留期限、不刪除上鎖前已記住的內容、不改變「改善模型」設定；重設 PIN 會永久刪除所有上鎖聊天與檔案；臨時、封存、群組、分享連結建立的、排程任務與會議錄音的聊天不能上鎖。【哪裡能用】Free、Go、Plus、Pro、Business、Enterprise、Edu 方案（ChatGPT for Healthcare 除外），10/20 起分批推出，可能還沒輪到你。",
+   "links": [
+    [
+     "TechCrunch：ChatGPT now lets you lock your chats",
+     "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 可以把聊天上鎖了",
+   "one": "手機借別人看時，私密的對話可以先鎖起來；但它只是「藏起來」，不是加密。",
+   "gloss": [
+    [
+     "端對端加密",
+     "只有你自己的裝置能解開內容，連服務商都看不到；ChatGPT 的上鎖聊天不是這種"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-cars-personal-intelligence",
+   "org": "Google",
+   "tag": "平台服務 · Gemini",
+   "date": "2026-10-20",
+   "title": "Gemini 全球登上 Android Auto 與 Google 內建車款，並開始加入「Personal Intelligence」：開車時直接問信件、行事曆、照片裡的資訊",
+   "orig": "Personal Intelligence brings Gemini to cars globally",
+   "summary": "Google 10/20 宣布 Gemini 已在全球的 Android Auto 和「Google 內建」車款上提供，開車時可以用自然口語問問題、做事。同時開始推出 Personal Intelligence：經你同意後，Gemini 可以串接 Gmail、Google 日曆、Google 相簿、Google 地圖、YouTube 和搜尋的資料來回答。【官方舉例】問「我的登機門在哪？班機準時嗎？」一次給兩個答案；「導航到我看醫生的地方」不必先查地址；「找上週拍的那間洗車場並導航過去」。【隱私】要自己打開才會連結 App、隨時可在 Gemini 設定關掉；Google 內建車款只有在你人在車上、手機已連線時才會給個人化回答；不開也能照常導航、聽音樂、打電話。【哪裡能用】Personal Intelligence 從 10/20 起在 Android Auto 分批推出，Google 內建車款要「未來幾個月」；已在 Gemini App 開啟的人會自動帶進車上（原文附註可能有地區或帳號條件，依原頁為準）。",
+   "links": [
+    [
+     "Google 官方部落格：Personal Intelligence brings Gemini to cars globally",
+     "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Gemini 上車，還能讀你的 Google 資料",
+   "one": "開車時一句話就能問班機、行程或照片裡的地點，不用拿起手機翻找。",
+   "gloss": [
+    [
+     "Personal Intelligence",
+     "Gemini 經你同意後讀取 Gmail、日曆、相簿等自己的資料，給你量身的回答"
+    ],
+    [
+     "Android Auto",
+     "把手機 App 投到車上螢幕使用的 Google 系統"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-small-business-brand",
+   "org": "Google",
+   "tag": "平台服務 · Gemini App × Nano Banana 2.1",
+   "date": "2026-10-20",
+   "title": "Gemini 推出小商家專區：上傳品牌色、字型、網站後，用 Nano Banana 2.1 做出風格一致的行銷圖，並可串接 Canva、Shopify 等 App",
+   "orig": "New Gemini tools for small business owners",
+   "summary": "Google 10/20 宣布 Gemini App 推出給小商家的新工具。【品牌風格】可以上傳網站、品牌手冊、字型或色票定義品牌風格，搭配 Nano Banana 2.1 產生新品上市或行銷活動的整套視覺，Gemini 會記住這個風格，之後不必重複上傳規範。【其他功能】新的「商家專區」入口集中做品牌、財務分析、顧客洞察；能把雜亂的試算表、收據、進貨紀錄整理成財務圖表與互動模型；可串接 Google 商家檔案、Google Ads、Workspace，以及 Adobe、Canva、Dropbox、Shopify、Wix、Zoho、Xero 等第三方 App。【限制與價格】官方文中未說明方案、價格與開放地區，依原頁為準。",
+   "links": [
+    [
+     "Google 官方部落格：New Gemini tools for small business owners",
+     "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Gemini 幫小老闆做統一風格的品牌圖",
+   "one": "把品牌色和字型交給 Gemini 一次，之後做海報、商品圖都會自動維持同一種風格。",
+   "gloss": [
+    [
+     "品牌手冊（Brand Kit）",
+     "一家公司規定好的標誌、顏色、字型和用法，讓所有宣傳物看起來像同一家"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-action-button",
+   "org": "xAI",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-19",
+   "title": "Grok Bot iOS 1.16：可設成 iPhone「動作按鈕」，一按就開始語音對話",
+   "orig": "Grok Bot is now one step closer. Set it as your iPhone's Action Button",
+   "summary": "Grok Bot 官方帳號 10/19 宣布，iPhone 可以把 Grok Bot 設成「動作按鈕」，按一下就直接和 Bot 語音對話。【怎麼設定】需 iPhone 15 Pro 或更新機型，先把 Grok Bot 更新到 1.16，再到 設定 → 動作按鈕，滑到「捷徑」，選 Grok Bot → Start Voice Chat。另外 Musk 10/20 在 X 轉引了一支 Grok Bot 更新整理影片並寫「Big Grok @Bot update」，影片章節列出新聊天卡片、速度、草稿編輯、Email 別名、X 私訊、語音通話、通知、Android 助理等項目（非官方逐項說明，細節依各功能公告為準）。",
+   "links": [
+    [
+     "Grok Bot 官方 X：動作按鈕宣布",
+     "https://x.com/bot/status/2112252507762368684"
+    ],
+    [
+     "Grok Bot 官方 X：設定步驟",
+     "https://x.com/bot/status/2112282506284445787"
+    ],
+    [
+     "Elon Musk 在 X：Big Grok @Bot update",
+     "https://x.com/elonmusk/status/2112589019380875714"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 變成 iPhone 一鍵語音助理",
+   "one": "iPhone 15 Pro 以上的人，按側邊的動作按鈕就能直接跟 Grok Bot 說話。",
+   "gloss": [
+    [
+     "動作按鈕（Action Button）",
+     "iPhone 15 Pro 起機身側邊可自訂功能的實體按鍵"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-hunyuan3d-2",
+   "title": "在 ComfyUI 用 Hunyuan3D 把一張圖變成 3D 模型（.glb）",
+   "learn": "用官方範本把產品或車子的照片轉成可在 3D 軟體打開的模型網格。",
+   "level": "入門",
+   "vram": "官方頁：Hunyuan3D-2mini 約 5GB、標準版形狀生成 6GB、形狀＋貼圖完整流程 12GB（ComfyUI 原生目前只做形狀、不含貼圖）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "3D 網格（Mesh）",
+     "由許多小三角形拼成的立體模型表面，3D 軟體都能開"
+    ],
+    [
+     ".glb",
+     "一種常見的 3D 模型檔案格式，可直接拖進 Blender 或網頁檢視器"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到新版，在範本庫搜尋「HY 3D 2.1」（單張圖）或「HY 3D 2.0 MV」（多視角圖）打開官方工作流程。",
+    "Hunyuan3D 2.1：下載 hunyuan_3d_v2.1.safetensors（約 7.4GB）放到 ComfyUI/models/checkpoints/。",
+    "確認 Image Only Checkpoint Loader(img2vid model) 節點選到這個檔案，在 Load Image 放入一張主體清楚的圖。",
+    "按 Queue（或 Ctrl／Cmd + Enter）執行；有前、左、後、右視角圖的話改用 2.0 MV 範本，細節會更好。",
+    "生成的 .glb 會存在 ComfyUI/output/mesh/；注意 ComfyUI 原生目前只產生沒貼圖的形狀，要材質需用社群擴充。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Hunyuan3D-2 Examples",
+     "https://docs.comfy.org/tutorials/3d/hunyuan3D-2"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfyui-shortcuts",
+   "title": "ComfyUI 必學快捷鍵：執行、略過節點、整理畫面，一次學會",
+   "learn": "記住十來個常用快捷鍵，操作工作流程快一倍，也知道怎麼自訂按鍵。",
+   "level": "入門",
+   "vram": "不需要（介面操作）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Bypass（略過）",
+     "讓某個節點暫時不作用、資料直接穿過去，方便比較有沒有它的差別"
+    ],
+    [
+     "Mute（停用）",
+     "讓節點完全不執行"
+    ]
+   ],
+   "steps": [
+    "執行：Ctrl + Enter 排入佇列；Ctrl + Alt + Enter 中斷目前的執行（Mac 用 Cmd）。",
+    "存讀檔：Ctrl + S 儲存工作流程、Ctrl + O 載入；Ctrl + Z／Ctrl + Y 復原與重做。",
+    "節點：Ctrl + B 略過（Bypass）、Ctrl + M 停用（Mute）、Alt + C 收合、Ctrl + G 幫選取的節點加外框分組。",
+    "畫面：按住空白鍵移動畫布、按「.」縮放到選取的節點、在空白處雙擊左鍵快速搜尋節點；F 切換專注模式。",
+    "自訂：按齒輪（或 Ctrl + ,）→ Keybinding，點指令前的編輯圖示就能改成自己習慣的按鍵。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Keyboard and Mouse Shortcuts",
+     "https://docs.comfy.org/interface/shortcuts"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "MiniMax H3 的加速版 FastH3-Omni 10/20 開放權重與訓練程式碼。",
+   "updates": [
+    {
+     "title": "Nuva Lab × FastVideo 開放 FastH3-Omni 權重：MiniMax H3 的加速版，支援圖片／影片／聲音參考，一次生成 5–15 秒有聲影片",
+     "date": "2026-10-20",
+     "summary": "10/17 本刊報過的預覽版，10/20 正式開放權重與訓練程式碼（本刊延伸）。FastH3-Omni 是 Nuva Lab 和 UC San Diego Hao AI Lab 的 FastVideo 團隊以 MiniMax H3 為基礎做的加速版。【能做什麼】輸入文字加最多 9 張參考圖（即時模式最多 3 張）、最多 3 段參考影片（每段 2–15 秒、合計 15 秒）、最多 3 段聲音或音樂參考，總共最多 12 個檔案；也支援首尾影格與接續生成，一次輸出 5–15 秒、24fps、聲音同步的影片。【比原版快多少】FastVideo 在 8 張 NVIDIA GB200 上、27 組對照樣本實測，端到端延遲比原版 H3（50 步）低 5.6–11.9 倍（開發團隊自測）。【哪裡能用】權重在 Hugging Face，官方說可在 NVIDIA RTX 顯卡、DGX Spark 與 Apple Silicon（MLX）上跑；顯存需求依官方另頁為準。",
+     "links": [
+      [
+       "Nuva Lab：FastH3-Omni 發布頁",
+       "https://nuvalab.ai/fasth3/"
+      ],
+      [
+       "Hugging Face：FastVideo FastH3-Omni 權重",
+       "https://huggingface.co/collections/FastVideo/fasth3-omni"
+      ],
+      [
+       "Hao AI Lab：FastVideo 技術說明",
+       "https://haoailab.com/blogs/fastvideo-omniref-update/"
+      ]
+     ],
+     "image": null,
+     "short_title": "延伸 · FastH3-Omni 開放權重",
+     "one": "MiniMax H3 的快速版可以下載到自己電腦跑了，能拿圖片、影片、聲音當參考做有聲短片。",
+     "gloss": [
+      [
+       "參考輸入（Omni reference）",
+       "除了文字，還能丟圖片、影片、聲音給模型參考，讓角色、動作或配樂照著做"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "今日榜單兩榜皆無重大變化：文字榜沿用 LMArena 10/15 資料（官方資料集仍未更新），文生圖榜分數僅 ±4 內微動（MAI-Image-2.6 與 Grok Imagine Image 2.0 同分互換第 5、6 名）。",
+  "ChatGPT 上鎖聊天依 TechCrunch 報導整理；FastH3-Omni 速度為開發團隊自測。@xai、@grok、@NanoBanana 36 小時內無新貼文，Anthropic 只有研究文章、未收。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-21",
+  "compared_to": "2026-10-20",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-21",
+    "carried_from": "2026-10-17",
+    "latest_as_of": "2026-10-15",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 11,
+      "delta": -4
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 7
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-20",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-21",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-21",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-20",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
