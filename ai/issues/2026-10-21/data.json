@@ -2,7 +2,7 @@
  "date": "2026-10-21",
  "weekday": "週三",
  "issue_no": 14,
- "lede": "今天以「大廠 App 新功能」為主：ChatGPT 可以把聊天上鎖、Gemini 全球上車並能讀你的 Google 資料、Gemini 幫小老闆做統一風格的品牌圖；追蹤清單的 MiniMax H3 加速版 FastH3-Omni 開放權重，教學則教你用 Hunyuan3D 把一張圖變 3D 模型。",
+ "lede": "今天以「大廠 App 新功能」為主：ChatGPT 可以把聊天上鎖、Gemini 全球上車並能讀你的 Google 資料、Mistral 推出會聽會說的 Voxtral 3；追蹤清單的 MiniMax H3 加速版 FastH3-Omni 開放權重，教學教你用 Hunyuan3D 把一張圖變 3D 模型。",
  "ainews": [
   {
    "id": "chatgpt-locked-chats",
@@ -42,7 +42,12 @@
      "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
     ]
    ],
-   "image": null,
+   "image": {
+    "file": "gemini-cars.webp",
+    "alt": "Google 官方主視覺：Personal Intelligence hits the road，駕駛座視角與 Gemini 對話示例",
+    "credit": "Google",
+    "credit_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
+   },
    "short_title": "Gemini 上車，還能讀你的 Google 資料",
    "one": "開車時一句話就能問班機、行程或照片裡的地點，不用拿起手機翻找。",
    "gloss": [
@@ -53,6 +58,38 @@
     [
      "Android Auto",
      "把手機 App 投到車上螢幕使用的 Google 系統"
+    ]
+   ]
+  },
+  {
+   "id": "mistral-voxtral-3",
+   "org": "Mistral AI",
+   "tag": "大廠模型 · 語音",
+   "date": "2026-10-20",
+   "title": "Mistral 推出 Voxtral 3：新一代語音轉文字與文字轉語音模型，加上可邊聽邊想邊做事的語音代理 SDK",
+   "orig": "Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages",
+   "summary": "Mistral 10/20 發表 Voxtral 3 系列。【包含什麼】語音轉文字 Voxtral Small Transcribe 3（50+ 種語言，能分辨誰在說話、用關鍵詞提高專有名詞準確度、偵測對方講完了沒）；4B 參數的 Mini 版每分鐘 0.0035 美元；即時轉寫 Voxtral Realtime Transcribe 3 延遲低於 0.5 秒；文字轉語音 Voxtral Mini TTS 3，聲音會依對話調整情緒、語速和重音，支援 35+ 語言、50+ 方言，每百萬字元 13 美元；Pro Voice 用約 30 分鐘錄音就能重現說話者的音色和風格。另有語音代理 SDK，把「聽、推理、呼叫工具、說話」接成一條即時串流。【比上一版進步在哪】官方圖表稱 Small Transcribe 3 在 FLEURS 多語測試上錯字率優於 Whisper、Scribe v2、Gemini 3.5 Transcribe，分辨說話者也勝過上一代 Voxtral Mini Transcribe 2（皆為官方自測）。【哪裡能用】今天起可透過 Mistral API（歐洲、美國、全球端點）與 Studio 試玩，也能自行部署到自己的機器。目前尚無獨立實測。",
+   "links": [
+    [
+     "Mistral 官方：Voxtral 3 發布文",
+     "https://mistral.ai/news/voxtral-3/"
+    ],
+    [
+     "Mistral Docs：Voice agents",
+     "https://docs.mistral.ai/studio/audio/voice-agents/overview"
+    ]
+   ],
+   "image": null,
+   "short_title": "Mistral Voxtral 3：會聽、會說、會辦事的語音 AI",
+   "one": "想做電話客服或語音助理的人，多了一套便宜、支援中文等多語、能自己架的語音模型。",
+   "gloss": [
+    [
+     "語音轉文字（STT）",
+     "把說話錄音自動變成文字"
+    ],
+    [
+     "文字轉語音（TTS）",
+     "把文字念成自然的人聲"
     ]
    ]
   },
@@ -70,13 +107,42 @@
      "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
     ]
    ],
-   "image": null,
+   "image": {
+    "file": "gemini-small-business.webp",
+    "alt": "Google 官方主視覺：Your brand, your tools, all in one place",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+   },
    "short_title": "Gemini 幫小老闆做統一風格的品牌圖",
    "one": "把品牌色和字型交給 Gemini 一次，之後做海報、商品圖都會自動維持同一種風格。",
    "gloss": [
     [
      "品牌手冊（Brand Kit）",
      "一家公司規定好的標誌、顏色、字型和用法，讓所有宣傳物看起來像同一家"
+    ]
+   ]
+  },
+  {
+   "id": "krea-3-ga-ultra",
+   "org": "Krea",
+   "tag": "延伸 · 圖像模型平台",
+   "date": "2026-10-20",
+   "title": "Krea 3 結束測試版、API 加入 Ultra 思考模式，並登上 ChatGPT 裡的 Krea 與 iOS App",
+   "orig": "Krea changelog · October 20, 2026",
+   "summary": "本刊 10/18 報過 Krea 3 圖像編輯模型；Krea 10/20 更新日誌有新的實質內容（延伸）。【新內容】Krea 3 正式結束 beta；API 新增 Ultra 思考模式（thinking_mode 設 ultra），一次產生多張候選、對照提示詞與參考圖自己審查後回傳最好的一張 2K 圖。【限制與價格】Ultra 限 Max 以上方案、至少要一張參考圖、可能要跑好幾分鐘，每次加收 0.20 美元。【哪裡能用】API；Krea for ChatGPT 的模型選單可選 Krea 3；iOS App 圖像模型清單也加入 Krea 3。同一天 Krea 也加入 FLUX 3 Max 影片（5–20 秒含聲音、720p／1080p）和 Agent API。目前尚無 Ultra 模式的獨立實測比較。",
+   "links": [
+    [
+     "Krea 官方更新日誌（10/20）",
+     "https://www.krea.ai/docs/changelog"
+    ]
+   ],
+   "image": null,
+   "short_title": "延伸 · Krea 3 正式版＋Ultra 模式",
+   "one": "用 Krea 改圖的人，現在能在 ChatGPT 和 iPhone 上直接選 Krea 3；付費高階方案還能讓它多畫幾張自己挑最好的。",
+   "gloss": [
+    [
+     "Beta（測試版）",
+     "先開放給大家試用、功能還可能改的版本"
     ]
    ]
   },
@@ -145,6 +211,45 @@
     [
      "ComfyUI 官方：Hunyuan3D-2 Examples",
      "https://docs.comfy.org/tutorials/3d/hunyuan3D-2"
+    ]
+   ]
+  },
+  {
+   "id": "tut-fasth3-local",
+   "title": "用 FastVideo 在自己的電腦跑 MiniMax H3 加速版（FastH3）",
+   "learn": "看懂自己的顯卡能跑哪個 FastH3 版本，並用官方 Cookbook 產生的指令跑出第一支有聲短片。",
+   "level": "進階",
+   "vram": "MiniMax 官方沒有最低需求；依 Nuva Lab 整理的 Hao AI Lab 實測：FastH3 V2 在限制成 12GB 的 RTX 4090 可跑，FastH3 Trim 480p 可在 8GB 跑，且都需要大量系統記憶體（依原頁為準）",
+   "kind": "追蹤模型教學",
+   "gloss": [
+    [
+     "uv",
+     "比 pip／conda 更快的 Python 套件與虛擬環境管理工具"
+    ],
+    [
+     "Recipe（食譜）",
+     "官方幫你配好的一組模型、參數與指令，照著跑就行"
+    ]
+   ],
+   "steps": [
+    "先對照顯存：RTX 5090（32GB）建議 FastH3 V2 NVFP4，24GB 以下用 FP8 或 Trim；Mac 走 MLX 版，目前只支援文字生影片。",
+    "下載程式：git clone https://github.com/hao-ai-lab/FastVideo.git，再 cd FastVideo。",
+    "建環境：uv venv --python 3.12 --seed 並啟用；NVIDIA 執行 UV_TORCH_BACKEND=cu130 uv pip install -e \".[fasth3]\"，Mac 執行 uv pip install -e \".[mlx]\" 並照 MLX 安裝指南裝 ffmpeg。",
+    "打開官方 Cookbook 的 MiniMax H3 頁，選 FastH3 8-Step V2、Trim 或新的 OmniRef（參考輸入），在產生器設定 GPU 數量和 VAE，複製產生的指令執行。",
+    "注意：參考輸入、首尾影格目前只有 CUDA 版支援；H3 授權預設排除美國地區，商用前先看授權。"
+   ],
+   "links": [
+    [
+     "FastVideo Cookbook：MiniMax H3 recipes",
+     "https://haoailab.com/FastVideo/cookbook/minimax-h3/"
+    ],
+    [
+     "FastVideo GitHub README",
+     "https://github.com/hao-ai-lab/FastVideo"
+    ],
+    [
+     "Nuva Lab：MiniMax H3 VRAM 與 GPU 需求整理",
+     "https://nuvalab.ai/blog/run-minimax-h3-locally-gpu-vram-requirements/"
     ]
    ]
   },
@@ -232,10 +337,24 @@
    "updates": []
   }
  ],
- "video": null,
+ "video": {
+  "title": "ChatGPT 上鎖聊天新手教學：怎麼用 PIN 鎖住私密對話",
+  "orig": "NEW ChatGPT Locked Chats — Easy Guide | Lock Your Private Chats with a PIN + How to Use It",
+  "channel": "Shadow English",
+  "youtube_id": "RThKVmLUUT4",
+  "url": "https://www.youtube.com/watch?v=RThKVmLUUT4",
+  "date": "2026-10-21",
+  "summary": "對應本期 ChatGPT 上鎖聊天新聞：約 2.5 分鐘的英文慢速教學，說明 Locked Chats 是什麼、獨立記憶、一步步用 PIN 或 Face ID 上鎖，並提醒重設 PIN 會刪除所有上鎖聊天、上鎖不等於端對端加密。",
+  "thumb": {
+   "file": "yt-chatgpt-locked.webp",
+   "alt": "YouTube 縮圖：NEW ChatGPT Locked Chats — Easy Guide",
+   "credit": "YouTube · Shadow English"
+  },
+  "one": "2 分半看完怎麼把 ChatGPT 對話上鎖，以及重設 PIN 會全部刪掉的陷阱。"
+ },
  "caveats": [
   "今日榜單兩榜皆無重大變化：文字榜沿用 LMArena 10/15 資料（官方資料集仍未更新），文生圖榜分數僅 ±4 內微動（MAI-Image-2.6 與 Grok Imagine Image 2.0 同分互換第 5、6 名）。",
-  "ChatGPT 上鎖聊天依 TechCrunch 報導整理；FastH3-Omni 速度為開發團隊自測。@xai、@grok、@NanoBanana 36 小時內無新貼文，Anthropic 只有研究文章、未收。"
+  "ChatGPT 上鎖聊天依 TechCrunch 報導整理；Voxtral 3、FastH3-Omni 成績為廠商／開發團隊自測。@xai、@grok、@NanoBanana 36 小時內無新貼文，Anthropic 只有研究文章、未收。"
  ],
  "leaderboards": {
   "snapshot": "2026-10-21",
