@@ -1,0 +1,499 @@
+{
+ "date": "2026-10-22",
+ "weekday": "週四",
+ "issue_no": 15,
+ "lede": "今天三家大廠都在搶「AI 助理」與企業市場：Anthropic 推出會主動找你的 Claude Duet，OpenAI 模型登上 Google Cloud，Grok Bot 能做會自動更新的報告頁；追蹤清單的 MiniMax H3 加速版公布家用顯卡實測。",
+ "ainews": [
+  {
+   "id": "claude-duet",
+   "org": "Anthropic",
+   "tag": "平台服務 · Claude 新 App",
+   "date": "2026-10-21",
+   "title": "Anthropic 推出 Claude Duet 研究預覽：會主動找你的 AI 代理 App，每天早上給簡報、背景幫你做事，動手前先問你",
+   "orig": "Introducing Claude Duet",
+   "summary": "Anthropic 10/21 開放 Claude Duet 研究預覽，這是獨立於 Claude 主 App 的新 App，定位是「主動型代理」，鎖定專業工作者和小老闆。【能做什麼】每天早上看你的信箱和行事曆，挑出最需要處理的事，並可先擬好回覆給你審；你用打字或語音交代任務，它自己決定用哪些已連結的 App、背景完成，大型成果（研究簡報、財務模型、簡報、儀表板）會以檔案交回；沒有連接器的網站用它自己的雲端瀏覽器處理。它延用你在 Claude 的記憶、技能和連接器，寄信、付款、簽文件、刪除前會先問你。【限制】不能選模型（固定 Claude Opus 5.5）、不能看它操作瀏覽器、每隔幾小時才檢查一次帳號（緊急事可能漏接）、不能打電話傳簡訊、不能交易證券或轉帳，Microsoft 365 暫不支援；官方也說它可能誤讀對話或誤判輕重緩急，訂票等私人雜事較弱。【哪裡能用、多少錢】iOS、Android 與 claude.ai；目前只開放美國的 Pro、Max 訂閱者排候補名單，分批發邀請，Team／Enterprise 之後才有。包含在 Pro／Max 方案內，但會吃同一份用量額度，背景檢查和大型任務也算。",
+   "links": [
+    [
+     "Claude 官方：Introducing Claude Duet",
+     "https://claude.com/resources/articles/claude-duet"
+    ],
+    [
+     "Claude 說明中心：Get started with Claude Duet",
+     "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+    ],
+    [
+     "CNBC：Anthropic announces preview of Claude Duet",
+     "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html"
+    ]
+   ],
+   "image": {
+    "file": "claude-duet.webp",
+    "alt": "Claude Duet 官方 App 圖示",
+    "credit": "Anthropic",
+    "credit_url": "https://claude.com/resources/articles/claude-duet"
+   },
+   "short_title": "Claude Duet：會主動找你的 AI 助理",
+   "one": "不用等你開口，它每天整理該處理的事、在背景幫你做完，重要動作前先問你；目前只有美國 Pro／Max 排隊試用。",
+   "gloss": [
+    [
+     "AI 代理（Agent）",
+     "不只回答問題，還會自己規劃步驟、操作 App 或網站把事情做完的 AI"
+    ],
+    [
+     "研究預覽",
+     "正式推出前的試用版，功能和開放對象都可能再改"
+    ]
+   ]
+  },
+  {
+   "id": "openai-on-google-cloud",
+   "org": "OpenAI × Google",
+   "tag": "平台服務 · 企業雲端",
+   "date": "2026-10-21",
+   "title": "OpenAI 模型登上 Google Cloud：GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 進入 Model Garden 私人預覽，Codex 也能接上",
+   "orig": "OpenAI models are coming to Google Cloud",
+   "summary": "OpenAI 與 Google Cloud 10/21 宣布合作，把 OpenAI 的前沿模型和 Codex 代理工作流程帶進 Google Cloud 的 Model Garden。【有哪些】GPT-6 Astra（寫程式、操作電腦、專業與科研等高難度工作）、GPT-6.1 Sol（接近 Astra 的能力、成本較低）、GPT-6 Luna（快速、便宜的日常大量工作）。【怎麼用】今天起對部分企業客戶私人預覽，可用 Google Cloud API 呼叫，本機的 Codex CLI 與桌面版也能直接連到 Google 的 Gemini 平台推論；透過 Google Cloud Marketplace 計費，費用併入同一張 Google Cloud 帳單、可抵用既有雲端承諾額度。官方說資料留在客戶的資料邊界內、不拿來訓練，零資料保留與機密運算「即將推出」。【之後】正式開放預計「未來幾週」，之後也會進 Gemini 企業版（Gemini for business／Gemini Agent）與 Google Antigravity。CNBC 指出這讓 OpenAI 模型同時上了微軟、Amazon、Google 三大雲；OpenAI 表示微軟仍是主要雲端夥伴。一般 ChatGPT 使用者不受影響。",
+   "links": [
+    [
+     "Google Cloud 官方部落格：Google Cloud brings OpenAI models to customers",
+     "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+    ],
+    [
+     "OpenAI 官方：OpenAI models are coming to Google Cloud",
+     "https://openai.com/index/openai-models-google-cloud/"
+    ],
+    [
+     "CNBC：OpenAI to bring AI models to Google's cloud",
+     "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html"
+    ],
+    [
+     "@OpenAI 貼文",
+     "https://x.com/OpenAI/status/2112988118471295323"
+    ]
+   ],
+   "image": {
+    "file": "openai-google-cloud.webp",
+    "alt": "Google Cloud 官方主視覺：OpenAI models for Google Cloud customers",
+    "credit": "Google Cloud",
+    "credit_url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+   },
+   "short_title": "OpenAI 模型可以在 Google Cloud 上用了",
+   "one": "兩家競爭對手合作：公司用 Google 雲端也能直接叫用 GPT-6 系列和 Codex，一般 ChatGPT 使用者沒有變化。",
+   "gloss": [
+    [
+     "Model Garden",
+     "Google Cloud 上的模型商店，企業可以在同一個平台挑選、呼叫各家 AI 模型"
+    ],
+    [
+     "私人預覽",
+     "只開放給被選中的部分客戶先用，還不是人人可申請即用"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-pages-reports",
+   "org": "xAI",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-21",
+   "title": "Grok Bot 可以做報告、備忘錄和儀表板頁面：叫 Bot 建一頁，一起改，或讓它持續自動更新",
+   "orig": "Grok Bot can now build reports, memos, and dashboards.",
+   "summary": "Grok Bot 官方帳號 @bot 10/21 宣布：可以請 Bot 建立一個頁面（報告、備忘錄或儀表板），之後和它一起編輯，或讓 Bot 持續保持內容最新；Musk 也轉引這則貼文推薦。【背景】「頁面」功能在 10/11 的 0.70.2 版就已出現（可改名、匯出 PDF、分享）；這次新的是可以直接要求做報告／備忘錄／儀表板並由 Bot 持續更新。【哪裡能用】第三方追蹤站 The Daily Bot 引述官方說法：10/21 起分批推給最新版的手機與桌面 App，不是每個人都已經有；官方尚未公布完整版本說明或方案限制，依官方後續說明為準。",
+   "links": [
+    [
+     "@bot 官方貼文",
+     "https://x.com/bot/status/2112992872857252082"
+    ],
+    [
+     "Grok Bot 官方更新紀錄",
+     "https://x.ai/changelog/bot"
+    ],
+    [
+     "The Daily Bot：10/21 更新整理",
+     "https://thedailybot.vercel.app/issue/2026-10-21"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 能幫你做會自動更新的報告頁",
+   "one": "一句話請 Bot 做一份儀表板或週報頁面，之後它能自己幫你更新數字，不用每次重做。",
+   "gloss": [
+    [
+     "儀表板（Dashboard）",
+     "把重要數字、圖表集中在同一頁、一眼就能看懂的總覽頁面"
+    ]
+   ]
+  },
+  {
+   "id": "forge-classic-2-31",
+   "org": "Haoming02（社群）",
+   "tag": "工具更新 · forge-classic",
+   "date": "2026-10-21",
+   "title": "forge-classic（Forge Neo）2.31 版：加入 MOSS-Image 支援，用 WebUI 介面也能跑這個開源生圖模型",
+   "orig": "sd-webui-forge-classic 2.31 — Moss-Image goes brrr",
+   "summary": "Haoming02 維護的 Stable Diffusion WebUI Forge 分支（neo 分支，又稱 Forge Neo）10/21 發布 2.31 版，release 說明只有一句「Moss-Image goes brrr」，README 的新功能清單同步加上「Support Moss-Image」（連到 OpenMOSS-Team/MOSS-Image-SFT 模型）。MOSS-Image 是本刊 10/19 報過的 5B 開源生圖模型（Apache 2.0，中英文字、版面框）。【這代表什麼】習慣 A1111／Forge 那種表單式介面、不想學 ComfyUI 節點的人，也能用 MOSS-Image；Forge Neo 同時已支援 Qwen-Image-2.1、Krea 2 等本刊追蹤的模型。【注意】官方沒寫 MOSS-Image 在 Forge 的建議參數和顯存需求，模型下載位置與參數請看專案 Wiki 的 Download Models、Inference References 頁。",
+   "links": [
+    [
+     "GitHub Release 2.31",
+     "https://github.com/Haoming02/sd-webui-forge-classic/releases/tag/2.31"
+    ],
+    [
+     "GitHub：sd-webui-forge-classic（neo 分支）README",
+     "https://github.com/Haoming02/sd-webui-forge-classic"
+    ]
+   ],
+   "image": null,
+   "short_title": "Forge Neo 2.31 支援 MOSS-Image",
+   "one": "不想用 ComfyUI 拉節點的人，現在用熟悉的 WebUI 表單介面也能跑 MOSS-Image。",
+   "gloss": [
+    [
+     "Forge Neo",
+     "Stable Diffusion WebUI Forge 的社群延續版，表單式介面、主打省顯存與支援新模型"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-install-forge-neo",
+   "title": "安裝 Forge Neo（sd-webui-forge-classic neo 分支）：用表單式 WebUI 跑新模型",
+   "learn": "照官方 README 在 Windows 裝好 Forge Neo，之後就能在網頁介面跑 MOSS-Image、Qwen-Image-2.1、Krea 2 等模型。",
+   "level": "入門",
+   "vram": "官方未標示統一需求，依所選模型而定（依原頁為準）",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "uv",
+     "一個很快的 Python 套件安裝工具，Forge Neo 推薦用它建立環境"
+    ],
+    [
+     "venv",
+     "專屬這個專案的 Python 環境，不會和電腦裡其他程式打架"
+    ]
+   ],
+   "steps": [
+    "先安裝 git（官方 Wiki 的 Extra Installations 頁有教學）。",
+    "在想放的資料夾開命令列，輸入：git clone https://github.com/Haoming02/sd-webui-forge-classic sd-webui-forge-neo --branch neo",
+    "官方推薦：安裝 uv，進入 sd-webui-forge-neo 資料夾後執行 uv venv venv --python 3.13 --seed，並在 webui-user.bat 加上 --uv 參數（舊方法是自己裝 Python 3.13.12 並勾選 Add Python to PATH）。",
+    "雙擊 webui-user.bat 啟動；第一次會自動安裝所有需要的套件，完成後瀏覽器會自動打開 WebUI。",
+    "模型要放哪、每個模型建議的參數，看官方 Wiki 的 Download Models 與 Inference References；AMD、Linux、macOS 請看 README 裡對應的指南。"
+   ],
+   "links": [
+    [
+     "GitHub：sd-webui-forge-classic README（Installation）",
+     "https://github.com/Haoming02/sd-webui-forge-classic"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfyui-mask-editor",
+   "title": "ComfyUI 遮罩編輯器（Mask Editor）：不用 Photoshop，直接在 ComfyUI 畫遮罩",
+   "learn": "學會打開內建遮罩編輯器、用筆刷和油漆桶標出要重畫的區域，供局部重繪使用。",
+   "level": "入門",
+   "vram": "編輯器本身不吃顯存；之後跑局部重繪的需求依所用模型而定",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "遮罩（Mask）",
+     "在圖上塗出「這裡要改」的區域，模型只會重畫被塗到的地方"
+    ]
+   ],
+   "steps": [
+    "在工作流程裡放一個 Load Image 節點並載入圖片。",
+    "三種打開方式擇一：選取節點後點上方工具列的遮罩圖示；滑到圖片預覽左上角點 Edit or mask image；或對 Load Image 按右鍵選 Open in Mask Editor。",
+    "左側選 Mask Pen 按住左鍵塗出要改的區域；大面積同色區域可用 Paint Bucket 一次填滿，塗錯用 Eraser 擦掉。",
+    "上方工具列可以復原／重做、反轉或清除遮罩，滿意後按儲存回到工作流程。",
+    "接著把這張帶遮罩的圖接到局部重繪（inpaint）流程，就只會重畫你塗的區域。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Mask Editor",
+     "https://docs.comfy.org/interface/maskeditor"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "FastH3 Omni 公布在 DGX Spark、RTX 5090／3090、Mac 上的實測速度；另有論文用 H3 做「草圖／深度圖轉影片」。",
+   "updates": [
+    {
+     "title": "Hao AI Lab 實測 FastH3 Omni 在本機跑：RTX 5090 約 62 秒、RTX 3090 約 17 分鐘、M5 Max 約 19.5 分鐘出一段 5 秒影片",
+     "date": "2026-10-21",
+     "summary": "10/21 本刊延伸：FastVideo 團隊（UC San Diego Hao AI Lab）用相同提示詞、參考圖與種子，在不同機器跑同一個 FastH3 Omni 請求。【官方實測】一張參考照片生成 5 秒影片：RTX 5090 約 62 秒、RTX 3090 約 17 分鐘（不含載入模型）、Apple M5 Max（64GB）約 19.5 分鐘（單次）；一台 DGX Spark 480p 約 3 分鐘、兩台約 2 分鐘，128GB 統一記憶體能跑完所有測試組合。【其他重點】加了參考照片會比純文字生影片慢 3.3–4.4 倍；本機用的是 4-bit 的 FastH3-Omni-NVFP4-QAD 權重。以上皆為開發團隊自測。",
+     "links": [
+      [
+       "Hao AI Lab：FastH3 Omni Goes Local",
+       "https://haoailab.com/blogs/fasth3-omni-local/"
+      ]
+     ],
+     "image": null,
+     "short_title": "延伸 · FastH3 Omni 家用顯卡實測",
+     "one": "有 RTX 5090 約 1 分鐘就能做一段 5 秒有聲短片，3090 也能跑但要等十幾分鐘。",
+     "gloss": [
+      [
+       "NVFP4",
+       "NVIDIA 新顯卡支援的 4 位元數字格式，把模型壓小、跑更快，畫質略有取捨"
+      ]
+     ]
+    },
+    {
+     "title": "SolarRenderer：以凍結的 MiniMax H3 33B 加兩個 LoRA，把方塊草模、深度圖、骨架、鉛筆稿變成影片，4 步出圖、即時 768p",
+     "date": "2026-10-21",
+     "summary": "NUS 等團隊發表的研究，以凍結的 MiniMax H3 33B 為底，只加兩個輕量 LoRA，就能把粗略的場景結構（方塊草模、深度圖、姿勢骨架、點雲、鉛筆稿）轉成完整影片。官方說 4 步取樣比 50 步快 12.3 倍且保留控制力，串流版能即時輸出 768p；程式碼、權重與 13.6 萬段訓練資料都已公開（依 AI Weekly 轉述論文摘要，未提供逐項準確度）。",
+     "links": [
+      [
+       "AI Weekly：SolarRenderer renders real-time 768p video",
+       "https://aiweekly.co/alerts/solarrenderer-renders-real-time-768p-video-from-scene-structure"
+      ]
+     ],
+     "image": null,
+     "short_title": "SolarRenderer：草圖直接變影片",
+     "one": "用 H3 當底，把簡單的方塊模型或手繪稿轉成像樣的影片，適合做分鏡和遊戲預覽。",
+     "gloss": [
+      [
+       "LoRA",
+       "掛在大模型上的小型外掛權重，用少量訓練就能教模型新技能或新風格"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "今日榜單兩榜皆無重大變化：文字榜 LMArena 官方資料集更新到 10/20，前 10 名分數只差 ±1；文生圖榜分數 ±4 內微動（MAI-Image-2.6 與 Grok Imagine Image 2.0 同分互換第 5、6 名）。",
+  "OpenAI 官方頁擋抓取，依 Google Cloud 官方部落格與 CNBC 整理；Grok Bot 頁面功能依 @bot 貼文與第三方追蹤站整理；FastH3 Omni 與 SolarRenderer 數據為開發團隊自測。@xai 帳號無法讀取，@grok、@GeminiApp、@NanoBanana 36 小時內無新貼文。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-22",
+  "compared_to": "2026-10-21",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-15",
+    "fetched": "2026-10-22",
+    "metric": "Arena score",
+    "carried_from": "2026-10-17",
+    "latest_as_of": "2026-10-20",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 11,
+      "delta": -4
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 7
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3
+     },
+     {
+      "rank": 6,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 5
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1494,
+      "ci": 6,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-21",
+    "diff": {
+     "summary": [
+      "Muse Wonder (max): #2→#2 (0 名), 1509→1510 (+1)",
+      "Claude Opus 5.5 (high): #3→#3 (0 名), 1508→1509 (+1)",
+      "Claude Fable 5.1 (max): #6→#6 (0 名), 1502→1503 (+1)",
+      "Muse Spark 1.3 (max): #10→#10 (0 名), 1494→1495 (+1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-22",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-21",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
