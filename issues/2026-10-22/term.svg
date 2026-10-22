@@ -1,0 +1,21 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="隱藏式頭燈示意：左為關燈時蓋板闔上、車頭一整片乾淨曲面；右為開燈時蓋板向下翻開，露出細長頭燈" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" font-family="sans-serif">
+ <text x="130" y="28" text-anchor="middle" font-size="16" fill="currentColor" stroke="none">關燈：蓋板闔上</text>
+ <text x="390" y="28" text-anchor="middle" font-size="16" fill="currentColor" stroke="none">開燈：蓋板下翻</text>
+ <line x1="260" y1="40" x2="260" y2="280" stroke-dasharray="4 5" stroke-width="1"/>
+ <!-- left side profile of nose -->
+ <path d="M20 200 C60 190 110 160 170 140 L240 120"/>
+ <path d="M20 200 L20 230 L240 230"/>
+ <path d="M150 147 L205 131" stroke-width="5"/>
+ <text x="130" y="185" text-anchor="middle" font-size="13" fill="currentColor" stroke="none">蓋板與車身同一曲面</text>
+ <!-- right -->
+ <path d="M280 200 C320 190 370 160 430 140 L500 120"/>
+ <path d="M280 200 L280 230 L500 230"/>
+ <rect x="412" y="139" width="44" height="7" rx="3" transform="rotate(-16 434 142)" fill="currentColor"/>
+ <path d="M410 147 L420 175" stroke-width="5"/>
+ <path d="M440 120 C455 115 470 112 490 110" stroke-dasharray="3 4" stroke-width="1.5"/>
+ <path d="M470 105 l20 5 l-16 12" stroke-width="1.5"/>
+ <text x="455" y="98" text-anchor="middle" font-size="13" fill="currentColor" stroke="none">細長燈組露出</text>
+ <text x="370" y="200" text-anchor="middle" font-size="13" fill="currentColor" stroke="none">蓋板向下翻開</text>
+ <path d="M405 168 L392 186" stroke-width="1"/>
+ <text x="260" y="268" text-anchor="middle" font-size="12" fill="currentColor" stroke="none">對照：傳統跳燈是整組燈從引擎蓋向上升起（如初代 MX-5）</text>
+</svg>

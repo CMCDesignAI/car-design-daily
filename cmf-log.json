@@ -218,5 +218,27 @@
   "car_key": "paint:axalta-solar-boost-2026",
   "angle": "Axalta 2026 年度色暖橙＋香檳玻璃片",
   "url": "https://www.axalta.com/us/en_US/about-axalta/color/solar-boost-color-of-the-year-2026.html"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "car",
+  "car_key": "cupra-terramar-tribe-3d-knit",
+  "angle": "回收 3D 針織座椅、Sulfur Green 生質塗料",
+  "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades",
+  "image": "cmf-cupra-terramar-tribe-interior.webp"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "material",
+  "car_key": "material:zaker-floravara",
+  "angle": "非糧植物原料＋全水性 PU 合成皮",
+  "url": "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "material",
+  "car_key": "material:camira-replay-zero",
+  "angle": "消費後回收聚酯交通座椅面料",
+  "url": "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
  }
 ]

@@ -1,0 +1,472 @@
+{
+ "date": "2026-10-22",
+ "weekday": "週四",
+ "issue_no": 15,
+ "lede": "奇瑞發表 Tiggo X 越野系列首作 Tiggo X7；Tesla 示範新 Roadster 的下翻式隱藏頭燈，Fiat 透露 Multiplay 變形 MPV 有望量產；大眾 ID. UNYX 09 定 10/24 上市，第五代 Tucson 韓國開訂，2027 款領克 03 公布寬體官圖。",
+ "design_news": [
+  {
+   "id": "chery-tiggo-x7",
+   "tag": "新車發表 · 中國",
+   "date": "2026-10-21",
+   "brand": "Chery（奇瑞）",
+   "title": "Tiggo X7：Tiggo X 越野線首作，方正車身配拖車鉤造型飾件",
+   "orig": "New Chery Tiggo X7 revealed: who knew a Tiggo could get so tough?",
+   "summary": "奇瑞發表 Tiggo X7，是新「Tiggo X」軟派越野系列的第一款，比一般 Tiggo 7 更方正、更強調戶外能力；動力與英國上市時程尚未公布。",
+   "analysis": [
+    [
+     "家族臉",
+     "獨特格柵帶車身同色面板，配一對神情凶悍的頭燈與仿拖車鉤造型飾件。"
+    ],
+    [
+     "比例",
+     "整體比 Tiggo 7 方正許多，保險桿與輪拱包覆塑料護板，車高提升並配越野胎。"
+    ],
+    [
+     "燈號",
+     "捨棄 Tiggo 7 的貫穿尾燈條，改用較傳統的 C 字形 LED 尾燈。"
+    ],
+    [
+     "室內 UX",
+     "沿用小改款 Tiggo 7 的橫向觸控螢幕與數位儀表，電動座椅按鍵移到門板，並有矩形氛圍燈元件。"
+    ]
+   ],
+   "sources": [
+    [
+     "Auto Express（10/21）",
+     "https://www.autoexpress.co.uk/chery/370718/new-chery-tiggo-x7-revealed-who-knew-tiggo-could-get-so-tough"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-tiggo-x7.webp",
+    "alt": "奇瑞 Tiggo X7 綠灰色車身於發表會場的側前方照",
+    "credit": "Chery（via Auto Express）",
+    "credit_url": "https://www.autoexpress.co.uk/chery/370718/new-chery-tiggo-x7-revealed-who-knew-tiggo-could-get-so-tough"
+   }
+  },
+  {
+   "id": "tesla-roadster-popdown",
+   "tag": "設計細節 · 美國",
+   "date": "2026-10-21",
+   "brand": "Tesla",
+   "title": "新 Roadster 的「下翻式」隱藏頭燈",
+   "orig": "The Tesla Roadster Reinvents Pop-Up Headlights. Sort Of",
+   "summary": "Tesla 總工程師 Lars Moravy 與設計總監 Franz von Holzhausen 在 Top Gear 訪談中示範新 Roadster 的頭燈：遠近燈藏在一片可動面板後，開燈時面板向下翻開。",
+   "analysis": [
+    [
+     "燈號",
+     "不是傳統從引擎蓋升起的跳燈，而是官方稱為「pop-down」的下翻蓋板，讓車頭保持一整片乾淨面。"
+    ],
+    [
+     "傳承元素",
+     "Motor1 指出最接近的前例是 1992 年 Jaguar XJ220 前鉸鏈下翻燈蓋，Ferrari Daytona SP3 也用可動「眼瞼」。"
+    ],
+    [
+     "細節",
+     "概念源自 Cybertruck 僅 0.8 吋高的細燈，Roadster 的燈更細。"
+    ],
+    [
+     "空力",
+     "燈蓋闔上時可能有助空力；是否原樣量產仍待觀察。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motor1（10/21）",
+     "https://www.motor1.com/news/812660/tesla-roadster-pop-up-headlights/"
+    ]
+   ],
+   "image": {
+    "file": "news-tesla-roadster-popdown.webp",
+    "alt": "新 Tesla Roadster 白色車身前端曲面特寫（官方照）",
+    "credit": "Tesla（via Motor1）",
+    "credit_url": "https://www.motor1.com/news/812660/tesla-roadster-pop-up-headlights/"
+   }
+  },
+  {
+   "id": "fiat-multiplay-production",
+   "tag": "量產評估 · 義大利",
+   "date": "2026-10-20",
+   "brand": "Fiat",
+   "title": "Multiplay 可能量產：車頂後段前滑變皮卡的多功能車",
+   "orig": "Fiat Might Actually Build Its Wild Crossover Minivan Pickup",
+   "summary": "巴黎車展亮相的 Fiat Multiplay 概念車原本定位為「解決方案實驗室」，Fiat 執行長 Arnaud Belloni 表示品牌需要家庭車，量產版最快也要兩到三年。",
+   "analysis": [
+    [
+     "比例",
+     "車長 4.45 米，三排六座模組化座艙，另有寵物專屬座位。"
+    ],
+    [
+     "變形",
+     "車頂後段可連同第三排座椅向前滑，把 MPV 變成雙排四座皮卡，尾門為對開式。"
+    ],
+    [
+     "品牌方向",
+     "設計總監 François Leboine 說目標是為「後 SUV 時代」找下一個大事物，並以 SUV 元素包裝 MPV。"
+    ],
+    [
+     "傳承元素",
+     "名稱與思路呼應 1998 年 Multipla：3.5 米車長塞進兩排六座。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/20）",
+     "https://www.carscoops.com/2292290/fiat-might-build-multiplay-concept-crossover-minivan-pickup/"
+    ]
+   ],
+   "image": {
+    "file": "news-fiat-multiplay.webp",
+    "alt": "Fiat Multiplay 綠色概念車於巴黎車展的正前方照",
+    "credit": "Fiat（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2292290/fiat-might-build-multiplay-concept-crossover-minivan-pickup/"
+   }
+  },
+  {
+   "id": "vw-id-unyx-09-launch",
+   "tag": "10/24 上市 · 中國",
+   "date": "2026-10-21",
+   "brand": "Volkswagen（大眾安徽）",
+   "title": "ID. UNYX 與眾 09：5 米溜背電動轎跑 10/24 上市",
+   "orig": "VW Anhui to launch ID. UNYX 09 on October 24 as second model developed with Xpeng",
+   "summary": "大眾安徽 10 月 21 日發布倒數海報，確認與小鵬合作的第二款車 ID. UNYX 09 於 10 月 24 日上市；預售價 19.99–24.99 萬元人民幣。",
+   "analysis": [
+    [
+     "比例",
+     "溜背轎跑造型，車長 5,081 mm、寬 1,980 mm、高 1,509 mm，軸距 3,030 mm。"
+    ],
+    [
+     "品牌方向",
+     "大眾定位為兼具智慧科技的流線電動運動轎車，接續 ID. UNYX 08 SUV。"
+    ],
+    [
+     "室內 UX",
+     "採小鵬圖靈 AI 晶片，支援高速與城市 NOA 及車位到車位輔助駕駛。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost（10/21）",
+     "https://cnevpost.com/2026/10/21/vw-anhui-launch-id-unyx-09-oct-24/"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-unyx-09.webp",
+    "alt": "藍色 Volkswagen ID. UNYX 09 行駛於高架橋下的側前方官方照",
+    "credit": "Volkswagen Anhui（via CnEVPost）",
+    "credit_url": "https://cnevpost.com/2026/10/21/vw-anhui-launch-id-unyx-09-oct-24/"
+   }
+  },
+  {
+   "id": "hyundai-tucson-korea-launch",
+   "tag": "韓國上市 · 韓國",
+   "date": "2026-10-21",
+   "brand": "Hyundai",
+   "title": "第五代 Tucson 韓國開訂：XRT 越野套件、內裝三款新色",
+   "orig": "Hyundai Motor unveils all-new Tucson starting at W31.4m",
+   "summary": "現代汽車 10 月 21 日在韓國開放第五代全新 Tucson 預訂，汽油版 3,140 萬韓元起、油電版 3,615 萬韓元起，分 H-Pick、Exclusive、Inspiration、XRT 四個車型。",
+   "analysis": [
+    [
+     "家族臉",
+     "延續「Art of Steel」語彙：蚌殼式引擎蓋、直立 H-Edge 日行燈與水平細中央燈。"
+    ],
+    [
+     "燈號",
+     "車尾採 Prismatic 稜鏡尾燈。"
+    ],
+    [
+     "CMF",
+     "外色八種、其中五種新色；內裝四種配色、三種為新色。XRT 有專屬格柵、輪拱飾板與護板。"
+    ],
+    [
+     "室內 UX",
+     "上下分離的懸浮式儀表板配大型中控螢幕，營造開闊感；後門開啟角度由 73 度增至 83 度。"
+    ]
+   ],
+   "sources": [
+    [
+     "The Herald Business（10/21）",
+     "https://biz.heraldcorp.com/article/10909417"
+    ]
+   ]
+  },
+  {
+   "id": "lynk-03-2027",
+   "tag": "官圖 · 中國",
+   "date": "2026-10-21",
+   "brand": "Lynk & Co（領克）",
+   "title": "2027 款領克 03：紅黑雙色、加大格柵的寬體性能轎車",
+   "orig": "2027款领克03官图发布",
+   "summary": "領克 10 月 21 日公布 2027 款領克 03 紅色外觀官圖，定位主打「寬體」的性能車型；工信部資料顯示車長 4,700 mm、寬 1,843／1,901 mm。",
+   "analysis": [
+    [
+     "CMF",
+     "紅黑雙拼色塗裝，車尾配大尺寸尾翼。"
+    ],
+    [
+     "家族臉",
+     "前格柵比現款更大，搭配保險桿造型強化運動感；前後燈組與側面線條延續現款。"
+    ],
+    [
+     "比例",
+     "寬體版車寬 1,901 mm、車高 1,456 mm，軸距 2,730 mm，寬度在同級前列。"
+    ]
+   ],
+   "sources": [
+    [
+     "鳳凰網汽車（網通社，10/21）",
+     "https://auto.ifeng.com/c/8xOuB37wVOa"
+    ]
+   ],
+   "image": {
+    "file": "news-lynk-03-2027.webp",
+    "alt": "2027 款領克 03 紅色車身側前方官圖",
+    "credit": "領克汽車（via 鳳凰網）",
+    "credit_url": "https://auto.ifeng.com/c/8xOuB37wVOa"
+   }
+  },
+  {
+   "id": "icaur-global-brand-ph",
+   "tag": "品牌上市 · 菲律賓",
+   "date": "2026-10-21",
+   "brand": "iCaur（奇瑞國際）",
+   "title": "iCaur 全球品牌發表：V25 補齊方盒子 SUV 產品線",
+   "orig": "iCAUR V25 debuts globally as brand makes PH arrival",
+   "summary": "奇瑞國際旗下 iCaur 在全球品牌發表中以「Future Classic」為主軸，V25 全球首發並宣布進軍菲律賓，補齊品牌方盒子 SUV 產品線。",
+   "analysis": [
+    [
+     "品牌方向",
+     "以「經典不褪色」的未來經典路線，主打方正越野造型與客製化改裝社群。"
+    ],
+    [
+     "比例",
+     "V25 延續方盒子 SUV 輪廓、圓形頭燈，提供增程與純電版本。"
+    ],
+    [
+     "市場",
+     "菲律賓成為 iCaur 新進入市場之一。"
+    ]
+   ],
+   "sources": [
+    [
+     "iCAUR 新聞稿（GlobeNewswire，10/21）",
+     "https://www.globenewswire.com/news-release/2026/10/21/3385089/0/en/from-future-classic-design-to-a-global-customization-community-icaur-global-brand-launch-interprets-classic-never-fades.html"
+    ],
+    [
+     "Autocar Philippines（10/21）",
+     "https://autocar.com.ph/icaur-v25-debuts-globally-completing-its-boxy-suv-lineup/"
+    ]
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-cupra-terramar-tribe",
+   "kind": "car",
+   "car": "Cupra Terramar VZ Tribe Edition",
+   "tag": "永續材質 · 特別版",
+   "title": "Tribe Edition：3D 針織座椅配硫磺綠點綴",
+   "points": [
+    "座椅中央採 100% 回收材料的 3D 針織面料。",
+    "Sulfur Green 硫磺綠點綴以特調生質塗料塗裝。",
+    "約 30% 內裝塑件使用回收材料。",
+    "Green 版外漆為 Manganese Green 消光漆，呼應座椅與飾件綠色。"
+   ],
+   "image": {
+    "file": "cmf-cupra-terramar-tribe-interior.webp",
+    "alt": "Cupra Terramar VZ Tribe Edition 座艙：深色 3D 針織座椅與門板（官方圖）",
+    "credit": "Cupra（via CarExpert）",
+    "credit_url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+   },
+   "sources": [
+    [
+     "CarExpert（8/18）",
+     "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-zaker-floravara",
+   "kind": "material",
+   "car": "ZAKER FLORAVARA",
+   "tag": "植物基皮革 · 水性 PU",
+   "title": "FLORAVARA：玉米、咖啡渣、椰殼做的植物基合成皮",
+   "points": [
+    "以工業玉米、廢咖啡渣與椰殼等非糧植物原料取代石油基塗層。",
+    "AQUAE 全水性 PU 製程，不用 DMF 等有害溶劑，從源頭降低 VOC。",
+    "鎖定新能源車座艙低氣味、低 VOC 的座椅與內飾包覆需求。",
+    "廢舊合成皮可化學解聚回收再製。"
+   ],
+   "swatch": {
+    "hex": "#7A6A55",
+    "label": "示意色：植物基皮革暖褐"
+   },
+   "sources": [
+    [
+     "ZAKER 新聞稿（9/30）",
+     "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-camira-replay-zero",
+   "kind": "material",
+   "car": "Camira RePlay Zero",
+   "tag": "回收織物 · 交通座椅面料",
+   "title": "RePlay Zero：寶特瓶回收的交通座椅面料",
+   "points": [
+    "Camira 推出以消費後回收聚酯製成的交通座椅面料。",
+    "附阻燃背襯，符合交通工具座椅使用。",
+    "可借用到車內座椅中央、頭枕與門板嵌飾等織物面。"
+   ],
+   "swatch": {
+    "hex": "#3E4A52",
+    "label": "示意色：回收聚酯藍灰"
+   },
+   "sources": [
+    [
+     "Euro Bus Expo：Camira RePlay Zero",
+     "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
+    ]
+   ],
+   "note": "原為巴士等大眾交通座椅面料，非專為乘用車推出；列入作為車用座椅織物參考。"
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-android-auto-gemini-pi",
+   "kind": "case",
+   "brand": "Google Android Auto",
+   "tag": "介面與 HMI",
+   "title": "Android Auto 的 Gemini 個人化助理",
+   "date": "2026-10-20",
+   "points": [
+    "Gemini 的 Personal Intelligence 開始推送到 Android Auto，Android Automotive 數月內跟進。",
+    "可讀取 Gmail、日曆、相簿、地圖與 YouTube，指令不必說出地址等細節。",
+    "例如「帶我去看醫生」「找上週拍照的那家洗車場並導航」。",
+    "功能需自行開啟；未開啟時導航、音樂與通話照常運作。"
+   ],
+   "image": {
+    "file": "hmi-android-auto-gemini-pi.jpg",
+    "alt": "Android Auto 畫面：上方 Google 地圖導航、下方訊息與音樂卡片，底部顯示「Personal Intelligence • Connecting…」",
+    "credit": "Google (via 9to5Google)",
+    "credit_url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/"
+   },
+   "sources": [
+    [
+     "9to5Google（10/20）",
+     "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [],
+ "term": {
+  "name": "Hidden headlights",
+  "zh": "隱藏式頭燈",
+  "body": "隱藏式頭燈是平時把燈藏在車身面板後、開燈時才露出來的設計。早期常見的是「跳燈」：整組燈從引擎蓋向上翻起，例如初代 Mazda MX-5，但因行人保護法規在 2000 年代初幾乎消失。本期的新 Tesla Roadster 改用「下翻式」：燈本身固定不動，只有前面一片小蓋板在開燈時往下翻開，類似 1992 年 Jaguar XJ220。設計師這樣做，是讓車頭在不開燈時保持一整片乾淨的曲面，同時也可能有助空力。",
+  "source": [
+   [
+    "Motor1：Tesla Roadster pop-down headlights 與隱藏式頭燈歷史",
+    "https://www.motor1.com/news/812660/tesla-roadster-pop-up-headlights/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Tribe Sulfur & Knit Graphite",
+   "zh": "硫磺綠針織座艙：儀表板與門板配色",
+   "intro": "每日一組內裝配色示例：以 Cupra Terramar Tribe Edition 的回收 3D 針織座椅與硫磺綠點綴為骨幹，扶手換上 ZAKER 植物基皮革的暖褐，配深色頂棚，組成石墨、苔綠與亮硫磺綠的戶外運動座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "石墨灰（示意）",
+     "#2B2E2C",
+     false,
+     "ip-upper",
+     {
+      "src": "Cupra Tribe Edition",
+      "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+     }
+    ],
+    [
+     "儀表板飾條 · 生質塗料",
+     "硫磺綠（示意）",
+     "#A9B23C",
+     false,
+     "ip-decor",
+     {
+      "src": "Cupra Sulfur Green",
+      "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+     }
+    ],
+    [
+     "門板嵌飾 · 3D 針織",
+     "苔石綠（示意）",
+     "#4F5848",
+     false,
+     "door-insert",
+     {
+      "src": "Cupra 3D 針織",
+      "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+     }
+    ],
+    [
+     "門扶手 · 植物基皮革",
+     "暖褐（示意）",
+     "#7A6A55",
+     false,
+     "armrest",
+     {
+      "src": "ZAKER FLORAVARA",
+      "url": "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "亮硫磺（示意）",
+     "#C2C94E",
+     false,
+     "stitch"
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "炭黑（示意）",
+     "#1B1C1B",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "3D 針織座椅、Sulfur Green 生質塗料：Cupra Terramar Tribe Edition",
+     "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+    ],
+    [
+     "植物基皮革：ZAKER FLORAVARA",
+     "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
+    ]
+   ],
+   "mood": [
+    "戶外運動",
+    "苔綠",
+    "螢光點綴",
+    "永續"
+   ],
+   "mood_text": "石墨灰把儀表板壓穩，苔綠針織門板與座椅帶出戶外感；一道硫磺綠飾條和杯架像越野裝備上的反光標示。",
+   "vars": {
+    "ip-lower": "#1B1C1B",
+    "console": "#2B2E2C",
+    "seat": "#4F5848",
+    "steering": "#2B2E2C",
+    "headliner": "dark",
+    "seat-bolster": "#2B2E2C",
+    "seat-center": "#4F5848",
+    "console-arm": "#7A6A55",
+    "accent-pod": "#A9B23C",
+    "accent-pod2": "#A9B23C"
+   }
+  }
+ }
+}

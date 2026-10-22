@@ -28,5 +28,11 @@
   "key": "hmi-tesla-parked-vis-surroundings",
   "url": "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings",
   "image": "hmi-tesla-parked-vis.jpg"
+ },
+ {
+  "date": "2026-10-22",
+  "key": "hmi-android-auto-gemini-pi",
+  "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/",
+  "image": "hmi-android-auto-gemini-pi.jpg"
  }
 ]
