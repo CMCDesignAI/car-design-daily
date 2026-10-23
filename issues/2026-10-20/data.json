@@ -88,7 +88,15 @@
     "alt": "全新一代比亞迪漢工信部申報圖：銀色車身側前方",
     "credit": "工信部申報圖（via 新浪財經）",
     "credit_url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtuet6906333.shtml"
-   }
+   },
+   "more_images": [
+    {
+     "file": "byd-han-next-2.jpg",
+     "alt": "全新一代比亞迪漢工信部申報圖（文章內圖 2）",
+     "credit": "工信部申報圖（via 新浪財經）",
+     "credit_url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtuet6906333.shtml"
+    }
+   ]
   },
   {
    "id": "shangjie-z9",
@@ -127,7 +135,21 @@
     "alt": "尚界 Z9 申報圖：白色 SUV 側前方",
     "credit": "易車（via 騰訊新聞）",
     "credit_url": "https://news.qq.com/rain/a/20261016A0AVL400"
-   }
+   },
+   "more_images": [
+    {
+     "file": "shangjie-z9-2.jpg",
+     "alt": "尚界 Z9 申報圖（文章內圖 2）",
+     "credit": "易車（via 騰訊新聞）",
+     "credit_url": "https://news.qq.com/rain/a/20261016A0AVL400"
+    },
+    {
+     "file": "shangjie-z9-3.jpg",
+     "alt": "尚界 Z9 申報圖（文章內圖 3）",
+     "credit": "易車（via 騰訊新聞）",
+     "credit_url": "https://news.qq.com/rain/a/20261016A0AVL400"
+    }
+   ]
   },
   {
    "id": "zenos-e10",
@@ -162,7 +184,15 @@
     "alt": "新 Zenos E10 藍色車身在賽道上行駛",
     "credit": "Zenos（via Carscoops）",
     "credit_url": "https://www.carscoops.com/2290486/zenos-e10-returns/"
-   }
+   },
+   "more_images": [
+    {
+     "file": "zenos-e10-2.jpg",
+     "alt": "新 Zenos E10 藍色車身在賽道上行駛（文章內圖 2）",
+     "credit": "Zenos（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2290486/zenos-e10-returns/"
+    }
+   ]
   },
   {
    "id": "vinfast-vf8-new",
@@ -232,7 +262,21 @@
     "alt": "北汽星鉭 5X 藍色方盒子 SUV 正前方，背景標示車名",
     "credit": "北汽（via 騰訊新聞）",
     "credit_url": "https://news.qq.com/rain/a/20261015A06WKX00"
-   }
+   },
+   "more_images": [
+    {
+     "file": "baic-xingtan-5x-2.jpg",
+     "alt": "北汽星鉭 5X 藍色方盒子 SUV 正前方，背景標示車名（文章內圖 2）",
+     "credit": "北汽（via 騰訊新聞）",
+     "credit_url": "https://news.qq.com/rain/a/20261015A06WKX00"
+    },
+    {
+     "file": "baic-xingtan-5x-3.jpg",
+     "alt": "北汽星鉭 5X 藍色方盒子 SUV 正前方，背景標示車名（文章內圖 3）",
+     "credit": "北汽（via 騰訊新聞）",
+     "credit_url": "https://news.qq.com/rain/a/20261015A06WKX00"
+    }
+   ]
   },
   {
    "id": "jetta-m6",
@@ -302,6 +346,26 @@
      "Carscoops：Elantra N Monochrome（10/19）",
      "https://www.carscoops.com/2290146/hyundai-elantra-n-monochrome/"
     ]
+   ],
+   "more_images": [
+    {
+     "file": "cmf-elantra-n-monochrome-2.jpg",
+     "alt": "Hyundai ELANTRA N MONOCHROME 座艙（文章內圖 2）",
+     "credit": "Hyundai Motor Company",
+     "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290"
+    },
+    {
+     "file": "cmf-elantra-n-monochrome-3.jpg",
+     "alt": "Hyundai ELANTRA N MONOCHROME 座艙（文章內圖 3）",
+     "credit": "Hyundai Motor Company",
+     "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290"
+    },
+    {
+     "file": "cmf-elantra-n-monochrome-4.jpg",
+     "alt": "Hyundai ELANTRA N MONOCHROME 座艙（文章內圖 4）",
+     "credit": "Hyundai Motor Company",
+     "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290"
+    }
    ]
   },
   {
@@ -327,6 +391,14 @@
      "Car Watch（10/14）",
      "https://car.watch.impress.co.jp/docs/news/2148133.html"
     ]
+   ],
+   "more_images": [
+    {
+     "file": "cmf-paint-velar-satin-film-2.jpg",
+     "alt": "Range Rover Velar Belgravia Edition Satin 緞面車身側前方（文章內圖 2）",
+     "credit": "Jaguar Land Rover（via Car Watch）",
+     "credit_url": "https://car.watch.impress.co.jp/docs/news/2148133.html"
+    }
    ]
   },
   {

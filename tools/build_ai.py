@@ -5,7 +5,7 @@ Shares assets/style.css and the topbar/switcher with tools/build.py (car section
 Usage: python3 tools/build_ai.py [--site-url https://user.github.io/repo]"""
 import json, os, glob, html, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from build import write_page, check_wakelock, topbar, theme_init, theme_toggle, ROOT, SITE, archive_rows, thumb_for
+from build import gallery, write_page, check_wakelock, topbar, theme_init, theme_toggle, ROOT, SITE, archive_rows, thumb_for
 e = html.escape
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+TC:wght@400;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">'
 
@@ -17,12 +17,13 @@ def links(ls):
 
 def figure(im, img, eager=False, cls="news-img"):
     if not im: return ""
+    if isinstance(im, dict) and "image" in im: return gallery(im, img, eager, cls=cls)
     return (f'<figure class="{cls}"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="{"eager" if eager else "lazy"}" decoding="async" width="1600" height="900"></div>'
             f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>')
 
 def story(s, img):
     if s.get("one"): return story_lite(s, img)
-    return (f'<article class="story" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
+    return (f'<article class="story" id="{e(s["id"])}">{figure(s if s.get("image") else None, img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
             f'<h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p></div>'
             f'{"" if s.get("image") else "<p class=\"noimg\">來源頁沒有可用的官方圖片，因此不放圖。</p>"}<div class="src">來源：{links(s["links"])}</div></article>')
 
@@ -33,7 +34,7 @@ def gloss(g):
 
 def story_lite(s, img):
     """Lite format (from 2026-10-13 preview): one plain sentence up front, details folded into <details>."""
-    return (f'<article class="story lite" id="{e(s["id"])}">{figure(s.get("image"), img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
+    return (f'<article class="story lite" id="{e(s["id"])}">{figure(s if s.get("image") else None, img)}<div class="shead"><span class="tag">{e(s["org"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span>'
             f'<h3>{e(s.get("short_title") or s["title"])}</h3><p class="one">{e(s["one"])}</p>{gloss(s.get("gloss"))}</div>'
             f'<details class="more"><summary>看更多</summary><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p><div class="src">來源：{links(s["links"])}</div></details></article>')
 

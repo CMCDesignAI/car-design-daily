@@ -119,7 +119,21 @@
     "alt": "Fiat Multiplay 綠色概念車於巴黎車展的正前方照",
     "credit": "Fiat（via Carscoops）",
     "credit_url": "https://www.carscoops.com/2292290/fiat-might-build-multiplay-concept-crossover-minivan-pickup/"
-   }
+   },
+   "more_images": [
+    {
+     "file": "fiat-multiplay-production-2.jpg",
+     "alt": "Fiat Multiplay 綠色概念車於巴黎車展的正前方照（文章內圖 2）",
+     "credit": "Fiat（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2292290/fiat-might-build-multiplay-concept-crossover-minivan-pickup/"
+    },
+    {
+     "file": "fiat-multiplay-production-3.jpg",
+     "alt": "Fiat Multiplay 綠色概念車於巴黎車展的正前方照（文章內圖 3）",
+     "credit": "Fiat（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2292290/fiat-might-build-multiplay-concept-crossover-minivan-pickup/"
+    }
+   ]
   },
   {
    "id": "vw-id-unyx-09-launch",
@@ -154,7 +168,15 @@
     "alt": "藍色 Volkswagen ID. UNYX 09 行駛於高架橋下的側前方官方照",
     "credit": "Volkswagen Anhui（via CnEVPost）",
     "credit_url": "https://cnevpost.com/2026/10/21/vw-anhui-launch-id-unyx-09-oct-24/"
-   }
+   },
+   "more_images": [
+    {
+     "file": "vw-id-unyx-09-launch-2.jpg",
+     "alt": "藍色 Volkswagen ID. UNYX 09 行駛於高架橋下的側前方官方照（文章內圖 2）",
+     "credit": "Volkswagen Anhui（via CnEVPost）",
+     "credit_url": "https://cnevpost.com/2026/10/21/vw-anhui-launch-id-unyx-09-oct-24/"
+    }
+   ]
   },
   {
    "id": "hyundai-tucson-korea-launch",
@@ -222,7 +244,21 @@
     "alt": "2027 款領克 03 紅色車身側前方官圖",
     "credit": "領克汽車（via 鳳凰網）",
     "credit_url": "https://auto.ifeng.com/c/8xOuB37wVOa"
-   }
+   },
+   "more_images": [
+    {
+     "file": "lynk-03-2027-2.jpg",
+     "alt": "2027 款領克 03 紅色車身側前方官圖（文章內圖 2）",
+     "credit": "領克汽車（via 鳳凰網）",
+     "credit_url": "https://auto.ifeng.com/c/8xOuB37wVOa"
+    },
+    {
+     "file": "lynk-03-2027-3.jpg",
+     "alt": "2027 款領克 03 紅色車身側前方官圖（文章內圖 3）",
+     "credit": "領克汽車（via 鳳凰網）",
+     "credit_url": "https://auto.ifeng.com/c/8xOuB37wVOa"
+    }
+   ]
   },
   {
    "id": "icaur-global-brand-ph",
@@ -282,6 +318,26 @@
      "CarExpert（8/18）",
      "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
     ]
+   ],
+   "more_images": [
+    {
+     "file": "cmf-cupra-terramar-tribe-2.jpg",
+     "alt": "Cupra Terramar VZ Tribe Edition 座艙（文章內圖 2）",
+     "credit": "Cupra（via CarExpert）",
+     "credit_url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+    },
+    {
+     "file": "cmf-cupra-terramar-tribe-3.jpg",
+     "alt": "Cupra Terramar VZ Tribe Edition 座艙（文章內圖 3）",
+     "credit": "Cupra（via CarExpert）",
+     "credit_url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+    },
+    {
+     "file": "cmf-cupra-terramar-tribe-4.jpg",
+     "alt": "Cupra Terramar VZ Tribe Edition 座艙（文章內圖 4）",
+     "credit": "Cupra（via CarExpert）",
+     "credit_url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades"
+    }
    ]
   },
   {
@@ -328,7 +384,13 @@
      "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
     ]
    ],
-   "note": "原為巴士等大眾交通座椅面料，非專為乘用車推出；列入作為車用座椅織物參考。"
+   "note": "原為巴士等大眾交通座椅面料，非專為乘用車推出；列入作為車用座椅織物參考。",
+   "image": {
+    "file": "cmf-material-camira-replay-zero.jpg",
+    "alt": "Camira RePlay Zero 回收聚酯座椅面料發表圖",
+    "credit": "Camira（via Euro Bus Expo）",
+    "credit_url": "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
+   }
   }
  ],
  "hmi": [

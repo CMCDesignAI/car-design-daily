@@ -398,7 +398,13 @@
      "Driving Vision News：BASF TPU light guides",
      "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
     ]
-   ]
+   ],
+   "image": {
+    "file": "cmf-material-basf-tpu.jpg",
+    "alt": "BASF TPU 導光管樣品（官方圖）",
+    "credit": "BASF（via Driving Vision News）",
+    "credit_url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
+   }
   }
  ],
  "hmi": [

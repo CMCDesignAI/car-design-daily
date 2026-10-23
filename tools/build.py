@@ -249,6 +249,30 @@ def thumb_for(d, base_dir):
 WAKE_MARK = 'assets/wakelock.js'
 WRITTEN = []   # every page written by write_page in this run
 
+GAL_MAX = 5
+def gallery(item, img, eager=False, pre="", cls="news-img"):
+    """Card figure. item["image"] = first image; optional item["more_images"] = extra verified article-body
+    images (same keys). Up to GAL_MAX total -> swipe/arrow carousel; one image -> plain figure (no arrows)."""
+    im = item.get("image") if item else None
+    if not im: return ""
+    ims = ([im] + list(item.get("more_images") or []))[:GAL_MAX]
+    cap = lambda x: f'圖片來源：<a href="{e(x["credit_url"])}" target="_blank" rel="noopener">{e(x["credit"])}</a>'
+    tag = lambda x, k: f'<img src="{img}{e(x["file"])}" alt="{e(x["alt"])}" loading="{"eager" if (eager and k == 0) else "lazy"}" decoding="async" width="1600" height="900">'
+    if len(ims) == 1:
+        return f'<figure class="{cls}"><div class="ratio">{tag(im, 0)}</div><figcaption>{pre}{cap(im)}</figcaption></figure>'
+    slides = "".join(f'<div class="gs" data-cap="{e(cap(x))}">{tag(x, k)}</div>' for k, x in enumerate(ims))
+    dots = "".join(f'<i{" class=on" if k == 0 else ""}></i>' for k in range(len(ims)))
+    return (f'<figure class="{cls} gal"><div class="ratio"><div class="gtrack">{slides}</div>'
+            f'<button class="gbtn gp" type="button" aria-label="上一張">‹</button><button class="gbtn gn" type="button" aria-label="下一張">›</button>'
+            f'<span class="gcount">1/{len(ims)}</span><span class="gdots">{dots}</span></div><figcaption>{pre}<span class="gcap">{cap(ims[0])}</span></figcaption></figure>')
+
+GAL_JS = ("<script>(()=>{const go=(t,d)=>t.scrollBy({left:d*t.clientWidth,behavior:'smooth'});"
+ "document.addEventListener('click',ev=>{const b=ev.target.closest('.gbtn');if(!b)return;const t=b.parentNode.querySelector('.gtrack');go(t,b.classList.contains('gn')?1:-1)});"
+ "const up=t=>{const f=t.closest('.gal'),s=[...t.children],k=Math.round(t.scrollLeft/Math.max(1,t.clientWidth));"
+ "f.querySelector('.gcount').textContent=(k+1)+'/'+s.length;f.querySelectorAll('.gdots i').forEach((d,j)=>d.classList.toggle('on',j===k));"
+ "const c=f.querySelector('.gcap');if(c&&s[k])c.innerHTML=s[k].dataset.cap};"
+ "document.querySelectorAll('.gtrack').forEach(t=>{let r;t.addEventListener('scroll',()=>{cancelAnimationFrame(r);r=requestAnimationFrame(()=>up(t))},{passive:true})})})()</script>")
+
 def write_page(path, html_text):
     """Shared writer for EVERY generated page (car + ai). Injects the wake-lock <script> into <head>
     with the right relative path, so redesigns of headers/footers can never drop it. DO NOT bypass."""
@@ -258,6 +282,8 @@ def write_page(path, html_text):
     if WAKE_MARK not in html_text:
         assert "</head>" in html_text, f"no </head> in {path}"
         html_text = html_text.replace("</head>", tag + "</head>", 1)
+    if 'class="gtrack"' in html_text and "</body>" in html_text:
+        html_text = html_text.replace("</body>", GAL_JS + "</body>", 1)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, "w", encoding="utf-8").write(html_text)
     WRITTEN.append(path)
@@ -390,8 +416,7 @@ def page(d, base, all_issues, is_root):
         an = "".join(f'<li><b>{e(k)}</b><span>{e(v)}</span></li>' for k, v in s["analysis"])
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in s["sources"])
         im = s.get("image")
-        fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="{"eager" if i == 0 else "lazy"}" decoding="async" width="1600" height="900"></div>'
-               f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
+        fig = gallery(s, img, eager=(i == 0))
         head = f'<div class="shead"><span class="tag">{e(s["brand"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span><h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p>'
         if i == 0:
             H.append(f'<article class="story feature" id="{s["id"]}">{fig}{head}<div class="src">來源：{src}</div></div><div class="fan"><p class="alabel">設計解析 Design Notes</p><ul class="analysis">{an}</ul></div></article>')
@@ -423,9 +448,10 @@ def page(d, base, all_issues, is_root):
         if (d.get("color_data") or {}).get("release"): cdata_block(d["color_data"]["release"], H)
         modular = any(x.get("kind") for x in cmf)
         def cmf_card(c, span):
-            im = c.get("image")
-            fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1600" height="900"></div>'
-                   f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
+            im = c.get("image"); sw0 = c.get("swatch")
+            # material photo first; swatch (if any) becomes a small chip in the caption
+            swc = (f'<span class="swchip" title="{e(sw0["label"])}"><i style="background:{e(sw0["hex"])}"></i><code>{e(sw0["hex"])}</code></span>') if (im and sw0) else ""
+            fig = gallery(c, img, pre=swc)
             sw = c.get("swatch")
             if sw and not im: fig = f'<figure class="news-img"><div class="ratio" style="background:{e(sw["hex"])}"></div><figcaption>{e(sw["label"])} <code>{e(sw["hex"])}</code></figcaption></figure>'
             pts = "".join(f'<li>{e(x)}</li>' for x in c["points"]) + (f'<li class="fb">⚠ {e(c["note"])}</li>' if c.get("note") else "")

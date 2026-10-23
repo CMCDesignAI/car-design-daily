@@ -162,7 +162,15 @@
     "alt": "三菱 Triton 橘色雙門皮卡官方照（本田新車型的基礎車款）",
     "credit": "Mitsubishi Motors",
     "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261022_1.html"
-   }
+   },
+   "more_images": [
+    {
+     "file": "mitsubishi-honda-triton-2.jpg",
+     "alt": "三菱 Triton 橘色雙門皮卡官方照（文章內圖 2）",
+     "credit": "Mitsubishi Motors",
+     "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261022_1.html"
+    }
+   ]
   },
   {
    "id": "denza-n8-ev",
@@ -279,7 +287,21 @@
     "alt": "Lexus LBX 淺藍色車身黑色車頂的棚拍側前方照",
     "credit": "Lexus（via MOTOR CARS）",
     "credit_url": "https://motorcars.jp/lexus-introduces-updates-to-the-lbx-refined-ride-quality-achieved-through-extensive-testing-at-the-nurburgring-20261022"
-   }
+   },
+   "more_images": [
+    {
+     "file": "lexus-lbx-update-2.jpg",
+     "alt": "Lexus LBX 淺藍色車身黑色車頂的棚拍側前方照（文章內圖 2）",
+     "credit": "Lexus（via MOTOR CARS）",
+     "credit_url": "https://motorcars.jp/lexus-introduces-updates-to-the-lbx-refined-ride-quality-achieved-through-extensive-testing-at-the-nurburgring-20261022"
+    },
+    {
+     "file": "lexus-lbx-update-3.jpg",
+     "alt": "Lexus LBX 淺藍色車身黑色車頂的棚拍側前方照（文章內圖 3）",
+     "credit": "Lexus（via MOTOR CARS）",
+     "credit_url": "https://motorcars.jp/lexus-introduces-updates-to-the-lbx-refined-ride-quality-achieved-through-extensive-testing-at-the-nurburgring-20261022"
+    }
+   ]
   }
  ],
  "cmf": [
@@ -306,6 +328,26 @@
      "CarNewsChina（10/22）",
      "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/"
     ]
+   ],
+   "more_images": [
+    {
+     "file": "cmf-byd-qin-plus-2027-interior-2.jpg",
+     "alt": "BYD 2027 款秦 PLUS 官方內裝圖（文章內圖 2）",
+     "credit": "BYD（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/"
+    },
+    {
+     "file": "cmf-byd-qin-plus-2027-interior-3.jpg",
+     "alt": "BYD 2027 款秦 PLUS 官方內裝圖（文章內圖 3）",
+     "credit": "BYD（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/"
+    },
+    {
+     "file": "cmf-byd-qin-plus-2027-interior-4.jpg",
+     "alt": "BYD 2027 款秦 PLUS 官方內裝圖（文章內圖 4）",
+     "credit": "BYD（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/"
+    }
    ]
   },
   {
@@ -329,7 +371,13 @@
      "MaterialDistrict：New Grain",
      "https://materialdistrict.com/article/new-grain-plastic-free-leather-alternative-made-from-brewers-spent-grain/"
     ]
-   ]
+   ],
+   "image": {
+    "file": "cmf-material-arda-new-grain.jpg",
+    "alt": "New Grain 酒糟基無塑皮革樣品",
+    "credit": "MaterialDistrict",
+    "credit_url": "https://materialdistrict.com/article/new-grain-plastic-free-leather-alternative-made-from-brewers-spent-grain/"
+   }
   },
   {
    "id": "cmf-material-dinamica-infinity",
@@ -353,7 +401,39 @@
      "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
     ]
    ],
-   "note": "為 Car Design News 的合作（贊助）內容，原文發布於 2026 年 3 月，非當週新品發表。"
+   "note": "為 Car Design News 的合作（贊助）內容，原文發布於 2026 年 3 月，非當週新品發表。",
+   "image": {
+    "file": "cmf-material-dinamica-infinity.jpg",
+    "alt": "Dinamica 超細纖維座椅面料細節（官方圖）",
+    "credit": "Dinamica（via Car Design News）",
+    "credit_url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+   },
+   "more_images": [
+    {
+     "file": "cmf-material-dinamica-infinity-2.jpg",
+     "alt": "Dinamica 超細纖維座椅面料細節（文章內圖 2）",
+     "credit": "Dinamica（via Car Design News）",
+     "credit_url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+    },
+    {
+     "file": "cmf-material-dinamica-infinity-3.jpg",
+     "alt": "Dinamica 超細纖維座椅面料細節（文章內圖 3）",
+     "credit": "Dinamica（via Car Design News）",
+     "credit_url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+    },
+    {
+     "file": "cmf-material-dinamica-infinity-4.jpg",
+     "alt": "Dinamica 超細纖維座椅面料細節（文章內圖 4）",
+     "credit": "Dinamica（via Car Design News）",
+     "credit_url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+    },
+    {
+     "file": "cmf-material-dinamica-infinity-5.jpg",
+     "alt": "Dinamica 超細纖維座椅面料細節（文章內圖 5）",
+     "credit": "Dinamica（via Car Design News）",
+     "credit_url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+    }
+   ]
   }
  ],
  "hmi": [

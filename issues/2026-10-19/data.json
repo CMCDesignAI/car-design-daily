@@ -119,7 +119,21 @@
     "alt": "比亞迪第三代秦 PLUS 官圖側面溜背輪廓",
     "credit": "BYD（via 選車網）",
     "credit_url": "https://www.chooseauto.com.cn/news/1029850.shtml"
-   }
+   },
+   "more_images": [
+    {
+     "file": "byd-qin-plus-3-2.jpg",
+     "alt": "比亞迪第三代秦 PLUS 官圖側面溜背輪廓（文章內圖 2）",
+     "credit": "BYD（via 選車網）",
+     "credit_url": "https://www.chooseauto.com.cn/news/1029850.shtml"
+    },
+    {
+     "file": "byd-qin-plus-3-3.jpg",
+     "alt": "比亞迪第三代秦 PLUS 官圖側面溜背輪廓（文章內圖 3）",
+     "credit": "BYD（via 選車網）",
+     "credit_url": "https://www.chooseauto.com.cn/news/1029850.shtml"
+    }
+   ]
   },
   {
    "id": "aion-ray7",
@@ -232,7 +246,21 @@
     "alt": "零跑 A10s 鏡夜黑車身正面",
     "credit": "Leapmotor（via CnEVPost）",
     "credit_url": "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
-   }
+   },
+   "more_images": [
+    {
+     "file": "leapmotor-a10s-2.jpg",
+     "alt": "零跑 A10s 鏡夜黑車身正面（文章內圖 2）",
+     "credit": "Leapmotor（via CnEVPost）",
+     "credit_url": "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
+    },
+    {
+     "file": "leapmotor-a10s-3.jpg",
+     "alt": "零跑 A10s 鏡夜黑車身正面（文章內圖 3）",
+     "credit": "Leapmotor（via CnEVPost）",
+     "credit_url": "https://cnevpost.com/2026/10/18/leapmotor-launches-a10s/"
+    }
+   ]
   },
   {
    "id": "toyota-glanza",
