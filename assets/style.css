@@ -448,3 +448,11 @@ html{scroll-padding-top:110px}
 .news-img,.mode-ai .news-img{border-radius:16px 16px 0 0}
 .story.feature .news-img{border-radius:0}
 @media (max-width:767px){.wcard,.story,.cmf-card{border-radius:14px}.news-img{border-radius:14px 14px 0 0}}
+/* remaining square boxes → rounded (sitewide) */
+.term,.breaking .bk-card,.cmf-card,.ccard,.app,.evc,.hue,.caveats li,.lbcard{border-radius:16px}
+.term,.hue,.evc{overflow:hidden}
+.tile,.sw,.intwrap svg,.carsvg,.uimg,.athumb,.vframe .ratio{border-radius:10px}
+.sw,.tile{overflow:hidden}
+.breaking .bk-label{border-radius:999px}
+.analysis li b{border-radius:6px}
+@media (max-width:767px){.term,.breaking .bk-card{border-radius:14px}}
