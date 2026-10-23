@@ -96,6 +96,7 @@ def tool_page(al):
 {theme_init("car")}</head>
 <body class="mode-car tool-page">{topbar("../", "car", "../", '<nav class="nav"><a href="../#design">設計新聞</a><a href="../#cmf">色彩材質</a><a href="../#knowledge">汽車新知</a><a href="./" aria-current="page">小工具</a><a href="../archive/">往期</a></nav>')}
 <main class="wrap">
+<nav class="tswitch" aria-label="小工具"><a href="./" aria-current="page">內裝配色</a><a href="parts/">零件圖庫</a></nav>
 <div class="tmast"><div class="kicker">Tools · Interior Colour Studio</div><h1>小工具 · 內裝配色</h1>
 <p class="tlede">輸入情緒關鍵字產生配色組合，或從每日配色開始；把色票拖到部位上、輸入 HEX 或用色盤調整，再為每個部位換材質。插圖即時更新。全部在瀏覽器裡完成，不連伺服器、不用 AI。</p></div>
 <div class="tstage"><div class="intcombo hl-dark" id="cab">{svg}</div>

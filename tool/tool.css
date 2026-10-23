@@ -92,3 +92,6 @@ body.armed .part[data-k]{cursor:copy}
 .kwpop{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:1px 10px;margin:0 0 0 6px;font:inherit;font-size:12.5px;cursor:pointer}
 .kwpop:hover{border-color:var(--accent);color:var(--accent)}
 .kwcount{font-size:11.5px;color:var(--muted);margin:-2px 0 10px}
+.tswitch{display:flex;gap:6px;margin:18px 0 0;flex-wrap:wrap}
+.tswitch a{padding:6px 14px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--muted);text-decoration:none}
+.tswitch a[aria-current]{background:var(--ink,#111);color:var(--bg,#fff);border-color:transparent}
