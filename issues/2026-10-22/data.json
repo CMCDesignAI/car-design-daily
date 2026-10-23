@@ -421,7 +421,64 @@
    ]
   }
  ],
- "knowledge": [],
+ "knowledge": [
+  {
+   "tag": "電池 · 美國",
+   "date": "2026-10-21",
+   "title": "GM 第四代電動平台改用 LMR 富鋰錳方形電芯",
+   "summary": "GM Forward 活動宣布，下一代平台採用富鋰錳（LMR）方形電芯，能量密度比 LFP 高約 33%、成本相近；電池包縮小 20%、整車輕 15%、風阻改善 25%，由與 LG 新能源合資的 Ultium Cells 在田納西 Spring Hill 廠改線生產，2028 年完成。",
+   "sources": [
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/markets/stocks/article/gm-bets-on-new-batteries-ai-to-make-evs-mainstream-but-skips-the-energy-storage-boom-183616679.html"
+    ],
+    [
+     "Digital Today",
+     "https://www.digitaltoday.co.kr/en/view/117678/gm-lg-energy-solution-push-mass-production-of-next-generation-battery"
+    ]
+   ]
+  },
+  {
+   "tag": "財報 · 美國",
+   "date": "2026-10-21",
+   "title": "Tesla Q3：電池供應成為增產瓶頸",
+   "summary": "Tesla 第三季股東信指出「電池供應仍是提高汽車產量的限制因素」，季末乘用車積壓訂單為四年來最多；同時德州 Megafactory 投產（規劃 50 GWh）、4680 電芯增產優先供 Cybercab 與 Semi。",
+   "sources": [
+    [
+     "Electrek",
+     "https://electrek.co/2026/10/21/tesla-battery-supply-limiting-sales-prices-falling/"
+    ],
+    [
+     "WSJ",
+     "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-21-2026/card/uy0t09u3AXzPo5b6YuEp"
+    ]
+   ]
+  },
+  {
+   "tag": "技術 · 中國",
+   "date": "2026-10-20",
+   "title": "第二代比亞迪海鷗上市：閃充下放到 6.59 萬元入門車",
+   "summary": "新海鷗售 6.59–9.99 萬元，高配 39.2 kWh 電池、CLTC 420 km，支援閃充（10–70% 約 5 分鐘）；車長 4,205 mm、改後驅。比亞迪稱國內閃充站已達 12,165 座，年底目標 2 萬座。",
+   "sources": [
+    [
+     "EV & Auto Club",
+     "https://evandauto.com/article/9000032/"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-10-21",
+   "title": "理想 Power Day：自研「連山」電驅系統與 5C 電池",
+   "summary": "理想發表自研 5C 電池（與欣旺達合資），首搭新款 L8、純電續航增至 430 km，並承諾自研電池起火即換車；2026 款 i6 定 10/28 上市，CLTC 最高 780 km。",
+   "sources": [
+    [
+     "EV & Auto Club",
+     "https://evandauto.com/article/9000032/"
+    ]
+   ]
+  }
+ ],
  "term": {
   "name": "Hidden headlights",
   "zh": "隱藏式頭燈",

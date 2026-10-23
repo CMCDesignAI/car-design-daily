@@ -383,7 +383,7 @@ def page(d, base, all_issues, is_root):
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
 <h1>Car Design Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}</div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}</div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     links = [("design","設計新聞",True),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
     H.append('<nav class="jump" aria-label="本期段落">' + "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in links if ok) + f'<a class="jtool" href="{base}tool/">小工具 ↗</a>' + '</nav><script>(()=>{const f=()=>{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")};f();addEventListener("resize",f)})()</script>')
