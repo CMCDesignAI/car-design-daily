@@ -22,7 +22,7 @@ let sx=null;box.addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{pass
 box.addEventListener('click',e=>{if(box.dataset.sw)e.stopImmediatePropagation()},true)}
 G.appendChild(el)})}
 function open(k,n){gi=k;const g=groups[gi];ii=(n+g.length)%g.length;const i=g[ii];$('ptimg').src=IMG_BASE+i.f;$('ptimg').alt=i.c.name+' '+cur;
-$('ptcap').innerHTML=`<b>${i.c.name}</b> · ${cur} <span class="ctl">${ii+1}/${g.length}</span><div class="m">${i.trim}　|　${i.c.brand} · ${i.c.region} · ${i.c.body}　|　圖片來源：<a href="${i.src}" target="_blank" rel="noopener">${i.src.includes('wikimedia')?'Wikimedia Commons ↗':'汽車之家原圖頁 ↗'}</a>　<a href="${i.c.page}" target="_blank" rel="noopener">車系圖庫 ↗</a></div>`;{const rb=PartsReport.button({car:i.c.name,tab:cur,imageKey:i.f});rb.classList.add('rpt-inline');$('ptcap').appendChild(rb)}
+$('ptcap').innerHTML=`<b>${i.c.name}</b> · ${cur} <span class="ctl">${ii+1}/${g.length}</span><div class="m">${i.trim}　|　${i.c.brand} · ${i.c.region} · ${i.c.body}　|　圖片來源：<a href="${i.src}" target="_blank" rel="noopener">${i.src.includes('wikimedia')?'Wikimedia Commons ↗':i.src.includes('8891.com')?'8891 ↗':'汽車之家原圖頁 ↗'}</a>　<a href="${i.c.page}" target="_blank" rel="noopener">車系圖庫 ↗</a></div>`;{const rb=PartsReport.button({car:i.c.name,tab:cur,imageKey:i.f});rb.classList.add('rpt-inline');$('ptcap').appendChild(rb)}
 $('ptdlg').classList.toggle('one',g.length<2);if(!$('ptdlg').open)$('ptdlg').showModal()}
 const step=s=>open(gi,ii+s);
 $('ptx').onclick=()=>$('ptdlg').close();$('ptprev').onclick=()=>step(-1);$('ptnext').onclick=()=>step(1);
