@@ -88,7 +88,7 @@
     ],
     [
      "EX9 旗艦",
-     "長軸距、短前懸、直立車身；隱藏門把、乾淨的分縫線與不中斷的肩線，前臉大矩形格柵配直立燈組。"
+     "長軸距、短前懸、直立車身；隱藏門把、乾淨的分縫線與不中斷的肩線，前臉大矩形格柵配直立燈組。北京車展實車可見 D 柱寬幅鍍鉻與前後貫穿鍍鉻飾條，車長約 5.3 m、2+2+2 六座（中關村在線）；國際市場名為 ET8 Concept。"
     ],
     [
      "家族延伸",
@@ -97,20 +97,58 @@
     [
      "ES GT 座艙",
      "品牌首款跨界旅行車，對稱環抱式座艙、天際線螢幕加獨立懸浮中控屏，碳纖飾板與主動側翼支撐的一體式跑車座椅。"
+    ],
+    [
+     "圖片說明",
+     "EX8、EX7 新款與 MPV Concept 目前無官方公開圖，卡片僅收錄經多來源核對的 EX9 實車與發表會現場。"
     ]
    ],
    "sources": [
     [
      "EXEED International 新聞稿（10/22）",
      "https://news.marketersmedia.com/rooted-in-perpetua-exeed-unveils-its-all-new-design-language-future-luxury-ex9-ex8-ex7-and-mpv-concept-make-a-joint-appearance/89206940"
+    ],
+    [
+     "EXEED Russia：EX9 北京車展首發（官方）",
+     "https://exeed.ru/news/exeed-2-premieres-at-auto-china-2026/"
+    ],
+    [
+     "CarNewsChina：Exeed EX9 flagship SUV（4/26）",
+     "https://carnewschina.com/2026/04/26/cherys-exeed-ex9-flagship-suv-showcased-in-beijing-positioned-against-zeekr-9x/"
     ]
    ],
    "image": {
-    "file": "news-exeed-future-luxury.jpg",
-    "alt": "EXEED 新設計語言發表會：設計師在冰川背景投影前說明「One Source. Two Expressions of Power」",
-    "credit": "EXEED International（新聞稿）",
-    "credit_url": "https://news.marketersmedia.com/rooted-in-perpetua-exeed-unveils-its-all-new-design-language-future-luxury-ex9-ex8-ex7-and-mpv-concept-make-a-joint-appearance/89206940"
-   }
+    "file": "news-exeed-future-luxury-ex9.jpg",
+    "alt": "星途 EXEED EX9（國際名 ET8 Concept）旗艦 SUV 前側方：大矩形格柵、直立分體燈組、D 柱寬幅鍍鉻（2026 北京車展，官方圖）",
+    "credit": "EXEED Russia 官方新聞",
+    "credit_url": "https://exeed.ru/news/exeed-2-premieres-at-auto-china-2026/"
+   },
+   "more_images": [
+    {
+     "file": "exeed-future-luxury-2.jpg",
+     "alt": "EXEED EX9 側面：直立車身、不中斷肩線與貫穿式鍍鉻飾條（官方圖）",
+     "credit": "EXEED Russia 官方新聞",
+     "credit_url": "https://exeed.ru/news/exeed-2-premieres-at-auto-china-2026/"
+    },
+    {
+     "file": "exeed-future-luxury-3.jpg",
+     "alt": "EXEED EX9（ET8 Concept）官方棚拍：直立燈條與上窄下寬的車身量體",
+     "credit": "EXEED Russia 官方新聞",
+     "credit_url": "https://exeed.ru/news/exeed-2-premieres-at-auto-china-2026/"
+    },
+    {
+     "file": "exeed-future-luxury-4.jpg",
+     "alt": "EXEED EX9 北京車展實車：EX9 銘牌、大矩形前臉與垂直燈組",
+     "credit": "CarNewsChina",
+     "credit_url": "https://carnewschina.com/2026/04/26/cherys-exeed-ex9-flagship-suv-showcased-in-beijing-positioned-against-zeekr-9x/"
+    },
+    {
+     "file": "news-exeed-future-luxury.jpg",
+     "alt": "EXEED 新設計語言發表會：設計師在冰川背景投影前說明「One Source. Two Expressions of Power」",
+     "credit": "EXEED International（新聞稿）",
+     "credit_url": "https://news.marketersmedia.com/rooted-in-perpetua-exeed-unveils-its-all-new-design-language-future-luxury-ex9-ex8-ex7-and-mpv-concept-make-a-joint-appearance/89206940"
+    }
+   ]
   },
   {
    "id": "bentley-torcal-first-edition",
