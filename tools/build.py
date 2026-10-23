@@ -266,9 +266,9 @@ def gallery(item, img, eager=False, pre="", cls="news-img"):
             f'<button class="gbtn gp" type="button" aria-label="上一張">‹</button><button class="gbtn gn" type="button" aria-label="下一張">›</button>'
             f'<span class="gcount">1/{len(ims)}</span><span class="gdots">{dots}</span></div><figcaption>{pre}<span class="gcap">{cap(ims[0])}</span></figcaption></figure>')
 
-GAL_JS = ("<script>(()=>{const go=(t,d)=>t.scrollBy({left:d*t.clientWidth,behavior:'smooth'});"
+GAL_JS = ("<script>(()=>{const go=(t,d)=>{const s=t.children,w=s[0].getBoundingClientRect().width||t.clientWidth,k=Math.max(0,Math.min(s.length-1,Math.round(t.scrollLeft/w)+d));t.scrollTo({left:s[k].offsetLeft-s[0].offsetLeft,behavior:'smooth'})};"
  "document.addEventListener('click',ev=>{const b=ev.target.closest('.gbtn');if(!b)return;const t=b.parentNode.querySelector('.gtrack');go(t,b.classList.contains('gn')?1:-1)});"
- "const up=t=>{const f=t.closest('.gal'),s=[...t.children],k=Math.round(t.scrollLeft/Math.max(1,t.clientWidth));"
+ "const up=t=>{const f=t.closest('.gal'),s=[...t.children],k=Math.round(t.scrollLeft/Math.max(1,s[0].getBoundingClientRect().width));"
  "f.querySelector('.gcount').textContent=(k+1)+'/'+s.length;f.querySelectorAll('.gdots i').forEach((d,j)=>d.classList.toggle('on',j===k));"
  "const c=f.querySelector('.gcap');if(c&&s[k])c.innerHTML=s[k].dataset.cap};"
  "document.querySelectorAll('.gtrack').forEach(t=>{let r;t.addEventListener('scroll',()=>{cancelAnimationFrame(r);r=requestAnimationFrame(()=>up(t))},{passive:true})})})()</script>")
