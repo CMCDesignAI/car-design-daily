@@ -442,3 +442,9 @@ html{scroll-padding-top:110px}
 .topbar .nav a[aria-current="page"]{color:var(--ink);border-color:var(--ink)}
 .ndm{right:0;margin-top:8px}
 @media (max-width:767px){.topbar .nav{gap:6px}.ndm{left:0;right:auto}}
+/* rounder news cards (match pill nav) — car + AI */
+.story,.cmf-card,.mode-ai .story,.mode-ai .wcard,.lbcard,.evc,.hue,.ccard,.app{border-radius:16px}
+.story,.cmf-card{overflow:hidden}
+.news-img,.mode-ai .news-img{border-radius:16px 16px 0 0}
+.story.feature .news-img{border-radius:0}
+@media (max-width:767px){.wcard,.story,.cmf-card{border-radius:14px}.news-img{border-radius:14px 14px 0 0}}
