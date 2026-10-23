@@ -34,5 +34,11 @@
   "key": "hmi-android-auto-gemini-pi",
   "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/",
   "image": "hmi-android-auto-gemini-pi.jpg"
+ },
+ {
+  "date": "2026-10-23",
+  "key": "hmi-android-auto-work-account",
+  "url": "https://9to5google.com/2026/10/19/android-auto-tests-work-account-support/",
+  "image": "hmi-android-auto-work-account.jpg"
  }
 ]
