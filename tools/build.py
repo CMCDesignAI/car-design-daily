@@ -285,6 +285,8 @@ def write_page(path, html_text):
         html_text = html_text.replace("</head>", tag + "</head>", 1)
     if 'class="gtrack"' in html_text and "</body>" in html_text:
         html_text = html_text.replace("</body>", GAL_JS + "</body>", 1)
+    from navfix import fix as _navfix   # 小工具 dropdown; drops old jump/tswitch pill rows
+    html_text = _navfix(html_text, path)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, "w", encoding="utf-8").write(html_text)
     WRITTEN.append(path)
