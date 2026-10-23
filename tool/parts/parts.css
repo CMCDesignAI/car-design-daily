@@ -39,3 +39,11 @@
 .pt-filters select option{background:var(--card,var(--bg));color:var(--ink)}
 [data-theme="dark"] .pt-filters select{color-scheme:dark}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .pt-filters select{color-scheme:dark}}
+
+.pt-search{position:relative;flex:1 1 260px;max-width:340px}
+.pt-search input{width:100%;box-sizing:border-box;font:inherit;font-size:14px;color:var(--ink,inherit);background:var(--card,var(--bg));border:1px solid var(--line);border-radius:999px;padding:6px 30px 6px 12px}
+.pt-search input::-webkit-search-cancel-button{display:none}
+.pt-search input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.pt-search button{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--muted);font-size:18px;line-height:1;cursor:pointer;padding:2px 6px}
+[data-theme="dark"] .pt-search input{color-scheme:dark}
+@media (max-width:600px){.pt-search{flex:1 1 100%;max-width:none}.pt-search input{font-size:16px}}

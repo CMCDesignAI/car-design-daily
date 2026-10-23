@@ -1,0 +1,11 @@
+.rpt-btn{position:absolute;top:6px;right:6px;z-index:5;border:0;border-radius:999px;padding:3px 9px;font-size:12px;background:rgba(0,0,0,.55);color:#fff;cursor:pointer;opacity:.75}
+.rpt-btn:hover{opacity:1;background:#c0392b}
+.rpt-mask{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:10000}
+.rpt-box{background:#fff;color:#222;border-radius:14px;padding:18px;width:min(360px,92vw);box-shadow:0 10px 40px rgba(0,0,0,.3);font-size:14px}
+.rpt-box h3{margin:0 0 10px;font-size:16px}.rpt-box label{display:block;margin:6px 0;cursor:pointer}
+.rpt-box textarea{width:100%;box-sizing:border-box;border-radius:8px;border:1px solid #ccc;padding:6px;margin-top:6px;background:inherit;color:inherit}
+.rpt-act{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}.rpt-act button{border:0;border-radius:8px;padding:6px 14px;cursor:pointer}
+.rpt-send{background:#c0392b;color:#fff}.rpt-cancel{background:#ddd;color:#222}
+@media (prefers-color-scheme:dark){.rpt-box{background:#1e1e22;color:#eee}.rpt-box textarea{border-color:#444}.rpt-cancel{background:#333;color:#eee}}
+
+.rpt-btn.rpt-inline{position:static;margin-top:8px;display:inline-block}
