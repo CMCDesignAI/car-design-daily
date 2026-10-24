@@ -1,0 +1,456 @@
+{
+ "date": "2026-10-24",
+ "weekday": "週六",
+ "issue_no": 17,
+ "lede": "今天的重點：Canva 推出自家第一個生圖模型 Craft，主打海報、簡報這類「有字、要排版」的設計圖；Claude 在 Google Cloud 多了一種由 Anthropic 直接營運的用法；Grok Bot 可以操作手機上的行事曆和提醒事項。",
+ "ainews": [
+  {
+   "id": "canva-craft",
+   "org": "Canva",
+   "tag": "圖像模型 · 新模型",
+   "date": "2026-10-22",
+   "title": "Canva 推出第一個自研生圖模型 Craft：先規劃版面再畫圖，最高 2K、30 多種比例，所有使用者都能在 Dream Lab 試用",
+   "orig": "Introducing Canva Craft",
+   "summary": "Canva 10/22 發表由內部 Canva Research 團隊從零訓練的生圖模型 Craft。【怎麼運作】分兩階段：先由「規劃模型」把提示詞寫成構圖計畫（有哪些元素、位置與大小、視覺層次、要出現的文字），再由「繪製模型」依計畫畫出最高 2K、30 多種長寬比的圖；官方說這樣文字比較清楚、物件位置更準，也能只改局部不動其他地方。【訓練資料】The Verge 引述 Canva 說法，用了平台上數百萬份人做的範本（社群貼文、簡報、資訊圖表、菜單等）。【排名】Canva 自稱在群眾盲測網站 DesignArena 的生圖榜排第 4，前 3 名都是 OpenAI 的 GPT Image 系列（屬官方引用的第三方榜單，非本刊榜單）。【哪裡能用】即日起全球所有 Canva 使用者可在左側選單的 Dream Lab 使用；開發者可透過 Canva 公開 API（模型名 craft_v1_2k，官方開發者論壇說一張約需 50–60 秒，會扣 AI 點數）；之後會透過 Canva MCP 讓 ChatGPT、Gemini 等 AI 助理呼叫，並推出更快的 Craft-fast／Craft-ultrafast。",
+   "links": [
+    [
+     "Canva 官方：Introducing Canva Craft",
+     "https://www.canva.com/newsroom/news/canva-craft/"
+    ],
+    [
+     "The Verge：Canva's first AI image model plans designs before generating them",
+     "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+    ],
+    [
+     "TechCrunch：Canva releases its first image generation model",
+     "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+    ]
+   ],
+   "image": {
+    "file": "canva-craft.webp",
+    "alt": "Canva Craft 官方宣傳圖",
+    "credit": "Canva",
+    "credit_url": "https://www.canva.com/newsroom/news/canva-craft/"
+   },
+   "short_title": "Canva 推出自家生圖模型 Craft",
+   "one": "做海報、社群圖、簡報這類有字有排版的圖時，Canva 裡就能直接生成，字比較不會糊、位置也比較準。",
+   "gloss": [
+    [
+     "MCP",
+     "讓 AI 助理連接外部工具的共通介面，接上後 ChatGPT 之類的助理就能直接叫用 Canva"
+    ],
+    [
+     "API",
+     "讓程式呼叫別家服務的介面，一般使用者不會直接看到"
+    ]
+   ]
+  },
+  {
+   "id": "claude-on-google-cloud-anthropic-managed",
+   "org": "Anthropic × Google",
+   "tag": "平台服務 · 雲端",
+   "date": "2026-10-23",
+   "title": "Google Cloud 正式推出「由 Anthropic 營運」的 Claude：同價、同一張 Google 帳單，新功能和新模型第一天就能用",
+   "orig": "Expanding Claude availability and deployment choice on Google Cloud",
+   "summary": "Google Cloud 10/23 宣布 Claude 在 Google Cloud 上多了一種正式版（GA）用法。【兩種差在哪】新的「Anthropic 營運版」由 Anthropic 在 Google Cloud 機房上運作、擔任資料處理者，用 Anthropic 的服務條款，好處是 Claude 平台新功能（例如 Managed Agents 測試版、skills、程式碼執行）第一天就能用；原本的「Google 營運版」由 Google 當資料處理者，提供 VPC 服務控制、自管加密金鑰與美國／歐盟／亞太資料落地，新功能會晚一點跟上。兩者模型都是第一天上架、價格相同、都走 Google Cloud 帳單與登入權限（IAM）。【補充】多家 AI 日報整理指出可用模型含 Claude Fable 5.1、Opus 5.5、Sonnet 5.5、Haiku 5.5，Opus 5.5 快速模式也一併正式提供（輸出最快 2.5 倍，每百萬 token 輸入 8／輸出 40 美元），目前僅美國與 Global 端點，既有折扣不會自動帶過來；這部分依轉載整理，以 Anthropic 官方文件為準。",
+   "links": [
+    [
+     "Google Cloud 官方部落格：Expanding Claude availability on Google Cloud",
+     "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud"
+    ],
+    [
+     "AI Workshop 10/23 日報整理（模型清單與價格）",
+     "https://ai.blocksize.hr/blog/en/ai-digest-october-23-2026.html"
+    ]
+   ],
+   "image": null,
+   "short_title": "Claude 在 Google Cloud 多一種官方營運版",
+   "one": "公司若已經用 Google Cloud，現在可以用同一張帳單直接拿到 Claude 最新功能，不必另外跟 Anthropic 簽約付款。",
+   "gloss": [
+    [
+     "GA（正式版）",
+     "General Availability，結束測試、正式對所有客戶開放"
+    ],
+    [
+     "資料處理者",
+     "依法替客戶處理資料、要負責資料安全的那一方"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-phone-apps",
+   "org": "xAI",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-22",
+   "title": "Grok Bot 可以操作手機上的行事曆、提醒事項、聯絡人等 App，iOS 與 Android 陸續開放",
+   "orig": "Grok Bot can now use Calendar, Reminders, Contacts, and more apps on your phone.",
+   "summary": "Grok Bot 官方帳號 @bot 10/22（台灣時間 10/23 清晨）宣布：Grok Bot 現在可以使用手機上的行事曆（Calendar）、提醒事項（Reminders）、聯絡人（Contacts）等 App，iOS 與 Android 即日起分批推出。Musk 也轉發說「Grok Bot now integrates with your phone apps」。官方貼文沒有列出完整支援 App 清單、地區或方案限制，以實際 App 內顯示為準。",
+   "links": [
+    [
+     "Grok Bot 官方 X 貼文",
+     "https://x.com/bot/status/2113393684209176718"
+    ],
+    [
+     "Elon Musk X 貼文",
+     "https://x.com/elonmusk/status/2113444022408937913"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 能用手機行事曆和提醒",
+   "one": "可以直接叫 Grok Bot 幫你在手機上排行程、加提醒、找聯絡人，不用自己切換 App。"
+  },
+  {
+   "id": "tencent-hy-nomas",
+   "org": "騰訊混元",
+   "tag": "開源 · 影片世界模型",
+   "date": "2026-10-23",
+   "title": "騰訊混元開源 Hy-Nomas 互動式影片世界模型：用文字和鏡頭路徑一段段生成 720p 影片，Apache 2.0，單張 RTX 4090 有低顯存設定",
+   "orig": "tencent/Hy-Nomas",
+   "summary": "騰訊混元 10/23 在 Hugging Face 放出 Hy-Nomas 權重（Apache 2.0），同時有 GitHub 推論／訓練程式、280 題測試集與線上試玩。【是什麼】「世界模型」會一段一段接著生成影片，過程中可以用文字改變場景或控制鏡頭移動，前面的內容會記住接續下去。【規格（依模型卡）】8 步蒸餾版、輸出 720×1280、24 FPS；標準設定要 8 張 GPU 一起跑；另有單張 NVIDIA RTX 4090 的低顯存設定（INT8 權重、FP8 解碼器、CPU 卸載）。【注意】權重檔總共約 196 GB；騰訊尚未發表技術報告與評測分數，正式公告也還沒出，品質好壞目前無從比較。",
+   "links": [
+    [
+     "Hugging Face 模型卡：tencent/Hy-Nomas",
+     "https://huggingface.co/tencent/Hy-Nomas"
+    ],
+    [
+     "TSN：Tencent Hunyuan Open-Sources Hy-Nomas",
+     "https://tsnmedia.org/tencent-hy-nomas-world-model/"
+    ]
+   ],
+   "image": null,
+   "short_title": "騰訊開源 Hy-Nomas 互動影片世界模型",
+   "one": "可以邊生成影片邊用文字或鏡頭指令「走進」場景，是做互動遊戲預覽的開源素材，但目前還沒有官方評測。",
+   "gloss": [
+    [
+     "世界模型",
+     "能持續產生並記住一個虛擬場景、讓人在裡面互動的 AI 模型"
+    ],
+    [
+     "權重（Weights）",
+     "模型訓練完的參數檔，下載後就能在自己電腦上跑"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-krea2-comfyui",
+   "title": "Krea 2 Turbo：用 ComfyUI 官方範本 8 步出圖，還能一鍵套風格 LoRA",
+   "learn": "學會用官方範本跑 Krea 2 Turbo 文生圖，並切換 Krea 釋出的風格 LoRA。",
+   "level": "入門",
+   "vram": "官方頁未標示，依原頁為準",
+   "kind": "追蹤模型教學",
+   "gloss": [
+    [
+     "LoRA",
+     "掛在主模型上的小型外掛檔，用來加入特定風格或角色"
+    ],
+    [
+     "子圖（Subgraph）",
+     "把一堆節點收成一顆節點，介面比較乾淨"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版；範本庫找不到 Krea-2 通常就是版本太舊。",
+    "在範本庫（Templates）搜尋「Krea-2」，載入 Krea-2 Turbo 文生圖工作流程；缺模型時依提示下載（模型檔在 Hugging Face 的 Comfy-Org/Krea-2）。",
+    "在「Text to Image (Krea-2 Turbo)」子圖輸入提示詞，用 ResolutionSelector 選解析度（支援 1K–2K，megapixels 設 2.0 就是 2K）。",
+    "預設 8 步、開啟提示詞強化、不套 LoRA，直接按 Queue Prompt 就能出圖。",
+    "想換風格：在 CustomCombo 選一個風格 LoRA（例如水彩、復古動畫），子圖裡打開 enable_lora?，觸發詞會自動帶入，官方建議強度 1.0。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Krea-2 ComfyUI Workflow Example",
+     "https://docs.comfy.org/tutorials/image/krea/krea-2"
+    ],
+    [
+     "Hugging Face：Comfy-Org/Krea-2（ComfyUI 用模型檔）",
+     "https://huggingface.co/Comfy-Org/Krea-2"
+    ]
+   ]
+  },
+  {
+   "id": "tut-subgraph",
+   "title": "ComfyUI 子圖（Subgraph）：把一長串節點收成一顆，工作流程變清爽",
+   "learn": "學會把選取的節點打包成子圖、進出編輯、在參數面板調整，以及拆回原本的節點。",
+   "level": "入門",
+   "vram": "不需要額外顯存（介面功能）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "節點（Node）",
+     "ComfyUI 畫布上的一個方塊，負責一個步驟，例如載入模型或存圖"
+    ]
+   ],
+   "steps": [
+    "確認 ComfyUI 前端版本在 1.24.3 以上，看不到這個功能就先更新。",
+    "在畫布上框選想打包的節點，點工具列上的子圖圖示，ComfyUI 會依這些節點的輸入輸出自動建好一顆子圖節點。",
+    "在子圖空白處按兩下（或按編輯鈕）進入編輯，可以新增、改名或刪除對外的輸入輸出插槽；按 Esc 或上方導覽列回到外層。",
+    "ComfyUI v0.3.66 以上可以選取子圖後按「Edit Subgraph Widgets」，在參數面板直接調整控制項順序與顯示，不用進到子圖裡。",
+    "不想用了就對子圖按右鍵選「Unpack subgraph」拆回一般節點；前端 1.27.7 以上還能發布成 Subgraph Blueprint 重複使用。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Subgraph",
+     "https://docs.comfy.org/interface/features/subgraph"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成（版面控制）",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "文字榜改用 LMArena 10/22 新資料：第 1 名 Gemini 4 Argon 分數 -7，達「重大變化」門檻；文生圖榜分數 ±4 內微動，沿用 10/16 的圖。",
+  "Claude 在 Google Cloud 的模型清單與價格依 AI 日報轉載整理；Hy-Nomas 尚無官方評測。@xai 帳號已改名搬到 @SpaceXAI、無貼文，@grok、@NanoBanana 36 小時內無新貼文。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-24",
+  "compared_to": "2026-10-23",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-22",
+    "fetched": "2026-10-24",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1517,
+      "ci": 7,
+      "delta": -7
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1509,
+      "ci": 7,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 8,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 4
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1496,
+      "ci": 5,
+      "delta": 2
+     }
+    ],
+    "compared_to": "2026-10-23",
+    "diff": {
+     "summary": [
+      "Gemini 4 Argon (high): #1→#1 (0 名), 1524→1517 (-7)",
+      "Claude Opus 5.5 (high): #3→#2 (+1 名), 1508→1509 (+1)",
+      "Muse Wonder (max): #2→#3 (-1 名), 1509→1509 (+0)",
+      "Claude Fable 5 (high): #4→#4 (0 名), 1504→1503 (-1)",
+      "Claude Fable 5.1 (max): #6→#5 (+1 名), 1502→1503 (+1)",
+      "Claude Opus 4.6 (high): #5→#6 (-1 名), 1503→1503 (+0)",
+      "Muse Spark 1.3 (max): #10→#10 (0 名), 1494→1496 (+2)"
+     ],
+     "dropped": []
+    },
+    "dropped": [],
+    "analysis": "LMArena 10/22 的新資料裡，Gemini 4 Argon（high）仍是第 1 名，但分數從 1524 掉到 1517（-7），和第 2 名的差距從 15 分縮到 8 分。Claude Opus 5.5（high）以 1509 分升到第 2，和 Meta 的 Muse Wonder（max）同分；Claude Fable 5.1（max）也上升 1 名到第 5。前 10 名單沒有新面孔、也沒有人跌出，Anthropic 依舊佔了 6 席。整體看是頭名領先幅度變小，還談不上換人。",
+    "analysis_short": "Gemini 4 Argon 仍是第 1 但分數 -7，領先縮到 8 分；Claude Opus 5.5 升到第 2，前 10 沒有新面孔。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-24",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-24",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-23",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
