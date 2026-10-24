@@ -1,0 +1,673 @@
+{
+ "date": "2026-10-24",
+ "weekday": "週六",
+ "issue_no": 17,
+ "lede": "比亞迪公布第二代海豹 07 官圖、新款坦克 500 以「中式新豪華」上市，仰望旗艦轎車「HU」傳將以對開門在阿聯酋首發；Cadillac Escalade-V 推出 252 台 125 週年典藏版，Mach-E 加入 Trail 套件，Mahindra Bolero 換上古銅點綴，義大利 Michelotto 則以 950kg 的 V8 跑車致敬 308 拉力賽車。",
+ "design_news": [
+  {
+   "id": "byd-seal-07",
+   "tag": "新車官圖 · 中國",
+   "date": "2026-10-23",
+   "brand": "BYD 比亞迪",
+   "title": "第二代海豹 07：海洋美學 2.0、波浪頭燈配貫穿尾燈",
+   "orig": "比亚迪第二代海豹07官图发布",
+   "summary": "比亞迪公布第二代海豹 07 官圖，採「海洋美學 2.0」設計，車長 5,080mm、軸距 2,960mm，提供插混與純電版本，內裝同步曝光。",
+   "analysis": [
+    [
+     "前臉",
+     "封閉式格柵配與海豹 08 同款的波浪形頭燈，車頂加入光達。"
+    ],
+    [
+     "側面",
+     "密輻輪圈與半隱藏式門把，5,080／1,960／1,495mm 的低趴長車身。"
+    ],
+    [
+     "車尾",
+     "波浪造型貫穿式尾燈，呼應前臉燈組。"
+    ],
+    [
+     "內裝",
+     "環抱式座艙、三輻方向盤與懸浮中控屏，配零重力座椅與 20 喇叭帝瓦雷音響。"
+    ],
+    [
+     "動力",
+     "插混 1.5T＋38.029kWh 電池，WLTC 純電 245km；純電版單馬達 300kW。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/23）",
+     "https://www.autohome.com.cn/news/202610/1317952.html"
+    ],
+    [
+     "鳳凰網汽車（10/23）",
+     "https://auto.ifeng.com/c/8xSdPrZ5Qnu"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-seal-07.jpg",
+    "alt": "第二代海豹 07 粉色官圖，前 3/4 視角可見波浪形頭燈與封閉式前臉",
+    "credit": "BYD（via 汽車之家）",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1317952.html"
+   },
+   "more_images": [
+    {
+     "file": "byd-seal-07-2.jpg",
+     "alt": "第二代海豹 07 銀色官圖正前方，車頂光達與封閉式格柵",
+     "credit": "BYD（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317952.html"
+    },
+    {
+     "file": "byd-seal-07-3.jpg",
+     "alt": "第二代海豹 07 側面官圖，密輻輪圈與半隱藏門把",
+     "credit": "BYD（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317952.html"
+    },
+    {
+     "file": "byd-seal-07-4.jpg",
+     "alt": "第二代海豹 07 後 3/4 官圖，波浪形貫穿尾燈",
+     "credit": "BYD（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317952.html"
+    },
+    {
+     "file": "byd-seal-07-5.jpg",
+     "alt": "第二代海豹 07 內裝官圖：三輻方向盤與懸浮中控屏",
+     "credit": "BYD（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317952.html"
+    }
+   ]
+  },
+  {
+   "id": "tank-500-2027",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-24",
+   "brand": "坦克（長城）",
+   "title": "新款坦克 500 上市：中式新豪華，新增丹霞紅車漆",
+   "orig": "新款坦克500正式上市",
+   "summary": "長城坦克新款 500 上市，4 個車型售價 33.5–37.5 萬元人民幣；外觀以中式建築語彙詮釋「中式新豪華」，新增丹霞紅車漆。",
+   "analysis": [
+    [
+     "前臉",
+     "「舉折」中網與「斗拱」大燈，借用傳統建築屋頂與斗拱結構。"
+    ],
+    [
+     "側面",
+     "「承天」腰線貫穿車身，5,078／1,934／1,905mm，軸距 2,850mm。"
+    ],
+    [
+     "車尾",
+     "「宮闕」造型尾燈，呼應宮殿門闕。"
+    ],
+    [
+     "CMF",
+     "新增「丹霞紅」車漆並採納米陶瓷清漆；座艙全車 NAPPA 皮革、七螢幕配置與 15.6 吋雙聯屏。"
+    ],
+    [
+     "動力",
+     "Hi4-Z 插混系統綜合功率 635kW。"
+    ]
+   ],
+   "sources": [
+    [
+     "鳳凰網汽車（10/24）",
+     "https://auto.ifeng.com/c/8xT8TUd2hlb"
+    ]
+   ],
+   "image": {
+    "file": "news-tank-500-2027.jpg",
+    "alt": "新款坦克 500 紅色官方宣傳圖",
+    "credit": "長城汽車（via 鳳凰網汽車）",
+    "credit_url": "https://auto.ifeng.com/c/8xT8TUd2hlb"
+   }
+  },
+  {
+   "id": "yangwang-hu",
+   "tag": "旗艦預告 · 中國",
+   "date": "2026-10-23",
+   "brand": "仰望（BYD）",
+   "title": "仰望旗艦行政轎車「HU」：對開門、將在阿聯酋全球首發",
+   "orig": "BYD is taking its Rolls-Royce-like flagship EV overseas",
+   "summary": "據報導，仰望正在準備約 5.5 米長的旗艦行政轎車，代號「HU」，採後鉸鏈對開式後門（比亞迪首次），將在阿聯酋全球首發；發表日期未公布，傳聞售價超過 200 萬元人民幣。",
+   "analysis": [
+    [
+     "比例",
+     "約 5.5 米長車身，定位對標勞斯萊斯級行政轎車。"
+    ],
+    [
+     "車門",
+     "後門鉸鏈在後、向後開啟，是比亞迪首次採用對開門。"
+    ],
+    [
+     "發表",
+     "目前只見偽裝原型車，於比亞迪閃充站被拍到；官方未公布發表日期。"
+    ],
+    [
+     "傳聞",
+     "外媒稱可能搭載固態電池，屬未證實消息。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（10/23）",
+     "https://electrek.co/2026/10/23/byd-taking-rolls-royce-like-flagship-ev-overseas/"
+    ],
+    [
+     "CnEVPost（10/21）",
+     "https://cnevpost.com/2026/10/21/byd-yangwang-unveil-sedan-hu-uae/"
+    ]
+   ],
+   "image": {
+    "file": "news-yangwang-hu.jpg",
+    "alt": "仰望旗艦轎車偽裝原型車",
+    "credit": "仰望高層胡曉青（via Electrek）",
+    "credit_url": "https://electrek.co/2026/10/23/byd-taking-rolls-royce-like-flagship-ev-overseas/"
+   }
+  },
+  {
+   "id": "cadillac-escalade-v-collector",
+   "tag": "限量版 · 美國",
+   "date": "2026-10-22",
+   "brand": "Cadillac",
+   "title": "Escalade-V 125 週年典藏版：限量 252 台、Santorini 藍點綴",
+   "orig": "2027 Cadillac Escalade-V 125th Anniversary Collector Series",
+   "summary": "Cadillac 為品牌 125 週年推出 Escalade-V 典藏版，限量 252 台、售價 23.9 萬美元，682 匹 V8 不變，重點在外觀細節與內裝配色，車主可自選車身序號。",
+   "analysis": [
+    [
+     "外觀",
+     "24 吋鍛造輪圈、碳纖維飾件、藍色卡鉗與暗色車標，V8 迎賓投影燈。"
+    ],
+    [
+     "車色",
+     "Midnight Stone Frost 或 Vibrant White Tricoat 兩種車色。"
+    ],
+    [
+     "內裝",
+     "黑與 Sheer Gray 雙色，Santorini Blue 安全帶與縫線做點綴。"
+    ],
+    [
+     "收藏感",
+     "可指定 VIN 與典藏序號，強化限量版的收藏價值。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/22）",
+     "https://www.carscoops.com/2294486/2027-cadillac-escalade-v-collector-series/"
+    ]
+   ],
+   "image": {
+    "file": "news-cadillac-escalade-v-collector.jpg",
+    "alt": "Cadillac Escalade-V 125 週年典藏版外觀",
+    "credit": "Cadillac（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2294486/2027-cadillac-escalade-v-collector-series/"
+   },
+   "more_images": [
+    {
+     "file": "cadillac-escalade-v-collector-2.jpg",
+     "alt": "Escalade-V 典藏版黑白雙色內裝",
+     "credit": "Cadillac（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2294486/2027-cadillac-escalade-v-collector-series/"
+    }
+   ]
+  },
+  {
+   "id": "ford-mach-e-trail",
+   "tag": "年式更新 · 美國",
+   "date": "2026-10-22",
+   "brand": "Ford",
+   "title": "2027 Mustang Mach-E Trail 套件：升高車身、霧黑越野化",
+   "orig": "2027 Ford Mustang Mach-E Trail Package",
+   "summary": "Ford 為 2027 年式 Mustang Mach-E 加入 Trail 套件，售價 2,295 美元，以黑色飾件、Rally 輪圈與升高底盤打造輕越野造型。",
+   "analysis": [
+    [
+     "前臉",
+     "Carbon Black 前保桿飾板，壓低亮面比例。"
+    ],
+    [
+     "輪圈與輪胎",
+     "沿用 Rally 的 19 吋 High Gloss Dark Carbonized Gray 輪圈，配 CrossClimate 2 全天候胎。"
+    ],
+    [
+     "姿態",
+     "前升高 10mm、後升高 15mm，車身姿態更像跨界休旅。"
+    ],
+    [
+     "內裝",
+     "扶手壓印 Trail 標誌；電池 88／91kWh，起價 42,040 美元。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/22）",
+     "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-mach-e-trail.jpg",
+    "alt": "藍色 2027 Mustang Mach-E Trail",
+    "credit": "Ford（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/"
+   },
+   "more_images": [
+    {
+     "file": "ford-mach-e-trail-2.jpg",
+     "alt": "藍色 Mach-E Trail（文章圖庫 2）",
+     "credit": "Ford（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/"
+    },
+    {
+     "file": "ford-mach-e-trail-3.jpg",
+     "alt": "藍色 Mach-E Trail（文章圖庫 3）",
+     "credit": "Ford（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/"
+    }
+   ]
+  },
+  {
+   "id": "mahindra-bolero-bold",
+   "tag": "特仕版 · 印度",
+   "date": "2026-10-23",
+   "brand": "Mahindra",
+   "title": "Bolero Bold Edition：黑車身配古銅點綴的方盒子",
+   "orig": "Mahindra Bolero Bold Edition",
+   "summary": "Mahindra 推出 Bolero Bold Edition，以古銅色飾件與輪圈強化方正車身的硬派感，機械維持 1.5 升柴油、後驅與五速手排。",
+   "analysis": [
+    [
+     "點綴色",
+     "保桿進氣口、格柵、霧燈飾框、護板、後照鏡蓋與車頂架都加上古銅色。"
+    ],
+    [
+     "輪圈",
+     "古銅色五雙輻輪圈，與飾件同色。"
+    ],
+    [
+     "內裝",
+     "黑色皮革質感座椅配古銅點綴，加裝倒車鏡頭。"
+    ],
+    [
+     "機械",
+     "1.5 升柴油 76 匹，後驅、五速手排。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/23）",
+     "https://www.carscoops.com/2295569/mahindra-g-wagon-alternative/"
+    ]
+   ],
+   "image": {
+    "file": "news-mahindra-bolero-bold.jpg",
+    "alt": "黑色 Mahindra Bolero Bold Edition 與古銅色輪圈飾件",
+    "credit": "Mahindra（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2295569/mahindra-g-wagon-alternative/"
+   }
+  },
+  {
+   "id": "michelotto-gruppo4-tributo",
+   "tag": "致敬車 · 義大利",
+   "date": "2026-10-23",
+   "brand": "AC Motorsport × Michelotto",
+   "title": "Gruppo 4 Tributo：致敬 308 拉力賽車的輕量 V8 跑車",
+   "orig": "Michelotto Gruppo 4 Tributo",
+   "summary": "義大利 AC Motorsport 與 Michelotto 合作推出 Gruppo 4 Tributo，致敬 Ferrari 308 GTB 的 Group 4 拉力賽車；車重 950kg，搭自然進氣 3.4 升 V8。（10/10 於帕多瓦首發，Carscoops 10/23 報導）",
+   "analysis": [
+    [
+     "比例",
+     "外形與尺寸貼近原版 308，低鼻頭、黑色格柵與水平日行燈，保留跳燈。"
+    ],
+    [
+     "車身",
+     "寬輪眉、引擎蓋與前葉子板散熱鰓，側面大型進氣口與星形輪圈。"
+    ],
+    [
+     "車尾",
+     "大型後蓋、四顆圓形尾燈、雙排氣與外露碳纖維擴散器。"
+    ],
+    [
+     "結構",
+     "管架底盤配複合材料車身，950kg 比原版輕 140kg；380 匹 V8 配狗腿式手排。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/23）",
+     "https://www.carscoops.com/2296045/michelotto-acmotorsport-pays-tribute-to-group-b-rally-ferrari-308/"
+    ]
+   ],
+   "image": {
+    "file": "news-michelotto-gruppo4-tributo.jpg",
+    "alt": "紅色 Michelotto Gruppo 4 Tributo 發表現場",
+    "credit": "Michelotto（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2296045/michelotto-acmotorsport-pays-tribute-to-group-b-rally-ferrari-308/"
+   },
+   "more_images": [
+    {
+     "file": "michelotto-gruppo4-tributo-2.jpg",
+     "alt": "紅色 Gruppo 4 Tributo 後 3/4，四顆圓形尾燈",
+     "credit": "Michelotto（via Carscoops）",
+     "credit_url": "https://www.carscoops.com/2296045/michelotto-acmotorsport-pays-tribute-to-group-b-rally-ferrari-308/"
+    }
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-bmw-ix3-healthy-cabin",
+   "kind": "car",
+   "car": "BMW 新世代 iX3",
+   "tag": "健康座艙 · 中國",
+   "title": "新世代 iX3：低 VOC 超纖與鋼質喇叭罩",
+   "points": [
+    "採新一代車規級超纖材料，降低 VOC、醛類與霧化，且不含動物蛋白。",
+    "部分喇叭罩由塑料改為鋼質，減少塑料件氣味來源。",
+    "瀋陽氣味實驗室與「鼻子小組」做三級嗅辨驗證。",
+    "搭配 Nano 濾網，從材料到空調一起管座艙空氣。"
+   ],
+   "image": {
+    "file": "cmf-bmw-ix3-healthy-cabin.jpg",
+    "alt": "新世代 BMW iX3 淺色內裝：淺灰座椅、方向盤與中控屏",
+    "credit": "BMW（via 易車／汽車產經網）",
+    "credit_url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html"
+   },
+   "more_images": [
+    {
+     "file": "cmf-bmw-ix3-healthy-cabin-2.jpg",
+     "alt": "新世代 iX3 座艙全景，淺色座椅與藍色氛圍燈",
+     "credit": "BMW（via 易車／汽車產經網）",
+     "credit_url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html"
+    },
+    {
+     "file": "cmf-bmw-ix3-healthy-cabin-3.jpg",
+     "alt": "新世代 iX3 後座，藍灰色座椅",
+     "credit": "BMW（via 易車／汽車產經網）",
+     "credit_url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html"
+    },
+    {
+     "file": "cmf-bmw-ix3-healthy-cabin-4.jpg",
+     "alt": "新世代 iX3 門板喇叭罩與藍色氛圍燈",
+     "credit": "BMW（via 易車／汽車產經網）",
+     "credit_url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html"
+    }
+   ],
+   "sources": [
+    [
+     "汽車產經網（10/23）",
+     "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-fiat-quadrettoni",
+   "kind": "material",
+   "car": "Fiat Pandina Tributo Autobianchi",
+   "tag": "超纖布料 · 復古格紋",
+   "title": "淺沙色超纖格紋：Autobianchi 復古座椅",
+   "points": [
+    "座椅以淺沙色超纖布料做「quadrettoni」大方格紋，頭枕繡 Autobianchi 標誌。",
+    "同款布料延伸到門板，配軟質觸感方向盤。",
+    "儀表板飾板配 Platino 車色，輔以亮黑飾件。",
+    "把 15 年老車型用復古布料重新包裝，成本低、辨識度高。"
+   ],
+   "image": {
+    "file": "cmf-material-fiat-quadrettoni.jpg",
+    "alt": "Fiat Pandina Tributo Autobianchi 內裝：淺色座椅與 Platino 儀表板飾板",
+    "credit": "Stellantis（via Carscoops）",
+    "credit_url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+   },
+   "sources": [
+    [
+     "Carscoops（10/22）",
+     "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-toray-ultrasuede",
+   "kind": "material",
+   "car": "Toray Ultrasuede 奧司維",
+   "tag": "麂皮材料 · 植物基",
+   "title": "Ultrasuede：植物基 PET 超細纖維麂皮",
+   "points": [
+    "海島型極細纖維無紡布，表面為麂皮絨感。",
+    "可用於座椅、方向盤、中控、門板與頂棚。",
+    "植物基系列約含 30% 植物 PET，目標 100%。",
+    "將在廣州車展（11/27–30）20.1 館展出。"
+   ],
+   "swatch": {
+    "hex": "#8A7F72",
+    "label": "示意色：麂皮暖灰"
+   },
+   "note": "來源文章沒有材料照片（只有小圖示），改用示意色塊。",
+   "sources": [
+    [
+     "廣州車展官網（10/20）",
+     "https://www.ciaace.cc/news323.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-avatr-os-6-1-pet-card",
+   "kind": "case",
+   "brand": "Avatr 阿維塔",
+   "tag": "介面與 HMI",
+   "title": "AVATR.OS 6.1：星環屏變電子萌寵屋",
+   "date": "2026-10-23",
+   "points": [
+    "中控台下方的星環屏新增寵物沉浸大卡，電子萌寵「塔可」可情緒互動。",
+    "星環屏新增極簡、科技兩款時鐘卡片。",
+    "手機 App 生成的 AI 圖可同步成座艙桌布。",
+    "導航可依沿途、周邊、目的地分類搜尋充電站。",
+    "支援「靈動旋鈕」實體配件，控制音樂、空調與座椅。"
+   ],
+   "image": {
+    "file": "hmi-avatr-os-6-1-pet-card.jpg",
+    "alt": "阿維塔車內中控屏與下方星環屏顯示寵物沉浸大卡的官方示意圖",
+    "credit": "Avatr（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/016/844.htm"
+   },
+   "sources": [
+    [
+     "IT之家（10/23）",
+     "https://www.ithome.com/1/016/844.htm"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "財報 · 歐洲",
+   "date": "2026-10-23",
+   "title": "Volvo Cars 第三季轉虧，將裁員約 2,500 人",
+   "summary": "Volvo Cars 第三季營收 669 億瑞典克朗（去年同期 864 億），調整後營業虧損 37 億；中國營收約腰斬。公司將在 2027 年前裁員約 2,500 人（約 2,000 人在瑞典），股價當天重挫約 24%；EX60 訂單逾 5 萬張但產能爬坡慢。",
+   "sources": [
+    [
+     "Reuters（via Investing.com）",
+     "https://www.investing.com/news/stock-market-news/volvo-cars-to-cut-2500-jobs-as-third-quarter-swings-to-loss-4968048"
+    ]
+   ]
+  },
+  {
+   "tag": "法規 · 美國",
+   "date": "2026-10-23",
+   "title": "NHTSA 提案：自駕車可加裝青色標示燈",
+   "summary": "美國 NHTSA 提議修訂 FMVSS 108，允許自動駕駛系統運作時點亮選配的青色（cyan）標示燈，讓路人知道車輛由系統駕駛；案號 NHTSA-2026-1519，聯邦公報刊登後開放 30 天意見徵詢。",
+   "sources": [
+    [
+     "NHTSA 新聞稿",
+     "https://www.nhtsa.gov/press-releases/vehicle-lighting-updates-automated-vehicles"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 中國",
+   "date": "2026-10-23",
+   "title": "乘聯分會：10 月零售估 160 萬輛、年減 28.9%",
+   "summary": "乘聯分會預估 10 月狹義乘用車零售約 160 萬輛，年減 28.9%；新能源約 107 萬輛，年減 16.5%，滲透率約 66.9%。",
+   "sources": [
+    [
+     "新浪財經",
+     "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniwfmnn1886035.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "補能 · 中國",
+   "date": "2026-10-23",
+   "title": "北汽集團攜手寧德時代，建百萬輛級換電生態",
+   "summary": "北汽集團與寧德時代簽署合作，目標打造百萬輛級的換電產業生態，在車型、換電站網路與電池上合作。",
+   "sources": [
+    [
+     "中國經營報（via 新浪財經）",
+     "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniweywu2656615.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "生產 · 東南亞",
+   "date": "2026-10-21",
+   "title": "豐田將在泰國生產 Hilux 燃料電池車",
+   "summary": "泰國豐田將於 2027 年 12 月起在泰國生產 Hilux 燃料電池車（FCV），投資 14.9 億泰銖（約 70 億日圓），年產能最多 3,000 台。",
+   "sources": [
+    [
+     "中日 BIZ ナビ",
+     "https://biz.chunichi.co.jp/news/article/10/132042/"
+    ]
+   ]
+  },
+  {
+   "tag": "零組件 · 台灣",
+   "date": "2026-10-22",
+   "title": "車用空調壓縮機廠湧盛（2249）上櫃",
+   "summary": "湧盛電機以每股 66 元上櫃，早盤漲近 5%。公司以車用空調壓縮機為主，渦捲式壓縮機預計年底完成開發，鎖定高階車與日本市場，並評估海外生產與新能源車熱管理。",
+   "sources": [
+    [
+     "鉅亨網",
+     "https://news.cnyes.com/news/id/6635632"
+    ],
+    [
+     "經濟日報",
+     "https://money.udn.com/money/story/5612/9831198"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Coach doors",
+  "zh": "對開式車門（後鉸鏈後門）",
+  "body": "對開式車門是指後門的鉸鏈裝在車身後方、往後打開，和往前開的前門形成「對開」。本期報導的仰望旗艦行政轎車「HU」就傳出採用這種後門，是比亞迪首次使用。後門往後開時，後座乘客可以正面走進車內，上下車更從容，也帶有勞斯萊斯式的禮賓儀式感，因此常見於頂級行政轎車。",
+  "source": [
+   [
+    "Electrek：BYD Yangwang flagship（rear-hinged coach doors）",
+    "https://electrek.co/2026/10/23/byd-taking-rolls-royce-like-flagship-ev-overseas/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Light Sand & Santorini Blue",
+   "zh": "淺沙色配聖托里尼藍：復古明亮座艙",
+   "intro": "每日一組內裝配色示例：以 Pandina Tributo Autobianchi 的淺沙色超纖座椅與 Platino 飾板為底，借 Escalade-V 典藏版的 Santorini Blue 縫線做點綴，扶手換上 Ultrasuede 式的暖灰麂皮，組成明亮、帶復古感的城市小車座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "奶霧白（示意）",
+     "#E3DED3",
+     false,
+     "ip-upper",
+     {
+      "src": "Pandina Tributo Autobianchi 內裝",
+      "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+     }
+    ],
+    [
+     "儀表板飾條 · 烤漆",
+     "Platino 香檳金（示意）",
+     "#B9AD98",
+     false,
+     "ip-decor",
+     {
+      "src": "Pandina Platino 飾板",
+      "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+     }
+    ],
+    [
+     "門板嵌飾 · 超纖格紋",
+     "淺沙色（示意）",
+     "#CDBFA6",
+     false,
+     "door-insert",
+     {
+      "src": "Pandina quadrettoni 超纖",
+      "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+     }
+    ],
+    [
+     "門扶手 · 麂皮",
+     "麂皮暖灰（示意）",
+     "#8A7F72",
+     false,
+     "armrest",
+     {
+      "src": "Toray Ultrasuede",
+      "url": "https://www.ciaace.cc/news323.html"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "聖托里尼藍（示意）",
+     "#2F6FA3",
+     false,
+     "stitch",
+     {
+      "src": "Escalade-V Santorini Blue 縫線",
+      "url": "https://www.carscoops.com/2294486/2027-cadillac-escalade-v-collector-series/"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨灰（示意）",
+     "#4B4A48",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "淺沙色超纖、Platino 飾板：Fiat Pandina Tributo Autobianchi",
+     "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/"
+    ],
+    [
+     "Santorini Blue 縫線：Cadillac Escalade-V Collector Series",
+     "https://www.carscoops.com/2294486/2027-cadillac-escalade-v-collector-series/"
+    ],
+    [
+     "麂皮材料：Toray Ultrasuede",
+     "https://www.ciaace.cc/news323.html"
+    ]
+   ],
+   "mood": [
+    "復古",
+    "明亮",
+    "城市",
+    "俏皮"
+   ],
+   "mood_text": "奶霧白與淺沙色讓小車座艙顯得寬敞，香檳金飾條帶點 70 年代的懷舊；一道聖托里尼藍縫線讓整體不至於太素。",
+   "vars": {
+    "ip-lower": "#4B4A48",
+    "console": "#E3DED3",
+    "seat": "#CDBFA6",
+    "steering": "#3E3D3B",
+    "headliner": "light",
+    "seat-bolster": "#E3DED3",
+    "seat-center": "#CDBFA6",
+    "console-arm": "#8A7F72",
+    "accent-pod": "#2F6FA3",
+    "accent-pod2": "#B9AD98"
+   }
+  }
+ }
+}

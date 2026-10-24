@@ -262,5 +262,28 @@
   "car_key": "material:dinamica-infinity",
   "angle": "單一材質高回收 PET 麂皮、小鵬 P7 打孔",
   "url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "car",
+  "car_key": "bmw-ix3-neue-klasse-healthy-cabin",
+  "angle": "低 VOC 超纖與鋼質喇叭罩健康座艙",
+  "url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html",
+  "image": "cmf-bmw-ix3-healthy-cabin.jpg"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "material",
+  "car_key": "material:fiat-autobianchi-quadrettoni",
+  "angle": "淺沙色超纖大方格紋復古座椅",
+  "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/",
+  "image": "cmf-material-fiat-quadrettoni.jpg"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "material",
+  "car_key": "material:toray-ultrasuede",
+  "angle": "植物基 PET 超細纖維麂皮、廣州車展",
+  "url": "https://www.ciaace.cc/news323.html"
  }
 ]
