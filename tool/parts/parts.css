@@ -47,3 +47,5 @@
 .pt-search button{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--muted);font-size:18px;line-height:1;cursor:pointer;padding:2px 6px}
 [data-theme="dark"] .pt-search input{color-scheme:dark}
 @media (max-width:600px){.pt-search{flex:1 1 100%;max-width:none}.pt-search input{font-size:16px}}
+
+.og{display:block;font-size:11px;color:#888;font-weight:400;margin-top:1px}
