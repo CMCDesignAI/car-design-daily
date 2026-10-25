@@ -2,7 +2,7 @@
 """Render static pages from issues/<date>/data.json.
 Outputs: issues/<date>/index.html for every issue, root index.html (= latest issue), archive/index.html.
 Usage: python3 tools/build.py [--site-url https://xxxx.flypod.page]"""
-import json, os, glob, html, sys
+import json, os, glob, html, sys, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = ""
 if "--site-url" in sys.argv: SITE = sys.argv[sys.argv.index("--site-url")+1].rstrip("/")
@@ -274,6 +274,32 @@ GAL_JS = ("<script>(()=>{const go=(t,d)=>{const s=t.children,w=s[0].getBoundingC
  "const c=f.querySelector('.gcap');if(c&&s[k])c.innerHTML=s[k].dataset.cap};"
  "document.querySelectorAll('.gtrack').forEach(t=>{let r;t.addEventListener('scroll',()=>{cancelAnimationFrame(r);r=requestAnimationFrame(()=>up(t))},{passive:true})})})()</script>")
 
+FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
+FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
+def collect_focus(d, base_dir):
+    def walk(o):
+        if isinstance(o, dict):
+            if o.get("file") and o.get("focus"): FOCUS[os.path.abspath(f"{base_dir}/img/{o['file']}")] = o["focus"]
+            for v in o.values(): walk(v)
+        elif isinstance(o, list):
+            for v in o: walk(v)
+    walk(d)
+
+_FOC_RE = re.compile(r'(class="(?:ratio|gs)"[^>]*>)<img src="([^"]+)"(?![^>]*object-position)')
+def apply_focus(html_text, path):
+    """Centre the car in every 16:9 card/carousel frame: manual focus, else auto-detected (tools/focus.py)."""
+    import focus as _f
+    d0 = os.path.dirname(os.path.abspath(path))
+    def sub(m):
+        src = html.unescape(m.group(2))
+        if "://" in src: return m.group(0)
+        ap = os.path.abspath(os.path.join(d0, src))
+        mm = re.search(r"issues/(\d{4}-\d{2}-\d{2})/img/", ap)
+        if not mm or mm.group(1) < FOCUS_FROM: return m.group(0)   # old issues left as published
+        pos = FOCUS.get(ap) or _f.focus_for(ap)
+        return m.group(0) + (f' style="object-position:{pos}"' if pos and pos != "50% 50%" else "")
+    return _FOC_RE.sub(sub, html_text)
+
 def write_page(path, html_text):
     """Shared writer for EVERY generated page (car + ai). Injects the wake-lock <script> into <head>
     with the right relative path, so redesigns of headers/footers can never drop it. DO NOT bypass."""
@@ -285,6 +311,7 @@ def write_page(path, html_text):
         html_text = html_text.replace("</head>", tag + "</head>", 1)
     if 'class="gtrack"' in html_text and "</body>" in html_text:
         html_text = html_text.replace("</body>", GAL_JS + "</body>", 1)
+    html_text = apply_focus(html_text, path)
     from navfix import fix as _navfix   # 小工具 dropdown; drops old jump/tswitch pill rows
     html_text = _navfix(html_text, path)
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -518,6 +545,7 @@ def archive_page(all_issues):
 
 if __name__ == "__main__":
     al = issues()
+    for d in al: collect_focus(d, f"{ROOT}/issues/{d['date']}")
     for d in al:
         write_page(f"{ROOT}/issues/{d['date']}/index.html", page(d, "../../", al, False))
     write_page(f"{ROOT}/index.html", page(al[0], "./", al, True))
@@ -525,5 +553,6 @@ if __name__ == "__main__":
     write_page(f"{ROOT}/archive/index.html", archive_page(al))
     os.makedirs(f"{ROOT}/tool", exist_ok=True)
     write_page(f"{ROOT}/tool/index.html", tool_page(al))
+    import focus as _f; _f.save()
     check_wakelock()
     print("built", [d["date"] for d in al])

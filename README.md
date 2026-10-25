@@ -191,3 +191,10 @@ tools/
 - 規則同合併插圖：地毯固定 `#141516`、頂棚只有淺灰／深灰兩種、門板主色 `door-upper` 永遠＝`ip-upper`。
 - 情緒字典來源 `tools/moods.txt`（約 524 組、2,495 個中英文／簡體同義詞），改完執行 `python3 tools/gen_moods.py` 產生 `tool/moods.js`（需 opencc 才會自動補簡體）。找不到的詞會依子字串、共同漢字、英文編輯距離改用最相近的一組並顯示提示；完全沒有才列熱門關鍵字。原本約 196 組，以色相／飽和度／明度範圍描述；依 6 種配色規則（類比、互補點綴、分裂互補、單色、三角、中性＋亮點）決定性產生組合（同樣關鍵字永遠得到同樣結果）。
 - 材質為 SVG pattern／gradient 疊層（織布、皮紋、咬花、金屬髮絲紋、鋼琴烤漆、碳纖維、打孔皮、無紋理、預設）。分享連結把配色、材質、頂棚寫在 URL hash。
+
+## 圖片取景（自 2026-10-25 起，自動）
+- 卡片／輪播的 16:9 框用 object-fit:cover，圖不裁切；`build.py` 的 `apply_focus()` 會在每個 `.ratio`/`.gs` 的 `<img>` 加 `object-position`，讓車在框內置中、能整台放下就整台放下。
+- 偵測在 `tools/focus.py`：ultralytics YOLOv8n（COCO car/motorcycle/bus/truck，沒有車才用 person），合併主要框（≥最大框 25% 面積）後算位置。權重放 `~/.cache/focus/yolov8n.pt`（可用 `FOCUS_MODEL` 改）。結果快取在 `tools/focus_cache.json`（依檔案大小＋mtime），新圖才會重算；偵測器不能用時就維持置中，build 不會失敗。
+- 手動覆寫：data.json 的 `image.focus` 或 `more_images[].focus` 填 `"50% 80%"` 這種格式，優先於自動偵測。
+- `FOCUS_FROM = "2026-10-25"`：更早的期數維持原樣，不回補（zley 指示）。
+- 每天照常跑 `tools/publish.sh`（`build.py --site-url …`）就會自動套用；需要 `pip install ultralytics`（CPU torch 即可）。
