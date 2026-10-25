@@ -1,0 +1,463 @@
+{
+ "date": "2026-10-25",
+ "weekday": "週日",
+ "issue_no": 18,
+ "lede": "今天的重點：月之暗面推出 Kimi K3.1 Pro，程式能力逼近頂尖閉源模型、11/4 前公開權重；Grok Bot 多了可記住登入、信用卡和聯絡資料的保管功能；Anthropic 把 Agent Skills 標準捐給中立基金會。",
+ "ainews": [
+  {
+   "id": "kimi-k3-1-pro",
+   "org": "Moonshot AI（月之暗面）",
+   "tag": "文字模型 · 新模型",
+   "date": "2026-10-24",
+   "title": "Kimi K3.1 Pro 上線：3T 級 MoE、100 萬 token 上下文，程式評測逼近 Claude Opus 5.5，11/4 前公開權重",
+   "orig": "Introducing Kimi K3.1 Pro",
+   "summary": "月之暗面 10/24 發布 Kimi K3.1 Pro，是 Kimi K3 加大後訓練（強化學習）算力的版本，另有快 2–3 倍的 K3.1 Pro Highspeed。【比上一版進步在哪（官方說法）】Terminal-Bench 4.0 拿 65.7%，高於 GPT-6 Astra（58.2%）、略低於 Claude Opus 5.5（66.4%）；自家長程程式評測 Kimi Code Bench 3.0 從 K3 的 55.95% 升到 61.2%；BenchCAD（從多視角圖用 CAD 程式重建 3D）有工具時 92.7%。官方強調能用 Unity、Unreal、Godot 做完整遊戲，會寫腳本操作 Blender 與 CAD 做參數化 3D 模型，kimi.ai 同步上線可預覽、下載 3D 列印檔的 3D Make。【規格】官方貼文寫總參數 2.8T、每次啟用 104B、100 萬 token 上下文、多模態。【哪裡能用】今天起在 Kimi.ai 與手機 App、Kimi Work（3.1.0 以上）、Kimi Code（/model 切換）與 Kimi API（kimi-k3.1-pro／kimi-k3.1-pro-highspeed）；完整權重官方說 11/4 前釋出。【第三方】多家 AI 日報引用 Artificial Analysis 智慧指數，K3.1 Pro 拿 55 分排第 4，高於 Claude Fable 5.1、GPT-6 Astra 與 Gemini 4 Argon（皆 53）；這部分依轉載整理，評測數字多為官方自測，獨立實測仍少。",
+   "links": [
+    [
+     "Kimi 官方技術部落格：Introducing Kimi K3.1 Pro",
+     "https://www.kimi.ai/blog/kimi-k3-1-pro"
+    ],
+    [
+     "Kimi 官方論壇公告",
+     "https://forum.moonshot.ai/t/kimi-k3-1-pro-has-launched-start-exploring-now/629"
+    ],
+    [
+     "AIBriefs 10/24 整理（Artificial Analysis 指數）",
+     "https://aibriefs.news/briefing/2026-10-24"
+    ]
+   ],
+   "image": {
+    "file": "img/kimi-k3-1-pro.webp",
+    "alt": "Kimi K3.1 官方宣傳圖：雲海山峰上的 K3.1 字樣",
+    "credit": "Moonshot AI / Kimi",
+    "credit_url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+   },
+   "short_title": "Kimi K3.1 Pro：開放權重級模型追上頂尖閉源",
+   "one": "中國月之暗面的新模型寫程式、做 3D 模型的能力接近 Claude Opus 5.5，現在就能在 Kimi App 免費試，權重 11/4 前開放下載。",
+   "gloss": [
+    [
+     "MoE（混合專家）",
+     "模型裡有很多「專家」子網路，每次只叫用一部分，所以總參數很大、實際運算量較小"
+    ],
+    [
+     "開放權重",
+     "公開模型檔，任何人都能下載到自己的機器上跑或微調"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-vault",
+   "org": "xAI（SpaceXAI）",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-24",
+   "title": "Grok Bot 可以記住你的登入資料、信用卡與聯絡資訊，存一次之後自動帶入",
+   "orig": "Grok Bot can now save your logins, cards, and contact information.",
+   "summary": "Grok Bot 官方帳號 10/24（台北時間）宣布，Grok Bot 現在可以保存使用者的登入資料、信用卡和聯絡資訊；官方說法是「加一次，Bot 會安全地記住，之後都能用」。Musk 轉貼時稱這是把敏感資料存在「保險庫（vault）」裡。官方貼文沒有說明加密方式、地區或方案限制，實際能用範圍以 App 內為準。",
+   "links": [
+    [
+     "Grok Bot 官方 X 貼文",
+     "https://x.com/bot/status/2113717946019397910"
+    ],
+    [
+     "Elon Musk X 貼文（vault 說法）",
+     "https://x.com/elonmusk/status/2113796183688982771"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 能幫你記登入和信用卡",
+   "one": "讓 Grok Bot 代你訂東西、填表單時，不用每次重打帳密和卡號，存一次就好。",
+   "gloss": [
+    [
+     "保險庫（Vault）",
+     "專門加密保存密碼、卡號這類敏感資料的地方"
+    ]
+   ]
+  },
+  {
+   "id": "agent-skills-aaif",
+   "org": "Anthropic",
+   "tag": "平台服務 · 開放標準",
+   "date": "2026-10-22",
+   "title": "Anthropic 把 Agent Skills 標準捐給 Linux 基金會旗下的 AAIF，ChatGPT、Cursor 等 70 多個平台已支援",
+   "orig": "Donating Agent Skills to the Agentic AI Foundation",
+   "summary": "Anthropic 10/22 宣布把 Agent Skills 開放標準捐給 Agentic AI Foundation（AAIF，Linux 基金會旗下，由 Anthropic、Block、OpenAI 共同成立，MCP 也已捐在這裡）。一個 skill 就是一個含 SKILL.md 的資料夾，教 AI 代理做某件特定工作，可附腳本與參考資料。官方說 2025 年 12 月公開標準以來，ChatGPT、Cursor、GitHub Copilot、VS Code 等 70 多個平台已整合，累計發布 100 萬個 skill、安裝近 2.8 億次。這次捐出名稱與標誌、GitHub 組織與 agentskills.io 網域；不加入 AAIF 也能照用或貢獻，由 Anthropic、Google、OpenAI 等公司的工程師以個人身分維護。下一步提議版本化發布、正式提案流程與安裝 skill 的安全指引。",
+   "links": [
+    [
+     "Anthropic 官方：Donating Agent Skills to the Agentic AI Foundation",
+     "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    ],
+    [
+     "Agent Skills 規格網站",
+     "https://agentskills.io"
+    ]
+   ],
+   "image": null,
+   "short_title": "Agent Skills 標準交給中立基金會",
+   "one": "幫 AI 代理寫的「技能包」以後由中立單位管理，同一份技能在 ChatGPT、Claude、Cursor 等不同工具裡都比較能通用。",
+   "gloss": [
+    [
+     "Agent Skills",
+     "用一個資料夾＋說明檔教 AI 代理學會特定工作流程的格式"
+    ],
+    [
+     "AAIF",
+     "Agentic AI Foundation，Linux 基金會底下管理 AI 代理開放標準的組織"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-wan-vace",
+   "title": "Wan2.1 VACE：一個模型做影片的換背景、局部替換、動作轉移與延伸",
+   "learn": "學會下載 VACE 模型、載入 ComfyUI 官方範本，並用「略過（Bypass）」節點切換文生影片、參考圖生影片、影片轉影片等用法。",
+   "level": "中階",
+   "vram": "官方未列 VRAM；模型檔 14B 約 32GB、1.3B 約 7GB（依原頁為準，顯存小建議先用 1.3B，只支援 480P）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "VACE",
+     "阿里通義萬相開源的影片編輯模型，同一個模型能做多種影片生成與修改"
+    ],
+    [
+     "Bypass（略過）",
+     "讓節點暫時不作用、資料直接穿過，用來切換範本裡的不同功能"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版，範本庫（Workflow Templates）裡找不到 VACE 範本通常就是版本太舊。",
+    "下載擴散模型 wan2.1_vace_14B_fp16.safetensors（約 32GB）或較輕的 wan2.1_vace_1.3B_fp16.safetensors（約 7GB），放到 ComfyUI/models/diffusion_models/。",
+    "另外下載 wan_2.1_vae.safetensors 放進 models/vae/，文字編碼器 umt5_xxl_fp8_e4m3fn_scaled.safetensors（較省顯存）或 fp16 版放進 models/text_encoders/；用過 Wan 影片範本的人這兩個應該已經有了。",
+    "開啟範本，確認 Load Diffusion Model、Load CLIP、Load VAE 三個節點各自載到上面的檔案。",
+    "依想做的事把不需要的輸入節點設成 Bypass（官方頁列有三種切換方式），例如只有文字就略過參考圖和參考影片，再按 Queue 執行；官方頁提醒文件正在改版，細節以範本內的註記為準。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Wan2.1 VACE Video Examples",
+     "https://docs.comfy.org/tutorials/video/wan/vace"
+    ],
+    [
+     "VACE 官方 GitHub",
+     "https://github.com/ali-vilab/VACE"
+    ],
+    [
+     "Hugging Face：Wan-AI/Wan2.1-VACE-1.3B",
+     "https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B"
+    ]
+   ]
+  },
+  {
+   "id": "tut-flux-fill",
+   "title": "Flux.1 Fill dev：補畫（Inpaint）與往外延伸畫面（Outpaint）",
+   "learn": "學會用官方範本把圖片裡塗掉的區域補畫好，或把畫面往外擴，兩種用法共用同一組模型檔。",
+   "level": "入門",
+   "vram": "官方頁未列 VRAM（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Inpaint（局部重繪）",
+     "只重畫圖片裡用遮罩塗起來的部分，其他地方不動"
+    ],
+    [
+     "Outpaint（外擴）",
+     "把畫面往四周延伸，讓 AI 補出原本圖外的內容"
+    ]
+   ],
+   "steps": [
+    "先到 Hugging Face 的 black-forest-labs/FLUX.1-Fill-dev 頁面同意使用條款，才下載得到模型。",
+    "下載 flux1-fill-dev.safetensors 放 models/diffusion_models/，clip_l 與 t5xxl_fp16 放 models/text_encoders/，ae.safetensors 放 models/vae/；用過 Flux.1 文生圖的人只缺 fill 這一個檔。",
+    "從範本庫搜尋「Flux.1 Inpaint」，確認 Load Diffusion Model、DualCLIPLoader（t5xxl＋clip_l）、Load VAE 都載對檔案。",
+    "把官方範例圖（已含透明遮罩）上傳到 Load Image；想自己畫遮罩就換沒有遮罩的原圖，在 Load Image 上開遮罩編輯器塗。",
+    "按 Queue 或 Ctrl＋Enter 執行；要外擴就改開「Flux.1 Outpaint」範本，用同一組模型。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Flux.1 fill dev Example",
+     "https://docs.comfy.org/tutorials/flux/flux-1-fill-dev"
+    ],
+    [
+     "Hugging Face：black-forest-labs/FLUX.1-Fill-dev",
+     "https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成（版面控制）",
+   "status": "社群做出第一個指令改圖 LoRA，ComfyUI 核心當天就支援。",
+   "updates": [
+    {
+     "title": "社群發布 MOSS-Image Edit LoRA：用 1–4 張參考圖＋一句指令改顏色、服裝、光線、季節和風格；ComfyUI 核心同日合併原生支援",
+     "date": "2026-10-22",
+     "summary": "社群作者 chinoll 10/22 在 Hugging Face 發布 Moss-Image-Edit，是 rank-64 的 LoRA，讓原本只能「依版面生圖」的 MOSS-Image 可以拿現有圖片照文字指令修改：顏色、服裝、光線、季節、畫風，最多 4 張參考圖；多張圖時要在指令裡寫清楚每張的角色，例如「讓圖 1 的人穿上圖 2 的衣服」。ComfyUI 核心在 PR #17296 同日合併原生支援（新增實驗性的 Text Encode MOSS-Image Edit 節點），但這是在 v0.42.1 之後才進主線，要用最新開發版。這是社群作品，不是 OpenMOSS 官方發布；整理依 ComfyUI Wiki（社群維護）與模型卡。",
+     "links": [
+      [
+       "Hugging Face 模型卡：chinoll/Moss-Image-Edit",
+       "https://huggingface.co/chinoll/Moss-Image-Edit"
+      ],
+      [
+       "ComfyUI PR #17296（原生支援）",
+       "https://github.com/Comfy-Org/ComfyUI/pull/17296"
+      ],
+      [
+       "ComfyUI Wiki 說明",
+       "https://comfyui-wiki.com/en/news/2026-10-22-moss-image-edit-lora"
+      ]
+     ],
+     "image": null,
+     "short_title": "MOSS-Image 能照指令改圖了",
+     "one": "用一句話加參考圖就能幫 MOSS-Image 生的圖換衣服、換光線，不用重畫整張。",
+     "gloss": [
+      [
+       "LoRA",
+       "掛在大模型上的小型外掛檔，讓模型多學會一種風格或能力"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "兩個榜單都在無變化門檻內：文字榜 LMArena 資料仍是 10/22，文生圖榜分數 ±4 內微動，沿用 10/16 的圖。",
+  "Kimi K3.1 Pro 的評測多為官方自測，Artificial Analysis 名次依轉載整理；@xai 帳號無法讀取，@grok、@GeminiApp、@NanoBanana 36 小時內無新貼文。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-25",
+  "compared_to": "2026-10-24",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-22",
+    "fetched": "2026-10-25",
+    "carried_from": "2026-10-24",
+    "latest_as_of": "2026-10-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1517,
+      "ci": 7,
+      "delta": -7
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1509,
+      "ci": 7,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 8,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 4
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1496,
+      "ci": 5,
+      "delta": 2
+     }
+    ],
+    "compared_to": "2026-10-24",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-25",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-25",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-24",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
