@@ -285,5 +285,28 @@
   "car_key": "material:toray-ultrasuede",
   "angle": "植物基 PET 超細纖維麂皮、廣州車展",
   "url": "https://www.ciaace.cc/news323.html"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "car",
+  "car_key": "denza-n8-cabin-colours",
+  "angle": "四款內裝配色、木飾與水晶排檔",
+  "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/",
+  "image": "cmf-denza-n8-cabin.jpg"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "trend",
+  "car_key": "trend:axalta-2026-27",
+  "angle": "Axalta 2026–27 四大車色趨勢",
+  "url": "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "material",
+  "car_key": "material:kuangda-eco-synthetic-leather-mona-l05",
+  "angle": "生態合成革配套小鵬 MONA L05",
+  "url": "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home",
+  "image": "cmf-material-kuangda-mona-l05.jpg"
  }
 ]

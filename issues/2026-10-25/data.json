@@ -1,0 +1,672 @@
+{
+ "date": "2026-10-25",
+ "weekday": "週日",
+ "issue_no": 18,
+ "lede": "一汽-大眾 ID.AURA L5 公布六色官圖、東風日產 NX7 以紫藤花與四葉草吸引年輕客群，榮威家越 07 與大眾 ID. UNYX 09 相繼上市，騰勢 N8 一口氣公布八款車色；Acura 把 Vans 球鞋布料包進一次性 ADX，HWA 則預告 W124 Hammer 致敬作。",
+ "design_news": [
+  {
+   "id": "vw-id-aura-l5",
+   "tag": "新車官圖 · 中國",
+   "date": "2026-10-23",
+   "brand": "一汽-大眾 Volkswagen",
+   "title": "ID.AURA L5 六色官圖：中德團隊打造的「智能大掀背」家轎",
+   "orig": "一汽-大众纯电轿车 ID.AURA L5 六种车色官图公布",
+   "summary": "一汽-大眾公布 ID.AURA 序列第二款、首款純電家轎 ID.AURA L5 的六款車色，定位「智能大掀背、超級家轎」，由中德設計團隊聯合打造，將與 ID.AURA T6 組成「新能源雙子星」。",
+   "analysis": [
+    [
+     "比例",
+     "車長 4,883mm、軸距 2,820mm，官方稱「得房率」84.4%。"
+    ],
+    [
+     "車尾",
+     "電動掀背尾門開啟角度超過 70°、開口寬度超過 1,000mm，打破三廂轎車的裝載限制。"
+    ],
+    [
+     "色彩",
+     "白、灰、銀、紫、金、藍六色，官圖各配一個風景主題，鎖定年輕客群。"
+    ],
+    [
+     "科技",
+     "部分車型配備光達，全系採磷酸鐵鋰電池、155kW 驅動馬達。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/23）",
+     "https://www.ithome.com/1/017/000.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-aura-l5.jpg",
+    "alt": "ID.AURA L5 淺紫色官圖，前 3/4 視角停在薰衣草花田",
+    "credit": "一汽-大眾（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/000.htm"
+   },
+   "more_images": [
+    {
+     "file": "vw-id-aura-l5-2.jpg",
+     "alt": "ID.AURA L5 淺藍綠色官圖，海灘背景",
+     "credit": "一汽-大眾（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/000.htm"
+    },
+    {
+     "file": "vw-id-aura-l5-3.jpg",
+     "alt": "ID.AURA L5 銀色官圖，湖面倒影",
+     "credit": "一汽-大眾（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/000.htm"
+    },
+    {
+     "file": "vw-id-aura-l5-4.jpg",
+     "alt": "ID.AURA L5 深灰色官圖",
+     "credit": "一汽-大眾（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/000.htm"
+    },
+    {
+     "file": "vw-id-aura-l5-5.jpg",
+     "alt": "ID.AURA L5 金色官圖，夕陽沙灘",
+     "credit": "一汽-大眾（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/000.htm"
+    }
+   ]
+  },
+  {
+   "id": "dongfeng-nissan-nx7",
+   "tag": "新車配色 · 中國",
+   "date": "2026-10-24",
+   "brand": "東風日產 Nissan",
+   "title": "NX7「年輕人的智能零壓 SUV」：紫藤花、四葉草等五色",
+   "orig": "东风日产 NX7 公布 5 款外观配色",
+   "summary": "東風日產公布新車 NX7 五款外觀色：紫藤花、四葉草、曜石黑、珠玉白、岩山灰，官方定位「年輕人的智能零壓 SUV」，即將登場。",
+   "analysis": [
+    [
+     "色彩",
+     "紫藤花與四葉草兩款高彩度色，搭配黑、白、灰三款基本色。"
+    ],
+    [
+     "尺寸",
+     "4,785×1,932×1,665mm，軸距 2,815mm 的中型插混 SUV。"
+    ],
+    [
+     "輪圈",
+     "三款輪圈都做過空力優化，官方稱可降低高速風噪與風阻。"
+    ],
+    [
+     "科技",
+     "配備光達、支援城市 NOA；搭載 40.9 度寧德時代電池。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/24）",
+     "https://www.ithome.com/1/017/338.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-dongfeng-nissan-nx7.jpg",
+    "alt": "東風日產 NX7「四葉草」綠色官方海報，車停在街角",
+    "credit": "東風日產（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/338.htm"
+   },
+   "more_images": [
+    {
+     "file": "dongfeng-nissan-nx7-2.jpg",
+     "alt": "東風日產 NX7「紫藤花」淺紫色官方海報",
+     "credit": "東風日產（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/338.htm"
+    },
+    {
+     "file": "dongfeng-nissan-nx7-3.jpg",
+     "alt": "東風日產 NX7「曜石黑」官方海報",
+     "credit": "東風日產（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/338.htm"
+    }
+   ]
+  },
+  {
+   "id": "roewe-jiayue-07",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-23",
+   "brand": "榮威 Roewe（上汽）",
+   "title": "家越 07 上市：近 3000 顆浮雕星芒頭燈的增程 SUV",
+   "orig": "限时权益价 11.98 万元起，上汽荣威家越 07 汽车上市",
+   "summary": "榮威家越 07 正式上市，限時權益價 11.98 萬元人民幣起；提供玳瑁棕、雲錦白兩款內裝配色與專屬紋理飾板，前後雙 15.6 吋 2.5K 螢幕。",
+   "analysis": [
+    [
+     "前臉",
+     "近 3,000 顆浮雕星芒燈組成「星鏈大燈」，點亮後辨識度很高（汽車之家）。"
+    ],
+    [
+     "內裝 CMF",
+     "玳瑁棕、雲錦白兩款內裝配色，搭配專屬紋理飾板。"
+    ],
+    [
+     "座艙 UX",
+     "前後雙 15.6 吋螢幕，後排螢幕可 110° 調整；18+2 揚聲器。"
+    ],
+    [
+     "尺寸動力",
+     "4,900×1,910×1,745mm、軸距 2,908mm，增程動力，綜合續航 1,480km。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/23）",
+     "https://www.ithome.com/1/017/007.htm"
+    ],
+    [
+     "汽車之家：第 43 週新車預告",
+     "https://www.autohome.com.cn/news/202610/1317822.html"
+    ]
+   ],
+   "image": {
+    "file": "news-roewe-jiayue-07.jpg",
+    "alt": "榮威家越 07 上市官方海報，灰色車身前 3/4 視角",
+    "credit": "上汽榮威（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/007.htm"
+   },
+   "more_images": [
+    {
+     "file": "roewe-jiayue-07-2.jpg",
+     "alt": "家越 07 淺色內裝：懸浮中控屏與雲錦白座椅",
+     "credit": "上汽榮威（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/007.htm"
+    },
+    {
+     "file": "roewe-jiayue-07-3.jpg",
+     "alt": "家越 07 方向盤與數位儀表、中控屏",
+     "credit": "上汽榮威（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/007.htm"
+    }
+   ]
+  },
+  {
+   "id": "denza-n8-colours",
+   "tag": "新車配色 · 中國",
+   "date": "2026-10-24",
+   "brand": "騰勢 Denza（BYD）",
+   "title": "騰勢 N8 公布八款車色：四款拼色、四款純色",
+   "orig": "比亚迪腾势 N8 八款外观车色公布，11 月上市",
+   "summary": "騰勢 N8 公布八款外觀車色，10 月 26 日開放小訂、11 月正式上市；此前已公布月滿空山、朝霧米、破曉紅、晚原棕四款內裝配色。",
+   "analysis": [
+    [
+     "拼色",
+     "深空藍、極光綠、日光橙、星暮灰四款雙色車身。"
+    ],
+    [
+     "純色",
+     "天霽青、流光銀、暗夜黑、舒雲灰四款單色。"
+    ],
+    [
+     "比例",
+     "5,150×1,999×1,820mm、軸距 3,075mm 的大五座純電 SUV。"
+    ],
+    [
+     "動力",
+     "單馬達、高性能單馬達與三馬達版本，純電續航最高 1,003km。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/24）",
+     "https://www.ithome.com/1/017/438.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-denza-n8-colours.jpg",
+    "alt": "騰勢 N8 八款外觀車色官方色卡，上排拼色、下排純色",
+    "credit": "騰勢（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/438.htm"
+   }
+  },
+  {
+   "id": "vw-id-unyx-09",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-24",
+   "brand": "大眾安徽 Volkswagen",
+   "title": "ID. UNYX 09 正式上市：DLP 投影頭燈的 5 米溜背轎跑",
+   "orig": "Volkswagen launches ID. Unyx 09 with 5C fast charging in China",
+   "summary": "大眾安徽 10 月 24 日正式推出中大型純電轎車 ID. UNYX 09（與眾 09），三個版本售價 17.99–24.99 萬元人民幣，CLTC 續航最高 755km。",
+   "analysis": [
+    [
+     "前臉",
+     "封閉式格柵、細長頭燈與發光 VW 標誌。"
+    ],
+    [
+     "燈光",
+     "DLP 高解析矩陣投影頭燈與水晶雷雕互動燈組，可投射導引光毯與車寬標示。"
+    ],
+    [
+     "側面",
+     "前傾的動態姿態，21 吋運動輪圈配 Brembo 卡鉗。"
+    ],
+    [
+     "尺寸",
+     "5,081×1,980×1,509mm、軸距 3,030mm；支援 5C 快充。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/24）",
+     "https://carnewschina.com/2026/10/24/volkswagen-launches-id-unyx-09-with-5c-fast-charging-in-china-starting-from-26800-usd/"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-unyx-09.jpg",
+    "alt": "藍色 ID. UNYX 09 前 3/4 官圖，封閉式前臉與細長頭燈",
+    "credit": "Volkswagen Anhui（via CarNewsChina）",
+    "credit_url": "https://carnewschina.com/2026/10/24/volkswagen-launches-id-unyx-09-with-5c-fast-charging-in-china-starting-from-26800-usd/"
+   }
+  },
+  {
+   "id": "acura-adx-cz-77",
+   "tag": "一次性概念車 · 美國",
+   "date": "2026-10-23",
+   "brand": "Acura",
+   "title": "ADX CZ-77 Concept：Vans 球鞋布料包進座艙的 BMX 改裝車",
+   "orig": "Acura Unveils One-of-a-Kind Acura ADX Created with BMX Superstar Coco Zurita",
+   "summary": "Acura 與 BMX 選手 Coco Zurita、Vans 合作打造一次性 ADX「CZ-77 Concept」，10 月 24 日在 Vans 總部公開；約 90% 的布料由 Vans 提供，與其滑板／BMX 鞋款同類材質。",
+   "analysis": [
+    [
+     "外觀",
+     "碳纖前下巴、側裙、後擴散器與寬體輪拱，19 吋 Rotiform 輪圈配空力輪蓋。"
+    ],
+    [
+     "圖像",
+     "車身圖案取自 Vans × Coco Zurita 球鞋宣傳。"
+    ],
+    [
+     "CMF",
+     "內裝約 90% 布料來自 Vans North America，與其鞋款材質同類；座椅棋盤格紋。"
+    ],
+    [
+     "功能",
+     "後座拆除，改為可固定、展示 BMX 單車的專用後架。"
+    ]
+   ],
+   "sources": [
+    [
+     "Acura News（10/23）",
+     "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+    ]
+   ],
+   "image": {
+    "file": "news-acura-adx-cz-77.jpg",
+    "alt": "紅色 Acura ADX CZ-77 Concept 前 3/4，旁邊是 BMX 單車與 Vans 鞋款展示",
+    "credit": "Acura (via Acura News)",
+    "credit_url": "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+   },
+   "more_images": [
+    {
+     "file": "acura-adx-cz-77-2.jpg",
+     "alt": "ADX CZ-77 前臉特寫，碳纖下巴與棋盤格 Vans 鞋",
+     "credit": "Acura (via Acura News)",
+     "credit_url": "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+    },
+    {
+     "file": "acura-adx-cz-77-3.jpg",
+     "alt": "ADX CZ-77 座椅棋盤格紋布料特寫",
+     "credit": "Acura (via Acura News)",
+     "credit_url": "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+    },
+    {
+     "file": "acura-adx-cz-77-4.jpg",
+     "alt": "ADX CZ-77 車身旁的 Vans 鞋款與紅色車身",
+     "credit": "Acura (via Acura News)",
+     "credit_url": "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+    },
+    {
+     "file": "acura-adx-cz-77-5.jpg",
+     "alt": "ADX CZ-77 側裙與 Rotiform 字樣",
+     "credit": "Acura (via Acura News)",
+     "credit_url": "https://acuranews.com/en-US/releases/acura-unveils-one-of-a-kind-acura-adx-created-with-bmx-superstar-coco-zurita"
+    }
+   ]
+  },
+  {
+   "id": "hwa-hammer-teaser",
+   "tag": "改裝預告 · 德國",
+   "date": "2026-10-23",
+   "brand": "HWA",
+   "title": "HWA 預告新作：疑似 W124「AMG Hammer」restomod",
+   "orig": "HWA Teases Potential Mercedes AMG Hammer Restomod",
+   "summary": "打造過 HWA EVO 的德國 HWA 釋出新作預告圖，可清楚看出 W124 的車身輪廓，Motor1 推測是向 1986 年 AMG Hammer 致敬的 restomod；HWA 尚未公布細節。",
+   "analysis": [
+    [
+     "輪廓",
+     "預告圖只露出側面光影，可辨認 W124 方正的三廂車身。"
+    ],
+    [
+     "傳承",
+     "原版 Hammer 以 300E 塞進 5.5L V8，355hp，讓 AMG 一戰成名。"
+    ],
+    [
+     "背景",
+     "HWA 由 AMG 創辦人之一 Hans Werner Aufrecht 創立。"
+    ],
+    [
+     "待確認",
+     "車名、動力與規格都還是報導推測，等待官方發表。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motor1（10/23）",
+     "https://www.motor1.com/news/813099/hwa-amg-hammer-restomod-teaser/"
+    ]
+   ],
+   "image": {
+    "file": "news-hwa-hammer-teaser.jpg",
+    "alt": "HWA 新車預告圖：暗背景中的三廂車側面光影輪廓",
+    "credit": "HWA (via Motor1)",
+    "credit_url": "https://www.motor1.com/news/813099/hwa-amg-hammer-restomod-teaser/"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-denza-n8-cabin",
+   "kind": "car",
+   "car": "騰勢 Denza N8",
+   "tag": "內裝配色 · 中國",
+   "title": "騰勢 N8 四款座艙：月滿空山到晚原棕",
+   "points": [
+    "四款量產內裝：月滿空山（淺米配深藍）、朝霧米、破曉紅、晚原棕。",
+    "座艙配木飾板與隱藏式出風口。",
+    "懸浮中控台配 64 切面水晶排檔。",
+    "門板整合喇叭與座椅調整面板，搭 1.1 米 PHUD 天際屏。"
+   ],
+   "image": {
+    "file": "cmf-denza-n8-cabin.jpg",
+    "alt": "騰勢 N8「朝霧米」單色米白座艙，1.1 米 PHUD 與 30 吋中控屏",
+    "credit": "Denza（via CarNewsChina）",
+    "credit_url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-denza-n8-cabin-2.jpg",
+     "alt": "騰勢 N8「月滿空山」淺米配深藍座艙",
+     "credit": "Denza（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+    },
+    {
+     "file": "cmf-denza-n8-cabin-3.jpg",
+     "alt": "騰勢 N8「晚原棕」深棕座艙",
+     "credit": "Denza（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+    },
+    {
+     "file": "cmf-denza-n8-cabin-4.jpg",
+     "alt": "騰勢 N8「破曉紅」暖紅色座艙",
+     "credit": "Denza（via CarNewsChina）",
+     "credit_url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+    }
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/24）",
+     "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-trend-axalta-2026-27",
+   "kind": "trend",
+   "car": "Axalta",
+   "tag": "色彩趨勢 · 2026–27",
+   "title": "Axalta 2026–27 車色趨勢：四大方向",
+   "points": [
+    "Beyond Quiet：粉彩進化成更成熟、高級的柔和色。",
+    "Luxury 2.0：更深的紅與棕，講工藝與真實感。",
+    "Deep Dive：科技與自然交會，呼應電動化。",
+    "Beyond Ordinary：黑白灰銀靠效果漆與底調做出差異。"
+   ],
+   "swatch": {
+    "hex": "#6E3B32",
+    "label": "Luxury 2.0 深紅棕（示意色）"
+   },
+   "note": "Axalta 新聞稿只附噴漆人員照片、沒有趨勢色本身的色樣圖，改用示意色票。",
+   "sources": [
+    [
+     "Axalta 新聞稿（10/20）",
+     "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-kuangda-mona-l05",
+   "kind": "material",
+   "car": "曠達 × 小鵬 MONA L05",
+   "tag": "生態合成革 · 中國",
+   "title": "曠達生態合成革：MONA L05 座艙配套",
+   "points": [
+    "曠達為小鵬 MONA L05 供應生態合成革內飾材料。",
+    "與小鵬多輪驗證觸感、色澤、耐磨與環保性。",
+    "已完成材料開發與量產準備。",
+    "MONA L05 定位「年輕人的首款大五座 SUV」，10/15 首秀。"
+   ],
+   "image": {
+    "file": "cmf-material-kuangda-mona-l05.jpg",
+    "alt": "小鵬 MONA L05 淺灰座艙，座椅與門板為生態合成革",
+    "credit": "曠達（via 曠達官網）",
+    "credit_url": "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home"
+   },
+   "sources": [
+    [
+     "曠達科技官網（10/16）",
+     "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-halloween-mode",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Tesla 2026.38.3.2：車輛視覺化穿上幽靈裝",
+   "date": "2026-10-22",
+   "points": [
+    "Halloween Mode 讓車輛視覺化披上「幽靈服裝」。",
+    "Trick or Treat 模式在訪客接近時播放音效並閃燈。",
+    "可排程燈光秀，並把車變成拍照亭。",
+    "同版中控屏換上更高畫質的車輛圖與停車場景。"
+   ],
+   "image": {
+    "file": "hmi-tesla-halloween-mode.jpg",
+    "alt": "Tesla 中控屏的 Halloween Mode 畫面：車輛視覺化蓋著幽靈白布",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/software-updates/version/2026.38.3.2/release-notes"
+   },
+   "sources": [
+    [
+     "Not a Tesla App：2026.38.3.2 release notes（10/22）",
+     "https://www.notateslaapp.com/software-updates/version/2026.38.3.2/release-notes"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "工廠 · 美國",
+   "date": "2026-10-24",
+   "title": "Reuters：Audi 將在喬治亞州建年產 20 萬輛 SUV 新廠",
+   "summary": "Reuters 引述政府官員，美國總統川普預計 10/24 宣布 Audi 在喬治亞州設組裝廠，年產 20 萬輛 Q7、Q8、Q9；另在南卡 Scout Motors 廠生產 2.5 萬輛。Audi 今年上半年銷量年減 7%、美國年減 16%，Audi 未予置評。",
+   "sources": [
+    [
+     "CNBC（引述 Reuters，10/24）",
+     "https://www.cnbc.com/2026/10/24/trump-audi-factory-georgia.html"
+    ]
+   ]
+  },
+  {
+   "tag": "工廠 · 韓國車廠",
+   "date": "2026-10-24",
+   "title": "現代汽車喬治亞 Metaplant 擴大排水許可，加開班次增產",
+   "summary": "現代汽車集團美國 Metaplant（HMGMA）把每日許可排水量提高約 50 萬加侖，以支援加開班次、達成年產 20 萬輛；廠區目前每日可從四口井抽取逾 600 萬加侖地下水。",
+   "sources": [
+    [
+     "The Current／GPB News（10/24）",
+     "https://thecurrentga.org/2026/10/24/hyundai-expands-wastewater-permit-to-increase-vehicle-production/"
+    ]
+   ]
+  },
+  {
+   "tag": "出海 · 中國",
+   "date": "2026-10-23",
+   "title": "比亞迪巴西廠申請倍增產能至 60 萬輛",
+   "summary": "比亞迪巴西業務高層 Alexandre Baldy 受訪表示，卡馬薩里廠正申請把年產能提高一倍到 60 萬輛，2027 年在地零件比例將超過 50%；月需求約 3 萬輛，產能不足每月少賣 5,000–6,000 輛，已接獲墨西哥、阿根廷各 5 萬輛訂單。",
+   "sources": [
+    [
+     "Reuters（via Investing.com，10/23）",
+     "https://www.investing.com/news/stock-market-news/chinas-byd-plans-to-double-capacity-at-brazilian-plant-4968683"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-10-24",
+   "title": "崔東樹：9 月動力電池產量 237GWh，裝車率降到 37%",
+   "summary": "乘聯分會會長崔東樹分析，9 月中國動力及其他電池產量 237GWh、年增 57%，但裝車僅 87GWh、年增 15%，產量中裝車比例降至 37%；9 月國內插混乘用車裝車 35 萬台、年減 29%，電池需求逐步降速。",
+   "sources": [
+    [
+     "界面新聞（via 新浪財經，10/24）",
+     "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwhxpw2149249.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 台灣",
+   "date": "2026-10-24",
+   "title": "Q4 新車搶市：KONA Hybrid 接單 200 台、起亞 Q3 創新高",
+   "summary": "南陽實業表示 KONA Hybrid 自 9 月預接單已累積 200 台、八成為高階車型；台灣森那美起亞第三季銷量 3,527 台、年增 47%，創在台單季紀錄，限量 100 台的 Picanto 特仕版一個月完售後再追加 50 台。",
+   "sources": [
+    [
+     "中國時報（10/24）",
+     "https://www.chinatimes.com/realtimenews/20261024000565-263302"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 台灣",
+   "date": "2026-10-22",
+   "title": "交通部：電動市區公車已達 41.6%，年底拚五成",
+   "summary": "交通部次長林國顯表示，截至 8 月電動市區公車 4,429 輛、占 41.6%，年底可望達五成，2030 年目標 100%；國內 6 家合格車廠、18 款電動大客車，每輛補助最高 670 萬元，名單包括順益（鴻華）等。",
+   "sources": [
+    [
+     "工商時報（10/22）",
+     "https://www.ctee.com.tw/news/20261022702085-430104"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Two-tone paint",
+  "zh": "雙色車身（拼色）",
+  "body": "雙色車身是指一台車用兩種車漆分區塗裝，最常見的是車頂、A/B/C 柱和車身下半部用不同顏色。本期騰勢 N8 公布的八款車色裡，深空藍、極光綠、日光橙、星暮灰就是四款「拼色」版本，另外四款才是單一車色。設計師用深色車頂壓低視覺重心，讓高大的 SUV 看起來更修長、車頂像浮在車身上。",
+  "source": [
+   [
+    "IT之家：騰勢 N8 八款外觀車色（4 款拼色、4 款純色）",
+    "https://www.ithome.com/1/017/438.htm"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Deep Space Blue & Morning Mist",
+   "zh": "深空藍配朝霧米：寧靜旅行座艙",
+   "intro": "每日一組內裝配色示例：以騰勢 N8「月滿空山」的淺米配深藍為底，借 Axalta 2026–27「Luxury 2.0」的深紅棕當扶手點綴，門板嵌飾用曠達生態合成革式的淺灰，組成安靜、適合長途的家用 SUV 座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "月影深藍（示意）",
+     "#2C3A55",
+     false,
+     "ip-upper",
+     {
+      "src": "騰勢 N8 月滿空山",
+      "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+     }
+    ],
+    [
+     "儀表板飾條 · 木飾",
+     "淺胡桃木（示意）",
+     "#8C6A4A",
+     false,
+     "ip-decor",
+     {
+      "src": "騰勢 N8 木飾板",
+      "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+     }
+    ],
+    [
+     "門板嵌飾 · 合成革",
+     "朝霧米（示意）",
+     "#D9CFBF",
+     false,
+     "door-insert",
+     {
+      "src": "騰勢 N8 朝霧米",
+      "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+     }
+    ],
+    [
+     "門扶手 · 合成革",
+     "Luxury 2.0 紅棕（示意）",
+     "#6E3B32",
+     false,
+     "armrest",
+     {
+      "src": "Axalta 2026–27",
+      "url": "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "霧銀（示意）",
+     "#B8BCC2",
+     false,
+     "stitch"
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨藍灰（示意）",
+     "#3A3F48",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "淺米配深藍、木飾板：騰勢 N8 月滿空山",
+     "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/"
+    ],
+    [
+     "Luxury 2.0 深紅棕方向：Axalta 2026–27",
+     "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+    ]
+   ],
+   "mood": [
+    "寧靜",
+    "旅行",
+    "沉穩",
+    "溫潤"
+   ],
+   "mood_text": "深藍上儀表板把視線收低、米色門板與座椅讓車室顯得寬，一點紅棕扶手帶出溫度，適合長途的安靜氛圍。",
+   "vars": {
+    "ip-lower": "#3A3F48",
+    "console": "#2C3A55",
+    "seat": "#D9CFBF",
+    "steering": "#2A2C30",
+    "headliner": "light",
+    "seat-bolster": "#2C3A55",
+    "seat-center": "#D9CFBF",
+    "console-arm": "#6E3B32",
+    "accent-pod": "#8C6A4A",
+    "accent-pod2": "#B8BCC2"
+   }
+  }
+ }
+}

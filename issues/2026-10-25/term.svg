@@ -1,0 +1,21 @@
+<svg class="diagram" viewBox="0 0 520 320" width="100%" role="img" aria-label="雙色車身示意：SUV 側面線稿，強調色標出與車身不同顏色的車頂與車柱" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" font-family="sans-serif">
+ <text x="260" y="26" text-anchor="middle" font-size="16" fill="currentColor" stroke="none">SUV 側面：雙色車身（拼色）怎麼分色</text>
+ <path d="M34 214 L34 170 C36 158 48 152 66 150 L130 146 L176 104 C182 98 190 96 200 96 L410 96 C424 96 432 100 438 110 L462 150 L480 154 C490 157 494 164 494 174 L494 214" />
+ <path d="M130 146 L176 104 C182 98 190 96 200 96 L410 96 C424 96 432 100 438 110 L462 150" stroke="#f08a5d" stroke-width="7" stroke-linejoin="round"/>
+ <path d="M150 146 L188 112 L280 112 L280 146 Z" stroke-width="1.4"/>
+ <path d="M290 112 L420 112 L440 146 L290 146 Z" stroke-width="1.4"/>
+ <path d="M284 110 L284 148" stroke="#f08a5d" stroke-width="7"/>
+ <path d="M130 150 L462 150" stroke-width="1.2"/>
+ <path d="M38 166 L74 162" stroke-width="4"/>
+ <path d="M478 160 L494 168" stroke-width="4"/>
+ <circle cx="110" cy="222" r="34"/><circle cx="110" cy="222" r="15"/>
+ <circle cx="410" cy="222" r="34"/><circle cx="410" cy="222" r="15"/>
+ <path d="M20 258 L506 258" stroke-width="1" stroke-dasharray="2 4"/>
+ <path d="M300 92 L330 58" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="334" y="54" font-size="15" fill="currentColor" stroke="none">① 車頂另一種顏色</text>
+ <path d="M284 128 L200 64" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="70" y="58" font-size="15" fill="currentColor" stroke="none">② 車柱跟車頂同色</text>
+ <path d="M250 190 L250 280" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="256" y="284" font-size="15" fill="currentColor" stroke="none">③ 下半部是主車色</text>
+ <text x="260" y="308" text-anchor="middle" font-size="12" fill="currentColor" stroke="none">例：騰勢 N8 深空藍、極光綠、日光橙、星暮灰四款拼色</text>
+</svg>
