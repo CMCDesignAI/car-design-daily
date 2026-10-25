@@ -420,17 +420,18 @@
     "Deep Dive：科技與自然交會，呼應電動化。",
     "Beyond Ordinary：黑白灰銀靠效果漆與底調做出差異。"
    ],
-   "swatch": {
-    "hex": "#6E3B32",
-    "label": "Luxury 2.0 深紅棕（示意色）"
-   },
-   "note": "Axalta 新聞稿只附噴漆人員照片、沒有趨勢色本身的色樣圖，改用示意色票。",
    "sources": [
     [
      "Axalta 新聞稿（10/20）",
      "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
     ]
-   ]
+   ],
+   "image": {
+    "file": "cmf-trend-axalta-2026-27.jpg",
+    "alt": "Axalta 2026–27 四大趨勢色盤：Beyond Quiet、Deep Dive、Luxury 2.0、Beyond Ordinary",
+    "credit": "Axalta",
+    "credit_url": "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+   }
   },
   {
    "id": "cmf-material-kuangda-mona-l05",
