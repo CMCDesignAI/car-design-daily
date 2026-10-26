@@ -391,17 +391,18 @@
     "以 Carnival（KA4）實車展示，用在座椅側翼、儀表板、車頂與門飾。",
     "純素 Nappa 以自家靜電植絨技術做出近似真皮的觸感，用於座墊與椅背中央，可打孔。"
    ],
-   "swatch": {
-    "hex": "#6B6258",
-    "label": "示意色塊（非實際材料色）"
-   },
-   "note": "原文圖片伺服器拒絕連線，暫以示意色塊代替實物照片。",
    "sources": [
     [
      "Digital Times（10/22）",
      "https://www.dt.co.kr/article/12090677"
     ]
-   ]
+   ],
+   "image": {
+    "file": "cmf-material-ktrd-ka4.jpg",
+    "alt": "KTRD 面料的 Kia Carnival 座椅：側翼為麂皮，座墊與椅背中央為植絨純素 Nappa",
+    "credit": "KTRD（via Digital Times）",
+    "credit_url": "https://www.dt.co.kr/article/12090677"
+   }
   }
  ],
  "hmi": [
