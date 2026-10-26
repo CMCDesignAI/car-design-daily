@@ -1,0 +1,500 @@
+{
+ "date": "2026-10-26",
+ "weekday": "週一",
+ "issue_no": 19,
+ "lede": "週末大廠少有新發表：Musk 說 Grok Bot 能替你打電話給店家並回報結果；OpenAI 疑似在盲測下一代圖像模型「Aurora」，Ideogram 推出能直接產出可編輯 SVG 的向量模型。",
+ "ainews": [
+  {
+   "id": "grok-bot-calls",
+   "org": "xAI（SpaceXAI）",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-25",
+   "title": "Musk：Grok Bot 能替你打電話給人或店家、代為提出要求，再把通話重點整理給你",
+   "orig": "Grok @Bot can now call someone or a business for you, make a request on your behalf, take notes on the response and send you a note summarizing the conversation!",
+   "summary": "Elon Musk 10/25（台北時間晚上 10:35）在 X 發文，說 Grok Bot 現在可以替使用者打電話給某人或某家店、代為提出要求、記下對方回應，最後傳一份通話摘要。不過截至 10/25，官方 @bot 帳號與 Grok Bot 更新紀錄都還沒有通話功能的說明，也沒公布哪些方案、哪些國家能用、對方看到的是哪個號碼；科技媒體與 Digg 整理指出 @grok 在回覆中稱這仍屬預覽版（0.77）。先當作「即將推出」看待，實際能不能用以 App 內為準。",
+   "links": [
+    [
+     "Elon Musk X 貼文",
+     "https://x.com/elonmusk/status/2114365361068138990"
+    ],
+    [
+     "The Tech Signal 報導（尚無官方更新紀錄）",
+     "https://thetechsignal.co/2026/10/25/grok-bot-phone-calls-musk/"
+    ],
+    [
+     "Digg 整理（預覽版說法）",
+     "https://digg.com/ai/pr0s5ixy"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 要能幫你打電話了",
+   "one": "訂位、問營業時間這類要打電話的小事，之後可以交給 Grok Bot 去打，再看它整理的結果。",
+   "gloss": [
+    [
+     "預覽版（Prerelease）",
+     "正式推出前先給部分使用者試用的版本，功能和範圍還可能變"
+    ]
+   ]
+  },
+  {
+   "id": "openai-aurora",
+   "org": "OpenAI",
+   "tag": "圖像模型 · 傳聞",
+   "date": "2026-10-18",
+   "title": "OpenAI API 短暫出現三個「aurora」代號模型，隨後在 Arena 盲測中生成圖片，外界猜是 GPT Image 3",
+   "orig": "OpenAI testing new \"Aurora\" GPT-Image model on Arena",
+   "summary": "10/17–18 有開發者在 OpenAI API 的模型清單看到 aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha 三個代號，幾小時後被撤下；測試者 Lumina 隨即在 Arena 圖像盲測中抽到其中兩個，初步印象是 red 較快、品質較普通，green 較慢、品質較好，blue 還沒人測到。TestingCatalog 與 Lumina 都猜這是下一代 GPT Image（可能叫 GPT Image 3），但這只是推測：OpenAI 沒有任何公告，官方文件目前的圖像模型仍只有 gpt-image-2.5-flare 與 gpt-image-2.5-sunburst。上一代 GPT Image 2.5 從代號在 Arena 出現到正式發表約 30 天，可作為參考。樣本只有幾張貓咪和像素畫，看不出文字渲染或編輯能力。",
+   "links": [
+    [
+     "TestingCatalog 報導",
+     "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+    ],
+    [
+     "LuminaBench 盲測紀錄",
+     "https://luminabench.com/journal/aurora-image-models/"
+    ],
+    [
+     "LLMs Blog：已知與未證實的部分",
+     "https://www.llms.blog/posts/openai-aurora-image-models-spotted-in-api-and-arena-tests-what-is-reported-and-what-is-not"
+    ]
+   ],
+   "image": null,
+   "short_title": "OpenAI 疑似在測下一代生圖模型",
+   "one": "如果你在用 ChatGPT 生圖，下一代模型可能在一個月左右推出，但目前都還是傳聞。",
+   "gloss": [
+    [
+     "Arena 盲測",
+     "把兩個匿名模型的結果並排給人投票，用來比較模型好壞的排行網站"
+    ]
+   ]
+  },
+  {
+   "id": "ideogram-vector",
+   "org": "Ideogram",
+   "tag": "圖像模型 · 新模型",
+   "date": "2026-10-22",
+   "title": "Ideogram 推出第一個向量模型 Vector 1.0：用文字或上傳圖片直接產生可編輯的 SVG",
+   "orig": "Introducing Ideogram Vector 1.0: frontier AI vector design with fully editable SVGs.",
+   "summary": "Ideogram 10/22 發表 Vector 1.0，可從文字描述生成 Logo、字標、插畫、技術圖等 SVG 向量檔，也能把草圖或低解析 Logo 轉成向量。產出的 SVG 可在 Figma、Illustrator 裡改顏色、單獨調整每個形狀，換配色時漸層會跟著變。官方說所有方案、API 和合作平台都已上線；API 價格每張：文字轉向量 0.13–0.20 美元（高品質加參考圖 0.32 美元），圖片轉向量 0.10 美元。官方未提供和其他向量化工具的比較數據。",
+   "links": [
+    [
+     "Ideogram Vector 官方頁",
+     "https://ideogram.ai/models/vector/"
+    ],
+    [
+     "Runtime Wire 報導",
+     "https://runtimewire.com/article/ideogram-vector-1-svg-model-launch"
+    ]
+   ],
+   "image": null,
+   "short_title": "Ideogram 能直接生成可編輯向量圖",
+   "one": "做 Logo、貼紙、印刷圖時，AI 產出的是能放大不糊、還能逐個形狀修改的 SVG，不是一張點陣圖。",
+   "gloss": [
+    [
+     "SVG 向量圖",
+     "用線條和形狀描述的圖檔，放多大都不會糊，也能逐個元素修改"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-notebook-cocreate",
+   "org": "Google",
+   "tag": "平台服務 · Gemini Notebook",
+   "date": "2026-10-19",
+   "title": "Gemini Notebook 做簡報和影片摘要前，可以先看大綱、提意見再生成",
+   "orig": "How to shape your slides and videos with Gemini Notebook",
+   "summary": "Google 10/19 宣布 Gemini Notebook（前身 NotebookLM）的投影片（Slide Decks）和影片摘要（Video Overviews）改成「共同創作」流程：先在聊天中請它製作，它會依你的資料建議要涵蓋的主題，你可以再指定格式和視覺風格。打開新的 Review 開關後，可在 Studio 面板點「Review outline notes」（投影片）或「Review producer notes」（影片）檢查計畫、補充意見（例如開頭加一頁摘要、調換場景順序），確認後按 Proceed 才開始生成；不想調整就照舊直接生成。官方說未來一週內陸續推送給全球所有使用者，Workspace 公告寫最多可能要 15 天。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+    ],
+    [
+     "Google Workspace Updates 公告",
+     "https://workspaceupdates.googleblog.com/2026/10/gain-more-creative-control-over-slide-Decks-and-Video-Overviews-in-Gemini-Notebook.html"
+    ],
+    [
+     "The Verge 報導",
+     "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video"
+    ]
+   ],
+   "image": {
+    "file": "gemini-notebook.webp",
+    "alt": "Gemini Notebook 官方示意圖：生成投影片前先檢查大綱的 Review 開關",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+   },
+   "short_title": "Gemini Notebook 生成前可先改大綱",
+   "one": "用 Gemini Notebook 做簡報或影片時，可以先確認大綱和風格再生成，減少重做。",
+   "gloss": [
+    [
+     "Gemini Notebook",
+     "Google 的資料整理筆記工具（原本叫 NotebookLM），能把你的文件變成摘要、簡報或影片"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-qwen-image-edit",
+   "title": "Qwen-Image-Edit：在 ComfyUI 用一句話改圖、改圖中文字",
+   "learn": "學會下載 Qwen-Image-Edit 四個模型檔、載入官方範本，上傳一張圖並用中文或英文指令修改內容與圖中文字。",
+   "level": "入門",
+   "vram": "官方頁未列 VRAM；範本用 fp8 版主模型（20B）加 4 步加速 LoRA，依原頁為準",
+   "kind": "追蹤模型教學",
+   "gloss": [
+    [
+     "fp8",
+     "把模型存成 8 位元精度的版本，檔案和顯存需求比原版小"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版，在範本庫（Workflow Templates）搜尋「Qwen Image Edit」；找不到通常是版本太舊。",
+    "下載主模型 qwen_image_edit_fp8_e4m3fn.safetensors 放到 ComfyUI/models/diffusion_models/。",
+    "下載 Qwen-Image-Lightning-4steps-V1.0.safetensors（4 步加速 LoRA）放到 models/loras/；文字編碼器 qwen_2.5_vl_7b_fp8_scaled.safetensors 放到 models/text_encoders/；qwen_image_vae.safetensors 放到 models/vae/。用過 Qwen-Image 生圖的人後兩個可能已經有了。",
+    "開啟範本，在 Load Image 節點上傳要修改的圖片，在提示詞寫想改的地方，例如把招牌上的字改成另一段文字。",
+    "按 Run 執行；官方頁說明這個模型同時用視覺語意和外觀兩條路讀原圖，所以能保留原本字體與風格。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Qwen-Image-Edit",
+     "https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit"
+    ],
+    [
+     "Hugging Face：Qwen/Qwen-Image-Edit",
+     "https://huggingface.co/Qwen/Qwen-Image-Edit"
+    ],
+    [
+     "Qwen-Image 官方 GitHub",
+     "https://github.com/QwenLM/Qwen-Image"
+    ]
+   ]
+  },
+  {
+   "id": "tut-hidream-i1",
+   "title": "HiDream-I1：可商用的開源文生圖模型，在 ComfyUI 原生跑",
+   "learn": "了解 HiDream-I1 的 Full／Dev／Fast 三個版本差在哪，並用 ComfyUI 官方 fp8 範本生出第一張圖。",
+   "level": "中階",
+   "vram": "官方說完整版需超過 27GB 顯存；範本改用 fp8 版讓多數人能跑（實際需求依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "MIT 授權",
+     "寬鬆的開源授權，個人、研究和商業用途都可以用"
+    ]
+   ],
+   "steps": [
+    "先更新 ComfyUI，確保版本包含原生 HiDream 支援（官方頁附有最低 commit）。",
+    "到 Comfy-Org/HiDream-I1_ComfyUI 下載共用的文字編碼器（clip_l_hidream、clip_g_hidream、t5xxl、llama 3.1 8B 等）放到 models/text_encoders/，以及 VAE 放到 models/vae/，檔名照官方頁清單。",
+    "選版本：Full 畫質最好（50 步）、Dev 兼顧速度（28 步）、Fast 只要 16 步；在 diffusion_models 資料夾放入對應的 fp8 主模型。",
+    "開啟對應範本；用 Dev 或 Fast 時不需要負面提示詞，cfg 設 1.0（官方範本已預設）。",
+    "輸入提示詞後按 Run；官方提到它對中文提示詞的理解比同類開源模型好，可以直接用中文試。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：HiDream-I1",
+     "https://docs.comfy.org/tutorials/image/hidream/hidream-i1"
+    ],
+    [
+     "HiDream-I1 官方 GitHub",
+     "https://github.com/HiDream-ai/HiDream-I1"
+    ],
+    [
+     "Hugging Face：Comfy-Org/HiDream-I1_ComfyUI",
+     "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "社群發布修正物品重複、穿模的圖生影片 LoRA。",
+   "updates": [
+    {
+     "title": "Licon Studio 發布 MiniMax H3 圖生影片 LoRA「Licon VBVR」，主打減少物品憑空複製、穿模與動作順序錯亂",
+     "date": "2026-10-23",
+     "summary": "Licon Studio 10/23 在 Hugging Face 發布 Minimax-H3-VBVR，是給 MiniMax H3 圖生影片模式用的 LoRA（檔案 H3-Licon-VBVR-I2V.safetensors），用重新整理過的 VBVR-Pro-SFT-Video 影片推理資料訓練，目標是讓角色拿取、放下、使用物品時少出現多一個杯子、手穿過桌子這類問題。模型卡附 6 組使用前後的對照影片與提示詞，但都是作者自選的範例，沒有量化數據或建議強度。LoRA 本身標 Apache-2.0，但仍要搭配 H3，H3 本身的社群授權另有地區限制。這是社群作品，非 MiniMax 官方。",
+     "links": [
+      [
+       "Hugging Face 模型卡：LiconStudio/Minimax-H3-VBVR",
+       "https://huggingface.co/LiconStudio/Minimax-H3-VBVR"
+      ]
+     ],
+     "image": null,
+     "short_title": "H3 社群 LoRA 減少穿模",
+     "one": "用 H3 做人拿東西的影片時，掛上這個 LoRA 可能少一些多出來的物品和手穿桌面的怪畫面。",
+     "gloss": [
+      [
+       "穿模",
+       "畫面裡的物體互相穿過去，例如手直接插進桌面"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "社群釋出 INT4／NVFP4 壓縮版，峰值顯存約 17.3 GiB。",
+   "updates": [
+    {
+     "title": "社群 lite-infer 釋出 Qwen-Image 2.1 的 Nunchaku Lite INT4 與 NVFP4 量化版，1024×1024 峰值顯存約 17.3–17.5 GiB",
+     "date": "2026-10-24",
+     "summary": "lite-infer 10/24 在 Hugging Face 上傳 Qwen-Image-2.1 的量化版：主模型用 SVDQuant＋GPTQ（rank 32）壓成 INT4，另有 NVFP4 版本，文字／視覺編碼器用 NF4。模型卡實測 1024×1024 時峰值顯存 INT4 約 17.32 GiB、NVFP4 約 17.53 GiB，也就是大致要 24GB 顯卡，或開 CPU offload；NVFP4 只能在 RTX 50 系列（Blackwell）以上跑。需要特製的 Diffusers 版本，模型卡沒提 ComfyUI 支援，也沒給速度數字；6 組官方範例的比較顯示 NVFP4 比 INT4 更接近原版畫質。授權沿用 Qwen Research License，不能商用。",
+     "links": [
+      [
+       "Hugging Face：lite-infer/qwen-image-2.1-nunchaku-lite-int4-r32",
+       "https://huggingface.co/lite-infer/qwen-image-2.1-nunchaku-lite-int4-r32"
+      ]
+     ],
+     "image": null,
+     "short_title": "Qwen Image 2.1 出壓縮版",
+     "one": "顯卡記憶體不夠跑原版的人，多了一個約 17GB 顯存就能跑的選擇，但目前只能用程式碼跑。",
+     "gloss": [
+      [
+       "量化",
+       "把模型的數字精度降低來縮小檔案、省顯存，畫質會略有差異"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成（版面控制）",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "兩個榜單都在無變化門檻內：文字榜 LMArena 資料仍是 10/22，文生圖榜分數與昨天相同，沿用前一份的圖。",
+  "Grok Bot 通話功能只有 Musk 貼文，尚無官方更新紀錄；Aurora 是外界觀察到的測試代號，OpenAI 未證實。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-26",
+  "compared_to": "2026-10-25",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-22",
+    "fetched": "2026-10-26",
+    "carried_from": "2026-10-24",
+    "latest_as_of": "2026-10-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1517,
+      "ci": 7,
+      "delta": -7
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1509,
+      "ci": 7,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 8,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 4
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1496,
+      "ci": 5,
+      "delta": 2
+     }
+    ],
+    "compared_to": "2026-10-25",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-26",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-26",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-25",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
