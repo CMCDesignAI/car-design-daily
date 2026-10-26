@@ -1,0 +1,623 @@
+{
+ "date": "2026-10-26",
+ "weekday": "週一",
+ "issue_no": 19,
+ "lede": "紅旗 G919 以「東方禮制美學」與外掛備胎上市，猛士 X700 用六個中國地名車色打方盒子市場；新 Roadster 三種車型與戰鬥機式介面曝光，新銳界 L 推出黃道金主打色，吉利帝豪與博越同週改款，Hyundai Bayon 今天在印度上市。",
+ "design_news": [
+  {
+   "id": "hongqi-g919-launch",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-25",
+   "brand": "紅旗 Hongqi",
+   "title": "紅旗 G919 上市：「東方禮制美學」的方盒子越野",
+   "orig": "红旗G919正式上市 售价34.98万元起",
+   "summary": "紅旗首款硬派越野 G919 上市，售價 34.98 萬（四電機拓境版）、38.98 萬（御境版）與 42.98 萬元（限定版）。設計主題為「東方禮制美學」，以非承載式車身、外掛備胎與四電機增程動力，挑戰坦克、方程豹等方盒子越野。",
+   "analysis": [
+    [
+     "前臉",
+     "「高山飛瀑榫卯格柵」配矩形全 LED 復古頭燈，把傳統木作榫卯轉成格柵語彙。"
+    ],
+    [
+     "比例",
+     "5,135×2,050×1,950mm、軸距 2,900mm，配 AT 越野胎；側開尾門掛上外置備胎「背包」。"
+    ],
+    [
+     "座艙",
+     "17.3 吋 3K 中控屏加 17.3 吋後排娛樂屏，搭 8295P 晶片。"
+    ],
+    [
+     "動力",
+     "2.0T 增程加四電機，綜合 620kW、1,320N·m，0–100km/h 4.5 秒；CLTC 純電 280km、綜合 1,350km，前中後三把機械鎖。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/25）",
+     "https://www.ithome.com/1/017/647.htm"
+    ],
+    [
+     "鳳凰網汽車（10/25）",
+     "https://auto.ifeng.com/c/8xWOW71dcd0"
+    ]
+   ],
+   "image": {
+    "file": "news-hongqi-g919-launch.jpg",
+    "alt": "紅旗 G919 深藍色車身停在林間泥路，正面可見榫卯格柵與矩形頭燈",
+    "credit": "紅旗（via 鳳凰網汽車）",
+    "credit_url": "https://auto.ifeng.com/c/8xWOW71dcd0"
+   }
+  },
+  {
+   "id": "tesla-roadster-trims",
+   "tag": "新車情報 · 美國",
+   "date": "2026-10-25",
+   "brand": "Tesla",
+   "title": "新 Roadster 三種車型曝光：Rocket 獨享 Ano White 車色",
+   "orig": "Tesla Roadster trims revealed in press materials",
+   "summary": "TeslaNorth 引述在 X 上流出的新聞資料，新 Roadster 分 Performance、Thrust、Rocket 三種車型；Tesla 尚未證實，以下屬報導內容。",
+   "analysis": [
+    [
+     "Performance",
+     "入門款不配推進器，極速仍超過 210 mph。"
+    ],
+    [
+     "Thrust",
+     "加上金色調玻璃與「Supersonic」內裝套件：Ultrawhite 座艙、灰色超細纖維麂皮與 yoke 方向盤。"
+    ],
+    [
+     "Rocket",
+     "唯一提供 Ano White 車色的車型，配 10 具推進器。"
+    ],
+    [
+     "看點",
+     "用玻璃色調與內裝套件區分車型，而不只是動力差異；量產前細節仍可能變動。"
+    ]
+   ],
+   "sources": [
+    [
+     "TeslaNorth（10/25）",
+     "https://teslanorth.com/2026/10/25/tesla-roadster-trims-press-kit/"
+    ]
+   ],
+   "image": {
+    "file": "news-tesla-roadster-trims.jpg",
+    "alt": "新 Tesla Roadster 銀色車身，鷗翼式車門開啟，黑色攝影棚背景",
+    "credit": "Tesla（via TeslaNorth）",
+    "credit_url": "https://teslanorth.com/2026/10/25/tesla-roadster-trims-press-kit/"
+   }
+  },
+  {
+   "id": "mengshi-x700-launch",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-25",
+   "brand": "猛士 M-Hero",
+   "title": "猛士 X700 上市：鴻蒙座艙的中國豪華方盒子",
+   "orig": "猛士X700正式上市 限时20.98万起",
+   "summary": "東風猛士 X700 上市，指導價 21.98–27.98 萬元、限時 20.98 萬元起。車身 5,035×1,999×1,910mm、軸距 2,920mm，提供林芝藍、荔波綠、墨石灰、烏蘭橙、格宗黑、崑崙白六色，以中國地名命名。",
+   "analysis": [
+    [
+     "造型",
+     "官方稱「雄魂美學」方盒子，前臉為「獅吼格柵」與「天地縱橫」燈組，車尾採「天穹雙曜」直立尾燈。"
+    ],
+    [
+     "色彩",
+     "六色取自林芝、荔波、烏蘭等地景，延續「山河入色」主題。"
+    ],
+    [
+     "座艙",
+     "HarmonySpace 6、雙 15.6 吋螢幕、74 吋 XHUD、21 喇叭 HUAWEI SOUND。"
+    ],
+    [
+     "技術",
+     "800V 平台、寧德時代 68.1kWh 電池、CLTC 純電 360km，ADS 5 配 896 線光達。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/25）",
+     "https://www.ithome.com/1/017/629.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-mengshi-x700-launch.jpg",
+    "alt": "猛士 X700 深綠色車身行駛在河邊碎石路，後 3/4 視角可見外掛備胎與直立尾燈",
+    "credit": "猛士（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/629.htm"
+   }
+  },
+  {
+   "id": "ford-edge-l-mc",
+   "tag": "設計解析 · 中國",
+   "date": "2026-10-23",
+   "brand": "長安福特 Ford",
+   "title": "新銳界 L 改款設計：黃道金主打色與發光 EDGE 字標",
+   "orig": "新福特锐界L 设计解读",
+   "summary": "長安福特公布新銳界 L 中期改款的設計細節：前臉更方正、尾部改貫穿燈並加入可發光的「EDGE」字標，主打色「黃道金」由香檳過渡到玫瑰金，並另為中國市場開發星雲藍。",
+   "analysis": [
+    [
+     "前臉",
+     "更方正的格柵與燈組整合，日行燈分成三段。"
+    ],
+    [
+     "車尾",
+     "貫穿式尾燈中央嵌入發光 EDGE 字標，尾門線條簡化。"
+    ],
+    [
+     "色彩",
+     "黃道金（Zodiac Gold）在不同光線下呈現香檳到玫瑰金；星雲藍為中國專屬開發色。"
+    ],
+    [
+     "內裝",
+     "儀表板增加軟質包覆、緞面金屬飾條，座椅採菱格縫線配漸層打孔與麂皮肩部；車長 5,011mm（+11mm）、軸距 2,950mm。"
+    ]
+   ],
+   "sources": [
+    [
+     "福特中國新聞中心（10/20）",
+     "http://www.ford.com.cn/newsroom/2026/20261020"
+    ],
+    [
+     "鳳凰網汽車（10/23）",
+     "https://auto.ifeng.com/c/8xSs6epjQ6Y"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-edge-l-mc.jpg",
+    "alt": "新銳界 L 黃道金車身前 3/4 視角，方正格柵與三段式日行燈",
+    "credit": "Ford（via 鳳凰網汽車）",
+    "credit_url": "https://auto.ifeng.com/c/8xSs6epjQ6Y"
+   }
+  },
+  {
+   "id": "geely-emgrand-2027",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-25",
+   "brand": "吉利 Geely",
+   "title": "全新帝豪「向上系列」上市：寰宇氣象設計配晨曦棕座艙",
+   "orig": "全新帝豪向上系列上市 限时5.99万起",
+   "summary": "吉利全新帝豪向上系列上市，限時價 5.99–7.39 萬元，外觀採「寰宇氣象」設計語言，新增阿爾卑斯金車色與晨曦棕內裝，入門家轎也開始講究色彩質感。",
+   "analysis": [
+    [
+     "前臉",
+     "「飛瀑懸川」格柵延續吉利家族語彙。"
+    ],
+    [
+     "側面",
+     "17 吋雙色輪圈。"
+    ],
+    [
+     "車尾",
+     "「星河橫貫」貫穿式尾燈。"
+    ],
+    [
+     "座艙",
+     "晨曦棕配色，搭 Flyme Auto 2 車機。"
+    ]
+   ],
+   "sources": [
+    [
+     "新浪汽車（10/25）",
+     "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-geely-emgrand-2027.jpg",
+    "alt": "全新帝豪淺金色車身前 3/4 視角，攝影棚背景",
+    "credit": "吉利（via 新浪汽車）",
+    "credit_url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+   },
+   "more_images": [
+    {
+     "file": "geely-emgrand-2027-2.jpg",
+     "alt": "全新帝豪淺金色車身後 3/4 視角，可見貫穿式尾燈",
+     "credit": "吉利（via 新浪汽車）",
+     "credit_url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+    },
+    {
+     "file": "geely-emgrand-2027-3.jpg",
+     "alt": "全新帝豪中控螢幕與棕色儀表板",
+     "credit": "吉利（via 新浪汽車）",
+     "credit_url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+    }
+   ]
+  },
+  {
+   "id": "geely-boyue-2027",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-23",
+   "brand": "吉利 Geely",
+   "title": "2027 款博越上市：新中式命名的格柵與燈組",
+   "orig": "吉利2027款博越车型上市",
+   "summary": "2027 款博越上市，指導價 8.59–10.69 萬元、限時 7.89 萬元起。改款以新中式設計重新整理前臉與車尾，車長增加 21mm、車高降低 15mm，姿態略為壓低。",
+   "analysis": [
+    [
+     "前臉",
+     "「四水歸堂」格柵搭「飛簷斗拱」貫穿式前燈。"
+    ],
+    [
+     "車尾",
+     "換上「長卷流霞」貫穿尾燈；IT之家形容三處命名都取自傳統建築與山水意象，讓家族辨識度從「線條相似」轉為「語義統一」。"
+    ],
+    [
+     "尺寸",
+     "4,570×1,865×1,635mm、軸距 2,707mm。"
+    ],
+    [
+     "座艙",
+     "全系 14.6 吋中控屏、Flyme Auto 2.5；高配提供「棉花糖」座椅。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（10/23）",
+     "https://www.ithome.com/1/017/247.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-geely-boyue-2027.jpg",
+    "alt": "2027 款博越銀色車身前 3/4 視角，四水歸堂格柵與貫穿式前燈",
+    "credit": "吉利（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/017/247.htm"
+   },
+   "more_images": [
+    {
+     "file": "geely-boyue-2027-2.jpg",
+     "alt": "2027 款博越正面，飛簷斗拱貫穿燈",
+     "credit": "吉利（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/247.htm"
+    },
+    {
+     "file": "geely-boyue-2027-3.jpg",
+     "alt": "2027 款博越橙棕色座艙與 14.6 吋中控屏",
+     "credit": "吉利（via IT之家）",
+     "credit_url": "https://www.ithome.com/1/017/247.htm"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-bayon-india",
+   "tag": "新車上市 · 印度",
+   "date": "2026-10-24",
+   "brand": "Hyundai",
+   "title": "Hyundai Bayon 10/26 印度上市：分離式頭燈與倒 L 尾燈",
+   "orig": "Hyundai Bayon reaches dealerships ahead of October 26 launch in India",
+   "summary": "Hyundai Bayon 10/26 在印度上市前已運抵經銷商，定位介於 Venue 與 Creta 之間，預計提供七個車型等級，預購金 11,000 盧比。",
+   "analysis": [
+    [
+     "前臉",
+     "分離式頭燈：倒 L 形 LED 日行燈在上、LED 頭燈在下，引擎蓋上有立體 Hyundai 標誌，下方為黑色保桿飾件與仿護板。"
+    ],
+    [
+     "側面",
+     "車色後視鏡與門把、雙色輪圈、車頂架與黑色柱子。"
+    ],
+    [
+     "車尾",
+     "倒 L 形 LED 尾燈以黑色飾板連接，配雙色一體式尾翼。"
+    ],
+    [
+     "動力",
+     "1.5 升自然進氣汽油，115PS，6 速手排或 iVT。價格以官方公布為準。"
+    ]
+   ],
+   "sources": [
+    [
+     "Mint（10/24）",
+     "https://www.livemint.com/auto-news/hyundai-bayon-reaches-dealerships-ahead-of-october-26-launch-in-india-see-images-of-the-new-suv-11792862214223.html"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-bayon-india.jpg",
+    "alt": "紅色 Hyundai Bayon 停在印度經銷商，前方視角可見分離式頭燈",
+    "credit": "@AUTOINTELIN（via Mint）",
+    "credit_url": "https://www.livemint.com/auto-news/hyundai-bayon-reaches-dealerships-ahead-of-october-26-launch-in-india-see-images-of-the-new-suv-11792862214223.html"
+   },
+   "more_images": [
+    {
+     "file": "hyundai-bayon-india-2.jpg",
+     "alt": "紅色 Hyundai Bayon 後 3/4 視角，倒 L 形尾燈與黑色飾板",
+     "credit": "@AUTOINTELIN（via Mint）",
+     "credit_url": "https://www.livemint.com/auto-news/hyundai-bayon-reaches-dealerships-ahead-of-october-26-launch-in-india-see-images-of-the-new-suv-11792862214223.html"
+    },
+    {
+     "file": "hyundai-bayon-india-3.jpg",
+     "alt": "Hyundai Bayon 座艙，雙螢幕與藍色氛圍燈",
+     "credit": "@AUTOINTELIN（via Mint）",
+     "credit_url": "https://www.livemint.com/auto-news/hyundai-bayon-reaches-dealerships-ahead-of-october-26-launch-in-india-see-images-of-the-new-suv-11792862214223.html"
+    }
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-aito-m8-cabin",
+   "kind": "car",
+   "car": "問界新 M8",
+   "tag": "內裝配色 · 中國",
+   "title": "問界新 M8「浮光菱影」座艙",
+   "points": [
+    "內裝主題「浮光菱影」，提供瀾月白／沙礫棕雙色與星雲紅。",
+    "Nappa 皮革，門板與座椅帶菱格浮雕。",
+    "木紋飾板配金屬質感按鍵，三聯屏貫穿儀表板。",
+    "門板與扶手保留實體按鍵；預售 38.98 萬元起。"
+   ],
+   "image": {
+    "file": "cmf-aito-m8-cabin.jpg",
+    "alt": "問界新 M8 淺色座艙，前排菱格座椅與貫穿式三聯屏",
+    "credit": "問界（via 易車）",
+    "credit_url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html"
+   },
+   "sources": [
+    [
+     "汽車產經網（10/16）",
+     "https://www.autoreport.cn/zonghe/20261016/18113929607.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-emgrand-alps-gold",
+   "kind": "paint",
+   "car": "吉利帝豪",
+   "tag": "車漆工藝 · 中國",
+   "title": "阿爾卑斯金：銀元鋁片加奈米鈦白",
+   "points": [
+    "全新帝豪向上系列新增「阿爾卑斯金」車色。",
+    "以 12–25μm 銀元型鋁片搭配奈米鈦白顏料調成。",
+    "銀元型鋁片較圓潤，閃光細緻；鈦白讓金色偏淺、偏柔。",
+    "入門家轎也用效果漆做出差異。"
+   ],
+   "image": {
+    "file": "cmf-paint-emgrand-alps-gold.jpg",
+    "alt": "全新帝豪阿爾卑斯金車身，攝影棚光線下呈淺金色",
+    "credit": "吉利（via 新浪汽車）",
+    "credit_url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+   },
+   "sources": [
+    [
+     "新浪汽車（10/25）",
+     "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-ktrd-ka4",
+   "kind": "material",
+   "car": "KTRD × Kia Carnival",
+   "tag": "麂皮／純素 Nappa · 韓國",
+   "title": "KTRD 平價麂皮與植絨純素 Nappa",
+   "points": [
+    "韓國 KTRD 在 KOAA SHOW 2026（10/21–23，KINTEX）展出兩種內飾面料。",
+    "多功能經濟型麂皮：防潑水、防污、耐刮、耐磨，鎖定取代高價麂皮。",
+    "以 Carnival（KA4）實車展示，用在座椅側翼、儀表板、車頂與門飾。",
+    "純素 Nappa 以自家靜電植絨技術做出近似真皮的觸感，用於座墊與椅背中央，可打孔。"
+   ],
+   "swatch": {
+    "hex": "#6B6258",
+    "label": "示意色塊（非實際材料色）"
+   },
+   "note": "原文圖片伺服器拒絕連線，暫以示意色塊代替實物照片。",
+   "sources": [
+    [
+     "Digital Times（10/22）",
+     "https://www.dt.co.kr/article/12090677"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-roadster-ui",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "新 Roadster 介面：戰鬥機座艙式紅色 UI",
+   "date": "2026-10-25",
+   "points": [
+    "Tesla 稱介面「受戰鬥機座艙啟發」，全畫面以亮紅線條配黑底。",
+    "調整設定時，車輛視覺化會標出對應的活動零件：懸吊、電池、尾翼、推進器。",
+    "尾翼可選 Stowed、Low Drag、High Downforce 三種模式。",
+    "Track Mode 改成密集儀表：油門煞車、溫度、胎壓、G 值與賽道圈速。",
+    "底部空調、音量、媒體位置與現有 Tesla 相同，量產（2028）前仍可能改變。"
+   ],
+   "image": {
+    "file": "hmi-tesla-roadster-ui.jpg",
+    "alt": "新 Roadster 中控屏：紅色線框車輛視覺化，推進器以金色標示",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/news/4894/tesla-shows-off-new-roadsters-fighter-jet-inspired-ui-video"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（10/25）",
+     "https://www.notateslaapp.com/news/4894/tesla-shows-off-new-roadsters-fighter-jet-inspired-ui-video"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "生產 · 韓國",
+   "date": "2026-10-26",
+   "title": "現代汽車蔚山廠重建勞資定案，轉往美國產量砍到 7.4 萬輛",
+   "summary": "Herald Business 報導，現代汽車勞資就蔚山廠重建與國內產線重整達成最終協議：原提 20 萬輛 Palisade 轉往美國生產降為 7.4 萬輛；IONIQ 5 明年 9 月移到蔚山電動車專用廠，GV70 EREV 明年 3 月在蔚山投產，下一代 Kona 分由 2、3 廠生產。",
+   "sources": [
+    [
+     "The Herald Business（10/26）",
+     "https://biz.heraldcorp.com/article/10914186"
+    ]
+   ]
+  },
+  {
+   "tag": "開發 · 日本",
+   "date": "2026-10-25",
+   "title": "日系車廠拚把新車開發期縮短一半，追趕中國速度",
+   "summary": "共同社報導，日系車廠開發新車一般需 4–5 年，中國車廠不到 2 年。日產採同尺寸多車共用平台，北美 2028 年新 SUV 開發期縮到 3 年 1 個月，衍生車型最多再縮 40%；本田推「Triple Half」，以 AI 等工具把開發成本、時間與工作量減半。",
+   "sources": [
+    [
+     "Malay Mail（引述共同社，10/25）",
+     "https://www.malaymail.com/news/money/2026/10/25/four-to-five-years-vs-under-two-nissan-honda-toyota-hit-fast-forward-button-as-japan-chases-china/240538"
+    ]
+   ]
+  },
+  {
+   "tag": "策略 · 日本",
+   "date": "2026-10-25",
+   "title": "日經：三菱汽車在東南亞受中國電動車擠壓，轉攻美日",
+   "summary": "日經亞洲報導，中國車廠大舉進入東南亞，三菱汽車正重新思考以東南亞為重心的策略，改為在美國與日本爭取市佔；但在多年縮編之後，轉向美國等成熟市場仍充滿不確定。",
+   "sources": [
+    [
+     "Nikkei Asia（10/25）",
+     "https://asia.nikkei.com/business/automobiles/pressed-by-chinese-evs-in-southeast-asia-mitsubishi-motors-makes-risky-pivot"
+    ]
+   ]
+  },
+  {
+   "tag": "出口 · 中國",
+   "date": "2026-10-25",
+   "title": "廣州新沙港 2,300 輛新能源車連夜發往澳洲",
+   "summary": "中新網報導，10/24 晚一艘滾裝船載運超過 2,300 輛新能源商品車從廣州新沙港啟航前往澳洲。中汽協表示，2026 年中國汽車出口將突破 1,000 萬輛，新能源車是主要增量；新沙港為華南最大的整車進出口岸。",
+   "sources": [
+    [
+     "中新網（10/25）",
+     "https://www.chinanews.com.cn/dwq/2026/10-25/10720800.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "工廠 · 歐洲",
+   "date": "2026-10-25",
+   "title": "比亞迪將在歐洲再建新廠，因應歐盟關稅與混動配額",
+   "summary": "南華早報報導，比亞迪將在歐洲興建新工廠，以因應歐盟針對中國電動車的關稅與進口混動車配額，並表示不會讓這些貿易壁壘影響消費者的選車。",
+   "sources": [
+    [
+     "South China Morning Post（10/25）",
+     "https://www.scmp.com/business/china-evs/article/3372001/byd-build-new-factories-europe-combat-strict-trade-barriers-targeting-chinese-evs"
+    ]
+   ]
+  },
+  {
+   "tag": "供應鏈 · 台灣",
+   "date": "2026-10-26",
+   "title": "MCU 補庫存延續到 2027，車用需求復甦仍溫和",
+   "summary": "工商時報報導，MCU 產業迎來補庫存與產品升級，新唐、盛群、雅特力-KY 受惠，法人預估 2026 年全球 MCU 市場成長逾 1 成；但需求以工控、資料中心較強，車用復甦相對溫和。Tesla 新 Roadster 的推進器與主動空力被視為高階 MCU 的潛在應用，但 Tesla 尚未揭露用量與供應商。",
+   "sources": [
+    [
+     "工商時報（10/26）",
+     "https://www.ctee.com.tw/news/20261026700062-439901"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Tailgate-mounted spare wheel",
+  "zh": "尾門外掛備胎",
+  "body": "外掛備胎是把備胎直接掛在車尾門外側，而不是藏在車底或後廂地板下。它源自越野車需要快速換胎、又要保留車內空間，後來成了硬派越野的造型符號。本期紅旗 G919 就採側開尾門，外掛備胎像一個「背包」，和方正車身、AT 輪胎一起強調越野身分；猛士 X700 也走同樣的方盒子路線。",
+  "source": [
+   [
+    "IT之家：紅旗 G919 上市（側開尾門、外掛備胎背包）",
+    "https://www.ithome.com/1/017/647.htm"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Moonlit White & Gravel Brown",
+   "zh": "瀾月白配沙礫棕：金色點綴的家庭旅行座艙",
+   "intro": "每日一組內裝配色示例：以問界新 M8 的瀾月白／沙礫棕雙色為底，借全新帝豪的晨曦棕當扶手，再用阿爾卑斯金、黃道金方向的淺金屬色做飾條與縫線，組成明亮又溫暖的家庭座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "沙礫棕（示意）",
+     "#7A6450",
+     false,
+     "ip-upper",
+     {
+      "src": "問界新 M8 瀾月白／沙礫棕",
+      "url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "淺香檳金（示意）",
+     "#C9B48A",
+     false,
+     "ip-decor",
+     {
+      "src": "帝豪 阿爾卑斯金／銳界 L 黃道金",
+      "url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+     }
+    ],
+    [
+     "門板嵌飾 · 菱格 Nappa",
+     "瀾月白（示意）",
+     "#E6E1D8",
+     false,
+     "door-insert",
+     {
+      "src": "問界新 M8 菱格浮雕",
+      "url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "晨曦棕（示意）",
+     "#9A5F3C",
+     false,
+     "armrest",
+     {
+      "src": "全新帝豪 晨曦棕",
+      "url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "香檳金（示意）",
+     "#BFA06A",
+     false,
+     "stitch"
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "暖石墨（示意）",
+     "#4A4440",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "瀾月白／沙礫棕雙色、菱格 Nappa：問界新 M8",
+     "https://www.autoreport.cn/zonghe/20261016/18113929607.html"
+    ],
+    [
+     "晨曦棕內裝、阿爾卑斯金車色：全新帝豪向上系列",
+     "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml"
+    ],
+    [
+     "黃道金香檳到玫瑰金：新銳界 L",
+     "http://www.ford.com.cn/newsroom/2026/20261020"
+    ]
+   ],
+   "mood": [
+    "明亮",
+    "溫暖",
+    "家庭",
+    "精緻"
+   ],
+   "mood_text": "白色門板與座椅中央讓車室顯得寬敞，沙礫棕儀表板把視線收穩，晨曦棕扶手和香檳金縫線帶出一點精緻感。",
+   "vars": {
+    "headliner": "light",
+    "seat-bolster": "#7A6450",
+    "seat-center": "#E6E1D8",
+    "console": "#7A6450",
+    "console-arm": "#9A5F3C",
+    "steering": "#3A3430",
+    "accent-pod": "#C9B48A",
+    "accent-pod2": "#BFA06A",
+    "ip-lower": "#4A4440",
+    "seat": "#E6E1D8"
+   }
+  }
+ }
+}

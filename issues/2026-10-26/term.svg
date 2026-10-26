@@ -1,0 +1,25 @@
+<svg class="diagram" viewBox="0 0 520 320" width="100%" role="img" aria-label="尾門外掛備胎示意：方盒子越野車側面線稿，強調色標出掛在側開尾門外的備胎" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" font-family="sans-serif">
+ <text x="260" y="26" text-anchor="middle" font-size="16" fill="currentColor" stroke="none">方盒子越野車側面：備胎掛在尾門外</text>
+ <path d="M40 222 L40 160 C40 152 46 148 54 147 L120 144 L142 92 C144 86 150 84 156 84 L440 84 C448 84 452 88 452 96 L452 222" />
+ <path d="M150 140 L166 96 L270 96 L270 140 Z" stroke-width="1.4"/>
+ <path d="M282 96 L360 96 L360 140 L282 140 Z" stroke-width="1.4"/>
+ <path d="M372 96 L440 96 L440 140 L372 140 Z" stroke-width="1.4"/>
+ <path d="M120 146 L452 146" stroke-width="1.2"/>
+ <path d="M276 92 L276 214 M366 92 L366 188" stroke-width="1.2"/>
+ <path d="M446 100 L446 214" stroke="#f08a5d" stroke-width="3" stroke-dasharray="6 4"/>
+ <rect x="42" y="158" width="26" height="14" rx="2" stroke-width="2"/>
+ <path d="M60 196 L100 196" stroke-width="3"/>
+ <path d="M140 80 L440 80" stroke-width="3"/>
+ <rect x="452" y="128" width="22" height="70" rx="6" stroke="#f08a5d" stroke-width="3"/>
+ <circle cx="476" cy="163" r="30" stroke="#f08a5d" stroke-width="5"/>
+ <circle cx="476" cy="163" r="13" stroke="#f08a5d" stroke-width="2"/>
+ <circle cx="120" cy="226" r="36"/><circle cx="120" cy="226" r="16"/>
+ <circle cx="380" cy="226" r="36"/><circle cx="380" cy="226" r="16"/>
+ <path d="M20 262 L506 262" stroke-width="1" stroke-dasharray="2 4"/>
+ <path d="M476 133 L470 62" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="360" y="56" font-size="15" fill="currentColor" stroke="none">① 外掛備胎「背包」</text>
+ <path d="M446 214 L430 290" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="300" y="306" font-size="15" fill="currentColor" stroke="none">② 側開尾門（鉸鏈在側邊）</text>
+ <path d="M220 80 L200 50" stroke-width="1.2" stroke-dasharray="4 3"/>
+ <text x="60" y="46" font-size="15" fill="currentColor" stroke="none">③ 方正車頂與直立車窗</text>
+</svg>

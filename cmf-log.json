@@ -308,5 +308,28 @@
   "angle": "生態合成革配套小鵬 MONA L05",
   "url": "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home",
   "image": "cmf-material-kuangda-mona-l05.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "car",
+  "car_key": "aito-m8-2026-fuguang-cabin",
+  "angle": "浮光菱影座艙配色與菱格 Nappa",
+  "url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html",
+  "image": "cmf-aito-m8-cabin.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "paint",
+  "car_key": "paint:geely-emgrand-alps-gold",
+  "angle": "銀元鋁片加奈米鈦白的阿爾卑斯金",
+  "url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml",
+  "image": "cmf-paint-emgrand-alps-gold.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "material",
+  "car_key": "material:ktrd-suede-vegan-nappa",
+  "angle": "經濟型機能麂皮與植絨純素 Nappa（Carnival 實車）",
+  "url": "https://www.dt.co.kr/article/12090677"
  }
 ]
