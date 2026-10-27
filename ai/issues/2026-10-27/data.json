@@ -1,0 +1,477 @@
+{
+ "date": "2026-10-27",
+ "weekday": "週二",
+ "issue_no": 20,
+ "lede": "OpenAI 推出 GPT-6.1 Terra：API 價格砍半、主打操作電腦與看懂畫面；Canva 也發表第一個自研生圖模型 Craft，Runway 讓你用一句話做出自己的生成小工具。",
+ "ainews": [
+  {
+   "id": "gpt61-terra",
+   "org": "OpenAI",
+   "tag": "文字模型 · 版本升級",
+   "date": "2026-10-26",
+   "title": "OpenAI 推出 GPT-6.1 Terra：比 GPT-5.6 Terra 更會操作電腦、錯誤率大降，API 價格減半",
+   "orig": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.",
+   "summary": "【比上一版進步在哪（官方說法）】OpenAI 10/26 推出 GPT-6.1 Terra，接替 GPT-5.6 Terra。在 Agents’ Last Exam（考 AI 操作軟體完成工作）中等推理強度下比 GPT-5.6 Terra 高 15 個百分點、成本約三分之一，官方說表現追平 GPT-6 Astra、每 token 價格只有其十分之一，完成任務速度比 GPT-6 Astra 與 GPT-6.1 Sol 快三倍以上；容易誘發錯誤的內部測試中，低推理強度的錯誤率從 53.6% 降到 16.7%；Terminal-Bench 4.0 最高強度解出 50.3%，GPT-5.6 Terra 是 21.5%。官方也說最難的寫程式任務仍建議用 GPT-6.1 Sol 或 GPT-6 Astra。【價格與限制】API 名稱 gpt-6.1-terra，每百萬 token 輸入 1 美元、快取輸入 0.05 美元、輸出 5 美元，比 GPT-5.6 Terra 與 GPT-6.1 Sol 便宜一半；在 ChatGPT Work 與 Codex 裡同樣的額度能做更多事。【哪裡能用】即日起開放 Plus、Pro、Enterprise、Edu 用戶在 ChatGPT Work 與 Codex 使用，以及 OpenAI API。【初步實測（樣本小）】西班牙 FULGOR 12 題西語測試 Terra 與 Sol 同分 68/72，Terra 快約三成、花費約一半；Plotly 43 題資料分析考試 Terra 40 題、Sol 43 題，費用一半；Artificial Analysis 稱它在智力與成本的平衡上是目前最划算的一檔；DualEntry 會計測試則只拿 78.2%，排 22 個模型中第 18，速度快但簡單題失分多。",
+   "links": [
+    [
+     "OpenAI 官方介紹",
+     "https://openai.com/index/introducing-gpt-6-1-terra/"
+    ],
+    [
+     "OpenAI X 貼文",
+     "https://x.com/OpenAI/status/2114780711664398349"
+    ],
+    [
+     "實測：FULGOR Terra vs Sol 西語 12 題（西文）",
+     "https://elfulgor.es/gpt-6-1-terra-sol-luna-diferencias/"
+    ],
+    [
+     "實測：Plotly 資料分析考試",
+     "https://plotly.com/blog/gpt-6-1-terra-plotly-data-analytics-bench/"
+    ],
+    [
+     "Artificial Analysis 評測",
+     "https://artificialanalysis.ai/articles/gpt-6-1-terra-pushes-the-cost-efficiency-frontier"
+    ]
+   ],
+   "image": {
+    "file": "img/gpt61-terra.webp",
+    "alt": "OpenAI GPT-6.1 Terra 官方宣傳圖",
+    "credit": "OpenAI",
+    "credit_url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+   },
+   "short_title": "GPT-6.1 Terra：更便宜的中階模型",
+   "one": "ChatGPT 付費用戶多了一個又快又省額度的模型，適合整理文件、看圖表、讓 AI 幫你操作軟體。",
+   "gloss": [
+    [
+     "Computer use（電腦操作）",
+     "AI 看著螢幕畫面，自己點選、輸入，替你在軟體裡完成工作"
+    ],
+    [
+     "API",
+     "讓開發者用程式呼叫 AI 模型的介面，按用量計費"
+    ]
+   ]
+  },
+  {
+   "id": "canva-craft",
+   "org": "Canva",
+   "tag": "圖像模型 · 新模型",
+   "date": "2026-10-26",
+   "title": "Canva 發表第一個自研生圖模型 Craft：2K 解析度、文字更準，生成後可拆成可編輯圖層",
+   "orig": "Today, we’re unveiling Canva Craft, our first state-of-the-art image generation model, developed and trained by Canva Research.",
+   "summary": "Canva 10/26 發表自家 Canva Research 從零訓練的生圖模型 Craft。做法是分兩段：先由規劃模型寫出構圖計畫（有哪些元素、位置、大小、要放的字），再由渲染模型畫成最高 2K、30 多種比例的圖，所以字比較準、物件位置比較好控制，也能搭配 Magic Layers 拆成可編輯圖層。訓練資料特別加入大量 Canva 人工設計模板。Canva 說它在 DesignArena 群眾評比上市時排第 4，人像與風景分類排第 1（官方說法）；提示詞可用任何語言，圖中文字支援 55 種語言。即日起所有 Canva 使用者可在 Dream Lab 使用，開發者可走公開 API；Canva MCP 接入與更快的 Craft-fast／ultrafast 版本「即將推出」。官方也承認細小文字與技術圖面還要再加強。",
+   "links": [
+    [
+     "Canva 官方公告",
+     "https://www.canva.com/newsroom/news/canva-craft/"
+    ]
+   ],
+   "image": {
+    "file": "img/canva-craft.webp",
+    "alt": "Canva Craft 官方宣傳圖",
+    "credit": "Canva",
+    "credit_url": "https://www.canva.com/newsroom/news/canva-craft/"
+   },
+   "short_title": "Canva 推出自研生圖模型 Craft",
+   "one": "在 Canva 裡做海報、社群圖時，生出來的字更準，還能直接拆圖層再改。",
+   "gloss": [
+    [
+     "DesignArena",
+     "讓大眾盲選比較 AI 設計作品好壞的排行網站"
+    ]
+   ]
+  },
+  {
+   "id": "runway-app-studio",
+   "org": "Runway",
+   "tag": "平台服務 · Runway",
+   "date": "2026-10-26",
+   "title": "Runway 推出 App Studio：用一句話描述，就能做出自己的圖像／影片／音訊生成小工具",
+   "orig": "Today, we're launching App Studio, a new, on-demand way to build custom creative software inside Runway.",
+   "summary": "Runway 10/26 推出 App Studio：用白話描述想要的工具，它就生成一個有自己介面的小 App，背後用 Runway 的圖像、影片、音訊模型，並能套用你的品牌套件（Brand Kits）和工作流程。上線就附幾個內建 App 可直接用或改：換角色（Character Swap）、把產品換進既有影片並保持標籤正確（AutoComp）、產品照變商品圖（Product Portfolio）、3D 鏡頭位置控制、只改圖中指定區域（Precise Edit）。所有付費方案都包含，不另收費，建置與執行都扣原本的點數；公開分享的 App 由使用者自付生成費用。",
+   "links": [
+    [
+     "Runway 官方公告",
+     "https://runway.com/news/company-news/introducing-runway-app-studio"
+    ]
+   ],
+   "image": {
+    "file": "img/runway-app-studio.webp",
+    "alt": "Runway App Studio 官方宣傳圖",
+    "credit": "Runway",
+    "credit_url": "https://runway.com/news/company-news/introducing-runway-app-studio"
+   },
+   "short_title": "Runway 能自己做生成小工具",
+   "one": "常做同一種影片或商品圖的人，可以把流程包成一個按鈕式小工具，團隊照著用就好。",
+   "gloss": [
+    [
+     "點數（credits）",
+     "訂閱方案每月給的額度，每次生成會扣掉一些"
+    ]
+   ]
+  },
+  {
+   "id": "grok-odyssey-ep1",
+   "org": "xAI（SpaceXAI）",
+   "tag": "影片生成 · Grok Imagine",
+   "date": "2026-10-23",
+   "title": "Grok Imagine 釋出 AI 版《奧德賽》第一集，約 7 分鐘，而不是先前承諾的長片",
+   "orig": "Watch Episode 1 of our Odyssey series made with Grok Imagine.",
+   "summary": "Grok Imagine 官方帳號 10/23 在 X 發布以 Grok Imagine 製作的《奧德賽》系列第一集，片長約 7 分鐘，由 AI 影像公司 Wonder Studios 與導演 Dev Walker 合作。Musk 7 月曾說年底前會做出一部「符合史實」的完整長片，這次改以系列分集推出。TechCrunch 評論部分鏡頭幾可亂真，但對白生硬、節奏拖沓；The Verge 指出角色臉孔不一致、盔甲不符時代等問題。這是 Grok Imagine 目前最長的官方展示作品，可用來觀察它在長篇敘事上的極限。",
+   "links": [
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/"
+    ],
+    [
+     "The Verge 短評",
+     "https://www.theverge.com/ai-artificial-intelligence/1018419/heres-the-first-episode-of-groks-historically-accurate-odyssey"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok 版《奧德賽》第一集上線",
+   "one": "想知道 AI 做一整段劇情影片目前到什麼程度，這 7 分鐘是很好的觀察樣本。",
+   "gloss": [
+    [
+     "Grok Imagine",
+     "xAI 的圖像與影片生成功能，在 Grok App 裡使用"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-wan22-fun-control",
+   "title": "Wan2.2 Fun Control：用動作影片帶動你的圖，在 ComfyUI 生成控制影片",
+   "learn": "學會載入官方範本，用一張起始圖加一段姿勢控制影片，讓人物照著影片的動作動起來。",
+   "level": "中階",
+   "vram": "官方在 RTX 4090D 24GB 測試：640×640、81 幀，fp8 版用掉約 83% 顯存（約 524 秒），加 4 步 LoRA 約 89%（約 79–138 秒）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "控制影片",
+     "事先處理成骨架、線稿或深度圖的影片，用來告訴模型動作和構圖該怎麼走"
+    ],
+    [
+     "高噪／低噪模型",
+     "Wan2.2 分兩段生成，先用高噪模型定大方向，再用低噪模型補細節"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版，在範本庫的 Video 分類找「Wan2.2 Fun Control」；找不到通常是版本太舊。",
+    "下載高噪與低噪兩個主模型 wan2.2_fun_control_high_noise_14B_fp8_scaled／low_noise 版放到 models/diffusion_models/；文字編碼器 umt5_xxl_fp8_e4m3fn_scaled 放 models/text_encoders/，wan_2.1_vae 放 models/vae/。",
+    "想快一點就再下載兩個 lightx2v 4 步 LoRA（高噪、低噪各一）放 models/loras/，範本預設就是開啟加速版；注意高噪模型配高噪 LoRA、低噪配低噪。",
+    "在 Load Image 上傳起始圖，在第二個 Load Video 載入官方提供的姿勢控制影片；因為影片已處理好，選取預處理節點按 Ctrl+B 停用。",
+    "提示詞可寫中文或英文，在 Wan22FunControlToVideo 設尺寸（預設 640×640 對低顯存較友善），按 Run。內建只有 Canny 預處理，要用深度或骨架可另裝 comfyui_controlnet_aux。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Wan2.2 Fun Control",
+     "https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-control"
+    ]
+   ]
+  },
+  {
+   "id": "tut-omnigen2",
+   "title": "OmniGen2：一個模型同時生圖、用指令改圖、合成多張參考圖",
+   "learn": "學會在 ComfyUI 原生跑 OmniGen2 的文生圖與指令改圖兩個範本，並開啟第二張參考圖做合成。",
+   "level": "入門",
+   "vram": "官方頁未列 VRAM；主模型為 fp16 版（約 7B 參數：3B 視覺語言模型＋4B 擴散模型），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "擴散模型",
+     "從一團雜訊一步步「去噪」畫出圖片的生圖模型"
+    ],
+    [
+     "參考圖",
+     "給模型看的範例圖，讓它照著裡面的人物、物品或場景來畫"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，在範本庫搜尋「OmniGen2」或「OmniGen2 Image Edit」。",
+    "下載 omnigen2_fp16.safetensors 放 models/diffusion_models/，qwen_2.5_vl_fp16.safetensors 放 models/text_encoders/，ae.safetensors 放 models/vae/。",
+    "文生圖：在 EmptySD3LatentImage 設尺寸（建議 1024×1024），第一個 CLIPTextEncode 寫想要的內容、第二個寫不想要的，按 Run。",
+    "改圖：開 Image Edit 範本，在 Load Image 上傳圖片，提示詞直接寫指令，例如「把洋裝改成藍色」。",
+    "要合成多張圖時，選取粉紫色（停用中）的第二張圖輸入節點按 Ctrl+B 啟用；想自訂尺寸就刪掉連到 EmptySD3LatentImage 的 Get image size 節點。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：OmniGen2",
+     "https://docs.comfy.org/tutorials/image/omnigen/omnigen2"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成（版面控制）",
+   "status": "forge-classic 加入 MOSS-Image-Edit 支援（尚未正式發版）。",
+   "updates": [
+    {
+     "title": "forge-classic（neo 分支）新增 MOSS-Image-Edit 支援",
+     "date": "2026-10-27",
+     "summary": "Haoming02 的 sd-webui-forge-classic 在 neo 分支 10/27 凌晨（台北時間）提交 commit c6c2b43「Moss-Image-Edit」，新增 MOSS-Image 編輯版的模型載入與推理程式（backend/diffusion_engine/moss_image.py 等）。目前只是 commit，尚未出新的 release（最新仍是 2.31，那版已支援 MOSS-Image 生圖），commit 也沒附使用說明，實際用法以後續 release notes 為準。",
+     "links": [
+      [
+       "GitHub commit c6c2b43",
+       "https://github.com/Haoming02/sd-webui-forge-classic/commit/c6c2b43"
+      ]
+     ],
+     "image": null,
+     "short_title": "Forge 準備支援 MOSS 改圖",
+     "one": "用 Forge 的人，之後可能不用換到 ComfyUI 也能拿 MOSS-Image 來改圖。",
+     "gloss": [
+      [
+       "commit",
+       "程式碼的一次修改紀錄；還沒打包成正式版本"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "兩個榜單都在無變化門檻內：LMArena 資料仍是 10/22；文生圖榜分數只差 1–4 分，FLUX 3 Image 排第 13 尚未進前 10，沿用前一份圖。",
+  "GPT-6.1 Terra 官方頁擋直接抓取，內容依官方頁全文轉載整理；各家實測樣本小，屬初步結果。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-27",
+  "compared_to": "2026-10-26",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-22",
+    "fetched": "2026-10-27",
+    "carried_from": "2026-10-24",
+    "latest_as_of": "2026-10-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1517,
+      "ci": 7,
+      "delta": -7
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1509,
+      "ci": 7,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1509,
+      "ci": 8,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 6,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 4
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1496,
+      "ci": 4
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1496,
+      "ci": 5,
+      "delta": 2
+     }
+    ],
+    "compared_to": "2026-10-26",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-27",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-27",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-26",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
