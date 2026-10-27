@@ -1,0 +1,21 @@
+<svg class="diagram" viewBox="0 0 520 260" width="100%" role="img" aria-label="Vertical-slat grille 直瀑式格柵示意圖：方盒子 SUV 正面線稿，車頭中央以強調色畫出一排直立格條，兩側為圓形大燈">
+<text x="260" y="24" fill="currentColor" font-size="16" text-anchor="middle">方盒子 SUV 正面（參考魏牌二代藍山）</text>
+<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round">
+<rect x="150" y="38" width="220" height="10" rx="3"/>
+<path d="M140 100 L156 52 H364 L380 100"/>
+<path d="M164 96 L174 60 H346 L356 96 Z"/>
+<rect x="118" y="100" width="284" height="96" rx="10"/>
+<rect x="104" y="112" width="14" height="24" rx="3"/><rect x="402" y="112" width="14" height="24" rx="3"/>
+<circle cx="164" cy="140" r="22"/><circle cx="164" cy="140" r="11"/>
+<circle cx="356" cy="140" r="22"/><circle cx="356" cy="140" r="11"/>
+<rect x="130" y="202" width="260" height="14" rx="4"/>
+<rect x="128" y="196" width="40" height="40" rx="6"/><rect x="352" y="196" width="40" height="40" rx="6"/>
+</g>
+<rect x="206" y="106" width="108" height="76" rx="6" fill="none" stroke="#f08a5d" stroke-width="3"/>
+<line x1="214" y1="112" x2="214" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="223" y1="112" x2="223" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="232" y1="112" x2="232" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="241" y1="112" x2="241" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="250" y1="112" x2="250" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="259" y1="112" x2="259" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="268" y1="112" x2="268" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="277" y1="112" x2="277" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="286" y1="112" x2="286" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="295" y1="112" x2="295" y2="176" stroke="#f08a5d" stroke-width="3"/><line x1="304" y1="112" x2="304" y2="176" stroke="#f08a5d" stroke-width="3"/>
+<circle cx="260" cy="144" r="9" fill="#f08a5d"/>
+<g fill="currentColor" font-size="15">
+<line x1="314" y1="120" x2="440" y2="70" stroke="#f08a5d" stroke-width="1.5"/><text x="444" y="66">直立格條</text>
+<line x1="260" y1="153" x2="260" y2="250" stroke="#f08a5d" stroke-width="1.5"/><text x="268" y="250">發光標誌</text>
+<line x1="142" y1="140" x2="40" y2="90" stroke="currentColor" stroke-width="1.5"/><text x="8" y="84">外方內圓燈</text>
+</g></svg>

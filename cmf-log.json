@@ -331,5 +331,28 @@
   "car_key": "material:ktrd-suede-vegan-nappa",
   "angle": "經濟型機能麂皮與植絨純素 Nappa（Carnival 實車）",
   "url": "https://www.dt.co.kr/article/12090677"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "car",
+  "car_key": "dongfeng-nissan-nx7-cabin",
+  "angle": "90% 軟包與 256 色氛圍燈座艙",
+  "url": "https://www.ithome.com/1/018/049.htm",
+  "image": "cmf-nx7-cabin.jpg"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "paint",
+  "car_key": "paint:lixiang-i6-coldlight",
+  "angle": "風信紫／磁力藍冷光漆",
+  "url": "https://www.ithome.com/1/011/495.htm",
+  "image": "cmf-paint-lixiang-i6-palette.jpg"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "trend",
+  "car_key": "trend:lepas-aura-colors",
+  "angle": "Lepas 三款新色",
+  "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
  }
 ]

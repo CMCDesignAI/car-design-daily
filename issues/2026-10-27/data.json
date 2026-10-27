@@ -1,0 +1,639 @@
+{
+ "date": "2026-10-27",
+ "weekday": "週二",
+ "issue_no": 20,
+ "lede": "魏牌二代藍山今天以直瀑格柵加圓燈的方盒子首秀，高山 8 HEV 同步上市；理想 i6 改款明天上市，Alpine 確定純電 2+2 不走 A310 復古路線，Lexus 2027 RZ 推出雙色車身，Bayon 歐規版與繽越 2027 也在這兩天亮相。",
+ "design_news": [
+  {
+   "id": "wey-lanshan-2",
+   "tag": "全球首秀 · 中國",
+   "date": "2026-10-27",
+   "brand": "魏牌 WEY",
+   "title": "二代藍山今天首秀：直瀑格柵配「外方內圓」圓燈的方盒子",
+   "orig": "预计定位30万级市场 魏牌二代蓝山将于10月27日正式发布",
+   "summary": "魏牌二代藍山 10/27 正式發布，已開啟盲訂，官方定位「智慧豪華方盒子 SUV」，與長城 H10 同平台，計畫年內上市、預計 30 萬元級。外型從上一代的家用大型 SUV 改成硬派方盒子。",
+   "analysis": [
+    [
+     "前臉",
+     "大尺寸直瀑式格柵，中央嵌入可發光的 WEY 標誌；兩側為「外方內圓」的復古圓形大燈。"
+    ],
+    [
+     "比例",
+     "5 座 5,140mm、6 座 5,300mm，寬 2,050、高 1,960mm，軸距同為 3,010mm，加長的 160mm 給第三排。"
+    ],
+    [
+     "車尾",
+     "外掛備胎罩印 WEY 字樣，配分體式豎狀尾燈與側開尾門。"
+    ],
+    [
+     "品牌方向",
+     "車頂行李架加光達，把魏牌高端家用 SUV 的路線轉向越野造型。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/23）",
+     "https://www.autohome.com.cn/news/202610/1317943.html"
+    ]
+   ],
+   "image": {
+    "file": "news-wey-lanshan-2.jpg",
+    "alt": "魏牌二代藍山銀白色車身前 3/4，直瀑格柵與圓形大燈",
+    "credit": "魏牌（via 汽車之家）",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1317943.html"
+   },
+   "more_images": [
+    {
+     "file": "wey-lanshan-2-2.jpg",
+     "alt": "二代藍山車尾，外掛備胎罩與豎狀尾燈",
+     "credit": "魏牌（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317943.html"
+    },
+    {
+     "file": "wey-lanshan-2-3.jpg",
+     "alt": "二代藍山酒紅色 6 座版側面",
+     "credit": "魏牌（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317943.html"
+    }
+   ]
+  },
+  {
+   "id": "lixiang-i6-2026",
+   "tag": "改款 · 中國",
+   "date": "2026-10-22",
+   "brand": "理想 Li Auto",
+   "title": "2026 款理想 i6 明天上市：前包圍與 L9／i9 統一，換 ADB 矩陣燈",
+   "orig": "10月28日上市 最高续航780km/29英寸6K全景屏 一文看懂新款理想i6",
+   "summary": "2026 款理想 i6 定 10/28 上市、11 月初交付，是理想首款面向全球市場的純電 SUV。外觀以家族化細節與燈具升級為主，車內換上 29 吋 6K 全景屏。",
+   "analysis": [
+    [
+     "前臉",
+     "前包圍造型改成與 L9、i9 統一，換裝 MEGA／L9 同款 ADB 矩陣大燈。"
+    ],
+    [
+     "側面",
+     "改用符合新國標的半隱藏式門把；車高由 1,670 降到 1,655mm，提供 20／21 吋輪圈。"
+    ],
+    [
+     "機能",
+     "手動前備廂升級電動，可敲擊或語音開啟。"
+    ],
+    [
+     "座艙",
+     "29 吋 6K 全景屏、高通 8797 晶片，主副駕零重力座椅可躺到 150 度。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/22）",
+     "https://www.autohome.com.cn/news/202610/1317910.html"
+    ]
+   ],
+   "image": {
+    "file": "news-lixiang-i6-2026.jpg",
+    "alt": "2026 款理想 i6 白色車身前 3/4，戶外停車場",
+    "credit": "汽車之家",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1317910.html"
+   },
+   "more_images": [
+    {
+     "file": "lixiang-i6-2026-2.jpg",
+     "alt": "2026 款理想 i6 側面輪廓",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317910.html"
+    },
+    {
+     "file": "lixiang-i6-2026-3.jpg",
+     "alt": "2026 款理想 i6 開啟的電動前備廂",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317910.html"
+    }
+   ]
+  },
+  {
+   "id": "wey-gaoshan8-hev",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-26",
+   "brand": "魏牌 WEY",
+   "title": "高山 8 HEV 上市：「高山流水」MPV 加入油電版",
+   "orig": "限时权益价25.98万起 2.0T+双电机混动 魏牌高山8 HEV正式上市",
+   "summary": "魏牌高山 8 HEV 10/26 上市，售價 26.58–28.58 萬元，是高山家族首款油電混動車型。外觀延續高山 8 智慧版，主打不用充電、全系 Hi4 四驅。",
+   "analysis": [
+    [
+     "前臉",
+     "寬幅橫貫式「山河格柵」與環抱式天際貫穿燈一體銜接，兩側「星瀑」大燈為點陣星光排布。"
+    ],
+    [
+     "車尾",
+     "環抱式「星河」貫穿尾燈，與前燈組呼應。"
+    ],
+    [
+     "CMF",
+     "可選雙色車身，7 款外觀色含高山 8 專屬拼色「鎏光墨綠」；內裝墨玉黑、雲朵白、霞光橙三種。"
+    ],
+    [
+     "比例",
+     "5,280×1,960×1,900mm、軸距 3,145mm，2+2+3 七座。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/26）",
+     "https://www.autohome.com.cn/news/202610/1317983.html"
+    ]
+   ],
+   "image": {
+    "file": "news-wey-gaoshan8-hev.jpg",
+    "alt": "魏牌高山 8 HEV 黑色車身前 3/4，橫貫式格柵",
+    "credit": "魏牌（via 汽車之家）",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1317983.html"
+   },
+   "more_images": [
+    {
+     "file": "wey-gaoshan8-hev-2.jpg",
+     "alt": "高山 8 HEV 車尾與貫穿尾燈",
+     "credit": "魏牌（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317983.html"
+    },
+    {
+     "file": "wey-gaoshan8-hev-3.jpg",
+     "alt": "高山 8 HEV 霞光橙內裝與雙 15.6 吋聯屏",
+     "credit": "魏牌（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317983.html"
+    }
+   ]
+  },
+  {
+   "id": "alpine-2plus2-design",
+   "tag": "設計方向 · 法國",
+   "date": "2026-10-26",
+   "brand": "Alpine",
+   "title": "Alpine 純電 2+2 不走復古：CEO 否決 A310 造型",
+   "orig": "Alpine's Next Four-Seat Sports Car Is Ditching Retro Styling",
+   "summary": "Motor1 報導，Alpine 內部對下一款四座純電跑車曾有兩派：延續 1970–80 年代 A310 的楔形，或走 Alpenglow 式的全新造型。CEO Philippe Krief 拍板走「非常現代」的路線，不借用任何舊 Alpine 元素。",
+   "analysis": [
+    [
+     "定調",
+     "2+2 不呼應 A310，也不跟巴黎車展的 A310 Vision 概念車，會有自己的臉。"
+    ],
+    [
+     "理由",
+     "Krief：A110 是全球公認的經典，A310 則主要受法國車迷喜愛，吸引力較小眾。"
+    ],
+    [
+     "平台",
+     "共用 Alpine Performance Platform（APP），下一代 A110 會先用。"
+    ],
+    [
+     "A310 Vision",
+     "官方定位為獨立設計研究；Krief 只提過可能做極少量的 A310 風格特別版。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motor1（10/26）",
+     "https://www.motor1.com/news/813269/alpine-electric-2-2-news/"
+    ]
+   ],
+   "image": {
+    "file": "news-alpine-a310-vision.jpg",
+    "alt": "Alpine A310 Vision 概念車銀色楔形車身前 3/4（不會用在 2+2 量產車）",
+    "credit": "Alpine（via Motor1）",
+    "credit_url": "https://www.motor1.com/news/813269/alpine-electric-2-2-news/"
+   },
+   "more_images": [
+    {
+     "file": "alpine-a310-vision-2.jpg",
+     "alt": "A310 Vision 概念車車尾",
+     "credit": "Alpine（via Motor1）",
+     "credit_url": "https://www.motor1.com/news/813269/alpine-electric-2-2-news/"
+    }
+   ]
+  },
+  {
+   "id": "lexus-rz-2027",
+   "tag": "年式更新 · 日本／美國",
+   "date": "2026-10-26",
+   "brand": "Lexus",
+   "title": "2027 RZ 美規：六種車色、F SPORT 雙色車身",
+   "orig": "2027 Lexus RZ Brings Bold Energy to All-Electric Luxury",
+   "summary": "Lexus 美國發布 2027 年式 RZ，分 350e FWD、450e AWD 與 550e F SPORT AWD 三種動力，元町工廠生產，明年初到店，起價 47,495 美元。",
+   "analysis": [
+    [
+     "車色",
+     "Oxygen White、Cloudburst Gray、Iridium、Caviar、Copper Crest、Ether 六色。"
+    ],
+    [
+     "F SPORT",
+     "550e 加 Wind 色，並提供 Copper Crest、Cloudburst Gray、Wind、Iridium 的雙色組合。"
+    ],
+    [
+     "座艙",
+     "Tsuyasumi 飾板配單色氛圍燈，可選 Dynamic Sky 調光全景天窗。"
+    ],
+    [
+     "內裝色",
+     "依等級有 Dapple Gray、Palomino、Macadamia，以及 Thunderstorm 與 Black NuLuxe。"
+    ]
+   ],
+   "sources": [
+    [
+     "Lexus USA Newsroom（10/26）",
+     "https://pressroom.lexus.com/2027-lexus-rz-brings-bold-energy-to-all-electric-luxury/"
+    ]
+   ],
+   "image": {
+    "file": "news-lexus-rz-2027.jpg",
+    "alt": "2027 Lexus RZ 550e F SPORT 銀色車身前 3/4，攝影棚",
+    "credit": "Lexus USA Newsroom",
+    "credit_url": "https://pressroom.lexus.com/2027-lexus-rz-brings-bold-energy-to-all-electric-luxury/"
+   },
+   "more_images": [
+    {
+     "file": "lexus-rz-2027-2.jpg",
+     "alt": "2027 Lexus RZ 350e 側面",
+     "credit": "Lexus USA Newsroom",
+     "credit_url": "https://pressroom.lexus.com/2027-lexus-rz-brings-bold-energy-to-all-electric-luxury/"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-bayon-europe",
+   "tag": "車展首發 · 歐洲",
+   "date": "2026-10-26",
+   "brand": "Hyundai",
+   "title": "新 Bayon 歐規版與 N Line：分離式頭燈的小型 SUV",
+   "orig": "Hyundai全新BAYON巴黎車展首發！440公升行李廂、雙12.3吋螢幕與2027油電動力",
+   "summary": "Hyundai 在巴黎車展公開歐洲市場的新一代 Bayon，設計比上一代更明確走 SUV 風格，並同步展示 N Line。與前一天報導的印度版上市資訊不同。",
+   "analysis": [
+    [
+     "前臉",
+     "狹長日行燈沿引擎蓋前緣橫向延伸，主燈移到保險桿兩側，下方大面積黑色進氣配銀色飾件。"
+    ],
+    [
+     "側面",
+     "近水平車頂線、明顯肩線，黑色輪拱一路延伸到側裙。"
+    ],
+    [
+     "N Line",
+     "專屬 18 吋輪圈、亮黑防護飾板，後方分流器整合雙出尾管。"
+    ],
+    [
+     "座艙",
+     "可選雙 12.3 吋曲面螢幕；行李廂 440 公升。"
+    ]
+   ],
+   "sources": [
+    [
+     "車潮 cartrend（10/26）",
+     "https://cartrend.tw/hyundai-bayon-paris-motor-show-2026-440l-hybrid/"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-bayon-europe.jpg",
+    "alt": "Hyundai Bayon N Line 白色車身配黑色車頂，紅色漸層攝影棚背景",
+    "credit": "Hyundai（via 車潮）",
+    "credit_url": "https://cartrend.tw/hyundai-bayon-paris-motor-show-2026-440l-hybrid/"
+   }
+  },
+  {
+   "id": "geely-binyue-2027",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-27",
+   "brand": "吉利 Geely",
+   "title": "2027 款繽越超能版今天上市：光瀑格柵與驭風尾翼",
+   "orig": "2027款吉利缤越超能版官图 将于10月27日上市",
+   "summary": "2027 款吉利繽越超能版 10/27 上市，改用「跃动流光」設計語言，主打年輕化；現款售價 6.68–7.88 萬元。",
+   "analysis": [
+    [
+     "前臉",
+     "光瀑式格柵以 14 道豎向銀色格條拉寬視覺，配流光飛翼 LED 日行燈，點亮時有流水效果。"
+    ],
+    [
+     "車尾",
+     "流線型驭風尾翼，流光星眸尾燈採三段式層疊燈帶。"
+    ],
+    [
+     "座艙",
+     "環抱式座艙、軟質包覆；門板為錯落的菱格紋理，配色有暖陽橙與薄暮灰。"
+    ],
+    [
+     "車色",
+     "波光藍、流雲白、星月銀、遠山灰四色。"
+    ]
+   ],
+   "sources": [
+    [
+     "騰訊新聞（引述易車，10/23）",
+     "https://news.qq.com/rain/a/20261023A04SO800"
+    ]
+   ],
+   "image": {
+    "file": "news-geely-binyue-2027.jpg",
+    "alt": "2027 款吉利繽越藍灰色車身前 3/4 官圖",
+    "credit": "吉利（via 易車／騰訊新聞）",
+    "credit_url": "https://news.qq.com/rain/a/20261023A04SO800"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-nx7-cabin",
+   "kind": "car",
+   "car": "東風日產 NX7",
+   "tag": "內裝 · 中國",
+   "title": "NX7 座艙：90% 軟包與 256 色氛圍燈",
+   "points": [
+    "官方稱全艙可觸面積 90% 為軟包。",
+    "中控台、門板、扶手全部圓角處理。",
+    "256 色撞色氛圍燈，採「見光不見燈」隱藏光源。",
+    "AI 零壓雲毯座椅 2.0，副駕可一鍵平躺。"
+   ],
+   "image": {
+    "file": "cmf-nx7-cabin.jpg",
+    "alt": "東風日產 NX7 淺紫灰色座艙，貫穿式儀表板與中控螢幕",
+    "credit": "東風日產（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/018/049.htm"
+   },
+   "sources": [
+    [
+     "IT之家（10/26）",
+     "https://www.ithome.com/1/018/049.htm"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-lixiang-i6-coldlight",
+   "kind": "paint",
+   "car": "理想 i6",
+   "tag": "車漆 · 中國",
+   "title": "i6 冷光漆：風信紫與磁力藍",
+   "points": [
+    "2026 款 i6 共六色：三款金屬漆、三款特殊冷光漆。",
+    "冷光漆為雲朵黃、風信紫，以及新增的磁力藍。",
+    "磁力藍是帶金屬質感的藍綠色，隨光線呈現深淺變化。",
+    "風信紫是淺紫色，陽光下更顯柔和清亮。"
+   ],
+   "image": {
+    "file": "cmf-paint-lixiang-i6-palette.jpg",
+    "alt": "理想 i6 官方六款外觀顏色色樣圖：珍珠白、外星銀、黑武士、雲朵黃、風信紫、磁力藍",
+    "credit": "理想汽車（via IT之家）",
+    "credit_url": "https://www.ithome.com/1/011/495.htm"
+   },
+   "sources": [
+    [
+     "IT之家（10/10）",
+     "https://www.ithome.com/1/011/495.htm"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-trend-lepas-aura-colors",
+   "kind": "trend",
+   "car": "Lepas",
+   "tag": "新色 · 中國",
+   "title": "Lepas 三款新色：以三個地方的光為靈感",
+   "points": [
+    "Lepas 隨 Aura 概念車發表三款新外觀色。",
+    "Dawn Pearl、Bacalar Blue、Provence Twilight。",
+    "分別取自大溪地的黎明、巴卡拉潟湖的正午與普羅旺斯的暮色。",
+    "Aura 另以瓷器質感塗裝（porcelain finish）建立家族識別。"
+   ],
+   "swatch": {
+    "label": "Bacalar Blue（示意色）",
+    "hex": "#3E9BB5"
+   },
+   "note": "新聞稿未附可用的色樣圖，色塊為示意色。",
+   "sources": [
+    [
+     "PR Newswire（10/22）",
+     "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-robotaxi-live-activity",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Robotaxi 即時動態：卡片發光色＝Cybercab 燈條色",
+   "date": "2026-10-26",
+   "points": [
+    "每趟乘車分配一個顏色，Cybercab 抵達時前方 RGB 燈條亮同色。",
+    "鎖定畫面的即時動態卡片也以同色描邊發光，方便在多台車中找到自己的。",
+    "卡片顯示車牌與即時進度條，Apple Watch 也同樣呈現。",
+    "支援 iOS Liquid Glass，卡片會吸收裝置主題色。",
+    "App 同步推出 iPad、iPhone Duo 等大螢幕專用版面。"
+   ],
+   "image": {
+    "file": "hmi-tesla-robotaxi-live-activity.jpg",
+    "alt": "iPhone 鎖定畫面上紫色發光的 Cybercab「Arriving at Pickup」即時動態卡片",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/news/4896/tesla-adds-ipad-iphone-duo-support-to-robotaxi-app"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（10/26）",
+     "https://www.notateslaapp.com/news/4896/tesla-adds-ipad-iphone-duo-support-to-robotaxi-app"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 韓國",
+   "date": "2026-10-26",
+   "title": "起亞將首度生產氫燃料車：Carnival 氫能版 2029 年投產",
+   "summary": "韓聯社報導，起亞勞資在雇用穩定委員會同意在 Carnival 後繼車型加入氫燃料電池版，2029 年起在光明 1 廠生產；光州 3 廠 2029 年投入中型電動 SUV（傳為 EV7），Sportage、Sorento 下一代分別 2027、2028 年投產，並推動約 1 兆韓元投資與 915 人新聘。",
+   "sources": [
+    [
+     "韓聯社（10/26）",
+     "https://www.yna.co.kr/view/AKR20261026060100003"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 中國",
+   "date": "2026-10-26",
+   "title": "小鵬 Robotaxi 獲廣州 L4 示範運營資格",
+   "summary": "中新經緯報導，小鵬集團獲批廣州市智能網聯汽車應用示範運營資格，可在廣州全域開展 L4 級 Robotaxi 示範運營。",
+   "sources": [
+    [
+     "中新經緯（10/26）",
+     "https://www.jwview.com/jingwei/kb/m/10-26/239757.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 中國",
+   "date": "2026-10-26",
+   "title": "大眾中國在合肥取得 L3 道路測試牌照",
+   "summary": "大眾汽車集團（中國）10/26 宣布已在合肥取得 L3 級自動駕駛道路測試牌照，並開始真實道路測試與資料蒐集。",
+   "sources": [
+    [
+     "界面新聞（10/26）",
+     "https://m.jiemian.com/article/15240529.html"
+    ]
+   ]
+  },
+  {
+   "tag": "法規 · 歐洲",
+   "date": "2026-10-26",
+   "title": "拉脫維亞成第 10 個核准 Tesla FSD 的歐盟國家",
+   "summary": "Tesla 歐洲宣布拉脫維亞核准 FSD（Supervised），即將推送；它是第 10 個個別核准的歐盟成員國、全球第 18 個國家。FSD 在歐洲已改名 Tesla Assisted Driving，歐盟層級的表決預計 12 月。",
+   "sources": [
+    [
+     "Not a Tesla App（10/26）",
+     "https://www.notateslaapp.com/news/4902/latvia-becomes-10th-eu-country-to-approve-tesla-fsd"
+    ]
+   ]
+  },
+  {
+   "tag": "企業 · 美國",
+   "date": "2026-10-26",
+   "title": "Tesla 與 SpaceX 成立特別委員會討論合併",
+   "summary": "Musk 在 SpaceX 第三季財報會上表示，兩家公司已應股東要求成立獨立董事特別委員會討論合併；尚未談定任何條件，Tesla 端需獲全部流通股 50% 支持，12/3 股東會議程未納入此案。",
+   "sources": [
+    [
+     "Not a Tesla App（10/26）",
+     "https://www.notateslaapp.com/news/4899/tesla-and-spacex-form-special-committees-to-discuss-potential-merger"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 台灣",
+   "date": "2026-10-26",
+   "title": "飛羚 101 上市 40 週年：裕隆從自主設計走到電動車外銷",
+   "summary": "工商時報報導，1986 年 10 月 25 日上市的飛羚 101 是台灣第一部自主設計量產車，由 300 位平均 29 歲的工程師歷時五年開發；裕隆集團如今延伸到電動車整車輸出與智慧物流 AMR，嚴慶齡基金會將於 11 月舉辦 FST 學生方程式展演等活動。",
+   "sources": [
+    [
+     "工商時報（10/26）",
+     "https://www.ctee.com.tw/news/20261026700401-430201"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Vertical-slat grille",
+  "zh": "直瀑式格柵（豎向格柵）",
+  "body": "直瀑式格柵是由一根根直立格條排成的水箱護罩，像瀑布一樣由上往下垂直排列。本期魏牌二代藍山的大尺寸直瀑格柵就是例子：鍍鉻的直條佈滿整個車頭中央，中間嵌著會發光的 WEY 標誌；吉利繽越則用 14 道豎向銀色格條。設計師用直條讓車頭看起來更高、更正式，常見於豪華車與方盒子越野車。",
+  "source": [
+   [
+    "汽車之家：魏牌二代藍山直瀑式格柵",
+    "https://www.autohome.com.cn/news/202610/1317943.html"
+   ],
+   [
+    "騰訊新聞（易車）：繽越 14 道豎向格柵",
+    "https://news.qq.com/rain/a/20261023A04SO800"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Hyacinth Lilac & Magnetic Teal",
+   "zh": "風信紫配磁力藍：柔光軟包的城市座艙",
+   "intro": "每日一組內裝配色示例：以理想 i6 的風信紫為門板嵌飾、磁力藍做飾條，借 NX7 大面積軟包的淺紫灰當儀表板，再用 Lepas 的 Provence Twilight 方向做縫線，組成柔和、帶一點冷光的城市座艙。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質包覆",
+     "淺紫灰（示意）",
+     "#9C94A3",
+     false,
+     "ip-upper",
+     {
+      "src": "東風日產 NX7 90% 軟包座艙",
+      "url": "https://www.ithome.com/1/018/049.htm"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬漆",
+     "磁力藍（示意）",
+     "#2F6F73",
+     false,
+     "ip-decor",
+     {
+      "src": "理想 i6 磁力藍冷光漆",
+      "url": "https://www.ithome.com/1/011/495.htm"
+     }
+    ],
+    [
+     "門板嵌飾 · 軟質面料",
+     "風信紫（示意）",
+     "#C9BEDB",
+     false,
+     "door-insert",
+     {
+      "src": "理想 i6 風信紫冷光漆",
+      "url": "https://www.ithome.com/1/011/495.htm"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "暮色灰紫（示意）",
+     "#6E6478",
+     false,
+     "armrest",
+     {
+      "src": "Lepas Provence Twilight",
+      "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "潟湖藍（示意）",
+     "#3E9BB5",
+     false,
+     "stitch",
+     {
+      "src": "Lepas Bacalar Blue",
+      "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨灰（示意）",
+     "#3E3B42",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "90% 軟包、256 色氛圍燈：東風日產 NX7",
+     "https://www.ithome.com/1/018/049.htm"
+    ],
+    [
+     "風信紫、磁力藍冷光漆：2026 款理想 i6",
+     "https://www.ithome.com/1/011/495.htm"
+    ],
+    [
+     "Dawn Pearl／Bacalar Blue／Provence Twilight：Lepas",
+     "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+    ]
+   ],
+   "mood": [
+    "柔和",
+    "冷光",
+    "城市",
+    "放鬆"
+   ],
+   "mood_text": "淺紫灰的大面積軟包讓座艙安靜放鬆，風信紫門板帶出一點個性，磁力藍飾條與潟湖藍縫線在柔和底色上加一點冷光。",
+   "vars": {
+    "headliner": "light",
+    "seat-bolster": "#6E6478",
+    "seat-center": "#C9BEDB",
+    "console": "#9C94A3",
+    "console-arm": "#6E6478",
+    "steering": "#34313A",
+    "accent-pod": "#2F6F73",
+    "accent-pod2": "#3E9BB5",
+    "ip-lower": "#3E3B42",
+    "seat": "#C9BEDB"
+   }
+  }
+ }
+}
