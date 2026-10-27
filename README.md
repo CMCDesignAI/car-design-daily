@@ -110,6 +110,7 @@ tools/
    - `youtube` → 「推薦影片」1 支（和當期新聞相關才放）。`seen-not-reported` 不當主新聞。
 2. **核對原文**：每則都讀過主連結，讀不到再讀 `alt_urls`，摘要只寫原文有的內容；官方頁擋抓取時要在 caveats 註明依哪個轉載來源整理。抓取一律 15 秒逾時。
 3. **代表圖（有就放，沒有就不放）**：抓主連結或 alt 的 `og:image`（curl 加瀏覽器 UA），轉成 ≤1600px WebP、<300KB，存到 `ai/issues/DATE/img/`，在 data.json 的 `image` 填 `file / alt / credit / credit_url`。
+   - **`image.file` 只填檔名**（例 `gpt61-terra.webp`），**不要加 `img/` 前綴**——build_ai 會自己加，重複會變成 `img/img/…` 導致破圖（2026-10-27 事故）。`publish.sh` 會跑 `python3 tools/check_ai_img.py`：任何 AI 頁 `<img src>` 指向不存在的檔案、或 data.json 的 file 含路徑，就失敗、不發布；手動重建後也要跑。
    - 只用官方或來源頁自己的圖（官方宣傳圖、HF／GitHub 分享卡、專案示例、官方貼文影片縮圖）。
    - **絕不用 AI 生成圖代表真實產品**；第三方部落格的 AI 插畫封面也不用。
    - 沒有專屬圖（只有網站通用圖）就設 `"image": null`，頁面會註明「來源頁沒有可用的官方圖片」。

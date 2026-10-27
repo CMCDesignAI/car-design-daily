@@ -35,7 +35,7 @@
     ]
    ],
    "image": {
-    "file": "img/gpt61-terra.webp",
+    "file": "gpt61-terra.webp",
     "alt": "OpenAI GPT-6.1 Terra 官方宣傳圖",
     "credit": "OpenAI",
     "credit_url": "https://openai.com/index/introducing-gpt-6-1-terra/"
@@ -68,7 +68,7 @@
     ]
    ],
    "image": {
-    "file": "img/canva-craft.webp",
+    "file": "canva-craft.webp",
     "alt": "Canva Craft 官方宣傳圖",
     "credit": "Canva",
     "credit_url": "https://www.canva.com/newsroom/news/canva-craft/"
@@ -97,7 +97,7 @@
     ]
    ],
    "image": {
-    "file": "img/runway-app-studio.webp",
+    "file": "runway-app-studio.webp",
     "alt": "Runway App Studio 官方宣傳圖",
     "credit": "Runway",
     "credit_url": "https://runway.com/news/company-news/introducing-runway-app-studio"
