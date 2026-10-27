@@ -26,6 +26,33 @@ for r in log:
 for r in [r for r in log if r["date"]==date]:
     for k in (r["car_key"],r["url"]):
         if k in seen: err.append(f"dup within 30 days: {k} ({seen[k]})")
+# freshness (2026-10-27+): a CMF/HMI piece must not re-run news already covered in any issue's design news/CMF
+# within 30 days, and its newest source must be ≤3 days old. Stale news is allowed only as a detailed CMF report:
+# set "deep": true, real image required (no swatch/⚠ note), ≥4 points covering colour/material names, finish, inspiration, where applied.
+import glob,re
+if date>="2026-10-27":
+    prev={}
+    for f in glob.glob("issues/*/data.json"):
+        pd_=f.split("/")[1]
+        if pd_>=date or (t-dt.date.fromisoformat(pd_)).days>30: continue
+        try: od=json.load(open(f))
+        except Exception: continue
+        for sec in ("design_news","cmf","hmi"):
+            for n in od.get(sec) or []:
+                for _,u in n.get("sources",[]): prev.setdefault(u,(pd_,sec))
+    for x in c+h:
+        deep=x.get("deep")
+        for _,u in x.get("sources",[]):
+            if u in prev and not deep: err.append(f"{x.get('id')} source already used in {prev[u][0]} {prev[u][1]}: {u} (stale; replace, or make it a deep CMF report)")
+        ds=[]
+        for lab,_ in x.get("sources",[]):
+            m=re.search(r"(\d{1,2})/(\d{1,2})[)）]",lab)
+            if m:
+                try: ds.append(dt.date(t.year,int(m[1]),int(m[2])))
+                except ValueError: pass
+        if ds and (t-max(ds)).days>3 and not deep: err.append(f"{x.get('id')} newest source is {max(ds)} (>3 days old); replace, or make it a deep CMF report")
+        if deep and (not x.get("image") or x.get("swatch") or x.get("note") or len(x.get("points",[]))<4):
+            err.append(f"{x.get('id')} deep report needs real image, no swatch/note, ≥4 points")
 # combined cabin drawing (2026-10-19+): headliner must be a preset name
 ci=(d.get("color_data") or {}).get("interior") or {}
 if date>="2026-10-19" and ci:

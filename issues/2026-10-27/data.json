@@ -385,29 +385,31 @@
      "IT之家（10/10）",
      "https://www.ithome.com/1/011/495.htm"
     ]
-   ]
+   ],
+   "deep": true
   },
   {
-   "id": "cmf-trend-lepas-aura-colors",
+   "id": "cmf-trend-byd-seal-07-cabin-colours",
    "kind": "trend",
-   "car": "Lepas",
-   "tag": "新色 · 中國",
-   "title": "Lepas 三款新色：以三個地方的光為靈感",
+   "car": "比亞迪 第二代海豹 07",
+   "tag": "內裝配色 · 中國",
+   "title": "第二代海豹 07：三款內裝配色",
    "points": [
-    "Lepas 隨 Aura 概念車發表三款新外觀色。",
-    "Dawn Pearl、Bacalar Blue、Provence Twilight。",
-    "分別取自大溪地的黎明、巴卡拉潟湖的正午與普羅旺斯的暮色。",
-    "Aura 另以瓷器質感塗裝（porcelain finish）建立家族識別。"
+    "10/26 開啟盲訂，同步公布內裝配色。",
+    "內裝三色：Yunxi White、Phantom Grey、Ningye Purple。",
+    "外觀六色含 Pala Green、Aurora Pink、Sea Mist Purple。",
+    "中控飾板與出風口造型改新，換三輻方向盤。"
    ],
-   "swatch": {
-    "label": "Bacalar Blue（示意色）",
-    "hex": "#3E9BB5"
+   "image": {
+    "file": "cmf-byd-seal-07-cabin-colours.jpg",
+    "alt": "第二代海豹 07 紫色調座艙官圖，懸浮中控螢幕與三輻方向盤",
+    "credit": "BYD（via CarNewsChina）",
+    "credit_url": "https://carnewschina.com/2026/10/26/byd-opens-blind-orders-for-second-generation-seal-07-with-lidar-and-2960-mm-wheelbase/"
    },
-   "note": "新聞稿未附可用的色樣圖，色塊為示意色。",
    "sources": [
     [
-     "PR Newswire（10/22）",
-     "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+     "CarNewsChina（10/26）",
+     "https://carnewschina.com/2026/10/26/byd-opens-blind-orders-for-second-generation-seal-07-with-lidar-and-2960-mm-wheelbase/"
     ]
    ]
   }

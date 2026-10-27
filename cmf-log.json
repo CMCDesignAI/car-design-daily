@@ -351,8 +351,16 @@
  {
   "date": "2026-10-27",
   "kind": "trend",
+  "car_key": "trend:byd-seal-07-cabin-colours",
+  "angle": "內裝三色 Yunxi White／Phantom Grey／Ningye Purple",
+  "url": "https://carnewschina.com/2026/10/26/byd-opens-blind-orders-for-second-generation-seal-07-with-lidar-and-2960-mm-wheelbase/",
+  "image": "cmf-byd-seal-07-cabin-colours.jpg"
+ },
+ {
+  "date": "2026-10-23",
+  "kind": "trend",
   "car_key": "trend:lepas-aura-colors",
-  "angle": "Lepas 三款新色",
+  "angle": "(已於 10/23 設計新聞報導；封鎖)",
   "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
  }
 ]

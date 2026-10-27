@@ -57,6 +57,7 @@ tools/
    - **規則 2：車型則照片必須是內裝或材質特寫**（座艙、座椅、儀表板、飾板、縫線、布料／皮革、漆面近拍）。**禁止外觀 3/4 或全車照**。找不到合格照片就換車。
    - **材質卡範圍：以「已用於汽車」的表面材質／表面處理為優先**：量產或概念車上看得到、摸得到的內外飾材質，或車用供應商為汽車內外飾提供的材料（皮革與替代皮革、車用面料如 Kvadrat／Dinamica／Alcantara、木飾、裝飾膜、烤漆／塗層效果、電鍍／鍍鉻、紋理／皮紋、發光飾件與燈光材質、指名車款的永續飾材）。**家具相關材質可以收**，前提是能對應到車內（座椅包覆、皮革、紡織、軟質飾面、可轉用到車上的木飾），並在 points 寫出與車內的關聯。**展覽作品要嚴選**：只收有明確車用潛力的材料，純藝術作品不收（例：設計週天然染色作品）。**不收**：結構件、底盤件、引擎／變速箱、隱藏零件或純工程材料新聞（例：回收 PA6 穩定桿連桿）。
    - **來源**：國際車廠原廠新聞稿／內裝圖集、zley 提供的 CMF 部門網站（色彩趨勢 WGSN／Coloro／Pantone／NCS；車用塗料 PPG／Axalta／BASF；材質 MaterialDistrict、Automotive Interiors World /news/materials 等；空間／生活設計 Dezeen／designboom 僅備援）、網路搜尋（Auto&Design、Interior Motives、Car Design News 等），以及相關時的中國車廠（NIO、Li Auto、Xpeng、BYD 等原廠發布）。每一句 point 都要能在來源找到；色名／材質名保留原廠英文；不可從照片推測。
+   - **新鮮度（zley 10/27 規則，check_cmf.py 會擋）**：CMF／HMI 卡的最新來源須在 3 天內，且來源網址不可在近 30 天任何一期的設計新聞／CMF／HMI 出現過。舊聞只有做成**詳細 CMF 報告**才可用：要有該色／材質的真實照片（色樣、實車、材質特寫），寫出色名（原廠英文）、塗裝／材質工法、靈感來源、用在哪些部位，並在卡上加 `"deep": true`（不得用 swatch／⚠ note，points ≥4）。只寫「發表了 X 款新色」而沒有實圖的文字卡沒有意義，直接換一則新的。
    - **去重（30 天）**：寫入 `cmf-log.json`（`{date, kind?, car_key, angle, url, image?}`）。30 天內同 `car_key` 或同 `url` 不再放。車型湊不到 2 則就少放，不硬湊；0 則車型時仍盡量保留趨勢／塗料／材質。
 1c. **介面與 HMI 卡（`hmi[]`，0–2 張；有好案例時 1 張，強案例日 2 張）**：在上面卡片模組的 C 列，和其他卡片同樣式，標籤「介面與 HMI」（kind=case）或「靈感參考」（kind=inspiration）。給 GUI 設計師看的「以圖為主」設計案例。
    - 欄位：`hmi[]`：`{id, kind(case|inspiration), brand, tag, title（≤26 字）, date（YYYY-MM-DD，來源真實發布日）, points[3–5 句 zh-TW，寫這個介面設計做得好的地方], image{file（本機 .jpg，存 issues/<日期>/img/）, alt, credit, credit_url}, sources[[名稱, url]]}`。`hmi` 空或缺 → C 列不顯示。
