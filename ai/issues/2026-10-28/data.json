@@ -1,0 +1,504 @@
+{
+ "date": "2026-10-28",
+ "weekday": "週三",
+ "issue_no": 21,
+ "lede": "Google 發表能即時互動、自帶聲音的世界模型 Genie 4；微軟推出修圖模型 MAI Image 2.7，ChatGPT 則可以直接讀寫 iCloud 郵件與行事曆。",
+ "ainews": [
+  {
+   "id": "genie4",
+   "org": "Google DeepMind",
+   "tag": "世界模型 · 版本升級",
+   "date": "2026-10-27",
+   "title": "Google DeepMind 發表 Genie 4：更逼真的即時互動世界，第一次自帶聲音與對話，可撐約 2 分鐘",
+   "orig": "Genie 4: A new generation of world simulation",
+   "summary": "【比上一版進步在哪（官方說法）】Genie 4 接替 Genie 3，畫面更寫實、物理（空氣動力、碰撞）更自然，人物動作與反應也更像真人；第一次原生生成聲音，包括環境音、音樂和會依你的操作即時改變的角色對話。可以在模擬進行中用一句話改天氣、移動鏡頭、加入人物或物件，由 Gemini 負責理解指令並維持場景連貫。據 TechCrunch 與 The Verge，場景可維持約 2 分鐘，是 Genie 3 的兩倍。【限制】官方坦承時間一久細節與物件會漂移，複雜物理、聲音準確度、畫面中的文字仍在改進。【哪裡能用】目前只開放給受邀測試者做研究預覽；接下來先給 Google AI Ultra 訂閱者在 Project Genie 使用（已開放候補名單），以及 Gemini API／AI Studio 的早期合作夥伴，API 價格尚未公布。【實測】目前只有媒體看過官方展示，還沒有一般使用者的實測比較。",
+   "links": [
+    [
+     "Google DeepMind 官方介紹",
+     "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    ],
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+    ],
+    [
+     "Google DeepMind X 貼文",
+     "https://x.com/GoogleDeepMind/status/2115114028338962672"
+    ],
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+    ],
+    [
+     "The Verge 報導",
+     "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+    ]
+   ],
+   "image": {
+    "file": "genie4.webp",
+    "alt": "Google DeepMind 發布 Genie 4 的官方貼文畫面",
+    "credit": "Google DeepMind",
+    "credit_url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+   },
+   "short_title": "Genie 4：能邊玩邊改、還會出聲的 AI 世界",
+   "one": "打一句話就生成一個能即時走動、互動的虛擬場景，現在連環境音和角色對話都有；一般人要等 AI Ultra 方案開放。",
+   "gloss": [
+    [
+     "世界模型",
+     "能生成一個可以即時操作、會依你的動作反應的虛擬世界的 AI，不只是播一段固定影片"
+    ],
+    [
+     "研究預覽",
+     "只給少數受邀者試用、蒐集意見的早期版本，還不是正式產品"
+    ]
+   ]
+  },
+  {
+   "id": "mai-image-27",
+   "org": "Microsoft",
+   "tag": "圖像模型 · 版本升級",
+   "date": "2026-10-27",
+   "title": "微軟推出 MAI Image 2.7 修圖模型：重新打光、改風格、改字更準，預覽版就排進修圖榜前段",
+   "orig": "MAI Image 2.7 debuts above GPT Image 2.5 Flare on Artificial Analysis and #3 on Arena",
+   "summary": "【比上一版進步在哪（官方說法）】MAI Image 2.7 是專做「用文字改圖」的模型，微軟說它在 Artificial Analysis 評測的 10 種用途、7 種編輯動作上都比 2.6 好；在修復與強化舊圖、需要推理的修改、場景與風格、文字或符號修改四類達到業界最前段，其中場景與風格比第二名高 24 Elo。可以整張重新打光或換風格、改圖中文字並讓它自然融入、把商品搬到新場景而不破壞整體。【排名】以預覽版身分上線，在 Arena 的修圖榜排第 3、Artificial Analysis 修圖榜排第 2（官方說法，本刊榜單追蹤的是文生圖榜，不是修圖榜）。【哪裡能用、價格】官方公告沒有寫明開放管道與價格。【實測】目前還沒找到獨立使用者的實測比較，只有官方引用的榜單成績。",
+   "links": [
+    [
+     "Microsoft AI 官方公告",
+     "https://microsoft.ai/news/mai-image-2-7-debut/"
+    ]
+   ],
+   "image": {
+    "file": "mai-image-27.webp",
+    "alt": "MAI Image 2.7 官方宣傳圖",
+    "credit": "Microsoft AI",
+    "credit_url": "https://microsoft.ai/news/mai-image-2-7-debut/"
+   },
+   "short_title": "MAI Image 2.7：微軟的新修圖模型",
+   "one": "想把照片換光線、換風格或改上面的字，又不想重畫整張圖，這類修圖模型又多了一個強力選手。",
+   "gloss": [
+    [
+     "Elo",
+     "從大量盲測「兩張選一張」累積出來的分數，差越多代表越常被選中"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-icloud",
+   "org": "OpenAI",
+   "tag": "平台服務 · ChatGPT",
+   "date": "2026-10-27",
+   "title": "ChatGPT 新增 iCloud 郵件與行事曆外掛：可讀信、寄信、排行程，所有方案都能用",
+   "orig": "ChatGPT can now access your iCloud Mail and Calendar",
+   "summary": "據 MacRumors，OpenAI 10/27 在 ChatGPT 加入 iCloud Mail 與 iCloud Calendar 外掛。行事曆可以讀取、新增、修改會出現在 iPhone 行事曆（或其他用 iCloud 行事曆的 App）的行程；郵件可以搜尋、閱讀 iCloud 信件、管理信件與草稿、寄信，以及查 iCloud 聯絡人。只限 @icloud.com、@me.com、@mac.com 信箱，看不到 iOS 郵件 App 裡的 Gmail 或 Outlook。兩者都要先到 Apple 帳號建立「App 專用密碼」。這些權限也能給 OpenAI 上個月推出的主動式代理 Dots 使用。所有方案都能用，支援網頁、桌面版與 iOS。",
+   "links": [
+    [
+     "MacRumors 報導",
+     "https://www.macrumors.com/2026/10/27/chatgpt-icloud-mail-calendar-plugin/"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 能管你的 iCloud 信件和行事曆",
+   "one": "用 iPhone 內建信箱和行事曆的人，現在可以直接叫 ChatGPT 幫你找信、回信、排行程，免費方案也行。",
+   "gloss": [
+    [
+     "外掛（Plugin）",
+     "讓 ChatGPT 連到其他服務、代你讀寫資料的擴充功能"
+    ],
+    [
+     "App 專用密碼",
+     "Apple 帳號另外產生給第三方 App 用的密碼，不用交出你的主密碼"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-roundup",
+   "org": "xAI",
+   "tag": "延伸 · Grok Bot",
+   "date": "2026-10-27",
+   "title": "Musk 轉發 Grok Bot 新功能總整理：1Password 整合、做影片、X Spaces、平行子代理",
+   "orig": "What's New in Grok Bot",
+   "summary": "Musk 10/27 轉發 Matt Palmer（@mattyp） 製作的「What's New in Grok Bot」影片並寫「New features in Grok @Bot」。本刊先前已報過頁面（Pages）與保管庫（Vault），這次影片另外整理了：與 1Password 團隊合作的整合、Bot 能依文字描述或你給的圖做影片、iPhone 上可用家庭（HomeKit）、提醒事項、位置、聯絡人、時鐘、行事曆，新的 Bot 角色造型、X Spaces 與 Lists 支援、手機版改版與新字體，以及影像／影片的平行子代理、釘選檔案、較少的核准卡片、鍵盤快捷鍵、Word 轉 Google Docs。以上依 Tesla North 對影片的整理，多數功能早在 10 月陸續上線，這支影片屬於彙整。",
+   "links": [
+    [
+     "Elon Musk X 貼文",
+     "https://x.com/elonmusk/status/2115119252785303813"
+    ],
+    [
+     "Tesla North 整理",
+     "https://teslanorth.com/2026/10/27/elon-musk-grok-bot-pages-vault-video/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 十月新功能一次看",
+   "one": "Grok Bot 這個月加了一大串功能，影片把能做影片、接 1Password、管 iPhone 家電等整理在一起。",
+   "gloss": [
+    [
+     "子代理",
+     "主助理把工作拆給好幾個小幫手同時做，做完再交回來"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "tutorials": [
+  {
+   "id": "tut-z-image-turbo",
+   "title": "Z-Image-Turbo：8 步就出圖、中英文字都寫得準的輕量生圖模型",
+   "learn": "學會在 ComfyUI 載入官方範本，用 3 個檔案跑起阿里通義的 Z-Image-Turbo，快速生成含中英文字的圖。",
+   "level": "入門",
+   "vram": "官方說可在 16GB 顯存的消費級顯卡上跑",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "蒸餾版（Turbo）",
+     "把大模型壓縮訓練成只要很少步數就能出圖的快速版本"
+    ],
+    [
+     "文字編碼器",
+     "把你的提示詞翻成模型看得懂的數字的元件"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版，在範本庫（Workflow → Browse Templates）找「Z-Image-Turbo」；找不到通常是版本太舊。",
+    "下載 3 個檔案：文字編碼器 qwen_3_4b.safetensors 放 models/text_encoders/，主模型 z_image_turbo_bf16.safetensors 放 models/diffusion_models/，VAE ae.safetensors 放 models/vae/。",
+    "開啟範本，在提示詞框寫你要的畫面，可以直接用中文，也能要求圖上出現指定的中英文字。",
+    "步數維持範本預設（官方說 8 步就夠），按 Run 生成；想控制構圖，同一頁還有 Fun Union ControlNet 範本，支援線稿、深度、骨架等控制。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Z-Image-Turbo",
+     "https://docs.comfy.org/tutorials/image/z-image/z-image-turbo"
+    ],
+    [
+     "Hugging Face 模型卡",
+     "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+    ]
+   ]
+  },
+  {
+   "id": "tut-birefnet",
+   "title": "BiRefNet：在 ComfyUI 一鍵去背，頭髮毛邊也乾淨",
+   "learn": "學會用 ComfyUI 內建的 BiRefNet 範本，把照片背景去掉，輸出透明背景圖和遮罩，方便後續合成。",
+   "level": "入門",
+   "vram": "官方文件未標示，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "遮罩（Mask）",
+     "一張黑白圖，標出哪裡是主體、哪裡要去掉"
+    ],
+    [
+     "RGBA",
+     "多了透明度通道的圖片格式，背景可以是透明的"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版，在範本庫的 Utility 分類找「BiRefNet: Remove Background」。",
+    "下載 birefnet.safetensors，放到 ComfyUI/models/background_removal/（注意不是 checkpoints 資料夾）。",
+    "在 Load Image 節點上傳要去背的圖片（人像、商品、動物都可以），按 Run。",
+    "輸出有兩個：去背後的透明背景圖（RGBA）和前景遮罩，可以直接存檔，或接到其他節點做合成、改圖；背景太雜或主體和背景顏色太接近時效果會變差。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：BiRefNet 去背",
+     "https://docs.comfy.org/tutorials/utility/remove-background-birefnet"
+    ],
+    [
+     "Comfy-Org BiRefNet 模型頁",
+     "https://huggingface.co/Comfy-Org/BiRefNet"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成＋編輯",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成（版面控制）",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "文生圖榜分數只差 0–4 分、在無變化門檻內，沿用前一份圖；文字榜為官方資料集 10/22 版重新計算後的數字。",
+  "ChatGPT iCloud 外掛依 MacRumors 報導整理；Genie 4 與 MAI Image 2.7 目前沒有一般使用者實測。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-28",
+  "compared_to": "2026-10-27",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-10-22",
+    "fetched": "2026-10-28",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1526,
+      "ci": 7,
+      "delta": 9
+     },
+     {
+      "rank": 2,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "delta": 7
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 2,
+      "delta": 10
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1501,
+      "ci": 8,
+      "move": -4,
+      "delta": -8
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Muse Spark 1.3 (max)",
+      "org": "Meta",
+      "score": 1491,
+      "ci": 5,
+      "delta": -5
+     }
+    ],
+    "compared_to": "2026-10-27",
+    "diff": {
+     "summary": [
+      "Gemini 4 Argon (high): #1→#1 (0 名), 1517→1526 (+9)",
+      "Claude Opus 5.5 (high): #2→#2 (0 名), 1509→1516 (+7)",
+      "Claude Fable 5.1 (max): #5→#3 (+2 名), 1503→1513 (+10)",
+      "NEW #4 Claude Opus 5 (max) (Anthropic) 1508",
+      "NEW #5 Claude Opus 5 (high) (Anthropic) 1503",
+      "Claude Opus 4.6 (high): #6→#6 (0 名), 1503→1501 (-2)",
+      "Muse Wonder (max): #3→#7 (-4 名), 1509→1501 (-8)",
+      "Gemini 3.8 Flash (high): #9→#8 (+1 名), 1496→1498 (+2)",
+      "Claude Opus 4.6: #8→#9 (-1 名), 1497→1497 (+0)",
+      "Muse Spark 1.3 (max): #10→#10 (0 名), 1496→1491 (-5)",
+      "OUT Claude Fable 5 (high) (前次 #4 1503)",
+      "OUT Claude Opus 4.7 (high) (前次 #7 1501)"
+     ],
+     "dropped": [
+      {
+       "model": "Claude Fable 5 (high)",
+       "org": "Anthropic",
+       "rank": 4,
+       "score": 1503
+      },
+      {
+       "model": "Claude Opus 4.7 (high)",
+       "org": "Anthropic",
+       "rank": 7,
+       "score": 1501
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Claude Fable 5 (high)",
+      "org": "Anthropic",
+      "rank": 4,
+      "score": 1503
+     },
+     {
+      "model": "Claude Opus 4.7 (high)",
+      "org": "Anthropic",
+      "rank": 7,
+      "score": 1501
+     }
+    ],
+    "analysis": "Gemini 4 Argon (high) 仍是第 1，分數升到 1526（+9），和第 2 名 Claude Opus 5.5 (high) 的差距維持約 10 分。Claude Opus 5 的 max 與 high 兩個版本同時新進前 10，排第 4、第 5；Claude Fable 5.1 (max) 從第 5 升到第 3（+10 分）。Meta 的 Muse Wonder (max) 從第 3 掉到第 7（-8 分），Claude Fable 5 (high) 與 Claude Opus 4.7 (high) 跌出前 10。前 10 名中 Anthropic 佔了 6 個，前段幾乎是 Google 與 Anthropic 的對決；官方資料集標示的更新日仍是 10/22，這次是同一日期的數字被重新計算後出現的變化。",
+    "analysis_short": "Claude Opus 5 兩個版本新進前 10（第 4、5 名），Muse Wonder 從第 3 掉到第 7；Gemini 4 Argon 仍穩居第 1。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-28",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-27",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
