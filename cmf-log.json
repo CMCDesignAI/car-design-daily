@@ -362,5 +362,29 @@
   "car_key": "trend:lepas-aura-colors",
   "angle": "(已於 10/23 設計新聞報導；封鎖)",
   "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "car",
+  "car_key": "gfg-peralta-d-copper-interior",
+  "angle": "金屬感銅色皮革、打孔 Alcantara、真銅線縫線",
+  "url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html",
+  "image": "cmf-car-peralta-d-copper.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "paint",
+  "car_key": "trend:surventis-nexistential",
+  "angle": "Horizon Flux／Chromotopic Metal／Motile Red",
+  "url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential",
+  "image": "cmf-paint-surventis-nexistential.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "material",
+  "car_key": "material:polestar-signature-weave",
+  "angle": "(deep) Signature Weave 雙色亞麻可見表面、powerRibs 尾門",
+  "url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward",
+  "image": "cmf-material-polestar-signature-weave.jpg"
  }
 ]

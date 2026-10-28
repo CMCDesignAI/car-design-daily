@@ -1,0 +1,755 @@
+{
+ "date": "2026-10-28",
+ "weekday": "週三",
+ "issue_no": 21,
+ "lede": "Aston Martin Valhalla Spider 拿掉車頂、動力不減，這週末拉斯維加斯首秀；比亞迪第三代秦 PLUS 以封閉鯊魚鼻上市，奇瑞第三代瑞虎 7、三菱 Outlander 越野特仕版、FIAT 向 600 Multipla 致敬的 Multiplina 也在這兩天亮相。",
+ "design_news": [
+  {
+   "id": "aston-valhalla-spider",
+   "tag": "全球首發 · 英國",
+   "date": "2026-10-27",
+   "brand": "Aston Martin",
+   "title": "Valhalla Spider：拿掉車頂的 1,064 匹中置插混超跑，這週末拉斯維加斯首秀",
+   "orig": "2028 Aston Martin Valhalla Spider Revealed",
+   "summary": "Aston Martin 發表 2028 年式 Valhalla Spider，沿用硬頂版 4.0 升雙渦輪 V8 加三具電動馬達、合計 1,064 匹，開篷極速仍有 217 mph。",
+   "analysis": [
+    [
+     "車頂",
+     "可收納的布質軟頂（使用時限速 124 mph），另可選碳纖維硬頂。"
+    ],
+    [
+     "空力",
+     "座艙後方加了導流板，把氣流導向車頂後方的進氣通氣管（snorkel），開篷也能餵飽引擎。"
+    ],
+    [
+     "實用",
+     "兩側門檻各有 15 公升置物空間，可以收放車頂。"
+    ],
+    [
+     "發表",
+     "本週末在 Concours at Wynn Las Vegas 首度公開，售價尚未公布。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（10/27）",
+     "https://www.caranddriver.com/news/a74264241/2028-aston-martin-valhalla-spider-revealed/"
+    ]
+   ],
+   "image": {
+    "file": "news-aston-valhalla-spider.jpg",
+    "alt": "Valhalla Spider 銀色車身配黃色飾條，開篷行駛在山路上",
+    "credit": "Aston Martin (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74264241/2028-aston-martin-valhalla-spider-revealed/"
+   },
+   "more_images": []
+  },
+  {
+   "id": "byd-qin-plus-3",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-27",
+   "brand": "比亞迪 BYD",
+   "title": "第三代秦 PLUS DM-i 上市：封閉鯊魚鼻、取消大嘴，限時 7.69 萬元起",
+   "orig": "第三代秦PLUS DM-i上市 限时7.69万元起",
+   "summary": "比亞迪第三代秦 PLUS DM-i 10/27 上市，限時售價 7.69–9.79 萬元。車身 4,840×1,900×1,498mm、軸距 2,800mm，純電續航 140/220km，綜合續航 2,290km。",
+   "analysis": [
+    [
+     "前臉",
+     "封閉式鯊魚鼻取代前代的大嘴格柵，兩側加導流風道，配「銳眸光刃」頭燈。"
+    ],
+    [
+     "車尾",
+     "「流光瑞結」貫穿式尾燈。"
+    ],
+    [
+     "顏色",
+     "9 種車漆，新增海島藍、鈦晶灰，另有海島藍、墨竹青雙色車身。"
+    ],
+    [
+     "內裝",
+     "雲紗米、墨煙灰兩種內裝色；軟包與木紋取代鋼琴黑，12.8 吋中控屏加 8.8 吋儀表、雙輻方向盤。"
+    ]
+   ],
+   "sources": [
+    [
+     "中新網（10/27）",
+     "https://www.chinanews.com.cn/cj/2026/10-27/10721763.shtml"
+    ],
+    [
+     "汽車之家車家號（官方圖）",
+     "https://chejiahao.autohome.com.cn/info/26732270"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-qin-plus-3.jpg",
+    "alt": "第三代秦 PLUS DM-i 藍灰色車身後 3/4",
+    "credit": "比亞迪（via 汽車之家）",
+    "credit_url": "https://chejiahao.autohome.com.cn/info/26732270"
+   },
+   "more_images": [
+    {
+     "file": "byd-qin-plus-3-2.jpg",
+     "alt": "第三代秦 PLUS 前 3/4，封閉鯊魚鼻與銳眸光刃頭燈",
+     "credit": "比亞迪（via 汽車之家）",
+     "credit_url": "https://chejiahao.autohome.com.cn/info/26732270"
+    },
+    {
+     "file": "byd-qin-plus-3-3.jpg",
+     "alt": "第三代秦 PLUS 側面",
+     "credit": "比亞迪（via 汽車之家）",
+     "credit_url": "https://chejiahao.autohome.com.cn/info/26732270"
+    },
+    {
+     "file": "byd-qin-plus-3-4.jpg",
+     "alt": "第三代秦 PLUS 淺色內裝，12.8 吋中控屏與雙輻方向盤",
+     "credit": "比亞迪（via 汽車之家）",
+     "credit_url": "https://chejiahao.autohome.com.cn/info/26732270"
+    }
+   ]
+  },
+  {
+   "id": "chery-tiggo7-3",
+   "tag": "新車發表 · 中國",
+   "date": "2026-10-27",
+   "brand": "奇瑞 Chery",
+   "title": "第三代瑞虎 7 亮相：新燈組簽名、車長 4.6 米",
+   "orig": "Chery Tiggo X7 and third-gen Tiggo 7 revealed in China",
+   "summary": "奇瑞在品牌之夜發表第三代瑞虎 7，車長 4,600mm、軸距 2,700mm，比現行款更長。",
+   "analysis": [
+    [
+     "前臉",
+     "格柵兩側面板重新設計，配全新 LED 頭燈燈語。"
+    ],
+    [
+     "下保桿",
+     "前下巴（apron）改款，大面積網格格柵。"
+    ],
+    [
+     "內裝",
+     "前座加入按摩座椅與腿托。"
+    ],
+    [
+     "同場",
+     "奇瑞品牌之夜同場發表瑞虎 X7。"
+    ]
+   ],
+   "sources": [
+    [
+     "paultan.org（10/27）",
+     "https://paultan.org/2026/10/27/chery-tiggo-x7-and-third-gen-tiggo-7-revealed-in-china/"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-tiggo7-3.jpg",
+    "alt": "第三代瑞虎 7 香檳色車身前 3/4，發表會展台",
+    "credit": "Chery (via paultan.org)",
+    "credit_url": "https://paultan.org/2026/10/27/chery-tiggo-x7-and-third-gen-tiggo-7-revealed-in-china/"
+   },
+   "more_images": [
+    {
+     "file": "chery-tiggo7-3-2.jpg",
+     "alt": "第三代瑞虎 7 粉橘色車身前 3/4",
+     "credit": "Chery (via paultan.org)",
+     "credit_url": "https://paultan.org/2026/10/27/chery-tiggo-x7-and-third-gen-tiggo-7-revealed-in-china/"
+    },
+    {
+     "file": "chery-tiggo7-3-3.jpg",
+     "alt": "第三代瑞虎 7 大面積網格格柵與 ALL NEW TIGGO7 牌照特寫",
+     "credit": "Chery (via paultan.org)",
+     "credit_url": "https://paultan.org/2026/10/27/chery-tiggo-x7-and-third-gen-tiggo-7-revealed-in-china/"
+    }
+   ]
+  },
+  {
+   "id": "mitsubishi-outlander-dte",
+   "tag": "特仕車 · 日本／美國",
+   "date": "2026-10-27",
+   "brand": "三菱 Mitsubishi",
+   "title": "Outlander Diamond Trail Edition：新色 Trail Green、白車頂，三菱睽違 14 年重返 SEMA",
+   "orig": "三菱自動車、新型「アウトランダー」の特別仕様車「Diamond Trail Edition」を発表",
+   "summary": "三菱北美（MMNA）10/26 發表 2028 年式 Outlander Diamond Trail Edition，將在 11/3–6 的 SEMA Show 展出，是三菱自 2012 年後首度參展 SEMA。",
+   "analysis": [
+    [
+     "前臉",
+     "霧黑格柵與黑色 Dynamic Shield 飾條，下方銀色護板造型，加 DIAMOND TRAIL 銘牌；接近角 18.3°→20.5°、離去角 22.2°→23.1°。"
+    ],
+    [
+     "車身",
+     "黑色輪拱加寬飾板配橘色側燈，加高黑色車頂架，18×7.5 吋黑輪配 Nexen Roadian ATX 全地形胎。"
+    ],
+    [
+     "顏色",
+     "新色 Trail Green Metallic，可選白色車頂。"
+    ],
+    [
+     "內裝",
+     "防潑水深灰座椅配卡其縫線，方向盤卡其皮革點綴；新增 Rock 模式與專屬儀表畫面。"
+    ]
+   ],
+   "sources": [
+    [
+     "GQ JAPAN（10/27）",
+     "https://www.gqjapan.jp/article/20261027-mitsubishi-outlander-diamond-trail-edition-news"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-outlander-dte.jpg",
+    "alt": "Outlander Diamond Trail Edition 綠色車身停在沙漠岩地",
+    "credit": "Mitsubishi (via GQ JAPAN)",
+    "credit_url": "https://www.gqjapan.jp/article/20261027-mitsubishi-outlander-diamond-trail-edition-news"
+   },
+   "more_images": [
+    {
+     "file": "mitsubishi-outlander-dte-2.jpg",
+     "alt": "Diamond Trail Edition 與露營裝備的戶外展示",
+     "credit": "Mitsubishi (via GQ JAPAN)",
+     "credit_url": "https://www.gqjapan.jp/article/20261027-mitsubishi-outlander-diamond-trail-edition-news"
+    }
+   ]
+  },
+  {
+   "id": "fiat-multiplina",
+   "tag": "概念車 · 義大利",
+   "date": "2026-10-26",
+   "brand": "FIAT",
+   "title": "Multiplina 概念車：向 1956 年 600 Multipla 致敬的四座微型電動車",
+   "orig": "FIAT Multiplina: small in size, big in ideas",
+   "summary": "FIAT 發表 Multiplina 概念車，長寬高 3.04×1.40×1.53m，屬歐洲 L7 重型四輪車，定位在 Topolino 與一般汽車之間，可坐四人。",
+   "analysis": [
+    [
+     "靈感",
+     "1956 年 600 Multipla：前推的擋風玻璃、雙色車身與車頭的「小鬍子」飾條。"
+    ],
+    [
+     "比例",
+     "極短車頭、直立車廂，把空間都留給四個座位。"
+    ],
+    [
+     "細節",
+     "圓形頭燈、車尾通風飾板與直立膠囊形尾燈。"
+    ],
+    [
+     "顏色",
+     "橘色車身配奶油色車頂與輪圈，延續義式復古色調。"
+    ]
+   ],
+   "sources": [
+    [
+     "Stellantis 新聞稿（10/26）",
+     "https://www.media.stellantis.com/uk-en/fiat/press/fiat-multiplina-small-in-size-big-in-ideas"
+    ],
+    [
+     "designboom（10/27）",
+     "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+    ]
+   ],
+   "image": {
+    "file": "news-fiat-multiplina.jpg",
+    "alt": "FIAT Multiplina 橘色車身配奶油色車頂的前 3/4",
+    "credit": "FIAT (via designboom)",
+    "credit_url": "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+   },
+   "more_images": [
+    {
+     "file": "fiat-multiplina-2.jpg",
+     "alt": "Multiplina 車頭圓燈與小鬍子飾條特寫",
+     "credit": "FIAT (via designboom)",
+     "credit_url": "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+    },
+    {
+     "file": "fiat-multiplina-3.jpg",
+     "alt": "Multiplina 後 3/4",
+     "credit": "FIAT (via designboom)",
+     "credit_url": "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+    },
+    {
+     "file": "fiat-multiplina-4.jpg",
+     "alt": "Multiplina 直立膠囊形尾燈特寫",
+     "credit": "FIAT (via designboom)",
+     "credit_url": "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+    }
+   ]
+  },
+  {
+   "id": "bestune-xiaoma-5d",
+   "tag": "新車上市 · 中國",
+   "date": "2026-10-28",
+   "brand": "奔騰 Bestune",
+   "title": "奔騰小馬五門版今天上市：軸距加長 350mm、取消中控螢幕",
+   "orig": "奔腾小马五门版官图发布 10月28日上市",
+   "summary": "一汽奔騰小馬五門版今天上市，長寬高 3,350/1,540/1,600mm、軸距 2,215mm，比三門版分別多 350、30、262mm。",
+   "analysis": [
+    [
+     "前臉",
+     "投射式 LED 頭燈，車頭改為車身同色，保桿造型更簡潔。"
+    ],
+    [
+     "側面",
+     "半隱藏式門把、新樣式輪圈。"
+    ],
+    [
+     "車尾",
+     "尾燈改成更圓潤的造型。"
+    ],
+    [
+     "內裝",
+     "取消中控螢幕，按鍵集中在儀表板兩側，座椅布料升級。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/20）",
+     "https://www.autohome.com.cn/news/202610/1317863.html"
+    ]
+   ],
+   "image": {
+    "file": "news-bestune-xiaoma-5d.jpg",
+    "alt": "奔騰小馬五門版淺綠色車身前 3/4",
+    "credit": "一汽奔騰（via 汽車之家）",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1317863.html"
+   },
+   "more_images": [
+    {
+     "file": "bestune-xiaoma-5d-2.jpg",
+     "alt": "小馬五門版側面",
+     "credit": "一汽奔騰（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317863.html"
+    },
+    {
+     "file": "bestune-xiaoma-5d-3.jpg",
+     "alt": "小馬五門版後 3/4 與圓潤尾燈",
+     "credit": "一汽奔騰（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317863.html"
+    },
+    {
+     "file": "bestune-xiaoma-5d-4.jpg",
+     "alt": "小馬五門版內裝，無中控螢幕的儀表板",
+     "credit": "一汽奔騰（via 汽車之家）",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1317863.html"
+    }
+   ]
+  },
+  {
+   "id": "luxeed-global",
+   "tag": "品牌 · 中國",
+   "date": "2026-10-26",
+   "brand": "智界 Luxeed",
+   "title": "智界出海：RX 改名 Stormax、V9 改名 LLounge，三條產品線六款新能源車",
+   "orig": "Chery's Luxeed to launch six NEV models globally",
+   "summary": "奇瑞與華為合作的智界公布海外計畫，三條產品線共六款新能源車，海外車名改為 Stormax（RX）與 LLounge（V9）。",
+   "analysis": [
+    [
+     "Stormax（RX）",
+     "由 Werner Gruber 主導設計，車身 5,020/2,007/1,585mm。"
+    ],
+    [
+     "尾燈",
+     "由 1 萬個隨機排列的晶體狀元件組成。"
+    ],
+    [
+     "LLounge（V9）",
+     "大型 MPV，車頭為直立格條格柵。"
+    ],
+    [
+     "產品線",
+     "海外三條產品線共六款新能源車，改用獨立英文車名。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/26）",
+     "https://carnewschina.com/2026/10/26/cherys-luxeed-to-launch-six-nev-models-globally/"
+    ]
+   ],
+   "image": {
+    "file": "news-luxeed-global.jpg",
+    "alt": "智界 Stormax（RX）銀色車身停在林間",
+    "credit": "Luxeed (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/26/cherys-luxeed-to-launch-six-nev-models-globally/"
+   },
+   "more_images": [
+    {
+     "file": "luxeed-global-2.jpg",
+     "alt": "Stormax（RX）前 3/4",
+     "credit": "Luxeed (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/26/cherys-luxeed-to-launch-six-nev-models-globally/"
+    },
+    {
+     "file": "luxeed-global-3.jpg",
+     "alt": "LLounge（V9）MPV 發表會展示",
+     "credit": "Luxeed (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/26/cherys-luxeed-to-launch-six-nev-models-globally/"
+    }
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-peralta-d-copper",
+   "kind": "car",
+   "car": "GFG Style Peralta D（Maserati GranTurismo 基礎）",
+   "tag": "內裝 · 義大利",
+   "title": "Peralta D：金屬感皮革配真銅線縫線",
+   "points": [
+    "座椅、儀表板、門板都用帶金屬光澤的皮革，呼應車外手工敲打的純銅車身。",
+    "皮革間嵌入打孔 Alcantara，縫線使用真正的銅線。",
+    "對稱式儀表板：左側是駕駛儀表，右側是副駕化妝台與可當照明鏡的螢幕。",
+    "後座中央扶手內藏可升降香檳冰箱，配四只純銅酒杯。"
+   ],
+   "image": {
+    "file": "cmf-car-peralta-d-copper.jpg",
+    "alt": "Peralta D 座艙，銅色金屬感皮革座椅與儀表板",
+    "credit": "GFG Style (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-peralta-d-copper-2.jpg",
+     "alt": "Peralta D 後座銅色皮革座椅",
+     "credit": "GFG Style (via autoevolution)",
+     "credit_url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+    },
+    {
+     "file": "cmf-car-peralta-d-copper-3.jpg",
+     "alt": "副駕化妝台螢幕兼照明鏡",
+     "credit": "GFG Style (via autoevolution)",
+     "credit_url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+    }
+   ],
+   "sources": [
+    [
+     "autoevolution（10/27）",
+     "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-surventis-nexistential",
+   "kind": "paint",
+   "car": "Surventis（原 BASF Coatings）",
+   "tag": "車漆趨勢 · 全球",
+   "title": "NEXISTENTIAL：三個區域主色，Motile Red 用廢料顏料",
+   "points": [
+    "Surventis 獨立後第一份年度汽車色彩趨勢，主題 NEXISTENTIAL（未來＋存在）。",
+    "亞太 Horizon Flux：隨光線與角度變化的銀色。",
+    "美洲 Chromotopic Metal：介於白與銀之間，用新雲母技術做兩塗層就有金屬感。",
+    "歐洲中東非 Motile Red：酒紅底帶亮紅高光，配方含非化石原料與廢料轉化顏料。"
+   ],
+   "image": {
+    "file": "cmf-paint-surventis-nexistential.jpg",
+    "alt": "Motile Red 酒紅車漆塗在概念車模型側面",
+    "credit": "Surventis (via Surventis newsroom)",
+    "credit_url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+   },
+   "sources": [
+    [
+     "Surventis 新聞稿（10/27）",
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ],
+    [
+     "Automotive World（10/27）",
+     "https://www.automotiveworld.com/news/surventis-unveils-nexistential-automotive-colour-trends/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-polestar-signature-weave",
+   "kind": "material",
+   "car": "Polestar 5 × Bcomp",
+   "tag": "材質 · 瑞典／瑞士",
+   "title": "Polestar Signature Weave：亞麻雙色編織直接當座椅背表面",
+   "points": [
+    "材質名稱：Polestar Signature Weave，Bcomp ampliTex 亞麻織物的專屬版本。",
+    "表面處理：雙色斜紋編織，結構層本身就是可見表面，不再另加裝飾層。",
+    "結構靈感：powerRibs 立體亞麻補強格仿葉脈，背面加筋讓面板更薄更輕。",
+    "使用位置：前座椅背（亞麻＋天然纖維 PP），尾門結構也用 powerRibs。",
+    "效益：化石原料用量少 50%、比傳統塑料輕最多 40%。"
+   ],
+   "image": {
+    "file": "cmf-material-polestar-signature-weave.jpg",
+    "alt": "Polestar 5 前座椅背的雙色亞麻編織表面",
+    "credit": "Polestar (via PlasticsToday)",
+    "credit_url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward"
+   },
+   "sources": [
+    [
+     "PlasticsToday（10/27）",
+     "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward"
+    ]
+   ],
+   "deep": true
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-phoneauto-android-auto",
+   "kind": "case",
+   "brand": "Android Auto",
+   "tag": "介面與 HMI",
+   "title": "PhoneAuto：把 Android Auto 版面搬回手機螢幕",
+   "date": "2026-10-27",
+   "points": [
+    "Google 2022 年停掉手機版 Android Auto，第三方 App PhoneAuto 用「head unit server」讓車機介面在手機上跑。",
+    "版面會依螢幕尺寸重排：地圖、天氣卡、媒體卡分區顯示，和車上一樣。",
+    "橫向模式運作順暢，直向模式仍有明顯延遲。",
+    "結束時要在通知列按「quit」關掉伺服器，給予無障礙權限可部分自動化。"
+   ],
+   "image": {
+    "file": "hmi-phoneauto-android-auto.jpg",
+    "alt": "手機橫向畫面上的 Android Auto 版面：左側地圖、右下天氣與媒體卡",
+    "credit": "9to5Google 示意圖",
+    "credit_url": "https://9to5google.com/2026/10/27/android-auto-phone-display-app/"
+   },
+   "sources": [
+    [
+     "9to5Google（10/27）",
+     "https://9to5google.com/2026/10/27/android-auto-phone-display-app/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 台灣",
+   "date": "2026-10-27",
+   "title": "和泰車：AI 帶動高價車，今年台灣車市維持 43 萬輛",
+   "summary": "和泰車總經理蘇純興表示第 4 季車市不錯，AI 產業帶動高價與高級車銷售，預估今年台灣車市 43 萬輛、2027 年持穩。和泰 9 月合併營收 267.6 億元、年增 26.16%；10 月 TOYOTA 與 LEXUS 掛牌約 1.34 萬輛、市占 36.2%，預估 10 月總市場 3.7 萬輛。同日推出 CROWN 系列，預接單已破千台。",
+   "sources": [
+    [
+     "中央社（10/27）",
+     "https://www.cna.com.tw/news/afe/202610270220.aspx"
+    ],
+    [
+     "工商時報（10/27）",
+     "https://www.ctee.com.tw/news/20261027701683-430201"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 日本",
+   "date": "2026-10-27",
+   "title": "豐田要把新一代引擎賣給其他車廠，2032 年目標年營收 15 億歐元",
+   "summary": "據 Automotive News 報導，豐田計畫把新一代 1.5 升自然進氣、1.5 升渦輪、2.0 升渦輪直列四缸與油電系統賣給合作車廠，2027 年起供應，目標 2032 年年營收約 15 億歐元（約 17 億美元）。可能客戶包括 Subaru、Mazda、Suzuki、大發，但 Subaru、Mazda 也在開發自家引擎。",
+   "sources": [
+    [
+     "Autoblog（10/27）",
+     "https://www.autoblog.com/news/toyota-wants-other-automakers-to-buy-its-new-engines"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐洲",
+   "date": "2026-10-27",
+   "title": "保時捷前九月營業利益回升到 17.4 億歐元，911 銷量增 12%",
+   "summary": "路透報導，保時捷前九個月營業利益 17.4 億歐元，前一年同期僅 4,000 萬歐元；第三季利潤率超過 10%。執行長 Leiters 縮小規模、退出中國、主打客製化高毛利車型，911 是唯一銷量成長的車型（+12%）。財務長表示 Audi 若在喬治亞州設廠，保時捷不會跟著把生產移到美國。",
+   "sources": [
+    [
+     "Reuters via StreetInsider（10/27）",
+     "https://www.streetinsider.com/Reuters/Porsche+posts+profit+rebound+as+restructuring+starts+to+deliver/27235491.html"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 美國",
+   "date": "2026-10-27",
+   "title": "通用將推三排座 SUV 油電版，Lansing 廠轉做混合動力",
+   "summary": "路透獨家：GM 計畫在密西根 Lansing Delta Township 廠生產 Chevrolet Traverse、Buick Enclave、GMC Acadia 的油電版，GM 隨後證實將投資該廠準備混動生產。美國能源部也把原本補助電動車的 5 億美元改用於混動。GM 前九月美國市占從 17.4% 降到 16.6%。",
+   "sources": [
+    [
+     "Reuters via Investing.com（10/27）",
+     "https://www.investing.com/news/economy-news/exclusivegm-plans-to-offer-hybrid-suvs-in-strategic-pivot-4976540"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-10-26",
+   "title": "蜂巢能源 100kWh 半固態電池量產下線",
+   "summary": "長城體系的蜂巢能源（SVOLT）首批「龍鱗甲」半固液電池在常州下線：100kWh、900V 平台、6C 快充，12 分鐘補 500km，循環 3,000 次。官方表示三元電芯 2027 年底前全面轉向半固液技術，全固態仍距量產尚遠。",
+   "sources": [
+    [
+     "CarNewsChina（10/26）",
+     "https://carnewschina.com/2026/10/26/gwms-svolt-began-mass-production-of-100-kwh-semi-solid-batteries/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-10-27",
+   "title": "乘聯分會：10 月零售預估 160 萬輛，新能源滲透率 66.9%",
+   "summary": "乘聯分會預估 10 月狹義乘用車零售 160 萬輛，年減 28.9%、月減 1.1%；新能源零售 107 萬輛、年減 16.5%，滲透率 66.9%。",
+   "sources": [
+    [
+     "E汽車網（10/27）",
+     "https://www.eeca.org.cn/czix/202610/661392.html"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Two-tone roof",
+  "zh": "雙色車頂（對比色車頂）",
+  "body": "雙色車頂是把車頂（通常連同 A、B、C 柱）漆成和車身不同的顏色，最常見的是白頂或黑頂。本期 FIAT Multiplina 用奶油色車頂配橘色車身，延續 1950 年代 600 Multipla 的雙色傳統；三菱 Outlander Diamond Trail Edition 則在新色 Trail Green 上提供白色車頂選項。淺色車頂讓車身視覺重心往下、顯得更穩；黑頂則會讓車頂像「浮」在車身上。",
+  "source": [
+   [
+    "designboom：FIAT Multiplina 雙色車身",
+    "https://www.designboom.com/technology/fiat-tiny-multiplina-1950s-italian-microcar-electric-concept/"
+   ],
+   [
+    "GQ JAPAN：Outlander Diamond Trail Edition 白色車頂選項",
+    "https://www.gqjapan.jp/article/20261027-mitsubishi-outlander-diamond-trail-edition-news"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Copper & Motile Burgundy",
+   "zh": "銅色配酒紅：手工金屬感的暖色座艙",
+   "intro": "每日一組內裝配色示例：以 Peralta D 的金屬感銅色皮革做上儀表板、銅色金屬飾條，門板嵌 Polestar Signature Weave 般的亞麻雙色編織，扶手與縫線借 Surventis Motile Red 的酒紅與亮紅高光，搭深色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 金屬感皮革",
+     "銅棕（示意）",
+     "#8A5A3C",
+     false,
+     "ip-upper",
+     {
+      "src": "GFG Style Peralta D 金屬感皮革",
+      "url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "拉絲銅（示意）",
+     "#B87333",
+     false,
+     "ip-decor",
+     {
+      "src": "Peralta D 純銅車身與銅線縫線",
+      "url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+     }
+    ],
+    [
+     "門板嵌飾 · 亞麻編織",
+     "亞麻米（示意）",
+     "#B9A78A",
+     false,
+     "door-insert",
+     {
+      "src": "Polestar Signature Weave",
+      "url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Motile 酒紅（示意）",
+     "#5E1F2A",
+     false,
+     "armrest",
+     {
+      "src": "Surventis Motile Red",
+      "url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "亮紅高光（示意）",
+     "#B3262E",
+     false,
+     "stitch",
+     {
+      "src": "Surventis Motile Red 亮紅高光",
+      "url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "深棕灰（示意）",
+     "#3A302C",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "金屬感皮革、打孔 Alcantara、真銅線縫線：GFG Style Peralta D",
+     "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html"
+    ],
+    [
+     "雙色亞麻編織可見表面：Polestar 5 × Bcomp",
+     "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward"
+    ],
+    [
+     "Motile Red 酒紅＋亮紅高光：Surventis NEXISTENTIAL",
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ]
+   ],
+   "mood": [
+    "溫暖",
+    "手工",
+    "奢華",
+    "沉穩"
+   ],
+   "mood_text": "銅棕皮革與拉絲銅飾條讓座艙帶手工金屬的溫度，亞麻編織門板加一點自然紋理，酒紅扶手與亮紅縫線收在深色頂棚下，沉穩又有個性。",
+   "vars": {
+    "headliner": "dark",
+    "seat-bolster": "#5E1F2A",
+    "seat-center": "#8A5A3C",
+    "console": "#3A302C",
+    "console-arm": "#5E1F2A",
+    "steering": "#2E2624",
+    "accent-pod": "#B87333",
+    "accent-pod2": "#B3262E",
+    "ip-lower": "#3A302C",
+    "seat": "#8A5A3C"
+   }
+  },
+  "release": {
+   "date": "2026-10-27",
+   "title": "Surventis NEXISTENTIAL 汽車色彩趨勢",
+   "hues": [
+    [
+     "Surventis 亞太",
+     "Horizon Flux",
+     "隨光變化的銀",
+     "#B9BCC0",
+     false,
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ],
+    [
+     "Surventis 美洲",
+     "Chromotopic Metal",
+     "白＋銀雲母兩塗層",
+     "#E4E5E3",
+     false,
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ],
+    [
+     "Surventis 歐洲中東非",
+     "Motile Red",
+     "酒紅＋亮紅高光",
+     "#6B1F2B",
+     false,
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ]
+   ],
+   "points": [
+    "Surventis（原 BASF Coatings）獨立後第一份年度汽車色彩趨勢。",
+    "整體色盤：濃郁藍、鮮紅、暖中性色與現代粉彩，搭配隨光線與角度變化的效果顏料。",
+    "三個區域主色皆未公布官方色號，色塊為示意色。"
+   ],
+   "sources": [
+    [
+     "Surventis 新聞稿（10/27）",
+     "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential"
+    ],
+    [
+     "Automotive World（10/27）",
+     "https://www.automotiveworld.com/news/surventis-unveils-nexistential-automotive-colour-trends/"
+    ]
+   ]
+  }
+ }
+}

@@ -64,5 +64,11 @@
   "key": "hmi-tesla-robotaxi-live-activity",
   "url": "https://www.notateslaapp.com/news/4896/tesla-adds-ipad-iphone-duo-support-to-robotaxi-app",
   "image": "hmi-tesla-robotaxi-live-activity.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "key": "hmi-phoneauto-android-auto",
+  "url": "https://9to5google.com/2026/10/27/android-auto-phone-display-app/",
+  "image": "hmi-phoneauto-android-auto.jpg"
  }
 ]
