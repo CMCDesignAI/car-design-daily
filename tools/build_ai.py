@@ -237,8 +237,21 @@ def archive_page(all_issues):
 <body class="mode-ai">{topbar("../../", "ai", "../")}
 <main class="wrap"><section class="archive full"><div class="sec-head"><span class="num">∞</span><h2>往期</h2><span class="en">Archive</span></div>{li}</section></main>{theme_toggle("ai")}</body></html>'''
 
+def prune_columns_log(latest):
+    """名家專欄 30-day dedupe log: drop entries older than 30 days before the latest issue (runs on every build/publish)."""
+    import datetime as dt
+    p = f"{ROOT}/ai-columns-log.json"
+    if not os.path.exists(p): return
+    log = json.load(open(p, encoding="utf-8"))
+    cut = (dt.date.fromisoformat(latest) - dt.timedelta(days=30)).isoformat()
+    keep = [x for x in log if x.get("date", "") >= cut]
+    if len(keep) != len(log):
+        json.dump(keep, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"ai-columns-log: pruned {len(log) - len(keep)} entr(ies) older than {cut}")
+
 if __name__ == "__main__":
     al = issues()
+    prune_columns_log(al[0]["date"])
     for d in al:
         write_page(f"{ROOT}/ai/issues/{d['date']}/index.html", page(d, "../../../", "../../", al, False))
     write_page(f"{ROOT}/ai/index.html", page(al[0], "../", "./", al, True))

@@ -1,39 +1,119 @@
 {
-  "_note": "名家專欄追蹤名單（AI Model Daily）。fetch = 每日怎麼取得最新內容；status: core = zley 指定，suggested = 建議名單（zley 確認前不放）。",
+  "_note": "名家專欄追蹤名單（AI Model Daily）。fetch = 每日怎麼取得最新內容；status: core = zley 指定／已同意（10/28 起 AI超元域、零度解說也列入），suggested = 建議名單（zley 確認前不放）。",
   "creators": [
-    {"key": "dseditor", "name": "松音", "status": "core", "lang": "zh-TW",
-     "about": "松音（小美）dseditor · 夢想空間實驗室；ComfyUI／VibeCoding／短影音教學",
-     "platforms": [
-       {"platform": "Facebook", "url": "https://www.facebook.com/dseditorlab", "primary": true,
-        "fetch": "headless Chrome（未登入公開檢視）：google-chrome --headless=new --no-sandbox --virtual-time-budget=15000 --dump-dom https://www.facebook.com/dseditorlab → 取 /dseditorlab/posts/pfbid… 連結（未登入只看得到置頂＋最新 1–2 篇）→ 再 dump 單篇 permalink 取全文（og:description＋內文）、creation_time（Unix 秒）與貼文圖（scontent…t39.99422-6，未登入約 590px）"},
-       {"platform": "Threads", "url": "https://www.threads.com/@dseditor",
-        "fetch": "headless Chrome dump-dom 可看到最新約 4 則短文（相對時間），只作補充"},
-       {"platform": "Medium", "url": "https://medium.com/@dseditor",
-        "fetch": "RSS https://medium.com/feed/@dseditor（更新少，最新 2026-06-20）"},
-       {"platform": "Web", "url": "https://dslab.tw/lab", "fetch": "curl（實驗室筆記／課程）"}
-     ]},
-    {"key": "t8star-aix", "name": "T8star-Aix", "status": "core", "lang": "zh-CN",
-     "about": "T8（Aix 團隊）ComfyUI 整合包、節點、MiniMax H3／MOSS 等工作流測評",
-     "platforms": [
-       {"platform": "YouTube", "url": "https://www.youtube.com/@T8star-Aix", "channel_id": "UCCQ8NwZBxQlpE7nQD4i1Viw", "primary": true,
-        "fetch": "yt-dlp --flat-playlist --playlist-end 8 --extractor-args youtube:lang=zh-CN https://www.youtube.com/@T8star-Aix/videos → 對新片再 yt-dlp --skip-download --write-info-json 取 upload_date、description；說明欄連到的 GitHub／HF README 是主要事實來源"},
-       {"platform": "Bilibili", "url": "https://space.bilibili.com/385085361",
-        "fetch": "未登入抓不到：API 回 -799／-352 風控、空間頁影片列表不載入。B 站影片多半同步上 YouTube，以 YouTube 為準"},
-       {"platform": "X", "url": "https://x.com/t8star_aix", "fetch": "作者說新消息先發 X；未測"},
-       {"platform": "GitHub", "url": "https://github.com/T8mars", "fetch": "gh api users/T8mars/repos?sort=pushed"}
-     ]},
-    {"key": "work-fisher", "name": "Work-Fisher", "status": "core", "lang": "zh-CN",
-     "about": "大肥鱼 Work-Fisher：ComfyUI 整合包、MiniMax H3／Qwen Image／MOSS 工作流與提示詞模板",
-     "platforms": [
-       {"platform": "YouTube", "url": "https://www.youtube.com/@Work-Fisher", "channel_id": "UCy0mkx9-gcXWbiPcXeAnL7w", "primary": true,
-        "fetch": "同 T8：yt-dlp flat 列表＋info-json；說明欄的 GitHub（github.com/Work-Fisher）README 為事實來源"},
-       {"platform": "Web", "url": "https://work-fisher.com", "fetch": "教學資料站／畫廊"}
-     ]},
-    {"key": "aisuperdomain", "name": "AI超元域", "status": "suggested", "lang": "zh-CN",
-     "about": "新模型／影片生成工具實測（MiniMax、DeepSeek、Meta Muse…）",
-     "platforms": [{"platform": "YouTube", "url": "https://www.youtube.com/@AIsuperdomain", "channel_id": "UCIomFkAj4Vq_rGX2Jot7D8A", "primary": true, "fetch": "yt-dlp flat 列表"}]},
-    {"key": "lingdujieshuo", "name": "零度解說", "status": "suggested", "lang": "zh-TW",
-     "about": "開源模型本地部署教學（Strata、DeepSeek GGUF…）",
-     "platforms": [{"platform": "YouTube", "url": "https://www.youtube.com/@lingdujieshuo", "channel_id": "UCvijahEyGtvMpmMHBu4FS2w", "primary": true, "fetch": "yt-dlp flat 列表"}]}
+    {
+      "key": "dseditor",
+      "name": "松音",
+      "status": "core",
+      "lang": "zh-TW",
+      "about": "松音（小美）dseditor · 夢想空間實驗室；ComfyUI／VibeCoding／短影音教學",
+      "platforms": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/dseditorlab",
+          "primary": true,
+          "fetch": "headless Chrome（未登入公開檢視）：google-chrome --headless=new --no-sandbox --virtual-time-budget=15000 --dump-dom https://www.facebook.com/dseditorlab → 取 /dseditorlab/posts/pfbid… 連結（未登入只看得到置頂＋最新 1–2 篇）→ 再 dump 單篇 permalink 取全文（og:description＋內文）、creation_time（Unix 秒）與貼文圖（scontent…t39.99422-6，未登入約 590px）"
+        },
+        {
+          "platform": "Threads",
+          "url": "https://www.threads.com/@dseditor",
+          "fetch": "headless Chrome dump-dom 可看到最新約 4 則短文（相對時間），只作補充"
+        },
+        {
+          "platform": "Medium",
+          "url": "https://medium.com/@dseditor",
+          "fetch": "RSS https://medium.com/feed/@dseditor（更新少，最新 2026-06-20）"
+        },
+        {
+          "platform": "Web",
+          "url": "https://dslab.tw/lab",
+          "fetch": "curl（實驗室筆記／課程）"
+        }
+      ]
+    },
+    {
+      "key": "t8star-aix",
+      "name": "T8star-Aix",
+      "status": "core",
+      "lang": "zh-CN",
+      "about": "T8（Aix 團隊）ComfyUI 整合包、節點、MiniMax H3／MOSS 等工作流測評",
+      "platforms": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@T8star-Aix",
+          "channel_id": "UCCQ8NwZBxQlpE7nQD4i1Viw",
+          "primary": true,
+          "fetch": "yt-dlp --flat-playlist --playlist-end 8 --extractor-args youtube:lang=zh-CN https://www.youtube.com/@T8star-Aix/videos → 對新片再 yt-dlp --skip-download --write-info-json 取 upload_date、description；說明欄連到的 GitHub／HF README 是主要事實來源"
+        },
+        {
+          "platform": "Bilibili",
+          "url": "https://space.bilibili.com/385085361",
+          "fetch": "未登入抓不到：API 回 -799／-352 風控、空間頁影片列表不載入。B 站影片多半同步上 YouTube，以 YouTube 為準"
+        },
+        {
+          "platform": "X",
+          "url": "https://x.com/t8star_aix",
+          "fetch": "作者說新消息先發 X；未測"
+        },
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/T8mars",
+          "fetch": "gh api users/T8mars/repos?sort=pushed"
+        }
+      ]
+    },
+    {
+      "key": "work-fisher",
+      "name": "Work-Fisher",
+      "status": "core",
+      "lang": "zh-CN",
+      "about": "大肥鱼 Work-Fisher：ComfyUI 整合包、MiniMax H3／Qwen Image／MOSS 工作流與提示詞模板",
+      "platforms": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@Work-Fisher",
+          "channel_id": "UCy0mkx9-gcXWbiPcXeAnL7w",
+          "primary": true,
+          "fetch": "同 T8：yt-dlp flat 列表＋info-json；說明欄的 GitHub（github.com/Work-Fisher）README 為事實來源"
+        },
+        {
+          "platform": "Web",
+          "url": "https://work-fisher.com",
+          "fetch": "教學資料站／畫廊"
+        }
+      ]
+    },
+    {
+      "key": "aisuperdomain",
+      "name": "AI超元域",
+      "status": "core",
+      "lang": "zh-CN",
+      "about": "新模型／影片生成工具實測（MiniMax、DeepSeek、Meta Muse…）",
+      "platforms": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@AIsuperdomain",
+          "channel_id": "UCIomFkAj4Vq_rGX2Jot7D8A",
+          "primary": true,
+          "fetch": "yt-dlp flat 列表"
+        }
+      ]
+    },
+    {
+      "key": "lingdujieshuo",
+      "name": "零度解說",
+      "status": "core",
+      "lang": "zh-TW",
+      "about": "開源模型本地部署教學（Strata、DeepSeek GGUF…）",
+      "platforms": [
+        {
+          "platform": "YouTube",
+          "url": "https://www.youtube.com/@lingdujieshuo",
+          "channel_id": "UCvijahEyGtvMpmMHBu4FS2w",
+          "primary": true,
+          "fetch": "yt-dlp flat 列表"
+        }
+      ]
+    }
   ]
 }
