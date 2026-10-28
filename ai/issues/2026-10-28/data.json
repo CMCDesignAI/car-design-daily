@@ -500,5 +500,107 @@
     }
    }
   ]
- }
+ },
+ "columns": [
+  {
+   "id": "col-dseditor-strata-nemotron",
+   "creator": "松音",
+   "creator_key": "dseditor",
+   "platform": "Facebook",
+   "date": "2026-10-28",
+   "title": "Strata-Nemotron for Windows x64原生編譯",
+   "short_title": "把 Strata＋Nemotron 編成 Windows 原生版",
+   "orig": "Strata-Nemotron for Windows x64原生編譯。由於今天大家都知道的Qwen事件，我編譯了這個，在Windows原生的Strata下，運行Nemotron模型。",
+   "one": "松音把社群的 Strata（Nemotron 版）編成 Windows 原生程式，想在本機跑大模型又不想用中國模型的人，多了一個選擇。",
+   "points": [
+    "以社群 Strata fork（NVIDIA Nemotron 3.5 Super 120B-A12B）為底，編成 Windows x64 原生版，GitHub dseditor/Strata 的 Release 可下載。",
+    "作者實測 RTX 5090 32GB＋96GB DDR5：首次載入 211 秒，解碼約 96 tok/s，中文對話約 77 tok/s，讀圖約 19 秒一張。",
+    "起因是 Qwen 事件與公部門不能用中國大陸模型；作者說讀圖和思考功能都正常，速度比 QwenFlashNext 慢。",
+    "模型權重來自 Cudecnik/Nemotron-3.5-Super-120B-A12B-NVFP4-Strata-Blackwell（社群量化）。"
+   ],
+   "url": "https://www.facebook.com/dseditorlab/posts/pfbid02QduCYoqaxD17HXGJ6Fs9qqzAzXdNQgRa6YQ9v4xV4e4KskqnFiGnjG9MtX77Srdml",
+   "image": {
+    "file": "col-dseditor-strata.webp",
+    "alt": "松音貼文附圖：Strata-Nemotron Windows 版 GitHub Release 頁與實測數據",
+    "credit": "松音（Facebook 貼文附圖）",
+    "credit_url": "https://www.facebook.com/dseditorlab/posts/pfbid02QduCYoqaxD17HXGJ6Fs9qqzAzXdNQgRa6YQ9v4xV4e4KskqnFiGnjG9MtX77Srdml"
+   },
+   "links": [
+    [
+     "GitHub Release",
+     "https://github.com/dseditor/Strata/releases/tag/windows-nemotron-v1"
+    ]
+   ]
+  },
+  {
+   "id": "col-t8-hi3d",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-10-26",
+   "title": "強得離譜！T8進軍開源3D創作台！不光全功能免費，還支援最新的3D模型精修（Hi3d）！",
+   "short_title": "T8 開源 Hi3D 3D 創作台",
+   "orig": "强的离谱！T8进军开源3D创作台！不光全功能免费，还支持最新的3D模型精修（Hi3d）！",
+   "one": "T8 把 Hi3D V1.0 幾何精修做成 ComfyUI 節點和一套本機 3D 工作台，用一張參考圖把粗模型修細。",
+   "points": [
+    "ComfyUI 節點：輸入同一物件的參考圖＋粗模型，用官方 Hi3D 模型精修幾何，輸出 GLB。",
+    "獨立工作台另可單圖生成幾何、提供多種幾何／PBR 貼圖引擎，並在同一光源下比較結果。",
+    "完整模型包約 79.3 GB（3 種幾何、4 種貼圖選項）；GitHub Release 只有程式碼，不含模型與 Python。",
+    "其中 INT8 貼圖權重沿用 FLUX 非商用授權，商用前要先確認。"
+   ],
+   "url": "https://www.youtube.com/watch?v=2xV7ef6w5Mk",
+   "image": {
+    "file": "col-t8-hi3d.webp",
+    "alt": "T8star-Aix 影片縮圖：開源 3D 創作台 Hi3D",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=2xV7ef6w5Mk"
+   },
+   "links": [
+    [
+     "GitHub Comfyui-Hi3d-T8",
+     "https://github.com/T8mars/Comfyui-Hi3d-T8"
+    ],
+    [
+     "Hugging Face 模型",
+     "https://huggingface.co/t8star/Hi3d-Comfy"
+    ]
+   ],
+   "gloss": [
+    [
+     "PBR",
+     "Physically Based Rendering，依真實光照原理做的材質貼圖（顏色、粗糙度、金屬感等）。"
+    ]
+   ]
+  },
+  {
+   "id": "col-fisher-moss-expander",
+   "creator": "Work-Fisher",
+   "creator_key": "work-fisher",
+   "platform": "YouTube",
+   "date": "2026-10-22",
+   "title": "目前最全能的AI圖像模型？MOSS文生圖＋神級LoRA組合【附完整提示詞模版】",
+   "short_title": "MOSS 文生圖＋提示詞擴寫 Skill",
+   "orig": "目前最全能的AI图像模型？MOSS文生图+神级LORA组合【附带完整提示词模版】",
+   "one": "Work-Fisher 分享 MOSS-Image 文生圖搭配 LoRA 的工作流，並開源一套把一句話擴寫成詳細提示詞的 Skill 和 ComfyUI 模板。",
+   "points": [
+    "開源 fisher-moss-prompt-expander：一句畫面想法擴寫成詳細中文提示詞，自由創作約 1500–2500 字。",
+    "ComfyUI 用法：精簡模板貼進文字擴寫節點的 system_prompt，輸出英文 Caption 接到正向提示詞。",
+    "也能當 Agent Skill 用（例如放進 ~/.codex/skills/）；只產生提示詞，不會自動生圖，也不是 OpenMOSS 官方外掛。",
+    "工作流有 RunningHub 雲端版和本地網盤版兩種。"
+   ],
+   "url": "https://www.youtube.com/watch?v=XDG9BzlRwy4",
+   "image": {
+    "file": "col-fisher-moss.webp",
+    "alt": "Work-Fisher 影片縮圖：MOSS 文生圖＋LoRA 組合",
+    "credit": "Work-Fisher（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=XDG9BzlRwy4"
+   },
+   "links": [
+    [
+     "GitHub fisher-moss-prompt-expander",
+     "https://github.com/Work-Fisher/fisher-moss-prompt-expander"
+    ]
+   ]
+  }
+ ]
 }

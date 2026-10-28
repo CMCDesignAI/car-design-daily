@@ -7,6 +7,7 @@ SITE_URL="$(cat .site-url)"
 python3 tools/build.py --site-url "$SITE_URL"
 python3 tools/build_ai.py --site-url "$SITE_URL"
 python3 tools/check_ai_img.py   # stops publish if any AI img src points to a missing file
+python3 tools/check_ai_columns.py  # 名家專欄: 7-day window, 30-day dedupe, images, ≤2 per creator
 git add -A
 git commit -m "${1:-Publish $(date -u +%F)}" || echo "nothing to commit"
 git pull --rebase origin main

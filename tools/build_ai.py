@@ -45,6 +45,22 @@ def tutorial(t):
             f'<h3>{e(t["title"])}</h3><p class="one">{e(t["learn"])}</p>{gloss(t.get("gloss"))}</div>'
             f'<details class="more"><summary>看更多：步驟</summary><ol class="steps">{steps}</ol><div class="src">教學來源：{links(t["links"])}</div></details></article>')
 
+def column(c, img):
+    """名家專欄 card (from 2026-10-28 preview): creator · platform, source date, thumbnail, one line + 2–4 visible points."""
+    pts = "".join(f"<li>{e(x)}</li>" for x in c.get("points", []))
+    im = c.get("image")
+    fig = ""
+    if im:
+        play = '<span class="pbtn">▶</span>' if c.get("platform") in ("YouTube", "Bilibili") else ""
+        fig = (f'<figure class="news-img"><a class="ratio colthumb" href="{e(c["url"])}" target="_blank" rel="noopener" aria-label="開啟原{"片" if play else "文"}：{e(c["title"])}">'
+               f'<img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async" width="1280" height="720">{play}</a>'
+               f'<figcaption>圖片來源：<a href="{e(im.get("credit_url") or c["url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>')
+    more = links(c.get("links") or [])
+    return (f'<article class="story lite col" id="{e(c["id"])}">{fig}<div class="shead"><span class="tag">{e(c["creator"])} · {e(c["platform"])}</span><span class="date">{e(c["date"])}</span>'
+            f'<h3>{e(c.get("short_title") or c["title"])}</h3><p class="one">{e(c["one"])}</p><ul class="cpts">{pts}</ul>{gloss(c.get("gloss"))}</div>'
+            f'<details class="more"><summary>看更多</summary>{f"<p class=\"orig\">{e(c['orig'])}</p>" if c.get("orig") else ""}'
+            f'<div class="src"><a href="{e(c["url"])}" target="_blank" rel="noopener">{"看原片" if c.get("platform") in ("YouTube", "Bilibili") else "看原文"} ↗</a>{more}</div></details></article>')
+
 def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
 
@@ -123,12 +139,12 @@ def page(d, root, aibase, all_issues, is_latest):
     nupd = sum(len(w["updates"]) for w in d["watch"])
     closed = d.get("closed") or []
     opn = d.get("open") or []
-    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}{"<a href=\"#ainews\">AI 新聞</a>" if d.get("ainews") else ""}<a href="#watch">追蹤清單</a>{"<a href=\"#learn\">教學區</a>" if d.get("tutorials") else "<a href=\"#news\">其他新聞</a>"}{"<a href=\"#video\">推薦影片</a>" if d.get("video") else ""}<a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
+    nav = f'<nav class="nav">{"<a href=\"#board\">榜單</a>" if d.get("leaderboards") else ""}{"<a href=\"#closed\">閉源模型</a>" if closed else ""}{"<a href=\"#open\">開源模型</a>" if opn else ""}{"<a href=\"#ainews\">AI 新聞</a>" if d.get("ainews") else ""}<a href="#watch">追蹤清單</a>{"<a href=\"#columns\">名家專欄</a>" if d.get("columns") else ""}{"<a href=\"#learn\">教學區</a>" if d.get("tutorials") else "<a href=\"#news\">其他新聞</a>"}{"<a href=\"#video\">推薦影片</a>" if d.get("video") else ""}<a href="#caveats">注意事項</a><a href="{aibase}archive/">往期</a></nav>'
     H = [head(title, d["lede"], f"{root}assets/style.css", canon, ogimg), '<body class="mode-ai">', topbar(root, "ai", aibase, nav)]
     H.append(f'''<main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · AI Model Digest</div>
 <h1>AI Model Daily</h1>
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}{f"<span>AI 新聞 {len(d['ainews'])} 則</span><span>教學 {len(d.get('tutorials') or [])} 篇</span>" if d.get("ainews") else f"<span>其他新聞 {len(d['news'])} 則</span>"}<span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {e(d['weekday'])}</span><span>追蹤模型 {len(d['watch'])} 個 · 更新 {nupd} 則</span>{f"<span>閉源 {len(closed)} 則</span>" if closed else ""}{f"<span>開源 {len(opn)} 則</span>" if opn else ""}{f"<span>AI 新聞 {len(d['ainews'])} 則</span><span>教學 {len(d.get('tutorials') or [])} 篇</span>" if d.get("ainews") else f"<span>其他新聞 {len(d['news'])} 則</span>"}{f"<span>名家專欄 {len(d['columns'])} 則</span>" if d.get("columns") else ""}<span>推薦影片 {1 if d.get('video') else 0} 支</span></div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     n = 0
     # leaderboard module (unnumbered): every day, always at the very top, right after the masthead/lede
@@ -164,6 +180,10 @@ def page(d, root, aibase, all_issues, is_latest):
         H.append(f'<article class="wcard" id="{e(w["id"])}"><div class="whead"><span class="tag">{e(w["kind"])}</span><span class="count">{f"{len(w['updates'])} 則更新" if w["updates"] else "今日無更新"}</span>'
                  f'<h3>{e(w["model"])}</h3><p class="status">{e(w["status"])}</p></div>{f'<ol class="ulist">{"".join(ups)}</ol>' if ups else ""}</article>')
     H.append('</div></section>')
+    # 名家專欄 (creator picks): only when the issue has columns[]; absent/empty → hidden
+    if d.get("columns"):
+        n += 1
+        H.append(f'<section id="columns">{sec_head(n, "名家專欄", "Creator Picks")}<p class="secnote">知名 AI 創作者近 7 天的實用工作流／工具分享，節錄重點；內容以原片／原文為準。</p><div class="news">' + "".join(column(c, img) for c in d["columns"]) + '</div></section>')
     # v4 tutorials
     if d.get("tutorials"):
         n += 1

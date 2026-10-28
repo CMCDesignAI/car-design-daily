@@ -456,3 +456,11 @@ html{scroll-padding-top:110px}
 .breaking .bk-label{border-radius:999px}
 .analysis li b{border-radius:6px}
 @media (max-width:767px){.term,.breaking .bk-card{border-radius:14px}}
+/* 名家專欄 Creator Picks (AI, 2026-10-28 preview) */
+.secnote{font-size:14px;color:var(--muted);margin:-.4em 0 1em}
+.colthumb{display:block;position:relative}
+.colthumb .pbtn{width:60px;height:42px;font-size:19px}
+.colthumb:hover .pbtn{background:#e62117}
+.cpts{margin:.5em 0 .2em;padding-left:1.2em;font-size:14.5px;line-height:1.7;color:var(--ink)}
+.cpts li{margin:.15em 0}
+.cpts li::marker{color:var(--accent,#7aa2ff)}
