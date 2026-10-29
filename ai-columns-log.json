@@ -19,5 +19,19 @@
   "creator_key": "work-fisher",
   "url": "https://www.youtube.com/watch?v=XDG9BzlRwy4",
   "topic": "MOSS 文生圖＋提示詞擴寫 Skill"
+ },
+ {
+  "date": "2026-10-29",
+  "key": "col-t8-h3-2k",
+  "creator_key": "t8star-aix",
+  "url": "https://www.youtube.com/watch?v=sAUTuPPdC-I",
+  "topic": "minimax-h3-open-2k-regenerate"
+ },
+ {
+  "date": "2026-10-29",
+  "key": "col-aisd-claude-duet",
+  "creator_key": "aisuperdomain",
+  "url": "https://www.youtube.com/watch?v=aQ8gC58O4l0",
+  "topic": "claude-duet-workflow-test"
  }
 ]
