@@ -386,5 +386,29 @@
   "angle": "(deep) Signature Weave 雙色亞麻可見表面、powerRibs 尾門",
   "url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward",
   "image": "cmf-material-polestar-signature-weave.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "car",
+  "car_key": "ford-edge-l",
+  "angle": "(deep) 菱格絎縫＋漸層打孔、麂皮肩部、緞面金屬框、深淺兩種內裝",
+  "url": "http://www.ford.com.cn/newsroom/2026/20261020",
+  "image": "cmf-car-ford-edge-l-cabin.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "paint",
+  "car_key": "paint:tesla-cybercab-rim-colour",
+  "angle": "不設烤漆廠，色料混入 RIM 面板",
+  "url": "https://www.notateslaapp.com/news/4914/tesla-considered-other-innovative-ways-to-color-the-cybercab",
+  "image": "cmf-paint-cybercab-rim-colour.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "paint",
+  "car_key": "paint:ds-f3ver-cosmic-blue",
+  "angle": "Cosmic Blue 藍轉紫變色漆",
+  "url": "https://www.dezeen.com/2026/10/28/concept-cars-stellantis-paris-motor-show-design-video/",
+  "image": "cmf-paint-ds-f3ver-cosmic-blue.jpg"
  }
 ]

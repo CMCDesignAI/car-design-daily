@@ -1,0 +1,29 @@
+<svg class="diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="100%" role="img" aria-label="B-pillar B 柱示意圖：左為一般車側面 A、B、C 柱，B 柱加粗強調；右為無 B 柱對開門的大開口" fill="none" stroke="currentColor" stroke-width="2" font-family="sans-serif">
+  <text x="20" y="26" font-size="16" fill="currentColor" stroke="none">一般車：A、B、C 柱撐起車頂</text>
+  <path d="M30 120 L60 120 L105 70 L215 64 L250 120 L250 120 L235 120" />
+  <path d="M20 150 Q22 122 60 120 L250 120 Q262 122 262 150 L262 160 L20 160 Z" />
+  <circle cx="70" cy="162" r="18" /><circle cx="212" cy="162" r="18" />
+  <line x1="62" y1="120" x2="105" y2="70" stroke-width="5" />
+  <line x1="158" y1="66" x2="156" y2="120" stroke-width="9" opacity="0.85" />
+  <line x1="215" y1="64" x2="250" y2="120" stroke-width="5" />
+  <text x="66" y="200" font-size="15" fill="currentColor" stroke="none">A 柱</text>
+  <text x="140" y="200" font-size="16" font-weight="bold" fill="currentColor" stroke="none">B 柱</text>
+  <text x="214" y="200" font-size="15" fill="currentColor" stroke="none">C 柱</text>
+  <line x1="157" y1="184" x2="157" y2="125" stroke-width="1" stroke-dasharray="3 3" />
+  <text x="290" y="26" font-size="16" fill="currentColor" stroke="none">無 B 柱對開門（如 GV90）</text>
+  <path d="M300 120 Q302 122 300 150 L300 160 L500 160 L500 150 Q500 122 490 120 Z" />
+  <path d="M330 120 L372 70 L460 64 L490 120" />
+  <line x1="332" y1="120" x2="372" y2="70" stroke-width="5" />
+  <line x1="460" y1="64" x2="490" y2="120" stroke-width="5" />
+  <rect x="375" y="72" width="80" height="86" stroke-dasharray="5 4" stroke-width="1.5" />
+  <path d="M375 72 L352 80 L352 158 L375 158" stroke-width="2" />
+  <path d="M455 72 L478 80 L478 158 L455 158" stroke-width="2" />
+  <circle cx="335" cy="162" r="18" /><circle cx="468" cy="162" r="18" />
+  <text x="380" y="122" font-size="12" fill="currentColor" stroke="none">大開口</text>
+  <line x1="372" y1="66" x2="460" y2="62" stroke-width="5" />
+  <text x="300" y="214" font-size="13" fill="currentColor" stroke="none">B 柱的強度改由門內鋼梁、</text>
+  <text x="300" y="232" font-size="13" fill="currentColor" stroke="none">強化門鎖與加強車頂分擔</text>
+  <text x="20" y="250" font-size="13" fill="currentColor" stroke="none">B 柱：前後門之間的立柱，側撞與翻滾時</text>
+  <text x="20" y="268" font-size="13" fill="currentColor" stroke="none">保護乘員空間、支撐車頂，也是安全帶上固定點。</text>
+  <text x="20" y="290" font-size="12" fill="currentColor" stroke="none" opacity="0.7">示意圖，非比例</text>
+</svg>
