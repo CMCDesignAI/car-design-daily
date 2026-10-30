@@ -1141,6 +1141,39 @@
 "sig": "82349:1793233627",
 "w": 1280
 },
+"issues/2026-10-30/img/breaking-foxconn-model-aplus-cabin.webp": {
+"box": [
+0.0005,
+0.0379,
+1.0,
+0.9694
+],
+"h": 900,
+"sig": "72192:1793334563",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-aplus-side.webp": {
+"box": [
+0.0892,
+0.1999,
+0.8872,
+0.8181
+],
+"h": 900,
+"sig": "56392:1793334563",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-aplus.webp": {
+"box": [
+0.0536,
+0.1748,
+0.9181,
+0.8273
+],
+"h": 900,
+"sig": "67412:1793334562",
+"w": 1600
+},
 "issues/2026-10-30/img/byd-ocean-mpv-spy-2.jpg": {
 "box": null,
 "h": 800,

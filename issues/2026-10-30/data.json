@@ -3,6 +3,63 @@
  "weekday": "週五",
  "issue_no": 23,
  "lede": "小鵬 MONA L05 上市，用 Y 字頭燈與懸浮車頂撐起 4.9 米車身；全新 Pajero 公布日規細節、預購已破年度目標；Range Rover GT 強調自己是「車」，比亞迪海洋網 MPV 偽裝車曝光。",
+ "breaking": {
+  "label": "新車特報",
+  "brand": "Foxconn 鴻海",
+  "date": "2026-10-30（台北，鴻海科技日）",
+  "title": "鴻海發表 MODEL A+：輪內馬達、無 B 柱滑門的 B 級跨界 SUV 參考車",
+  "points": [
+   "鴻海 10/30 在南港展覽館 HHTD26 發表 MODEL A+、MODEL K+、MODEL K 三款參考電動車，參考車總數達 12 款；MODEL A+ 定位為 B 級距 SUV，供 CDMS 品牌客戶開發（鴻海新聞稿）。",
+   "造型：延續 MODEL A 的高頂方正車身，車頭車尾換上像素「F」字燈組、封閉式車頭發光 FOXCONN 字樣，並配車頂行李架與 LED 探照燈；鴻海稱其為「wild exterior design」（鴻海新聞稿、U-CAR、ETtoday）。",
+   "內裝／空間：側滑門搭配無 B 柱車身，前座可 180 度向後轉成移動會議室；鴻海稱「ultimate space interior」，訴求淹水等緊急應變、臨時居住與露營備用電力（ETtoday、鴻海新聞稿）。",
+   "動力：採輪內馬達（In-Wheel Motor）與可選電子電氣架構（EEA），現場報導具四輪驅動能力（鴻海新聞稿、ETtoday）。",
+   "未公布：尺寸、馬力／扭力、電池容量與續航、價格、上市時間，以及內裝 CMF 的色名與材質名稱。"
+  ],
+  "image": {
+   "file": "breaking-foxconn-model-aplus.webp",
+   "alt": "鴻海 MODEL A+ 在 HHTD26 舞台亮相，側滑門與前門全開、無 B 柱",
+   "credit": "ETtoday（記者張慶輝攝）",
+   "credit_url": "https://speed.ettoday.net/news/3263366"
+  },
+  "more_images": [
+   {
+    "file": "breaking-foxconn-model-aplus-cabin.webp",
+    "alt": "MODEL A+ 無 B 柱開口與白色座椅車室近拍",
+    "credit": "ETtoday（記者張慶輝攝）",
+    "credit_url": "https://speed.ettoday.net/news/3263366"
+   },
+   {
+    "file": "breaking-foxconn-model-aplus-side.webp",
+    "alt": "MODEL A+ 側面：高頂方正車身、車頂行李架、黑色輪拱",
+    "credit": "鴻海直播畫面（via ETtoday）",
+    "credit_url": "https://speed.ettoday.net/news/3263366"
+   }
+  ],
+  "video": {
+   "type": "youtube",
+   "id": "Hbx8eXoZrRM",
+   "title": "鴻海官方 YouTube：HHTD26 鴻海科技日開幕活動直播（含 MODEL A+ 發表）",
+   "url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM"
+  },
+  "sources": [
+   [
+    "鴻海新聞稿（PR Newswire）",
+    "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26-302924515.html"
+   ],
+   [
+    "ETtoday 車雲",
+    "https://speed.ettoday.net/news/3263366"
+   ],
+   [
+    "U-CAR",
+    "https://news.u-car.com.tw/news/article/90058"
+   ],
+   [
+    "鴻海官方預告影片",
+    "https://www.youtube.com/watch?v=Jlgt07a6hmk"
+   ]
+  ]
+ },
  "design_news": [
   {
    "id": "xpeng-mona-l05",
