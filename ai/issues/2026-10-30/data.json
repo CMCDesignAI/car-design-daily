@@ -164,8 +164,42 @@
    "id": "minimax-h3",
    "model": "MiniMax H3",
    "kind": "影片＋音訊生成",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "Pika 開源 6 步版 H3 Flex 轉接檔。",
+   "updates": [
+    {
+     "title": "Pika 釋出 Pika H3 Flex：把 MiniMax H3 蒸餾到 6 步，ComfyUI 已有官方範本",
+     "date": "2026-10-29",
+     "summary": "Pika 在 10/29 開源 Pika H3 Flex：以 MiniMax H3 為底再訓練，把原本 50 步的生成蒸餾成 6 步，並用回饋與偏好優化微調。以兩個 LoRA 轉接檔發布（首尾幀 fl2va、參考生成 ref2va），用標準 LoraLoaderModelOnly 節點載入。ComfyUI 官方文件說，5 秒 1344×768 影片在單張顯卡上約 1 分鐘完成，畫面與立體聲音訊同時生成，每次最多可放 12 個參考（9 張圖、3 段影片、3 段音訊）。範本庫有文生影片、參考生影片、首尾幀三個範本；官方提醒不要再疊加其他加速 LoRA，轉接檔沿用 MiniMax H3 社群授權，商用前要看授權條款。同一天 Comfy-Org 的 H3 倉庫也上傳了 Sol VAE（fp16／int8）。",
+     "links": [
+      [
+       "GitHub：Pika-Labs/Pika-H3-Flex",
+       "https://github.com/Pika-Labs/Pika-H3-Flex"
+      ],
+      [
+       "ComfyUI 官方文件：Pika H3 Flex",
+       "https://docs.comfy.org/tutorials/video/pika/pika-h3-flex"
+      ],
+      [
+       "Hugging Face：Comfy-Org/MiniMax-H3",
+       "https://huggingface.co/Comfy-Org/MiniMax-H3"
+      ]
+     ],
+     "image": {
+      "file": "pika-h3-flex.webp",
+      "alt": "Pika-H3-Flex GitHub 倉庫分享卡",
+      "credit": "GitHub · Pika-Labs",
+      "credit_url": "https://github.com/Pika-Labs/Pika-H3-Flex"
+     },
+     "short_title": "Pika H3 Flex：6 步出片的 H3",
+     "one": "Pika 把 MiniMax H3 加速成只要 6 步，5 秒有聲影片約 1 分鐘生成，ComfyUI 已能直接用。",
+     "gloss": [
+      [
+       "蒸餾（Distillation）",
+       "讓模型學會用更少步驟產生接近原本品質的結果，速度因此變快"
+      ]
+     ]
+    }
+   ]
   },
   {
    "id": "qwen-image-2-1",
