@@ -1,0 +1,610 @@
+{
+ "date": "2026-10-30",
+ "weekday": "週五",
+ "issue_no": 23,
+ "lede": "小鵬 MONA L05 上市，用 Y 字頭燈與懸浮車頂撐起 4.9 米車身；全新 Pajero 公布日規細節、預購已破年度目標；Range Rover GT 強調自己是「車」，比亞迪海洋網 MPV 偽裝車曝光。",
+ "design_news": [
+  {
+   "id": "xpeng-mona-l05",
+   "tag": "上市 · 中國",
+   "date": "2026-10-29",
+   "brand": "Xpeng 小鵬",
+   "title": "MONA L05 上市：Y 字頭燈、懸浮車頂的 4.9 米休旅",
+   "orig": "Xpeng Mona L05 launched in China at 21,720 USD",
+   "summary": "小鵬平價 MONA 系列的新旗艦 L05 在中國上市，售價 14.48 萬元人民幣起，提供純電與增程兩種動力。車長 4,870 mm、軸距 2,940 mm，外型走極簡路線，座艙用抬頭顯示器取代儀表。",
+   "analysis": [
+    [
+     "燈號",
+     "Y 字形頭燈搭配封閉式車頭，延續 MONA 系列的簡潔臉孔。"
+    ],
+    [
+     "側面",
+     "半隱藏式門把加上懸浮式車頂線，讓 4.9 米的車身看起來更修長。"
+    ],
+    [
+     "色彩",
+     "六種車色：銀、紫、黑、白、灰、綠；內裝有深灰與淺灰兩種配色。"
+    ],
+    [
+     "座艙 UX",
+     "17.3 吋中控螢幕配 26.8 吋抬頭顯示器（不設儀表），後座另有 17.3 吋吸頂螢幕；車內 41 處置物空間、8 個磁吸固定點。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/29）",
+     "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+    ]
+   ],
+   "image": {
+    "file": "news-xpeng-mona-l05.jpg",
+    "alt": "灰紫色小鵬 MONA L05 在展間內，旁邊有人在看車",
+    "credit": "Xpeng (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+   },
+   "more_images": [
+    {
+     "file": "xpeng-mona-l05-2.jpg",
+     "alt": "銀色 MONA L05 側面，車旁擺滿露營行李",
+     "credit": "Xpeng (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+    },
+    {
+     "file": "xpeng-mona-l05-3.jpg",
+     "alt": "MONA L05 打開的後車廂裝滿行李與玩偶",
+     "credit": "Xpeng (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+    }
+   ]
+  },
+  {
+   "id": "mitsubishi-pajero-japan",
+   "tag": "日本上市 · 三菱",
+   "date": "2026-10-29",
+   "brand": "Mitsubishi",
+   "title": "全新 Pajero 日本 12/17 開賣：兩款格柵、11 種車色，預購已破年度目標",
+   "orig": "Mitsubishi Motors Begins Sales of the All-New Pajero in Japan on December 17",
+   "summary": "三菱宣布全新 Pajero 12 月 17 日在日本開賣，分 Super Exceed、Exceed、GSR、GLS 四個等級；10 月 1 日開放預購至今約 5,500 台，已超過 2026 財年銷售目標。車子也拿下 2026 年 Good Design Award。",
+   "analysis": [
+    [
+     "比例",
+     "C 柱造型取自第一代 Pajero 的防滾架，車頂線條俐落。"
+    ],
+    [
+     "車頭",
+     "兩款格柵：Super Exceed 用蜂巢格柵，其他等級用水平格柵；深陷的頭燈配 T 字形燈號，官方說法是表現日本武道的沉穩。"
+    ],
+    [
+     "車尾",
+     "尾門的六角形設計取自歷代 Pajero 背在車尾的備胎。"
+    ],
+    [
+     "CMF",
+     "七種單色含專屬新色 Armor Copper Metallic 與 Phantom Blue Metallic，Super Exceed 另有四款黑車頂雙色，共 11 種；儀表板與門板用取自傳統工藝「木目込」的縫製軟包，Super Exceed 配駝色＋黑色半苯胺真皮。"
+    ]
+   ],
+   "sources": [
+    [
+     "Mitsubishi Motors 新聞稿（10/29）",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-pajero-japan.jpg",
+    "alt": "古銅色全新 Pajero Super Exceed 停在湖邊草地",
+    "credit": "Mitsubishi Motors",
+    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+   },
+   "more_images": [
+    {
+     "file": "mitsubishi-pajero-japan-2.jpg",
+     "alt": "Pajero Super Exceed 座艙：駝色與黑色真皮、水平儀表板與雙大螢幕",
+     "credit": "Mitsubishi Motors",
+     "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+    }
+   ]
+  },
+  {
+   "id": "range-rover-gt-video",
+   "tag": "開發 · 英國",
+   "date": "2026-10-28",
+   "brand": "Range Rover",
+   "title": "Range Rover GT：官方強調它是「車」，不是 SUV",
+   "orig": "Is The Range Rover GT Really A Car, Not An SUV? Land Rover Reveals More Of Its Low-Slung Grand Tourer",
+   "summary": "Range Rover 公布 GT 的開發影片，原型車從英國一路開到紐柏林測試。官方稱它是「car」、一台真正的 GT，而不是休旅車。",
+   "analysis": [
+    [
+     "姿態",
+     "官方說它是 Range Rover 車系裡重心最低、空力效率最好的一台。"
+    ],
+    [
+     "外觀",
+     "偽裝下仍看得出熟悉的 Range Rover 頭燈與尾燈、外擴輪拱與俐落車頂。"
+    ],
+    [
+     "定位",
+     "採 JLR 的 EMA 平台，先以純電推出。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/28）",
+     "https://www.carscoops.com/2299440/range-rover-gt-car-not-suv/"
+    ]
+   ],
+   "image": {
+    "file": "news-range-rover-gt-video.jpg",
+    "alt": "貼著偽裝的 Range Rover GT 原型車在山路上",
+    "credit": "Range Rover (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2299440/range-rover-gt-car-not-suv/"
+   }
+  },
+  {
+   "id": "byd-ocean-mpv-spy",
+   "tag": "諜照 · 中國",
+   "date": "2026-10-29",
+   "brand": "BYD 比亞迪",
+   "title": "海洋網新 MPV 偽裝車曝光：海豹 08 家族臉、分離式頭燈",
+   "orig": "BYD's upcoming Ocean Series MPV spotted in China with the Seal 08's face",
+   "summary": "比亞迪海洋網的新 MPV 偽裝車在中國被拍到，車頭與海豹 08、海獅 08 很像。它預計補上夏（M9）留下的空缺：夏 9 月只交車 280 台，騰勢 D9 則交 5,056 台；報導預估售價約 20 萬元人民幣。",
+   "analysis": [
+    [
+     "車頭",
+     "藍色條紋偽裝下可見分離式頭燈，日行燈是橫躺的「B」字形，和海豹 08 同一套。"
+    ],
+    [
+     "設計語言",
+     "預料沿用「海洋美學 2.0」。"
+    ],
+    [
+     "側面",
+     "採傳統門把，車側有滑門滑軌。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/29）",
+     "https://carnewschina.com/2026/10/29/byds-upcoming-ocean-series-mpv-spotted-in-china-with-the-seal-08s-face/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-ocean-mpv-spy.jpg",
+    "alt": "藍色條紋偽裝的比亞迪 MPV 載在拖車上",
+    "credit": "迪粉之家 (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/29/byds-upcoming-ocean-series-mpv-spotted-in-china-with-the-seal-08s-face/"
+   },
+   "more_images": [
+    {
+     "file": "byd-ocean-mpv-spy-2.jpg",
+     "alt": "偽裝 MPV 車頭特寫",
+     "credit": "迪粉之家 (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/29/byds-upcoming-ocean-series-mpv-spotted-in-china-with-the-seal-08s-face/"
+    },
+    {
+     "file": "byd-ocean-mpv-spy-3.jpg",
+     "alt": "偽裝 MPV 頭燈區域特寫，可見海豹 08 式輪廓",
+     "credit": "迪粉之家 (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/29/byds-upcoming-ocean-series-mpv-spotted-in-china-with-the-seal-08s-face/"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x3-m50-black",
+   "tag": "特仕 · 德國",
+   "date": "2026-10-28",
+   "brand": "BMW",
+   "title": "2027 X3 M50 Black Package：全黑外觀配藍色縫線",
+   "orig": "2027 BMW X3 M50 Adds Horsepower and a Sinister Appearance Package",
+   "summary": "2027 年式 BMW X3 M50 新增選配 Black Package，外觀全黑化；X3 M50 馬力提升 44 匹到 437 匹，12 月起交車。",
+   "analysis": [
+    [
+     "外觀",
+     "22 吋 Jet Black 輪圈，亮黑卡鉗配單色 M 標。"
+    ],
+    [
+     "CMF",
+     "儀表板、中控台與門板包黑色 Alcantara，飾板是鋁碳材質，座椅點綴藍色縫線與滾邊。"
+    ],
+    [
+     "全車系內裝",
+     "所有 2027 年式 X3 都加新的氛圍燈，並換上觸感更軟的表面。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（10/28）",
+     "https://www.caranddriver.com/news/a74272007/2027-bmw-x3-m50-power-appearance-package/"
+    ]
+   ],
+   "image": {
+    "file": "news-bmw-x3-m50-black.jpg",
+    "alt": "深灰色 BMW X3 M50 Black Package，黑色輪圈與亮框雙腎格柵",
+    "credit": "BMW (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74272007/2027-bmw-x3-m50-power-appearance-package/"
+   }
+  },
+  {
+   "id": "toyota-snowhunter",
+   "tag": "SEMA · 美國",
+   "date": "2026-10-28",
+   "brand": "Toyota",
+   "title": "Snowhunter 概念車隊：五台裝雪地履帶的越野車",
+   "orig": "Toyota Snowhunter Concepts Ready To Conquer The Inevitable A.I.-Induced Nuclear Winter",
+   "summary": "Toyota 為 SEMA 推出五台 Snowhunter 概念車，以 Tundra、Tacoma、4Runner、Land Cruiser、Sequoia 為基礎，全部換上雪地履帶，由 Michigan 的 CALTY 設計研究中心打造，不會量產。",
+   "analysis": [
+    [
+     "塗裝",
+     "五台共用白色車身加灰色幾何圖案的彩貼，呼應雪地環境。"
+    ],
+    [
+     "功能配件",
+     "Tundra 搭 TrailLift Pro 貨斗架，可升降的置物架方便把單車、獨木舟放上車頂。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/28）",
+     "https://www.carscoops.com/2299615/toyota-snowhunter-concepts-sema/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-snowhunter.jpg",
+    "alt": "五台白色幾何彩貼、裝雪地履帶的 Toyota 越野車停在雪山前",
+    "credit": "Toyota (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2299615/toyota-snowhunter-concepts-sema/"
+   },
+   "more_images": [
+    {
+     "file": "toyota-snowhunter-2.jpg",
+     "alt": "Tundra Snowhunter 概念車的雪地履帶與白灰彩貼",
+     "credit": "Toyota (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2299615/toyota-snowhunter-concepts-sema/"
+    }
+   ]
+  },
+  {
+   "id": "toyota-hybrid-lower-hood",
+   "tag": "技術 · 日本",
+   "date": "2026-10-29",
+   "brand": "Toyota",
+   "title": "新一代油電系統縮小，讓下一代 Corolla 車頭更低",
+   "orig": "Toyota Details the New Hybrid System Bound for the Next-Gen Corolla",
+   "summary": "Toyota 公布新一代油電系統：以全新 1.5 升直列四缸（自然進氣與渦輪）為核心，電驅單元更輕巧，目標油耗改善 15% 以上。Car and Driver 指出它預計用在 2028 年式第 13 代 Corolla。",
+   "analysis": [
+    [
+     "比例",
+     "引擎與電驅單元都縮小，讓引擎蓋可以更低、車身更流線、更符合空力。"
+    ],
+    [
+     "平台",
+     "油電、插電與純電共用同一平台。"
+    ],
+    [
+     "效率",
+     "目標油耗改善 15% 以上。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（10/29）",
+     "https://www.caranddriver.com/news/a74286373/toyota-new-hybrid-system-details-next-corolla/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-hybrid-lower-hood.jpg",
+    "alt": "Toyota Corolla 概念車，低矮車頭與細長頭燈",
+    "credit": "Toyota (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74286373/toyota-new-hybrid-system-details-next-corolla/"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-temerario-tettonero-cabin",
+   "kind": "car",
+   "car": "Lamborghini Temerario Tettonero",
+   "tag": "內裝 · 義大利",
+   "title": "Tettonero：Nero Ade 黑皮配六角絎縫",
+   "points": [
+    "座椅與內裝用 Nero Ade 黑色皮革，配 Grigio Octans 灰色對比縫線。",
+    "Q-citura 座椅是品牌招牌的六角形絎縫，縫線也可改成車身同色。",
+    "頭枕繡 Lamborghini 標誌，門板有 Tettonero 字樣，後艙壁繡雙色車尾剪影。",
+    "另有 Matt Carbon 消光碳纖專屬銘牌，車頂是 Nero Noctis 黑。"
+   ],
+   "image": {
+    "file": "cmf-car-temerario-tettonero-cabin.jpg",
+    "alt": "Temerario Tettonero 黑色座椅，黃色六角形絎縫與頭枕刺繡",
+    "credit": "Lamborghini (via Supercars.net)",
+    "credit_url": "https://www.supercars.net/blog/lamborghini-temerario-tettonero-adds-a-bold-two-tone-look-to-the-920-hp-hybrid-supercar/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-temerario-tettonero-cabin-2.jpg",
+     "alt": "Tettonero 黑色門板，黃色縫線與六角形紋樣",
+     "credit": "Lamborghini (via Supercars.net)",
+     "credit_url": "https://www.supercars.net/blog/lamborghini-temerario-tettonero-adds-a-bold-two-tone-look-to-the-920-hp-hybrid-supercar/"
+    }
+   ],
+   "sources": [
+    [
+     "Motor Illustrated（10/29）",
+     "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+    ],
+    [
+     "Supercars.net（10/29）",
+     "https://www.supercars.net/blog/lamborghini-temerario-tettonero-adds-a-bold-two-tone-look-to-the-920-hp-hybrid-supercar/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-topolino-2027-colours",
+   "kind": "paint",
+   "car": "Fiat Topolino（美規 2027）",
+   "tag": "新色 · 義大利",
+   "title": "Topolino 新色 Corallo Orange 與 Luna Greige",
+   "points": [
+    "2027 美規 Topolino 新增兩種車色：Corallo Orange 與 Luna Greige。",
+    "新增 Open Air 車型，雙門車身配可向後捲收的軟頂。",
+    "座艙換上全彩數位儀表。",
+    "另有與遊艇廠 Sanlorenzo 合作的一台特製車，用天然材質、高級織品與仿柚木甲板的木地板。"
+   ],
+   "image": {
+    "file": "cmf-paint-topolino-2027-colours.jpg",
+    "alt": "兩台 Corallo Orange 珊瑚橘 Fiat Topolino 停在海灘",
+    "credit": "Stellantis (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74286839/2027-fiat-topolino-street-legal-status/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-topolino-2027-colours-2.jpg",
+     "alt": "兩台 Luna Greige 灰米色 Fiat Topolino 停在海邊",
+     "credit": "Stellantis (via Car and Driver)",
+     "credit_url": "https://www.caranddriver.com/news/a74286839/2027-fiat-topolino-street-legal-status/"
+    }
+   ],
+   "sources": [
+    [
+     "Fiat 新聞稿 PR Newswire（10/29）",
+     "https://www.prnewswire.com/news-releases/2027-fiat-topolino-brings-new-colors-body-style-and-low-speed-vehicle-street-legal-capability-to-the-us-302923758.html"
+    ],
+    [
+     "Car and Driver（10/29）",
+     "https://www.caranddriver.com/news/a74286839/2027-fiat-topolino-street-legal-status/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-material-avery-spectrix-ppf",
+   "kind": "material",
+   "car": "Avery Dennison",
+   "tag": "車身膜 · 印度",
+   "title": "Spectrix 彩色保護膜與車內 TPU 保護套件",
+   "points": [
+    "Spectrix 是彩色車身保護膜（PPF），面層可自我修復。",
+    "提供 12 年保護保固，加 4 年顏色不褪保固。",
+    "另與 Inpano 合作推出車內表面保護套件：雷射裁切的透明 TPU 膜。",
+    "TPU 膜貼在鋼琴黑飾板、螢幕、開關等處，可自我修復、撕除乾淨。"
+   ],
+   "image": {
+    "file": "cmf-material-avery-spectrix-ppf.jpg",
+    "alt": "貼著 Avery Dennison 標誌的藍色展示車在活動現場",
+    "credit": "Avery Dennison (via Outlook Business)",
+    "credit_url": "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough"
+   },
+   "sources": [
+    [
+     "Outlook Business（10/28）",
+     "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-mini-round-oled",
+   "kind": "case",
+   "brand": "MINI",
+   "tag": "介面與 HMI",
+   "title": "MINI 堅持圓形 OLED：原生導航填滿整個圓",
+   "date": "2026-10-29",
+   "points": [
+    "9.4 吋圓形 OLED 觸控螢幕放在儀表板正中央，延續 1959 年原版 Mini 的中央圓形時速表。",
+    "MINI 原生導航可以用滿整個圓形畫面。",
+    "CarPlay 與 Android Auto 是長方形介面，只能在圓裡顯示成一個小方框，四周空間浪費。",
+    "Google 正在開發能適應異形螢幕的 Android Auto 新版介面，可能改善圓形螢幕的顯示。"
+   ],
+   "image": {
+    "file": "hmi-mini-round-oled.jpg",
+    "alt": "MINI 圓形 OLED 中控螢幕特寫，外圈顯示時速刻度",
+    "credit": "MINI (via BMWBlog)",
+    "credit_url": "https://www.bmwblog.com/2026/10/29/mini-keeping-circular-screen/"
+   },
+   "sources": [
+    [
+     "BMWBlog（10/29）",
+     "https://www.bmwblog.com/2026/10/29/mini-keeping-circular-screen/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 日本",
+   "date": "2026-10-29",
+   "title": "三菱汽車 9 月全球產量 76,723 輛，年增 16%",
+   "summary": "三菱汽車公布 9 月產銷：全球產量 76,723 輛、年增 16.0%，其中日本國內產量 39,634 輛、年增 39.0%；日本國內銷售 13,457 輛、年增 20.5%，出口 17,029 輛、年減 3.2%。2026 財年上半年全球產量 414,292 輛，與去年持平（99.9%）。",
+   "sources": [
+    [
+     "Mitsubishi Motors 新聞稿（10/29）",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_2.html"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐洲",
+   "date": "2026-10-29",
+   "title": "福斯集團前九月營業利益僅 1 億歐元，電動車利潤仍低於燃油車",
+   "summary": "福斯集團前九月營收 2,334 億歐元、年減 2%，營業利益 1 億歐元（去年 54 億），主因是 87 億歐元特殊項目（其中保時捷商譽減損 64 億）；排除後營業利益率 3.8%。第三季營業利益率為 -7.8%。財務長表示目前電動車賺得比燃油車少；歐洲訂單年增 4%，純電訂單增 39%，電動車占歐洲訂單約 40%。",
+   "sources": [
+    [
+     "Volkswagen Group 新聞稿（10/29）",
+     "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-nine-month-results-underline-urgent-need-for-action-20799"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-10-28",
+   "title": "乘聯分會：10 月 1–25 日新能源車零售年減 13%",
+   "summary": "乘聯分會數據顯示，10 月 1–25 日中國新能源乘用車零售 75.3 萬輛、年減 13%，比 9 月同期少 1%；整體乘用車零售年減 26%，新能源滲透率 65.7%。今年累計新能源零售 851 萬輛、年減 13%；乘聯分會預估 10 月全月約 107 萬輛、年減 16.5%。",
+   "sources": [
+    [
+     "CnEVPost（10/28）",
+     "https://cnevpost.com/2026/10/28/china-nev-retail-fall-oct-1-25/"
+    ]
+   ]
+  },
+  {
+   "tag": "出海 · 中國",
+   "date": "2026-10-29",
+   "title": "長城汽車保加利亞基地 2027 年第一季投產",
+   "summary": "長城汽車將與 Bulgarian Automotive Industry 合作，在保加利亞 Lovech 設生產基地，首車預計 2027 年第一季下線，規劃年產能 5 萬輛，首款車型是歐拉 5。長城 10/27 在米蘭 H7 發表會上宣布，未來兩年要在歐洲推出至少 10 款新車。",
+   "sources": [
+    [
+     "CnEVPost（10/29）",
+     "https://cnevpost.com/2026/10/29/gwm-plans-bulgaria-production-base/"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 台灣",
+   "date": "2026-10-29",
+   "title": "CROWN SPORT 台灣海外首發，2026 年配額已售完",
+   "summary": "和泰汽車發表 CROWN SPORT 與升級版 CROWN CROSSOVER，汰舊換新價 152 萬元起；台灣是 CROWN SPORT 全球海外第一個上市的國家，2026 年配額在發表前已全數售完，和泰定下年銷 2,000 台目標。預售中 CROWN SPORT PHEV 占 6 成；CROWN CROSSOVER 換上一體式車尾與新的棕色內裝。",
+   "sources": [
+    [
+     "經濟日報（10/29）",
+     "https://money.udn.com/money/story/5635/9844165"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Floating roof",
+  "zh": "懸浮式車頂",
+  "body": "懸浮式車頂是把車頂後段的立柱（通常是 C 柱或 D 柱）做成黑色，或用玻璃、黑色飾板把它藏起來，讓車頂看起來像和車身分開、浮在車窗上方。本期小鵬 MONA L05 就是這樣：側窗一路延伸到車尾，後段立柱塗黑，車身色的車頂像一片板子蓋在上面，車身因此顯得更低、更長。設計師常用這種手法，讓大尺寸休旅車看起來比較輕巧。",
+  "source": [
+   [
+    "CarNewsChina：MONA L05 採用 floating roofline",
+    "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Nero Ade & Armor Copper",
+   "zh": "黑皮六角絎縫配古銅：深色的性能 GT 座艙",
+   "intro": "每日一組內裝配色示例：以 Lamborghini Tettonero 的 Nero Ade 黑皮與 Grigio Octans 灰縫線做主體，扶手借全新 Pajero 的駝色真皮，點綴 Armor Copper 般的古銅與 Corallo Orange 珊瑚橘，搭深色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟包皮革",
+     "Nero Ade 黑（示意）",
+     "#1C1C1E",
+     false,
+     "ip-upper",
+     {
+      "src": "Tettonero Nero Ade 內裝",
+      "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+     }
+    ],
+    [
+     "儀表板飾條 · 消光碳纖",
+     "Matt Carbon（示意）",
+     "#3A3B3D",
+     false,
+     "ip-decor",
+     {
+      "src": "Tettonero Matt Carbon 銘牌",
+      "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+     }
+    ],
+    [
+     "門板嵌飾 · 六角絎縫皮革",
+     "Nero Ade 黑（示意）",
+     "#232325",
+     false,
+     "door-insert",
+     {
+      "src": "Q-citura 六角絎縫",
+      "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+     }
+    ],
+    [
+     "門扶手 · 半苯胺真皮",
+     "駝色（示意）",
+     "#A8774A",
+     false,
+     "armrest",
+     {
+      "src": "Pajero Super Exceed 駝色＋黑色真皮",
+      "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Grigio Octans 灰（示意）",
+     "#8E9196",
+     false,
+     "stitch",
+     {
+      "src": "Tettonero 灰色對比縫線",
+      "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨黑（示意）",
+     "#2A2A2C",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Nero Ade 黑皮、Grigio Octans 縫線、Q-citura 六角絎縫、Matt Carbon：Lamborghini Temerario Tettonero（Motor Illustrated）",
+     "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/"
+    ],
+    [
+     "駝色＋黑色半苯胺真皮、Armor Copper Metallic 新色：全新 Pajero",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+    ],
+    [
+     "Corallo Orange 新色：2027 Fiat Topolino",
+     "https://www.prnewswire.com/news-releases/2027-fiat-topolino-brings-new-colors-body-style-and-low-speed-vehicle-street-legal-capability-to-the-us-302923758.html"
+    ]
+   ],
+   "mood": [
+    "沉穩",
+    "性能",
+    "溫暖",
+    "精緻"
+   ],
+   "mood_text": "黑色皮革與六角絎縫撐起運動感，灰色縫線讓線條清楚但不搶戲，駝色扶手與古銅、珊瑚橘小點綴替深色座艙加一點溫度。",
+   "vars": {
+    "headliner": "dark",
+    "seat-bolster": "#1C1C1E",
+    "seat-center": "#2B2B2E",
+    "console": "#2A2A2C",
+    "console-arm": "#A8774A",
+    "steering": "#1C1C1E",
+    "accent-pod": "#B06A3B",
+    "accent-pod2": "#E8704F",
+    "ip-lower": "#2A2A2C",
+    "seat": "#2B2B2E"
+   }
+  }
+ },
+ "parts_added": 20
+}

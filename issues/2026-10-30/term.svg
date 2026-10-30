@@ -1,0 +1,18 @@
+<svg class="diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" width="100%" role="img" aria-label="懸浮式車頂示意圖：休旅車側面，後段立柱塗黑，車身色車頂像浮在車窗上方" fill="none" stroke="currentColor" stroke-width="2" font-family="sans-serif">
+  <text x="20" y="28" font-size="16" fill="currentColor" stroke="none">懸浮式車頂：立柱塗黑，車頂像浮在車身上</text>
+  <path d="M40 190 L40 160 Q42 140 80 134 L130 128 L175 92 Q190 84 215 82 L420 80 Q450 82 470 120 L486 140 Q492 150 490 190 Z" />
+  <path d="M138 128 L180 96 L420 94 L458 132 Z" fill="currentColor" opacity="0.85" stroke="none" />
+  <path d="M176 84 L418 82 Q445 82 462 110" stroke="#f08a5d" stroke-width="7" stroke-linecap="round" />
+  <line x1="262" y1="96" x2="262" y2="130" stroke="#f08a5d" stroke-width="1" opacity="0" />
+  <path d="M44 150 L70 146" stroke-width="4" />
+  <rect x="474" y="132" width="12" height="16" rx="2" fill="currentColor" stroke="none" opacity="0.6" />
+  <circle cx="115" cy="192" r="26" /><circle cx="115" cy="192" r="11" />
+  <circle cx="405" cy="192" r="26" /><circle cx="405" cy="192" r="11" />
+  <path d="M60 218 L470 218" stroke-width="1" opacity="0.4" />
+  <text x="300" y="58" font-size="16" fill="#f08a5d" stroke="none">車身色車頂（像浮著）</text>
+  <line x1="330" y1="64" x2="330" y2="80" stroke="#f08a5d" stroke-width="1" stroke-dasharray="3 3" />
+  <text x="350" y="256" font-size="15" fill="currentColor" stroke="none">C/D 柱塗黑、融入車窗</text>
+  <line x1="420" y1="240" x2="440" y2="120" stroke-width="1" stroke-dasharray="3 3" />
+  <text x="40" y="256" font-size="15" fill="currentColor" stroke="none">連成一片的黑色窗帶</text>
+  <line x1="120" y1="240" x2="240" y2="115" stroke-width="1" stroke-dasharray="3 3" />
+</svg>

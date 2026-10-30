@@ -410,5 +410,29 @@
   "angle": "Cosmic Blue 藍轉紫變色漆",
   "url": "https://www.dezeen.com/2026/10/28/concept-cars-stellantis-paris-motor-show-design-video/",
   "image": "cmf-paint-ds-f3ver-cosmic-blue.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "car",
+  "car_key": "lamborghini-temerario-tettonero",
+  "angle": "Nero Ade 黑皮、Grigio Octans 縫線、Q-citura 六角絎縫、Matt Carbon 銘牌",
+  "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/",
+  "image": "cmf-car-temerario-tettonero-cabin.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "paint",
+  "car_key": "fiat-topolino-2027",
+  "angle": "新色 Corallo Orange、Luna Greige，Sanlorenzo 特製",
+  "url": "https://www.prnewswire.com/news-releases/2027-fiat-topolino-brings-new-colors-body-style-and-low-speed-vehicle-street-legal-capability-to-the-us-302923758.html",
+  "image": "cmf-paint-topolino-2027-colours.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "material",
+  "car_key": "avery-dennison-spectrix",
+  "angle": "彩色 PPF 與車內 TPU 保護套件",
+  "url": "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough",
+  "image": "cmf-material-avery-spectrix-ppf.jpg"
  }
 ]
