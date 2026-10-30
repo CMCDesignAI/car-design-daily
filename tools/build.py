@@ -420,27 +420,31 @@ def page(d, base, all_issues, is_root):
     # breaking news (optional; issues without "breaking" render exactly as before)
     bk = d.get("breaking")
     if bk:
-        im = bk.get("image"); v = bk.get("video") or {}
-        fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="eager" decoding="async" width="1600" height="900"></div>'
-               f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
-        if im and bk.get("more_images"):
-            fig = gallery(bk, img, eager=not v)   # photos carousel (kept under the video when more_images is given)
-        vlink = f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a>{f' · <a href="{e(v["x_url"])}" target="_blank" rel="noopener">{e(v.get("x_title","X 影片"))} ↗</a>' if v.get("x_url") else ""}</p>' if v.get("url") else ""
-        if v.get("type") == "youtube":
-            vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}{f"?start={int(v['start'])}" if v.get("start") else ""}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{vlink}</div>'
-        elif v.get("mp4"):
-            poster = f' poster="{img}{e(im["file"])}"' if im else ""
-            vid = f'<div class="bk-video"><div class="ratio"><video controls playsinline preload="metadata"{poster} title="{e(v.get("title",""))}"><source src="{e(v["mp4"])}" type="video/mp4"></video></div>{vlink}</div>'
-        elif v.get("url"):
-            vid = (f'<div class="bk-video"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" data-conversation="none"><a href="{e(v["url"])}">{e(v.get("title",""))}</a></blockquote>{vlink}</div>'
-                   '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>')
-        else:
-            vid = ""
-        if vid and not bk.get("more_images"):
-            fig = ""  # video takes the hero position; no duplicate still image
-        pts = "".join(f'<li>{e(x)}</li>' for x in bk["points"])
-        src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in bk["sources"])
-        H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk.get("label","新車特報"))} · Breaking</div><article class="story bk-card">{vid}{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div><div class="src">來源：{src}</div></article></section>')
+        cards = []
+        for bk in [bk] + list(d.get("breaking_more") or []):  # optional extra cards (same fields) in the same section
+            im = bk.get("image"); v = bk.get("video") or {}
+            fig = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="eager" decoding="async" width="1600" height="900"></div>'
+                   f'<figcaption>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>') if im else ""
+            if im and bk.get("more_images"):
+                fig = gallery(bk, img, eager=not v, cls="news-img bk-inline" if v else "news-img")   # photos carousel (kept under the video when more_images is given)
+            vlink = f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a>{f' · <a href="{e(v["x_url"])}" target="_blank" rel="noopener">{e(v.get("x_title","X 影片"))} ↗</a>' if v.get("x_url") else ""}</p>' if v.get("url") else ""
+            if v.get("type") == "youtube":
+                vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}{f"?start={int(v['start'])}" if v.get("start") else ""}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{vlink}</div>'
+            elif v.get("mp4"):
+                poster = f' poster="{img}{e(im["file"])}"' if im else ""
+                vid = f'<div class="bk-video"><div class="ratio"><video controls playsinline preload="metadata"{poster} title="{e(v.get("title",""))}"><source src="{e(v["mp4"])}" type="video/mp4"></video></div>{vlink}</div>'
+            elif v.get("url"):
+                vid = (f'<div class="bk-video"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" data-conversation="none"><a href="{e(v["url"])}">{e(v.get("title",""))}</a></blockquote>{vlink}</div>'
+                       '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>')
+            else:
+                vid = ""
+            if vid and not bk.get("more_images"):
+                fig = ""  # video takes the hero position; no duplicate still image
+            pts = "".join(f'<li>{e(x)}</li>' for x in bk["points"])
+            src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in bk["sources"])
+            cards.append(f'<article class="story bk-card">{vid}{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div><div class="src">來源：{src}</div></article>')
+        bk0 = d["breaking"]
+        H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk0.get("label","新車特報"))} · Breaking</div>{"".join(cards)}</section>')
     # design news
     # 今日 3 重點 + jump nav
     H.append('<section id="design"><div class="sec-head"><span class="num">01</span><h2>設計新聞</h2><span class="en">Design News</span></div><div class="news">')
@@ -536,7 +540,7 @@ def archive_page(all_issues):
     rows = []
     for x in all_issues:
         th = thumb_for(x, f"{ROOT}/issues/{x['date']}")
-        kw = " ".join([n.get("brand","") + " " + n.get("title","") for n in x.get("design_news", [])] + [c.get("car","") + " " + c.get("title","") for c in x.get("cmf") or []] + [h.get("brand","") + " " + h.get("title","") for h in x.get("hmi") or []] + [k.get("title","") for k in x.get("knowledge", [])] + [(x.get("breaking") or {}).get("title","")])
+        kw = " ".join([n.get("brand","") + " " + n.get("title","") for n in x.get("design_news", [])] + [c.get("car","") + " " + c.get("title","") for c in x.get("cmf") or []] + [h.get("brand","") + " " + h.get("title","") for h in x.get("hmi") or []] + [k.get("title","") for k in x.get("knowledge", [])] + [(x.get("breaking") or {}).get("title","")] + [m.get("title","") for m in x.get("breaking_more") or []])
         rows.append((f'../issues/{x["date"]}/', f'../issues/{x["date"]}/{th}' if th else None, x["issue_no"], x["date"], x["weekday"], x["design_news"][0]["title"], kw))
     li = archive_rows(rows, True)
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
