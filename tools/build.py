@@ -274,6 +274,16 @@ GAL_JS = ("<script>(()=>{const go=(t,d)=>{const s=t.children,w=s[0].getBoundingC
  "const c=f.querySelector('.gcap');if(c&&s[k])c.innerHTML=s[k].dataset.cap};"
  "document.querySelectorAll('.gtrack').forEach(t=>{let r;t.addEventListener('scroll',()=>{cancelAnimationFrame(r);r=requestAnimationFrame(()=>up(t))},{passive:true})})})()</script>")
 
+VCAR_JS = ("<script>(()=>{const w=document.querySelector('.vcar');if(!w)return;const L=JSON.parse(w.dataset.v),fr=w.querySelector('iframe'),cnt=w.querySelector('.gcount'),cap=w.querySelector('.vcap');"
+ "let i=0,p=null,ready=false,started=false;"
+ "const show=(k,play)=>{i=(k+L.length)%L.length;cnt.textContent=(i+1)+'/'+L.length;cap.innerHTML=L[i].cap;w.dataset.i=i;"
+ "if(ready){play?p.loadVideoById(L[i].id):p.cueVideoById(L[i].id)}else{fr.src='https://www.youtube-nocookie.com/embed/'+L[i].id+'?enablejsapi=1&playsinline=1&rel=0'+(play?'&autoplay=1':'')}};"
+ "w.querySelector('.gp').addEventListener('click',()=>show(i-1,started));w.querySelector('.gn').addEventListener('click',()=>show(i+1,started));"
+ "window.__vcar={show,get i(){return i},get ready(){return ready},get p(){return p}};"
+ "const prev=window.onYouTubeIframeAPIReady;window.onYouTubeIframeAPIReady=()=>{prev&&prev();p=new YT.Player(fr,{events:{onReady:()=>{ready=true},onStateChange:ev=>{"
+ "if(ev.data===YT.PlayerState.PLAYING)started=true;if(ev.data===YT.PlayerState.ENDED){if(i<L.length-1)show(i+1,true);else show(0,false)}}}})};"
+ "const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;document.head.appendChild(s)})()</script>")
+
 FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
 FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
 def collect_focus(d, base_dir):
@@ -428,7 +438,15 @@ def page(d, base, all_issues, is_root):
             if im and bk.get("more_images"):
                 fig = gallery(bk, img, eager=not v, cls="news-img bk-inline" if v else "news-img")   # photos carousel (kept under the video when more_images is given)
             vlink = f'<p class="bk-vlink">▶ <a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("title","觀看影片"))} ↗</a>{f' · <a href="{e(v["x_url"])}" target="_blank" rel="noopener">{e(v.get("x_title","X 影片"))} ↗</a>' if v.get("x_url") else ""}</p>' if v.get("url") else ""
-            if v.get("type") == "youtube":
+            if v.get("type") == "youtube_list":   # official per-car videos: arrows + 1/N, auto-advance on ENDED (YouTube IFrame API)
+                its = v["items"]; f0 = its[0]
+                vcap = lambda x: f'<a href="{e(x["url"])}" target="_blank" rel="noopener">{e(x["car"])}｜{e(x["title"])} ↗</a>'
+                data = e(json.dumps([{"id": x["id"], "cap": vcap(x)} for x in its], ensure_ascii=False))
+                live = f' <span class="vlive">· <a href="{e(v["live_url"])}" target="_blank" rel="noopener">{e(v.get("live_title","完整直播"))} ↗</a></span>' if v.get("live_url") else ""
+                vid = (f'<div class="bk-video vcar" data-v="{data}"><div class="ratio"><iframe id="vcar-yt" src="https://www.youtube-nocookie.com/embed/{e(f0["id"])}?enablejsapi=1&amp;playsinline=1&amp;rel=0" title="{e(f0["car"])}｜{e(f0["title"])}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+                       f'<button class="gbtn gp vbtn" type="button" aria-label="上一段影片">‹</button><button class="gbtn gn vbtn" type="button" aria-label="下一段影片">›</button><span class="gcount">1/{len(its)}</span></div>'
+                       f'<p class="bk-vlink">▶ <span class="vcap">{vcap(f0)}</span>{live}</p></div>' + VCAR_JS)
+            elif v.get("type") == "youtube":
                 vid = f'<div class="bk-video"><div class="ratio"><iframe src="https://www.youtube-nocookie.com/embed/{e(v["id"])}{f"?start={int(v['start'])}" if v.get("start") else ""}" title="{e(v.get("title",""))}" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>{vlink}</div>'
             elif v.get("mp4"):
                 poster = f' poster="{img}{e(im["file"])}"' if im else ""

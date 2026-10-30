@@ -469,3 +469,8 @@ html{scroll-padding-top:110px}
 .cpts{margin:.5em 0 .2em;padding-left:1.2em;font-size:14.5px;line-height:1.7;color:var(--ink)}
 .cpts li{margin:.15em 0}
 .cpts li::marker{color:var(--accent,#7aa2ff)}
+.breaking .vcar .ratio{border-radius:0}
+.breaking .vcar .gbtn{top:50%}
+.breaking .vcar .bk-vlink{margin:10px 0 6px;line-height:1.5}
+.breaking .vcar .vlive{color:var(--muted);font-size:12px;white-space:nowrap}
+.breaking .vcar .vlive a{color:inherit}
