@@ -6,14 +6,11 @@
  "breaking": {
   "label": "新車特報",
   "brand": "Foxconn 鴻海",
-  "date": "2026-10-30（台北，鴻海科技日）",
-  "title": "鴻海發表 MODEL A+：輪內馬達、無 B 柱滑門的 B 級跨界 SUV 參考車",
+  "date": "2026-10-30（台北，鴻海科技日 HHTD26）",
+  "title": "鴻海科技日一次發表三款參考車：MODEL A+、MODEL K、MODEL K+",
   "points": [
-   "鴻海 10/30 在南港展覽館 HHTD26 發表 MODEL A+、MODEL K+、MODEL K 三款參考電動車，參考車總數達 12 款；MODEL A+ 定位為 B 級距 SUV，供 CDMS 品牌客戶開發（鴻海新聞稿）。",
-   "造型：延續 MODEL A 的高頂方正車身，車頭車尾換上像素「F」字燈組、封閉式車頭發光 FOXCONN 字樣，並配車頂行李架與 LED 探照燈；鴻海稱其為「wild exterior design」（鴻海新聞稿、U-CAR、ETtoday）。",
-   "內裝／空間：側滑門搭配無 B 柱車身，前座可 180 度向後轉成移動會議室；鴻海稱「ultimate space interior」，訴求淹水等緊急應變、臨時居住與露營備用電力（ETtoday、鴻海新聞稿）。",
-   "動力：採輪內馬達（In-Wheel Motor）與可選電子電氣架構（EEA），現場報導具四輪驅動能力（鴻海新聞稿、ETtoday）。",
-   "未公布：尺寸、馬力／扭力、電池容量與續航、價格、上市時間，以及內裝 CMF 的色名與材質名稱。"
+   "鴻海電動車策略長關潤在 HHTD26 開幕直播發表三款新車，鴻海參考車總數達 12 款，供 CDMS 客戶開發自有品牌（鴻海新聞稿、直播）。",
+   "直播時間點：MODEL A+ 2:16:10、MODEL K 2:22:20、MODEL K+ 2:24:50。"
   ],
   "image": {
    "file": "breaking-foxconn-model-aplus.webp",
@@ -21,25 +18,12 @@
    "credit": "ETtoday（記者張慶輝攝）",
    "credit_url": "https://speed.ettoday.net/news/3263366"
   },
-  "more_images": [
-   {
-    "file": "breaking-foxconn-model-aplus-cabin.webp",
-    "alt": "MODEL A+ 無 B 柱開口與白色座椅車室近拍",
-    "credit": "ETtoday（記者張慶輝攝）",
-    "credit_url": "https://speed.ettoday.net/news/3263366"
-   },
-   {
-    "file": "breaking-foxconn-model-aplus-side.webp",
-    "alt": "MODEL A+ 側面：高頂方正車身、車頂行李架、黑色輪拱",
-    "credit": "鴻海直播畫面（via ETtoday）",
-    "credit_url": "https://speed.ettoday.net/news/3263366"
-   }
-  ],
   "video": {
    "type": "youtube",
    "id": "Hbx8eXoZrRM",
-   "title": "鴻海官方 YouTube：HHTD26 鴻海科技日開幕活動直播（含 MODEL A+ 發表）",
-   "url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM"
+   "title": "鴻海官方 YouTube：HHTD26 開幕直播（三款新車從 2:16:10 起）",
+   "url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8170s",
+   "start": 8170
   },
   "sources": [
    [
@@ -47,17 +31,198 @@
     "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26-302924515.html"
    ],
    [
-    "ETtoday 車雲",
-    "https://speed.ettoday.net/news/3263366"
-   ],
-   [
-    "U-CAR",
-    "https://news.u-car.com.tw/news/article/90058"
-   ],
-   [
-    "鴻海官方預告影片",
-    "https://www.youtube.com/watch?v=Jlgt07a6hmk"
+    "官方直播",
+    "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8170s"
    ]
+  ],
+  "cars": [
+   {
+    "id": "foxconn-model-aplus",
+    "tag": "新車發表 · 鴻海科技日",
+    "date": "2026-10-30",
+    "brand": "Foxconn 鴻海",
+    "title": "MODEL A+：沿用 Model A 平台、無 B 柱滑門的 B 級跨界 SUV",
+    "orig": "MODEL A+ · B-segment SUV reference EV (直播 2:16:10 起)",
+    "summary": "鴻海把 Model A 平台延伸成 SUV：車寬與軸距和 Model A 相同、車高加高，換上更大的輪圈與輪胎。前方一具主馬達、後輪用輪轂馬達，四輪驅動且不需傳動軸；左右車輪可獨立動作，轉彎半徑明顯縮小。全車 24 個感測器，為 Level 4 自動駕駛預留（關潤直播簡報）。尺寸數字、馬力、電池與續航、價格、上市時間未公布。",
+    "analysis": [
+     [
+      "比例",
+      "與 Model A 同車寬、同軸距，車高較高、輪圈輪胎加大；高頂方正車身配車頂行李架（直播、ETtoday）。"
+     ],
+     [
+      "車頭",
+      "封閉式車頭配像素感燈組與發光 FOXCONN 字樣，車頂加 LED 探照燈（ETtoday、U-CAR）。"
+     ],
+     [
+      "車身",
+      "保留側滑門、取消 B 柱，前座可 180 度向後轉；車頂光達做成圓潤造型、攝影機也縮小，以免感測器破壞外型（直播）。"
+     ],
+     [
+      "CMF",
+      "現場車為紅色車身＋白色座椅；色名與材質名稱未公布。"
+     ]
+    ],
+    "sources": [
+     [
+      "鴻海新聞稿（PR Newswire）",
+      "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26-302924515.html"
+     ],
+     [
+      "官方直播（2:16:10 起）",
+      "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8170s"
+     ],
+     [
+      "ETtoday 車雲",
+      "https://speed.ettoday.net/news/3263366"
+     ],
+     [
+      "U-CAR",
+      "https://news.u-car.com.tw/news/article/90058"
+     ]
+    ],
+    "image": {
+     "file": "breaking-foxconn-model-aplus.webp",
+     "alt": "鴻海 MODEL A+ 在 HHTD26 舞台亮相，側滑門與前門全開、無 B 柱",
+     "credit": "ETtoday（記者張慶輝攝）",
+     "credit_url": "https://speed.ettoday.net/news/3263366"
+    },
+    "more_images": [
+     {
+      "file": "breaking-foxconn-model-aplus-cabin.webp",
+      "alt": "MODEL A+ 無 B 柱開口與白色座椅車室近拍",
+      "credit": "ETtoday（記者張慶輝攝）",
+      "credit_url": "https://speed.ettoday.net/news/3263366"
+     },
+     {
+      "file": "breaking-foxconn-model-aplus-side.webp",
+      "alt": "MODEL A+ 側面：高頂方正車身、車頂行李架、黑色輪拱",
+      "credit": "鴻海直播畫面（via ETtoday）",
+      "credit_url": "https://speed.ettoday.net/news/3263366"
+     }
+    ]
+   },
+   {
+    "id": "foxconn-model-k",
+    "tag": "新車發表 · 鴻海科技日",
+    "date": "2026-10-30",
+    "brand": "Foxconn 鴻海",
+    "title": "MODEL K：瞄準日本 Kei 規格的電動輕型卡車，可加裝貨廂模組",
+    "orig": "MODEL K · kei-class compact truck reference EV (直播 2:22:20 起)",
+    "summary": "MODEL K 採全新開發的輕型卡車專用緊湊平台，後置馬達、後輪驅動（RR）。電池規劃 12 kWh 與 26 kWh 兩種，續航 120 公里與 250 公里；主打最後一哩配送，可用螺栓裝上 Canopy Box 貨廂改成廂型車，並以「極具競爭力的價格」推出（關潤直播簡報、鴻海新聞稿）。尺寸、馬力、價格數字、上市時間未公布。",
+    "analysis": [
+     [
+      "比例",
+      "短車頭、平車頂的方正駕駛艙，後段為平斗；新聞稿說貨斗較低、較長（鴻海新聞稿）。"
+     ],
+     [
+      "車頭",
+      "大面積黑色玻璃駕駛艙，延續鴻海 MODEL T 電動巴士的設計語言（鴻海新聞稿）。"
+     ],
+     [
+      "模組",
+      "Canopy Box 貨廂用螺栓固定，可改成廂型車；最後一哩配送用貨廂模組準備中（直播）。"
+     ],
+     [
+      "CMF",
+      "展示車為銀白車身＋黑色駕駛艙；色名與材質名稱未公布。"
+     ]
+    ],
+    "sources": [
+     [
+      "鴻海新聞稿（PR Newswire）",
+      "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26-302924515.html"
+     ],
+     [
+      "官方直播（2:22:20 起）",
+      "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8540s"
+     ],
+     [
+      "三立新聞網",
+      "https://www.setn.com/news/1930796"
+     ]
+    ],
+    "image": {
+     "file": "breaking-foxconn-model-k-stage.webp",
+     "alt": "銀白色 MODEL K 展示車停在主入口展台，黑色玻璃駕駛艙與方正貨廂",
+     "credit": "鴻海官方 YouTube 直播畫面（2:24:30）",
+     "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8670s"
+    },
+    "more_images": [
+     {
+      "file": "breaking-foxconn-model-k-film.webp",
+      "alt": "MODEL K 平斗卡車版停在海灘，車斗載著衝浪板",
+      "credit": "鴻海官方 YouTube 直播畫面（2:15:10）",
+      "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8110s"
+     }
+    ]
+   },
+   {
+    "id": "foxconn-model-kplus",
+    "tag": "新車發表 · 鴻海科技日",
+    "date": "2026-10-30",
+    "brand": "Foxconn 鴻海",
+    "title": "MODEL K+：以 MODEL K 為基礎、City Pop 復古風的小型電動 SUV",
+    "orig": "MODEL K+ · neo city pop lifestyle SUV reference EV (直播 2:24:50 起)",
+    "summary": "MODEL K+ 是以 MODEL K 平台打造的小型 SUV，鎖定年輕族群，特別是歐洲與亞洲偏好小型車的客群。和 MODEL K 一樣後置主馬達、後驅配置，馬達轉速達每分鐘 24,000 轉、最大輸出 100 kW，引進日本的版本會降到 47 kW；並強調北海道、北歐等雪地需要四輪驅動（關潤直播簡報）。外觀、內裝與續航都可依客戶客製（鴻海新聞稿）。尺寸、電池容量、續航、價格、上市時間未公布。",
+    "analysis": [
+     [
+      "比例",
+      "高車身、寬輪拱的方盒子兩廂造型，車頂另色（現場車為紅車頂）（直播、ETtoday 預告報導）。"
+     ],
+     [
+      "車頭",
+      "直立式燈條夾著方正格柵，前保桿與輪拱為黑色護板（直播畫面）。"
+     ],
+     [
+      "車身",
+      "前門大開角、後門較小且反向開啟，沒有 B 柱，方便進出（直播）。"
+     ],
+     [
+      "CMF",
+      "新聞稿稱靈感來自 1970–80 年代日本 City Pop，以 neo city pop 詮釋；影片中有橘、白、銀等多色車身搭配異色車頂，色名與材質名稱未公布。"
+     ]
+    ],
+    "sources": [
+     [
+      "鴻海新聞稿（PR Newswire）",
+      "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26-302924515.html"
+     ],
+     [
+      "官方直播（2:24:50 起）",
+      "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8690s"
+     ],
+     [
+      "三立新聞網",
+      "https://www.setn.com/news/1930796"
+     ]
+    ],
+    "image": {
+     "file": "breaking-foxconn-model-kplus-stage.webp",
+     "alt": "銀色車身紅車頂的 MODEL K+ 在舞台上，無 B 柱前後門全開",
+     "credit": "鴻海官方 YouTube 直播畫面（2:27:00）",
+     "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8820s"
+    },
+    "more_images": [
+     {
+      "file": "breaking-foxconn-model-kplus-film.webp",
+      "alt": "三台 MODEL K+（白、橘、白）停在夕陽海灘",
+      "credit": "鴻海官方 YouTube 直播畫面（2:15:50）",
+      "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8150s"
+     },
+     {
+      "file": "breaking-foxconn-model-kplus-front.webp",
+      "alt": "MODEL K+ 正面：直立燈條與 FOXCONN 字樣格柵",
+      "credit": "鴻海官方 YouTube 直播畫面（2:29:50）",
+      "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8990s"
+     },
+     {
+      "file": "breaking-foxconn-model-kplus-river.webp",
+      "alt": "兩台 MODEL K+ 涉水越過溪流",
+      "credit": "鴻海官方 YouTube 直播畫面（2:15:45）",
+      "credit_url": "https://www.youtube.com/watch?v=Hbx8eXoZrRM&t=8145s"
+     }
+    ]
+   }
   ]
  },
  "design_news": [

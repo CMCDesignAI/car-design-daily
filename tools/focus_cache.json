@@ -1174,6 +1174,72 @@
 "sig": "67412:1793334562",
 "w": 1600
 },
+"issues/2026-10-30/img/breaking-foxconn-model-k-film.webp": {
+"box": [
+0.3604,
+0.2095,
+0.8498,
+0.7147
+],
+"h": 900,
+"sig": "45106:1793336589",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-k-stage.webp": {
+"box": [
+0.1091,
+0.181,
+0.8082,
+0.9382
+],
+"h": 900,
+"sig": "35128:1793336589",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-kplus-film.webp": {
+"box": [
+0.0904,
+0.4177,
+0.9278,
+0.8085
+],
+"h": 900,
+"sig": "73784:1793336589",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-kplus-front.webp": {
+"box": [
+0.2884,
+0.0064,
+0.8769,
+0.9198
+],
+"h": 900,
+"sig": "61120:1793336589",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-kplus-river.webp": {
+"box": [
+0.1138,
+0.2464,
+0.895,
+0.7034
+],
+"h": 900,
+"sig": "62460:1793336590",
+"w": 1600
+},
+"issues/2026-10-30/img/breaking-foxconn-model-kplus-stage.webp": {
+"box": [
+0.0251,
+0.1685,
+0.9065,
+0.9757
+],
+"h": 900,
+"sig": "40920:1793336589",
+"w": 1600
+},
 "issues/2026-10-30/img/byd-ocean-mpv-spy-2.jpg": {
 "box": null,
 "h": 800,

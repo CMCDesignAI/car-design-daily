@@ -444,6 +444,14 @@ def page(d, base, all_issues, is_root):
             src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in bk["sources"])
             cards.append(f'<article class="story bk-card">{vid}{fig}<div class="shead"><span class="tag">{e(bk["brand"])}</span><span class="date">{e(bk["date"])}</span><h3>{e(bk["title"])}</h3><ul class="cpts">{pts}</ul></div><div class="src">來源：{src}</div></article>')
         bk0 = d["breaking"]
+        if bk0.get("cars"):  # multi-car launch: hero video card + regular design-news style cards (3-col grid)
+            cc = []
+            for j, s in enumerate(bk0["cars"]):
+                an = "".join(f'<li><b>{e(k)}</b><span>{e(v)}</span></li>' for k, v in s["analysis"])
+                csrc = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in s["sources"])
+                cfig = gallery(s, img, eager=False)
+                cc.append(f'<article class="story" id="{e(s["id"])}">{cfig}<div class="shead"><span class="tag">{e(s["brand"])} · {e(s["tag"])}</span><span class="date">{e(s["date"])}</span><h3>{e(s["title"])}</h3><p class="orig">{e(s["orig"])}</p><p class="sum">{e(s["summary"])}</p></div><p class="alabel">設計解析 Design Notes</p><ul class="analysis">{an}</ul><div class="src">來源：{csrc}</div></article>')
+            cards = [cards[0], f'<div class="news bk-cars">{"".join(cc)}</div>']
         H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk0.get("label","新車特報"))} · Breaking</div>{"".join(cards)}</section>')
     # design news
     # 今日 3 重點 + jump nav
