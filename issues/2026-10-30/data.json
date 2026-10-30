@@ -10,7 +10,7 @@
   "title": "鴻海科技日一次發表三款參考車：MODEL A+、MODEL K、MODEL K+",
   "points": [
    "鴻海電動車策略長關潤在 HHTD26 開幕直播發表三款新車，鴻海參考車總數達 12 款，供 CDMS 客戶開發自有品牌（鴻海新聞稿、直播）。",
-   "鴻海官方 YouTube 另釋出單車影片：MODEL A+ 兩支、MODEL K 一支；MODEL K+ 目前未有單獨影片，見發表會直播 2:24:50 起。"
+   "鴻海官方 YouTube 另釋出新車影片：MODEL A+ 兩支、MODEL K 一支、MODEL K+ 與 MODEL K 合輯一支。"
   ],
   "image": {
    "file": "breaking-foxconn-model-aplus.webp",
@@ -40,6 +40,12 @@
      "car": "MODEL K",
      "title": "結合實用機能與未來設計，展現電動商用新可能",
      "url": "https://www.youtube.com/watch?v=hol1JSIoUKI"
+    },
+    {
+     "id": "Rm1rXBwOG9M",
+     "car": "MODEL K+、MODEL K",
+     "title": "融合復古潮流與實用機能，展現電動車多元魅力",
+     "url": "https://www.youtube.com/watch?v=Rm1rXBwOG9M"
     }
    ]
   },
