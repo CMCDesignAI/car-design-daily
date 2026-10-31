@@ -10,7 +10,7 @@ e = html.escape
 # Seasonal decorations, one line per holiday: start/end inclusive (YYYY-MM-DD, Asia/Taipei),
 # logo = (file in assets/, width, height), or logo_light + logo_dark for per-theme versions; section_suffix = emoji after numbered section titles or "".
 SEASONAL = [
-    dict(start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween2-light.webp", 1400, 540), logo_dark=("cdd-halloween2-dark.webp", 1400, 540), section_suffix="🎃"),  # Halloween
+    dict(start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween3-light.webp", 1525, 588), logo_dark=("cdd-halloween2-dark.webp", 1400, 540), section_suffix="🎃"),  # Halloween
 ]
 def seasonal(date):
     return next((x for x in SEASONAL if x["start"] <= date <= x["end"]), {})
