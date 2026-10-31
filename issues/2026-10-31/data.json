@@ -1,0 +1,674 @@
+{
+ "date": "2026-10-31",
+ "weekday": "週六",
+ "issue_no": 24,
+ "lede": "Toyota 為 SEMA 推出五台同色 Woodland 越野概念車；Civic Type R HRC 概念北美首秀，第三代比亞迪唐 EV 進店，Lepas Aura 預告第二代設計語言。",
+ "design_news": [
+  {
+   "id": "toyota-woodland-sema",
+   "tag": "概念車 · SEMA",
+   "date": "2026-10-30",
+   "brand": "Toyota",
+   "title": "Woodland 概念車家族：RAV4、Sienna、bZ 等五車同穿 Horizon Blue",
+   "orig": "Toyota Expands Its Woodland Vision with New Adventure-Ready Concepts at SEMA",
+   "summary": "Toyota 為 11 月 3 日開幕的 SEMA 推出五台 Woodland 概念車：RAV4 插電油電、Grand Highlander、Sienna、純電 bZ 與 Crown Signia。由北美設計中心 CALTY 訂出共同的外觀語言，讓家用車也能走林道、露營。官方未公布動力規格，並說明這些是特製車、部分改裝件非原廠販售。",
+   "analysis": [
+    [
+     "比例",
+     "五台都加了升高套件、大型加寬輪拱與全地形胎，車身離地更高、輪胎更外推。"
+    ],
+    [
+     "車身",
+     "緞黑輪圈、車頂行李架與橫桿是共同配備，引擎蓋與車頂做成對比色雙色。"
+    ],
+    [
+     "CMF",
+     "全車系統一用 Horizon Blue，官方說取自 1960 年代 Stout、Crown、Corona 的車色。"
+    ],
+    [
+     "品牌方向",
+     "同一套「家族」語言套在 MPV、休旅、純電車上，表達越野能力不限於 4Runner 這類硬派車。"
+    ]
+   ],
+   "sources": [
+    [
+     "Toyota USA Newsroom（10/30）",
+     "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+    ],
+    [
+     "Electrek（10/30）",
+     "https://electrek.co/2026/10/30/toyota-reveals-five-new-lifted-woodland-concepts-including-an-ev/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-woodland.jpg",
+    "alt": "五台 Horizon Blue 配黑色引擎蓋的 Toyota Woodland 概念車並排在紅杉林道",
+    "credit": "Toyota",
+    "credit_url": "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+   },
+   "more_images": [
+    {
+     "file": "toyota-woodland-2.jpg",
+     "alt": "RAV4 Woodland 插電油電概念車，加寬輪拱與車頂行李架",
+     "credit": "Toyota",
+     "credit_url": "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+    },
+    {
+     "file": "toyota-woodland-3.jpg",
+     "alt": "Sienna Woodland 概念車在林間泥路",
+     "credit": "Toyota",
+     "credit_url": "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+    },
+    {
+     "file": "toyota-woodland-4.jpg",
+     "alt": "Woodland bZ 純電概念車正面",
+     "credit": "Toyota",
+     "credit_url": "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+    },
+    {
+     "file": "toyota-woodland-5.jpg",
+     "alt": "Crown Signia Woodland 概念車",
+     "credit": "Toyota",
+     "credit_url": "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+    }
+   ]
+  },
+  {
+   "id": "honda-civic-type-r-hrc",
+   "tag": "概念車 · SEMA",
+   "date": "2026-10-30",
+   "brand": "Honda",
+   "title": "Civic Type R HRC 概念北美首秀：加寬前葉子板、高掛尾翼",
+   "orig": "Honda Racing Corporation Displays Racing Pedigree at 2026 SEMA Show; Civic Type R HRC Concept Makes North American Debut",
+   "summary": "Honda 宣布 Civic Type R HRC 概念車在 SEMA 進行北美首秀，這台年初在東京改裝車展首發的車，正以 HRC 的賽車技術與車手經驗開發，並確認在美國進行開發。HRC 也將在 SEMA 展出十多台賽車。量產規格尚未公布。",
+   "analysis": [
+    [
+     "車頭",
+     "前保桿重新造型，加寬的前葉子板帶散熱開口。"
+    ],
+    [
+     "車側",
+     "側裙加長，視覺重心更低。"
+    ],
+    [
+     "車尾",
+     "高掛式尾翼與更大的後擾流，強調賽道用途。"
+    ],
+    [
+     "品牌方向",
+     "用 HRC 名號把賽車部門包裝成量產車的性能子品牌。"
+    ]
+   ],
+   "sources": [
+    [
+     "Honda News（10/30）",
+     "https://hondanews.com/en-US/honda-automobiles/releases/release-b26ae02ff5dca50cb32a1f47830b804a"
+    ],
+    [
+     "Motor Illustrated",
+     "https://motorillustrated.com/honda-civic-type-r-hrc-concept-debuts-in-north-america-at-sema/200662/"
+    ]
+   ],
+   "image": {
+    "file": "news-honda-civic-type-r-hrc.jpg",
+    "alt": "披彩色塗裝的 Civic Type R HRC 概念車停在深色展間",
+    "credit": "Honda",
+    "credit_url": "https://hondanews.com/en-US/honda-automobiles/releases/release-b26ae02ff5dca50cb32a1f47830b804a"
+   }
+  },
+  {
+   "id": "byd-tang-ev-3rd-gen",
+   "tag": "實車到店 · 中國",
+   "date": "2026-10-30",
+   "brand": "BYD 比亞迪",
+   "title": "第三代唐 EV 到店：封閉車頭、瞭望塔光達、五座大車室",
+   "orig": "3rd-gen BYD Tang EV arrives at dealers with 691 hp and dual-chamber air suspension",
+   "summary": "第三代比亞迪唐 EV 已陸續到店，預計 11 月廣州車展上市。新車改用純電專用平台，車長 5,045 mm、軸距 2,950 mm（比上一代長 130 mm），從多排座改為五座；四驅版 515 kW（691 hp），配雙腔空氣懸吊。經銷商批發訂金價 22.5–24 萬元人民幣，並非正式售價。",
+   "analysis": [
+    [
+     "車頭",
+     "封閉式前臉，下方進氣口為主動式開闔。"
+    ],
+    [
+     "車頂",
+     "車頂前緣有「瞭望塔」式光達凸起。"
+    ],
+    [
+     "輪圈",
+     "21 吋多輻輪圈。"
+    ],
+    [
+     "室內 UX",
+     "二排腿部空間逾 1,000 mm，椅背電動可躺到 130 度，配折疊小桌與磁吸配件點。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/30）",
+     "https://carnewschina.com/2026/10/30/3rd-gen-byd-tang-ev-arrives-at-dealers-with-691-hp-and-dual-chamber-air-suspension/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-tang-ev.jpg",
+    "alt": "黑色第三代比亞迪唐 EV 停在經銷商停車場，封閉車頭與車頂光達",
+    "credit": "Yanzhao Nvsiji (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/30/3rd-gen-byd-tang-ev-arrives-at-dealers-with-691-hp-and-dual-chamber-air-suspension/"
+   },
+   "more_images": [
+    {
+     "file": "byd-tang-ev-2.jpg",
+     "alt": "第三代唐 EV 車尾 3/4，貫穿尾燈",
+     "credit": "Yanzhao Nvsiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/30/3rd-gen-byd-tang-ev-arrives-at-dealers-with-691-hp-and-dual-chamber-air-suspension/"
+    },
+    {
+     "file": "byd-tang-ev-3.jpg",
+     "alt": "第三代唐 EV 正面",
+     "credit": "Yanzhao Nvsiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/30/3rd-gen-byd-tang-ev-arrives-at-dealers-with-691-hp-and-dual-chamber-air-suspension/"
+    },
+    {
+     "file": "byd-tang-ev-4.jpg",
+     "alt": "第三代唐 EV 前座：淺色座椅與橫向大螢幕",
+     "credit": "Yanzhao Nvsiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/30/3rd-gen-byd-tang-ev-arrives-at-dealers-with-691-hp-and-dual-chamber-air-suspension/"
+    }
+   ]
+  },
+  {
+   "id": "lepas-aura-concept",
+   "tag": "概念車 · 中國",
+   "date": "2026-10-30",
+   "brand": "Lepas（奇瑞）",
+   "title": "Lepas Aura 概念車：三門獵跑預告第二代「獵豹美學」",
+   "orig": "Design round-up: McLaren’s new supercar; Lepas Aura concept; Skoda’s 3D printable accessories",
+   "summary": "奇瑞旗下海外品牌 Lepas 在蕪湖發表首台概念車 Aura，是一台三門獵跑（shooting brake），預告下一代量產車的比例、面處理、燈光與色彩。首席設計師 Ivan Dulanovic 說車身姿態取自奔跑的獵豹，多處導流翼片幫助產生下壓力。",
+   "analysis": [
+    [
+     "比例",
+     "長軸距、短前後懸、寬車距。"
+    ],
+    [
+     "車頭",
+     "格柵與側進氣併成一大片黑色面板，內建可顯示圖案與動畫的「digital canvas」。"
+    ],
+    [
+     "燈號",
+     "延續品牌的「豹眼」頭燈；車尾橢圓形顯示幕可自訂尾燈圖樣。"
+    ],
+    [
+     "車身",
+     "車窗看起來是一整片玻璃、不見立柱；輪圈有五個橢圓孔配細橘色輻條（Carscoops）。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car Design News（10/30）",
+     "https://www.cardesignnews.com/cars/design-round-up-mclarens-new-supercar-lepas-aura-concept-skodas-3d-printable-accessories/2760857"
+    ],
+    [
+     "Carscoops",
+     "https://www.carscoops.com/2295077/lepas-aura-concept-debut/"
+    ]
+   ],
+   "image": {
+    "file": "news-lepas-aura.jpg",
+    "alt": "銀藍色 Lepas Aura 三門獵跑概念車側面與車頭",
+    "credit": "Lepas (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2295077/lepas-aura-concept-debut/"
+   },
+   "more_images": [
+    {
+     "file": "lepas-aura-2.jpg",
+     "alt": "Lepas Aura 在發表會舞台上",
+     "credit": "Lepas (via Car Design News)",
+     "credit_url": "https://www.cardesignnews.com/cars/design-round-up-mclarens-new-supercar-lepas-aura-concept-skodas-3d-printable-accessories/2760857"
+    }
+   ]
+  },
+  {
+   "id": "alpina-7-series-spy",
+   "tag": "偽裝車 · 德國",
+   "date": "2026-10-28",
+   "brand": "Alpina",
+   "title": "BMW 收購後首款 Alpina 7 系列：琥珀色日行燈、三條橫柵",
+   "orig": "With Alpina's New 7 Series, You'll Never Think About An M7 Again",
+   "summary": "BMW 全面收購 Alpina 後的第一款車，以小改款 7 系列為基礎，偽裝車在紐柏林附近被拍到。報導推測琥珀色日行燈可能成為未來 Alpina 的辨識特徵，5 月發表的 Vision Alpina 概念車也用了琥珀色燈。BMW 尚未公布發表日期。",
+   "analysis": [
+    [
+     "燈號",
+     "專屬琥珀色 LED 日行燈，和一般 7 系列明顯區隔（報導）。"
+    ],
+    [
+     "車頭",
+     "大型雙腎格柵只有三條水平格柵，一般 7 系列是七條；下保桿與下進氣口也不同。"
+    ],
+    [
+     "輪圈",
+     "黑色輪圈帶銀色元素。"
+    ],
+    [
+     "車尾",
+     "改動較少，可見 Alpina 招牌的橢圓排氣尾管。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/28）",
+     "https://www.carscoops.com/2300523/alpina-bmw-7-series-spy-shots/"
+    ]
+   ],
+   "image": {
+    "file": "news-alpina-7-series.jpg",
+    "alt": "披偽裝的 Alpina 7 系列測試車正面，雙腎格柵與日行燈",
+    "credit": "CarPix (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2300523/alpina-bmw-7-series-spy-shots/"
+   },
+   "more_images": [
+    {
+     "file": "alpina-7-series-2.jpg",
+     "alt": "Alpina 7 系列測試車側後方",
+     "credit": "CarPix (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2300523/alpina-bmw-7-series-spy-shots/"
+    }
+   ]
+  },
+  {
+   "id": "lynk-08-emp-refresh",
+   "tag": "改款預告 · 中國",
+   "date": "2026-10-31",
+   "brand": "Lynk & Co 領克",
+   "title": "2027 領克 08 EM-P 改款 11/5 上市：先放出亮橘新色",
+   "orig": "Lynk & Co 08 EM-P refresh teased ahead of Nov 5 launch with potential EV range boost",
+   "summary": "領克宣布改款 2027 年式 08 EM-P 將在 11 月 5 日上市，先釋出四張亮橘色車身的預告圖，這是 08 EM-P 車系的新顏色；官方在微博稱為「活力橙」，正式色名未公布。易車報導純電續航可能從現行 230 km（CLTC）提升。",
+   "analysis": [
+    [
+     "CMF",
+     "新增亮橘車色，是 08 EM-P 車系首見；官方只描述為「vibrant orange」，色名未公布。"
+    ],
+    [
+     "動力",
+     "現行車用 38.2 kWh LFP 電池、CLTC 純電 230 km，改款續航可能提升（易車報導）。"
+    ],
+    [
+     "市場",
+     "現行車 9 月在中國僅售 1,441 輛，改款以新色與續航拉回關注（CarNewsChina 引 China EV DataTracker）。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/31）",
+     "https://carnewschina.com/2026/10/31/lynk-co-08-em-p-refresh-teased-ahead-of-nov-5-launch-with-potential-ev-range-boost/"
+    ]
+   ],
+   "image": {
+    "file": "news-lynk-08-emp.jpg",
+    "alt": "亮橘色 2027 領克 08 EM-P 行駛在街道上，黑色車頂",
+    "credit": "Lynk & Co (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/31/lynk-co-08-em-p-refresh-teased-ahead-of-nov-5-launch-with-potential-ev-range-boost/"
+   },
+   "more_images": [
+    {
+     "file": "lynk-08-emp-2.jpg",
+     "alt": "亮橘色領克 08 EM-P 側面",
+     "credit": "Lynk & Co (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/31/lynk-co-08-em-p-refresh-teased-ahead-of-nov-5-launch-with-potential-ev-range-boost/"
+    }
+   ]
+  },
+  {
+   "id": "subaru-wrx-longtail-proto",
+   "tag": "偽裝車 · 日本",
+   "date": "2026-10-29",
+   "brand": "Subaru",
+   "title": "神秘 WRX 原型車：車尾加長的「Longtail」側板",
+   "orig": "This Odd Subaru WRX Prototype Looks Like A Wacky Longtail",
+   "summary": "一台黑色 Subaru WRX 測試車在紐柏林被拍到，車頭和一般 WRX 幾乎一樣，車尾卻多了向後延伸的側板與新的唇型擾流。報導推測是空力調校實驗，不確定是否和外界期待的 STI 有關。",
+   "analysis": [
+    [
+     "車尾",
+     "後葉子板加裝向後延伸的板件，大約和尾燈齊平，看起來像加長車尾。"
+    ],
+    [
+     "空力",
+     "用齊平的唇型擾流取代 WRX 常見的大型固定尾翼。"
+    ],
+    [
+     "車頭",
+     "格柵、保桿與引擎蓋進氣口都和現行車相同。"
+    ],
+    [
+     "細節",
+     "後擾流下方有一小塊偽裝的新擴散器。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（10/29）",
+     "https://www.carscoops.com/2301876/subaru-wrx-prototype-scoop-nurburgring/"
+    ]
+   ],
+   "image": {
+    "file": "news-subaru-wrx-prototype.jpg",
+    "alt": "黑色 Subaru WRX 測試車車尾，加長的後葉子板與唇型擾流",
+    "credit": "CarPix (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2301876/subaru-wrx-prototype-scoop-nurburgring/"
+   },
+   "more_images": [
+    {
+     "file": "subaru-wrx-prototype-2.jpg",
+     "alt": "WRX 原型車側面",
+     "credit": "CarPix (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2301876/subaru-wrx-prototype-scoop-nurburgring/"
+    }
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-xpeng-mona-l05-cabin",
+   "kind": "car",
+   "car": "Xpeng MONA L05",
+   "tag": "內裝 · 中國",
+   "title": "MONA L05：3D Mesh 軟包與三套 ROAM 內飾",
+   "points": [
+    "雙層懸浮式儀表台，全圓角造型配大面積 3D Mesh 軟包覆。",
+    "內飾軟包面積超過 74%，256 色光瀑式氛圍燈環繞全艙。",
+    "標準內飾有深空灰、氣宇灰兩色。",
+    "ROAM 套裝配 Nappa 真皮座椅，另有鈦熒綠、鳶尾紫、星脈紫三套內飾主題。"
+   ],
+   "image": {
+    "file": "cmf-car-xpeng-mona-l05-cabin.jpg",
+    "alt": "MONA L05 後排灰色座椅與車室",
+    "credit": "Xpeng (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-xpeng-mona-l05-cabin-2.jpg",
+     "alt": "MONA L05 車室：乘客在前排使用大螢幕",
+     "credit": "Xpeng (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/29/xpeng-mona-l05-launched-in-china-at-21720-usd/"
+    }
+   ],
+   "sources": [
+    [
+     "中國經濟網（10/30）",
+     "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-toyota-horizon-blue",
+   "kind": "paint",
+   "car": "Toyota Woodland 概念車",
+   "tag": "塗料 · 美國",
+   "title": "Horizon Blue：1960 年代 Toyota 的復刻藍",
+   "points": [
+    "五台 Woodland 概念車全部漆上 Horizon Blue。",
+    "這個藍色是 1960 年代 Stout、Crown、Corona 用過的車色。",
+    "搭配黑色引擎蓋與車頂，形成對比雙色。",
+    "配色由 Toyota 北美設計中心 CALTY 統一訂定。"
+   ],
+   "image": {
+    "file": "cmf-paint-toyota-horizon-blue.jpg",
+    "alt": "五台 Horizon Blue 車身、黑色引擎蓋的 Woodland 概念車",
+    "credit": "Toyota (via Road & Track)",
+    "credit_url": "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/"
+   },
+   "sources": [
+    [
+     "Road & Track（10/30）",
+     "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/"
+    ],
+    [
+     "Autoblog",
+     "https://www.autoblog.com/news/toyota-unveils-five-rugged-woodland-concepts-including-a-lifted-sienna"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-crown-signia-gts",
+   "kind": "paint",
+   "car": "Toyota Crown Signia GT-S Concept",
+   "tag": "塗料 · 加拿大",
+   "title": "Crown Signia GT-S：加亮片的深灰金屬漆",
+   "points": [
+    "車身是特調的深灰金屬漆，加入亮片並多層透明漆。",
+    "頭燈外框重新造型並加上紅色點綴。",
+    "車內前座為高包覆座椅，同樣以紅色點綴呼應。"
+   ],
+   "image": {
+    "file": "cmf-paint-crown-signia-gts-grey.jpg",
+    "alt": "深灰金屬漆的 Crown Signia GT-S 概念車前 3/4",
+    "credit": "Toyota Canada",
+    "credit_url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html"
+   },
+   "sources": [
+    [
+     "Toyota Canada（10/28）",
+     "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-robotaxi-calm-mode",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Robotaxi 新增 Calm Mode：乘客可關掉 FSD 視覺化",
+   "date": "2026-10-30",
+   "points": [
+    "新的 Calm Mode 會把 FSD 的道路視覺化從螢幕移除，讓乘客坐得更放鬆。",
+    "車內螢幕新增後方攝影機畫面。",
+    "iOS App 的 Live Activities 重新設計。",
+    "同一波更新把 Robotaxi 營運時間延長到早上 6 點至凌晨 2 點。"
+   ],
+   "image": {
+    "file": "hmi-tesla-robotaxi-calm-mode.jpg",
+    "alt": "Tesla Robotaxi App 多色卡片介面",
+    "credit": "Not a Tesla App 示意圖",
+    "credit_url": "https://www.notateslaapp.com/news/4920/tesla-extends-robotaxi-hours-to-2-am-adds-new-calm-mode-that-hides-fsd-visuals"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（10/30）",
+     "https://www.notateslaapp.com/news/4920/tesla-extends-robotaxi-hours-to-2-am-adds-new-calm-mode-that-hides-fsd-visuals"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 韓國",
+   "date": "2026-10-30",
+   "title": "現代汽車第三季營業利益年增 5.5%，但下修全年目標",
+   "summary": "現代汽車第三季營業利益 2.68 兆韓元、年增 5.5%，優於預期，主要受匯率幫助；營收年減 3.4%。面對中國電動車競爭，現代下修 2026 年銷售、利潤率與投資目標。",
+   "sources": [
+    [
+     "Reuters via StreetInsider（10/30）",
+     "https://www.streetinsider.com/Reuters/Hyundai+Motor+reports+5.5%25+rise+in+Q3+operating+profit%2C+beats+forecasts/27250837.html"
+    ],
+    [
+     "Hyundai Newsroom",
+     "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001298"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 日本",
+   "date": "2026-10-30",
+   "title": "豐田 9 月全球產銷連三個月下滑，中國銷量減近兩成",
+   "summary": "豐田 9 月全球銷售與生產連續第三個月年減，其中中國銷量年減 19.7%；同月日產全球銷量也年減 10.2%。",
+   "sources": [
+    [
+     "Reuters via Investing.com（10/30）",
+     "https://www.investing.com/news/economic-indicators/toyota-september-sales-production-slide-for-a-third-straight-month-4981476"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐洲",
+   "date": "2026-10-30",
+   "title": "歐洲車廠財報暫時止跌：賓士下修利潤率、雷諾營收優於預期",
+   "summary": "路透指出，財報讓歐洲車股暫獲喘息，但中國競爭與歐洲需求疲弱仍是風險：賓士把 2026 年乘用車利潤率預估下修到 2–3%，雷諾第三季營收在電動車帶動下優於預期。歐盟正研議「歐洲製造」規則與在地生產誘因。",
+   "sources": [
+    [
+     "Reuters via Investing.com（10/30）",
+     "https://www.investing.com/news/stock-market-news/earnings-give-europeanauto-stocks-respite-as-china-reshapes-the-industry-4985898"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-10-30",
+   "title": "比亞迪前三季海外銷量年增 91.9%，占比升到 42.7%",
+   "summary": "比亞迪前三季銷量 313.16 萬輛、年減 3.94%，但海外銷量 133.78 萬輛、年增 91.9%，占總銷量 42.7%；第三季營收 2,214.88 億元人民幣，歸母淨利 100.2 億元、年增 28.08%。",
+   "sources": [
+    [
+     "21 經濟網（10/30）",
+     "https://www.21jingji.com/article/20261030/herald/f7517eed1976fdbefa5b1a0716cde34e.html"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-10-29",
+   "title": "吉利第三季九成利潤來自出口，上修全年出口目標到 92 萬輛",
+   "summary": "吉利汽車第三季營收 990 億元人民幣、核心歸母淨利 52.1 億元；第三季出口 34.37 萬輛，把全年出口目標從 64 萬輛上修到 92 萬輛。出口占銷量 39.8%，卻貢獻約 48.4 億元、約 92.9% 的淨利，顯示中國國內賣車幾乎不賺錢。",
+   "sources": [
+    [
+     "CarNewsChina（10/30）",
+     "https://carnewschina.com/2026/10/30/geely-autos-q3-earnings-reveal-a-harsh-reality-car-sales-in-china-are-barely-profitable/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 台灣",
+   "date": "2026-10-30",
+   "title": "鴻海：Model A+ 有望與本田技術研究所合作 L4 輔助駕駛",
+   "summary": "鴻海科技日發表的三款參考設計電動車皆為右駕；電動車事業策略長關潤預告 Model A+ 有望與本田技術研究所（Honda R&D）合作，配置光達，帶來 Level 4 能力的輔助駕駛。Model A+ 長 4,450 mm、軸距 2,800 mm。",
+   "sources": [
+    [
+     "U-CAR（10/30）",
+     "https://news.u-car.com.tw/news/article/90107"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Over-fender",
+  "zh": "加寬輪拱飾板",
+  "body": "Over-fender 是裝在輪拱外緣、向外凸出的一圈加寬飾板，通常是黑色塑料，用來包住更寬、更大的輪胎。本期 Toyota 的五台 Woodland 概念車，前後輪拱都加了大型 over-fender，搭配升高套件與全地形胎，讓 RAV4、Sienna 這些家用車看起來像越野車。設計師用它在不改鈑件的情況下，讓車身看起來更寬、更有越野感。",
+  "source": [
+   [
+    "Toyota USA Newsroom：Woodland 概念車共同配備「large over-fenders」",
+    "https://pressroom.toyota.com/toyota-expands-its-woodland-vision-with-new-adventure-ready-concepts-at-sema/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Horizon Blue & Space Grey",
+   "zh": "復刻藍配深灰：戶外感的家庭座艙",
+   "intro": "每日一組內裝配色示例：以 MONA L05 的深空灰軟包做主體，飾條借 Toyota Woodland 的 Horizon Blue，扶手與縫線用 Crown Signia GT-S 的紅色點綴，搭淺色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 3D Mesh 軟包",
+     "深空灰（示意）",
+     "#4B4F55",
+     false,
+     "ip-upper",
+     {
+      "src": "MONA L05 深空灰內飾",
+      "url": "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml"
+     }
+    ],
+    [
+     "儀表板飾條 · 烤漆飾板",
+     "Horizon Blue（示意）",
+     "#8FB8C9",
+     false,
+     "ip-decor",
+     {
+      "src": "Woodland Horizon Blue",
+      "url": "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/"
+     }
+    ],
+    [
+     "門板嵌飾 · 織面軟包",
+     "氣宇灰（示意）",
+     "#9A9DA1",
+     false,
+     "door-insert",
+     {
+      "src": "MONA L05 氣宇灰內飾",
+      "url": "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "深灰（示意）",
+     "#3A3D42",
+     false,
+     "armrest"
+    ],
+    [
+     "縫線／滾邊",
+     "紅色點綴（示意）",
+     "#C0392B",
+     false,
+     "stitch",
+     {
+      "src": "Crown Signia GT-S 紅色點綴",
+      "url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨黑（示意）",
+     "#2A2A2C",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "深空灰、氣宇灰內飾、3D Mesh 軟包：小鵬 MONA L05（中國經濟網）",
+     "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml"
+    ],
+    [
+     "Horizon Blue：Toyota Woodland 概念車（Road & Track）",
+     "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/"
+    ],
+    [
+     "紅色點綴座椅：Crown Signia GT-S（Toyota Canada）",
+     "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html"
+    ]
+   ],
+   "mood": [
+    "戶外",
+    "沉穩",
+    "清爽",
+    "實用"
+   ],
+   "mood_text": "深灰軟包讓車室耐髒好整理，Horizon Blue 飾條帶進戶外的天空色，紅色縫線只在小地方提神。",
+   "vars": {
+    "headliner": "light",
+    "seat-bolster": "#3A3D42",
+    "seat-center": "#9A9DA1",
+    "console": "#2A2A2C",
+    "console-arm": "#3A3D42",
+    "steering": "#2A2A2C",
+    "accent-pod": "#8FB8C9",
+    "accent-pod2": "#C0392B",
+    "ip-lower": "#2A2A2C",
+    "seat": "#9A9DA1"
+   }
+  }
+ }
+}

@@ -434,5 +434,29 @@
   "angle": "彩色 PPF 與車內 TPU 保護套件",
   "url": "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough",
   "image": "cmf-material-avery-spectrix-ppf.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "car",
+  "car_key": "xpeng-mona-l05-cabin",
+  "angle": "MONA L05：3D Mesh 軟包與三套 ROAM 內飾",
+  "url": "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml",
+  "image": "cmf-car-xpeng-mona-l05-cabin.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "paint",
+  "car_key": "paint:toyota-horizon-blue",
+  "angle": "Horizon Blue：1960 年代 Toyota 的復刻藍",
+  "url": "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/",
+  "image": "cmf-paint-toyota-horizon-blue.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "paint",
+  "car_key": "paint:crown-signia-gts",
+  "angle": "Crown Signia GT-S：加亮片的深灰金屬漆",
+  "url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html",
+  "image": "cmf-paint-crown-signia-gts-grey.jpg"
  }
 ]

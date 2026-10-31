@@ -82,5 +82,11 @@
   "key": "hmi-mini-round-oled",
   "url": "https://www.bmwblog.com/2026/10/29/mini-keeping-circular-screen/",
   "image": "hmi-mini-round-oled.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "hmi-tesla-robotaxi-calm-mode",
+  "url": "https://www.notateslaapp.com/news/4920/tesla-extends-robotaxi-hours-to-2-am-adds-new-calm-mode-that-hides-fsd-visuals",
+  "image": "hmi-tesla-robotaxi-calm-mode.jpg"
  }
 ]

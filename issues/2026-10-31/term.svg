@@ -1,0 +1,28 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="Over-fender 加寬輪拱飾板示意：休旅車側面，前後輪拱外加一圈黑色加寬飾板">
+<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40 196 L40 150 Q42 128 70 122 L150 112 L205 70 Q215 62 232 62 L392 62 Q408 62 416 74 L450 118 Q478 124 482 146 L484 196"/>
+<path d="M214 74 L232 66 L300 66 L300 116 L168 116 Z"/>
+<path d="M310 66 L390 66 Q400 66 406 76 L432 116 L310 116 Z"/>
+<line x1="305" y1="66" x2="305" y2="190"/>
+<path d="M44 150 L64 146" stroke-width="5"/>
+<path d="M470 140 L482 140" stroke-width="5"/>
+<line x1="40" y1="196" x2="484" y2="196"/>
+<rect x="230" y="50" width="160" height="10" rx="3"/>
+<line x1="250" y1="50" x2="250" y2="62"/><line x1="370" y1="50" x2="370" y2="62"/>
+<circle cx="128" cy="200" r="34"/><circle cx="128" cy="200" r="14"/>
+<circle cx="398" cy="200" r="34"/><circle cx="398" cy="200" r="14"/>
+</g>
+<g fill="none" stroke="#f08a5d" stroke-width="9" stroke-linecap="round">
+<path d="M80 194 Q84 150 128 148 Q172 150 176 194"/>
+<path d="M350 194 Q354 150 398 148 Q442 150 446 194"/>
+</g>
+<g stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+<line x1="128" y1="146" x2="128" y2="30"/><line x1="440" y1="160" x2="470" y2="250"/><line x1="320" y1="50" x2="320" y2="24"/>
+</g>
+<g fill="currentColor" font-size="15" font-family="sans-serif">
+<text x="60" y="24">① 前輪拱外加的黑色寬飾板</text>
+<text x="340" y="20" font-size="15">② 車頂行李架</text>
+<text x="330" y="268">③ 後輪拱同樣加寬、包住更大的越野胎</text>
+<text x="40" y="292" font-size="12" fill-opacity="0.75">示意：Toyota Woodland 概念車共用的 over-fender（線稿，非實車比例）</text>
+</g>
+</svg>
