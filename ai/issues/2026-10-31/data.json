@@ -156,7 +156,124 @@
    "updates": []
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-songyin-h3-toybox",
+   "creator": "松音",
+   "creator_key": "dseditor",
+   "platform": "Facebook",
+   "date": "2026-10-31",
+   "title": "在 Colab 就能玩的 MiniMax H3 玩具箱：點欄位、按一個鍵就生成影片",
+   "short_title": "松音的 H3 Colab 玩具箱",
+   "orig": "現在在Colab中可以使用我的H3玩具箱了，有卡通龍訂閱不要浪費那400點，覺得太多點了也可以租G4來玩看看。",
+   "one": "松音把 MiniMax H3 包成像玩具一樣的介面放上 Colab，不用設定 ComfyUI，在雲端點幾下就能做影片。",
+   "points": [
+    "在 Colab 筆記本裡一個個欄位點完、按個鍵就開始，ComfyUI 什麼都不用設定；要搬到自己電腦也容易。",
+    "用「@」標記參考音和參考圖，做法跟 EasyH3 相同；提示詞改寫可用 Gemini，或用他自己量化的 9B（w4a8）小模型在本地跑。",
+    "他的實測：文戲 480P、8 步很快就能出片、成本低；動作戲表現比較普通但堪用。內建延伸功能，從素材庫拖影片進來就能接著往下生成。",
+    "程式放在 GitHub 的 dseditor/minimax-h3-colab，裡面另有基本版和會說話的數位人筆記本。"
+   ],
+   "url": "https://www.facebook.com/dseditorlab/posts/pfbid02sjmEzkJCLMn1BRLg1faTDLZXtKFZUNeZCA4QmtBL7exKn6KLvjjP4NY7SZg751PFl",
+   "image": {
+    "file": "col-songyin-h3-toybox.webp",
+    "alt": "松音貼文附圖：H3 Toybox 介面，左邊素材庫、右邊參考生成設定",
+    "credit": "松音（Facebook 貼文圖）",
+    "credit_url": "https://www.facebook.com/dseditorlab/posts/pfbid02sjmEzkJCLMn1BRLg1faTDLZXtKFZUNeZCA4QmtBL7exKn6KLvjjP4NY7SZg751PFl"
+   },
+   "links": [
+    [
+     "GitHub：dseditor/minimax-h3-colab",
+     "https://github.com/dseditor/minimax-h3-colab"
+    ]
+   ],
+   "gloss": [
+    [
+     "Colab",
+     "Google 的雲端筆記本服務，可以租用雲端 GPU 跑 AI，不用自己有顯卡"
+    ]
+   ]
+  },
+  {
+   "id": "col-t8-drama3",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-10-30",
+   "title": "T8 開源商用級 AI 語音導演台：Drama-3 節點＋本地整合包",
+   "short_title": "T8 開源 Drama-3 語音導演台",
+   "orig": "历时半个月！T8开源商用级AI语音导演台！(含Drama3节点及整合包)",
+   "one": "T8 把 Fish Audio 的 Drama-3 配音模型做成本地「語音導演台」和 ComfyUI 節點，可以分角色配音、挑選和修改台詞。",
+   "points": [
+    "專案 Comfyui-Drama-3（GPL-3.0）有本地工作室和 30 個 ComfyUI 原生節點、19 個工作流；Windows 整合包內含 Python 環境，執行 Start-Drama3.exe 就能開。",
+    "流程是先建角色聲音庫（上傳乾淨的參考音即可，不用訓練），再匯入台詞或 SRT 生成多個版本比較、鎖定滿意的，最後匯出 WAV、分軌和字幕。",
+    "可以只重錄一句裡的一小段（infill），也能用導演指示改情緒和語速；作者提醒情緒和語速是模型控制，不保證精準時間。",
+    "README 說完整模型需要不少 RAM／VRAM，沒有給具體數字；影片裡的回音是錄影時外放造成，不是專案問題。"
+   ],
+   "url": "https://www.youtube.com/watch?v=a9YzHLZNj8A",
+   "image": {
+    "file": "col-t8-drama3.webp",
+    "alt": "T8star-Aix 影片縮圖：開源商用級 AI 語音導演台",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=a9YzHLZNj8A"
+   },
+   "links": [
+    [
+     "GitHub：T8mars/Comfyui-Drama-3",
+     "https://github.com/T8mars/Comfyui-Drama-3"
+    ],
+    [
+     "Hugging Face：t8star/Drama-3-Comfy",
+     "https://huggingface.co/t8star/Drama-3-Comfy"
+    ],
+    [
+     "原始模型：fishaudio/drama-3",
+     "https://huggingface.co/fishaudio/drama-3"
+    ]
+   ],
+   "gloss": [
+    [
+     "Infill（局部重錄）",
+     "只重新生成音檔中選定的一小段，前後保持不變"
+    ]
+   ]
+  },
+  {
+   "id": "col-aisd-unlimited-ocr2",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-10-30",
+   "title": "本地實測百度 Unlimited-OCR-2：33 億參數能把複雜文件讀到什麼程度",
+   "short_title": "實測百度 OCR 模型讀複雜文件",
+   "orig": "本地部署全方位实测Unlimited-OCR-2！33亿参数能把复杂文档读到什么程度？",
+   "one": "AI超元域在自己電腦上測百度的開源 OCR 模型，看它能不能把掃描書、雙欄報告、表格和公式正確轉成文字。",
+   "points": [
+    "他在 RTX A6000 上測：單頁掃描書頁 2.6 秒，10 頁 PDF 共 39.7 秒。",
+    "逐項測雙欄排版的閱讀順序、複雜表格能不能保住結構、數學公式、模糊掃描件，以及中日韓混排；部分複雜文件是合成樣例。",
+    "影片章節特別標出「豎排繁體的順序問題」，處理直排中文文件前要先核對結果。",
+    "模型在 Hugging Face 的 baidu/Unlimited-OCR-2，社群已有 GGUF 和 Mac（MLX）版本。"
+   ],
+   "url": "https://www.youtube.com/watch?v=W7lSIikNJBI",
+   "image": {
+    "file": "col-aisd-unlimited-ocr2.webp",
+    "alt": "AI超元域影片縮圖：本地實測 Unlimited-OCR-2",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=W7lSIikNJBI"
+   },
+   "links": [
+    [
+     "Hugging Face：baidu/Unlimited-OCR-2",
+     "https://huggingface.co/baidu/Unlimited-OCR-2"
+    ]
+   ],
+   "gloss": [
+    [
+     "OCR",
+     "把圖片或掃描檔裡的文字辨識成可以複製、編輯的文字"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-pose-controlnet-2pass",

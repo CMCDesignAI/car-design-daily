@@ -33,5 +33,26 @@
   "creator_key": "aisuperdomain",
   "url": "https://www.youtube.com/watch?v=aQ8gC58O4l0",
   "topic": "claude-duet-workflow-test"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "col-songyin-h3-toybox",
+  "creator_key": "dseditor",
+  "url": "https://www.facebook.com/dseditorlab/posts/pfbid02sjmEzkJCLMn1BRLg1faTDLZXtKFZUNeZCA4QmtBL7exKn6KLvjjP4NY7SZg751PFl",
+  "topic": "MiniMax H3 Colab 玩具箱"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "col-t8-drama3",
+  "creator_key": "t8star-aix",
+  "url": "https://www.youtube.com/watch?v=a9YzHLZNj8A",
+  "topic": "T8 開源 Drama-3 語音導演台"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "col-aisd-unlimited-ocr2",
+  "creator_key": "aisuperdomain",
+  "url": "https://www.youtube.com/watch?v=W7lSIikNJBI",
+  "topic": "unlimited-ocr-2-local-test"
  }
 ]
