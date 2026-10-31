@@ -8,9 +8,9 @@ SITE = ""
 if "--site-url" in sys.argv: SITE = sys.argv[sys.argv.index("--site-url")+1].rstrip("/")
 e = html.escape
 # Seasonal decorations, one line per holiday: start/end inclusive (YYYY-MM-DD, Asia/Taipei),
-# logo = (file in assets/, width, height) or None, section_suffix = emoji after numbered section titles or "".
+# logo = (file in assets/, width, height), or logo_light + logo_dark for per-theme versions; section_suffix = emoji after numbered section titles or "".
 SEASONAL = [
-    dict(start="2026-10-31", end="2026-11-02", logo=("cdd-halloween-logo.webp", 1400, 533), section_suffix="🎃"),  # Halloween
+    dict(start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween2-light.webp", 1400, 538), logo_dark=("cdd-halloween2-dark.webp", 1400, 538), section_suffix="🎃"),  # Halloween
 ]
 def seasonal(date):
     return next((x for x in SEASONAL if x["start"] <= date <= x["end"]), {})
@@ -22,10 +22,14 @@ def taipei_today():
     import datetime
     return os.environ.get("CDD_BUILD_DATE") or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d")
 def masthead_title(date, base):
-    lg = seasonal(date).get("logo")
-    if lg:
+    def img(lg, cls=""):
         fn, w, h = lg
-        return f'<h1 class="mast-logo"><img src="{base}assets/{fn}" alt="Car Design Daily" width="{w}" height="{h}" decoding="async" fetchpriority="high"></h1>'
+        return f'<img{cls} src="{base}assets/{fn}" alt="Car Design Daily" width="{w}" height="{h}" decoding="async">'
+    sx = seasonal(date)
+    if sx.get("logo_light") and sx.get("logo_dark"):  # CSS shows the one matching the active theme (display:none hides the other from AT)
+        return f'<h1 class="mast-logo">{img(sx["logo_light"], " class=\"lg-light\"")}{img(sx["logo_dark"], " class=\"lg-dark\"")}</h1>'
+    if sx.get("logo"):
+        return f'<h1 class="mast-logo">{img(sx["logo"])}</h1>'
     return '<h1>Car Design Daily</h1>'
 
 WD = ["週一","週二","週三","週四","週五","週六","週日"]
