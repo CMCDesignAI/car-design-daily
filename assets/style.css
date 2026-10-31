@@ -475,8 +475,8 @@ html{scroll-padding-top:110px}
 .breaking .vcar .vlive{color:var(--muted);font-size:12px;white-space:nowrap}
 .breaking .vcar .vlive a{color:inherit}
 
-.mast h1.mast-logo{margin:12px 0 8px;line-height:0;font-size:0}
-.mast h1.mast-logo img{display:block;width:100%;max-width:720px;height:auto;margin:0 auto}
+.mast h1.mast-logo{margin:14px 0 6px;line-height:0;font-size:0}
+.mast h1.mast-logo img{display:block;width:100%;max-width:720px;height:auto;margin:0}
 .mast h1.mast-logo .lg-dark{display:none}
 [data-theme="dark"] .mast h1.mast-logo .lg-light{display:none}
 [data-theme="dark"] .mast h1.mast-logo .lg-dark{display:block}
