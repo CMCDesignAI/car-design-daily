@@ -7,6 +7,20 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = ""
 if "--site-url" in sys.argv: SITE = sys.argv[sys.argv.index("--site-url")+1].rstrip("/")
 e = html.escape
+# Seasonal masthead logos: (start, end inclusive, file in assets/). Add one line per holiday.
+SEASONAL_LOGOS = [
+    ("2026-10-31", "2026-11-02", "cdd-halloween-logo.webp", 1400, 533),  # Halloween
+]
+def taipei_today():
+    """Build date in Asia/Taipei; override with CDD_BUILD_DATE=YYYY-MM-DD for testing."""
+    import datetime
+    return os.environ.get("CDD_BUILD_DATE") or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d")
+def masthead_title(date, base):
+    for st, en, fn, w, h in SEASONAL_LOGOS:
+        if st <= date <= en:
+            return f'<h1 class="mast-logo"><img src="{base}assets/{fn}" alt="Car Design Daily" width="{w}" height="{h}" decoding="async" fetchpriority="high"></h1>'
+    return '<h1>Car Design Daily</h1>'
+
 WD = ["週一","週二","週三","週四","週五","週六","週日"]
 
 SWITCH_JS = """<script>(function(){var n=document.querySelector('.modes');if(!n)return;var cur=n.getAttribute('data-mode');
@@ -424,7 +438,7 @@ def page(d, base, all_issues, is_root):
 {topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">設計新聞</a>{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}tool/">小工具</a><a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
-<h1>Car Design Daily</h1>
+{masthead_title(taipei_today() if is_root else date, base)}
 <div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}{f'<span class="parts-added"><a href="{base}tool/parts/" style="color:inherit">零件圖庫新增 {d["parts_added"]} 台</a></span>' if d.get('parts_added') else ''}</div>
 <p class="lede">{e(d['lede'])}</p></div>''')
     links = [("design","設計新聞",True),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]

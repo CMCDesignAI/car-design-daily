@@ -474,3 +474,6 @@ html{scroll-padding-top:110px}
 .breaking .vcar .bk-vlink{margin:10px 0 6px;line-height:1.5}
 .breaking .vcar .vlive{color:var(--muted);font-size:12px;white-space:nowrap}
 .breaking .vcar .vlive a{color:inherit}
+
+.mast h1.mast-logo{margin:12px 0 8px;line-height:0;font-size:0}
+.mast h1.mast-logo img{display:block;width:100%;max-width:720px;height:auto;margin:0 auto}
