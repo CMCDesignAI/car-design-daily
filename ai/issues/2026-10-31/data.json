@@ -1,0 +1,456 @@
+{
+ "date": "2026-10-31",
+ "weekday": "週六",
+ "issue_no": 24,
+ "lede": "Mistral Large 4 正式開放權重，可下載自架；OpenAI 把 ChatGPT Pro 各方案用量上限加倍，Grok Bot 則加入購物比價卡和訂閱管理。",
+ "ainews": [
+  {
+   "id": "mistral-large4-open-weights",
+   "org": "Mistral AI",
+   "tag": "延伸 · 重磅開源 · 文字模型",
+   "date": "2026-10-29",
+   "title": "延伸：Mistral Large 4 正式開放權重，約 1 兆參數、100 萬 token 上下文，可下載自架",
+   "orig": "Mistral Large 4 weights are now available under the Mistral Ecosystem Open-Weight License.",
+   "summary": "【新內容】10/08 報過預覽版；10/29 Mistral 把正式版權重放上 Hugging Face。【規格】總參數約 1 兆、每次只啟用約 49B（含嵌入與輸出層約 52B），上下文 100 萬 token，可輸入文字和圖片、輸出文字，支援 160 多種語言；另有 FP8 和給 NVIDIA Blackwell 用的 NVFP4 版本，社群已有 Unsloth／llama.cpp 的 GGUF。第一天就支援 transformers、vLLM、llama.cpp、SGLang。【價格】API 每百萬 token 輸入 0.70 美元、快取輸入 0.07 美元、輸出 2.10 美元；也能在 Mistral Studio、OpenRouter、NVIDIA NIM 使用。【限制】授權是修改過的 MIT，一般自用、商用可以，但把它包成模型 API 服務賣給別人要另外簽商業授權；模型體積很大，個人電腦跑不動完整版。TechCrunch 說它主打資安任務，表現和 GLM-5.3 相近、每個任務少用 47% token（廠商說法）。",
+   "links": [
+    [
+     "Mistral 官方公告",
+     "https://mistral.ai/news/mistral-large-4-oss/"
+    ],
+    [
+     "Hugging Face 官方部落格",
+     "https://huggingface.co/blog/mistral-large4"
+    ],
+    [
+     "Hugging Face 模型頁",
+     "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+    ],
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    ]
+   ],
+   "image": {
+    "file": "mistral-large4-oss.webp",
+    "alt": "Hugging Face 部落格「Le Chonk (Mistral Large 4) comes to Hugging Face」封面圖",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/blog/mistral-large4"
+   },
+   "short_title": "Mistral Large 4 開放下載",
+   "one": "歐洲 Mistral 的旗艦大模型開放權重，企業可以自己架設，API 價格也比同級閉源模型便宜。",
+   "gloss": [
+    [
+     "開放權重（Open weights）",
+     "公開模型檔案讓人下載、自己架設，但授權條件不一定等於完全開源"
+    ],
+    [
+     "MoE（混合專家）",
+     "模型很大，但每次只叫出一部分參數運算，所以速度和成本比總參數看起來低"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-pro-limits-doubled",
+   "org": "OpenAI",
+   "tag": "訂閱方案 · 權益異動",
+   "date": "2026-10-29",
+   "title": "ChatGPT Pro 全方案用量上限加倍，原本要對 Pro 200 減量的計畫取消",
+   "orig": "We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.",
+   "summary": "【異動】OpenAI 的 ChatGPT／Codex 負責人 Tibo 在 X 宣布，Pro 100、Pro 200、Pro 500 和 Business Premium 的用量上限即日起加倍，主要影響共用額度的 ChatGPT Work 和 Codex。原本 OpenAI 打算 10/29 之後調降 Pro 200 舊訂閱者的額度（價格不變），因用戶反彈而取消。【不變】Plus 沒有變動；既有訂閱者自動套用，不用另外操作。Dots（常駐型 AI 助理）的加大額度暫時保留，而且照舊和一般用量分開計算。【注意】OpenAI 沒公布各方案的具體次數；「上限加倍」不等於能跑的任務剛好兩倍，實際會依模型、任務和設定而不同。",
+   "links": [
+    [
+     "BleepingComputer 報導",
+     "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/"
+    ],
+    [
+     "The Decoder 報導",
+     "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/"
+    ],
+    [
+     "OpenAI 說明中心：ChatGPT Pro 方案",
+     "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT Pro 用量上限加倍",
+   "one": "付費 Pro 方案的 Work 和 Codex 能用的量直接翻倍，原本要砍額度的計畫也收回了。",
+   "gloss": [
+    [
+     "Codex",
+     "OpenAI 的寫程式 AI 代理，可以幫你改程式、跑測試"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-shopping-cards",
+   "org": "SpaceXAI",
+   "tag": "平台服務 · Grok Bot",
+   "date": "2026-10-27",
+   "title": "Grok Bot 0.78 加入購物商品卡、訂單追蹤，並能幫你管理訂閱和試用",
+   "orig": "Shopping results now appear as product cards with photos, ratings, prices, and stores.",
+   "summary": "【購物】請 Bot 找商品時，結果會變成有照片、評分、價格、店家的商品卡，一次 3–4 個可左右滑；按「Buy now」會開始下單，但要你核准才付款，之後有出貨卡片追蹤訂單。Vault 的付款分頁也能放 Shop Pay。【訂閱】新增範本「Try it, don't pay for it」（幫你開免費試用、在扣款前取消或提醒）、「Find unused subscriptions」（找出沒在用的訂閱）、「Watch subscription prices」（盯訂閱漲價）；Bot 可以查續約日、幫你取消訂閱，動手前都會先跟你確認。【限制】之前的一次性付款卡（Stripe Link）目前只支援美國和加拿大。",
+   "links": [
+    [
+     "Grok Bot 官方更新紀錄",
+     "https://x.ai/changelog/bot"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 能比價下單、管訂閱",
+   "one": "Grok Bot 找商品會直接列出比價卡片，還能幫你抓出沒在用的訂閱、在試用到期前取消。",
+   "gloss": [
+    [
+     "Vault",
+     "Grok Bot 存放帳號密碼與付款方式的保險箱功能"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "ComfyUI 核心支援 H3 分段長影片生成。",
+   "updates": [
+    {
+     "title": "ComfyUI 合併 MiniMax H3 Context Windows：長影片可以分段生成、降低顯存壓力",
+     "date": "2026-10-30",
+     "summary": "kijai 的 PR #17425 在 10/30 合併進 ComfyUI 主線，替 MiniMax H3 加上基本的 context window 支援，並新增一個比較好用的「MiniMax H3 Context Windows」節點。context window 的意思是取樣時把長影片切成互相重疊的小段一段段算，再把重疊處接起來，所以運算量跟著段落長度、不跟整支影片長度一起暴增。ComfyUI 之前已對 Wan、LTX 有這功能，這次 H3 也能用，且聲音會跟著畫面同一段切分。要用的話把 ComfyUI 更新到最新 master（還沒進穩定版時要用 Nightly）。",
+     "links": [
+      [
+       "GitHub：ComfyUI PR #17425",
+       "https://github.com/Comfy-Org/ComfyUI/pull/17425"
+      ],
+      [
+       "ArtRealmAI 解說",
+       "https://artrealmai.com/article/comfyui-minimax-h3-context-windows-node-long-video"
+      ]
+     ],
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-pose-controlnet-2pass",
+   "title": "Pose ControlNet：用骨架圖控制人物姿勢，再兩段生成補細節",
+   "learn": "學會用 OpenPose 骨架圖指定人物的動作和站姿，再用第二個模型重畫一次，讓大圖的臉和細節更清楚。",
+   "level": "入門",
+   "vram": "官方文件未標示，依原頁為準（範例用 SD1.5 模型）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "OpenPose",
+     "CMU 開發的姿勢偵測，把人轉成頭、肩、手肘、膝蓋等關鍵點連成的骨架圖"
+    ],
+    [
+     "兩段生成（2-Pass）",
+     "先生成一張姿勢正確的底圖，再用另一個模型在這張圖上重畫、補細節"
+    ]
+   ],
+   "steps": [
+    "把官方頁面上的工作流程圖片拖進 ComfyUI，會載入整個流程並提示下載模型。",
+    "若自動下載失敗，手動下載 control_v11p_sd15_openpose_fp16.safetensors 放進 models/controlnet/，majicmixRealistic_v7 和 japaneseStyleRealistic_v20 放進 models/checkpoints/，vae-ft-mse-840000-ema-pruned 放進 models/vae/。",
+    "在 Load Image 上傳官方提供的骨架圖（或你自己的 OpenPose 圖），確認兩個 Load Checkpoint 分別選到兩個模型。",
+    "按 Queue（或 Ctrl+Enter）生成：第一段先定姿勢，第二段放大重畫補細節。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Pose ControlNet 兩段生成",
+     "https://docs.comfy.org/tutorials/controlnet/pose-controlnet-2-pass"
+    ],
+    [
+     "Hugging Face：ControlNet v1.1 fp16 模型",
+     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors"
+    ]
+   ]
+  },
+  {
+   "id": "tut-sam3-video-segment",
+   "title": "SAM 3.1：打一個詞就把影片裡的物體自動摳出來",
+   "learn": "學會在 ComfyUI 用 Meta 的 SAM 3.1，輸入「car」這類文字就能在圖片或整段影片裡分割、追蹤目標，做成遮罩給後續合成或重繪用。",
+   "level": "入門",
+   "vram": "官方文件未標示，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "分割（Segmentation）",
+     "把畫面中某個物體的範圍精準圈出來，產生只包含它的遮罩"
+    ],
+    [
+     "遮罩（Mask）",
+     "黑白圖，白色是要處理的區域、黑色是不動的區域"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版（範本庫找不到 SAM3 通常代表版本太舊）。",
+    "打開 Workflow → Browse Templates，在 Utility 分類找到「SAM3: Video Segmentation」或「SAM3: Image Segmentation」載入。",
+    "在 LoadVideo（或 Load Image）節點放入素材，提示詞用簡短英文寫要摳的東西，多個目標用逗號分開（上限 32 個 token）。",
+    "按 Run，輸出就是每一格都套好遮罩的結果；模型授權是 Meta 的 SAM License，商用前先看條款。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：SAM 3.1 分割",
+     "https://docs.comfy.org/tutorials/utility/video-segment-sam3"
+    ],
+    [
+     "GitHub：facebookresearch/sam3",
+     "https://github.com/facebookresearch/sam3"
+    ],
+    [
+     "Hugging Face：Comfy-Org/sam3.1",
+     "https://huggingface.co/Comfy-Org/sam3.1"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "LMArena 網頁今天擋自動抓取，文字榜改用 LMArena 官方 Hugging Face 資料集（10/28 版）的 Overall 數字。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-10-31",
+  "compared_to": "2026-10-30",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-28",
+    "fetched": "2026-10-31",
+    "metric": "Arena score",
+    "carried_from": "2026-10-30",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1540,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 6,
+      "move": -1,
+      "delta": 3
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1499,
+      "ci": 7,
+      "move": -1,
+      "delta": -2
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1496,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-10-30",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-10-31",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-10-31",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-30",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
