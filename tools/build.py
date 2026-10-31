@@ -357,11 +357,13 @@ def theme_init(mode):
     dflt = "'dark'" if mode == "ai" else "null"
     return f"<script>(function(){{var t=localStorage.getItem('{key}')||{dflt};if(t)document.documentElement.setAttribute('data-theme',t);}})();</script>"
 
+CF_BEACON = '<!-- Cloudflare Web Analytics --><script type=\'module\' src=\'https://static.cloudflareinsights.com/beacon.min.js\' data-cf-beacon=\'{"token": "7dab43c8e146429d9735e6e3996de4c5"}\'></script><!-- End Cloudflare Web Analytics -->'
+
 def theme_toggle(mode):
     key = "cdd-theme-ai" if mode == "ai" else "cdd-theme"
     return SWITCH_JS + ("<script>document.getElementById('tg').onclick=function(){var r=document.documentElement,c=r.getAttribute('data-theme');"
             "var dark=c?c==='dark':matchMedia('(prefers-color-scheme: dark)').matches;var n=dark?'light':'dark';"
-            f"r.setAttribute('data-theme',n);localStorage.setItem('{key}',n);}};</script>")
+            f"r.setAttribute('data-theme',n);localStorage.setItem('{key}',n);}};</script>") + CF_BEACON
 
 def issues():
     out = []
