@@ -458,5 +458,29 @@
   "angle": "Crown Signia GT-S：加亮片的深灰金屬漆",
   "url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html",
   "image": "cmf-paint-crown-signia-gts-grey.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "car",
+  "car_key": "car:byd-tang-3rd",
+  "angle": "第三代唐：沙丘米菱格絎縫與星際雙屏",
+  "url": "https://www.ithome.com/1/020/234.htm",
+  "image": "cmf-car-byd-tang-cabin.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "paint",
+  "car_key": "paint:lamborghini-temerario-tettonero",
+  "angle": "Tettonero：五色車身配 Nero Noctis 黑頂",
+  "url": "https://www.autoblog.com/news/lamborghini-temerario-gets-a-wild-two-tone-makeover-in-five-colors",
+  "image": "cmf-paint-lamborghini-tettonero.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "paint",
+  "car_key": "paint:mini-cooper-oxford-edition",
+  "angle": "Oxford Edition：Indigo Sunset Blue 配米字旗頂",
+  "url": "https://www.mk.co.kr/en/business/12191337",
+  "image": "cmf-paint-mini-oxford.jpg"
  }
 ]

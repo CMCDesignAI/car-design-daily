@@ -1,0 +1,24 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="Coach doors 對開門示意：轎車側面，前門鉸鏈在前緣向前開，後門鉸鏈在後緣向車尾開，兩門在中間相接">
+<g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 200 L30 160 Q32 140 60 134 L150 124 L200 84 Q212 76 230 76 L340 76 Q360 76 376 88 L420 124 L470 132 Q490 138 492 160 L494 200"/>
+<line x1="30" y1="200" x2="494" y2="200"/>
+<circle cx="110" cy="204" r="32"/><circle cx="110" cy="204" r="13"/>
+<circle cx="410" cy="204" r="32"/><circle cx="410" cy="204" r="13"/>
+<path d="M60 160 L76 156" stroke-width="5"/>
+<path d="M172 120 L200 88 L352 88 L366 120 L366 196 L172 196 Z" stroke-dasharray="5 5" stroke-width="1.5"/>
+<line x1="262" y1="88" x2="262" y2="196" stroke-dasharray="5 5" stroke-width="1.5"/>
+</g>
+<g fill="none" stroke="#f08a5d" stroke-width="3" stroke-linejoin="round">
+<path d="M172 100 L172 196 L128 214 L128 120 Z"/>
+<path d="M366 100 L366 196 L410 214 L410 120 Z"/>
+</g>
+<g fill="#f08a5d"><circle cx="172" cy="128" r="6"/><circle cx="172" cy="178" r="6"/><circle cx="366" cy="128" r="6"/><circle cx="366" cy="178" r="6"/></g>
+<g stroke="#f08a5d" stroke-width="1.5" stroke-dasharray="4 4" fill="none">
+<line x1="262" y1="88" x2="262" y2="36"/><line x1="166" y1="178" x2="110" y2="262"/><line x1="372" y1="178" x2="410" y2="262"/>
+</g>
+<g fill="currentColor" font-size="15" font-family="sans-serif">
+<text x="170" y="28">① 兩扇門在中間相接、向兩邊打開</text>
+<text x="20" y="282">② 前門鉸鏈在前緣</text>
+<text x="330" y="282">③ 後門鉸鏈在後緣、向車尾開</text>
+</g>
+</svg>
