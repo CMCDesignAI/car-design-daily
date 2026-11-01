@@ -120,7 +120,87 @@
    "updates": []
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-t8-code-animate",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-10-31",
+   "title": "T8 和 Claude 用程式碼「寫」出 18 分鐘動畫短片，並開源整套做法和 Skill",
+   "short_title": "T8 的程式碼動畫 Skill",
+   "orig": "这一次，我当Claude的眼睛！穿越 190 年的机器动画简史（免费开源Skill-从零做一条AI代码动画）",
+   "one": "不用影片生成模型，改讓 Claude 寫程式逐格畫出動畫；T8 把整部片的原始碼和可重用的 Skill 都放上 GitHub。",
+   "points": [
+    "GitHub README 說明：這部約 18 分鐘的影片每一格都是程式即時畫出來的（Canvas2D＋WebGL 著色器），沒有拍攝素材、沒用影片生成模型，由 T8star 和 Claude 一起製作。",
+    "倉庫的 skill/ 資料夾是給觀眾的 SKILL：從零做一條程式碼影片的最短路徑，含長片骨架（鏡頭時間線、分段渲染）、雙語字幕，以及卡頓／抖動偵測、口播校對、字幕檢查等自動質檢工具。",
+    "自己渲染：在 film/ 執行 npm install 和 npx playwright install chromium，再用 node render.js 指定秒數輸出 MP4（有獨立顯卡可加 GPU=1）；口播錄音和配樂不在倉庫裡。",
+    "tools/ 另附口播對齊、時間線、混音、拼片腳本，docs/ 放每段故事的史實出處和中英字幕。"
+   ],
+   "url": "https://www.youtube.com/watch?v=7YeFQlDXUuo",
+   "image": {
+    "file": "col-t8-code-animate.webp",
+    "alt": "T8star-Aix 影片縮圖：「這一次，我當 Claude 的眼睛！穿越 190 年的人類動畫簡史」",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=7YeFQlDXUuo"
+   },
+   "links": [
+    [
+     "GitHub：T8mars/Code-Animate-T8",
+     "https://github.com/T8mars/Code-Animate-T8"
+    ]
+   ],
+   "gloss": [
+    [
+     "著色器（Shader）",
+     "直接在顯示卡上跑、計算每個像素顏色的小程式，常用來做特效畫面"
+    ]
+   ]
+  },
+  {
+   "id": "col-songyin-vllm-windows-spark",
+   "creator": "松音",
+   "creator_key": "dseditor",
+   "platform": "Facebook",
+   "date": "2026-10-31",
+   "title": "松音發現 vLLM-Windows 出了 RTX Spark 版安裝檔，Windows 原生就能跑、不用再繞 WSL",
+   "short_title": "松音：RTX Spark 原生跑 vLLM",
+   "orig": "身為Windows原生的愛好者，突然發現VLLM-Windows有RTXSpark版本的輪子了。",
+   "one": "手上有 RTX Spark 筆電的人，現在可以直接在 Windows 裝 vLLM 跑本地大模型，不必先架 WSL。",
+   "points": [
+    "松音貼文說：之前有評測說在 RTX Spark 上編譯失敗、只能用 WSL，現在不用了。",
+    "對應的是 SystemPanic/vllm-windows 在 10/30（台北時間）發布的 v0.32.0_spark 預覽版：給 RTX Spark Windows arm64 專用的 vLLM 0.32.0 安裝檔，需 Python 3.14、CUDA 13.4、PyTorch 2.14。",
+    "發布頁註明這是 beta 版、只適用 RTX Spark Windows arm64，安裝要照倉庫裡的 README_SPARK.md 步驟；一般 x64 顯卡用的是另一個 v0.32.0 版本（CUDA 13、Python 3.12）。"
+   ],
+   "url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl",
+   "image": {
+    "file": "col-songyin-vllm-windows-spark.webp",
+    "alt": "松音貼文附圖：GitHub 上 vllm-windows v0.32.0_spark 預覽版的發布頁截圖",
+    "credit": "松音（Facebook 貼文附圖）",
+    "credit_url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl"
+   },
+   "links": [
+    [
+     "GitHub：vllm-windows v0.32.0_spark",
+     "https://github.com/SystemPanic/vllm-windows/releases/tag/v0.32.0_spark"
+    ],
+    [
+     "RTX Spark 安裝說明 README_SPARK.md",
+     "https://github.com/SystemPanic/vllm-windows/blob/vllm-for-windows/README_SPARK.md"
+    ]
+   ],
+   "gloss": [
+    [
+     "vLLM",
+     "開源的大型語言模型推論引擎，讓本地或伺服器跑模型更快、能同時服務多個請求"
+    ],
+    [
+     "WSL",
+     "Windows 內建的 Linux 子系統，很多 AI 工具原本只能在 Linux 跑，要靠它繞道"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-mixing-controlnets",

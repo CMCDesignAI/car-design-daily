@@ -54,5 +54,19 @@
   "creator_key": "aisuperdomain",
   "url": "https://www.youtube.com/watch?v=W7lSIikNJBI",
   "topic": "unlimited-ocr-2-local-test"
+ },
+ {
+  "date": "2026-11-01",
+  "key": "col-t8-code-animate",
+  "creator_key": "t8star-aix",
+  "url": "https://www.youtube.com/watch?v=7YeFQlDXUuo",
+  "topic": "T8 開源程式碼動畫 Skill（Code-Animate-T8）"
+ },
+ {
+  "date": "2026-11-01",
+  "key": "col-songyin-vllm-windows-spark",
+  "creator_key": "dseditor",
+  "url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl",
+  "topic": "vLLM-Windows RTX Spark 原生安裝檔"
  }
 ]
