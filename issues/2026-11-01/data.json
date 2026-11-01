@@ -301,7 +301,34 @@
      "Top Gear（10/30）",
      "https://www.topgear.com/car-news/supercars/surprise-next-mclaren-supercar-809bhp-kiwi-bird-called-mcl-820"
     ]
-   ]
+   ],
+   "image": {
+    "file": "news-mclaren-mcl-820.jpg",
+    "alt": "McLaren 橘黑塗裝的奇異鳥雕像立在 McLaren 字樣展台上",
+    "credit": "McLaren (via Top Gear)",
+    "credit_url": "https://www.topgear.com/car-news/supercars/surprise-next-mclaren-supercar-809bhp-kiwi-bird-called-mcl-820"
+   },
+   "more_images": [
+    {
+     "file": "mclaren-mcl-820-2.jpg",
+     "alt": "夜間廣場上的 McL 820 奇異鳥雕像與投射燈",
+     "credit": "McLaren (via Top Gear)",
+     "credit_url": "https://www.topgear.com/car-news/supercars/surprise-next-mclaren-supercar-809bhp-kiwi-bird-called-mcl-820"
+    },
+    {
+     "file": "mclaren-mcl-820-3.jpg",
+     "alt": "奇異鳥雕像橘黑條紋塗裝特寫",
+     "credit": "McLaren (via Top Gear)",
+     "credit_url": "https://www.topgear.com/car-news/supercars/surprise-next-mclaren-supercar-809bhp-kiwi-bird-called-mcl-820"
+    },
+    {
+     "file": "mclaren-mcl-820-4.jpg",
+     "alt": "雕像上的「McL 820」字樣特寫",
+     "credit": "McLaren (via Top Gear)",
+     "credit_url": "https://www.topgear.com/car-news/supercars/surprise-next-mclaren-supercar-809bhp-kiwi-bird-called-mcl-820"
+    }
+   ],
+   "image_override": "zley 2026-11-01: 新聞圖無車（奇異鳥雕像）但有趣，保留文章圖"
   }
  ],
  "cmf": [
