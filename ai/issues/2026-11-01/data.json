@@ -1,0 +1,416 @@
+{
+ "date": "2026-11-01",
+ "weekday": "週日",
+ "issue_no": 25,
+ "lede": "Anthropic 把 Claude Max 20x 改名 Ultra、驗證帳號取消 5 小時限制；ChatGPT 和 Claude 手機 App 都能切換多個帳號，Claude 語音還能在 CarPlay 用。",
+ "ainews": [
+  {
+   "id": "claude-ultra-plan-rename",
+   "org": "Anthropic",
+   "tag": "訂閱方案 · 權益異動",
+   "date": "2026-10-30",
+   "title": "Claude Max 方案改名：Max 5x 改叫 Max、Max 20x 改叫 Ultra，Ultra 驗證帳號取消 5 小時限制",
+   "orig": "We’re renaming our Max plans: Max 5x → Max, Max 20x → Ultra. Max is still $100/month, and Ultra is still $200.",
+   "summary": "【異動】Anthropic 10/30 在 @claudeai 宣布方案改名：Max 5x 改叫 Max（每月 100 美元）、Max 20x 改叫 Ultra（每月 200 美元），價格不變，現有訂閱者不用做任何事。【Ultra 新權益】官方定價頁寫著 Ultra「No 5-hour limit」、每週 10 倍 Pro 用量，另附每月 200 美元 API 額度（Max 是 100 美元）。依 TechCityAuthority 引述說明中心：取消 5 小時限制先套用在大多數既有訂閱者；新帳號在通過自動驗證前仍有暫時限制，解除後會收到 email；在 Settings → Usage 看不到 Current session 條就代表已驗證。【限制】Ultra 不是無限：每週上限不變，所有模型共用一個週上限、Fable 另有獨立週上限；Claude 和 Claude Code 共用同一份額度。Max 仍是 5 倍 Pro 用量，照舊每 5 小時和每週重置。",
+   "links": [
+    [
+     "Claude 官方定價頁",
+     "https://claude.com/pricing"
+    ],
+    [
+     "Claude 說明中心：Max 方案",
+     "https://support.claude.com/en/articles/11049741-what-is-the-max-plan"
+    ],
+    [
+     "TechCityAuthority 報導",
+     "https://www.techcityauthority.com/2026/10/anthropic-renames-claude-max-plans-ultra-drops-5-hour-limit.html"
+    ]
+   ],
+   "image": null,
+   "short_title": "Claude Ultra 取消 5 小時限制",
+   "one": "Claude 最高階方案改名 Ultra、價格不變，驗證過的帳號不用再等 5 小時重置，只剩每週上限。",
+   "gloss": [
+    [
+     "5 小時限制",
+     "Claude 付費方案每 5 小時重置一次的短期用量上限，用完要等下一輪"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-mobile-account-switch",
+   "org": "OpenAI",
+   "tag": "平台服務 · ChatGPT App",
+   "date": "2026-10-30",
+   "title": "ChatGPT 手機 App 加入帳號切換：最多同時登入 2 個帳號，不用登出就能換",
+   "orig": "Account switching is rolling out to the iOS and Android apps.",
+   "summary": "【功能】OpenAI 10/30 的 ChatGPT 更新紀錄：iOS、Android App 開始提供帳號切換（網頁版在帳號選單），最多同時登入 2 個帳號，同一時間只有一個在使用；路徑是 Settings → Switch account。【分開的東西】兩個帳號的對話、記憶、檔案、設定和訂閱完全分開，不會合併或互相共用；第二個帳號預設是 Free 方案。手機可以同時收到兩個帳號的通知，點通知會自動切到對應帳號。【注意】採逐步推出，有些人還看不到選項；購買前要確認目前是哪個帳號，避免重複扣款；公司管理的工作區可由管理員決定能不能用。",
+   "links": [
+    [
+     "TechCityAuthority 報導",
+     "https://www.techcityauthority.com/2026/10/openai-chatgpt-mobile-apps-switch-between-two-accounts.html"
+    ],
+    [
+     "TokenPost 報導",
+     "https://www.tokenpost.com/news/technology/45362"
+    ],
+    [
+     "AgentStackWatch：本週 ChatGPT 更新整理",
+     "https://agentstackwatch.com/news/2026-10-31-chatgpt-icloud-mail-calendar-text-your-dot/"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 手機可切換兩個帳號",
+   "one": "個人和公司兩個 ChatGPT 帳號可以同時登入手機，切換時不用登出，資料和訂閱各自分開。"
+  },
+  {
+   "id": "claude-mobile-carplay-languages",
+   "org": "Anthropic",
+   "tag": "平台服務 · Claude App",
+   "date": "2026-10-29",
+   "title": "Claude 手機 App 更新：語音模式支援 CarPlay、iPad 並排檢視、多帳號切換、介面新增 24 種語言",
+   "orig": "On iPhone, voice mode now works with Apple CarPlay. Ask Claude something on the drive and keep your hands on the wheel.",
+   "summary": "【語音】iPhone 的語音模式現在可以在 Apple CarPlay 使用；iOS 和 Android 的語音回應更快，吵雜環境或小聲說話時也聽得更清楚，非英語語音更自然，也支援更多 Android 手機。【介面】iPad 和 iPhone Duo 上 Claude 產生的內容會開在對話旁邊而不是蓋住對話；iOS／Android 可同時登入多個帳號切換；Chromebook 和折疊機上的 Android 版更像桌面 App（可調側欄、觸控板右鍵、同 Claude Desktop 的快捷鍵）。【語言】網頁、桌面、iOS、Android 介面新增 24 種語言，共 33 種，包括泰文、越南文、土耳其文等。【還沒上】iPhone／iPad 下拉搜尋手勢「即將推出」。以上整理自 TechCityAuthority 對 @claudeai 10/29 貼文串的報導，沒看到的人要先更新 App。",
+   "links": [
+    [
+     "TechCityAuthority 報導",
+     "https://www.techcityauthority.com/2026/10/anthropic-claude-mobile-apps-carplay-voice-side-by-side-languages.html"
+    ]
+   ],
+   "image": null,
+   "short_title": "Claude 語音可在 CarPlay 用",
+   "one": "開車時能用 CarPlay 跟 Claude 語音對話，App 介面也新增 24 種語言、可切換多個帳號。",
+   "gloss": [
+    [
+     "CarPlay",
+     "Apple 把 iPhone App 投到車上螢幕、用語音和方向盤操作的功能"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-mixing-controlnets",
+   "title": "混合 ControlNet：一張圖左邊用骨架控制人物、右邊用塗鴉控制物件",
+   "learn": "學會把兩個 Apply ControlNet 節點串起來，讓 Pose 管人物姿勢、Scribble 管另一個物件，在同一張圖裡分區控制。",
+   "level": "中階",
+   "vram": "官方文件未標示，依原頁為準（範例用 SD1.5 模型）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Scribble ControlNet",
+     "用手繪線稿（塗鴉）當條件，讓 AI 照著線條的形狀生成物件"
+    ]
+   ],
+   "steps": [
+    "從官方頁面下載工作流程圖片拖進 ComfyUI，會載入整個流程並提示下載模型。",
+    "自動下載失敗時，手動把 awpainting_v14 放進 models/checkpoints/，control_v11p_sd15_openpose_fp16 和 control_v11p_sd15_scribble_fp16 放進 models/controlnet/，vae-ft-mse-840000-ema-pruned 放進 models/vae/。",
+    "第一組 ControlNet 選 openpose 模型並上傳骨架圖（控制左邊人物），第二組選 scribble 模型並上傳塗鴉圖（控制右邊騎滑板車的貓）。",
+    "兩組強度建議設成差不多（例如都 1.0），避免一邊壓過另一邊；提示詞要同時描述兩個區域，再按 Queue（Ctrl+Enter）生成。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Mixing ControlNets",
+     "https://docs.comfy.org/tutorials/controlnet/mixing-controlnets"
+    ],
+    [
+     "Hugging Face：ControlNet v1.1 fp16 模型",
+     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors"
+    ],
+    [
+     "GitHub：Comfy-Org 範例工作流程",
+     "https://github.com/Comfy-Org/example_workflows"
+    ]
+   ]
+  },
+  {
+   "id": "tut-qwen-image-layered",
+   "title": "Qwen-Image-Layered：把一張圖拆成好幾個透明圖層，分別改色、換位置",
+   "learn": "學會用 Qwen-Image-Layered 把照片拆成數個 RGBA 圖層，之後可以單獨調整某一層的顏色、大小或位置，不影響其他內容。",
+   "level": "中階",
+   "vram": "官方文件未標數字；預設 bf16 版需要較高顯存，顯存不夠改用 fp8mixed 版（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "RGBA 圖層",
+     "多了透明度（Alpha）通道的圖片，可以像 Photoshop 圖層一樣疊起來"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版，在 Workflow Templates 找 Qwen-Image-Layered 範本（找不到通常是版本太舊）。",
+    "下載 qwen_2.5_vl_7b_fp8_scaled 放進 models/text_encoders/、qwen_image_layered_bf16 放進 models/diffusion_models/、qwen_image_layered_vae 放進 models/vae/；顯存不夠就改下載 fp8mixed 版，並在 Subgraph 裡的 Load Diffusion Model 換成它。",
+    "在 LoadImage 節點上傳要拆的圖（官方建議約 640px），在 Empty Qwen Image Layered Latent 節點的 layers 設定要拆幾層（範本預設 2）。",
+    "執行後會得到各圖層；官方說這個模型很慢，原始設定 50 步、CFG 4.0；把所有圖層疊回去應該要和原圖一樣，可用來檢查拆得對不對。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Qwen-Image-Layered",
+     "https://docs.comfy.org/tutorials/image/qwen/qwen-image-layered"
+    ],
+    [
+     "Hugging Face：Qwen/Qwen-Image-Layered",
+     "https://huggingface.co/Qwen/Qwen-Image-Layered"
+    ],
+    [
+     "Hugging Face：Comfy-Org ComfyUI 版權重",
+     "https://huggingface.co/Comfy-Org/Qwen-Image-Layered_ComfyUI"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "LMArena 網頁擋自動抓取，文字榜改用官方 Hugging Face 資料集（仍是 10/28 版）；兩個榜單今天都無重大變化。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-01",
+  "compared_to": "2026-10-31",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-28",
+    "fetched": "2026-11-01",
+    "metric": "Arena score",
+    "carried_from": "2026-10-30",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1540,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 6,
+      "move": -1,
+      "delta": 3
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1499,
+      "ci": 7,
+      "move": -1,
+      "delta": -2
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1496,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-10-31",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-11-01",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-11-01",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-10-31",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
