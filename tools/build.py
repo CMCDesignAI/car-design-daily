@@ -7,13 +7,27 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = ""
 if "--site-url" in sys.argv: SITE = sys.argv[sys.argv.index("--site-url")+1].rstrip("/")
 e = html.escape
+# Masthead logos. A logo tuple is (file in assets/, width, height[, k]).
+#   3-tuple (Halloween style): image fills the masthead column, max 720px.
+#   4-tuple: k = width as a fraction of min(column, 720px). k is set per file so every logo's glyph
+#   cap height matches the default logo (tools/mklogo.py prints it), so decorations can stick out
+#   without the lettering changing size. Files are trimmed so the glyph left edge sits on the date line.
+# Default (non-seasonal) logo: used from DEFAULT_LOGO["start"] (Taipei build date) on every page that is not in a season.
+DEFAULT_LOGO = dict(start="2026-11-03", logo_light=("cdd-default-light-v1.webp", 1378, 481, 0.9566), logo_dark=("cdd-default-dark-v1.webp", 1440, 480, 1.0))
 # Seasonal decorations, one line per holiday: start/end inclusive (YYYY-MM-DD, Asia/Taipei),
-# logo = (file in assets/, width, height), or logo_light + logo_dark for per-theme versions; section_suffix = emoji after numbered section titles or "".
+# logo = (file in assets/, ...), or logo_light + logo_dark for per-theme versions; section_suffix = emoji after numbered section titles or "".
+# Adding a holiday = put the trimmed WebP files in assets/ (python3 tools/mklogo.py) and add one row here.
+# A row with start=None is prepared but INACTIVE; preview it with CDD_PREVIEW_SEASON=<name>.
 SEASONAL = [
-    dict(start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween3-light.webp", 1525, 588), logo_dark=("cdd-halloween2-dark.webp", 1400, 540), section_suffix="🎃"),  # Halloween
+    dict(name="halloween", start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween3-light.webp", 1525, 588), logo_dark=("cdd-halloween2-dark.webp", 1400, 540), section_suffix="🎃"),  # Halloween
+    # TODO dates: waiting for zley to confirm. Inactive until start/end are filled in.
+    dict(name="christmas", start=None, end=None, logo_light=("cdd-xmas-light-v1.webp", 1321, 528, 0.9174), logo_dark=("cdd-xmas-dark-v1.webp", 1354, 542, 0.9401), section_suffix=""),  # Christmas
+    dict(name="newyear", start=None, end=None, logo_light=("cdd-newyear-light-v1.webp", 1314, 528, 0.9123), logo_dark=("cdd-newyear-dark-v1.webp", 1350, 541, 0.9374), section_suffix=""),  # New Year
 ]
 def seasonal(date):
-    return next((x for x in SEASONAL if x["start"] <= date <= x["end"]), {})
+    pv = os.environ.get("CDD_PREVIEW_SEASON")
+    if pv: return next((x for x in SEASONAL if x.get("name") == pv), {})
+    return next((x for x in SEASONAL if x.get("start") and x["start"] <= date <= x["end"]), {})
 def sec_suffix(date):
     sfx = seasonal(date).get("section_suffix")
     return f'<span class="sec-sfx" aria-hidden="true">{sfx}</span>' if sfx else ""
@@ -21,11 +35,19 @@ def taipei_today():
     """Build date in Asia/Taipei; override with CDD_BUILD_DATE=YYYY-MM-DD for testing."""
     import datetime
     return os.environ.get("CDD_BUILD_DATE") or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime("%Y-%m-%d")
+VH = 'position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0'
 def masthead_title(date, base):
+    sx = seasonal(date) or (DEFAULT_LOGO if taipei_today() >= DEFAULT_LOGO["start"] else {})
+    lgs = [sx[k] for k in ("logo_light", "logo_dark", "logo") if sx.get(k)]
+    if lgs and all(len(lg) == 4 for lg in lgs):  # new style: hidden text title for SEO/AT, decorative images sized by k (inline so stale CSS still works)
+        def img(lg, cls=""):
+            fn, w, h, k = lg
+            return f'<img{cls} src="{base}assets/{fn}" alt="" width="{w}" height="{h}" decoding="async" style="width:calc(min(100%,720px)*{k})">'
+        imgs = img(sx["logo_light"], ' class="lg-light"') + img(sx["logo_dark"], ' class="lg-dark"') if sx.get("logo_light") and sx.get("logo_dark") else img(sx["logo"])
+        return f'<h1 class="mast-logo"><span style="{VH}">Car Design Daily</span>{imgs}</h1>'
     def img(lg, cls=""):
-        fn, w, h = lg
+        fn, w, h = lg[:3]
         return f'<img{cls} src="{base}assets/{fn}" alt="Car Design Daily" width="{w}" height="{h}" decoding="async">'
-    sx = seasonal(date)
     if sx.get("logo_light") and sx.get("logo_dark"):  # CSS shows the one matching the active theme (display:none hides the other from AT)
         return f'<h1 class="mast-logo">{img(sx["logo_light"], " class=\"lg-light\"")}{img(sx["logo_dark"], " class=\"lg-dark\"")}</h1>'
     if sx.get("logo"):
