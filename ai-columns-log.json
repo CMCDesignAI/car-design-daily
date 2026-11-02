@@ -68,5 +68,12 @@
   "creator_key": "dseditor",
   "url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl",
   "topic": "vLLM-Windows RTX Spark 原生安裝檔"
+ },
+ {
+  "date": "2026-11-02",
+  "key": "col-t8-bluepixel",
+  "creator_key": "t8star-aix",
+  "url": "https://www.youtube.com/watch?v=55Jwm8G6TQQ",
+  "topic": "vivo BluePixel 4K 改圖 ComfyUI 節點"
  }
 ]

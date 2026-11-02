@@ -438,5 +438,55 @@
     }
    }
   ]
- }
+ },
+ "columns": [
+  {
+   "id": "col-t8-bluepixel",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-01",
+   "title": "T8 把 vivo 開源的 BluePixel 4K 改圖模型做成 ComfyUI 節點，4 步就能直接輸出 4K 編輯圖",
+   "short_title": "T8 的 BluePixel 4K 改圖節點",
+   "orig": "Vivo开源BluePixel图像编辑，低显存8秒采样一张4K图像",
+   "one": "想用一句指令直接改出 4K 圖的人，可以裝 T8 做的 BluePixel 節點，在本地 ComfyUI 跑 vivo 的開源改圖模型。",
+   "points": [
+    "vivo 官方 GitHub README：BluePixel 是以 FLUX.2 Klein 為基礎的原生 4K 改圖模型，不靠另外放大就能輸出 4096×4096，4 步推論（由 50 步教師模型蒸餾），Apache 2.0 授權，權重是 Hugging Face 上的 BluePixel-Turbo。",
+    "T8 的 Comfyui-BluePixel-T8 節點 README：可在 ComfyUI Manager 搜尋「BluePixel T8」安裝，需 ComfyUI 0.43.0 以上；主模型用 INT8 量化版（9.09GB），加上 Qwen3-8B 文字編碼器和 DCAE-F64 VAE，三個檔案共約 28.19GB 磁碟空間。",
+    "README 建議從 4 步、CFG 3 開始，附 8 個可直接拖進 ComfyUI 的工作流程（1K 預覽、4K 編輯、多參考圖、保留比例等）；DCAE-F64 不能和一般 Flux2 的 VAE 混用，INT8 是有損量化。",
+    "作者說：低顯存下約 8 秒就能採樣一張 4K 圖（影片標題）；README 註明速度、顯存與畫質會隨硬體和任務變化。"
+   ],
+   "url": "https://www.youtube.com/watch?v=55Jwm8G6TQQ",
+   "image": {
+    "file": "col-t8-bluepixel.webp",
+    "alt": "T8star-Aix 影片縮圖：vivo 開源 BluePixel 圖像編輯，低顯存 8 秒採樣一張 4K 圖",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=55Jwm8G6TQQ"
+   },
+   "links": [
+    [
+     "GitHub：vivo/BluePixel",
+     "https://github.com/vivo/BluePixel"
+    ],
+    [
+     "GitHub：T8mars/Comfyui-BluePixel-T8",
+     "https://github.com/T8mars/Comfyui-BluePixel-T8"
+    ],
+    [
+     "Hugging Face：t8star/BluePixel-Comfy",
+     "https://huggingface.co/t8star/BluePixel-Comfy"
+    ]
+   ],
+   "gloss": [
+    [
+     "蒸餾（Distillation）",
+     "用一個大而慢的模型教出一個步數少、速度快的模型"
+    ],
+    [
+     "INT8 量化",
+     "把模型權重壓成 8 位元整數，檔案和顯存變小，但畫質可能略降"
+    ]
+   ]
+  }
+ ]
 }
