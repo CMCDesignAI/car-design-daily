@@ -1,0 +1,602 @@
+{
+ "date": "2026-11-02",
+ "weekday": "週一",
+ "issue_no": 26,
+ "lede": "Citroën 公開 2 CV Concept 設計草圖，拆解捨棄後輪罩的取捨；第二代海豹07、方程豹鈦9 同步到店，和泰在台推出新世代 CROWN 與 TOYOTA PREMIUM，BMW i3 英國首發新色 M Le Castellet Blue。",
+ "design_news": [
+  {
+   "id": "citroen-2cv-sketches",
+   "tag": "概念車 · 設計過程",
+   "date": "2026-10-28",
+   "brand": "Citroën",
+   "title": "2 CV Concept 草圖公開：捨棄後輪罩，重新詮釋而不複製",
+   "orig": "Citroën dévoile les croquis de sa 2 CV Concept",
+   "summary": "Citroën 公開 2 CV Concept 從草圖到定稿近一年的研究過程，由設計總監 Pierre Leclercq 等五位設計師說明取捨。原則一句話：讓經典復活但不照抄。量產版電動 2 CV 預計 2028 年推出，起價約 1.5 萬歐元。",
+   "analysis": [
+    [
+     "取捨",
+     "原版招牌的後輪罩（後輪遮板）被拿掉，避免太濃的復古味，也考量實用性。"
+    ],
+    [
+     "比例",
+     "沿用戰前車的骨架概念，但把翼子板加寬、車身量感加大，同時符合現行法規。"
+    ],
+    [
+     "車頭",
+     "目標是「討喜但不像玩具」：左右錯開的圓燈、仿早期 2 CV 的肋紋引擎蓋。"
+    ],
+    [
+     "車身",
+     "弧形車頂一路延伸到後保桿，配重新詮釋的鋼圈；帆布車頂仍是手動捲收。"
+    ],
+    [
+     "看點",
+     "小圓車最容易滑向玩具感，車頭是成敗關鍵，量產版能否保留這些草圖細節值得追。"
+    ]
+   ],
+   "sources": [
+    [
+     "MotorsActu（10/28）",
+     "https://motorsactu.com/citroen-2-cv-concept-croquis-design-pierre-leclercq/"
+    ],
+    [
+     "Stellantis Media：Citroën 2 CV Concept 插畫",
+     "https://www.media.stellantis.com/em-en/citroen/press/citroen-2-cv-concept-the-illustrations-behind-the-concept"
+    ]
+   ],
+   "image": {
+    "file": "news-citroen-2cv-sketches.jpg",
+    "alt": "紅色 Citroën 2 CV Concept 不同角度的設計草圖",
+    "credit": "Citroën (via MotorsActu)",
+    "credit_url": "https://motorsactu.com/citroen-2-cv-concept-croquis-design-pierre-leclercq/"
+   },
+   "more_images": [
+    {
+     "file": "citroen-2cv-sketches-2.jpg",
+     "alt": "紅色 2 CV Concept 前四分之三草圖，錯開圓燈與肋紋引擎蓋",
+     "credit": "Citroën (via Mobility Ground)",
+     "credit_url": "https://mobilityground.com/global-news/europe/citroen/citroen-releases-the-sketches-behind-its-2-cv-concept-after-nearly-a-year-of-design-work/"
+    }
+   ]
+  },
+  {
+   "id": "byd-seal-07-2nd",
+   "tag": "新車 · 中國",
+   "date": "2026-11-01",
+   "brand": "BYD",
+   "title": "第二代海豹07 到店：車身加長 85mm，11/5 上市",
+   "orig": "BYD to launch second-gen Seal 07 sedan on November 5",
+   "summary": "BYD 第二代海豹07 展車已進駐 131 個城市的門市，預定 11 月 5 日上市，有純電與 DM-i 插混兩種動力。車長 5,080 mm、軸距 2,960 mm，比上一代長 85 mm、寬 50 mm、軸距多 60 mm。",
+   "analysis": [
+    [
+     "語彙",
+     "採海洋美學 2.0，和海豹08 同一套家族臉，車頂加裝光達。"
+    ],
+    [
+     "比例",
+     "車身拉長、加寬，軸距多 60 mm，從緊湊轎車往中大型靠攏。"
+    ],
+    [
+     "空間",
+     "後車廂 618 L，加上 160 L 前車廂。"
+    ],
+    [
+     "座艙",
+     "懸浮中控螢幕保留一排實體撥桿開關，不全部塞進觸控。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost（11/1）",
+     "https://cnevpost.com/2026/11/01/byd-to-launch-2nd-gen-seal-07-nov-5/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-seal-07-2nd.jpg",
+    "alt": "綠色第二代 BYD 海豹07 停在建築前",
+    "credit": "BYD (via CnEVPost)",
+    "credit_url": "https://cnevpost.com/2026/11/01/byd-to-launch-2nd-gen-seal-07-nov-5/"
+   }
+  },
+  {
+   "id": "fcb-ti9",
+   "tag": "新車 · 中國",
+   "date": "2026-11-01",
+   "brand": "方程豹",
+   "title": "方程豹鈦9 下線到店：2+2+2 六座大型 SUV",
+   "orig": "BYD's FCB crosses 600,000 sales ahead of Ti 9 launch",
+   "summary": "方程豹累計銷量突破 60 萬輛，旗艦大型 SUV 鈦9 已開始到店，預計 11 月 15 日後上市，定價約 40–50 萬人民幣。品牌高層也承認交車產能吃緊。",
+   "analysis": [
+    [
+     "比例",
+     "5,270×1,999×1,850 mm、軸距 3,130 mm，方正箱型輪廓，對標大型越野休旅。"
+    ],
+    [
+     "座位",
+     "2+2+2 六座配置，主打全家長途。"
+    ],
+    [
+     "平台",
+     "採 DMS 承載式車身，不走傳統大樑，兼顧舒適與越野。"
+    ],
+    [
+     "定位",
+     "方程豹從硬派越野往家用旗艦延伸，鈦9 是價格最高的一台。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/1）",
+     "https://carnewschina.com/2026/11/01/byds-fcb-crosses-600000-sales-as-gm-acknowledges-delivery-bottlenecks-ahead-of-ti-9-launch/"
+    ]
+   ],
+   "image": {
+    "file": "news-fcb-ti9.jpg",
+    "alt": "棕色方程豹鈦9 在工廠產線下線",
+    "credit": "BYD FCB (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/01/byds-fcb-crosses-600000-sales-as-gm-acknowledges-delivery-bottlenecks-ahead-of-ti-9-launch/"
+   }
+  },
+  {
+   "id": "toyota-crown-tw",
+   "tag": "新車 · 台灣",
+   "date": "2026-11-01",
+   "brand": "Toyota",
+   "title": "和泰導入新世代 CROWN，並推 TOYOTA PREMIUM 品牌",
+   "orig": "TOYOTA發表最新世代CROWN車系",
+   "summary": "和泰汽車在台發表新世代 CROWN SPORT 與 CROWN CROSSOVER，汰舊換新價分別 164 萬元起、152 萬元起；同步推出 TOYOTA PREMIUM，把 CROWN 兩車、LAND CRUISER、SIENNA 與 ALPHARD 收進同一個高階服務體系。",
+   "analysis": [
+    [
+     "品牌",
+     "不另立新品牌，而是用 TOYOTA PREMIUM 把高價車型包裝成一個系列，提供專屬禮遇。"
+    ],
+    [
+     "車型",
+     "CROWN SPORT 走跑旅、CROWN CROSSOVER 走跨界轎車，兩種比例並列。"
+    ],
+    [
+     "市場",
+     "台灣進口豪華車競爭激烈，Toyota 用既有車型組出高階線，補 Lexus 以下的空隙。"
+    ]
+   ],
+   "sources": [
+    [
+     "工商時報（11/1）",
+     "https://www.chinatimes.com/newspapers/20261101000328-260204"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-crown-tw.jpg",
+    "alt": "和泰發表會舞台上的 CROWN SPORT 與 CROWN CROSSOVER",
+    "credit": "和泰汽車 (via 工商時報)",
+    "credit_url": "https://www.chinatimes.com/newspapers/20261101000328-260204"
+   }
+  },
+  {
+   "id": "deepal-foot-bath",
+   "tag": "趣聞 · 專利",
+   "date": "2026-10-30",
+   "brand": "深藍",
+   "title": "深藍申請「車內泡腳桶」專利：收在副駕座椅下",
+   "orig": "Changan's Deepal applied for an in-car foot bath patent",
+   "summary": "長安深藍在中國申請車內泡腳桶專利（CN122873858A）：泡腳桶平時收在副駕座椅下方的凹槽，需要時展開，內有防晃、導流結構，可快接車上水管並附消毒組件。是否量產上車還沒消息。",
+   "analysis": [
+    [
+     "概念",
+     "把中國流行的泡腳習慣搬進車裡，比賽力斯的車內馬桶專利容易被接受。"
+    ],
+    [
+     "空間",
+     "收納在座椅下的伸縮機構，重點是不吃掉座艙空間。"
+    ],
+    [
+     "定位",
+     "成本不低，較可能出現在旗艦 S09 這類六座大車。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/30）",
+     "https://carnewschina.com/2026/10/30/changans-deepal-applied-for-an-in-car-foot-bath-patent/"
+    ]
+   ],
+   "note": "原文配圖為 AI 生成示意圖，依規則不採用，本則無圖。"
+  },
+  {
+   "id": "lexus-china-bev-suv",
+   "tag": "新車預告 · 中國製造",
+   "date": "2026-10-31",
+   "brand": "Lexus",
+   "title": "Lexus 首款中國製純電 SUV 2027 年上海投產",
+   "orig": "Lexus to launch first China-made electric SUV in 2027 at Shanghai plant",
+   "summary": "Lexus 上海金山獨資新廠將在 2027 年推出品牌首款中國製車型，是一台純電 SUV，初期月產約 1,000 輛。車名、電池與價格都還沒公布。",
+   "analysis": [
+    [
+     "製造",
+     "工廠採鋁一體壓鑄與無輸送帶組裝，是 Toyota 集團新生產方式的試點。"
+    ],
+    [
+     "市場",
+     "Lexus 在華交車從 2021 年約 22.7 萬輛降到 2025 年 182,458 輛，在地生產可避開 15% 進口關稅。"
+    ],
+    [
+     "看點",
+     "日系豪華品牌第一次在中國用新平台造電動車，造型是否為中國市場調整值得觀察。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/31）",
+     "https://carnewschina.com/2026/10/31/lexus-to-launch-first-china-made-electric-suv-in-2027-at-shanghai-plant/"
+    ]
+   ],
+   "note": "原文僅有工廠照片、沒有車輛，本則無圖。"
+  },
+  {
+   "id": "eli-zero-mx",
+   "tag": "微型車 · EICMA 預告",
+   "date": "2026-11-01",
+   "brand": "Eli",
+   "title": "Eli 預告 ZERO MX 與 Race Edition，EICMA 揭幕",
+   "orig": "Eli teases the launch of a much faster electric microcar",
+   "summary": "美國微型電動車品牌 Eli 預告將在米蘭 EICMA（11/3–8）發表 ZERO MX，從現行時速 45 公里的 L6e 升級為 L7e 級，義大利官網列出時速 85 公里、續航 200 公里的版本。另有黑紅配色、開放側艙的 Race Edition。",
+   "analysis": [
+    [
+     "法規",
+     "L7e 可上更快的道路，讓兩人座微型車不只在市區慢車道。"
+    ],
+    [
+     "造型",
+     "預告圖是深色車身配紅色點綴，側面開放，看起來是第二代 ZERO。"
+    ],
+    [
+     "看點",
+     "微型車用運動化包裝吸引年輕族群，實車細節要等 EICMA。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/1）",
+     "https://electrek.co/2026/11/01/eli-teases-the-launch-of-a-much-faster-electric-microcar/"
+    ]
+   ],
+   "note": "官方只在 Instagram 發預告圖，原文頭圖為 2024 年舊款，本則無圖。"
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-byd-seagull-2nd-cabin",
+   "kind": "car",
+   "car": "BYD 第二代海鷗",
+   "tag": "內裝 · 中國",
+   "title": "第二代海鷗：貝殼白座艙與水轉印飾板",
+   "points": [
+    "內裝有貝殼白、晴空粉、北極星灰三色。",
+    "飾板用水轉印，遠看像暖色木紋。",
+    "近看飾板裡有細細的金色閃點。",
+    "門板做波浪線條，中控台為上下雙層置物。"
+   ],
+   "image": {
+    "file": "cmf-car-byd-seagull-2nd-cabin.jpg",
+    "alt": "第二代海鷗白色座艙與橫向儀表台",
+    "credit": "BYD (via GEMS)",
+    "credit_url": "https://gemsgbr.com/article/art_99867625"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-byd-seagull-2nd-cabin-2.jpg",
+     "alt": "試乘者坐在第二代海鷗白色座椅上",
+     "credit": "BYD (via GEMS)",
+     "credit_url": "https://gemsgbr.com/article/art_99867625"
+    }
+   ],
+   "sources": [
+    [
+     "GEMS（11/1）",
+     "https://gemsgbr.com/article/art_99867625"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-byd-seal07-aurora-pala",
+   "kind": "paint",
+   "tag": "車色 · 中國",
+   "title": "第二代海豹07：極光粉與帕拉綠展車",
+   "points": [
+    "展車用極光粉（Aurora Pink）與帕拉綠兩色。",
+    "極光粉是很淡的粉白，在日光下偏珍珠感。",
+    "帕拉綠是帶藍的湖水綠，搭黑色車頂更醒目。",
+    "兩色都是年輕取向，讓中型轎車不顯老氣。"
+   ],
+   "image": {
+    "file": "cmf-paint-byd-seal07-aurora-pala.jpg",
+    "alt": "門市前並排的淡粉白與湖水綠第二代海豹07 展車",
+    "credit": "BYD (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-byd-seal07-aurora-pala-2.jpg",
+     "alt": "淡粉白第二代海豹07 前臉，後方為湖水綠車",
+     "credit": "BYD (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/"
+    }
+   ],
+   "sources": [
+    [
+     "CarNewsChina（10/30）",
+     "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/"
+    ]
+   ],
+   "car": "BYD 第二代海豹07"
+  },
+  {
+   "id": "cmf-paint-bmw-i3-le-castellet",
+   "kind": "paint",
+   "tag": "車色 · 德國",
+   "title": "新 i3：M Le Castellet Blue 配 Digital White",
+   "points": [
+    "M Le Castellet Blue 是 i3 專屬的新藍色。",
+    "高彩度藍讓 Neue Klasse 的平整車面更立體。",
+    "內裝 Digital White 白座椅，搭白色方向盤。",
+    "外藍內白強對比，座艙顯得明亮輕盈。"
+   ],
+   "image": {
+    "file": "cmf-paint-bmw-i3-le-castellet.jpg",
+    "alt": "M Le Castellet Blue 的 BMW i3 車頭行駛於林間道路",
+    "credit": "BMW (via BMWBLOG)",
+    "credit_url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-bmw-i3-le-castellet-2.jpg",
+     "alt": "i3 Digital White 白色座椅與白色方向盤",
+     "credit": "BMW (via BMWBLOG)",
+     "credit_url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/"
+    }
+   ],
+   "sources": [
+    [
+     "BMWBLOG（11/1）",
+     "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/"
+    ]
+   ],
+   "car": "BMW i3（Neue Klasse）"
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-hyundai-pleos-naver-kakao",
+   "kind": "case",
+   "brand": "Hyundai",
+   "tag": "介面與 HMI",
+   "title": "Pleos Connect 開放 Naver、Kakao 導航",
+   "date": "2026-11-01",
+   "points": [
+    "現代集團首次讓第三方導航直接裝進車機。",
+    "Pleos Connect 應用市集上架 Naver 地圖、Kakao Navi 與 what3words。",
+    "不必用手機投影，就能當原廠導航使用。",
+    "已用於新 Grandeur、全新 Avante、Tucson，後續新車都會搭載。"
+   ],
+   "image": {
+    "file": "hmi-hyundai-pleos-naver-kakao.jpg",
+    "alt": "駕駛手指操作現代汽車中控大螢幕",
+    "credit": "Hyundai (via KED Global)",
+    "credit_url": "https://www.kedglobal.com/tech,-media-telecom/newsView/ked202611010003"
+   },
+   "sources": [
+    [
+     "Financial News（11/1）",
+     "https://en.fnnews.com/news/202611011810549415"
+    ],
+    [
+     "KED Global（11/1）",
+     "https://www.kedglobal.com/tech,-media-telecom/newsView/ked202611010003"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-11-01",
+   "title": "比亞迪 10 月賣 49 萬輛、年增 11%，出口 17 萬輛",
+   "summary": "比亞迪 10 月新能源車銷量 490,168 輛、年增 10.97%，其中純電 305,743 輛、年增 37.38%，插混 177,382 輛、年減 17.22%；海外銷量 170,194 輛。1–10 月累計 362 萬輛，仍年減 2.16%。",
+   "sources": [
+    [
+     "比亞迪港交所公告（11/1）",
+     "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100044_c.pdf"
+    ],
+    [
+     "東方財富網",
+     "https://finance.eastmoney.com/a/202611013917734564.html"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-11-01",
+   "title": "新勢力 10 月分化：零跑破 10 萬，小鵬創新高，蔚來理想下滑",
+   "summary": "零跑 10 月交付 106,127 輛、年增約 51%，連四個月破 10 萬；小鵬 50,237 輛創單月新高，其中海外 13,326 輛；小米也超過 5 萬。蔚來 34,246 輛、理想 29,025 輛，年月雙降；極氪 32,483 輛、鴻蒙智行 33,537 輛。",
+   "sources": [
+    [
+     "新浪財經／中國證券報（11/1）",
+     "https://finance.sina.com.cn/jjxw/2026-11-01/doc-inixfrft2922328.shtml"
+    ],
+    [
+     "財聯社",
+     "https://www.cls.cn/detail/2521760"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 韓國",
+   "date": "2026-11-01",
+   "title": "中國車攻歐洲與新興市場，現代起亞獲利受壓",
+   "summary": "現代前 9 月在歐洲賣 348,928 輛、年減 13.2%，9 月被吉利、奇瑞、比亞迪超車；第三季營收年減 3.4%，六年來首見，年銷目標下修到 400 萬輛。起亞第三季批發銷量創紀錄，但為對抗中國車砸下 7,270 億韓元優惠，獲利低於預期 23%。",
+   "sources": [
+    [
+     "Seoul Economic Daily（11/1）",
+     "https://en.sedaily.com/finance/2026/11/01/made-in-china-hits-europe-and-emerging-markets-squeezing"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐美",
+   "date": "2026-10-31",
+   "title": "Stellantis 第三季虧損收斂 90%，關稅成本估 10 億歐元",
+   "summary": "現代前 9 月在歐洲賣 348,928 輛、年減 13.2%，第三季營收年減 3.4%，是六年來首見，年銷目標下修到 400 萬輛。起亞第三季批發銷量 847,355 輛創紀錄，但為對抗中國車砸下 7,270 億韓元優惠，營業利益低於預期 23%。",
+   "sources": [
+    [
+     "AD HOC NEWS（10/31）",
+     "https://www.ad-hoc-news.de/boerse/news/corporate-news/stellantis-stock-stays-in-focus-as-q3-loss-narrows/70438110"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐洲",
+   "date": "2026-11-01",
+   "title": "歐洲 9 月：吉利、奇瑞、比亞迪月銷都超過現代",
+   "summary": "依歐洲汽車製造商協會（ACEA）數據，歐洲前 9 月新車銷量年增 5.7%，電動車年增 41.9% 至 2,549,810 輛。9 月吉利集團 54,778 輛、奇瑞 52,801 輛、比亞迪 49,953 輛，都超過現代的 39,821 輛。",
+   "sources": [
+    [
+     "Seoul Economic Daily（11/1）",
+     "https://en.sedaily.com/finance/2026/11/01/made-in-china-hits-europe-and-emerging-markets-squeezing"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 台灣",
+   "date": "2026-11-01",
+   "title": "整車股 Q4 看俏：汎德 iX3 接單破 3,000 輛",
+   "summary": "關稅不確定性消除後車市回溫，和泰車 9 月營收 267.6 億元、年增 26.16%，股價隨新 CROWN 上市回升；汎德永業前 9 月營收年減 18.6%，但 9 月已轉正，BMW iX3 接單破 3,000 輛，第四季起挹注；裕隆、中華車也獲外資買超。",
+   "sources": [
+    [
+     "自由財經（11/1）",
+     "https://ec.ltn.com.tw/article/breakingnews/5625305"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Roll-back canvas roof",
+  "zh": "手動捲收帆布頂",
+  "body": "Roll-back canvas roof（帆布捲頂）是車頂中段換成帆布，可以往後捲起、露出天空的設計，但車窗框與車頂兩側的鋼梁還在，不是真正的敞篷車。原版 Citroën 2 CV 就用這種車頂，既便宜又能載高的東西。本期的 2 CV Concept 刻意保留「手動捲收」，設計師認為這是對簡單精神的堅持，而不是為了省成本。",
+  "source": [
+   [
+    "MotorsActu：2 CV Concept 帆布車頂仍為手動捲收",
+    "https://motorsactu.com/citroen-2-cv-concept-croquis-design-pierre-leclercq/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Shell White & Citron Yellow",
+   "zh": "貝殼白配檸檬黃：輕快的城市小車座艙",
+   "intro": "每日一組內裝配色示例：以第二代海鷗的貝殼白為主體，座椅中段借 2 CV Concept 的亮黃與格紋印象，飾條用海豹07 的帕拉綠，扶手點一筆 Bakelite 米色，搭淺色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質塑料",
+     "貝殼白（示意）",
+     "#ECE8E0",
+     false,
+     "ip-upper",
+     {
+      "src": "第二代海鷗 貝殼白內飾",
+      "url": "https://gemsgbr.com/article/art_99867625"
+     }
+    ],
+    [
+     "儀表板飾條 · 烤漆飾板",
+     "帕拉綠（示意）",
+     "#3E9C96",
+     false,
+     "ip-decor",
+     {
+      "src": "第二代海豹07 帕拉綠",
+      "url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "檸檬黃（示意）",
+     "#F2C230",
+     false,
+     "door-insert",
+     {
+      "src": "2 CV Concept 亮黃內裝",
+      "url": "https://mobilityground.com/global-news/europe/citroen/citroen-releases-the-sketches-behind-its-2-cv-concept-after-nearly-a-year-of-design-work/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Bakelite 米（示意）",
+     "#D8C3A0",
+     false,
+     "armrest",
+     {
+      "src": "2 CV Concept Bakelite 米色點綴",
+      "url": "https://mobilityground.com/global-news/europe/citroen/citroen-releases-the-sketches-behind-its-2-cv-concept-after-nearly-a-year-of-design-work/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "晴空粉（示意）",
+     "#E8B4BC",
+     false,
+     "stitch",
+     {
+      "src": "第二代海鷗 晴空粉",
+      "url": "https://gemsgbr.com/article/art_99867625"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "北極星灰（示意）",
+     "#6E7178",
+     false,
+     "door-lower",
+     {
+      "src": "第二代海鷗 北極星灰",
+      "url": "https://gemsgbr.com/article/art_99867625"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "貝殼白、晴空粉、北極星灰：BYD 第二代海鷗（GEMS）",
+     "https://gemsgbr.com/article/art_99867625"
+    ],
+    [
+     "亮黃、格紋、Bakelite 米色：Citroën 2 CV Concept（Mobility Ground）",
+     "https://mobilityground.com/global-news/europe/citroen/citroen-releases-the-sketches-behind-its-2-cv-concept-after-nearly-a-year-of-design-work/"
+    ],
+    [
+     "帕拉綠：第二代海豹07（CarNewsChina）",
+     "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/"
+    ]
+   ],
+   "mood": [
+    "明亮",
+    "輕快",
+    "俏皮",
+    "城市"
+   ],
+   "mood_text": "大面積貝殼白讓小車座艙顯得寬，亮黃門板與座椅帶出 2 CV 式的俏皮，帕拉綠飾條收住視線，米色扶手添一點復古手感。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#ECE8E0",
+    "seat-bolster": "#6E7178",
+    "seat-center": "#F2C230",
+    "console": "#6E7178",
+    "console-arm": "#D8C3A0",
+    "steering": "#4A4C52",
+    "accent-pod": "#3E9C96",
+    "accent-pod2": "#E8B4BC",
+    "ip-lower": "#6E7178"
+   }
+  }
+ }
+}

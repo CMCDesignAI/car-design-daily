@@ -482,5 +482,29 @@
   "angle": "Oxford Edition：Indigo Sunset Blue 配米字旗頂",
   "url": "https://www.mk.co.kr/en/business/12191337",
   "image": "cmf-paint-mini-oxford.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "car",
+  "car_key": "byd-seagull-2nd",
+  "angle": "貝殼白座艙與水轉印飾板",
+  "url": "https://gemsgbr.com/article/art_99867625",
+  "image": "cmf-car-byd-seagull-2nd-cabin.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "paint",
+  "car_key": "paint:byd-seal07-2nd-aurora-pala",
+  "angle": "極光粉與帕拉綠展車",
+  "url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/",
+  "image": "cmf-paint-byd-seal07-aurora-pala.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "paint",
+  "car_key": "paint:bmw-i3-le-castellet-blue",
+  "angle": "M Le Castellet Blue 配 Digital White",
+  "url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/",
+  "image": "cmf-paint-bmw-i3-le-castellet.jpg"
  }
 ]

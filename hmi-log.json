@@ -94,5 +94,11 @@
   "key": "hmi-tesla-grok-intel-2026-38",
   "url": "https://www.notateslaapp.com/news/4927/tesla-adds-grok-files-to-intel-cars-in-update-202638-will-it-be-enabled",
   "image": "hmi-tesla-grok-intel.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "key": "hmi-hyundai-pleos-naver-kakao",
+  "url": "https://en.fnnews.com/news/202611011810549415",
+  "image": "hmi-hyundai-pleos-naver-kakao.jpg"
  }
 ]
