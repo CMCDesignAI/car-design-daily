@@ -1,0 +1,442 @@
+{
+ "date": "2026-11-02",
+ "weekday": "週一",
+ "issue_no": 26,
+ "lede": "OpenAI 寄信通知：ChatGPT 的 Chat 和 Work 分頁要合併測試，ChatGPT 和 Codex 改吃同一份用量；xAI 的 Grok API 11/7 起預設加文字浮水印，舊的 Grok Imagine 高畫質圖像端點今天退役。",
+ "ainews": [
+  {
+   "id": "chatgpt-chat-work-shared-allowance",
+   "org": "OpenAI",
+   "tag": "延伸 · 訂閱方案 · 權益異動",
+   "date": "2026-11-01",
+   "title": "ChatGPT 要把 Work 功能併進一般對話測試，ChatGPT 和 Codex 改成共用同一份用量",
+   "orig": "Your use of ChatGPT and Codex will draw from the same allowance.",
+   "summary": "【異動】依 BleepingComputer 11/1 看到的 OpenAI 訂閱者通知信：未來幾週會先找一小群用戶，測試把 Chat 和 Work 兩個分頁合在一起，一般對話就能直接延伸成做網站、做簡報、上網代辦等較複雜任務，不必切換模式；Codex 在 ChatGPT 桌面版仍是獨立介面。【用量】Pro 方案的 ChatGPT 和 Codex 將改吃同一份用量；信中說 Unlimited Instant 包含在訂閱內、不算進共用額度，越進階的模型和越複雜的任務扣越多。剩餘用量和重置時間可在 Settings → Usage 查看；用完可以等重置、升級方案或購買額度。【與上次差別】10/31 本報提過 Pro 100／200／500 的 Work 與 Codex 用量 10/29 起加倍；這次新的是 Chat／Work 合併測試與共用額度。目前只有通知信內容，OpenAI 官方說明頁尚未看到。",
+   "links": [
+    [
+     "BleepingComputer 報導（含通知信截圖）",
+     "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 與 Codex 共用用量",
+   "one": "之後用 ChatGPT 聊天和用 Codex 寫程式會扣同一個額度，Chat 和 Work 分頁也會先小規模測試合併。",
+   "gloss": [
+    [
+     "Codex",
+     "OpenAI 的程式碼代理工具，可以幫你讀寫專案、跑指令"
+    ],
+    [
+     "共用額度",
+     "兩個服務從同一個用量池扣，一邊用多了另一邊就變少"
+    ]
+   ]
+  },
+  {
+   "id": "grok-api-text-watermark",
+   "org": "xAI",
+   "tag": "平台服務 · Grok API",
+   "date": "2026-10-31",
+   "title": "Grok API 11/7 起預設在文字輸出加隱形浮水印，涵蓋 grok-4.7 等 7 個模型，團隊管理員可逐模型關閉",
+   "orig": "Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.",
+   "summary": "【內容】xAI 開發者文件「Output Watermarking」寫明：11/7 起 grok-4.7、4.6、4.5、4.3 和三個 grok-4.20（reasoning／non-reasoning／multi-agent）的文字回覆會預設帶隱形浮水印，套用在所有 API 端點（含全球 api.x.ai 與區域端點），包含一般回覆、結構化輸出和工具呼叫參數。【原理】浮水印是在生成時微調選字，不會多加任何字元或標記；回應的 x-watermark: true 標頭表示該次有加。【原因與關閉】官方說是為了遵守歐盟 AI 法；團隊管理員可在 SpaceXSI Console 逐模型關閉。依 RoboticaGuide 整理，Anthropic 也將把文字浮水印擴大到較舊的 Claude 模型（轉述 The Decoder，未見官方頁）。",
+   "links": [
+    [
+     "xAI 文件：Output Watermarking",
+     "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+    ],
+    [
+     "RoboticaGuide：各家 AI 文字浮水印比較",
+     "https://roboticaguide.com/ai-text-watermark-grok-claude-chatgpt-gemini/"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok API 文字浮水印 11/7 上路",
+   "one": "用 Grok API 產生的文字 11/7 起會偷偷帶著看不見的記號，之後能被辨識是 AI 寫的；對一般聊天內容沒有改變。",
+   "gloss": [
+    [
+     "文字浮水印",
+     "生成時微調用字的統計記號，肉眼看不出，但偵測工具能判斷是否為 AI 產生"
+    ],
+    [
+     "歐盟 AI 法",
+     "歐盟的 AI 規範，要求 AI 生成內容要能被機器辨識"
+    ]
+   ]
+  },
+  {
+   "id": "grok-imagine-image-quality-retired",
+   "org": "xAI",
+   "tag": "平台服務 · Grok Imagine API",
+   "date": "2026-11-02",
+   "title": "grok-imagine-image-quality 今天退役，請求自動改由 Grok Imagine Image 2.0（低畫質檔）處理、單張價格更低",
+   "orig": "On November 2, 2026, grok-imagine-image-quality is retired. Requests to the slug will be served by grok-imagine-image-2.0 with quality set to low.",
+   "summary": "【異動】xAI API 更新紀錄：11/2 起舊的 grok-imagine-image-quality 模型名稱退役，送到這個名稱的請求會改由 grok-imagine-image-2.0 以 quality=low 處理，請求和回應格式不變、單張價格更低。grok-imagine-image（1.0）不受影響。官方另有遷移指南說明怎麼改用新模型名稱。【對誰有影響】只影響直接呼叫 API 的開發者；在 Grok App 裡生圖的一般用戶不用做任何事。Grok Imagine Image 2.0 目前在 Artificial Analysis 文生圖榜第 6 名（1166 分）。",
+   "links": [
+    [
+     "xAI API Release Notes",
+     "https://docs.x.ai/developers/release-notes"
+    ],
+    [
+     "xAI 遷移指南：Imagine Image Quality Retirement",
+     "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Imagine 舊高畫質端點退役",
+   "one": "用 API 生圖的人，舊的高畫質模型名稱今天起自動轉到 Image 2.0，格式不用改、還更便宜。",
+   "gloss": [
+    [
+     "端點／模型名稱（slug）",
+     "呼叫 API 時指定要用哪個模型的名字，退役後請求會被轉到別的模型"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片＋音訊生成",
+   "status": "Pika H3 Flex 今天上 Pika App。",
+   "updates": [
+    {
+     "title": "以 MiniMax H3 微調的 Pika H3 Flex 預定 11/2 進入 Pika 創作 App",
+     "date": "2026-11-02",
+     "summary": "SceneOS 10/31 週報整理：Pika H3 Flex 是 Pika 從 MiniMax H3 後訓練、只要 6 步就能出片並附同步音效的影片模型（10/30 本報已介紹開源權重）；API 已上線，Pika 表示 11/2 會加進自家創作 App，不想碰 API 或自己顯卡的人可以直接用。",
+     "links": [
+      [
+       "SceneOS：AI 影片週報 10/18–31",
+       "https://sceneos.io/kb/the-week-in-ai-video-2026-10-31/"
+      ],
+      [
+       "Hugging Face：Pika-Labs/Pika-H3-Flex",
+       "https://huggingface.co/Pika-Labs/Pika-H3-Flex"
+      ]
+     ],
+     "image": null,
+     "short_title": "Pika H3 Flex 上 App",
+     "one": "Pika 說今天起在 App 裡就能用 H3 Flex 快速出有聲影片，不用自己架。"
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-wan22-animate",
+   "title": "Wan2.2 Animate：讓照片裡的角色照著影片動，或把影片中的人換成你的角色",
+   "learn": "學會用 ComfyUI 官方 Wan2.2 Animate 工作流程的兩種模式：Move（角色照影片動作動起來）和 Mix（把影片裡的人換成參考圖角色）。",
+   "level": "進階",
+   "vram": "官方文件未標數字；第一次請先用小尺寸測試避免顯存不足（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "DWPose",
+     "從影片偵測人體骨架和臉部表情的工具，產生的動作圖拿來控制角色動作"
+    ]
+   ],
+   "steps": [
+    "先更新 ComfyUI，在 Workflow Templates 搜尋「Wan2.2 Animate」載入範本（或下載官方 JSON）。",
+    "下載模型：Wan2.2 Animate 14B（Kijai FP8 版或 BF16 版）放 models/diffusion_models/，lightx2v 4 步加速 LoRA 放 models/loras/，umt5_xxl_fp8 放 models/text_encoders/，clip_vision_h 放 models/clip_visions/，wan_2.1_vae 放 models/vae/。",
+    "用 ComfyUI-Manager 的 Install missing nodes 安裝 ComfyUI-KJNodes 和 comfyui_controlnet_aux 兩個自訂節點。",
+    "Mix 模式：上傳參考角色圖和原始影片，DWPose 會自動抽出動作與表情；影片寬高要是 16 的倍數，Points Editor 需先跑一次或手動上傳第一格。",
+    "想要更長的影片就複製「Video Extend」群組，每組多 77 格（約 4.8 秒）；要用 Move 模式照官方說明切換子圖，按 Ctrl+Enter 生成。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Wan2.2 Animate",
+     "https://docs.comfy.org/tutorials/video/wan/wan2-2-animate"
+    ],
+    [
+     "Hugging Face：Wan 2.2 ComfyUI Repackaged",
+     "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged"
+    ],
+    [
+     "GitHub：ComfyUI-KJNodes",
+     "https://github.com/kijai/ComfyUI-KJNodes"
+    ]
+   ]
+  },
+  {
+   "id": "tut-hidream-e1",
+   "title": "HiDream-E1.1：用一句話指令改圖（MIT 授權、可商用）",
+   "learn": "學會在 ComfyUI 跑 HiDream-E1.1 指令式改圖，例如「把背景改成雪景」，不用自己畫遮罩。",
+   "level": "進階",
+   "vram": "需要大量顯存：官方實測 fp16 完整版在 A100 40GB 和 4090D 24GB 都爆顯存，所以範本預設用 fp8_e4m3fn_fast；Colab L4（22.5GB）28 步第一次約 500 秒",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "指令式改圖（Instruct Editing）",
+     "直接用文字告訴模型要怎麼改圖，不需要手動選取範圍"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，從 Workflow Templates 或官方頁面載入 HiDream-E1 工作流程。",
+    "下載 hidream_e1_1_bf16（推薦，34.2GB）放 models/diffusion_models/；clip_l_hidream、clip_g_hidream、t5xxl_fp8_e4m3fn_scaled、llama_3.1_8b_instruct_fp8_scaled 放 models/text_encoders/；ae.safetensors（FLUX 的 VAE）放 models/vae/。",
+    "確認模型載入節點的權重類型是 fp8_e4m3fn_fast（省顯存），上傳要改的圖片。",
+    "在提示詞寫修改指令，E1.1 支援約 100 萬像素的動態解析度，按 Queue（Ctrl+Enter）生成。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：HiDream-E1 / E1.1",
+     "https://docs.comfy.org/tutorials/image/hidream/hidream-e1"
+    ],
+    [
+     "Hugging Face：HiDream-E1.1",
+     "https://huggingface.co/HiDream-ai/HiDream-E1-1"
+    ],
+    [
+     "GitHub：HiDream-ai/HiDream-E1",
+     "https://github.com/HiDream-ai/HiDream-E1"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "LMArena 網頁擋自動抓取，文字榜用官方 Hugging Face 資料集（仍是 10/28 版）；兩個榜單今天都無重大變化。",
+  "ChatGPT 共用用量依 BleepingComputer 看到的通知信整理，OpenAI 官方頁尚未公布。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-02",
+  "compared_to": "2026-11-01",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-28",
+    "fetched": "2026-11-02",
+    "metric": "Arena score",
+    "carried_from": "2026-10-30",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1540,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 6,
+      "move": -1,
+      "delta": 3
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1499,
+      "ci": 7,
+      "move": -1,
+      "delta": -2
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1496,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-01",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-11-02",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-11-02",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-01",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#5 (+1 名), 1165→1166 (+1)",
+      "Grok Imagine Image 2.0: #5→#6 (-1 名), 1166→1166 (+0)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1123 (+2)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
