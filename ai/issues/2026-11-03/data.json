@@ -500,5 +500,47 @@
     }
    }
   ]
- }
+ },
+ "columns": [
+  {
+   "id": "col-t8-apt-replace",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-02",
+   "title": "T8 把 MiniMax H3 爆款影片「換角復刻」做成 Codex Skill：給人物參考圖，自動分鏡、換人、驗收、保留原音軌合片",
+   "short_title": "T8 的 H3 換角復刻 Skill",
+   "orig": "Minimax H3爆款视频复刻（二）APT优化版，母版Skill更新及Grok Bot自动剪辑教学",
+   "one": "想把熱門影片裡的人換成自己角色的人，可以用 T8 整理的 Skill 讓 AI 代理自動跑完分段生成、檢查和合片。",
+   "points": [
+    "APT 換角 Skill README（v1.2.1，以 wuwukasi 原版整理優化）：給 Codex 兩張人物參考圖和自己的 RunningHub API Key，就能替換固定 APT 原片中的人物，輸出保留原音軌、約 96.6 秒的 1920×1080 影片；44 段原片中實際生成 40 段。",
+    "安裝方式：下載完整技能包 ZIP 放到 Codex 的技能目錄，另裝 Python 3.10+、FFmpeg 和 ffprobe，再在 Codex 新對話呼叫 $apt-character-replacement；README 註明這包只適用固定 APT 素材，其他影片要另做鏡頭分析。",
+    "另一個「視頻換角與專屬技能工廠」README（v1.4.0，11/2 更新）：給任意原影片和人物參考圖，會分析原片、換人、檢查修復畫面並組裝成片，再產生該影片專屬的可重用 Skill；每段生成不超過 10 秒，1.4.0 新增可選的本機 ComfyUI／H3 後端。",
+    "README 也註明：1.4.0 只用合成素材和模擬服務驗證，未實際呼叫 H3／GPU 或付費生成；用 RunningHub 雲端生成需要自己的帳號與 API Key。"
+   ],
+   "url": "https://www.youtube.com/watch?v=mmaHUbG309g",
+   "image": {
+    "file": "col-t8-apt-replace.webp",
+    "alt": "T8star-Aix 影片縮圖：MiniMax H3 爆款影片復刻（二）APT 優化版",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=mmaHUbG309g"
+   },
+   "links": [
+    [
+     "GitHub：T8mars/Apt-Replacement-Skill",
+     "https://github.com/T8mars/Apt-Replacement-Skill"
+    ],
+    [
+     "GitHub：T8mars/video-replacement-skill-factory-T8",
+     "https://github.com/T8mars/video-replacement-skill-factory-T8"
+    ]
+   ],
+   "gloss": [
+    [
+     "Skill",
+     "寫好步驟、腳本和素材的工作包，讓 AI 代理照著自動完成一整套任務"
+    ]
+   ]
+  }
+ ]
 }
