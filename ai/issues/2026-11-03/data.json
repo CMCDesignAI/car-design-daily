@@ -1,0 +1,504 @@
+{
+ "date": "2026-11-03",
+ "weekday": "週二",
+ "issue_no": 27,
+ "lede": "ChatGPT 推出「鎖定對話」可用 PIN 或 Face ID 藏起私密聊天，舊版 ChatGPT Classic App 定 2027/1/30 退役；Anthropic 的 Claude API 新增 message threads 讓長時間代理人回得更快。",
+ "ainews": [
+  {
+   "id": "chatgpt-locked-chats",
+   "org": "OpenAI",
+   "tag": "平台服務 · ChatGPT",
+   "date": "2026-11-02",
+   "title": "ChatGPT 推出 Locked Chats：單一對話可用 4 位數 PIN 或 Face ID／Touch ID 鎖起來，免費到企業方案逐步開放",
+   "orig": "OpenAI's new Locked Chats feature allows you to protect selected conversations without deleting them.",
+   "summary": "【內容】依 Fox News 報導，ChatGPT 新增 Locked Chats：選定的對話可用 4 位數 PIN 保護，支援的裝置也能用 Face ID、Touch ID 或手機解鎖方式。鎖起來的對話會移到「Projects > Locked chats」，從一般對話紀錄、釘選和搜尋結果中消失，打開後可以繼續聊。【注意】如果對話原本在某個 Project 裡，鎖定後會離開該 Project、失去它的指示、檔案和記憶，解鎖後也只會回到一般紀錄。OpenAI 表示這不是端對端加密，也不改變資料保存期限與「改善模型」設定。【開放範圍】逐步開放給 Free、Go、Plus、Pro、Business、Enterprise、Edu，網頁、iPhone／Android App、新版 Mac／Windows 桌面 App 都能用；ChatGPT for Healthcare 不支援。",
+   "links": [
+    [
+     "Fox News（CyberGuy）報導",
+     "https://www.foxnews.com/tech/chatgpt-lets-lock-private-chats-pin"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT 對話可以上鎖了",
+   "one": "借別人用電腦或手機時，不想被看到的 ChatGPT 對話可以用 PIN 或指紋臉部辨識鎖起來，但它不是加密保險箱。",
+   "gloss": [
+    [
+     "端對端加密",
+     "只有你自己的裝置能解開內容，連服務商也看不到；Locked Chats 沒有這一層"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-classic-retire-shared-allowance",
+   "org": "OpenAI",
+   "tag": "延伸 · 平台服務 · 訂閱方案",
+   "date": "2026-11-02",
+   "title": "舊版 ChatGPT Classic App 2027/1/30 退役；ChatGPT 與 Codex 共用用量 12 月起適用 Plus／Pro／Business，Instant 對話不計",
+   "orig": "This app will retire on January 30, 2027. Get the latest features in the new ChatGPT app.",
+   "summary": "【新進度】昨天報過 Chat／Work 合併測試與共用用量；今天補上新細節。9to5Mac：還在用 ChatGPT Classic App 的人今天看到橫幅，寫明 App 將在 2027 年 1 月 30 日退役，聊天紀錄會完整帶到新版 ChatGPT App。BetaNews 引用 OpenAI 支援文章：ChatGPT 與 Codex 的共用用量從 12 月起套用在 Business、Plus、Pro，以 token 計算，較強的模型和複雜任務用得較多，「Instant 對話不計入用量」。【不變】Codex 仍是 ChatGPT 桌面 App 裡獨立的區塊；合併後的 Chat＋Work 先給小群用戶測試，尚未公布全面上線日期。",
+   "links": [
+    [
+     "9to5Mac：ChatGPT Classic 退役日",
+     "https://9to5mac.com/2026/11/02/openai-is-retiring-chatgpt-classic-app-will-soon-combine-chat-and-work-tabs-in-new-app/"
+    ],
+    [
+     "BetaNews：共用用量 12 月起",
+     "https://betanews.com/article/chatgpt-work-merge-codex/"
+    ],
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+    ]
+   ],
+   "image": null,
+   "short_title": "ChatGPT Classic 1/30 退役",
+   "one": "還在用舊版 ChatGPT Classic App 的人要在明年 1/30 前換新版；12 月起 ChatGPT 和 Codex 吃同一份額度，但一般 Instant 聊天不扣。",
+   "gloss": [
+    [
+     "token",
+     "AI 計算文字量的單位，大約一個字或半個英文單字"
+    ]
+   ]
+  },
+  {
+   "id": "claude-api-message-threads",
+   "org": "Anthropic",
+   "tag": "平台服務 · Claude API",
+   "date": "2026-11-02",
+   "title": "Claude API 推出 message threads 公測：長對話只傳新訊息，50 萬～100 萬 token 的請求首字等待中位數少約 35%",
+   "orig": "Message threads is now available in public beta on the Claude Platform.",
+   "summary": "【內容】Anthropic 官方文章：Messages API 加上 thread 參數後，第一次請求送完整對話、建立 thread，之後每次只送新訊息加上前一個回應的 ID。官方說 Claude Code 多數用戶已預設開啟，500k～1M token 的請求首字等待時間（TTFT）中位數下降約 35%。【限制】thread 存在記憶體、加密不寫入磁碟，最後一次請求後 5 分鐘過期（之後要重送完整對話），release notes 寫最多 1 小時內刪除；Claude 每回合仍讀完整對話，所以 token 用量和價格不變。【哪裡能用】Claude Platform、Claude Platform on AWS、Microsoft Foundry、Google Cloud（Anthropic 託管），需加 beta 標頭 message-threads-2026-08-12。依 The Next Web，threads 不適用零資料保留（ZDR）與 HIPAA 設定。",
+   "links": [
+    [
+     "Anthropic：Make long-running agents faster with message threads",
+     "https://claude.com/resources/articles/message-threads"
+    ],
+    [
+     "Claude Platform release notes（11/2）",
+     "https://platform.claude.com/docs/en/release-notes/overview"
+    ],
+    [
+     "The Next Web 報導",
+     "https://thenextweb.com/news/anthropic-message-threads-beta-claude-api-agents"
+    ]
+   ],
+   "image": {
+    "file": "claude-message-threads.webp",
+    "alt": "Anthropic message threads 官方文章分享圖",
+    "credit": "Anthropic",
+    "credit_url": "https://claude.com/resources/articles/message-threads"
+   },
+   "short_title": "Claude API 長對話變快",
+   "one": "用 Claude 做長時間自動化工作的開發者，不用每回合重傳整段對話，回應開始得更快，但費用不變。",
+   "gloss": [
+    [
+     "TTFT",
+     "Time to first token，送出請求到 AI 開始吐出第一個字的等待時間"
+    ]
+   ]
+  },
+  {
+   "id": "tencent-weviscut",
+   "org": "Tencent",
+   "tag": "開源 · 影片剪輯代理",
+   "date": "2026-11-02",
+   "title": "騰訊開源 WeVisCut：9B 模型把文章或旁白稿自動剪成數分鐘解說影片，Apache 2.0、約需 24GB 顯存",
+   "orig": "WeVisCut is a long-horizon tool agent that turns a knowledge article or narration script into a multi-minute edited video.",
+   "summary": "【內容】騰訊微信視覺團隊與西安電子科大在 GitHub 釋出 WeVisCut：單一 9B 模型每一步呼叫一個工具（切段落、分鏡規劃、語音合成、找素材、動畫模板、配樂、評審、反思、拼接等 12 種），一支影片約 12 次呼叫；附 Studio 時間軸編輯器，剪完仍可手動調整。README 寫 bf16 執行約需 24GB NVIDIA 顯存（只開介面不需 GPU），授權 Apache-2.0，權重放在 Hugging Face。【成績與保留】依 Neural Brew 整理，作者自建的 100 題測試中總分 90.5、Claude Opus 5 為 89.9，每分鐘影片用 token 約少 33 倍；這是作者自己的評測、尚未獨立重現，且 HF 模型卡對權重授權另有條款說明。",
+   "links": [
+    [
+     "GitHub：Tencent/WeVisCut",
+     "https://github.com/Tencent/WeVisCut"
+    ],
+    [
+     "Hugging Face：tencent/WeVisCut",
+     "https://huggingface.co/tencent/WeVisCut"
+    ],
+    [
+     "Neural Brew 整理",
+     "https://neuralbrew.ai/en/articles/2026/11/tencent-releases-weviscut-open-source-video-editing-agent/"
+    ]
+   ],
+   "image": {
+    "file": "weviscut-github.webp",
+    "alt": "Tencent/WeVisCut GitHub 分享卡",
+    "credit": "GitHub · Tencent/WeVisCut",
+    "credit_url": "https://github.com/Tencent/WeVisCut"
+   },
+   "short_title": "騰訊開源自動剪片 AI",
+   "one": "丟一篇文章或旁白稿，它會自己配音、找素材、配樂剪成解說影片，24GB 顯卡就能在本機跑。",
+   "gloss": [
+    [
+     "代理（Agent）",
+     "會自己決定下一步、呼叫各種工具完成任務的 AI"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "文生圖",
+   "status": "LightX2V 釋出 4 步版 Lightning v2 RL。",
+   "updates": [
+    {
+     "title": "LightX2V 釋出 Qwen-Image-2.1-Lightning-v2-RL：完整 transformer、4 步、CFG 1.0，文生圖與單／多參考編輯共用",
+     "date": "2026-11-02",
+     "summary": "Hugging Face 模型卡：這是 LightX2V Lightning v2 經強化學習（RL）微調後的版本，從 Qwen-Image-2.1 蒸餾，支援文生圖、單張參考圖編輯和多參考生成，只要 4 步去噪、CFG = 1.0。和 10 月的 v1（67MB LoRA）不同，這次是完整 transformer 權重（單一 safetensors，以 FP32 儲存、可用 BF16 推論；ComfyUI Wiki 寫檔案 28.5GB），需搭配原版 Qwen-Image-2.1 的文字編碼器和 VAE、用新版 Diffusers 的 QwenImage21Pipeline 載入。授權沿用 Qwen Research 授權。依 ComfyUI Wiki，目前沒有 ComfyUI 格式或 GGUF 版本，ComfyUI 使用者仍以 v1 LoRA 為主。",
+     "links": [
+      [
+       "Hugging Face：lightx2v/Qwen-Image-2.1-Lightning-v2-RL",
+       "https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning-v2-RL"
+      ],
+      [
+       "ComfyUI Wiki 整理",
+       "https://comfyui-wiki.com/en/news/2026-11-02-qwen-image-2-1-lightning-v2-rl"
+      ]
+     ],
+     "image": {
+      "file": "qwen21-lightning-v2-rl.webp",
+      "alt": "Hugging Face 模型頁分享卡：Qwen-Image-2.1-Lightning-v2-RL",
+      "credit": "Hugging Face · lightx2v",
+      "credit_url": "https://huggingface.co/lightx2v/Qwen-Image-2.1-Lightning-v2-RL"
+     },
+     "short_title": "Qwen Image 2.1 四步加速版 v2",
+     "one": "Qwen Image 2.1 出了只要 4 步就能出圖的加速版新權重，但目前要用 Python／Diffusers 跑，ComfyUI 還不能直接載入。",
+     "gloss": [
+      [
+       "蒸餾",
+       "用大模型教出步數更少、更快的版本"
+      ],
+      [
+       "CFG",
+       "提示詞遵循強度；1.0 代表不額外加強，速度最快"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-ltx25",
+   "title": "LTX-2.5：在 ComfyUI 用文字或圖片生出有聲影片（含首尾幀與多鏡頭）",
+   "learn": "學會載入 ComfyUI 官方 LTX-2.5 範本，下載對的模型檔放到對的資料夾，用一段文字同時生成畫面和聲音。",
+   "level": "中階",
+   "vram": "官方文件未標顯存數字（使用 22B int8 蒸餾版）；選用的提示詞增強模型約 5GB，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "FLF2V",
+     "給第一格和最後一格圖片，讓 AI 補出中間的影片"
+    ],
+    [
+     "Gated 模型",
+     "Hugging Face 上要先同意授權、等核准才能下載的模型"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版，到 Template Library > Video 選一個 LTX-2.5 範本（T2V、I2V、FLF2V 或 DFR）。",
+    "到 Hugging Face 的 Lightricks/LTX-2.5（和 Pixel-Spatial-Upscaler）頁面同意授權並等核准，否則下載會失敗。",
+    "下載模型：ltx-2.5-22b-distilled int8 放 models/diffusion_models/，gemma4-12b 文字編碼器放 models/text_encoders/，影片與音訊兩個 VAE 放 models/vae/，2 倍空間放大模型放 models/latent_upscale_models/。",
+    "提示詞寫成一整段：鏡頭種類、場景、動作、角色、運鏡，加上需要的聲音或對白，模型會一起生成同步音訊。",
+    "想把短提示詞自動擴寫，可在 LTX-2.5 節點開 prompt_enhance（需另下約 5GB 的增強模型，生成多約 1–2 分鐘）。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：LTX-2.5",
+     "https://docs.comfy.org/tutorials/video/ltx/ltx-2-5"
+    ],
+    [
+     "Hugging Face：Lightricks/LTX-2.5",
+     "https://huggingface.co/Lightricks/LTX-2.5"
+    ]
+   ]
+  },
+  {
+   "id": "tut-depth-anything-3",
+   "title": "Depth Anything 3：在 ComfyUI 從照片或影片做出深度圖",
+   "learn": "學會用 ComfyUI 內建的 Depth Anything 3 節點，把一張照片或一段影片轉成深度圖，可拿去搭配 Depth ControlNet 或 3D 用途。",
+   "level": "入門",
+   "vram": "官方文件未標數字；有 Small／Base／Large 四種大小，顯卡小先用 Small（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "深度圖",
+     "用黑白深淺表示畫面中每一點離鏡頭多遠的圖"
+    ],
+    [
+     "Metric 深度",
+     "以公尺為單位的真實距離，而不是相對遠近"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版（已內建 Depth Anything 3 節點）。",
+    "從 Hugging Face 的 Comfy-Org/Depth-Anything-3 下載模型，放到 ComfyUI/models/geometry_estimation/：Small 最快、Base 平衡、Mono-Large 單張深度最好、Metric-Large 輸出公尺單位。",
+    "在 Workflow Templates 搜尋「Depth Anything 3: Image Depth Estimation」載入範本（或下載官方 JSON）。",
+    "在 LoadImage 上傳照片、LoadDA3Model 選模型，按 Queue 或 Ctrl+Enter，就會輸出深度圖和左右對照。",
+    "影片版範本會用 GetVideoComponents 拆成單格、逐格算深度再用 SetVideoComponents 組回影片。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Depth Anything 3",
+     "https://docs.comfy.org/tutorials/utility/depth-anything-3"
+    ],
+    [
+     "GitHub：ByteDance-Seed/Depth-Anything-3",
+     "https://github.com/ByteDance-Seed/Depth-Anything-3"
+    ],
+    [
+     "Hugging Face：Comfy-Org/Depth-Anything-3",
+     "https://huggingface.co/Comfy-Org/Depth-Anything-3"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "LMArena 網頁擋自動抓取，文字榜用官方 Hugging Face 資料集（仍是 10/28 版）；兩個榜單今天都無重大變化。",
+  "ChatGPT 鎖定對話依 Fox News 整理（OpenAI 說明頁擋抓取）；Classic 退役與共用用量依 9to5Mac、BetaNews。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-03",
+  "compared_to": "2026-11-02",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-28",
+    "fetched": "2026-11-03",
+    "metric": "Arena score",
+    "carried_from": "2026-10-30",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1540,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 6,
+      "move": -1,
+      "delta": 3
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1499,
+      "ci": 7,
+      "move": -1,
+      "delta": -2
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1496,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-02",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-11-03",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-11-03",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-02",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "GPT Image 2 (high): #3→#3 (0 名), 1186→1187 (+1)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1176 (+4)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1165→1166 (+1)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1122 (+1)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1119 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
