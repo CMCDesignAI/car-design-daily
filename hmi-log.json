@@ -100,5 +100,11 @@
   "key": "hmi-hyundai-pleos-naver-kakao",
   "url": "https://en.fnnews.com/news/202611011810549415",
   "image": "hmi-hyundai-pleos-naver-kakao.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "key": "hmi-tesla-app-foldables",
+  "url": "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables",
+  "image": "hmi-tesla-app-foldables.jpg"
  }
 ]

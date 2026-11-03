@@ -506,5 +506,29 @@
   "angle": "M Le Castellet Blue 配 Digital White",
   "url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/",
   "image": "cmf-paint-bmw-i3-le-castellet.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "car",
+  "car_key": "car:changan-lumin-plus",
+  "angle": "Lumin Plus：棕色座艙配 D 字方向盤",
+  "url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/",
+  "image": "cmf-car-changan-lumin-plus.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "paint",
+  "car_key": "paint:smart2-couture",
+  "angle": "smart #2 Couture：消光白配白金色車頂",
+  "url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/",
+  "image": "cmf-paint-smart2-couture.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "paint",
+  "car_key": "paint:nissan-pathfinder-xev6",
+  "angle": "Pathfinder XE-V6：紅底黑、炭灰、銀三色條紋",
+  "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts",
+  "image": "cmf-paint-nissan-pathfinder-xev6.jpg"
  }
 ]

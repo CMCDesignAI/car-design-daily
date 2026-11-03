@@ -1,0 +1,625 @@
+{
+ "date": "2026-11-03",
+ "weekday": "週二",
+ "issue_no": 27,
+ "lede": "Nissan 帶無頂 Armada、雙渦輪 Frontier 與復古 Pathfinder 進軍 SEMA；改款 IONIQ 6 以鴨尾取代大尾翼在英國開賣，新款亞洲龍換上直瀑式水箱罩，MTPEAK 三輪跑車登上 EICMA。",
+ "design_news": [
+  {
+   "id": "nissan-sema-trio",
+   "tag": "概念車 · SEMA",
+   "date": "2026-11-02",
+   "brand": "Nissan",
+   "title": "Nissan SEMA 三台越野概念：無頂 Armada、雙渦輪 Frontier、復古 Pathfinder",
+   "orig": "Nissan adventures into 2026 SEMA with rugged new Frontier, Pathfinder, Armada show concepts",
+   "summary": "Nissan 在 2026 SEMA Show（11/3–6，拉斯維加斯）展出三台越野概念車：拿掉車頂的 Armada Jungle Patrol、換上雙渦輪 V6 的 Frontier RONIN，以及紀念 40 週年的 Pathfinder XE-V6。官方說這些車用來預告未來 Nissan 卡車與休旅的配件方向，也提到全新 Xterra。",
+   "analysis": [
+    [
+     "比例",
+     "Armada Jungle Patrol 拿掉車頂改成管狀防滾架，後段改成面向內側的長椅，參考非洲獵遊車。"
+    ],
+    [
+     "姿態",
+     "Frontier RONIN 用 TITAN 懸吊零件，輪距加寬 12 吋、車身升高 4 吋以上，配 35 吋輪胎。"
+    ],
+    [
+     "懷舊",
+     "Pathfinder XE-V6 回看第一代 WD21，掛復古「XE-V6」字樣與背負式備胎架。"
+    ],
+    [
+     "燈號",
+     "三台都加裝 NISMO Off Road 輔助燈，車頂與保桿上的燈組成越野車的視覺重點。"
+    ],
+    [
+     "方向",
+     "比起單一概念車，更像是在測試量產車越野配件包能做到多硬派。"
+    ]
+   ],
+   "sources": [
+    [
+     "Nissan USA Newsroom（11/2）",
+     "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+    ],
+    [
+     "Motor1（11/2）",
+     "https://www.motor1.com/news/813991/nissan-frontier-pathfinder-armada-concepts/"
+    ],
+    [
+     "Car and Driver（11/2）",
+     "https://www.caranddriver.com/news/a74311593/nissan-armada-jungle-patrol-concept-revealed/"
+    ]
+   ],
+   "image": {
+    "file": "news-nissan-sema-trio.jpg",
+    "alt": "夕陽下無車頂、加裝輔助燈的 Nissan Armada Jungle Patrol 概念車",
+    "credit": "Nissan (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74311593/nissan-armada-jungle-patrol-concept-revealed/"
+   },
+   "more_images": [
+    {
+     "file": "nissan-frontier-ronin-2.jpg",
+     "alt": "停在碎石地上的 Nissan Frontier RONIN 概念車前四分之三",
+     "credit": "Nissan USA Newsroom",
+     "credit_url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-ioniq6-uk",
+   "tag": "改款 · 英國上市",
+   "date": "2026-11-02",
+   "brand": "Hyundai",
+   "title": "改款 IONIQ 6 英國開賣：新鯊魚鼻、鴨尾取代大尾翼",
+   "orig": "Hyundai Launches New IONIQ 6 in UK With Up to 422 Miles of Range",
+   "summary": "Hyundai 在英國推出改款 IONIQ 6，官方說「每條線條與細節都經過強化」，輪廓更乾淨。新增 84 kWh 電池，最長續航 422 英里，2027 年初開始交車。",
+   "analysis": [
+    [
+     "車頭",
+     "重新設計的鯊魚鼻配細長日行燈。"
+    ],
+    [
+     "車身",
+     "黑色下車身飾板延伸到車門，讓車身看起來更薄。"
+    ],
+    [
+     "車尾",
+     "加長的鴨尾取代上一代顯眼的大尾翼。"
+    ],
+    [
+     "座艙",
+     "雙色皮革方向盤、橋式中控台並保留實體按鍵，配雙 12.3 吋螢幕。"
+    ]
+   ],
+   "sources": [
+    [
+     "The Electric Viking（11/2）",
+     "https://theelectricviking.com/hyundai-launches-new-ioniq-6-uk-up-422-miles-range-starting-44229-aud/"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-ioniq6-uk.jpg",
+    "alt": "紅色改款 Hyundai IONIQ 6 側面停在白色建築前",
+    "credit": "Hyundai (via The Electric Viking)",
+    "credit_url": "https://theelectricviking.com/hyundai-launches-new-ioniq-6-uk-up-422-miles-range-starting-44229-aud/"
+   },
+   "more_images": [
+    {
+     "file": "hyundai-ioniq6-uk-2.jpg",
+     "alt": "改款 IONIQ 6 座艙：雙色方向盤與雙螢幕",
+     "credit": "Hyundai (via The Electric Viking)",
+     "credit_url": "https://theelectricviking.com/hyundai-launches-new-ioniq-6-uk-up-422-miles-range-starting-44229-aud/"
+    }
+   ]
+  },
+  {
+   "id": "toyota-avalon-cn",
+   "tag": "改款 · 中國",
+   "date": "2026-10-28",
+   "brand": "Toyota",
+   "title": "新款亞洲龍 11/5 上市：直瀑式水箱罩，像小號 CROWN",
+   "orig": "新款丰田亚洲龙将于11月5日上市 外观、内饰升级",
+   "summary": "一汽豐田新款亞洲龍（Avalon）將在 11 月 5 日上市，外觀與內裝都更新，仍有燃油與油電版本。車長 4,990（5,055）mm、軸距 2,870 mm，本週也被列為中國新車週的重點車款之一。",
+   "analysis": [
+    [
+     "車頭",
+     "大尺寸水箱罩內加入直瀑式鍍鉻，配 C 字形燈組，汽車之家形容有小號 CROWN 的味道。"
+    ],
+    [
+     "車尾",
+     "改為貫穿式尾燈，燈源分段。"
+    ],
+    [
+     "座艙",
+     "環抱式座艙、15.6 吋懸浮中控屏，飾板加入水晶裝飾，配雙拼色方向盤。"
+    ],
+    [
+     "輪圈",
+     "提供全新設計的輪圈造型。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（10/28）",
+     "https://www.autohome.com.cn/news/202610/1318025.html"
+    ],
+    [
+     "China Autonews（11/2）",
+     "https://china-autonews.de/articles/2026-11-02-byd-seal-07-mit-245-km-e-reichweite-smart-2-ab-145-autohome-newenergy-abb398/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-avalon-cn.jpg",
+    "alt": "銀色新款亞洲龍正面，直瀑式鍍鉻水箱罩",
+    "credit": "一汽豐田 (via 汽車之家)",
+    "credit_url": "https://www.autohome.com.cn/news/202610/1318025.html"
+   },
+   "more_images": [
+    {
+     "file": "toyota-avalon-cn-2.jpg",
+     "alt": "新款亞洲龍座艙與 15.6 吋懸浮中控屏",
+     "credit": "一汽豐田 (via 汽車之家)",
+     "credit_url": "https://www.autohome.com.cn/news/202610/1318025.html"
+    }
+   ]
+  },
+  {
+   "id": "mtpeak-one-all",
+   "tag": "新品牌 · EICMA",
+   "date": "2026-11-02",
+   "brand": "MTPEAK",
+   "title": "MTPEAK One All：前二後一的三輪敞篷跑車，EICMA 首秀",
+   "orig": "mtpeak one all three-wheeled sports car debuts at eicma 2026",
+   "summary": "新品牌 MTPEAK 將在米蘭 EICMA（11/3–8）發表首款車 One All：前兩輪、後一輪的開放式三輪跑車，碳纖維車身，中置 2.0 升渦輪引擎驅動單一後輪。預計 2027 年限量生產，產量與性能數字還沒公布。",
+   "analysis": [
+    [
+     "比例",
+     "保留經典 roadster 的長車頭、開放座艙比例，只是後輪變成一顆。"
+    ],
+    [
+     "車身",
+     "雕塑感的碳纖維車身板件，外觀刻意復古。"
+    ],
+    [
+     "定位",
+     "介於機車與跑車之間，強調駕駛的身體感受，不走數位化。"
+    ],
+    [
+     "看點",
+     "三輪布局要怎麼兼顧穩定與造型，要看 EICMA 實車。"
+    ]
+   ],
+   "sources": [
+    [
+     "designboom（11/2）",
+     "https://www.designboom.com/technology/mtpeak-three-wheeled-sports-car-eicma-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-mtpeak-one-all.jpg",
+    "alt": "白紅雙色、前二後一的 MTPEAK One All 三輪跑車",
+    "credit": "MTPEAK (via designboom)",
+    "credit_url": "https://www.designboom.com/technology/mtpeak-three-wheeled-sports-car-eicma-2026/"
+   }
+  },
+  {
+   "id": "polestar-2-end",
+   "tag": "停產 · 換代",
+   "date": "2026-11-02",
+   "brand": "Polestar",
+   "title": "Polestar 2 正式停產，全新第二代 2027 年登場",
+   "orig": "Polestar 2 Production Is Officially Over. A Successor Is Coming In 2027",
+   "summary": "Polestar 向 InsideEVs 證實，第一代 Polestar 2 已在中國路橋工廠停產，六年約賣出 20 萬輛。全新一代預定明年發表，造型據報導受 Formula 2030 概念啟發。",
+   "analysis": [
+    [
+     "比例",
+     "第一代是轎車與跨界車的混合體，下一代預期延續，但官方尚未確認。"
+    ],
+    [
+     "語彙",
+     "Polestar 2 是品牌第一款量產車，奠定 Polestar 簡潔的北歐造型。"
+    ],
+    [
+     "產品",
+     "新 Polestar 2 是三年四款新車計畫的第三款，之後是小型跨界 Polestar 7。"
+    ]
+   ],
+   "sources": [
+    [
+     "InsideEVs（11/2）",
+     "https://insideevs.com/news/814005/polestar-2-production-china-over-official/"
+    ]
+   ],
+   "image": {
+    "file": "news-polestar-2-end.jpg",
+    "alt": "深灰色 Polestar 2 前四分之三",
+    "credit": "InsideEVs",
+    "credit_url": "https://insideevs.com/news/814005/polestar-2-production-china-over-official/"
+   }
+  },
+  {
+   "id": "freelander8-5seat",
+   "tag": "新車 · 中國",
+   "date": "2026-11-02",
+   "brand": "Freelander",
+   "title": "神行者 8 五座版開始交車：935 L 後廂的 5.1 米大休旅",
+   "orig": "Five-seat Freelander 8 began deliveries in China at 46,520 USD",
+   "summary": "奇瑞捷豹路虎旗下 Freelander 8 增程休旅的五座版 10/31 開始交車，售價 30.99–38.99 萬人民幣。車長 5,118 mm、軸距 3,040 mm，後車廂標準 935 L、後座放倒 2,330 L。",
+   "analysis": [
+    [
+     "比例",
+     "方正車身、平直車頂，5.1 米車長走大型越野休旅路線。"
+    ],
+    [
+     "座艙",
+     "儀表板 48.3 吋橫幅螢幕加 15.6 吋中控，排檔移到方向盤柱。"
+    ],
+    [
+     "空間",
+     "五座版把第三排空間讓給行李，主打長途與露營。"
+    ],
+    [
+     "定位",
+     "和六座版並行，讓同一個車身同時打家庭與戶外客群。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/2）",
+     "https://carnewschina.com/2026/11/02/five-seat-freelander-8-began-deliveries-in-china-at-46520-usd/"
+    ]
+   ],
+   "image": {
+    "file": "news-freelander8-5seat.jpg",
+    "alt": "灰色 Freelander 8 正面，方正車頭與橫向燈帶",
+    "credit": "Freelander (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/02/five-seat-freelander-8-began-deliveries-in-china-at-46520-usd/"
+   },
+   "more_images": [
+    {
+     "file": "freelander8-5seat-2.jpg",
+     "alt": "Freelander 8 酒紅色皮革第二排座椅",
+     "credit": "Freelander (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/02/five-seat-freelander-8-began-deliveries-in-china-at-46520-usd/"
+    }
+   ]
+  },
+  {
+   "id": "kia-pv5-jcoty",
+   "tag": "獎項 · 日本",
+   "date": "2026-11-02",
+   "brand": "Kia",
+   "title": "Kia PV5 首度擠進日本年度風雲車前十",
+   "orig": "Kia PV5 Makes Historic Debut in Japan's 'Car of the Year' Top 10",
+   "summary": "Kia 的 PBV 電動車 PV5 入選 2026–2027 日本年度風雲車（JCOTY）十強，是 Kia 品牌第一次進入這個階段。PV5 今年在日本同時推出貨車與乘用版，最終得主 12 月揭曉。",
+   "analysis": [
+    [
+     "結構",
+     "專用電動平台，模組化車身加低地板，空間利用跳脫傳統商用車。"
+    ],
+    [
+     "市場",
+     "在保守的日本市場，韓系商用電動車獲車評肯定。"
+    ],
+    [
+     "看點",
+     "PBV 這種「先有用途、再有造型」的車，開始被當成正式乘用車評比。"
+    ]
+   ],
+   "sources": [
+    [
+     "STARNEWS（11/2）",
+     "https://www.starnewskorea.com/en/business-life/2026/11/02/2026110218025531532"
+    ]
+   ],
+   "image": {
+    "file": "news-kia-pv5-jcoty.jpg",
+    "alt": "白紅塗裝的 Kia PV5 醫療特仕車展示",
+    "credit": "Kia (via STARNEWS)",
+    "credit_url": "https://www.starnewskorea.com/en/business-life/2026/11/02/2026110218025531532"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-changan-lumin-plus",
+   "kind": "car",
+   "car": "長安 Lumin Plus",
+   "tag": "內裝 · 中國",
+   "title": "Lumin Plus：棕色座艙配 D 字方向盤",
+   "points": [
+    "到店車為銀色車身配棕色內裝。",
+    "方向盤是 D 字形三輻式。",
+    "中控為觸控螢幕，排檔桿移到方向盤後。",
+    "車窗開關放在中央通道上。"
+   ],
+   "image": {
+    "file": "cmf-car-changan-lumin-plus.jpg",
+    "alt": "長安 Lumin Plus 棕色儀表板與 D 字方向盤",
+    "credit": "Changan (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-changan-lumin-plus-2.jpg",
+     "alt": "Lumin Plus 棕色座椅仍包著出廠保護膜",
+     "credit": "Changan (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+    }
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/2）",
+     "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-smart2-couture",
+   "kind": "paint",
+   "car": "smart #2 Couture Edition",
+   "tag": "車色 · 中國",
+   "title": "smart #2 Couture：消光白配白金色車頂",
+   "points": [
+    "外觀為 Atelier White Matte 消光白。",
+    "車頂是 Platinum Gold 白金色。",
+    "外觀飾件與 16 吋 Lyra 輪圈帶金色細節。",
+    "靈感來自高級訂製服，中國與歐洲各限 999 輛。"
+   ],
+   "image": {
+    "file": "cmf-paint-smart2-couture.jpg",
+    "alt": "白色 smart #2 正面展車",
+    "credit": "smart (via BitAuto Hong Kong)",
+    "credit_url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/"
+   },
+   "sources": [
+    [
+     "BitAuto Hong Kong（11/2）",
+     "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-nissan-pathfinder-xev6",
+   "kind": "paint",
+   "car": "Nissan Pathfinder XE-V6 Concept",
+   "tag": "車色 · 塗裝",
+   "title": "Pathfinder XE-V6：紅底黑、炭灰、銀三色條紋",
+   "points": [
+    "車身漆成紅色，加黑、炭灰、銀三色條紋。",
+    "條紋參考 1980 年代 Patrol 休旅的塗裝。",
+    "搭配復古「XE-V6」字樣，紀念 40 週年。",
+    "官方稱為復古風格的 NISMO 塗裝。"
+   ],
+   "image": {
+    "file": "cmf-paint-nissan-pathfinder-xev6.jpg",
+    "alt": "紅色車身配條紋的 Pathfinder XE-V6 概念車後四分之三",
+    "credit": "Nissan USA Newsroom",
+    "credit_url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+   },
+   "sources": [
+    [
+     "Nissan USA Newsroom（11/2）",
+     "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-app-foldables",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Tesla 大螢幕 App：左控制、右車輛視覺化",
+   "date": "2026-11-01",
+   "points": [
+    "平板與摺疊機有專屬版面，不再只是放大手機版。",
+    "橫向時左側是控制選單，右側是大尺寸車輛視覺化。",
+    "Android 摺疊機展開後仍是直式拉長版面，要轉橫向才切換。",
+    "Tesla UI 工程師說會持續調整螢幕尺寸斷點。"
+   ],
+   "image": {
+    "file": "hmi-tesla-app-foldables.jpg",
+    "alt": "Tesla App 平板版：左側選單、右側藍色 Model 3",
+    "credit": "Not a Tesla App 示意圖",
+    "credit_url": "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（11/1）",
+     "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 韓國",
+   "date": "2026-11-02",
+   "title": "現代 10 月全球銷量年減 6.3%，起亞連八個月成長",
+   "summary": "現代汽車 10 月全球賣出 329,773 輛、年減 6.3%，其中南韓 49,042 輛、海外 280,731 輛；起亞全球 291,219 輛、年增 10.3%，已連續八個月成長，南韓內銷也再度超越現代。",
+   "sources": [
+    [
+     "Financial News（11/2）",
+     "https://en.fnnews.com/news/202611021547135744"
+    ],
+    [
+     "MK（11/2）",
+     "https://www.mk.co.kr/en/business/12193640"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 日本",
+   "date": "2026-11-02",
+   "title": "三菱 9 月全球產量年增 16%，日本國內大增 39%",
+   "summary": "三菱汽車 9 月全球產量 76,723 輛、年增 16%，日本國內生產 39,634 輛、年增 39%，海外 37,089 輛、年減 1.5%。前 9 月全球產量 671,496 輛、年增 4.5%。",
+   "sources": [
+    [
+     "Just Auto（11/2）",
+     "https://www.just-auto.com/news/mitsubishis-global-output-rises-16-in-september/"
+    ]
+   ]
+  },
+  {
+   "tag": "法規 · 美國",
+   "date": "2026-11-02",
+   "title": "美國車廠聯盟促國會永久禁止中國聯網車",
+   "summary": "代表主要車廠的汽車創新聯盟（Alliance for Automotive Innovation）呼籲國會把對中國聯網車、軟體與硬體的限制立法永久化。參議院商業委員會 7 月已通過《聯網車安全法》，眾議院版本有超過 100 位連署人，選後能否通過仍未定。",
+   "sources": [
+    [
+     "U.S. News／Reuters（11/2）",
+     "https://money.usnews.com/investing/news/articles/2026-11-02/major-automakers-urge-us-congress-to-pass-permanent-ban-on-chinese-vehicles"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-11-01",
+   "title": "中國鈉電池免消費稅到 2028 年，中科海鈉規劃 10 GWh 產線",
+   "summary": "中國對符合國家標準的鈉離子電池免徵消費稅，期間自 2026 年 9 月 1 日到 2028 年底；中科海鈉（Hina）計畫在武漢建 10 GWh 鈉電池基地，首期 3 GWh，主攻商用電動車。",
+   "sources": [
+    [
+     "CarNewsChina（11/1）",
+     "https://carnewschina.com/2026/11/01/china-exempts-sodium-ion-batteries-from-tax-as-hina-targets-10-gwh-commercial-ev-push/"
+    ],
+    [
+     "CnEVPost",
+     "https://cnevpost.com/2026/07/17/china-to-impose-consumption-tax-lithium-batteries/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-02",
+   "title": "10 月新車掛牌 3.32 萬輛受颱風影響，和泰市占創同期新高",
+   "summary": "10 月台灣新車掛牌 33,271 輛，月減 10.2%、年減 3.6%，前 10 月累計 340,481 輛、年增 3%。TOYOTA 與 LEXUS 合計 13,061 輛、市占 39.3%，創歷年同期新高；Tesla 到港減少，高級車掛牌月減 38.5%。業者估 11 月約 3.8 萬輛。",
+   "sources": [
+    [
+     "中央社（11/2）",
+     "https://www.cna.com.tw/news/afe/202611020099.aspx"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Ducktail",
+  "zh": "鴨尾（車尾上翹）",
+  "body": "Ducktail（鴨尾）是車尾行李廂蓋末端自然往上翹起的一小段，像鴨子尾巴，和車身是一體的，不是另外架高的尾翼。本期改款 Hyundai IONIQ 6 就把上一代車尾那片顯眼的大尾翼拿掉，改成加長的鴨尾，從側面看車頂到車尾是一條連續的弧線。設計師這樣做，是讓車尾一樣有壓制氣流的效果，但外形更乾淨。",
+  "source": [
+   [
+    "The Electric Viking：改款 IONIQ 6 以加長鴨尾取代大尾翼",
+    "https://theelectricviking.com/hyundai-launches-new-ioniq-6-uk-up-422-miles-range-starting-44229-aud/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Atelier White & Cocoa Brown",
+   "zh": "消光白配可可棕：溫暖的城市小車座艙",
+   "intro": "每日一組內裝配色示例：以 smart #2 Couture 的消光白當主體，飾條借白金色車頂的金色，門板嵌飾與座椅中段用 Lumin Plus 的棕色，縫線點一筆 Pathfinder XE-V6 的紅，下門板用炭灰，搭淺色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質塑料",
+     "Atelier White（示意）",
+     "#ECEAE4",
+     false,
+     "ip-upper",
+     {
+      "src": "smart #2 Atelier White Matte",
+      "url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬漆飾板",
+     "Platinum Gold（示意）",
+     "#C9B48A",
+     false,
+     "ip-decor",
+     {
+      "src": "smart #2 Platinum Gold 車頂",
+      "url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "可可棕（示意）",
+     "#8A5A3C",
+     false,
+     "door-insert",
+     {
+      "src": "長安 Lumin Plus 棕色內裝",
+      "url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "淺棕（示意）",
+     "#B98A66",
+     false,
+     "armrest",
+     {
+      "src": "長安 Lumin Plus 棕色內裝",
+      "url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "XE-V6 紅（示意）",
+     "#B3262D",
+     false,
+     "stitch",
+     {
+      "src": "Pathfinder XE-V6 紅色車身",
+      "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "炭灰（示意）",
+     "#4B4D52",
+     false,
+     "door-lower",
+     {
+      "src": "Pathfinder XE-V6 炭灰條紋",
+      "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Atelier White Matte、Platinum Gold：smart #2 Couture Edition（BitAuto Hong Kong）",
+     "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/"
+    ],
+    [
+     "棕色內裝：長安 Lumin Plus（CarNewsChina）",
+     "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/"
+    ],
+    [
+     "紅、炭灰、銀條紋：Nissan Pathfinder XE-V6（Nissan USA Newsroom）",
+     "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts"
+    ]
+   ],
+   "mood": [
+    "溫暖",
+    "精緻",
+    "城市",
+    "復古"
+   ],
+   "mood_text": "大面積消光白讓小座艙顯得明亮，可可棕門板與座椅帶來溫度，金色飾條點出精緻感，紅色縫線收一筆 1980 年代的復古運動味。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#ECEAE4",
+    "seat-bolster": "#8A5A3C",
+    "seat-center": "#B98A66",
+    "console": "#4B4D52",
+    "console-arm": "#B98A66",
+    "steering": "#3E3A38",
+    "accent-pod": "#C9B48A",
+    "accent-pod2": "#B3262D",
+    "ip-lower": "#4B4D52"
+   }
+  }
+ }
+}
