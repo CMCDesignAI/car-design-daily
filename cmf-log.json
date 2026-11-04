@@ -530,5 +530,29 @@
   "angle": "Pathfinder XE-V6：紅底黑、炭灰、銀三色條紋",
   "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts",
   "image": "cmf-paint-nissan-pathfinder-xev6.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "car",
+  "car_key": "car:jeep-scrambler-srt-cabin",
+  "angle": "深石墨座椅配橘色嵌飾、可反轉後座",
+  "url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires",
+  "image": "cmf-car-jeep-scrambler-srt-cabin.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "paint",
+  "car_key": "paint:peugeot-3008-5008-titanium-grey",
+  "angle": "Titanium Grey 限定車色",
+  "url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103",
+  "image": "cmf-paint-peugeot-titanium-grey.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "paint",
+  "car_key": "paint:mg4-urban-ice-blue",
+  "angle": "Ice Blue／Diamond Red 配黑車頂",
+  "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint",
+  "image": "cmf-paint-mg4-urban-ice-blue.jpg"
  }
 ]

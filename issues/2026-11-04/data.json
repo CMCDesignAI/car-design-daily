@@ -1,0 +1,705 @@
+{
+ "date": "2026-11-04",
+ "weekday": "週三",
+ "issue_no": 28,
+ "lede": "Jeep 帶 V8、獨立前懸吊的 Wrangler Scrambler SRT 在 SEMA 重現 CJ-8 皮卡；一汽-大眾 ID. AURA L5 以電動大掀背亮相，Toyota 與 Waymo 公布工廠直裝感測器的 bZ 無人計程車。",
+ "design_news": [
+  {
+   "id": "jeep-scrambler-srt",
+   "tag": "概念車 · SEMA",
+   "date": "2026-11-02",
+   "brand": "Jeep",
+   "title": "Jeep Wrangler Scrambler SRT：CJ-8 皮卡回歸，V8 加獨立前懸吊",
+   "orig": "Jeep Wrangler Scrambler SRT Concept",
+   "summary": "Jeep 在 2026 SEMA Show 發表 Wrangler Scrambler SRT 概念車，向 1980 年代 CJ-8 Scrambler 致敬：A 柱以後整段重塑、車門加長、車尾做成一體式貨斗，搭 470 匹 HEMI V8，也是 Wrangler 第一次用上獨立前懸吊。官方表示目前還不能買。",
+   "analysis": [
+    [
+     "比例",
+     "從 A 柱往後重新造型，車門加長，後段改成一體貨斗，回到 CJ-8 長軸皮卡的側面比例。"
+    ],
+    [
+     "前臉",
+     "七孔格柵改成往前傾的現代鯊魚鼻造型，讓車頭更有攻擊性。"
+    ],
+    [
+     "配色",
+     "Punk'n 橘色車身配古銅色 beadlock 輪圈，橘與銅的對比讓這台車在越野場景很好認。"
+    ],
+    [
+     "座艙",
+     "後座可以 180 度反轉、也可拆下，坐在貨斗方向看風景；搭防滾籠。"
+    ],
+    [
+     "方向",
+     "同時把 Gladiator 的貨斗功能和 Wrangler 的短車頭整合，被視為未來 Scrambler 車型的試水溫。"
+    ]
+   ],
+   "sources": [
+    [
+     "Stellantis 北美新聞室（11/2）",
+     "https://media.stellantisnorthamerica.com/newsrelease.do?id=28162"
+    ],
+    [
+     "Carscoops（11/3）",
+     "https://www.carscoops.com/2305158/jeep-scrambler-sema-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-jeep-scrambler-srt.jpg",
+    "alt": "橘色 Jeep Wrangler Scrambler SRT 概念車正面爬上沙丘",
+    "credit": "Jeep (via The Drive)",
+    "credit_url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+   },
+   "more_images": [
+    {
+     "file": "jeep-scrambler-srt-2.jpg",
+     "alt": "Scrambler SRT 在紅土峽谷揚起沙塵的側面",
+     "credit": "Jeep (via The Drive)",
+     "credit_url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+    }
+   ]
+  },
+  {
+   "id": "faw-vw-id-aura-l5",
+   "tag": "新車官圖 · 中國",
+   "date": "2026-11-03",
+   "brand": "一汽-大眾",
+   "title": "一汽-大眾 ID. AURA L5 官圖：電動掀背轎車，掀背開啟超過 70 度",
+   "orig": "一汽-大众 ID. AURA L5",
+   "summary": "一汽-大眾公布 ID. AURA L5 官圖，是 ID. AURA 家族第二款車，也是品牌首款純電「智能大掀背」轎車。車長 4883mm、軸距 2820mm，採真無框車門與半隱藏門把，電動掀背尾門開啟角度超過 70 度、開口寬度超過 1000mm，提供六種車色。",
+   "analysis": [
+    [
+     "比例",
+     "4883×1881×1506mm、軸距 2820mm，低車頂加長車尾，做成斜背轎跑的側影。"
+    ],
+    [
+     "前臉",
+     "U 型前臉配「灵眸」燈組與 3D 發光顆粒，燈就是品牌識別。"
+    ],
+    [
+     "側面",
+     "真無框車門加半隱藏門把，讓側面線條保持乾淨。"
+    ],
+    [
+     "車尾",
+     "3D 立體尾燈，加上整片掀起的電動尾門，兼顧轎車外形與掀背的裝載性。"
+    ],
+    [
+     "方向",
+     "合資品牌在中國用「大掀背」補足轎車的實用性，是對抗本土電動轎車的一招。"
+    ]
+   ],
+   "sources": [
+    [
+     "華龍網（11/3）",
+     "https://www.cqnews.net/web/content_1561044507344846848.html"
+    ]
+   ],
+   "image": {
+    "file": "news-faw-vw-id-aura-l5.jpg",
+    "alt": "淡紫色一汽-大眾 ID. AURA L5 前四分之三官圖",
+    "credit": "一汽-大眾 (via 華龍網)",
+    "credit_url": "https://www.cqnews.net/web/content_1561044507344846848.html"
+   },
+   "more_images": [
+    {
+     "file": "faw-vw-id-aura-l5-2.jpg",
+     "alt": "ID. AURA L5 電動掀背尾門整片打開",
+     "credit": "一汽-大眾 (via 華龍網)",
+     "credit_url": "https://www.cqnews.net/web/content_1561044507344846848.html"
+    },
+    {
+     "file": "faw-vw-id-aura-l5-3.jpg",
+     "alt": "ID. AURA L5 正後方，貫穿式立體尾燈",
+     "credit": "一汽-大眾 (via 華龍網)",
+     "credit_url": "https://www.cqnews.net/web/content_1561044507344846848.html"
+    }
+   ]
+  },
+  {
+   "id": "toyota-bz-waymo",
+   "tag": "自駕車 · 日本",
+   "date": "2026-11-03",
+   "brand": "Toyota × Waymo",
+   "title": "Toyota bZ 變身 Waymo 無人計程車：工廠直接裝好感測器",
+   "orig": "Waymo's Next Driverless Taxi Is A Factory-Built Toyota bZ",
+   "summary": "Toyota 公布為 Waymo 打造的 bZ 無人計程車，車頂、前保桿、前葉子板、後保桿、尾門與尾翼都裝了 Waymo 感測器。和過去出廠後再改裝不同，這款車會在 Toyota 高岡工廠直接組裝並裝好感測器，2027 年先在日本營運，之後到英國等市場。",
+   "analysis": [
+    [
+     "整合",
+     "感測器分布在車頂、保桿、葉子板、尾門與尾翼，從工廠就按設計位置安裝，不是外掛。"
+    ],
+    [
+     "外觀",
+     "車身維持日規改款 bZ4X 的造型，只用素白車色加車門上的 Waymo 字樣。"
+    ],
+    [
+     "乘客",
+     "加了自動門、電動尾門與氛圍燈，強調後座腳部空間，以乘客而非駕駛為主。"
+    ],
+    [
+     "生產",
+     "由車廠在產線上整合自駕硬體，品質與一致性比售後改裝好控制。"
+    ],
+    [
+     "方向",
+     "Toyota 也表示會研究把 Waymo 技術用到自家未來車款。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/3）",
+     "https://www.carscoops.com/2305846/waymo-taxi-driverless-toyota-bz/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-bz-waymo.jpg",
+    "alt": "白色 Toyota bZ Waymo 無人計程車，車頂有感測器",
+    "credit": "Toyota (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2305846/waymo-taxi-driverless-toyota-bz/"
+   },
+   "more_images": [
+    {
+     "file": "toyota-bz-waymo-2.jpg",
+     "alt": "bZ Waymo 正面，保桿與葉子板上的感測器",
+     "credit": "Toyota (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2305846/waymo-taxi-driverless-toyota-bz/"
+    }
+   ]
+  },
+  {
+   "id": "zeekr-7x-2027",
+   "tag": "小改款 · 中國",
+   "date": "2026-11-03",
+   "brand": "Zeekr",
+   "title": "2027 款 Zeekr 7X 到店：新紫、金車色與隱藏式門把",
+   "orig": "Updated Zeekr 7X was seen in China ahead of launch",
+   "summary": "小改款 Zeekr 7X 在上市前已出現在中國經銷商，新增紫色與金色等車色，改用隱藏式門把與 Stargate 燈幕，內裝換上雙零重力座椅與電動腿托、新椅面材質，搭 Zeekr OS 7.5 與 85 kWh 電池。",
+   "analysis": [
+    [
+     "車色",
+     "新增深紫與金色車色，深紫配黑色下車身與輪圈，比原本的冷色系更有存在感。"
+    ],
+    [
+     "前臉",
+     "前方的 Stargate 燈幕是可顯示圖案的燈帶，延續 Zeekr 的燈光識別。"
+    ],
+    [
+     "側面",
+     "改用隱藏式門把，側面更平順。"
+    ],
+    [
+     "尺寸",
+     "4825×1930×1666mm、軸距 2925mm，維持中大型休旅的比例。"
+    ],
+    [
+     "方向",
+     "以車色、座椅與軟體更新延長車型壽命，對手鎖定 Model Y、理想 i6 與小米 YU7。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/3）",
+     "https://carnewschina.com/2026/11/03/updated-zeekr-7x-was-seen-in-china-ahead-of-launch/"
+    ]
+   ],
+   "image": {
+    "file": "news-zeekr-7x-2027.jpg",
+    "alt": "停在經銷商外的深紫色 2027 款 Zeekr 7X",
+    "credit": "Chaofan Shisu (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/03/updated-zeekr-7x-was-seen-in-china-ahead-of-launch/"
+   },
+   "more_images": [
+    {
+     "file": "zeekr-7x-2027-2.jpg",
+     "alt": "銀色 Zeekr 7X 車頭與 Stargate 燈幕",
+     "credit": "Chaofan Shisu (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/03/updated-zeekr-7x-was-seen-in-china-ahead-of-launch/"
+    },
+    {
+     "file": "zeekr-7x-2027-3.jpg",
+     "alt": "淺色 Zeekr 7X 車尾",
+     "credit": "Chaofan Shisu (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/03/updated-zeekr-7x-was-seen-in-china-ahead-of-launch/"
+    }
+   ]
+  },
+  {
+   "id": "toyota-corolla-cross-ev",
+   "tag": "偽裝車 · 日本",
+   "date": "2026-11-02",
+   "brand": "Toyota",
+   "title": "Toyota Corolla Cross EV 首次被拍到：Corolla 家族要電動化",
+   "orig": "Toyota's Corolla Cross EV spotted for the first time",
+   "summary": "Toyota Corolla Cross 純電版測試車首次在公開道路被拍到，預計 2027 年亮相。Corolla 上市 60 年、累計超過 5,700 萬名車主，Toyota 正以去年 Japan Mobility Show 的次世代 Corolla Concept 為方向，替這個車系做最大一次轉型。",
+   "analysis": [
+    [
+     "比例",
+     "偽裝車仍是 Corolla Cross 的小型休旅比例，車頭較短、輪拱明顯。"
+    ],
+    [
+     "前臉",
+     "從偽裝看前燈較細，車頭造型與現行油車不同。"
+    ],
+    [
+     "定位",
+     "Corolla 是 Toyota 史上最暢銷車款，純電版瞄準一般家庭買得起的電動車。"
+    ],
+    [
+     "脈絡",
+     "延續次世代 Corolla Concept 的設計方向。"
+    ],
+    [
+     "觀察",
+     "正式造型要到 2027 年發表才會揭曉。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/2）",
+     "https://electrek.co/2026/11/02/toyota-corolla-cross-ev-spotted-first-time-images/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-corolla-cross-ev.jpg",
+    "alt": "黑白偽裝的 Toyota Corolla Cross EV 測試車前四分之三",
+    "credit": "Electrek",
+    "credit_url": "https://electrek.co/2026/11/02/toyota-corolla-cross-ev-spotted-first-time-images/"
+   },
+   "more_images": [
+    {
+     "file": "toyota-corolla-cross-ev-2.jpg",
+     "alt": "Corolla Cross EV 偽裝車後四分之三",
+     "credit": "Electrek",
+     "credit_url": "https://electrek.co/2026/11/02/toyota-corolla-cross-ev-spotted-first-time-images/"
+    }
+   ]
+  },
+  {
+   "id": "ford-r125-mustang",
+   "tag": "復刻改裝 · SEMA",
+   "date": "2026-11-03",
+   "brand": "Ford Racing",
+   "title": "Ford Racing R125 Mustang：1966 Fastback 紀念 125 年賽車史",
+   "orig": "Ford Racing R125 Mustang restomod",
+   "summary": "Ford Racing 在 SEMA 展出以 1966 年 Mustang Fastback 改裝的 R125，紀念 Henry Ford 1901 年贏得第一場比賽、Ford 賽車 125 年。車子保留原本的 Fastback 輪廓，換上 347ci 加大行程 V8（360 匹）、Edelbrock 電子噴射與 TREMEC TKX-600 手排，全部採用 Ford Racing 型錄零件。",
+   "analysis": [
+    [
+     "輪廓",
+     "保留 1966 Fastback 原始側面，沒有加寬車身，強調原汁原味。"
+    ],
+    [
+     "配色",
+     "黑色車身配金色圓形號碼牌與金色輪圈，帶出早期賽車的懷舊感。"
+    ],
+    [
+     "動力",
+     "347ci 加大行程 V8，360 匹、400 lb-ft，搭 Edelbrock 電子噴射。"
+    ],
+    [
+     "傳動",
+     "TREMEC TKX-600 五速手排，維持駕駛參與感。"
+    ],
+    [
+     "方向",
+     "用目錄零件組出的改裝車，是在推銷 Ford Racing 零件的展示車。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motor1（11/3）",
+     "https://www.motor1.com/news/814194/ford-racing-r125-mustang-restomod/"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-r125-mustang.jpg",
+    "alt": "黑色 Ford Racing R125 Mustang，車門有金色號碼圓牌",
+    "credit": "Ford (via Motor1)",
+    "credit_url": "https://www.motor1.com/news/814194/ford-racing-r125-mustang-restomod/"
+   }
+  },
+  {
+   "id": "xiaomi-su7-ultra-test",
+   "tag": "偽裝車 · 中國",
+   "date": "2026-11-03",
+   "brand": "Xiaomi",
+   "title": "小米 SU7 Ultra 拿掉大尾翼，在紐柏林低調測試",
+   "orig": "Xiaomi SU7 Ultra Loses The Wing For A Stealthier Nürburgring Test",
+   "summary": "小米在紐柏林除了測試掛大型固定尾翼、想奪回量產電動車圈速紀錄的 SU7 Ultra，也被拍到一台沒有賽道套件的一般版 SU7 Ultra。它沒有大尾翼與誇張的後擴散器，改靠行李廂蓋上的主動式尾翼，時速 80 公里以上升起提供下壓力。",
+   "analysis": [
+    [
+     "空力",
+     "拿掉大尾翼後，車尾回到乾淨的四門跑車線條，靠主動式尾翼補下壓力。"
+    ],
+    [
+     "對照",
+     "同場另一台測試車掛大型固定尾翼與後擴散器，兩台並行代表兩種設定。"
+    ],
+    [
+     "外觀",
+     "Carscoops 指出看不出和現售車有明顯外觀差異，改動可能在內部。"
+    ],
+    [
+     "動力",
+     "現行 SU7 Ultra 三電機 1,526 匹，前一後二配置。"
+    ],
+    [
+     "方向",
+     "目標是從 Porsche 手上搶回量產電動車紐柏林紀錄。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/3）",
+     "https://www.carscoops.com/2305066/xiaomi-su7-ultra-loses-wing-for-nurburgring-test/"
+    ]
+   ],
+   "image": {
+    "file": "news-xiaomi-su7-ultra-test.jpg",
+    "alt": "偽裝的小米 SU7 Ultra 測試車在紐柏林賽道過彎",
+    "credit": "Baldauf (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2305066/xiaomi-su7-ultra-loses-wing-for-nurburgring-test/"
+   },
+   "more_images": [
+    {
+     "file": "xiaomi-su7-ultra-test-2.jpg",
+     "alt": "沒有大尾翼的 SU7 Ultra 測試車側面",
+     "credit": "Baldauf (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2305066/xiaomi-su7-ultra-loses-wing-for-nurburgring-test/"
+    }
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-jeep-scrambler-srt-cabin",
+   "kind": "car",
+   "car": "Jeep Wrangler Scrambler SRT Concept",
+   "tag": "內裝 · 美國",
+   "title": "Scrambler SRT：深石墨座椅配橘色嵌飾",
+   "points": [
+    "座椅為 Dark Graphite 深石墨色皮革，加橘色嵌飾呼應車身。",
+    "後座可 180 度反轉，朝向貨斗方向。",
+    "座椅可拆下，座艙外露搭防滾籠。",
+    "內裝點綴古銅色飾件，和輪圈同色。"
+   ],
+   "image": {
+    "file": "cmf-car-jeep-scrambler-srt-cabin.jpg",
+    "alt": "Scrambler SRT 深灰座椅與 SRT 字樣",
+    "credit": "Jeep (via The Drive)",
+    "credit_url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-jeep-scrambler-srt-cabin-2.jpg",
+     "alt": "從車側看 Scrambler SRT 反轉後座與貨斗",
+     "credit": "Jeep (via The Drive)",
+     "credit_url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+    }
+   ],
+   "sources": [
+    [
+     "The Drive（11/2）",
+     "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-peugeot-titanium-grey",
+   "kind": "paint",
+   "car": "Peugeot 3008／5008 GT Hybrid Titanium Edition",
+   "tag": "車色 · 日本",
+   "title": "Peugeot 鈦灰限定：金屬感隨光線變化",
+   "points": [
+    "日本限定車採專用車色「Titanium Grey 鈦灰」。",
+    "官方說這個灰會隨光線與角度細膩變色，突顯車身立體造型。",
+    "以 GT 的 Alcantara 套件為基礎，兩款各限 100 輛。",
+    "名稱呼應 Peugeot 1810 年從金屬加工起家的歷史。"
+   ],
+   "image": {
+    "file": "cmf-paint-peugeot-titanium-grey.jpg",
+    "alt": "鈦灰色 Peugeot 3008 與 5008 並排",
+    "credit": "Peugeot (via MOTOR CARS)",
+    "credit_url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-peugeot-titanium-grey-2.jpg",
+     "alt": "Titanium Edition 的 Alcantara 座椅",
+     "credit": "Peugeot (via MOTOR CARS)",
+     "credit_url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+    }
+   ],
+   "sources": [
+    [
+     "MOTOR CARS（11/3）",
+     "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-mg4-urban-ice-blue",
+   "kind": "paint",
+   "car": "MG4 Urban Special Edition",
+   "tag": "車色 · 紐西蘭",
+   "title": "MG4 Urban 特仕版：冰藍、鑽石紅配黑車頂",
+   "points": [
+    "紐西蘭特仕版提供 Diamond Red 與 Ice Blue 兩色。",
+    "兩色都搭黑色車頂與黑色後視鏡，做成雙色車身。",
+    "Ice Blue 是特仕版專屬車色。",
+    "內裝換黑色座椅，前門板氛圍燈也重新調整。"
+   ],
+   "image": {
+    "file": "cmf-paint-mg4-urban-ice-blue.jpg",
+    "alt": "冰藍色車身配黑色車頂的 MG4 Urban 特仕版",
+    "credit": "MG (via AutoTrader NZ)",
+    "credit_url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-mg4-urban-ice-blue-2.jpg",
+     "alt": "鑽石紅配黑車頂的 MG4 Urban 特仕版",
+     "credit": "MG (via AutoTrader NZ)",
+     "credit_url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+    }
+   ],
+   "sources": [
+    [
+     "AutoTrader NZ（11/3）",
+     "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-android-auto-18-1",
+   "kind": "case",
+   "brand": "Google",
+   "tag": "介面與 HMI",
+   "title": "Android Auto 18.1：淺色模式與改版持續準備",
+   "date": "2026-11-03",
+   "points": [
+    "18.1 版開始推送給一般用戶，表面上沒有新功能。",
+    "程式碼裡出現深色與淺色模式的圖示素材，淺色模式可能跟著大改版一起上線。",
+    "代號「Cielo」的小工具式改版持續出現，新增地圖縮放與儀表板滑入滑出動畫。",
+    "上線時間仍未公布。"
+   ],
+   "image": {
+    "file": "hmi-android-auto-18-1.jpg",
+    "alt": "車上 Android Auto 導航畫面",
+    "credit": "9to5Google 示意圖",
+    "credit_url": "https://9to5google.com/2026/11/03/android-auto-18-1-update-rollout-teardown/"
+   },
+   "sources": [
+    [
+     "9to5Google（11/3）",
+     "https://9to5google.com/2026/11/03/android-auto-18-1-update-rollout-teardown/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產業 · 韓國",
+   "date": "2026-11-03",
+   "title": "起亞美國 10 月賣 8 萬輛，連六個月創紀錄",
+   "summary": "起亞美國 10 月賣出 80,008 輛、年增 16%，是史上最佳 10 月，也是連續第六個月創紀錄；電動車與油電車銷量分別年增 112% 與 114%。約 3 萬美元的新款 EV3 已開始到店，起亞預期將拿下連續第四年的年度銷量紀錄。",
+   "sources": [
+    [
+     "Electrek（11/3）",
+     "https://electrek.co/2026/11/03/kia-racks-up-another-record-month-new-30k-ev3-hits-dealers/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-11-03",
+   "title": "華晨寶馬傳裁員約 1,800 人",
+   "summary": "據 AI4Robo 引述多名員工，華晨寶馬自 11 月 2 日起裁員約 1,800 人、約占員工一成，以瀋陽總部的產線員工為主，也包含行政職，補償方案為「N+5」。BMW 尚未對中國裁員發出正式聲明。",
+   "sources": [
+    [
+     "CarNewsChina（11/3）",
+     "https://carnewschina.com/2026/11/03/bmw-china-commences-layoffs-affecting-1800-employees-report-says/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 中國",
+   "date": "2026-11-03",
+   "title": "東風爭取寧德時代第三代神行電池首發",
+   "summary": "據 21 世紀經濟報導，東風汽車從第二季起就和寧德時代洽談，想拿下第三代神行超充電池的首發權。這款電池 4 月 21 日發表，主打 6 分鐘充滿；第四季新車發表窗口越來越短，車廠搶首發的競爭變激烈。",
+   "sources": [
+    [
+     "CarNewsChina（11/3）",
+     "https://carnewschina.com/2026/11/03/dongfeng-eyes-debut-of-catls-6-minute-full-charge-shenxing-battery-report-says/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 歐洲",
+   "date": "2026-11-03",
+   "title": "荷蘭 RDW：Tesla 歐洲輔助駕駛超速上限降為 10%",
+   "summary": "荷蘭車輛監理機關 RDW 確認，已核准 Tesla 更新：歐洲版輔助駕駛可設定的超速幅度從速限的 50% 降到 10%，名稱也從「FSD Supervised」改為「Tesla Assisted Driving」。條件與德國上月要求一致，歐盟成員國可能在數週後表決是否全區核准。",
+   "sources": [
+    [
+     "Electrek（11/3）",
+     "https://electrek.co/2026/11/03/tesla-assisted-driving-rdw-speed-cap-10-percent-europe/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 美國",
+   "date": "2026-11-02",
+   "title": "GM 以 2.2 億美元和解駕駛資料外售案",
+   "summary": "GM 同意支付 2.2 億美元，和解 OnStar Smart Driver 在 2016 到 2024 年間收集車主定位與駕駛行為資料、賣給 LexisNexis、Verisk 等資料商的訴訟與指控；這些資料曾被保險公司用來調整保費甚至拒保。",
+   "sources": [
+    [
+     "Carscoops（11/2）",
+     "https://www.carscoops.com/2304710/gm-220-million-settlement-driving-data/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 台灣",
+   "date": "2026-11-02",
+   "title": "台灣 10 月新車掛牌 33,271 輛，年減 3.6%",
+   "summary": "受颱風影響，10 月新車掛牌 33,271 輛、年減 3.6%，前 10 月累計 340,481 輛、年增 3%。和泰 TOYOTA 與 LEXUS 合計市占 39.3%，Corolla Cross 以 3,333 輛奪冠；特斯拉逢交車空窗僅掛牌 16 輛。和泰預估 11 月可達 38,000 輛。",
+   "sources": [
+    [
+     "經濟日報（11/2）",
+     "https://udn.com/news/story/7241/9851531"
+    ],
+    [
+     "工商時報（11/2）",
+     "https://www.ctee.com.tw/news/20261102701237-430201"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Liftback",
+  "zh": "掀背式尾門（Liftback）",
+  "body": "Liftback 是外形像轎車、後擋風玻璃卻和行李廂蓋連成一片、整片往上掀開的尾門設計。和一般轎車只打開行李廂蓋不同，掀起時開口直通車廂，大件行李更好放；和兩廂掀背車不同，它保留了斜背轎車的長車尾。本期一汽-大眾 ID. AURA L5 就主打「智能大掀背」，電動尾門開啟角度超過 70 度、開口寬度超過 1000mm。",
+  "source": [
+   [
+    "Wikipedia：Liftback",
+    "https://en.wikipedia.org/wiki/Liftback"
+   ],
+   [
+    "華龍網：ID. AURA L5 大掀背尾門",
+    "https://www.cqnews.net/web/content_1561044507344846848.html"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Titanium Grey & Punk'n Orange",
+   "zh": "鈦灰配南瓜橘：冷調金屬座艙的一筆暖色",
+   "intro": "每日一組內裝配色示例：上儀表板用 Peugeot Titanium Edition 的鈦灰，飾條點 MG4 特仕版的冰藍，門板與座椅借 Jeep Scrambler SRT 的深石墨，縫線與重點用它車身的 Punk'n 橘，下門板用低光澤黑，搭深色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質塑料",
+     "鈦灰（示意）",
+     "#6E7276",
+     false,
+     "ip-upper",
+     {
+      "src": "Peugeot Titanium Grey",
+      "url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬漆飾板",
+     "Ice Blue（示意）",
+     "#8EC5DA",
+     false,
+     "ip-decor",
+     {
+      "src": "MG4 Urban Ice Blue",
+      "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "深石墨（示意）",
+     "#3A3B3E",
+     false,
+     "door-insert",
+     {
+      "src": "Jeep Scrambler SRT Dark Graphite 皮革",
+      "url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+     }
+    ],
+    [
+     "門扶手 · 麂皮",
+     "淺鈦灰（示意）",
+     "#9A9C9E",
+     false,
+     "armrest",
+     {
+      "src": "Peugeot Titanium Edition Alcantara",
+      "url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Punk'n 橘（示意）",
+     "#E8701E",
+     false,
+     "stitch",
+     {
+      "src": "Jeep Scrambler SRT Punk'n 橘",
+      "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=28162"
+     }
+    ],
+    [
+     "下門板 · 低光澤塑件",
+     "石墨黑（示意）",
+     "#26272A",
+     false,
+     "door-lower",
+     {
+      "src": "MG4 Urban 黑色車頂",
+      "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Titanium Grey：Peugeot 3008／5008 Titanium Edition（MOTOR CARS）",
+     "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103"
+    ],
+    [
+     "Ice Blue、黑色車頂：MG4 Urban Special Edition（AutoTrader NZ）",
+     "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint"
+    ],
+    [
+     "Dark Graphite 皮革與橘色嵌飾：Jeep Scrambler SRT（The Drive）",
+     "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires"
+    ]
+   ],
+   "mood": [
+    "冷調",
+    "金屬",
+    "越野",
+    "活力"
+   ],
+   "mood_text": "鈦灰與深石墨撐起冷靜的金屬感，冰藍飾條帶一點科技味，橘色縫線像越野車身上的警示色，讓沉穩座艙多一份玩心。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#3A3B3E",
+    "seat-bolster": "#26272A",
+    "seat-center": "#9A9C9E",
+    "console": "#26272A",
+    "console-arm": "#3A3B3E",
+    "steering": "#2B2C2F",
+    "accent-pod": "#E8701E",
+    "accent-pod2": "#8EC5DA",
+    "ip-lower": "#26272A"
+   }
+  }
+ }
+}

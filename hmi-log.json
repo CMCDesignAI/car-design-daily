@@ -106,5 +106,11 @@
   "key": "hmi-tesla-app-foldables",
   "url": "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables",
   "image": "hmi-tesla-app-foldables.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "key": "hmi-android-auto-18-1",
+  "url": "https://9to5google.com/2026/11/03/android-auto-18-1-update-rollout-teardown/",
+  "image": "hmi-android-auto-18-1.jpg"
  }
 ]
