@@ -87,12 +87,27 @@ def capture(issue,crid=None):
     return saved
 
 def enqueue(rec,date,pages):
-    c.migrate(); q=c.load(c.Q,{'items':{}}); issue=rec['issue']
-    for part,label in enumerate(('cover+contents','editorial','first feature'),1):
-        iid=f'od-{issue}-p{part}'; due=(dt.date.fromisoformat(date)+dt.timedelta(days=(part-1)*3)).isoformat()
-        if iid in q['items']: continue
-        q['items'][iid]=dict(id=iid,source=c.AD,credit=f'Auto&Design No.{issue}, via OverDrive sample',paywalled=False,kind='issue_sample',column=f'新刊 No.{issue}',title_en=f'Auto&Design No.{issue}: {label}',date=date,due=due,url=rec['overdrive_url'],overdrive_url=rec['overdrive_url'],image=None,excerpt='',added=c.today(),used=False,issue_no=issue,part=part,sample_pages=pages)
-    c.save(c.Q,q)
+    """New issue: no fixed cards. Record the capture; sections are added by the routine with add-section after reading the spreads."""
+    st=c.load(STATE,{}); st.setdefault('pending_sections',{})[str(rec['issue'])]=dict(date=date,pages=pages,overdrive_url=rec['overdrive_url'])
+    c.save(STATE,st); print(f"Issue {rec['issue']}: read {len(pages)} spreads, then run add-section once per distinct article/section")
+
+def add_section(issue,title,pages,notes,crops,due=None,lang='en',gap=3):
+    """One card per distinct article/section of a sample spread. notes = key points read from the page (>=200 chars); crops = 1-3 cropped car photos."""
+    c.migrate(); q=c.load(c.Q,{'items':{}}); st=c.load(STATE,{}); rec=st['issues'][str(issue)]
+    mine=[x for x in q['items'].values() if x.get('kind')=='issue_sample' and x.get('issue_no')==issue]
+    part=len(mine)+1; iid=f'od-{issue}-s{part}'
+    if not 1<=len(crops)<=3: raise ValueError('need 1-3 crops')
+    paths=[]
+    for cp in crops:
+        p=Path(cp).resolve()
+        if not p.is_file(): raise ValueError(f'Crop does not exist: {p}')
+        paths.append(str(p))
+    if len(notes)<200: raise ValueError('notes must hold the key points read from the page (>=200 chars)')
+    if not due:
+        last=max([x['due'] for x in mine],default=None)
+        due=(dt.date.fromisoformat(last)+dt.timedelta(days=gap)).isoformat() if last else c.today()
+    q['items'][iid]=dict(id=iid,source=c.AD,credit=f'Auto&Design No.{issue}, via OverDrive sample',paywalled=False,kind='issue_sample',column=f'新刊 No.{issue}',title_en=title,section=title,language=lang,date=due,due=due,url=rec['overdrive_url'],overdrive_url=rec['overdrive_url'],image=None,excerpt='',notes=notes,crops=paths,added=c.today(),used=False,issue_no=issue,part=part,sample_pages=pages,back_issue=issue<int(st.get('last_issue',issue)))
+    c.save(c.Q,q); print(f'Added {iid} due {due}')
 
 def check(date,seed=False,backfill=False):
     records=discover(); newest=max(records); state=c.load(STATE,{}); last=int(state.get('last_issue',0))
@@ -105,8 +120,8 @@ def check(date,seed=False,backfill=False):
     for issue in targets:
         print(f'New issue {issue}: {records[issue]["overdrive_url"]}',flush=True)
         pages=capture(issue,records[issue]['crid'])
-        enqueue(records[issue],date,pages)
         state['last_issue']=max(int(state.get('last_issue',0)),issue); c.save(STATE,state)
+        enqueue(records[issue],date,pages); state=c.load(STATE,{})
     c.save(STATE,state)
     if not targets: print(f'No new issue (latest {newest}, last_issue {last})')
 
@@ -141,6 +156,7 @@ def main():
     cp=sub.add_parser('capture'); cp.add_argument('--issue',type=int,required=True); cp.add_argument('--crid')
     cr=sub.add_parser('crop'); cr.add_argument('--issue',type=int,required=True); cr.add_argument('--page',required=True); cr.add_argument('--box',required=True); cr.add_argument('--out',required=True)
     st=sub.add_parser('set'); st.add_argument('--id',required=True); st.add_argument('--crop1',required=True); st.add_argument('--crop2')
+    ad=sub.add_parser('add-section'); ad.add_argument('--issue',type=int,required=True); ad.add_argument('--title',required=True); ad.add_argument('--pages',required=True); ad.add_argument('--notes',required=True); ad.add_argument('--crops',required=True,help='comma-separated crop paths, 1-3'); ad.add_argument('--due'); ad.add_argument('--lang',default='en'); ad.add_argument('--gap',type=int,default=3)
     a=ap.parse_args()
     try:
         if a.cmd=='check': dt.date.fromisoformat(a.date); check(a.date,a.seed_current,a.backfill)
@@ -149,6 +165,7 @@ def main():
             box=tuple(int(x) for x in a.box.split(','))
             if len(box)!=4: raise ValueError('--box requires x,y,w,h')
             crop(a.issue,a.page,box,a.out)
+        elif a.cmd=='add-section': add_section(a.issue,a.title,[int(x) for x in a.pages.split(',')],a.notes,[x.strip() for x in a.crops.split(',') if x.strip()],a.due,a.lang,a.gap)
         else: set_crops(a.id,a.crop1,a.crop2)
     except Exception as e: print(f'Error: {e}',file=sys.stderr); return 1
     return 0

@@ -541,11 +541,11 @@ def page(d, base, all_issues, is_root):
     H.append('</div></section>')
     # 02 Auto&Design column digest (optional; hidden when empty)
     if AD:
-        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · Car Design News · Dezeen · Car Body Design</span></div><div class="cmf">')
+        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · CAR STYLING · Car Design TV · The Autopian · Dezeen</span></div><div class="cmf">')
         for a in AD:
-            g = dict(a); g["more_images"] = [a["image2"]] if a.get("image") and a.get("image2") else []
+            g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)}{"（全文需 CDN 訂閱）" if a.get("paywalled") else ""} ↗</a></div></div></article>')
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
