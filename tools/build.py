@@ -13,7 +13,7 @@ e = html.escape
 #   cap height matches the default logo (tools/mklogo.py prints it), so decorations can stick out
 #   without the lettering changing size. Files are trimmed so the glyph left edge sits on the date line.
 # Default (non-seasonal) logo: used from DEFAULT_LOGO["start"] (Taipei build date) on every page that is not in a season.
-DEFAULT_LOGO = dict(start="2026-11-03", logo_light=("cdd-default-light-v1.webp", 1378, 481, 0.9566), logo_dark=("cdd-default-dark-v1.webp", 1440, 480, 1.0))
+DEFAULT_LOGO = dict(start="2026-11-03", logo_light=("cdd-default-light-v3.webp", 1330, 473, 0.9238), logo_dark=("cdd-default-dark-v3.webp", 1330, 472, 0.9238))
 # Seasonal decorations, one line per holiday: start/end inclusive (YYYY-MM-DD, Asia/Taipei),
 # logo = (file in assets/, ...), or logo_light + logo_dark for per-theme versions; section_suffix = emoji after numbered section titles or "".
 # Adding a holiday = put the trimmed WebP files in assets/ (python3 tools/mklogo.py) and add one row here.
