@@ -332,7 +332,7 @@ VCAR_JS = ("<script>(()=>{const w=document.querySelector('.vcar');if(!w)return;c
  "if(ev.data===YT.PlayerState.PLAYING)started=true;if(ev.data===YT.PlayerState.ENDED){if(i<L.length-1)show(i+1,true);else show(0,false)}}}})};"
  "const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;document.head.appendChild(s)})()</script>")
 
-CARNEWS_FROM = "2026-11-05"  # 01 renamed 設計新聞 -> 汽車新聞 + optional 02 Auto&Design (zley 11/4; older issues unchanged)
+CARNEWS_FROM = "2026-11-05"  # 01 renamed 設計新聞 -> 新車快訊 + optional 02 設計專欄 · Design Columns (zley 11/4; older issues unchanged)
 FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
 FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
 def collect_focus(d, base_dir):
@@ -458,7 +458,7 @@ def page(d, base, all_issues, is_root):
     lead = d["design_news"][0].get("image")
     ogimg = (f"{SITE}/issues/{date}/img/{lead['file']}" if lead else (f"{SITE}/issues/{date}/img/{d['moodboards'][0]['images'][0][0]}.webp" if d.get('moodboards') else "")) if SITE else ""
     canon = (f"{SITE}/issues/{date}/" if SITE else "")
-    NEWS_T = "汽車新聞" if date >= CARNEWS_FROM else "設計新聞"; NEWS_EN = "Car News" if date >= CARNEWS_FROM else "Design News"
+    NEWS_T = "新車快訊" if date >= CARNEWS_FROM else "設計新聞"; NEWS_EN = "New Car Brief" if date >= CARNEWS_FROM else "Design News"
     AD = (d.get("autodesign") or []) if date >= CARNEWS_FROM else []
     H = []
     H.append(f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
@@ -473,13 +473,13 @@ def page(d, base, all_issues, is_root):
 <link rel="stylesheet" href="{css}">
 {theme_init("car")}
 </head><body class="mode-car">
-{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">{NEWS_T}</a>{'<a href="#autodesign">Auto&amp;Design</a>' if AD else ''}{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}tool/">小工具</a><a href="{base}archive/">往期</a></nav>')}
+{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">{NEWS_T}</a>{'<a href="#autodesign">設計專欄</a>' if AD else ''}{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}tool/">小工具</a><a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
 {masthead_title(deco, base)}
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>{NEWS_T} {len(d['design_news'])} 則</span>{f"<span>Auto&amp;Design {len(AD)} 則</span>" if AD else ''}{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}{f'<span class="parts-added"><a href="{base}tool/parts/" style="color:inherit">零件圖庫新增 {d["parts_added"]} 台</a></span>' if d.get('parts_added') else ''}</div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>{NEWS_T} {len(d['design_news'])} 則</span>{f"<span>設計專欄 {len(AD)} 則</span>" if AD else ''}{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}{f'<span class="parts-added"><a href="{base}tool/parts/" style="color:inherit">零件圖庫新增 {d["parts_added"]} 台</a></span>' if d.get('parts_added') else ''}</div>
 <p class="lede">{e(d['lede'])}</p></div>''')
-    links = [("design",NEWS_T,True),("autodesign","Auto&amp;Design",bool(AD)),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
+    links = [("design",NEWS_T,True),("autodesign","設計專欄",bool(AD)),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
     H.append('<nav class="jump" aria-label="本期段落">' + "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in links if ok) + f'<a class="jtool" href="{base}tool/">小工具 ↗</a>' + '</nav><script>(()=>{const f=()=>{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")};f();addEventListener("resize",f)})()</script>')
     # breaking news (optional; issues without "breaking" render exactly as before)
     bk = d.get("breaking")
@@ -541,10 +541,11 @@ def page(d, base, all_issues, is_root):
     H.append('</div></section>')
     # 02 Auto&Design column digest (optional; hidden when empty)
     if AD:
-        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>Auto&amp;Design' + SFX + '</h2><span class="en">Columns &amp; Features</span></div><div class="cmf">')
+        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · Car Design News · Dezeen · Car Body Design</span></div><div class="cmf">')
         for a in AD:
-            fig = gallery(a, img)
-            H.append(f'<article class="cmf-card{" s3" if len(AD) == 2 else ""}" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">Auto&amp;Design · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">Auto&amp;Design ↗</a></div></div></article>')
+            g = dict(a); g["more_images"] = [a["image2"]] if a.get("image") and a.get("image2") else []
+            fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)}{"（全文需 CDN 訂閱）" if a.get("paywalled") else ""} ↗</a></div></div></article>')
         H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
