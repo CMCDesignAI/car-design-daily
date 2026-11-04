@@ -51,6 +51,12 @@ tools/
      3. 裁成 16:9、縮成 1600×900 WebP（q≈82，<300KB），存成 `issues/<date>/img/news-<id>.webp`。
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
+1a. **Auto&Design 專欄摘要（02 區塊，2026-11-05 起；01 標題同日改為「汽車新聞 / Car News」，分界日在 build.py 的 `CARNEWS_FROM`）**：選完 01 的 7 則後執行：
+   1. `python3 tools/autodesign.py fetch --days 14`（讀 autodesignmagazine.com 公開 RSS：主 feed＋Meet the Designer／Design Story／Newsstand／Concept／Extra／News，新項目進 `data/autodesign_queue.json`）
+   2. `python3 tools/autodesign.py pick --date <日期> --exclude "<01 各則品牌/車型關鍵字，逗號分隔>" --img-dir issues/<日期>/img`（不給 `--n` 自動決定：近 7 天有 Meet the Designer 訪談或新一期 Design Story 批次（同日 ≥3 篇）→ 2 則，否則 1 則；順序 Meet the Designer > Design Story > Concept > Extra > News，同級最舊先；會下載 og:image）
+   3. 把輸出陣列放進 data.json 的 `"autodesign"`（與 `design_news` 同層）。每則補 `title`（繁中）與 `summary`（2–4 句繁中，只寫原文事實；讀 `excerpt` 或原文 `url`，不可整段翻譯或照抄），刪掉 `excerpt`、`image_url`；`image` 為 null 就刪該則。同一故事若也在 01：留在 02（寫 Auto&Design 的角度），01 換另一則。
+   4. `python3 tools/autodesign.py commit --date <日期> --ids <id1,id2>`（寫入 `data/autodesign_log.json`，永不重複）。
+   5. pick 輸出空陣列 → 不放 `autodesign`，02 自動隱藏；有 02 時後面區塊自動順延編號（色彩與材質 03、汽車新知 04）。
 1b. **色彩與材質 CMF（排程自 2026-10-17 起：每日 4–7 張卡，數量彈性）**：放在設計新聞之後。中間的「色彩・材質・介面動態」模組，**每個類別一列**：A 列車型內裝（`cmf[]` kind=car）、B 列色彩／塗料／材質（`cmf[]` kind=trend|paint|material）、C 列介面與 HMI（`hmi[]`）。每列 1 張＝全寬（桌機圖左文右）、2 張＝各半、3 張＝三等分；手機一欄。
    - **每日數量依素材量、重要性與適合度決定，不硬湊**：car 1–2、trend+paint+material 合計 2–3、hmi 0–2，`cmf`＋`hmi` 合計 4–7。欄位：`cmf[]`：`{id, kind(car|trend|paint|material), car（品牌／車型或機構名）, tag, title（≤24 字）, points[3–4 句，每句 ≤30 字], image{file, alt, credit, credit_url}（車型必填；其他有圖就放）, swatch?{label, hex}（最後手段：色彩卡優先用來源的真實圖——報告／新聞稿裡的色盤、色樣或材質圖；整張是封面或含大量 logo／文字的宣傳圖時，裁到只剩色盤／材質區並去掉邊緣留白，轉 JPG 放 img/。真的找不到圖才用 swatch 示意色）, sources[[名稱, url]], note?（備援說明，顯示 ⚠）}`。`kind` 決定所在列與標籤（車型／趨勢／塗料／材質）。發布前跑 `python3 tools/check_cmf.py <日期>`（會檢查上述數量，舊期無 kind 不檢查）。
    - **規則 1：不與當日設計新聞重疊**：**同車＋同一篇來源文章禁止**；也避免同車重複講設計新聞已寫過的內裝重點（例：Mission S 已在設計新聞講五圓儀表，就不要再用同一角度當 CMF 車型則）。優先選設計新聞以外的車；素材夠好且有**另一篇**專門內裝／CMF 來源時才用同車。

@@ -332,6 +332,7 @@ VCAR_JS = ("<script>(()=>{const w=document.querySelector('.vcar');if(!w)return;c
  "if(ev.data===YT.PlayerState.PLAYING)started=true;if(ev.data===YT.PlayerState.ENDED){if(i<L.length-1)show(i+1,true);else show(0,false)}}}})};"
  "const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;document.head.appendChild(s)})()</script>")
 
+CARNEWS_FROM = "2026-11-05"  # 01 renamed 設計新聞 -> 汽車新聞 + optional 02 Auto&Design (zley 11/4; older issues unchanged)
 FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
 FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
 def collect_focus(d, base_dir):
@@ -457,6 +458,8 @@ def page(d, base, all_issues, is_root):
     lead = d["design_news"][0].get("image")
     ogimg = (f"{SITE}/issues/{date}/img/{lead['file']}" if lead else (f"{SITE}/issues/{date}/img/{d['moodboards'][0]['images'][0][0]}.webp" if d.get('moodboards') else "")) if SITE else ""
     canon = (f"{SITE}/issues/{date}/" if SITE else "")
+    NEWS_T = "汽車新聞" if date >= CARNEWS_FROM else "設計新聞"; NEWS_EN = "Car News" if date >= CARNEWS_FROM else "Design News"
+    AD = (d.get("autodesign") or []) if date >= CARNEWS_FROM else []
     H = []
     H.append(f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -470,13 +473,13 @@ def page(d, base, all_issues, is_root):
 <link rel="stylesheet" href="{css}">
 {theme_init("car")}
 </head><body class="mode-car">
-{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">設計新聞</a>{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}tool/">小工具</a><a href="{base}archive/">往期</a></nav>')}
+{topbar(base, "car", base, f'<nav class="nav">{'<a href="#breaking">特報</a>' if d.get("breaking") else ''}<a href="#design">{NEWS_T}</a>{'<a href="#autodesign">Auto&amp;Design</a>' if AD else ''}{'<a href="#cmf">色彩材質</a>' if d.get("cmf") else ''}<a href="#knowledge">汽車新知</a>{'' if d.get("color_data") else '<a href="#mood">情緒板</a>'}<a href="{base}tool/">小工具</a><a href="{base}archive/">往期</a></nav>')}
 <main class="wrap">
 <div class="mast"><div class="kicker">Issue No. {d['issue_no']:03d} · Global Car Design Digest</div>
 {masthead_title(deco, base)}
-<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>設計新聞 {len(d['design_news'])} 則</span>{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}{f'<span class="parts-added"><a href="{base}tool/parts/" style="color:inherit">零件圖庫新增 {d["parts_added"]} 台</a></span>' if d.get('parts_added') else ''}</div>
+<div class="meta"><span><b>{y} 年 {int(m)} 月 {int(dd)} 日</b> {d['weekday']}</span><span>{NEWS_T} {len(d['design_news'])} 則</span>{f"<span>Auto&amp;Design {len(AD)} 則</span>" if AD else ''}{f"<span>色彩與材質 {len(d['cmf'])} 則</span>" if d.get('cmf') else ''}{f"<span>介面設計 {len(d['hmi'])} 則</span>" if d.get('hmi') else ''}<span>汽車新知 {len(d['knowledge'])} 則</span>{'' if d.get('color_data') else f"<span>情緒板 {len(d['moodboards'])} 組</span>"}{f'<span class="parts-added"><a href="{base}tool/parts/" style="color:inherit">零件圖庫新增 {d["parts_added"]} 台</a></span>' if d.get('parts_added') else ''}</div>
 <p class="lede">{e(d['lede'])}</p></div>''')
-    links = [("design","設計新聞",True),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
+    links = [("design",NEWS_T,True),("autodesign","Auto&amp;Design",bool(AD)),("cmf","色彩與材質",bool(d.get("cmf"))),("knowledge","汽車新知",True),("mood","情緒板",not d.get("color_data"))]
     H.append('<nav class="jump" aria-label="本期段落">' + "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in links if ok) + f'<a class="jtool" href="{base}tool/">小工具 ↗</a>' + '</nav><script>(()=>{const f=()=>{const t=document.querySelector(".topbar");if(t)document.documentElement.style.setProperty("--tbh",t.offsetHeight+"px")};f();addEventListener("resize",f)})()</script>')
     # breaking news (optional; issues without "breaking" render exactly as before)
     bk = d.get("breaking")
@@ -524,7 +527,7 @@ def page(d, base, all_issues, is_root):
         H.append(f'<section id="breaking" class="breaking"><div class="bk-label">{e(bk0.get("label","新車特報"))} · Breaking{SFX}</div>{"".join(cards)}</section>')
     # design news
     # 今日 3 重點 + jump nav
-    H.append(f'<section id="design"><div class="sec-head"><span class="num">01</span><h2>設計新聞{SFX}</h2><span class="en">Design News</span></div><div class="news">')
+    H.append(f'<section id="design"><div class="sec-head"><span class="num">01</span><h2>{NEWS_T}{SFX}</h2><span class="en">{NEWS_EN}</span></div><div class="news">')
     for i, s in enumerate(d["design_news"]):
         an = "".join(f'<li><b>{e(k)}</b><span>{e(v)}</span></li>' for k, v in s["analysis"])
         src = "".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>' for n, u in s["sources"])
@@ -536,9 +539,17 @@ def page(d, base, all_issues, is_root):
         else:
             H.append(f'<article class="story" id="{s["id"]}">{fig}{head}</div><p class="alabel">設計解析 Design Notes</p><ul class="analysis">{an}</ul><div class="src">來源：{src}</div></article>')
     H.append('</div></section>')
+    # 02 Auto&Design column digest (optional; hidden when empty)
+    if AD:
+        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>Auto&amp;Design' + SFX + '</h2><span class="en">Columns &amp; Features</span></div><div class="cmf">')
+        for a in AD:
+            fig = gallery(a, img)
+            H.append(f'<article class="cmf-card{" s3" if len(AD) == 2 else ""}" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">Auto&amp;Design · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">Auto&amp;Design ↗</a></div></div></article>')
+        H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
-    n_k, n_m = ("03", "04") if cmf else ("02", "03")  # new issues have no 04 (mood merged into cmf)
+    off = 1 if AD else 0
+    n_c = f"{2+off:02d}"; n_k, n_m = (f"{3+off:02d}", f"{4+off:02d}") if cmf else (f"{2+off:02d}", f"{3+off:02d}")  # new issues have no 04 (mood merged into cmf)
     def cdata_block(cd, H):
             # cd = color_data.release: only on days a new annual colour / colour report is published
             L=lambda n,u:f'<a href="{e(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
@@ -557,7 +568,7 @@ def page(d, base, all_issues, is_root):
                      +(f'<ul class="cpts">{pts}</ul>' if pts else "")+(f'<div class="hues">{hs}</div><p class="note">只有標「官方」的色值是官方公布；其餘官方沒公布 HEX，色塊為示意，請以實體色卡為準。</p>' if hs else "")
                      +(f'<div class="cgrid">{"".join(cards)}</div>' if cards else "")+(f'<div class="src">來源：{src}</div>' if src else "")+'</div>')
     if cmf:
-        H.append(f'<section id="cmf"><div class="sec-head"><span class="num">02</span><h2>色彩與材質{SFX}</h2><span class="en">Colour &amp; Material</span></div>')
+        H.append(f'<section id="cmf"><div class="sec-head"><span class="num">{n_c}</span><h2>色彩與材質{SFX}</h2><span class="en">Colour &amp; Material</span></div>')
         if (d.get("color_data") or {}).get("release"): cdata_block(d["color_data"]["release"], H)
         modular = any(x.get("kind") for x in cmf)
         def cmf_card(c, span):
