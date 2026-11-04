@@ -60,6 +60,21 @@ class SelectionTests(unittest.TestCase):
         self.assertIn('class="sum"', b.ad_body({'summary': '舊摘要'}))
         self.assertEqual(b.orig_line({'orig': 'A' * 61}), '')
 
+    def test_one_per_source_and_yesterday_last(self):
+        a1 = entry('a1', source=c.ADP, kind='interview'); a2 = entry('a2', source=c.ADP, kind='interview')
+        t = entry('t1', source='The Autopian', kind='analysis'); cd = entry('cd1', source='Car Design TV', kind='analysis')
+        got = [x['id'] for x in c.select([a1, a2, t, cd], {}, '2026-11-05', 3)]
+        self.assertEqual(got.count('a1') + got.count('a2'), 1)
+        got = [x['id'] for x in c.select([t, cd, entry('t0', source='The Autopian', kind='analysis')], {'t0': '2026-11-04'}, '2026-11-05', 1)]
+        self.assertEqual(got, ['cd1'])
+
+    def test_craft_filter_rejects_launch_news(self):
+        news = 'The new model goes on sale in March with a price of $34,000, a 77 kWh battery, 300 hp and a range of 500 km. Deliveries start soon.'
+        craft = 'The designer explains how the proportions, short overhangs and the DLO graphic were refined in clay; early sketches set the stance and the H-point packaging.'
+        self.assertFalse(c.craft_ok({'kind': 'analysis'}, news))
+        self.assertTrue(c.craft_ok({'kind': 'analysis'}, craft))
+        self.assertIn(c.design_tag(craft), ('造型手法', '人因工程', '草圖與流程'))
+
     def test_back_issue_expires_after_12_months(self):
         old = entry('old', kind='issue_sample', due='2026-11-01', back_issue=True, release_date='2025-11-07')
         self.assertEqual([x['id'] for x in c.select([old], {}, '2026-11-07')], ['old'])
@@ -156,7 +171,7 @@ class FileTests(unittest.TestCase):
         rec = dict(issue=280, overdrive_url='https://example.com/280')
         c.save(od.STATE, {'issues': {'280': rec}, 'last_issue': 280})
         with self.assertRaisesRegex(ValueError, 'notes'): od.add_section(280, 'T', [1], 'short', [str(crop)], '2026-11-04')
-        notes = 'Key point read from the spread about microcar proportions and retro references. ' * 4
+        notes = 'Key point read from the spread about microcar proportions, surfacing and early sketches. ' * 4
         od.add_section(280, 'Quadricycle planet', [1], notes, [str(crop), str(crop)], '2026-11-04')
         od.add_section(280, 'Pianeta quadriciclo', [1], notes, [str(crop)])
         q = c.load(c.Q, {})['items']

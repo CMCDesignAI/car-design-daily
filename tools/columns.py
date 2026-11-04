@@ -26,9 +26,14 @@ FEEDS = {'': 'News', 'category/meet-the-designer-en-2': 'Meet the Designer', 'ca
 def today(): return dt.datetime.now(ZoneInfo('Asia/Taipei')).date().isoformat()
 def get(url):
     url = urllib.parse.quote(url, safe="%:/?&=+#@;,!$'()*[]")
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=15) as r:
-        if r.status != 200: raise ValueError(f'HTTP {r.status}')
-        return r.read()
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=15) as r:
+            if r.status != 200: raise ValueError(f'HTTP {r.status}')
+            return r.read()
+    except urllib.error.URLError as e:
+        if 'SSL' not in str(e): raise
+        import subprocess  # some hosts (carbodydesign.com) reset Python's TLS handshake; curl works
+        return subprocess.run(['curl', '-sfL', '-m', '20', '-A', UA['User-Agent'], url], check=True, capture_output=True).stdout
 def load(path, default):
     try: return json.loads(Path(path).read_text(encoding='utf-8'))
     except FileNotFoundError: return default
@@ -125,7 +130,18 @@ def extract_article(raw, url):
     parsed = ArticleHTML(raw, url)
     metadata = Page(raw)
     paywalled = parsed.paywalled or any(v is False or str(v).lower() == 'false' for v in values(metadata.scripts, 'isAccessibleForFree'))
-    return '\n\n'.join(parsed.paragraphs), parsed.images, paywalled
+    body, images = '\n\n'.join(parsed.paragraphs), parsed.images
+    if len(body) < 800 and not paywalled:
+        # Lenient fallback for themes whose wrappers confuse the stack parser (Autopian, Car Body Design):
+        # long <p> runs in document order, plus <figure> images, minus nav/footer/aside blocks.
+        core = re.sub(r'(?is)<(nav|footer|aside|header|script|style|noscript|form)\b.*?</\1>', ' ', raw)
+        paras = [text(p) for p in re.findall(r'(?is)<p\b[^>]*>(.*?)</p>', core)]
+        paras = [p for p in paras if len(p) >= 60 and not re.search(r'cookie|subscribe|newsletter|all rights reserved|sign up', p, re.I)]
+        if sum(map(len, paras)) > len(body):
+            body = '\n\n'.join(paras)
+            figs = ArticleHTML('<article>' + ' '.join(re.findall(r'(?is)<figure\b.*?</figure>', core)) + '</article>', url).images
+            images = images or figs
+    return body, images, paywalled
 
 
 def values(obj, key):
@@ -162,6 +178,12 @@ def rss(url, source, prefix, label=None):
                 for name in KINDS:
                     if name.upper() in [c.upper() for c in cats]: col = name; break
             kind = KINDS[col]
+        elif label == 'Tutorial':
+            kind = 'tutorial'; col = 'Design Tutorial'
+            if re.search(r'webinar|course|review:|giveaway|discount', title, re.I): continue
+        elif source == 'Formtrends':
+            if re.search(r'\s[–-]\s.*(?:germany|uk|usa|china|japan|italy|france|sweden|remote)|\b(?:senior|junior|lead)?\s*\w*\s*designer\s*[–-]|job|vacanc|hiring', title, re.I): continue
+            kind = 'interview' if re.search(r'\bon\b|interview|talks|explains', title, re.I) else 'analysis'; col = 'Formtrends'
         elif source in ('Car Design TV', 'The Autopian', 'Wallpaper*', 'Disegno'):
             if source == 'Car Design TV':
                 parts = urllib.parse.urlsplit(link)
@@ -182,7 +204,40 @@ def rss(url, source, prefix, label=None):
         image = re.search(r'<img[^>]+src=[\'"]([^\'"]+)', body)
         yield item(source, prefix, link, title, iso(it.findtext('pubDate')), kind, col, excerpt, html.unescape(image[1]) if image else None)
 
+# zley 11/4: 02 = car design craft (form language, sketching, ergonomics) shown on a specific car, not launch news.
+CRAFT = {
+  '設計故事': r'design story|story behind|development story|before production|from concept to production|inspired by|inspiration|wanted (?:it )?to (?:feel|look|express)|feeling of|emotion|design theme|theme was|concept was|we didn.t want|開発ストーリー|開発秘話|コンセプトは|イメージ|狙い|ispirazion',
+  '設計師專訪': r'designer|head of design|design director|chief designer|told us|explains|interview|デザイナー|インタビュー|語る',
+  '草圖與流程': r'sketch|render|drawing|tape drawing|clay|scale model|full.size model|mock.?up|design process|design review|iteration|competition between|theme selection|digital model|\bVR\b|alias|スケッチ|レンダリング|クレイ|モデル化|デザインプロセス|schizz|modello',
+  '造型手法': r'proportion|surfac|feature line|character line|shoulder|beltline|stance|\bDLO\b|daylight opening|graphic|silhouette|overhang|tumblehome|plan view|volume|sculpt|form language|design language|fuel tank shape|tank shape|tail section|cowl|fairing|プロポーション|面構成|キャラクターライン|造形|スタンス|フォルム|シルエット|proporzion|superfic',
+  '人因工程': r'ergonom|packag|h.point|hip point|seating position|riding position|visibility|sightline|ingress|egress|step.in|headroom|legroom|reach|human factor|interior layout|cabin layout|usability|パッケージ|居住性|視界|乗降|人間工学|ポジション|abitabil',
+  '空力與工程': r'aerodynam|\bcd\b|drag coefficient|downforce|wind tunnel|airflow|cooling|cfd|lightweight|stiffness|engineering challenge|solved|trade.off|regulation|crash|空力|風洞|空気抵抗|冷却|剛性|aerodinam',
+}
+NEWS = r'\bprice[ds]?\b|\$\d|€\d|£\d|\bMSRP\b|on sale|launch(?:es|ed)? in|deliveries|\brange of\b|\bkWh\b|horsepower|\bhp\b|\bkW\b|0.(?:60|100)|torque|top speed|order books|trim levels?|lease|価格|発売|万円|prezzo'
+def craft_scores(t):
+    t=t or ''
+    return {k: len(set(m.lower() for m in re.findall(v, t, re.I))) for k,v in CRAFT.items()}
+def news_score(t): return len(re.findall(NEWS, t or '', re.I))
+def craft_score(t):
+    c=craft_scores(t); return sum(v for k,v in c.items() if k!='設計師專訪')+min(c['設計師專訪'],2)
+    # 設計師專訪 alone is not craft; it only adds weight to real design discussion
+def design_tag(t):
+    c=craft_scores(t); c['設計師專訪']=min(c['設計師專訪'],2)
+    return max(c, key=c.get) if any(c.values()) else ''
+def craft_ok(x, body):
+    # Full-body test: enough distinct craft terms and not dominated by spec/price/launch talk.
+    c=craft_score(body); n=news_score(body)
+    if x.get('kind')=='issue_sample': return c>=2 and n<=c
+    # zley 11/4 bar (ADP Capri interview type): Auto&Design pages must tell the design story —
+    # process, sketches, intent, designer voice — not just present a product.
+    if x.get('source')==AD:
+        k=craft_scores(body); story=k['設計故事']+k['草圖與流程']+min(k['設計師專訪'],2)
+        if story<3: return False
+    if x.get('kind')=='tutorial': return c>=2
+    return c>=4 and n<c
+
 MF = 'CAR STYLING / Motor-Fan'
+ADP = 'Automotive Design Planet'
 HD = 'Honda Design'
 
 def core77_title(title): return re.sub(r'\s+- Core77$', '', title).strip()
@@ -196,13 +251,21 @@ def public_article(source, prefix, url):
         title = title.removesuffix(' | Motor Fan｜自動車情報のモーターファン')
         kind = 'concept' if 'コンセプト' in title else ('interview' if re.search(r'インタビュー|語る|デザイナー', title) else ('analysis' if re.search(r'スタイリング|インテリア|CMF|デザイン|解説|編', title) else 'news'))
         column = 'CAR STYLING'
+    elif source == 'Motor-Fan TECH':
+        title = title.removesuffix(' | Motor Fan｜自動車情報のモーターファン'); kind = 'analysis'; column = 'Motor-Fan TECH'
+    elif source == ADP:
+        m = re.search(r'/stories/(\d{10})-', url)
+        if m and not date: date = dt.datetime.fromtimestamp(int(m[1]), dt.timezone.utc).date().isoformat()
+        kind = 'interview' if re.search(r'interview', url + title, re.I) else 'analysis'; column = 'Design Story'
+        # Full text is for signed-in members; scripts never log in. The routine's browser subagent reads it.
     else:
         if not date:
             match = re.search(r'(?<!\d)(20\d{2})(0[1-9]|1[0-2])', urllib.parse.urlsplit(url).path)
             if match: date = f'{match[1]}-{match[2]}-01'
         kind = 'interview'; column = 'Honda Design Interview'
     x = item(source, prefix, url, title, date, kind, column, p.meta.get('og:description', ''), p.meta.get('og:image'))
-    if source == MF: x['language'] = 'ja'
+    if source in (MF, 'Motor-Fan TECH'): x['language'] = 'ja'
+    if source == ADP: x['needs_browser'] = True
     return x
 
 
@@ -214,7 +277,7 @@ def fetch(days):
             if not core77_keep(x['title_en']): x['removed'] = True
     def add(x):
         nonlocal count
-        if not x['date'] or x['date'] < cut or (x['kind'] == 'news' and x['source'] != AD): return
+        if not x['date'] or (x['date'] < cut and x['kind'] != 'tutorial' and x['source'] != ADP) or (x['kind'] == 'news' and x['source'] != AD): return
         old = q['items'].get(x['id'])
         if old:
             if x['source'] == AD and list(KINDS).index(x['column']) < list(KINDS).index(old['column']): old.update(column=x['column'], kind=x['kind'])
@@ -224,13 +287,15 @@ def fetch(days):
     jobs += [('Car Design TV', 'https://www.cardesigntv.com/feed/', 'cdtv-', 'Design Analysis'),
              ('The Autopian', 'https://www.theautopian.com/category/damn-good-design/feed/', 'ap-', 'Damn Good Design (Adrian Clarke)'),
              ('Wallpaper*', 'https://www.wallpaper.com/feeds/tag/transportation', 'wp-', 'Transportation'),
-             ('Disegno', 'https://disegnojournal.com/newsfeed?format=rss', 'dg-', 'Disegno')]
+             ('Disegno', 'https://disegnojournal.com/newsfeed?format=rss', 'dg-', 'Disegno'),
+             ('The Autopian', 'https://www.theautopian.com/tag/car-design/feed/', 'ap-', 'Car Design'),
+             ('Formtrends', 'https://www.formtrends.com/feed/', 'ft-', 'Formtrends')]
     for source, url, prefix, label in jobs:
-        for p in range(1, 6 if source == AD else 2):
+        for p in range(1, 6 if source == AD else (4 if label == 'Tutorial' else 2)):
             try:
                 batch = list(rss(url + (f'?paged={p}' if p > 1 else ''), source, prefix, label))
                 for x in batch: add(x)
-                if not batch or min(x['date'] for x in batch if x['date']) < cut or len(batch) < 10: break
+                if not batch or (label != 'Tutorial' and min(x['date'] for x in batch if x['date']) < cut) or len(batch) < 10: break
             except Exception as e: print(f'{source}: {e}', file=sys.stderr); break
     for source, base, pattern, prefix, limit in [
         ('Car Design News','https://www.cardesignnews.com/',r'/(?:cars|cmf|designers|interiors|lighting|ux)/[^/?#]+/\d+/?$', 'cdn-',25),
@@ -256,6 +321,9 @@ def fetch(days):
             except Exception as e: print(f'{source} {url}: {e}', file=sys.stderr)
     for source, base, pattern, prefix, limit in [
         (MF, 'https://motor-fan.jp/publisher/carstyling-jp/', r'^/article/\d+/?$', 'mf-', 15),
+        (MF, 'https://motor-fan.jp/publisher/carstyling-jp/page/2/', r'^/article/\d+/?$', 'mf-', 15),
+        ('Motor-Fan TECH', 'https://motor-fan.jp/publisher/tech/', r'^/article/\d+/?$', 'mft-', 10),
+        (ADP, 'https://automotivedesignplanet.com/', r'^/stories/\d{10}-', 'adp-', 15),
         (HD, 'https://global.honda/jp/design/', r'/design/interview/', 'hd-', None)]:
         try:
             links = list(dict.fromkeys(urllib.parse.urljoin(base, urllib.parse.urlsplit(u).path) for u in page(base).links if re.search(pattern, urllib.parse.urlsplit(u).path) and urllib.parse.urlsplit(urllib.parse.urljoin(base,u)).netloc == urllib.parse.urlsplit(base).netloc))
@@ -284,6 +352,8 @@ def tier(x):
         (MF, 'interview'): 2, (HD, 'interview'): 2,
         (AD, 'concept'): 4, (AD, 'analysis'): 4,
         ('The Autopian', 'analysis'): 3, ('Car Design TV', 'analysis'): 3,
+        ('Car Body Design', 'tutorial'): 3, ('Formtrends', 'interview'): 3, ('Formtrends', 'analysis'): 5,
+        (ADP, 'interview'): 1, (ADP, 'analysis'): 2, ('Motor-Fan TECH', 'analysis'): 4,
         ('Car Body Design', 'making_of'): 5, ('Car Body Design', 'concept'): 5,
         ('Car Design TV', 'concept'): 5, (MF, 'concept'): 5,
         ('Dezeen', 'interview'): 6, ('Dezeen', 'concept'): 6,
@@ -302,7 +372,15 @@ def select(items, used, date, n=None, exclude=''):
         n = 2 if any((x['source']==AD and x['column']=='Meet the Designer') for x in fresh) or any(v>=3 for v in batches.values()) or any(x['kind']=='issue_sample' and x.get('due')==date for x in pool) else 1
     sample_used = any(x['kind']=='issue_sample' and used.get(x['id'])==date for x in items)
     if sample_used: pool = [x for x in pool if x['kind'] != 'issue_sample']
-    pool.sort(key=lambda x:(tier(x),x.get('due',x['date']),x['id']))
+    def hint(x):
+        if x.get('craft') is not None: return 0 if x.get('craft_ok') else 3  # from rescore --fetch
+        t=x['title_en']+' '+x.get('excerpt',''); c=craft_score(t); n=news_score(t)
+        return -1 if c>=3 else (2 if n>c else 0)
+    pool=[x for x in pool if x.get('craft_ok') is not False]
+    # zley: diversify. A source used yesterday sorts after other qualifying sources of the same rank.
+    byid={y['id']:y for y in items}; prev=(dt.date.fromisoformat(date)-dt.timedelta(days=1)).isoformat()
+    yesterday={byid[i]['source'] for i,d in used.items() if d==prev and i in byid}
+    pool.sort(key=lambda x:(tier(x)+(0 if tier(x)==0 else hint(x)),x['source'] in yesterday,x.get('due',x['date']),x['id']))
     result = []
     ad_used = any(used.get(x['id'])==date and x['source']==AD for x in items)
     for x in pool:
@@ -311,6 +389,9 @@ def select(items, used, date, n=None, exclude=''):
             if sample_used: continue
             sample_used=True
         if x['source']=='Core77' and any(y['source']!='Core77' for y in pool): continue
+        # zley pacing: every source (ADP, Auto&Design incl. issue samples, …) max 1 card per day.
+        today_src={byid[i]['source'] for i,d in used.items() if d==date and i in byid}|{y['source'] for y in result}
+        if x['source'] in today_src: continue
         # zley pacing: Auto&Design (issue samples + web columns combined) max 1 card per day.
         if x['source']==AD:
             if ad_used: continue
@@ -337,18 +418,21 @@ def pick(date,n,exclude,imgdir,dry_run=False):
         else:
             try:
                 body,images,paywalled=extract_article(get(x['url']).decode('utf-8','replace'),x['url'])
-                if paywalled: x['paywalled']=True; reason='paywalled'
+                if x.get('needs_browser'): pass  # partial public text is fine; browser fills the rest
+                elif paywalled: x['paywalled']=True; reason='paywalled'
                 elif len(body)<800: reason='body_too_short'
             except Exception as e:
                 reason='fetch_failed'
                 print(f"article {x['id']}: {e}",file=sys.stderr)
+        if not reason and not x.get('needs_browser') and not craft_ok(x, body+' '+x['title_en']): reason='not_design_craft'
         if reason:
+            if reason=='not_design_craft': x['craft_ok']=False
             x['skipped_reason']=reason
             continue
         x.pop('skipped_reason',None)
-        if x['source']==AD: candidates=[y for y in candidates if y['source']!=AD]
-        o={k:x.get(k) for k in ('id','source','credit','kind','column','date','url','paywalled','excerpt')}
-        o.update(orig=x['title_en'],title='',summary='',body=body[:12000],images=images,image=None,image2=None,more_images=[])
+        candidates=[y for y in candidates if y['source']!=x['source']]  # 1 per source per day
+        o={k:x.get(k) for k in ('id','source','credit','kind','column','date','url','paywalled','excerpt','needs_browser')}
+        o.update(orig=x['title_en'],title='',browser_task=('Signed-in box browser: read the full article text and article-body image URLs at url, then write points' if x.get('needs_browser') else None),design_tag=design_tag(body+' '+x['title_en']),points=[],craft_score=craft_score(body),body=body[:12000],images=images,image=None,image2=None,more_images=[])
         if x['kind']=='issue_sample':
             o.update({k:x.get(k) for k in ('issue_no','part','sample_pages','section','language')})
             candidates=[y for y in candidates if y['kind']!='issue_sample']
@@ -380,6 +464,22 @@ def pick(date,n,exclude,imgdir,dry_run=False):
             print(f"NOTE {o['id']}: orig title is not English; build.py hides it (add orig_title_zh only for a needed term with 中文註解). Write title/summary in 繁中, no kana.", file=sys.stderr)
     print(json.dumps(out,ensure_ascii=False,indent=2))
 
+def rescore(fetch_body=False, limit=None):
+    migrate(); q=load(Q,{'items':{}}); used=load(LOG,{'used':{}})['used']; d=today(); n=0
+    live=[x for x in q['items'].values() if not x.get('removed') and not x.get('used') and x['id'] not in used and tier(x)<99 and not expired(x,d) and not x.get('paywalled') and x['source']!='Car Design News']
+    for x in live:
+        if fetch_body and (limit is None or n<limit) and x.get('craft') is None:
+            n+=1
+            try:
+                body=x.get('notes','') if x['kind']=='issue_sample' else extract_article(get(x['url']).decode('utf-8','replace'),x['url'])[0]
+                if x['kind']!='issue_sample' and len(body)<800 and not x.get('needs_browser'): x['craft_ok']=False; x['craft']=0; x['skipped_reason']='body_too_short'; continue
+                if x.get('needs_browser'): x['craft']=craft_score(body+' '+x['title_en']); x['craft_ok']=True; x['design_tag']=design_tag(body+' '+x['title_en']); continue
+                x['craft']=craft_score(body+' '+x['title_en']); x['craft_news']=news_score(body); x['craft_ok']=craft_ok(x, body+' '+x['title_en']); x['design_tag']=design_tag(body+' '+x['title_en'])
+            except Exception as e: print(f"rescore {x['id']}: {e}",file=sys.stderr)
+    save(Q,q)
+    ok=[x for x in live if x.get('craft_ok')]
+    print(json.dumps(dict(live=len(live),checked=sum(1 for x in live if x.get('craft') is not None),qualify=len(ok),by_source=dict(collections.Counter(x['source'] for x in ok)),by_tag=dict(collections.Counter(x.get('design_tag') for x in ok))),ensure_ascii=False))
+
 def commit(date,ids):
     migrate(); q=load(Q,{'items':{}}); log=load(LOG,{'used':{}})
     for iid in ids:
@@ -394,7 +494,7 @@ def status():
     print(json.dumps(dict(unused=len(left),by_source=dict(collections.Counter(x['source'] for x in left)),by_kind=dict(collections.Counter(x['kind'] for x in left)),used=len(used),weeks_at_1_per_day=round(len(left)/7,1)),ensure_ascii=False))
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__); ap.add_argument('cmd',choices=['fetch','pick','commit','status']); ap.add_argument('--date'); ap.add_argument('--days',type=int,default=14); ap.add_argument('--n',type=int); ap.add_argument('--exclude',default=''); ap.add_argument('--img-dir'); ap.add_argument('--ids',default='')
+    ap=argparse.ArgumentParser(description=__doc__); ap.add_argument('cmd',choices=['fetch','pick','commit','status','rescore']); ap.add_argument('--date'); ap.add_argument('--days',type=int,default=14); ap.add_argument('--n',type=int); ap.add_argument('--exclude',default=''); ap.add_argument('--img-dir'); ap.add_argument('--ids',default=''); ap.add_argument('--fetch-body',action='store_true'); ap.add_argument('--limit',type=int)
     ap.add_argument('--dry-run',action='store_true',help='do not persist queue changes (pick still fetches public HTML)')
     a=ap.parse_args()
     if a.cmd in ('pick','commit'):
@@ -405,6 +505,7 @@ def main():
     if a.cmd=='fetch': print('new',fetch(a.days)); status()
     elif a.cmd=='pick': pick(a.date,a.n,a.exclude,a.img_dir,a.dry_run)
     elif a.cmd=='commit': commit(a.date,[x.strip() for x in a.ids.split(',') if x.strip()])
+    elif a.cmd=='rescore': rescore(a.fetch_body,a.limit)
     else: status()
 
 if __name__=='__main__': main()

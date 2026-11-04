@@ -572,12 +572,12 @@ def page(d, base, all_issues, is_root):
     # 02 Auto&Design column digest (optional; hidden when empty)
     if AD:
         warn_untranslated(date, AD)
-        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · CAR STYLING · Car Design TV · The Autopian · Dezeen</span></div><div class="cmf">')
+        H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Stories · Auto&amp;Design · ADP · CAR STYLING · Car Design TV · The Autopian</span></div><div class="cmf">')
         for a in AD:
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             g = zh_alts(g)
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{(e(a["design_tag"]) + " · ") if a.get("design_tag") else ""}{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []

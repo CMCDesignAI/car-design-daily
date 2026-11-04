@@ -14,7 +14,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-avatr-luxury-but-casual": {
       "id": "ad-avatr-luxury-but-casual",
@@ -32,7 +36,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-car-of-the-year-2027-the-finalists": {
       "id": "ad-car-of-the-year-2027-the-finalists",
@@ -50,7 +58,10 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "skipped_reason": "body_too_short",
+      "craft_ok": false,
+      "craft": 0
     },
     "ad-jas-tensei-honda-nsx-reborn-with-pininfarinas-touch": {
       "id": "ad-jas-tensei-honda-nsx-reborn-with-pininfarinas-touch",
@@ -69,7 +80,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 8,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-gfg-style-peralta-d-the-history-lies-in-the-details": {
       "id": "ad-gfg-style-peralta-d-the-history-lies-in-the-details",
@@ -89,7 +104,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 4,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-lepas-aura-concept-strength-and-refinement": {
       "id": "ad-lepas-aura-concept-strength-and-refinement",
@@ -107,7 +126,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 14,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-autostyle-2026-next-generation-design": {
       "id": "ad-autostyle-2026-next-generation-design",
@@ -126,7 +149,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "草圖與流程"
     },
     "ad-polestar-and-the-university-of-oxford-test-the-human-experience-of-performance": {
       "id": "ad-polestar-and-the-university-of-oxford-test-the-human-experience-of-performance",
@@ -144,7 +171,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 1,
+      "craft_news": 5,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-eterea-911-iperleggera-on-show-in-turin": {
       "id": "ad-eterea-911-iperleggera-on-show-in-turin",
@@ -162,7 +193,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 7,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-jaguar-type-01-a-new-vision": {
       "id": "ad-jaguar-type-01-a-new-vision",
@@ -181,7 +216,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-porsche-mission-s-a-kump-into-the-future": {
       "id": "ad-porsche-mission-s-a-kump-into-the-future",
@@ -200,7 +239,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 8,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-nissan-x-trail-n-trek-25-years-of-off-roading": {
       "id": "ad-nissan-x-trail-n-trek-25-years-of-off-roading",
@@ -220,7 +263,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 0,
+      "craft_news": 3,
+      "craft_ok": false,
+      "design_tag": ""
     },
     "ad-il-genio-schivo-di-brovarone-in-mostra-al-mauto": {
       "id": "ad-il-genio-schivo-di-brovarone-in-mostra-al-mauto",
@@ -243,7 +290,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 4,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "ad-opel-stx-the-station-wagon-from-the-future": {
       "id": "ad-opel-stx-the-station-wagon-from-the-future",
@@ -262,7 +313,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car": {
       "id": "ad-citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car",
@@ -280,7 +335,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-alfa-romeo-cuorerosso-bellezza-necessaria": {
       "id": "ad-alfa-romeo-cuorerosso-bellezza-necessaria",
@@ -298,7 +357,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-fiat-multiplay-the-suv-that-turns-into-a-pickup-truck": {
       "id": "ad-fiat-multiplay-the-suv-that-turns-into-a-pickup-truck",
@@ -316,7 +379,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-torino-design-city-beyond-the-product": {
       "id": "ad-torino-design-city-beyond-the-product",
@@ -334,7 +401,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-hyundai-ioniq-3-an-ev-for-everyone": {
       "id": "ad-hyundai-ioniq-3-an-ev-for-everyone",
@@ -354,7 +425,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 9,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-jaguar-type-01-new-era-2": {
       "id": "ad-jaguar-type-01-new-era-2",
@@ -373,7 +448,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-renault-e-space-a-concept-made-for-living": {
       "id": "ad-renault-e-space-a-concept-made-for-living",
@@ -391,7 +470,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-leapmotor-b03x-global-aesthetics": {
       "id": "ad-leapmotor-b03x-global-aesthetics",
@@ -410,7 +493,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-bmw-serie-3-sporty-dynamism": {
       "id": "ad-bmw-serie-3-sporty-dynamism",
@@ -429,7 +516,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 11,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-range-rover-sport-electric-zero-emission-power": {
       "id": "ad-range-rover-sport-electric-zero-emission-power",
@@ -445,7 +536,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-peugeot-e-208-gti-a-small-electric-sports-car": {
       "id": "ad-peugeot-e-208-gti-a-small-electric-sports-car",
@@ -465,7 +560,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 4,
+      "craft_news": 5,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "ad-the-daily-crash-la-moda-va-in-scena-al-volvo-studio-milano": {
       "id": "ad-the-daily-crash-la-moda-va-in-scena-al-volvo-studio-milano",
@@ -489,7 +588,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "concept"
+      "kind": "concept",
+      "craft": 4,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-bentley-torcal-a-new-era": {
       "id": "ad-bentley-torcal-a-new-era",
@@ -508,7 +611,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-renault-8-gordini-concept-a-comeback-in-cafe-racer-style": {
       "id": "ad-renault-8-gordini-concept-a-comeback-in-cafe-racer-style",
@@ -528,7 +635,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "concept"
+      "kind": "concept",
+      "craft": 9,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-nissan-pixo-small-but-full-of-character": {
       "id": "ad-nissan-pixo-small-but-full-of-character",
@@ -547,7 +658,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-saic-roewe-jiayue-06-07-e-09-concept-inponenza-raffinata": {
       "id": "ad-saic-roewe-jiayue-06-07-e-09-concept-inponenza-raffinata",
@@ -572,7 +687,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "concept"
+      "kind": "concept",
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-lepas-l8-quality-with-chinese-twist": {
       "id": "ad-lepas-l8-quality-with-chinese-twist",
@@ -592,7 +711,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-kia-ev2-black-line-the-most-sophisticated-side-of-the-small-ev-car": {
       "id": "ad-kia-ev2-black-line-the-most-sophisticated-side-of-the-small-ev-car",
@@ -610,7 +733,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-poltrona-frau-in-motion-forty-years-of-history": {
       "id": "ad-poltrona-frau-in-motion-forty-years-of-history",
@@ -628,7 +755,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-europe-and-china-compared-design-forum-at-the-turin-auto-show": {
       "id": "ad-europe-and-china-compared-design-forum-at-the-turin-auto-show",
@@ -644,7 +775,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-gac-aion-ut-from-china-through-milan": {
       "id": "ad-gac-aion-ut-from-china-through-milan",
@@ -663,7 +798,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-autostyle-design-competition-2026-the-program-for-the-22nd-edition": {
       "id": "ad-autostyle-design-competition-2026-the-program-for-the-22nd-edition",
@@ -682,7 +821,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-tada-2026-turin-rewards-the-design-of-chinese-cars": {
       "id": "ad-tada-2026-turin-rewards-the-design-of-chinese-cars",
@@ -700,7 +843,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 1,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-volkswagen-mission-efficiency-aerodynamics-takes-the-lead": {
       "id": "ad-volkswagen-mission-efficiency-aerodynamics-takes-the-lead",
@@ -719,7 +866,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "空力與工程"
     },
     "ad-ferrari-sketch-body-a-narrative-space": {
       "id": "ad-ferrari-sketch-body-a-narrative-space",
@@ -738,7 +889,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-what-ai-cant-copy": {
       "id": "ad-what-ai-cant-copy",
@@ -757,7 +912,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "ad-dacia-spring-a-second-life-for-minimalist-design": {
       "id": "ad-dacia-spring-a-second-life-for-minimalist-design",
@@ -776,7 +935,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-seeds-of-light-a-journey-through-homo-faber-2026": {
       "id": "ad-seeds-of-light-a-journey-through-homo-faber-2026",
@@ -795,7 +958,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-audi-a2-focus-on-efficiency": {
       "id": "ad-audi-a2-focus-on-efficiency",
@@ -814,7 +981,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-mitsubishi-pajero-the-rebirth-of-an-icon": {
       "id": "ad-mitsubishi-pajero-the-rebirth-of-an-icon",
@@ -833,7 +1004,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-range-rover-electric-identity-comes-first": {
       "id": "ad-range-rover-electric-identity-comes-first",
@@ -852,7 +1027,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "ad-icon-beyond-the-boundaries-of-design": {
       "id": "ad-icon-beyond-the-boundaries-of-design",
@@ -872,7 +1051,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "analysis"
+      "kind": "analysis",
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-geely-galaxy-zhanjian-700-e-galaxy-tt-la-concretezza-delle-emozioni": {
       "id": "ad-geely-galaxy-zhanjian-700-e-galaxy-tt-la-concretezza-delle-emozioni",
@@ -896,7 +1079,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "column"
+      "kind": "column",
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-volvo-ex60-ingegno-scandinavo": {
       "id": "ad-volvo-ex60-ingegno-scandinavo",
@@ -921,7 +1108,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "column"
+      "kind": "column",
+      "craft": 7,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "ad-xpeng-l03-il-vital-flow-diventa-fastback": {
       "id": "ad-xpeng-l03-il-vital-flow-diventa-fastback",
@@ -944,7 +1135,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "column"
+      "kind": "column",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote": {
       "id": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote",
@@ -969,7 +1164,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "column"
+      "kind": "column",
+      "craft": 4,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "ad-polestar-4-suv-greater-versatility": {
       "id": "ad-polestar-4-suv-greater-versatility",
@@ -988,7 +1187,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-lexus-nx-tech-update": {
       "id": "ad-lexus-nx-tech-update",
@@ -1004,7 +1207,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 3,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "ad-genesis-gv90-focusing-on-the-essentials": {
       "id": "ad-genesis-gv90-focusing-on-the-essentials",
@@ -1023,7 +1230,11 @@
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
-      "kind": "news"
+      "kind": "news",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "ad-76698": {
       "id": "ad-76698",
@@ -1038,7 +1249,11 @@
       "image": "https://autodesignmagazine.com/wp-content/uploads/2026/11/AION-UT_Statiche-Esterne_ph.-MotorMediaLab-43.jpg?x11123",
       "excerpt": "GAC’s latest creative spark has taken the shape of the Aion UT Cross, an “off-road” reinterpretation of the compact unveiled last spring, the freshest project at the Paris Motor Show and soon to be launched in Europe. Yet, talking with Zhang Fan, head of global design at Guangzhou Automobile Group Co., it seems that the next steps in this Chinese drive for enterprise promise to be far more exciting. Starting with Italy’s pivotal role: “In 2022 we opened a studio in Milan (in the premises once used by fashion photographer Giovanni Gastel, Ed.) because we recognised its significance, internation",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "dz-concept-cars-stellantis-paris-motor-show-design-video": {
       "id": "dz-concept-cars-stellantis-paris-motor-show-design-video",
@@ -1053,7 +1268,11 @@
       "image": "https://static-2026.dezeen.com/uploads/2026/10/concept-cars-stellantis-paris-motor-show-design-video-sq-hero_dezeen_2364_col_3-1024x1024.jpg",
       "excerpt": "A Fiat that converts from a family car into a pickup and a Peugeot with a glass-bubble roof were among six concept cars unveiled by Stellantis at the 2026 Paris Motor Show, as captured in this video carousel by Dezeen. Automotive corporation Stellantis unveiled the six concepts at a preview event in Meudon, outside Paris, on the eve of the motor show, offering an early look at the designs before the exhibition opened to the public. The concepts explored different approaches to future car design – from reworking historic models to experimenting with colour-changing paint and illuminated bodywor",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "dz-tesla-launches-flying-roadster-concept-car": {
       "id": "dz-tesla-launches-flying-roadster-concept-car",
@@ -1068,7 +1287,11 @@
       "image": "https://static-2026.dezeen.com/uploads/2026/10/tesla-roadster-flying-car_dezeen_2364_sq-1024x1024.jpg",
       "excerpt": "Electric car company Tesla has unveiled its flying Roadster vehicle with a demonstration in which the car drove upside down, flipped off a ramp and briefly flew, using compressed-air thrusters that Tesla claims will make it the world's quickest production car. During a live event in Texas, the two-seat Roadster model drove up a half-pipe ramp and launched off the top, remaining in the air for a few seconds before landing It also became airborne after building up speed on flat ground, launching over a row of parked vehicles. It then lifted off from a stationary position. Gallery Previous Next G",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "dz-jaguar-type-01-electric-car-this-week": {
       "id": "dz-jaguar-type-01-electric-car-this-week",
@@ -1083,7 +1306,11 @@
       "image": "https://static-2026.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-852x852.jpg",
       "excerpt": "This week on Dezeen , we revealed Jaguar's Type 01 electric car , which was designed to \"inaugurate a new era\" for the British car brand. Created as the first car in a new era for Jaguar, the Type 01 was unveiled at an exclusive event in New York. The car is the production version of the Type 00 concept car that was revealed alongside a highly controversial rebrand two years ago. Dezeen visited Jaguar's London flagship store ahead of the launch to take an exclusive look at the car . Neom Stadium was \"shelved indefinitely\" In architecture news, it was reported this week that Neom Stadium, which",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "dz-mschf-lexus-electric-motomorphosis-circle-car-twisted-car-amory-week": {
       "id": "dz-mschf-lexus-electric-motomorphosis-circle-car-twisted-car-amory-week",
@@ -1098,7 +1325,11 @@
       "image": "https://static-2026.dezeen.com/uploads/2026/09/motomorphosis-lexus-chelsea-industrial-circle-car-twist-car_dezeen_2364_sq-1-852x852.jpg",
       "excerpt": "Brooklyn creative studio MSCHF has created two twisted and bent versions of Lexus electric cars for New York City's fall art week, which the studio said is a play on the automotive industry's concept car prototypes. The Motomorphosis sculptures, called Circle Car and Twisted Car, were installed at Hudson Yards event space Chelsea Industrial next to their functional counterparts, a Lexus RZ450e and Lexus RX450h+. MSCHF has created two sculptures that look like morphed Lexus EVs for New York Armory Week Circle Car is an elongated Lexus RZ450e turned around on itself, while Twisted Car looks like",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "cbd-fiat-multiplina-concept": {
       "id": "cbd-fiat-multiplina-concept",
@@ -1113,7 +1344,11 @@
       "image": "http://www.carbodydesign.com/media/2026/10/Fiat-Multiplina-02-180x135.jpg",
       "excerpt": "The Fiat Multiplina is a fully electric four-seat concept built on an L7 heavy quadricycle architecture, inspired by the 1956 Fiat 600 Multipla.",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "cdn-2761500": {
       "id": "cdn-2761500",
@@ -1357,7 +1592,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1854109_lead_400_145668_.jpg",
       "excerpt": "Last night in Texas, Tesla assembled group of fans, influencers and journalists to witness the unveiling of their new Roadster. \"We need an audience to prove that it's not AI,\" Elon Musk said. \"So you guys can tell people you saw it with your eyes, because what you see with",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 7,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-The-Wild-Looking-Seating-in-Renaults-E-Space-Concept": {
       "id": "c77-The-Wild-Looking-Seating-in-Renaults-E-Space-Concept",
@@ -1372,7 +1611,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853841_lead_400_145651_.jpg",
       "excerpt": "Thanks to the Paris Motor Show, this week we've seen some wild automotive concepts from Citröen and Fiat. Now Renault gets into the game with their E-Space Concept, the name being a twist on their pioneering Espace minivan from 1984. (American readers: What the Dodge Caravan was in the 'States,",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-Hinterhers-Flexible-Bike-Cargo-Trailers": {
       "id": "c77-Hinterhers-Flexible-Bike-Cargo-Trailers",
@@ -1403,7 +1646,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853685_lead_400_145645_.jpg",
       "excerpt": "This week Fiat unveiled their Multiplay concept, a boundary-blurring vehicle with transforming bodywork. \"The concept combines the space efficiency of an MPV, the character of an SUV and the versatility of a pick-up,\" the company writes. \"At the heart of the project is the C-Pillar 'Metamorfosi' architecture: a",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-Researchers-Develop-a-Tire-Prototype-with-Replaceable-Treads": {
       "id": "c77-Researchers-Develop-a-Tire-Prototype-with-Replaceable-Treads",
@@ -1434,7 +1681,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853121_lead_400_145607_.jpg",
       "excerpt": "BMW has unveiled their new eighth-generation 3 Series, featuring their Neue Klasse design language. The exteriors evoke the calm, clean design language of the Neue Klasse concept car from a few years ago, so no surprises there. But the cockpit is quite the radical departure from conventional ones.",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "c77-These-Ignition-Button-Covers-for-Cars-Will-Surely-Fill-the-Hole-in-Your-Life": {
       "id": "c77-These-Ignition-Button-Covers-for-Cars-Will-Surely-Fill-the-Hole-in-Your-Life",
@@ -1449,7 +1700,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1852416_lead_400_145542_.jpeg",
       "excerpt": "Occasionally in order to detect a disease, doctors must look for the presence of the antibodies our systems produce in response to the disease. That reminds me of this category of objects. In this case, the disease is that we live in an increasingly unsatisfying digital world, when people were",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-UTV-Decks-How-to-Transport-a-UTV-Without-a-Trailer": {
       "id": "c77-UTV-Decks-How-to-Transport-a-UTV-Without-a-Trailer",
@@ -1480,7 +1735,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1853544_lead_400_145634_.jpg",
       "excerpt": "The development story of Citröen's iconic 2CV is a good one, and we covered it here. That model had an incredible production run, over four decades, that ended in the '90s. Now Citröen is returning to the well with their new 2CV Concept, an affordable EV. Embracing the",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "c77-Saudi-Arabia-is-Making…EVs": {
       "id": "c77-Saudi-Arabia-is-Making…EVs",
@@ -1511,7 +1770,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1850995_lead_400_145443_.jpg",
       "excerpt": "Who wants to use a touchscreen to open the glovebox?",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "c77-Motomorphosis-MSCHFs-Radically-Modified-Lexuses": {
       "id": "c77-Motomorphosis-MSCHFs-Radically-Modified-Lexuses",
@@ -1542,7 +1805,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1850556_lead_400_145399_.jpg",
       "excerpt": "Have you ever wondered what an Italian pickup truck would look like? Well, here's your answer: It's even got a sunroof: Apparently in the 20th century, a handful of Italian motorists with quirky tastes hired coachbuilders to convert their Fiat",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-Why-Did-the-Aerodynamic-Look-Go-Away-and-Will-It-Come-Back": {
       "id": "c77-Why-Did-the-Aerodynamic-Look-Go-Away-and-Will-It-Come-Back",
@@ -1557,7 +1824,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1850307_lead_400_145389_.jpg",
       "excerpt": "For automakers on the cusp of the 1990s, interest in aerodynamic efficiency was high. This yielded popular cars—the 1988 Honda CRX, the 1989 Ford Thunderbird, the 1990 Mazda RX-7—with drag coefficients (Cd) around 0.32. This aerodynamic sculpting also yielded, to my eye, good-looking and well-proportioned cars.",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 10,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "c77-Chinese-Cars-are-Now-Achieving-5-Star-Safety-Ratings": {
       "id": "c77-Chinese-Cars-are-Now-Achieving-5-Star-Safety-Ratings",
@@ -1572,7 +1843,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1849766_lead_400_145347_.jpg",
       "excerpt": "...in Europe, where standards are stricter than in the U.S.",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-Americans-Invent-Yet-Another-Crazy-Ass-Racing-Style-King-of-the-Hill": {
       "id": "c77-Americans-Invent-Yet-Another-Crazy-Ass-Racing-Style-King-of-the-Hill",
@@ -1603,7 +1878,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1848523_lead_400_145264_.jpg",
       "excerpt": "Here we see footage of the Baja Mongolia offroad racing event. The vehicle is a UTV fielded by the GTHub team out of Ulan Bataar. Now look at it from the other side: Mid-race, they destroyed their vehicle's front left suspension, severing the connection to the front left",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-Which-Folding-Bicycle-Design-has-the-Best-UX": {
       "id": "c77-Which-Folding-Bicycle-Design-has-the-Best-UX",
@@ -1634,7 +1913,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1847907_lead_400_145215_.jpg",
       "excerpt": "Genesis, Hyundai's luxury spin-off, has just unveiled their new GV90 Neolun flagship. And it's a doozy. The luxury three-row electric SUV, which has a 311-mile (500km) range, has a feature no competitor has: What used to be called suicide doors, but which are now known as coach doors. Genesis' engineers",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 3,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "c77-An-Historical-Industrial-Design-Beef-Raymond-Loewy-vs-Virgil-Exner": {
       "id": "c77-An-Historical-Industrial-Design-Beef-Raymond-Loewy-vs-Virgil-Exner",
@@ -1649,7 +1932,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1847611_lead_400_145189_.jpg",
       "excerpt": "Industrial design intrigue: Did you know Raymond Loewy and Virgil Exner, the man who turned Chrysler into a design force in the 1950s, didn't get along? After World War II ended in 1945, U.S. automakers had to switch from wartime production back to making cars. But they had no new",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "c77-The-Summertime-Temperature-Differences-of-a-Black-Car-vs-a-White-Car": {
       "id": "c77-The-Summertime-Temperature-Differences-of-a-Black-Car-vs-a-White-Car",
@@ -1664,7 +1951,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1847363_lead_400_145170_.jpg",
       "excerpt": "We all know that when it's hot and sunny out, white clothing keeps you cooler than black clothing. Lighter colors reflect the sun's heat while darker colors absorb it. How does this difference play out in car colors? Researchers at Berkeley Lab's Environmental Energy Technologies Division did a study",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "cdtv-chinas-automotive-industry-being-cheaper-is-not-the-same-as-being-better": {
       "id": "cdtv-chinas-automotive-industry-being-cheaper-is-not-the-same-as-being-better",
@@ -1679,7 +1970,11 @@
       "image": null,
       "excerpt": "The rapid expansion of Chinese automotive manufacturers into international markets is becoming one of the... The post China’s Automotive Industry: Being Cheaper Is Not the Same as Being Better appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 5,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-steenstra-gcm-styletto-renewed-interest-in-limited-production-of-the-electric-supercar-in-california": {
       "id": "cdtv-steenstra-gcm-styletto-renewed-interest-in-limited-production-of-the-electric-supercar-in-california",
@@ -1694,7 +1989,11 @@
       "image": null,
       "excerpt": "The Steenstra GCM Styletto, an exclusive zero-emission super sports car conceived by internationally renowned automotive... The post Steenstra GCM Styletto: Renewed Interest in Limited Production of the Electric Supercar in California appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 10,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-tesla-roadster-when-the-sports-car-learns-to-fly": {
       "id": "cdtv-tesla-roadster-when-the-sports-car-learns-to-fly",
@@ -1709,7 +2008,11 @@
       "image": null,
       "excerpt": "Nearly nine years after its original unveiling, Tesla has finally presented a radically redesigned version... The post Tesla Roadster: When the Sports Car Learns to Fly appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 11,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-car-design-and-the-almost-lost-art-of-seduction": {
       "id": "cdtv-car-design-and-the-almost-lost-art-of-seduction",
@@ -1724,7 +2027,11 @@
       "image": null,
       "excerpt": "When did the automobile stop trying to make us fall in love? There was a... The post Car Design and the Almost Lost Art of Seduction appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 17,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv": {
       "id": "cdtv-mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv",
@@ -1739,7 +2046,11 @@
       "image": null,
       "excerpt": "Mercedes-AMG has introduced the new AMG GT SUV, marking an important milestone in the performance division’s... The post Mercedes-AMG GT SUV: Bringing Supercar Performance to the Electric SUV appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 19,
+      "craft_news": 18,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-porsche-mission-s-rediscovering-the-essence-of-the-sports-car": {
       "id": "cdtv-porsche-mission-s-rediscovering-the-essence-of-the-sports-car",
@@ -1754,7 +2065,11 @@
       "image": null,
       "excerpt": "Porsche has unveiled the Mission S, a striking new concept that represents considerably more than another... The post Porsche Mission S: Rediscovering the Essence of the Sports Car appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 16,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-renault-e-space-concept-rediscovering-the-art-of-the-family-car": {
       "id": "cdtv-renault-e-space-concept-rediscovering-the-art-of-the-family-car",
@@ -1769,7 +2084,11 @@
       "image": null,
       "excerpt": "Renault has introduced the E-Space Concept at the 2026 Paris Motor Show, presenting a contemporary interpretation of... The post Renault E-Space Concept: Rediscovering the Art of the Family Car appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 13,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-alpine-a310-vision-reinterpreting-a-french-sports-car-icon": {
       "id": "cdtv-alpine-a310-vision-reinterpreting-a-french-sports-car-icon",
@@ -1784,7 +2103,11 @@
       "image": null,
       "excerpt": "Alpine has unveiled the A310 Vision Concept, a dramatic reinterpretation of one of the most distinctive... The post Alpine A310 Vision: Reinterpreting a French Sports Car Icon appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 14,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-peugeot-rcz-vision-the-return-of-the-french-sports-coupe": {
       "id": "cdtv-peugeot-rcz-vision-the-return-of-the-french-sports-coupe",
@@ -1799,7 +2122,11 @@
       "image": null,
       "excerpt": "Peugeot has unveiled the RCZ Vision Concept, a striking reinterpretation of its distinctive RCZ sports coupé,... The post Peugeot RCZ Vision: The Return of the French Sports Coupé appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 16,
+      "craft_news": 4,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-citroen-2-cv-fourgonnette-concept-bringing-character-back-to-the-small-delivery-van": {
       "id": "cdtv-citroen-2-cv-fourgonnette-concept-bringing-character-back-to-the-small-delivery-van",
@@ -1814,7 +2141,11 @@
       "image": null,
       "excerpt": "Alongside its new 2 CV Concept at the 2026 Paris Motor Show, Citroën has introduced... The post Citroën 2 CV Fourgonnette Concept: Bringing Character Back to the Small Delivery Van appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-citroen-2-cv-concept-reinventing-simplicity-for-the-electric-age": {
       "id": "cdtv-citroen-2-cv-concept-reinventing-simplicity-for-the-electric-age",
@@ -1829,7 +2160,11 @@
       "image": null,
       "excerpt": "Citroën has unveiled one of the most interesting concepts at the 2026 Paris Motor Show,... The post Citroën 2 CV Concept: Reinventing Simplicity for the Electric Age appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 3,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-peugeot-e-t16-concept-the-legendary-205-t16-reborn-for-the-electric-era": {
       "id": "cdtv-peugeot-e-t16-concept-the-legendary-205-t16-reborn-for-the-electric-era",
@@ -1844,7 +2179,11 @@
       "image": null,
       "excerpt": "Peugeot has unveiled one of the most spectacular concepts of the 2026 Paris Motor Show.... The post Peugeot E-T16 Concept: The Legendary 205 T16 Reborn for the Electric Era appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 15,
+      "craft_news": 7,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-fiat-multiplay-concept-one-car-three-personalities": {
       "id": "cdtv-fiat-multiplay-concept-one-car-three-personalities",
@@ -1859,7 +2198,11 @@
       "image": null,
       "excerpt": "FIAT has unveiled one of the more imaginative concepts at the 2026 Paris Motor Show.... The post FIAT Multiplay Concept: One Car, Three Personalities appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "cdtv-vauxhall-stx-concept-reinventing-the-electric-estate-car": {
       "id": "cdtv-vauxhall-stx-concept-reinventing-the-electric-estate-car",
@@ -1874,7 +2217,11 @@
       "image": null,
       "excerpt": "At the 2026 Paris Motor Show, Vauxhall has unveiled the STX Concept, a striking interpretation of... The post Vauxhall STX Concept: Reinventing the Electric Estate Car appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 18,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "cdtv-alfa-romeo-cuorerosso-italian-passion-shapes-the-future-of-alfa-romeo": {
       "id": "cdtv-alfa-romeo-cuorerosso-italian-passion-shapes-the-future-of-alfa-romeo",
@@ -1889,7 +2236,11 @@
       "image": null,
       "excerpt": "Alfa Romeo has unveiled the spectacular Cuorerosso Concept at the 2026 Paris Motor Show, presenting a bold... The post Alfa Romeo Cuorerosso: Italian Passion Shapes the Future of Alfa Romeo appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 17,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ap-why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side": {
       "id": "ap-why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side",
@@ -1904,7 +2255,11 @@
       "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/bmw102.jpg",
       "excerpt": "Well, it appears to be time once again for one of my semi-regular articles about BMW design . Like so many things in my life, this wasn’t a burden I particularly wanted or asked for, but instead is something inescapable the universe has foisted upon me because it likes seeing me suffer. As a self-confessed goth you might think suffering is something I enjoy, but that’s not the case. Unless I’m specifically paying for it. When Lord Reith created the BBC in 1922, his intention for the broadcaster was that it should ‘inform, educate and entertain’ the public. David insists on something similar he",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 13,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "ap-fiats-new-car-sounds-like-a-combination-of-the-worlds-ugliest-car-and-subarus-weirdest-truck": {
       "id": "ap-fiats-new-car-sounds-like-a-combination-of-the-worlds-ugliest-car-and-subarus-weirdest-truck",
@@ -1919,7 +2274,11 @@
       "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/FIAT-presents-Multiplay.jpg",
       "excerpt": "I contain multitudes, or Multiplatudes . In my multi-platitude, I both love the Fiat Multipla and consider it one of the ugliest cars ever made. It might well be the ugliest car ever , but the proof is in the pudding, and its beauty and virtue are in its packaging. If you want to comfortably seat six people and their luggage in a car that’s considerably shorter than, say, a full-sized American wagon, there will have to be compromises in the way the thing looks. The original, reversing-teardrop-shaped Multipla from the 1950s and 1960s just packs people on the platform of a very small car, and t",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "wp-the-ktm-x-bow-gt-xa-is-a-hardcore-road-car-built-around-true-racing-pedigree": {
       "id": "wp-the-ktm-x-bow-gt-xa-is-a-hardcore-road-car-built-around-true-racing-pedigree",
@@ -1934,7 +2293,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/tmdyhiUm9gphDCGtuuo8a9-1920-80.jpg",
       "excerpt": "This savage little confection is the GT-XA, the newest offering from Austrian specialist motorcycle and racing car manufacturer KTM X-Bow. Best known for its debut vehicle, the X-Bow, which marked a shift from two-wheeled performance to four, the GT-XA is effectively an out-and-out racing machine re-engineered for the roads. KTM X-Bow GT-XA (Image credit: KTM X-Bow) The original X-Bow was notable for its stripped back aesthetic, with no windscreen, doors, luggage space or weatherproofing. Over time, KTM diversified the offering, with the more civilised X-Bow GT even offering air conditioning.",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-clone-wars-nine-chinese-off-roaders-that-look-set-to-take-the-uk-by-storm": {
       "id": "wp-clone-wars-nine-chinese-off-roaders-that-look-set-to-take-the-uk-by-storm",
@@ -1949,7 +2312,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/HL7U5oragnkMYZ59WTWW4L-1920-80.jpg",
       "excerpt": "The original Land Rover Defender has become a quintessential symbol of British ruggedness. For decades, the ultimate mud-buster has conquered everything from the Scottish Highlands to the school run. BAW Beijing BJ212 (Image credit: BAW) Robust and virtually unstoppable, Defender has seen off challenges from Japanese, Korean and American competitors - none quite able to match the Land Rover’s unique heritage and all-round desirability. Until now, perhaps, because a new wave of automotive invaders has landed on British shores and they are all Defender doppelgangers. BYD Ti7 (Image credit: BYD)",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 12,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-down-came-a-spider-aston-martins-valhalla-loses-its-top-to-become-an-even-bigger-extrovert": {
       "id": "wp-down-came-a-spider-aston-martins-valhalla-loses-its-top-to-become-an-even-bigger-extrovert",
@@ -1964,7 +2331,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/MyKvitofczHzGvfkSpWGfe-1920-80.jpg",
       "excerpt": "The arrival of Aston Martin’s new Valhalla Spider is not exactly a stunning revelation – an open-topped variant of the marque’s first production mid-engined supercar was always on the cards. A strictly limited-edition production run like the Valhalla Coupe , the Spider adds a layer of visceral intensity for the driver whilst also making them much more visible to the world at large, which may of course be an integral part of the ownership experience. Inside the Aston Martin Valhalla Spider (Image credit: Aston Martin) Importantly for stats trackers, Valhalla Spider loses none of the headline fi",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 4,
+      "craft_ok": true,
+      "design_tag": "空力與工程"
     },
     "wp-jaguars-new-dawn": {
       "id": "wp-jaguars-new-dawn",
@@ -1979,7 +2350,10 @@
       "image": null,
       "excerpt": "",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "body_too_short"
     },
     "wp-smart-2-ev": {
       "id": "wp-smart-2-ev",
@@ -1994,7 +2368,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/6R4AiByhXLk69XdajPhNi4-1920-80.jpg",
       "excerpt": "Perhaps a little bit overlooked in the media frenzy surrounding the revival of the Citroën 2CV (and then further crushed by the inevitable attention given to dubious aerial stunts), the all-new Smart #2 is a city car that revives the spirit of the original. Smart has returned to its roots, putting the rebooted brand back into the heart of the environment it was originally created for. Smart #2 (Image credit: Smart) As is increasingly the case for car makers, Smart spans the worlds of Europe and China. The partnership make the most of brand equity and manufacturing nous, with the design element",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-porsche-mission-s-vision-reveal": {
       "id": "wp-porsche-mission-s-vision-reveal",
@@ -2009,7 +2387,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/jfj6S2coyY4RgKyktfcwbZ-1920-80.jpg",
       "excerpt": "Porsche has revealed the concept version of its new supercar, the Mission S. Unveiled last night (15 October 2026) in New York, the Vision Model precedes a limited-edition model that’ll sit above the 911 as the pinnacle of the Porsche range. It's overseen by the company’s new head of style, Tobias Sühlmann, formerly at McLaren, Aston Martin, Bentley and Bugatti, who took over from outgoing boss Michael Mauer earlier this year, following Mauer’s influential 21-year stint in the role. Porsche Mission S, Vision Model, 2026 (Image credit: Porsche) The location – a pier in Queens – was chosen as it",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 7,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-new-stellantis-concept-cars-paris-motor-show-2026": {
       "id": "wp-new-stellantis-concept-cars-paris-motor-show-2026",
@@ -2024,7 +2406,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/PmnF76b5oKPHeCP5qkp7Qn-1920-80.jpg",
       "excerpt": "Stellantis used the 2026 Mondial de l’Auto in Paris to set out its stall for the near future. Promising a veritably galactic spread of concept cars, plus a vast stand at the show itself, where a grand total of 60 cars across its eight-brand portfolio were on display. Stellantis 'The Night Before' event, Mondial de L'Auto Paris 2026 (Image credit: Jonathan Bell) Ahead of the opening day, Stellantis assembled six ultra-significant concepts for a special showing at Hangar Y in Meudon, to the south of the city centre, where a former airship hangar has been converted to a vast event space on a fore",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-the-jaguar-type-01-is-finally-here-to-herald-the-brands-electric-era-can-the-cat-strike-back": {
       "id": "wp-the-jaguar-type-01-is-finally-here-to-herald-the-brands-electric-era-can-the-cat-strike-back",
@@ -2039,7 +2425,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/r3QxyXuySv4T3FvNnXwWmE-1920-80.jpg",
       "excerpt": "So here it is, the Jaguar Type 01, the car that begins Jaguar's new electric era. Many years in the making - and that's just the PR campaign, the Type 01 needs to take the storied brand into uncharted waters, more upmarket and luxurious than any model that's gone before it, but also defiantly and irreversibly electric. Jaguar Type 01 (Image credit: Jaguar) Through a staggered series of unveils and reveals that found themselves on an unwitting collision course with the wretched culture wars, the Type 01 arrives in a slightly different - and hopefully more mature - than that which greeted the or",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 7,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-sunreef-brabus-ultima-55": {
       "id": "wp-sunreef-brabus-ultima-55",
@@ -2054,7 +2444,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/cYSfTGbrvH82YiwiyWfTVG-1920-80.jpg",
       "excerpt": "It is, concedes Francis Lapp, founder of Gdańsk-based Sunreef Yachts, a very James Bond kind of boat. Sunreef, better known as a maker of twin-hulled sailing yachts, has teamed up with Brabus to create a special edition of its 55-foot Ultima 55 boat, filtered through the German coachbuilder’s extreme automotive lens. Sunreef Brabus Ultima 55 (Image credit: Sunreef) The result – the first collaboration between the two brands, with others under discussion – is very sleek, very black, with a carbon fibre exterior that’s part exposed just like a supercar. It’s a suitably gadget-laden vessel too, w",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-aston-martin-dbx-gt-revealed-at-q-london": {
       "id": "wp-aston-martin-dbx-gt-revealed-at-q-london",
@@ -2069,7 +2463,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/UEfWK6qxPrck5NifPyKgLF-1920-80.jpg",
       "excerpt": "Aston Martin doubles down on its luxury credentials with two new announcements, one automotive and one architectural. The latter is the unveiling of Q London, a bespoke space on Mayfair’s Berkeley Square that’ll serve as both flagship showroom, destination event space, and a first point of contact for new owners and those looking to embark on their own unique commissions via Aston Martin’s Q service. Aston Martin DBX GT debuts at Q London (Image credit: Aston Martin) The new space is located on the east side of the historic city square, completing a run of premium brand showrooms in the area,",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-magnifica-air-luxury-approach-wade-black-interview": {
       "id": "wp-magnifica-air-luxury-approach-wade-black-interview",
@@ -2084,7 +2482,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/eDCyaoQPQrASK63RgGujAB-1920-80.jpg",
       "excerpt": "When is a private jet not a private jet, but not a commercial flight either? Wade Black thinks he has the answer. He’s the serial airline-industry entrepreneur who has co-founded a new business by the name of Magnifica Air , which aims to tap both those private jet travellers who want to save some money, and those first-class flyers who want to step up to something more luxurious still. When we last checked in , the airline had just revealed its spacious interiors and amenities, while a campaign to recruit pilots starts in Spring 2027. The Airbus Corporate Jet (Image credit: Magnifica Air) The",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 3,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-an-installation-from-lexus-and-mschf-adds-an-unfamiliar-twist-to-automotive-art": {
       "id": "wp-an-installation-from-lexus-and-mschf-adds-an-unfamiliar-twist-to-automotive-art",
@@ -2099,7 +2501,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/PYSGQaaGNoMc2QKH5a7PPk-1920-80.jpg",
       "excerpt": "On show this weekend at Chelsea Industrial in New York, this installation by Brooklyn-based conceptual art collective MSCHF demonstrates Lexus’s ongoing commitment to art, the avant-garde and the importance of making an impact. Motomorphosis is making its debut during Armory Week and features two outlandishly altered production Lexus EVs, a Lexus RZ450e and a Lexus RX450h+. Twisted Car , from MSCHF x Lexus's Motomorphosis installation in New York (Image credit: MSCHF x Lexus) Each model has been turned into a sculptural piece, Circle Car and Twisted Car , displayed alongside its original vehic",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "wp-priestmangoode-day-dream-transformable-rail-concept": {
       "id": "wp-priestmangoode-day-dream-transformable-rail-concept",
@@ -2114,7 +2520,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/pgBCq4r4juxfZEReU9wxWL-1920-80.jpg",
       "excerpt": "Sleeper trains are back and they’re bringing with them a world of refined, transformable interiors that turn every class of travel into a spacious, sleek experience to rival and transcend the air travel alternative. At least, that’s the takeaway from the Day/Dream concept developed by specialist transportation design bureau PriestmanGoode in collaboration with three key material partners, Testori, Kydex and Muirhead. First Class in daytime use (Image credit: PriestmanGoode) Together, the design team has incorporated a swathe of modern materials across a fantasy triple-level train that offers t",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "wp-no-alarms-and-no-surprises-as-bentley-rolls-out-the-majestic-torcal-its-first-take-on-a-luxury-ev": {
       "id": "wp-no-alarms-and-no-surprises-as-bentley-rolls-out-the-majestic-torcal-its-first-take-on-a-luxury-ev",
@@ -2129,7 +2539,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/6RWsjmDJtVpr3E7m5iTVTe-1920-80.jpg",
       "excerpt": "Bentley’s late arrival in the all-electric space has been freighted with anticipation, especially given the relatively short shrift afforded its more punctual rivals, Rolls-Royce, Jaguar and especially Ferrari. To the untrained eye, the new Bentley Torcal follows an aesthetic path that has been well-trodden by the British luxury manufacturer. A sporting SUV/crossover, it sits below the Bentayga in price and scale and squares off some of that model’s more awkward edges. The new Bentley Torcal (Image credit: Bentley Motors) In short, the Torcal looks like a Bentley. Aside from a subtle shift in",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-lume-ranger-caravan": {
       "id": "wp-lume-ranger-caravan",
@@ -2144,7 +2558,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/ZmAPdAHTFgoBJ63zjUmsKm-1920-80.jpg",
       "excerpt": "Every now and again a new design emerges from a marginalised sector that initiates a total rethink. This is the case with Lume’s new Ranger caravan, a design that somehow fuses the best of retro design for the golden era of aluminium travel trailers with a modern sensibility in design, proportion, packaging and materials. Lume Ranger (Image credit: Lume) The Ranger is a compact caravan/RV/travel trailer (delete as per your preference). With a fixed rear double bed alongside an internal bathroom and WC, the Ranger crams a lot into a small 5.19m by 2.04m footprint. The missing interior element –",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-lunaz-range-rover-classics-kermit-and-nevada": {
       "id": "wp-lunaz-range-rover-classics-kermit-and-nevada",
@@ -2159,7 +2577,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/gojGCDCoQYuKwEHBxDpSVm-1920-80.jpg",
       "excerpt": "Restomod specialist Lunaz reveals two new Range Rover commissions, showcasing the very different approaches the Silverstone-based company is able to take in its quest to update and uprate classics old and new. Kermit, a Range Rover Classic by Lunaz (Image credit: Lunaz) Since it was founded in 2018 by David Lorenz, Lunaz has evolved from specialising in electrification to offering up a diverse portfolio that embraces a number of key marques, from Bentley and Aston Martin through to Range Rover, Jaguar and Rolls-Royce . The company’s workshop is a car-lover’s dream, awash with machinery in vari",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-lovers-of-the-classic-fiat-500-have-a-fresh-opportunity-to-acquire-a-bespoke-new-version": {
       "id": "wp-lovers-of-the-classic-fiat-500-have-a-fresh-opportunity-to-acquire-a-bespoke-new-version",
@@ -2174,7 +2596,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/kmxk5DWLJRGix7dfndumQ3-1920-80.jpg",
       "excerpt": "The 500 Scattante from new British Automotive Studio La Cinquecento makes a welcome change from the deluge of fire-breathing, ultra-high-performance restomods that have come to dominate the market in restored and uprated classic cars. 500 Scattante by La Cinquecento (Image credit: La Cinquecento) The 500 Scattante is the exact opposite yet has equal amounts of charm. Featuring a new engine – sourced in this case from the Fiat 500’s successor, the 1970s Fiat 126 – with all-new suspension, braking, steering, cooling and electrical systems, the Scattante (Italian for ‘sprightly’) also has renewed",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-this-pocket-sized-porsche-from-hedley-studios-is-the-perfect-electric-track-day-companion": {
       "id": "wp-this-pocket-sized-porsche-from-hedley-studios-is-the-perfect-electric-track-day-companion",
@@ -2189,7 +2615,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/w9gHb3kR3LQYWyR6LgQouf-1920-80.jpg",
       "excerpt": "Hedley Studios, formerly known as The Little Car Company , has built its brand around making classic icons available for a fraction of the price and a fraction of the size – usually 75% scale. We’ve already sampled the Bentley Blower Jr. and the Ferrari Testa Rossa J , now it’s the turn of another classic brand. Hedley Studios x Porsche 550 J (Image credit: Hedley Studios) After three years of development, the company has announced its first collaboration with Porsche, the 550 J. Powered by an 8kW (11bhp) 48V motor, it’ll hit 40mph (if you’re brave enough) and go for 30 miles before it needs r",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "人因工程"
     },
     "wp-rolls-royce-phantom-hummingbird": {
       "id": "wp-rolls-royce-phantom-hummingbird",
@@ -2204,7 +2634,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/VRiEFD7N5Tog993meE7nZn-1920-80.jpg",
       "excerpt": "Rolls-Royce has undertaken yet another foray into exotic, off-the-beaten track materiality. The new Rolls-Royce Phantom Hummingbird, unveiled today, is the latest Private Commission from the company’s Bespoke division, along the lines of the recent Phantom Dragon and the Phantom Goldfinger . The familiar motif (Image credit: Rolls-Royce) It’s a patient, deep-pocketed customer who chooses to indulge themselves in all that Rolls-Royce Bespoke has to offer. For a start, craft takes time, as does the process of ensuring that new finishes and surfaces can be made sufficiently safe and durable for u",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-we-audition-the-ineos-quartermaster-across-field-and-dale-to-check-out-its-true-credentials": {
       "id": "wp-we-audition-the-ineos-quartermaster-across-field-and-dale-to-check-out-its-true-credentials",
@@ -2219,7 +2653,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/s4HqtzNYxyJe66hw5b9VGS-1920-80.jpg",
       "excerpt": "The unofficial rule of the countryside is that if you’re bombing around in anything that looks remotely like a brutalist building, then you’re probably a farmer. No sweeping rooflines or curvaceous windscreens, to be part of the club it’s strictly straight lines and subpar aerodynamics. Watching the Ineos Quartermaster’s angular visage appear above the hedgerow amongst Dorset's rolling hills, it looks at home. Ineos Quartermaster in the rough (Image credit: Ineos) Gone are the days when double-cab pickups qualified as vans for UK tax purposes. Even before the change, the Quartermaster never fe",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "wp-whats-new-in-roaming-homes-big-and-small-from-the-2026-dusseldorf-salon": {
       "id": "wp-whats-new-in-roaming-homes-big-and-small-from-the-2026-dusseldorf-salon",
@@ -2234,7 +2672,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/w2UKuqVRpFrPRxNef8PUG-1920-80.jpg",
       "excerpt": "Düsseldorf’s Caravan Salon is one of the RV industry’s biggest trade shows, a chance for innovation to shine in a sector driven by aspiration, technology and the romance of the unencumbered road trip. This year, there were some clear universal trends. Off roading was the order of the day, with several key players offering up spacious campers on heavy-duty 4x4 chassis, while new materials and new form factors also got a look in. Here are nine of our favourite new homes from home revealed at the 2026 show. Reisemobile ATventure 1070 Reisemobile ATventure 1070 (Image credit: Reisemobile) We start",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 5,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "wp-flexjets-new-uk-hub-for-high-flyers-marks-a-welcome-design-departure": {
       "id": "wp-flexjets-new-uk-hub-for-high-flyers-marks-a-welcome-design-departure",
@@ -2249,7 +2691,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/v4WmPfvkMRUYAd8sfv6DRL-1920-80.jpg",
       "excerpt": "A new high-end ‘gateway’ to London has just opened – but you’ll need to be arriving by private jet to use it. Flexjet , the leading luxury private aviation provider, has unveiled its new dedicated terminal at Farnborough airport in Surrey that sets a fresh benchmark for the company’s infrastructure design – and is all set to soothe, support and pleasantly surprise its well-heeled clientele. Two years in the making, the two-storey, 2,098 sq m terminal offers not only hospitality, relaxation, working and meeting space exclusively for Flexjet ‘owners’, as members of its fractional ownership schem",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-dacia-upsizes-its-offering-with-the-brilliant-bigster-an-suv-without-pretensions": {
       "id": "wp-dacia-upsizes-its-offering-with-the-brilliant-bigster-an-suv-without-pretensions",
@@ -2264,7 +2710,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/UaiMdc9U7MHSq4ABNtKSkh-1920-80.jpg",
       "excerpt": "There’s an elusive sweet spot in the midst good design, admirable function and inoffensive pricing, and the Romanian car brand Dacia wants to be right in the heart of it. Over the past two decades, with close collaboration from Renault, Dacia has built itself a rock-solid reputation as a no-nonsense bargain brand . Models like the ultra-compact Spring city car, no-frills Sandero, seven-seater Jogger, and the perennial favourite Duster crossover have all brought a robust and spirited functionalism to the market. Upcoming models include the more premium mid-size Striker, while last year’s self-c",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-lego-teams-up-with-formula-1-to-create-new-family-activities-at-billunds-lego-house": {
       "id": "wp-lego-teams-up-with-formula-1-to-create-new-family-activities-at-billunds-lego-house",
@@ -2279,7 +2729,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/rvu9xH434SXS3wR27j67wc-1920-80.jpg",
       "excerpt": "Lego House has launched a Ready, Set, Build experience to encourage Formula 1 fans to visit the company’s iconic headquarters in Denmark . The new activity will inspire families and children of all ages to design and test their own Lego race cars, then put them through their paces in a series of interactive challenges. Lego House from above (Image credit: Lego) LEGO® Porsche 911 It's not just about building a car either. Visitors to Billund become the engineers, experimenting with aerodynamics, speed and performance. They also take on pit-stop style build challenges, with giant F1-themed insta",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-audi-a2-etron": {
       "id": "wp-audi-a2-etron",
@@ -2294,7 +2748,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/ysToc2ByjoPBJGqWHN5veR-1920-80.jpg",
       "excerpt": "The long-awaited return of one of Audi’s most celebrated modern model names has been expected for a while. The contemporary A2 isn’t quite the same kind of design revival as a Renault 4 or 5 , but traces of the original car’s form are certainly in evidence, not to mention its spirit. Audi A2 e-tron (Image credit: Audi) The new Audi A2 is an e-tron, a pure electric car. The headline figure is that it offers a WLTP range of up to 646km (a shade over 401 miles) from the top of the line 84 kWh battery (smaller, cheaper 52 and 61 kWh variants are available). Audi is citing this as the most efficien",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 7,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "wp-fiat-500-spiaggina-restomod": {
       "id": "wp-fiat-500-spiaggina-restomod",
@@ -2309,7 +2767,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/juL9tSduNpZLCYXpFiyiT7-1920-80.jpg",
       "excerpt": "The original Fiat 500 is one of those evergreen, highly democratic objects that transcended wealth and class during its lifetime. In the decades that followed, the little 500’s image blossomed into cult car, design classic and highly desirable automotive tchotchke. The latter status has been given another bump by the recent resurgence of high-end beach cars, spiaggina, inspired by the 60s original commissioned by playboys and industrialists to serve as a last mile transportation solution on the Mediterranean coastline, traversing solely between the yacht, the bar and the beach. Fiat 500 Spiagg",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-jensen-interceptor-gtx": {
       "id": "wp-jensen-interceptor-gtx",
@@ -2324,7 +2786,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/Rii6UYGJ9hyEzRayapgCgE-1920-80.jpg",
       "excerpt": "The revival of beloved but niche nameplates from recent automotive history continues with the unveiling of the new Jensen Interceptor GTX. This all-new track-only supercar takes the name of a true late 60s, early 70s classic, a proto-supercar from a small manufacturer that brought together American muscle (the timeless Chrysler V8 engine) with Italian styling (by Carrozzeria Touring) with British ingenuity and idiosyncrasy. The 1967 Jensen FF featured four-wheel-drive, anti-lock brakes and traction control a full decade ahead of luxury German rivals. Jensen Interceptor GTX (Image credit: Jense",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-bristol-cars-bristol-fighter-continuation-edition": {
       "id": "wp-bristol-cars-bristol-fighter-continuation-edition",
@@ -2339,7 +2805,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/5sDjorbaz9vAvHqc72n7Re-1920-80.jpg",
       "excerpt": "Nearly a quarter of a century ago, I experienced the late flowering glory of Bristol Cars, an eccentric British manufacturer approaching the end of its first historic epoch. Spun off from the Bristol Aeroplane Company (founded in 1918), Bristol Cars parlayed the inter-war manufacturing experience it had gleaned from making car and bus bodywork into proper automotive manufacturing. Bristol Fighter, 2026 (Image credit: Bristol Cars) The car division was founded in 1945, with a factory close to Bristol’s aviation works at Filton Airport to the north of the eponymous town. Its first car was effect",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "wp-morgan-super-3-test-drive": {
       "id": "wp-morgan-super-3-test-drive",
@@ -2354,7 +2824,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/7Bh7D4ZZ9pzndu26LLe3aN-1920-80.jpg",
       "excerpt": "Morgan has a long history with three-wheeled models, dating back to the early 1900s when cyclecars were all the rage. The affectionately named Runabout was a tiller-operated tax-dodging pioneer, thanks to a motorbike engine at the front and the absence of a fourth wheel at the rear. In the late 1920s and early 1930s, the company’s three-wheeled creations took on more of the recognisable look we know today, with sculpted rear ends and partly enclosed bodywork. Morgan Super 3 (Image credit: Morgan Motor Company) In modern times, Morgan is heralded for its commitment to building classics with con",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 3,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-the-aboard-t4-brings-modernist-architecture-to-the-open-road": {
       "id": "wp-the-aboard-t4-brings-modernist-architecture-to-the-open-road",
@@ -2369,7 +2843,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/VakTiSbGwMhjHoaYbGdqv6-1920-80.jpg",
       "excerpt": "The forthcoming T4 travel trailer from Aboard continues a trend towards a more architectural approach to mobile design, coupled with all the benefits that come from an electrified platform with onboard range extender. Think of the latter as a portable power station; not only can it sustain the T4 for lengthy off grid stays, but it works with onboard electric motors to effectively ‘carry’ the weight of the trailer, allowing towing vehicles to maximise their range and economy. The T4's platform incorporates batteries and a range extender (Image credit: Aboard) When it comes to the T4’s interior,",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "wp-jeeps-new-compass-ev-is-a-promising-package-of-function-features-and-solid-construction": {
       "id": "wp-jeeps-new-compass-ev-is-a-promising-package-of-function-features-and-solid-construction",
@@ -2384,7 +2862,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/BNxYh6sW5ydPQWEp8rYFFh-1920-80.jpg",
       "excerpt": "Jeep gave its Compass line a thorough overhaul late last year, with a new e-Hybrid Plug-In model and the introduction of the all-electric Compass 4xe. Slotting into a line-up that includes the Jeep Wrangler Rubicon , flagship Jeep Wagoneer S and the Jeep Avenger 4xe , the new Compass presents a surprisingly likeable side to a brand working hard to shake off its rather rudimentary image. New Jeep Compass (Image credit: Jeep) New Jeep Compass (Image credit: Jeep) As part of the Stellantis family, Jeep has the benefits of massive parts bin and shared engineering ability as well as the pressing ne",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 3,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "wp-we-report-from-the-worlds-most-moneyed-automotive-event-monterey-car-week-2026": {
       "id": "wp-we-report-from-the-worlds-most-moneyed-automotive-event-monterey-car-week-2026",
@@ -2399,7 +2881,11 @@
       "image": "https://cdn.mos.cms.futurecdn.net/9WFLnx2varsUfQYNacWF87-1920-80.jpg",
       "excerpt": "Each year, Monterey Car Week culminates in the Pebble Beach Concours d’Elegance event, held on the Pacific-side greens of this ultra-exclusive northern Californian golf club. Alongside multiple new reveals and iconic classics, the event’s 75th edition saw the hammer fall on three-quarters of a billion dollars’ worth of historic metal, a new record. The 1996 McLaren F1 GTR sold for $34,655,000 at RM Sotheby's (Image credit: RM Sotheby's) The 2026 edition of Monterey Car Week wrapped up on August 16th after ten days of reveal events peppered across the picturesque Californian peninsula against a",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 8,
+      "craft_news": 13,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "dg-jaguar-type-01": {
       "id": "dg-jaguar-type-01",
@@ -2414,7 +2900,11 @@
       "image": "https://images.squarespace-cdn.com/content/v1/5fc559512cf09257bd89330d/9e2d6ea3-fdd4-4220-bbd6-4e5729065891/DM_R2486_Rtv2.jpg?format=1000w",
       "excerpt": "The Jaguar Type 01, photographed in New York (image: courtesy of Jaguar). In his 1964 essay ‘The Highway and the City’, American sociologist Lewis Mumford provided a striking assessment of the centrality of cars to 20th-century identity: “he who had one was a king,” Mumford wrote, “he could go where he pleased and halt where he pleased; and this machine itself appeared as a compensatory device for enlarging an ego that had been shrunken by our very success in mechanization.” At a time in which traditional working and living patterns had been severely disrupted by the rapid industrialisation (a",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 14,
+      "craft_news": 2,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "c77-Transportation-Design-Student-Work-A-Repairable-Vehicle-for-Rural-Scandinavia": {
       "id": "c77-Transportation-Design-Student-Work-A-Repairable-Vehicle-for-Rural-Scandinavia",
@@ -2429,7 +2919,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1846751_lead_400_145140_.jpeg",
       "excerpt": "In rural America, the appeal of an old truck is immense—and reflected in used truck prices. Older trucks are in-demand because they can be user-repaired, and I've got plenty of neighbors that demonstrate this. So I was interested to see this project by Love Björklund, a Transportation Design student at",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "c77-Xiaomis-Shocking-45000-Luxury-Hybrid-SUV": {
       "id": "c77-Xiaomis-Shocking-45000-Luxury-Hybrid-SUV",
@@ -2444,7 +2938,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1845482_lead_400_145051_.png",
       "excerpt": "In a stunningly short amount of time, Xiaomi has gone from making smartphones to luxury hybrid SUVs. Their new SkyNomad N90 Max is a three-row model that retails for under $45,000. It delivers 288 miles of battery-only range—or 1,059 miles of total range, thanks to a 1.5-liter turbocharged gas engine",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 1,
+      "craft_news": 2,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "c77-Londons-Olympics-needs-a-torch-design-quickly": {
       "id": "c77-Londons-Olympics-needs-a-torch-design-quickly",
@@ -2459,7 +2957,11 @@
       "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/lead_400_17083_.jpg",
       "excerpt": "Here's an interesting design brief: Design a relatively small-run (8,000-unit) handheld device capable of sustaining an open flame in wind and the UK's typically inclement weather. Oh yeah, and it should also be graphically iconic and represent the hopes and dreams of a generation of athletes.The London Organising Committee of...",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 2,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計師專訪"
     },
     "mf-1669102": {
       "id": "mf-1669102",
@@ -2475,7 +2977,11 @@
       "excerpt": "各ブランドの個性を強める方針のもと、欧州デザイン部門の責任者を入れ替え ステランティスは11月2日付で、欧州ブランドのデザイン部門の人事を実施した。シトロエンとDSオートモビルのデザイン責任者にはサンディープ・バンブラ氏 […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 4,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "mf-1667548": {
       "id": "mf-1667548",
@@ -2491,7 +2997,11 @@
       "excerpt": "モータースポーツ、スポーツコンパクト、Zの伝統。日産ファンの3つのカルチャーをそれぞれ1台で表現 日産は、ラスベガス・コンベンションセンターで11月3日から6日まで開催されるSEMAショーに、3台のコンセプトカーを出展す […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 4,
+      "craft_news": 6,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "mf-1667083": {
       "id": "mf-1667083",
@@ -2507,7 +3017,11 @@
       "excerpt": "初代のシルエットやプロポーションを、どこまで残し、どう新しくするか。ほぼ1年をかけたデザイン開発の過程 シトロエンは10月28日、2CVコンセプトのデザイン開発で描いたスケッチとドローイングを公開した。 2CVコンセプト […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "mf-1666229": {
       "id": "mf-1666229",
@@ -2523,7 +3037,11 @@
       "excerpt": "要素を削ぎ落とし、ボディ色の広い面で塊感を出す。BMWが「モノリシック」と呼ぶ、フラッグシップセダンの新しいかたち ビー・エム・ダブリューは10月29日、新型BMW 7シリーズの販売を全国のBMW正規ディーラーで開始した […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 6,
+      "craft_news": 5,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "dg-vincenzo-carmenati": {
       "id": "dg-vincenzo-carmenati",
@@ -2538,7 +3056,11 @@
       "image": "https://images.squarespace-cdn.com/content/v1/5fc559512cf09257bd89330d/c6f6f5d0-5c32-4f5c-b89b-dd53c728e28d/Vicenzo-carmenati-1.jpeg?format=1000w",
       "excerpt": "Nicolau Carmenati turned the sculptures of his grandfather, architect Vincenzo Carmenati, into lamps (image: Carmenati Archive). “‘Oblò’ in Italian means windows, and my grandfather saw these sculptures as windows into the soul,” says Nicolau Carmenati, the grandson of Italian architect Vincenzo Carmenati . “Instead of writing down his feelings, he did these kind of graphic representations, that were made of pieces of wood that were put together by hand in the shape of a window.” In Carmenati’s Oblò series , thin pieces of wood are carved and assembled together, creating indentations that rise",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 9,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "dg-oivind-slaatto-carl-hansen": {
       "id": "dg-oivind-slaatto-carl-hansen",
@@ -2553,7 +3075,11 @@
       "image": "https://images.squarespace-cdn.com/content/v1/5fc559512cf09257bd89330d/35e61de5-d649-46ba-8572-3ef0ab621a56/IR+-+Carl+Hansen+%26+S%C3%B8n+-+Begonya+Pendant+by+%C3%98ivind+Slaatto+%286%29.jpg?format=1000w",
       "excerpt": "Øivind Slaatto’s new lamp for Carl Hansen & Søn takes inspiration from the mathematical principles that characterise the growth of begonia flowers (image: Carl Hansen & Søn). Designer Øivind Slaatto ’s new lamp for Carl Hansen & Søn resembles a flower: its form is rounded like a marigold, while its petals open out in shapes that recall the mouths of foxgloves. While Slaatto’s design doesn’t imitate the shape of a particular flower, it draws on the principles that characterise the growth and balance of begonias. “It’s [called] Begonya, to play with the name and make it more synthetic,” Slaatto",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "dg-a-cartographical-statement-onne": {
       "id": "dg-a-cartographical-statement-onne",
@@ -2568,7 +3094,11 @@
       "image": "https://images.squarespace-cdn.com/content/v1/5fc559512cf09257bd89330d/9eec4402-934e-4205-9202-b619e8edf673/Onne-full-sweden-map.jpg?format=1000w",
       "excerpt": "Onne is an interactive map of Sweden marked in red to show the threats to Sámi communities (image: Petter Schölander). “In Sweden there is a narrative being spread that the indigenous, reindeer herding, Sámi people who have walked these lands for thousands of years, have too much land,” reads the text that accompanies Onne , an interactive online map. Onne details the environmental and sociopolitical forces shaping the Swedish portion of Sápmi, an Arctic territory that is home to the Sámi people, an indigenous group of some 80,000 to 100,000 people, many of whom are assimilated in surrounding",
       "added": "2026-11-04",
-      "used": false
+      "used": false,
+      "craft": 4,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "mf-1661319": {
       "id": "mf-1661319",
@@ -2584,7 +3114,11 @@
       "excerpt": "愛嬌のある顔つきは600ムルティプラ譲り。“口ひげ”やリヤのリブで往年のモチーフを再解釈 フィアットはパリモーターショーで、コンセプトカー「ムルティプリーナ」を展示した。同じブースで主役を務めたのは、1台で3通りの役割を […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 2,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "設計故事"
     },
     "mf-1660640": {
       "id": "mf-1660640",
@@ -2600,7 +3134,11 @@
       "excerpt": "開発期間2年未満をめざす新手法を採用。全幅は先代から一気に18cm拡大 ダチア・スプリングは2021年の発売以来、40を超える国で21万台以上を販売し、多くのユーザーにとって初めての電気自動車となったモデルだ。オーナーの […]",
       "added": "2026-11-04",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft": 3,
+      "craft_news": 4,
+      "craft_ok": false,
+      "design_tag": "造型手法"
     },
     "od-280-s1": {
       "id": "od-280-s1",
@@ -2634,7 +3172,13 @@
         5
       ],
       "back_issue": false,
-      "release_date": "2026-09-04"
+      "release_date": "2026-09-04",
+      "craft": 4,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-280-s2": {
       "id": "od-280-s2",
@@ -2667,7 +3211,13 @@
         5
       ],
       "back_issue": false,
-      "release_date": "2026-09-04"
+      "release_date": "2026-09-04",
+      "craft": 1,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "草圖與流程",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-280-s3": {
       "id": "od-280-s3",
@@ -2700,7 +3250,11 @@
         7
       ],
       "back_issue": false,
-      "release_date": "2026-09-04"
+      "release_date": "2026-09-04",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事"
     },
     "od-275-s1": {
       "id": "od-275-s1",
@@ -2803,7 +3357,11 @@
         7
       ],
       "back_issue": true,
-      "release_date": "2026-01-09"
+      "release_date": "2026-01-09",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "od-276-s2": {
       "id": "od-276-s2",
@@ -2835,7 +3393,11 @@
         7
       ],
       "back_issue": true,
-      "release_date": "2026-01-09"
+      "release_date": "2026-01-09",
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
     },
     "od-276-s3": {
       "id": "od-276-s3",
@@ -2867,7 +3429,13 @@
         4
       ],
       "back_issue": true,
-      "release_date": "2026-01-09"
+      "release_date": "2026-01-09",
+      "craft": 0,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-276-s4": {
       "id": "od-276-s4",
@@ -2899,7 +3467,13 @@
         5
       ],
       "back_issue": true,
-      "release_date": "2026-01-09"
+      "release_date": "2026-01-09",
+      "craft": 2,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-278-s1": {
       "id": "od-278-s1",
@@ -2932,7 +3506,13 @@
         4
       ],
       "back_issue": true,
-      "release_date": "2026-05-11"
+      "release_date": "2026-05-11",
+      "craft": 3,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": "造型手法",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-278-s2": {
       "id": "od-278-s2",
@@ -2964,7 +3544,13 @@
         4
       ],
       "back_issue": true,
-      "release_date": "2026-05-11"
+      "release_date": "2026-05-11",
+      "craft": 1,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "造型手法",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-278-s3": {
       "id": "od-278-s3",
@@ -2996,7 +3582,13 @@
         5
       ],
       "back_issue": true,
-      "release_date": "2026-05-11"
+      "release_date": "2026-05-11",
+      "craft": 3,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "空力與工程",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-279-s1": {
       "id": "od-279-s1",
@@ -3028,7 +3620,11 @@
         5
       ],
       "back_issue": true,
-      "release_date": "2026-07-03"
+      "release_date": "2026-07-03",
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計師專訪"
     },
     "od-279-s2": {
       "id": "od-279-s2",
@@ -3060,7 +3656,13 @@
         3
       ],
       "back_issue": true,
-      "release_date": "2026-07-03"
+      "release_date": "2026-07-03",
+      "craft": 0,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
     },
     "od-279-s3": {
       "id": "od-279-s3",
@@ -3092,7 +3694,700 @@
         4
       ],
       "back_issue": true,
-      "release_date": "2026-07-03"
+      "release_date": "2026-07-03",
+      "craft": 0,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": "",
+      "removed": true,
+      "skipped_reason": "product_or_trend_roundup"
+    },
+    "cbdt-sketch-it-52-automotive-rendering-video-demo": {
+      "id": "cbdt-sketch-it-52-automotive-rendering-video-demo",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "Sketch-it! #52 Automotive rendering video demo",
+      "date": "2023-03-04",
+      "url": "https://www.carbodydesign.com/tutorial/87945/sketch-it-52-automotive-rendering-video-demo/",
+      "image": "http://www.carbodydesign.com/media/2023/02/Photoshop-Car-Rendering-Tutorial-by-Leandro-Trovati-180x135.jpg",
+      "excerpt": "In this time-lapse video Leandro Trovati shows how to render a sketch in Photoshop using vector shapes as masks.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "cbdt-car-design-101-proportions": {
+      "id": "cbdt-car-design-101-proportions",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "Car Design 101 – Proportions",
+      "date": "2023-03-02",
+      "url": "https://www.carbodydesign.com/tutorial/87941/car-design-101-proportions/",
+      "image": "http://www.carbodydesign.com/media/2023/02/Car-Design-Tutorial-Proportions-180x135.jpg",
+      "excerpt": "In this video designer Berk Kaplan shows how to draw a modern E segment sedan in Photoshop focusing on proportions.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "cbdt-professional-car-design-sketching-a-super-car": {
+      "id": "cbdt-professional-car-design-sketching-a-super-car",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "Professional Car Design: Sketching a Super Car",
+      "date": "2023-02-28",
+      "url": "https://www.carbodydesign.com/tutorial/87938/professional-car-design-sketching-a-super-car/",
+      "image": "http://www.carbodydesign.com/media/2023/02/Professional-Car-Design-Sketching-a-Super-Car-180x135.jpg",
+      "excerpt": "ArtCenter Transportation Design instructor Leon Paz demonstrates how to sketch a super car using pencil and markers. Tutorial in two parts.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "cbdt-3-4-front-perspective-car-drawing-tutorial": {
+      "id": "cbdt-3-4-front-perspective-car-drawing-tutorial",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "3/4 Front Perspective Car Drawing Tutorial",
+      "date": "2021-11-16",
+      "url": "https://www.carbodydesign.com/tutorial/85988/3-4-front-perspective-car-drawing-tutorial/",
+      "image": "http://www.carbodydesign.com/media/2021/11/Car-design-sketch-by-Luciano-Bove-180x135.jpg",
+      "excerpt": "A video tutorial by Luciano Bove who creates two 3/4 front perspective sketches of a car with a rounded front end.",
+      "added": "2026-11-04",
+      "used": false,
+      "removed": true,
+      "skipped_reason": "video_only_tutorial"
+    },
+    "cbdt-3d-modeling-pockets-and-bumps-in-rhino3d": {
+      "id": "cbdt-3d-modeling-pockets-and-bumps-in-rhino3d",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "3D modeling pockets and bumps in Rhino3D",
+      "date": "2021-11-09",
+      "url": "https://www.carbodydesign.com/tutorial/85938/3d-modeling-pockets-and-bumps-in-rhino3d/",
+      "image": "http://www.carbodydesign.com/media/2021/11/3D-modeling-a-car-handle-recess-in-Rhino-180x135.jpg",
+      "excerpt": "An official tutorial by McNeel technical trainer Kyle Houchens who shows a method for modeling a clean, single-span car handle recess in Rhino.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "cbdt-sketch-modeling-a-car-exterior-in-autodesk-alias-autostudio": {
+      "id": "cbdt-sketch-modeling-a-car-exterior-in-autodesk-alias-autostudio",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "Sketch Modeling a Car Exterior in Autodesk Alias AutoStudio",
+      "date": "2020-02-04",
+      "url": "https://www.carbodydesign.com/tutorial/84611/sketch-modeling-a-car-exterior-in-autodesk-alias-autostudio/",
+      "image": "http://www.carbodydesign.com/media/2020/02/Concept-Car-Autodesk-Alias-3D-Modeling-Tutorial-180x135.jpg",
+      "excerpt": "A detailed tutorial in six parts where Raymundo Burgueno, aka HandleBar 3D, explains how to create a 3D model of a concept in Alias AutoStudio 2020.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "cbdt-mazda-3-photoshop-render-demo": {
+      "id": "cbdt-mazda-3-photoshop-render-demo",
+      "source": "Car Body Design",
+      "credit": "Car Body Design",
+      "paywalled": false,
+      "kind": "tutorial",
+      "column": "Design Tutorial",
+      "title_en": "Mazda 3 Photoshop Render Demo",
+      "date": "2019-07-22",
+      "url": "https://www.carbodydesign.com/tutorial/83642/mazda-3-photoshop-render-demo/",
+      "image": "http://www.carbodydesign.com/media/2019/07/Mazda-3-Photoshop-Render-Tutorial-180x135.jpg",
+      "excerpt": "A video demo showing how to turn a hand drawn pencil sketch into a polished render in Photoshop.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "video_only_tutorial",
+      "removed": true
+    },
+    "ap-lets-talk-about-the-midcentury-ghia-coupe-look": {
+      "id": "ap-lets-talk-about-the-midcentury-ghia-coupe-look",
+      "source": "The Autopian",
+      "credit": "The Autopian",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Car Design",
+      "title_en": "Let’s Talk About The Midcentury Ghia Coupé Look",
+      "date": "2026-10-15",
+      "url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/cs_ghia_caddy.jpg",
+      "excerpt": "At the Galpin Car Show this past weekend, among the many incredible cars there, there was one that really stuck with me: the one up top there, a Cadillac re-bodied by Ghia and owned by actress Rita Hayworth. The car was a gift from her then husband, Prince Aly Kahn, who got her the car because he’d been getting his royal rocks off with other women, and Rita had enough of that. So, in a desperate attempt to win her back, the Prince bought the car right off the stand at the 1953 Paris Auto Salon. It’s such a beautiful car, the gambit would probably have worked on me. Though, to be fair, I’m prob",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 9,
+      "craft_news": 3,
+      "craft_ok": true,
+      "design_tag": "造型手法"
+    },
+    "ap-the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it": {
+      "id": "ap-the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it",
+      "source": "The Autopian",
+      "credit": "The Autopian",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Car Design",
+      "title_en": "If You’re The Kind Of Person The Jaguar Type 01 Is Designed For, You Better Buy It",
+      "date": "2026-10-08",
+      "url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/jagsplosion2_top-1.jpg",
+      "excerpt": "Finally. Finally. After what feels like the longest and most contentious strip tease in automotive history, the Jaguar Type 01 has been revealed. Although I’ve been on my death bed with consumption or the vapors or some other equally glamorous ailment for the last couple of weeks, such is my dedication to you, the little people, that I managed to stay up until 1am last night, refreshing the Jaguar YouTube channel in anticipation of watching a glitzy, New York reveal. And as my bedside clock ticked past the anointed hour, nothing happened. A quick Google revealed all the usual media outlets had",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 12,
+      "craft_news": 3,
+      "craft_ok": true,
+      "design_tag": "造型手法"
+    },
+    "mf-1648513": {
+      "id": "mf-1648513",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "アルファロメオの将来のデザインを示すコンセプトカー「クオーレロッソ」。ひとつの塊から削り出すように形をつくった2+2クーペ",
+      "date": "2026-10-12",
+      "url": "https://motor-fan.jp/article/1648513/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/Alfa-Romeo-Cuorerosso_35.png?v=1791770870",
+      "excerpt": "そのデザインの基本にあるのは「ベッレッツァ・ネチェッサーリア（必要な美しさ）」 「クオーレロッソ（Cuorerosso）」の車名は、イタリア語で「心臓」を意味する「クオーレ」と、「赤」を意味する「ロッソ」を組み合わせたも […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "空力與工程"
+    },
+    "mf-1648427": {
+      "id": "mf-1648427",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "シトロエンが2CVを再解釈した「2CVコンセプト」を初公開。卵が収まるドアポケットなど初代へのオマージュを各部に散りばめる",
+      "date": "2026-10-12",
+      "url": "https://motor-fan.jp/article/1648427/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/CITROEN_2CV-CONCEPT_28.jpg?v=1791762505",
+      "excerpt": "「おもちゃに見えないこと」を条件に、張りのあるラインで初代のシルエットを描く 2CVコンセプトは、シトロエンが今後2年以内に発表する市販モデルのコンセプトを示したクルマだ。市販モデルは欧州で生産し、価格は1万5000ユー […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 7,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法"
+    },
+    "mf-1646536": {
+      "id": "mf-1646536",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "CAR STYLING",
+      "title_en": "「デザインのセオリーが違う」 日産の新型エルグランドは競合を追わず、クローム加飾を使わずに、フラッグシップの威厳を表現",
+      "date": "2026-10-11",
+      "url": "https://motor-fan.jp/article/1646536/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/NISSAN_ELGRAND_DESIGN_19.jpg?v=1791701354",
+      "excerpt": "競合車を意識するのをやめ、エルグランドらしさと先進技術を形にすることを選ぶ 新型エルグランドが属するLLクラスのミニバンには、強力な競合車がある。言わずもがな、トヨタ・アルファード／ヴェルファイアだ。新型エルグランドの開 […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 8,
+      "craft_news": 6,
+      "craft_ok": true,
+      "design_tag": "造型手法"
+    },
+    "mf-1647627": {
+      "id": "mf-1647627",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "CAR STYLING",
+      "title_en": "初代ホンダNSXをピニンファリーナがリデザイン。全面再設計で生まれ変わったレストモッド「JAS テンセイ」",
+      "date": "2026-10-10",
+      "url": "https://motor-fan.jp/article/1647627/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/JAS-Pininfarina_tensei_7.jpg?v=1791633076",
+      "excerpt": "ホンダ車でレースを戦ってきたJASと、HP-X以来NSXと縁のあるピニンファリーナが組んだプロジェクト ピニンファリーナは10月8日、イタリアのJASモータースポーツが開発した「JAS テンセイ（TENSEI）」を発表し […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 6,
+      "craft_news": 7,
+      "craft_ok": false,
+      "design_tag": "造型手法"
+    },
+    "mf-1645184": {
+      "id": "mf-1645184",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "アルピーヌが「プロジェ・スペシャル1」を意味するコンセプトカー「PS1」をパリモーターショーでアンベール",
+      "date": "2026-10-08",
+      "url": "https://motor-fan.jp/article/1645184/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/Alpine-PS1.jpg?v=1791417448",
+      "excerpt": "アルピーヌの3つの柱のうち、「スペシャルプロジェクト」の柱に属するモデル アルピーヌは2026年のパリモーターショーで、すでに発表済みの「アルピーヌA110スカルプチャー」とともに、コンセプトカー「PS1」を公開すること […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 2,
+      "craft_news": 5,
+      "craft_ok": false,
+      "design_tag": "造型手法"
+    },
+    "mf-1643937": {
+      "id": "mf-1643937",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "ルノーが初代エスパスのコンセプトを現代に蘇らせた「E-スペース コンセプト」をパリモーターショーで世界初公開",
+      "date": "2026-10-06",
+      "url": "https://motor-fan.jp/article/1643937/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/RENAULT_E-Space-Concept_0.jpg?v=1791327404",
+      "excerpt": "初代エスパスから40年あまり、電気自動車時代のファミリーカーを新提案 E-スペース コンセプトは、初代エスパスの登場から40年あまりを経て、ルノーが示すエスパスの将来像だ。ルノーの新しい中期計画「futuREady」は、 […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 4,
+      "craft_news": 5,
+      "craft_ok": false,
+      "design_tag": "造型手法"
+    },
+    "mf-1642730": {
+      "id": "mf-1642730",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "2026年パリモーターショーで世界初公開の注目モデルを事前チェック。シトロエン2CVの現代版やオペルSTXコンセプト、次期アルピーヌA110スカルプチャーが登場",
+      "date": "2026-10-06",
+      "url": "https://motor-fan.jp/article/1642730/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/peugeot_stand1.jpg?v=1791249227",
+      "excerpt": "1898年にパリで始まった歴史あるモーターショー。今年は60社超が出展 今年のパリモーターショー（Mondial de l’Auto）は、10月12日（月）のプレス・業界関係者デーを経て、13日から18日まで […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 5,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "設計故事"
+    },
+    "mft-1670174": {
+      "id": "mft-1670174",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "セルの直列接続を過去のものにするか。メルセデス・ベンツが発表した「分散型マイクロコンバーター」による800V生成アーキテクチャ",
+      "date": "2026-11-04",
+      "url": "https://motor-fan.jp/article/1670174/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/hochvolttechnik-2026-001de-w1680xh945-cutout.jpg?v=1793748622",
+      "excerpt": "一般的にEVバッテリーとは、必要な高電圧を得るために多数のセルを直列（シリーズ）に物理接続するが、この構造では、ひとつのセルが劣化したり電圧が下がったりすると、直列接続全体が出力低下を引き起こすという弱点がある。メルセデ […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 0,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": ""
+    },
+    "mft-1667460": {
+      "id": "mft-1667460",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "小さく、とにかく小さく。トヨタが発表した次世代ハイブリッドは1.5L専用エンジンを新設計。",
+      "date": "2026-11-01",
+      "url": "https://motor-fan.jp/article/1667460/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/1920_nextgenerationhybrid-1.5lin-line4-cylinderengine.png?v=1793488646",
+      "excerpt": "新しいハイブリッドパワートレインは、エンジン／ハイブリッドトランスミッションともに新設計。摩擦低減、熱管理（サーマルマネジメント）の改善、電気的損失および車両搭載時の空力性能の低減により、従来比で15%以上の燃費向上を目 […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 5,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法"
+    },
+    "mft-1667512": {
+      "id": "mft-1667512",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "基板内に1200V SiCを直接埋め込む。インフィニオンの車載インバーター向けENDOPACKの物理構造",
+      "date": "2026-11-01",
+      "url": "https://motor-fan.jp/article/1667512/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/endopack-cell-1200-v-coolsic-mosfet-gen2p-top.jpg?v=1793491004",
+      "excerpt": "「ENDOPACK」は、従来のパワーモジュールやワイヤーボンディングによる実装とは異なり、1200V耐圧の車載用第2世代CoolSiC（Gen2p CoolSiC MOSFET）技術をプリント基板（PCB）の層内に直接組 […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 0,
+      "craft_news": 0,
+      "craft_ok": false,
+      "design_tag": ""
+    },
+    "mft-1666014": {
+      "id": "mft-1666014",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "電動車でも“エンジンが主役”。ホンダが考える「走りのハイブリッド」e:HEVが目指す先とは",
+      "date": "2026-10-29",
+      "url": "https://motor-fan.jp/article/1666014/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/DSC06093.jpg?v=1793262943",
+      "excerpt": "1モーター、2モーター、3モーターと多種多様のシステムを作ってきた ホンダが展開するハイブリッドシステムの名称が「Honda Hybrid」へ改称されることが発表されて久しいが、去る9月某日、メディア向けにホンダのハイブ […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft": 0,
+      "craft_news": 1,
+      "craft_ok": false,
+      "design_tag": ""
+    },
+    "mft-1665825": {
+      "id": "mft-1665825",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "ベントレー V列8気筒ツインターボ【L410HT】｜内燃機関超基礎講座 〜名作エンジン図鑑",
+      "date": "2026-10-29",
+      "url": "https://motor-fan.jp/article/1665825/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/10/90b16b59a9c963209c2311fe1fe794dd-1024x696.png",
+      "excerpt": "1959年の生誕から実に2020年まで作られたご長寿エンジン 厳密に言えばフォルクスワーゲンではなく、ロールス・ロイスを源流とするバンク角90 度のV8 ユニットであり、Lシリーズと称する。当のロールスがBMW 傘下に収 […]",
+      "added": "2026-11-04",
+      "used": false,
+      "language": "ja",
+      "craft_ok": false,
+      "craft": 0,
+      "skipped_reason": "body_too_short"
+    },
+    "adp-1777899565-mazda-ez-6-6e-world-car-design-of-the-year": {
+      "id": "adp-1777899565-mazda-ez-6-6e-world-car-design-of-the-year",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "Why the Mazda EZ-6/6e Winning World Car Design of the Year Matters?",
+      "date": "2026-05-07",
+      "url": "https://automotivedesignplanet.com/stories/1777899565-mazda-ez-6-6e-world-car-design-of-the-year",
+      "image": "https://automotivedesignplanet.com/assets/content/mazda-ez-6-6e-world-car-design-of-the-year.jpg",
+      "excerpt": "The Mazda EZ-6/6e has won the 2026 World Car Design of the Year, but its real significance lies in what it says about Mazda’s EV design future, sedan design, and the survival of emotional car design.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 12,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1777506533-peugeot-concept-6-and-concept-8-design-breakdown": {
+      "id": "adp-1777506533-peugeot-concept-6-and-concept-8-design-breakdown",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "Peugeot Concept 6 & Concept 8: Design, Proportions and Future Direction Explained",
+      "date": "2026-04-30",
+      "url": "https://automotivedesignplanet.com/stories/1777506533-peugeot-concept-6-and-concept-8-design-breakdown",
+      "image": "https://automotivedesignplanet.com/assets/content/peugeot-concept-6-and-concept-8-design-breakdown.jpg",
+      "excerpt": "Peugeot Concept 6 & Concept 8 showcase a bold shift towards minimalist design. Explore proportions, surfacing, and what this means for Peugeot’s future.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 13,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1776553585-2026-nissan-juke-ev": {
+      "id": "adp-1776553585-2026-nissan-juke-ev",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "2026 Nissan Juke EV: A Sharper Rebel, But At What Cost?",
+      "date": "2026-04-18",
+      "url": "https://automotivedesignplanet.com/stories/1776553585-2026-nissan-juke-ev",
+      "image": "https://automotivedesignplanet.com/assets/content/nissan-juke-ev-2026-cover.jpg",
+      "excerpt": "The 2026 electric Nissan Juke pushes EV design into sharp new territory. Discover the specs, bold proportions, and if the rebel spirit justifies the cost.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 11,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1720476009-interview-with-amko-leenarts-on-the-design-of-new-all-electric-2024-ford-capri": {
+      "id": "adp-1720476009-interview-with-amko-leenarts-on-the-design-of-new-all-electric-2024-ford-capri",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Interview with Amko Leenarts on the design of new all-electric 2024 Ford Capri",
+      "date": "2024-07-10",
+      "url": "https://automotivedesignplanet.com/stories/1720476009-interview-with-amko-leenarts-on-the-design-of-new-all-electric-2024-ford-capri",
+      "image": "https://automotivedesignplanet.com/assets/content/interview-with-amko-leenart-on-ford-capri1.webp",
+      "excerpt": "Automotive Design Planet caught up with Ford Europe Design Director Amko Leenarts to have more insights on the design of new Ford Capri and the innovations behind this iconic car's modern revival.",
+      "added": "2026-11-04",
+      "used": false,
+      "needs_browser": true,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "craft": 18
+    },
+    "adp-1728822443-exclusive-interview-paul-wraith-on-the-2021-6th-gen-ford-bronco-design": {
+      "id": "adp-1728822443-exclusive-interview-paul-wraith-on-the-2021-6th-gen-ford-bronco-design",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Exclusive Interview: Paul Wraith on the 2021 6th Gen Ford Bronco Design",
+      "date": "2024-10-25",
+      "url": "https://automotivedesignplanet.com/stories/1728822443-exclusive-interview-paul-wraith-on-the-2021-6th-gen-ford-bronco-design",
+      "image": "https://automotivedesignplanet.com/assets/content/paul-wraith-on-the-2021-6th-gen-ford-bronco-design.webp",
+      "excerpt": "Read our exclusive interview with Paul Wraith, chief designer of the 2021 6th Gen Ford Bronco, as he shares insights on the design philosophy and challenges behind the iconic SUV",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 13,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事",
+      "needs_browser": true
+    },
+    "adp-1726999743-ford-bronco-evolution-exploring-iconic-designs-of-the-first-five-generations": {
+      "id": "adp-1726999743-ford-bronco-evolution-exploring-iconic-designs-of-the-first-five-generations",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "Ford Bronco Evolution: Exploring iconic designs of the first five generations",
+      "date": "2024-10-10",
+      "url": "https://automotivedesignplanet.com/stories/1726999743-ford-bronco-evolution-exploring-iconic-designs-of-the-first-five-generations",
+      "image": "https://automotivedesignplanet.com/assets/content/ford-bronco-evolution.webp",
+      "excerpt": "Explore the evolution of the Ford Bronco, from its rugged beginnings to its modern reinvention. Part 1, discover key design changes, innovations, and milestones that have shaped this iconic SUV in the first five generations.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 13,
+      "craft_news": 12,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1755474599-frontIQ-light-concept-by-LEONHARD-KURZ-swarovski-mobility": {
+      "id": "adp-1755474599-frontIQ-light-concept-by-LEONHARD-KURZ-swarovski-mobility",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "FrontIQ Light Concept by LEONHARD KURZ & Swarovski Mobility",
+      "date": "2025-08-17",
+      "url": "https://automotivedesignplanet.com/stories/1755474599-frontIQ-light-concept-by-LEONHARD-KURZ-swarovski-mobility",
+      "image": "https://automotivedesignplanet.com/assets/content/22.png",
+      "excerpt": "KURZ & Swarovski’s FrontIQ Light Concept redefines vehicle front-end design with crystal optics, smart lighting, and sustainable materials.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計故事",
+      "needs_browser": true
+    },
+    "adp-1729078366-citroen-c4-2024-in-depth-design-breakdown-of-exterior-features-and-innovation": {
+      "id": "adp-1729078366-citroen-c4-2024-in-depth-design-breakdown-of-exterior-features-and-innovation",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "Citroen C4 2024: In-depth design breakdown of exterior, features, and innovation",
+      "date": "2024-10-16",
+      "url": "https://automotivedesignplanet.com/stories/1729078366-citroen-c4-2024-in-depth-design-breakdown-of-exterior-features-and-innovation",
+      "image": "https://automotivedesignplanet.com/assets/content/citroen-c4-2024-in-depth-design-breakdown1.webp",
+      "excerpt": "Discover the 2024 Citroen C4 with our in-depth design breakdown. Explore its exterior design, standout features, and the latest innovations that make this model a standout in modern automotive design.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 6,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1756074872-exclusive-interview-rainer-submann-on-visionary-automotive-design": {
+      "id": "adp-1756074872-exclusive-interview-rainer-submann-on-visionary-automotive-design",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Exclusive Interview: Rainer Süßmann on visionary automotive design",
+      "date": "2025-08-25",
+      "url": "https://automotivedesignplanet.com/stories/1756074872-exclusive-interview-rainer-submann-on-visionary-automotive-design",
+      "image": "https://automotivedesignplanet.com/assets/content/Untitled_design.png",
+      "excerpt": "Discover how LEONHARD KURZ is shaping future mobility design. Rainer Süßmann discusses sustainability, intelligent surfaces, and next-generation automotive interiors.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept": {
+      "id": "adp-1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Story",
+      "title_en": "In conversation with Karma’s design team on the launch of Karma Invictus ultra-luxury concept",
+      "date": "2024-11-02",
+      "url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+      "image": "https://automotivedesignplanet.com/assets/content/karma-invictus-design-interview-10.webp",
+      "excerpt": "Discover the story behind the Karma Invictus, an ultra-luxury concept car merging meticulous design with American inspiration. Explore exclusive insights from the design team, featuring advanced materials, custom craftsmanship, and iconic Art Deco touches.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 21,
+      "craft_news": 4,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1726916288-interview-with-james-lee-on-the-design-of-new-case-ih-af10-combine-harvester-and-next-gen-agricultural-equipment": {
+      "id": "adp-1726916288-interview-with-james-lee-on-the-design-of-new-case-ih-af10-combine-harvester-and-next-gen-agricultural-equipment",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Interview with James Lee on the design of new Case IH AF10 combine harvester & next-gen agricultural equipment",
+      "date": "2024-09-22",
+      "url": "https://automotivedesignplanet.com/stories/1726916288-interview-with-james-lee-on-the-design-of-new-case-ih-af10-combine-harvester-and-next-gen-agricultural-equipment",
+      "image": "https://automotivedesignplanet.com/assets/content/interview-with-james-lee.webp",
+      "excerpt": "Read our exclusive interview with James Lee as he unveils the groundbreaking design of the Case IH AF10 Combine Harvester and the future of agricultural equipment innovation.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 16,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1722803732-interview-with-casper-kessels-on-shaping-the-future-of-automotive-ux-at-snapp-automotive": {
+      "id": "adp-1722803732-interview-with-casper-kessels-on-shaping-the-future-of-automotive-ux-at-snapp-automotive",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Interview with Casper Kessels on shaping the future of Automotive UX at Snapp Automotive",
+      "date": "2024-08-14",
+      "url": "https://automotivedesignplanet.com/stories/1722803732-interview-with-casper-kessels-on-shaping-the-future-of-automotive-ux-at-snapp-automotive",
+      "image": "https://automotivedesignplanet.com/assets/content/cover10.webp",
+      "excerpt": "Discover insights from Casper Kessels on how Snapp Automotive is revolutionizing the user experience in vehicles. Explore the latest trends, challenges, and innovations shaping the future of automotive UX.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 7,
+      "craft_news": 0,
+      "craft_ok": true,
+      "design_tag": "設計師專訪",
+      "needs_browser": true
+    },
+    "adp-1718142735-interview-with-topid-hub-founder-on-launching-a-new-video-streaming-platform": {
+      "id": "adp-1718142735-interview-with-topid-hub-founder-on-launching-a-new-video-streaming-platform",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Interview with TopiD-Hub Founder on a new video streaming platform for Auto & Moto Designers",
+      "date": "2024-06-21",
+      "url": "https://automotivedesignplanet.com/stories/1718142735-interview-with-topid-hub-founder-on-launching-a-new-video-streaming-platform",
+      "image": "https://automotivedesignplanet.com/assets/content/top-id-hub-article-cover.webp",
+      "excerpt": "Explore our exclusive interview with the TopiD-Hub founder as we dive into the launch of a groundbreaking video streaming platform, revealing the untold stories of leading auto and moto designers.",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 9,
+      "craft_news": 4,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
+    },
+    "adp-1714244887-interview-with-michele-albera-on-pagani-and-ied-master-students-unique-collaboration": {
+      "id": "adp-1714244887-interview-with-michele-albera-on-pagani-and-ied-master-students-unique-collaboration",
+      "source": "Automotive Design Planet",
+      "credit": "Automotive Design Planet",
+      "paywalled": false,
+      "kind": "interview",
+      "column": "Design Story",
+      "title_en": "Interview With Michele Albera On Pagani And IED Master Students Unique Collaboration",
+      "date": "2024-05-14",
+      "url": "https://automotivedesignplanet.com/stories/1714244887-interview-with-michele-albera-on-pagani-and-ied-master-students-unique-collaboration",
+      "image": "https://automotivedesignplanet.com/assets/content/cover8.webp",
+      "excerpt": "Created by the students of the Master in Transportation Design 2022/2023, this concept car is called Pagani Alisea and celebrates the Zonda",
+      "added": "2026-11-04",
+      "used": false,
+      "craft": 13,
+      "craft_news": 1,
+      "craft_ok": true,
+      "design_tag": "造型手法",
+      "needs_browser": true
     }
   }
 }
