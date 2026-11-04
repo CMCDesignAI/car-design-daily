@@ -343,6 +343,17 @@ def orig_line(a):
     if is_english(t): return f'<p class="orig">{html.escape(t)}</p>'
     z = a.get("orig_title_zh")  # optional annotated form, e.g. 「Pianeta quadriciclo（四輪微型車星球）」
     return f'<p class="orig">{html.escape(z)}</p>' if z else ''
+def alt_ok(t):
+    # Chinese / English only: no kana, no other scripts, no Italian sentences.
+    return bool(t) and not _KANA.search(t) and not _IT.search(t) and all(ord(c) < 0x250 or 0x3000 <= ord(c) <= 0x303f or 0x4e00 <= ord(c) <= 0x9fff or 0xff00 <= ord(c) <= 0xff65 or c in '’‘“”–—…·' for c in t)
+def zh_alts(g):
+    imgs = [g.get("image")] + g.get("more_images", [])
+    for n, im in enumerate(imgs, 1):
+        if isinstance(im, dict) and not alt_ok(im.get("alt", "")):
+            im = dict(im, alt=f'{g.get("title", "")} 圖 {n}')
+            if n == 1: g["image"] = im
+            else: g["more_images"][n - 2] = im
+    return g
 def warn_untranslated(day, items):
     for a in items:
         for f in ("title", "summary"):
@@ -560,6 +571,7 @@ def page(d, base, all_issues, is_root):
         H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · CAR STYLING · Car Design TV · The Autopian · Dezeen</span></div><div class="cmf">')
         for a in AD:
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
+            g = zh_alts(g)
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
             H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}<p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')

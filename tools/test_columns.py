@@ -47,6 +47,10 @@ class SelectionTests(unittest.TestCase):
         self.assertIn('Quadricycle Planet', b.orig_line({'orig': 'Quadricycle Planet (Design trends)'}))
         self.assertEqual(b.orig_line({'orig': '部品点数を抑えた合理的なデザイン'}), '')
         self.assertEqual(b.orig_line({'orig': 'Pianeta quadriciclo: è più piccolo'}), '')
+        g = b.zh_alts({'title': '第二代 Dacia Spring', 'image': {'alt': 'ダチア・スプリング'}, 'more_images': [{'alt': 'Dacia Spring rear'}, {'alt': '部品点数を抑えた'}]})
+        self.assertEqual(g['image']['alt'], '第二代 Dacia Spring 圖 1')
+        self.assertEqual(g['more_images'][0]['alt'], 'Dacia Spring rear')
+        self.assertEqual(g['more_images'][1]['alt'], '第二代 Dacia Spring 圖 3')
 
     def test_back_issue_expires_after_12_months(self):
         old = entry('old', kind='issue_sample', due='2026-11-01', back_issue=True, release_date='2025-11-07')
