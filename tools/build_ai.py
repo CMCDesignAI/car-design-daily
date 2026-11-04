@@ -64,14 +64,14 @@ def column(c, img):
 def sec_head(n, zh, en):
     return f'<div class="sec-head"><span class="num">{n:02d}</span><h2>{zh}</h2><span class="en">{en}</span></div>'
 
-def lb_chart(b):
+def lb_chart(b, n=2):
     """One leaderboard card: status badge + inline-SVG horizontal bars (top 10) + zh-TW analysis.
     Row flags written by tools/lb_diff.py: new (NEW tag), move (+n up / -n down), delta (score change)."""
     rows = b["rows"][:10]
     st = b.get("status", "baseline")
     hi, lo = max(r["score"] for r in rows), min(r["score"] for r in rows)
     base = lo - max(8, round((hi - lo) * 0.5))          # axis floor so gaps stay readable
-    W, L, R, rh, top = 720, 300, 120, 34, 6
+    W, L, R, rh, top = (720, 300, 120, 34, 6) if n < 3 else (540, 258, 86, 34, 6)   # 3-up row: narrower viewBox keeps text legible
     bw = W - L - R
     g = []
     for i, r in enumerate(rows):
@@ -113,7 +113,7 @@ def leaderboard(lb):
     """Shown every day at the very top (after masthead/lede). Data comes from tools/lb_diff.py."""
     if not lb or not lb.get("boards"): return ""
     return ('<section id="board"><div class="sec-head"><span class="num">≡</span><h2>本週榜單</h2><span class="en">Leaderboards</span></div>'
-            '<div class="lbgrid">' + "".join(lb_chart(b) for b in lb["boards"]) + '</div></section>')
+            f'<div class="lbgrid n{len(lb["boards"])}">' + "".join(lb_chart(b, len(lb["boards"])) for b in lb["boards"]) + '</div></section>')
 
 def head(title, desc, css, canon, ogimg):
     return f'''<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8">

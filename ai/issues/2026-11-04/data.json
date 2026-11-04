@@ -524,6 +524,105 @@
       "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1120 (+3)"
      ]
     }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-04",
+    "fetched": "2026-11-04",
+    "metric": "Elo",
+    "status": "baseline",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1172,
+      "ci": 14,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1169,
+      "ci": 14,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1160,
+      "ci": 14,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 4,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1156,
+      "ci": 16,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 5,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 14,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 6,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 14,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 7,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1148,
+      "ci": 16,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1139,
+      "ci": 14,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 9,
+      "model": "Dreamina Seedance 2.0",
+      "org": "ByteDance Seed",
+      "score": 1136,
+      "ci": 14,
+      "released": "Mar 2026"
+     },
+     {
+      "rank": 10,
+      "model": "Gemini Omni Flash 1.1",
+      "org": "Google",
+      "score": 1129,
+      "ci": 13,
+      "released": "Aug 2026"
+     }
+    ],
+    "compared_to": null,
+    "diff": {
+     "summary": [
+      "首份快照（baseline）"
+     ]
+    }
    }
   ]
  }

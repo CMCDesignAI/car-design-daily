@@ -116,9 +116,9 @@ tools/
    - 沒有專屬圖（只有網站通用圖）就設 `"image": null`，頁面會註明「來源頁沒有可用的官方圖片」。
    - YouTube 縮圖：`https://i.ytimg.com/vi/<id>/maxresdefault.jpg`。頁面先顯示縮圖，點擊才載入 youtube-nocookie 內嵌播放。
 4. **本週榜單（leaderboard 模組）——每天都顯示，固定在頁面最上方**（masthead／導言之後、01 閉源模型之前）：
-   - **兩張圖**：(a) 文字 LLM 總榜：LMArena Text Arena Overall 前 10（`curl -sL -m 15 -A "Mozilla/5.0" https://lmarena.ai/leaderboard/text`，HTML 內有名次／模型／廠商／分數／±／Preliminary／資料更新日）；(b) 文生圖：Artificial Analysis AA-Image-T2I 前 10（`https://artificialanalysis.ai/image/leaderboard/text-to-image`，HTML 內有 Elo／±；沒有廠商欄位，org 依模型名對應）。**只用當天實際抓到的數字，絕不編造或估算**。
+   - **三張圖**（桌機一排 3 張、平板 2 欄、手機直排）：(a) 文字 LLM 總榜：LMArena Text Arena Overall 前 10（`curl -sL -m 15 -A "Mozilla/5.0" https://lmarena.ai/leaderboard/text`，HTML 內有名次／模型／廠商／分數／±／Preliminary／資料更新日）；(b) 文生圖：Artificial Analysis AA-Image-T2I 前 10（`https://artificialanalysis.ai/image/leaderboard/text-to-image`，HTML 內有 Elo／±；沒有廠商欄位，org 依模型名對應）；(c) 文生影片：Artificial Analysis Video Arena AA-Video-T2V v2.1 Overall 前 10（盲測 Elo；`python3 tools/lb_fetch_aa_video.py --date YYYY-MM-DD > /tmp/lb_video_YYYY-MM-DD.json`，約 2 秒，失敗重試最多 3 次；頁面沒有資料更新日，`as_of` = 抓取日；org 用頁面上的廠商 logo 名稱）。**只用當天實際抓到的數字，絕不編造或估算**。
    - **每天的步驟**：
-     1. 抓兩個榜，寫成 `/tmp/lb_fresh_YYYY-MM-DD.json`：`{"boards":[{id,title,en,source,source_url,as_of,fetched,metric,rows:[{rank,model,org,score,ci?,note?}]}]}`。`id` 固定 `text`／`image`，`title`／`en`／`source` 沿用前一天的寫法；`as_of` = 榜單頁標示的資料更新日，`fetched` = 今天；`note` 只填 `"Preliminary"`；模型名稱每天用同一種寫法（diff 是用名稱比對）。
+     1. 抓三個榜，寫成 `/tmp/lb_fresh_YYYY-MM-DD.json`：`{"boards":[{id,title,en,source,source_url,as_of,fetched,metric,rows:[{rank,model,org,score,ci?,note?}]}]}`。`id` 固定 `text`／`image`／`video`（video 直接放腳本輸出的 board 物件，排第三），`title`／`en`／`source` 沿用前一天的寫法；`as_of` = 榜單頁標示的資料更新日，`fetched` = 今天；`note` 只填 `"Preliminary"`；模型名稱每天用同一種寫法（diff 是用名稱比對）。
      2. 執行 `python3 tools/lb_diff.py --date YYYY-MM-DD --fresh /tmp/lb_fresh_YYYY-MM-DD.json`。它會找 `/workspace/ai-digest/leaderboards/` 裡**日期早於今天的最新一份快照**來比對，每個榜給一個 `status`：
         - `baseline`：沒有前一份快照 → 顯示今天的圖，標「首份快照（Baseline）」。
         - `unchanged`：沒有重大變化 → **沿用前一份快照的圖與 as_of**，標「榜單無重大變化 · 資料更新 <as_of>」，來源列註明沿用哪天的資料與最新檢查日。
