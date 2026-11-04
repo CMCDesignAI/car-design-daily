@@ -20,10 +20,10 @@ DEFAULT_LOGO = dict(start="2026-11-03", logo_light=("cdd-default-light-v3.webp",
 # A row with start=None is prepared but INACTIVE; preview it with CDD_PREVIEW_SEASON=<name>.
 SEASONAL = [
     dict(name="halloween", start="2026-10-31", end="2026-11-02", logo_light=("cdd-halloween3-light.webp", 1525, 588), logo_dark=("cdd-halloween2-dark.webp", 1400, 540), section_suffix="🎃"),  # Halloween
-    dict(name="christmas", start="2026-12-20", end="2026-12-26", logo_light=("cdd-xmas-light-v2.webp", 1329, 530, 0.923), logo_dark=("cdd-xmas-dark-v2.webp", 1356, 542, 0.942), section_suffix=""),  # Christmas
-    dict(name="newyearsday", start="2026-12-27", end="2027-01-02", logo_light=("cdd-newyearsday-light-v1.webp", 1440, 552, 1.0), logo_dark=("cdd-newyearsday-dark-v1.webp", 1440, 548, 1.0), section_suffix=""),  # 元旦 (crosses the year; ISO date strings compare correctly)
-    dict(name="newyear", start="2027-02-05", end="2027-02-12", logo_light=("cdd-newyear-light-v2.webp", 1331, 536, 0.9244), logo_dark=("cdd-newyear-dark-v2.webp", 1350, 541, 0.9374), section_suffix=""),  # Lunar New Year (春節)
-    dict(name="valentine", start="2027-02-13", end="2027-02-15", logo_light=("cdd-valentine-light-v1.webp", 1440, 513, 1.0), logo_dark=("cdd-valentine-dark-v1.webp", 1440, 516, 1.0), section_suffix=""),  # Valentine's Day
+    dict(name="christmas", start="2026-12-20", end="2026-12-26", logo_light=("cdd-xmas-light-v3.webp", 1330, 532, 0.9238), logo_dark=("cdd-xmas-dark-v3.webp", 1330, 532, 0.9238), section_suffix=""),  # Christmas
+    dict(name="newyearsday", start="2026-12-27", end="2027-01-02", logo_light=("cdd-newyearsday-light-v3.webp", 1330, 582, 0.9238), logo_dark=("cdd-newyearsday-dark-v3.webp", 1330, 582, 0.9238), section_suffix=""),  # 元旦 (crosses the year; ISO date strings compare correctly)
+    dict(name="newyear", start="2027-02-05", end="2027-02-12", logo_light=("cdd-newyear-light-v3.webp", 1330, 552, 0.9238), logo_dark=("cdd-newyear-dark-v3.webp", 1330, 552, 0.9238), section_suffix=""),  # Lunar New Year (春節)
+    dict(name="valentine", start="2027-02-13", end="2027-02-15", logo_light=("cdd-valentine-light-v3.webp", 1330, 527, 0.9238), logo_dark=("cdd-valentine-dark-v3.webp", 1330, 527, 0.9238), section_suffix=""),  # Valentine's Day
 ]
 def seasonal(date):
     pv = os.environ.get("CDD_PREVIEW_SEASON")
