@@ -340,7 +340,7 @@ def is_english(t):
     return bool(t) and all(ord(c) < 0x250 or c in '’‘“”–—…·' for c in t) and not _IT.search(t)
 def orig_line(a):
     t = a.get("orig", "")
-    if is_english(t): return f'<p class="orig">{html.escape(t)}</p>'
+    if is_english(t) and len(t) <= 60: return f'<p class="orig">{html.escape(t)}</p>'
     z = a.get("orig_title_zh")  # optional annotated form, e.g. 「Pianeta quadriciclo（四輪微型車星球）」
     return f'<p class="orig">{html.escape(z)}</p>' if z else ''
 def alt_ok(t):
@@ -354,10 +354,14 @@ def zh_alts(g):
             if n == 1: g["image"] = im
             else: g["more_images"][n - 2] = im
     return g
+def ad_body(a):
+    # zley 11/4: 02 uses 3–4 short bullets like other sections; old issues fall back to summary.
+    if a.get("points"): return '<ul class="cpts">' + "".join(f'<li>{html.escape(x)}</li>' for x in a["points"]) + '</ul>'
+    return f'<p class="sum">{html.escape(a.get("summary", ""))}</p>'
 def warn_untranslated(day, items):
     for a in items:
-        for f in ("title", "summary"):
-            if _KANA.search(a.get(f, "")): print(f"WARNING {day} 02 {a.get('id')}: {f} contains Japanese kana; translate to 繁中 or use the English name", flush=True)
+        for f in ("title", "summary", "points"):
+            if _KANA.search(" ".join(a[f]) if isinstance(a.get(f), list) else a.get(f, "")): print(f"WARNING {day} 02 {a.get('id')}: {f} contains Japanese kana; translate to 繁中 or use the English name", flush=True)
 CARNEWS_FROM = "2026-11-05"  # 01 renamed 設計新聞 -> 新車快訊 + optional 02 設計專欄 · Design Columns (zley 11/4; older issues unchanged)
 FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
 FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
@@ -573,7 +577,7 @@ def page(d, base, all_issues, is_root):
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             g = zh_alts(g)
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}<p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []

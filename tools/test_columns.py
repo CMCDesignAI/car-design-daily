@@ -52,6 +52,14 @@ class SelectionTests(unittest.TestCase):
         self.assertEqual(g['more_images'][0]['alt'], 'Dacia Spring rear')
         self.assertEqual(g['more_images'][1]['alt'], '第二代 Dacia Spring 圖 3')
 
+    def test_ad_body_points_and_fallback(self):
+        import importlib.util, os
+        sp = importlib.util.spec_from_file_location('b', os.path.join(os.path.dirname(__file__), 'build.py'))
+        b = importlib.util.module_from_spec(sp); sp.loader.exec_module(b)
+        self.assertIn('<li>重點一</li>', b.ad_body({'points': ['重點一', '重點二']}))
+        self.assertIn('class="sum"', b.ad_body({'summary': '舊摘要'}))
+        self.assertEqual(b.orig_line({'orig': 'A' * 61}), '')
+
     def test_back_issue_expires_after_12_months(self):
         old = entry('old', kind='issue_sample', due='2026-11-01', back_issue=True, release_date='2025-11-07')
         self.assertEqual([x['id'] for x in c.select([old], {}, '2026-11-07')], ['old'])
