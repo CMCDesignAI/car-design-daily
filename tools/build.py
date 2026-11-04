@@ -332,6 +332,21 @@ VCAR_JS = ("<script>(()=>{const w=document.querySelector('.vcar');if(!w)return;c
  "if(ev.data===YT.PlayerState.PLAYING)started=true;if(ev.data===YT.PlayerState.ENDED){if(i<L.length-1)show(i+1,true);else show(0,false)}}}})};"
  "const s=document.createElement('script');s.src='https://www.youtube.com/iframe_api';s.async=true;document.head.appendChild(s)})()</script>")
 
+import re as _re
+_KANA = _re.compile(r'[\u3040-\u30ff\u31f0-\u31ff\uff66-\uff9f]')
+_IT = _re.compile(r'\b(della|delle|degli|nella|sono|anche|questa|questo|perché|più|è)\b', _re.I)
+def is_english(t):
+    # zley 11/4: only English / short Latin-script original titles may show under the zh title.
+    return bool(t) and all(ord(c) < 0x250 or c in '’‘“”–—…·' for c in t) and not _IT.search(t)
+def orig_line(a):
+    t = a.get("orig", "")
+    if is_english(t): return f'<p class="orig">{html.escape(t)}</p>'
+    z = a.get("orig_title_zh")  # optional annotated form, e.g. 「Pianeta quadriciclo（四輪微型車星球）」
+    return f'<p class="orig">{html.escape(z)}</p>' if z else ''
+def warn_untranslated(day, items):
+    for a in items:
+        for f in ("title", "summary"):
+            if _KANA.search(a.get(f, "")): print(f"WARNING {day} 02 {a.get('id')}: {f} contains Japanese kana; translate to 繁中 or use the English name", flush=True)
 CARNEWS_FROM = "2026-11-05"  # 01 renamed 設計新聞 -> 新車快訊 + optional 02 設計專欄 · Design Columns (zley 11/4; older issues unchanged)
 FOCUS_FROM = "2026-10-25"   # framing applies from this issue on (zley: no backfill)
 FOCUS = {}   # abs img path -> manual "X% Y%" from data.json image.focus / more_images[].focus
@@ -541,11 +556,12 @@ def page(d, base, all_issues, is_root):
     H.append('</div></section>')
     # 02 Auto&Design column digest (optional; hidden when empty)
     if AD:
+        warn_untranslated(date, AD)
         H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Columns · Auto&amp;Design · CAR STYLING · Car Design TV · The Autopian · Dezeen</span></div><div class="cmf">')
         for a in AD:
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3><p class="orig">{e(a["orig"])}</p><p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}<p class="sum">{e(a["summary"])}</p><div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []

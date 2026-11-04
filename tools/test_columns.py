@@ -40,6 +40,14 @@ class SelectionTests(unittest.TestCase):
                  entry('core', 'Core77', 'analysis')]
         self.assertEqual([x['id'] for x in c.select(items, {'used-sample': '2026-11-04'}, '2026-11-04', 2)], ['core'])
 
+    def test_orig_line_hides_non_english(self):
+        import importlib.util, os
+        sp = importlib.util.spec_from_file_location('b', os.path.join(os.path.dirname(__file__), 'build.py'))
+        b = importlib.util.module_from_spec(sp); sp.loader.exec_module(b)
+        self.assertIn('Quadricycle Planet', b.orig_line({'orig': 'Quadricycle Planet (Design trends)'}))
+        self.assertEqual(b.orig_line({'orig': '部品点数を抑えた合理的なデザイン'}), '')
+        self.assertEqual(b.orig_line({'orig': 'Pianeta quadriciclo: è più piccolo'}), '')
+
     def test_back_issue_expires_after_12_months(self):
         old = entry('old', kind='issue_sample', due='2026-11-01', back_issue=True, release_date='2025-11-07')
         self.assertEqual([x['id'] for x in c.select([old], {}, '2026-11-07')], ['old'])

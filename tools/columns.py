@@ -375,6 +375,9 @@ def pick(date,n,exclude,imgdir,dry_run=False):
             o['more_images']=downloaded[2:]
         out.append(o)
     if not dry_run: save(Q,q)
+    for o in out:
+        if not re.fullmatch(r"[\x00-\u024f’‘“”–—…· ]*", o.get('orig') or ''):
+            print(f"NOTE {o['id']}: orig title is not English; build.py hides it (add orig_title_zh only for a needed term with 中文註解). Write title/summary in 繁中, no kana.", file=sys.stderr)
     print(json.dumps(out,ensure_ascii=False,indent=2))
 
 def commit(date,ids):
