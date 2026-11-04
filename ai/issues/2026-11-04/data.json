@@ -1,0 +1,489 @@
+{
+ "date": "2026-11-04",
+ "weekday": "週三",
+ "issue_no": 28,
+ "lede": "OpenAI 公開用 GPT-6 Astra 做硬體設計的進度，還和 Mazda 合作用模擬找低風阻車頭；Grok Bot 代打電話開始有真實使用案例，Anthropic 則開源可證明「回答真的出自哪個模型」的 FlashProve。",
+ "ainews": [
+  {
+   "id": "openai-physical-engineering",
+   "org": "OpenAI",
+   "tag": "大廠動態 · ChatGPT／Codex",
+   "date": "2026-11-03",
+   "title": "OpenAI 公開 ChatGPT 與 Codex 做實體工程的進度：GPT-6 Astra 一週內設計出可用的硬體原型，並與 Mazda 合作探索低風阻車頭",
+   "orig": "ChatGPT and Codex are helping engineers build for the physical world.",
+   "summary": "【內容】OpenAI 11/3 發文〈Accelerating engineering for the physical world〉：內部硬體團隊用 Codex 與 ChatGPT 建立與修改 CAD 模型、準備製造圖、設定模擬與審圖，自 2 月以來硬體團隊的模型用量（以 token 計）成長 23 倍。【原型實驗】兩名員工以 GPT-6 Astra 在一週內做出一個「跟 Codex 對話」的裝置：外觀、外殼與內部結構、電子零件挑選與 PCB 佈局、介面與韌體都由 Astra 完成，代工廠不到一個月做出小批原型；但 Astra 沒能一致考慮製造限制、公差與組裝需求，仍需多輪人工審查。【合作】與 Chip Ganassi Racing 把 3D 掃描轉成可編輯 CAD 與 2D 製造圖；與 Mazda 的空力與碰撞安全工程師合作，用 Astra 產生不同車頭造型、跑氣流模擬、精修最有希望的設計來降低風阻，同時考慮造型與成本，Mazda 首席工程師中田章博說這幫助他們了解哪些特徵影響空力、設計師還有多少發揮空間。OpenAI 表示這是早期階段，結果會在未來幾個月分享。",
+   "links": [
+    [
+     "OpenAI：Accelerating engineering for the physical world",
+     "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+    ],
+    [
+     "OpenAI 在 X 的發文串",
+     "https://x.com/OpenAI/status/2117692475775258785"
+    ],
+    [
+     "Interesting Engineering 報導",
+     "https://interestingengineering.com/ai-robotics/openai-gpt-6-hardware-design-prototype"
+    ],
+    [
+     "Unite.AI 報導",
+     "https://www.unite.ai/openai-tests-astra-on-physical-engineering-from-devices-to-vehicles/"
+    ]
+   ],
+   "image": null,
+   "short_title": "GPT-6 幫 Mazda 找低風阻車頭",
+   "one": "OpenAI 讓模型直接畫 CAD、配電路板、跑空力模擬，Mazda 已用它試很多種車頭造型，但要量產還是得靠工程師把關。",
+   "gloss": [
+    [
+     "CAD",
+     "電腦輔助設計，工程師畫 3D 零件與工程圖的軟體"
+    ],
+    [
+     "PCB",
+     "印刷電路板，電子零件焊在上面的那塊板子"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-calls-real-use",
+   "org": "xAI",
+   "tag": "延伸 · Grok Bot",
+   "date": "2026-11-03",
+   "title": "延伸 · Grok Bot 代打電話出現多則真實使用案例：幫忙問保險、約診所、訂複雜行程，Musk 轉發推廣",
+   "orig": "Grok @Bot can research which doctors are the best in your area, call them by phone and make an appointment!",
+   "summary": "【新進展】10/26 本刊報過 Musk 宣布 Grok Bot 能代打電話，當時官方 changelog 沒列、外界也還沒看到真實通話。11/2–11/3 起有多位使用者在 X 貼出實際案例，Musk 逐一轉發：有人讓 Grok Bot 打給 Progressive 保險詢問擋風玻璃理賠（附錄音與逐字稿）、有人讓它在開車時幫女兒約好醫師門診、也有人用它訂複雜的家庭機票行程。Sawyer Merritt 描述：只要說要打給誰、為什麼，它就會代為對話，畫面顯示即時逐字稿，需要你補資訊時會跳出小輸入框。【限制】依 The Daily Bot 整理，截至 11/3 官方 changelog（到 v0.78.1）仍沒有列出撥打外部號碼的功能，也沒有公布支援國家、方案或費用；屬使用者初步實測，樣本小。",
+   "links": [
+    [
+     "Musk：Try asking Grok Bot to make calls（X）",
+     "https://x.com/elonmusk/status/2117722703738310713"
+    ],
+    [
+     "Musk 轉發：約醫師門診（X）",
+     "https://x.com/elonmusk/status/2117665964862939320"
+    ],
+    [
+     "Musk 轉發：打給保險公司的案例（X）",
+     "https://x.com/elonmusk/status/2117463822332314036"
+    ],
+    [
+     "The Daily Bot：通話功能追蹤",
+     "https://thedailybot.vercel.app/changelog/grok-bot-built-in-calls-coming"
+    ]
+   ],
+   "image": null,
+   "short_title": "Grok Bot 真的能幫你打電話了",
+   "one": "已經有人讓 Grok Bot 打給保險公司、診所幫忙問事情和預約，邊打邊看逐字稿，不過官方還沒正式寫進更新說明。",
+   "gloss": [
+    [
+     "逐字稿",
+     "通話內容即時轉成的文字紀錄"
+    ]
+   ]
+  },
+  {
+   "id": "anthropic-flashprove",
+   "org": "Anthropic",
+   "tag": "開源 · 研究工具",
+   "date": "2026-11-03",
+   "title": "Anthropic 開源 FlashProve：用零知識證明讓使用者驗證「這段回答真的出自宣稱的模型」，不必公開權重",
+   "orig": "Today, we release FlashProve: an open-source performant prototype for provable inference.",
+   "summary": "【內容】Anthropic 11/3 發表 provable inference（可證明推論）研究並開源 FlashProve 原型。流程：模型提供者先公布一個綁定權重的承諾 ID（權重本身保密）；每次回應時 GPU 另產生一份證明；任何人都能在一般 CPU 上用 cp_verify 幾秒內驗證，不需要權重。【數字】以 4-bit 量化的 Llama 4 Maverick（400B MoE）測試，單張 H100 每秒可產生超過 100 token 的證明，每 1,024 token 的請求證明約 19MB，GPU 時間約為 vLLM 處理同長度提示的 70–95 倍。【限制】證明的是整數版模型的 greedy 解碼，浮點運算或抽樣解碼的回覆可能對不上；只有 Lean 版驗證器有形式證明，C++ 驗證器與 CUDA 證明器沒有；GitHub 標示為研究原型、不維護。",
+   "links": [
+    [
+     "Anthropic：Progress on provable inference",
+     "https://www.anthropic.com/research/provable-inference"
+    ],
+    [
+     "GitHub：anthropics/FlashProve",
+     "https://github.com/anthropics/FlashProve"
+    ],
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    ]
+   ],
+   "image": {
+    "file": "flashprove-github.webp",
+    "alt": "anthropics/FlashProve GitHub 分享卡",
+    "credit": "GitHub · anthropics/FlashProve",
+    "credit_url": "https://github.com/anthropics/FlashProve"
+   },
+   "short_title": "驗證回答真的出自哪個模型",
+   "one": "以後 API 服務商可能偷換成便宜模型這件事，可以用數學證明來抓，Anthropic 先把原型開源出來。",
+   "gloss": [
+    [
+     "零知識證明",
+     "能證明某件事為真、卻不透露背後資料（這裡是模型權重）的密碼學方法"
+    ]
+   ]
+  },
+  {
+   "id": "google-guided-learning-search",
+   "org": "Google",
+   "tag": "平台服務 · Gemini／Search",
+   "date": "2026-11-03",
+   "title": "Google 把 Guided Learning 帶進 Search 與 Classroom：學生問作業時改成一步步引導；K-12 學生帳號的 Gemini 等 AI 功能預設關閉",
+   "orig": "We're bringing Guided Learning capabilities to Search and Google Classroom, and evolving our approach to school controls.",
+   "summary": "【內容】Google 11/3 宣布：Gemini 裡的 Guided Learning（用提問與分步拆解引導解題，而不是直接給答案）擴大到 Google Classroom（即日起全球開放，老師指派的活動會依課程內容一對一引導，並給老師即時洞察）與 Google Search（偵測到學生帳號在找作業答案時改成逐步引導，本月底先在部分美國學校試辦）。【管控】Gemini、Gemini Notebook、Gemini in Classroom 與 Search 的 AI 功能，對 K-12 學生帳號改為預設關閉，須由學校管理員明確開啟。【爭議】The Guardian 指出，學校若封鎖 Google 的 AI 功能，學生也將無法使用 Google Search。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+    ],
+    [
+     "The Guardian 報導",
+     "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence"
+    ]
+   ],
+   "image": {
+    "file": "google-guided-learning.webp",
+    "alt": "Google 官方文章主圖：Designing responsible AI for learning",
+    "credit": "Google",
+    "credit_url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+   },
+   "short_title": "Google 搜尋教學生自己解題",
+   "one": "學生帳號用 Google 問作業，之後會被一步步引導而不是直接拿答案；學校也能決定要不要開 AI。",
+   "gloss": [
+    [
+     "Guided Learning",
+     "Gemini 的引導學習模式，用提問帶你想，而不是直接給答案"
+    ]
+   ]
+  }
+ ],
+ "closed": [],
+ "open": [],
+ "news": [],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2-1",
+   "model": "Qwen Image 2.1",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "文生圖",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-wan22-s2v",
+   "title": "Wan2.2-S2V：在 ComfyUI 用一張照片加一段聲音做出會說話、唱歌的影片",
+   "learn": "學會用 ComfyUI 官方範本，讓人物照片跟著音檔對嘴、做動作，並用延伸節點做出較長的影片。",
+   "level": "中階",
+   "vram": "官方文件未標顯存數字；範本用 14B fp8 版較省顯存，bf16 版畫質較好，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "S2V",
+     "Speech-to-Video，用聲音驅動畫面生成影片"
+    ],
+    [
+     "Lightning LoRA",
+     "把取樣步數壓到 4 步、加快速度的小模型外掛"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版，在 Workflow Templates 搜尋「Wan2.2 S2V」載入範本。",
+    "下載模型：wan2.2_s2v_14B_fp8_scaled 放 models/diffusion_models/，wav2vec2_large_english_fp16 放 models/audio_encoders/，wan_2.1_vae 放 models/vae/，umt5_xxl_fp8 文字編碼器放 models/text_encoders/。",
+    "在 LoadImage 放人物照片、LoadAudio 放音檔，提示詞寫想要的動作與場景。",
+    "範本預設用 4 步 Lightning LoRA（steps 4、cfg 1.0）；嫌畫質不夠就改原本的 20 步（steps 20、cfg 6.0）。",
+    "每個 Video S2V Extend 子圖多加 77 格（16fps 約 4.8 秒），依音檔長度算要接幾個，例如 14 秒音檔需 224 格，約接 3 個。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：Wan2.2-S2V",
+     "https://docs.comfy.org/tutorials/video/wan/wan2-2-s2v"
+    ],
+    [
+     "Hugging Face：Wan-AI/Wan2.2-S2V-14B",
+     "https://huggingface.co/Wan-AI/Wan2.2-S2V-14B"
+    ]
+   ]
+  },
+  {
+   "id": "tut-void-inpaint",
+   "title": "VOID：在 ComfyUI 把影片裡的人或物體整個刪掉（連它造成的影響一起）",
+   "learn": "學會用 Netflix 開源的 VOID 範本，輸入影片和要刪的東西名稱，產生乾淨、前後連貫的影片。",
+   "level": "中階",
+   "vram": "官方文件未標顯存數字，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Video inpainting",
+     "把影片中被遮住或刪掉的區域，逐格補成合理畫面"
+    ],
+    [
+     "SAM3",
+     "用一句文字就能自動圈出物體範圍（遮罩）的分割模型"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版，到 Workflow > Browse Templates 的 Utility 分類找「VOID: Video Inpainting」。",
+    "到 Hugging Face 的 Comfy-Org/void-model 下載兩階段模型（含 void_pass2）放進 models/diffusion_models/，其他所需檔案依原頁清單放置。",
+    "在 LoadVideo 放影片，SAM3 物體提示填要刪的東西（例如 person），讓它自動做遮罩。",
+    "遮罩越乾淨貼合效果越好；第二階段（Pass 2）能減少閃爍與抖動，長片段或紋理複雜的背景特別有用。",
+    "限制：遮罩不清楚、動作太混亂或目標佔滿畫面時效果可能不好，改提示詞救不了錯的分割。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方文件：VOID",
+     "https://docs.comfy.org/tutorials/utility/void-video-inpainting"
+    ],
+    [
+     "GitHub：Netflix/void-model",
+     "https://github.com/Netflix/void-model"
+    ],
+    [
+     "Hugging Face：Comfy-Org/void-model",
+     "https://huggingface.co/Comfy-Org/void-model"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "OpenAI 官方頁擋自動抓取（403），第 1 則依官方頁搜尋摘錄與 X 發文串、Interesting Engineering、Unite.AI 報導整理。",
+  "Grok Bot 通話功能尚未出現在官方 changelog，案例皆為使用者貼文，屬初步實測。"
+ ],
+ "columns": [],
+ "leaderboards": {
+  "snapshot": "2026-11-04",
+  "compared_to": "2026-11-03",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "as_of": "2026-10-28",
+    "fetched": "2026-11-04",
+    "metric": "Arena score",
+    "carried_from": "2026-10-30",
+    "latest_as_of": "2026-10-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1540,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 6,
+      "move": -1,
+      "delta": 3
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1516,
+      "ci": 7,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1508,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1504,
+      "ci": 4,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1499,
+      "ci": 7,
+      "move": -1,
+      "delta": -2
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1498,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1496,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-03",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-10-16",
+    "fetched": "2026-11-04",
+    "metric": "Elo",
+    "carried_from": "2026-10-16",
+    "latest_as_of": "2026-11-03",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1218,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1186,
+      "ci": 12,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1172,
+      "ci": 12
+     },
+     {
+      "rank": 5,
+      "model": "Grok Imagine Image 2.0",
+      "org": "xAI",
+      "score": 1166,
+      "ci": 13
+     },
+     {
+      "rank": 6,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft",
+      "score": 1165,
+      "ci": 12,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2",
+      "org": "Google · Gemini 3.1 Flash Image",
+      "score": 1139,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1127,
+      "ci": 12
+     },
+     {
+      "rank": 9,
+      "model": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "score": 1121,
+      "ci": 11,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MAI-Image-2.6-Flash",
+      "org": "Microsoft",
+      "score": 1117,
+      "ci": 12,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-03",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1218→1222 (+4)",
+      "GPT Image 2.5 Flare (max): #2→#2 (0 名), 1208→1207 (-1)",
+      "GPT Image 2 (high): #3→#3 (0 名), 1186→1188 (+2)",
+      "Nano Banana 2.1: #4→#4 (0 名), 1172→1175 (+3)",
+      "Grok Imagine Image 2.0: #5→#5 (0 名), 1166→1167 (+1)",
+      "MAI-Image-2.6: #6→#6 (0 名), 1165→1166 (+1)",
+      "Nano Banana 2: #7→#7 (0 名), 1139→1140 (+1)",
+      "Muse Image: #8→#8 (0 名), 1127→1126 (-1)",
+      "GPT Image 1.5 (high): #9→#9 (0 名), 1121→1122 (+1)",
+      "MAI-Image-2.6-Flash: #10→#10 (0 名), 1117→1120 (+3)"
+     ]
+    }
+   }
+  ]
+ }
+}
