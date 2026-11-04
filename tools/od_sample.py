@@ -111,7 +111,8 @@ def add_section(issue,title,pages,notes,crops,due=None,lang='en',gap=3):
 
 def check(date,seed=False,backfill=False):
     records=discover(); newest=max(records); state=c.load(STATE,{}); last=int(state.get('last_issue',0))
-    state.setdefault('issues',{}).update({str(k):v for k,v in records.items()})
+    iss=state.setdefault('issues',{})
+    for k,v in records.items(): iss[str(k)]={**iss.get(str(k),{}),**v}  # keep stored release_date
     state['checked']=date
     if seed and not backfill:
         state['last_issue']=max(last,newest); c.save(STATE,state)
