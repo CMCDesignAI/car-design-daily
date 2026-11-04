@@ -40,6 +40,11 @@ class SelectionTests(unittest.TestCase):
                  entry('core', 'Core77', 'analysis')]
         self.assertEqual([x['id'] for x in c.select(items, {'used-sample': '2026-11-04'}, '2026-11-04', 2)], ['core'])
 
+    def test_back_issue_expires_after_12_months(self):
+        old = entry('old', kind='issue_sample', due='2026-11-01', back_issue=True, release_date='2025-11-07')
+        self.assertEqual([x['id'] for x in c.select([old], {}, '2026-11-07')], ['old'])
+        self.assertEqual(c.select([old], {}, '2026-11-08'), [])
+
     def test_exclusion_uses_excerpt_and_usage(self):
         items = [entry('excluded', excerpt='Electric BATTERY materials'), entry('used', used=True), entry('okay')]
         self.assertEqual([x['id'] for x in c.select(items, {}, '2026-11-04', 3, 'battery')], ['okay'])

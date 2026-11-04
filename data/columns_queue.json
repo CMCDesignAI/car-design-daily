@@ -2633,7 +2633,8 @@
         4,
         5
       ],
-      "back_issue": false
+      "back_issue": false,
+      "release_date": "2026-09-04"
     },
     "od-280-s2": {
       "id": "od-280-s2",
@@ -2665,7 +2666,8 @@
         4,
         5
       ],
-      "back_issue": false
+      "back_issue": false,
+      "release_date": "2026-09-04"
     },
     "od-280-s3": {
       "id": "od-280-s3",
@@ -2697,7 +2699,8 @@
         6,
         7
       ],
-      "back_issue": false
+      "back_issue": false,
+      "release_date": "2026-09-04"
     },
     "od-275-s1": {
       "id": "od-275-s1",
@@ -2728,7 +2731,10 @@
         3,
         5
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2025-11-07",
+      "removed": true,
+      "skipped_reason": "expired_12_months"
     },
     "od-275-s2": {
       "id": "od-275-s2",
@@ -2761,7 +2767,10 @@
         4,
         5
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2025-11-07",
+      "removed": true,
+      "skipped_reason": "expired_12_months"
     },
     "od-276-s1": {
       "id": "od-276-s1",
@@ -2793,7 +2802,8 @@
         6,
         7
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-01-09"
     },
     "od-276-s2": {
       "id": "od-276-s2",
@@ -2824,7 +2834,8 @@
         6,
         7
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-01-09"
     },
     "od-276-s3": {
       "id": "od-276-s3",
@@ -2855,7 +2866,8 @@
       "sample_pages": [
         4
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-01-09"
     },
     "od-276-s4": {
       "id": "od-276-s4",
@@ -2886,7 +2898,8 @@
       "sample_pages": [
         5
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-01-09"
     },
     "od-278-s1": {
       "id": "od-278-s1",
@@ -2918,7 +2931,8 @@
         3,
         4
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-05-11"
     },
     "od-278-s2": {
       "id": "od-278-s2",
@@ -2949,7 +2963,8 @@
       "sample_pages": [
         4
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-05-11"
     },
     "od-278-s3": {
       "id": "od-278-s3",
@@ -2980,7 +2995,8 @@
       "sample_pages": [
         5
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-05-11"
     },
     "od-279-s1": {
       "id": "od-279-s1",
@@ -3011,7 +3027,8 @@
       "sample_pages": [
         5
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-07-03"
     },
     "od-279-s2": {
       "id": "od-279-s2",
@@ -3042,7 +3059,8 @@
       "sample_pages": [
         3
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-07-03"
     },
     "od-279-s3": {
       "id": "od-279-s3",
@@ -3073,7 +3091,8 @@
       "sample_pages": [
         4
       ],
-      "back_issue": true
+      "back_issue": true,
+      "release_date": "2026-07-03"
     }
   }
 }

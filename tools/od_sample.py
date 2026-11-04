@@ -106,7 +106,7 @@ def add_section(issue,title,pages,notes,crops,due=None,lang='en',gap=3):
     if not due:
         last=max([x['due'] for x in mine],default=None)
         due=(dt.date.fromisoformat(last)+dt.timedelta(days=gap)).isoformat() if last else c.today()
-    q['items'][iid]=dict(id=iid,source=c.AD,credit=f'Auto&Design No.{issue}, via OverDrive sample',paywalled=False,kind='issue_sample',column=f'新刊 No.{issue}',title_en=title,section=title,language=lang,date=due,due=due,url=rec['overdrive_url'],overdrive_url=rec['overdrive_url'],image=None,excerpt='',notes=notes,crops=paths,added=c.today(),used=False,issue_no=issue,part=part,sample_pages=pages,back_issue=issue<int(st.get('last_issue',issue)))
+    q['items'][iid]=dict(id=iid,source=c.AD,credit=f'Auto&Design No.{issue}, via OverDrive sample',paywalled=False,kind='issue_sample',column=f'新刊 No.{issue}',title_en=title,section=title,language=lang,date=due,due=due,url=rec['overdrive_url'],overdrive_url=rec['overdrive_url'],image=None,excerpt='',notes=notes,crops=paths,added=c.today(),used=False,issue_no=issue,part=part,sample_pages=pages,back_issue=issue<int(st.get('last_issue',issue)),release_date=rec.get('release_date'))
     c.save(c.Q,q); print(f'Added {iid} due {due}')
 
 def check(date,seed=False,backfill=False):
@@ -118,6 +118,7 @@ def check(date,seed=False,backfill=False):
         print(f'Seeded current issue {newest}; no queue entries created'); return
     targets=[newest] if backfill else sorted(k for k in records if k>last)
     for issue in targets:
+        state['issues'][str(issue)].setdefault('release_date',date)  # detection date approximates release
         print(f'New issue {issue}: {records[issue]["overdrive_url"]}',flush=True)
         pages=capture(issue,records[issue]['crid'])
         state['last_issue']=max(int(state.get('last_issue',0)),issue); c.save(STATE,state)

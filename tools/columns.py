@@ -266,6 +266,14 @@ def fetch(days):
             except Exception as e: print(f'{source} {url}: {e}', file=sys.stderr)
     save(Q,q); return count
 
+def expired(x,date):
+    # zley: back-issue sample cards only while the issue is within 12 months of release.
+    if x.get('kind')!='issue_sample' or not x.get('back_issue') or not x.get('release_date'): return False
+    d=dt.date.fromisoformat(date); r=dt.date.fromisoformat(x['release_date'][:10])
+    try: cutoff=d.replace(year=d.year-1)
+    except ValueError: cutoff=d.replace(year=d.year-1,day=28)
+    return r<cutoff
+
 def tier(x):
     s,k=x['source'],x['kind']
     if s == 'Car Design News': return 98
@@ -286,7 +294,7 @@ def tier(x):
 
 def select(items, used, date, n=None, exclude=''):
     ex = [s.strip().lower() for s in (exclude or '').split(',') if s.strip()]
-    pool = [x for x in items if not x.get('removed') and not x.get('used') and x['id'] not in used and x['date'] <= date and not any(k in (x['title_en']+' '+x.get('excerpt','')).lower() for k in ex) and (x['kind'] != 'issue_sample' or x.get('due',x['date']) <= date) and tier(x)<99]
+    pool = [x for x in items if not x.get('removed') and not x.get('used') and x['id'] not in used and x['date'] <= date and not any(k in (x['title_en']+' '+x.get('excerpt','')).lower() for k in ex) and (x['kind'] != 'issue_sample' or x.get('due',x['date']) <= date) and tier(x)<99 and not expired(x,date)]
     if n is None:
         start = (dt.date.fromisoformat(date)-dt.timedelta(days=7)).isoformat()
         fresh = [x for x in pool if start <= x['date'] <= date]
