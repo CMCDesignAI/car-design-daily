@@ -265,7 +265,48 @@
   "OpenAI 官方頁擋自動抓取（403），第 1 則依官方頁搜尋摘錄與 X 發文串、Interesting Engineering、Unite.AI 報導整理。",
   "Grok Bot 通話功能尚未出現在官方 changelog，案例皆為使用者貼文，屬初步實測。"
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-aisd-grokbot-advanced",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-03",
+   "title": "AI 超元域實測 Grok Bot 進階用法：手機跨裝置派工、持久雲端電腦、多 BOT 群聊協作，再交給 Cursor 雲端代理開發",
+   "short_title": "AI 超元域的 Grok Bot 進階玩法",
+   "orig": "🚀Grok Bot高级玩法教程！超越Meta Muse/OpenAI Dots/Claude Duet！多设备任务互通、多智能体群聊、跨群协作、持久云电脑、AI 记忆管理！让Grok Bot越用越聪明",
+   "one": "想讓好幾個 AI 助理分工合作、從手機遠端派工作給家裡電腦，可以參考這支影片怎麼把整條流程串起來。",
+   "points": [
+    "從手機派工作給另一台電腦：作者先在手機上檢查 Mac mini 的 Grok CLI 狀態，再示範在主力 MacBook 設一條「禁止跨裝置執行」的規則，擋掉來自其他裝置的操作指令。",
+    "持久雲端電腦：用來放定時抓取的 AI 資訊和 HTML 閱讀頁，手機也能查看；影片中查到的配置是 8 核 CPU、16GB 記憶體、128GB 硬碟。",
+    "主 BOT 分派工作：一句話建立一個每天整理長期記憶的專職 BOT，作者實測第一輪新增了 5 條記憶。",
+    "多 BOT 群聊：研究員、程式助理等 BOT 一起討論沙盒遊戲點子，結果整理進 Notion、跨群產生規格文件，再由 Mac mini 上的 Grok CLI 啟動、轉交 Cursor Cloud Agents；作者說開發還在進行，重點是驗證這條交接鏈能跑通。"
+   ],
+   "url": "https://www.youtube.com/watch?v=uK3j5AbpiF0",
+   "image": {
+    "file": "col-aisd-grokbot-advanced.webp",
+    "alt": "AI超元域影片縮圖：Grok Bot 高級玩法教程",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=uK3j5AbpiF0"
+   },
+   "links": [
+    [
+     "GitHub：win4r（作者的開源專案）",
+     "https://github.com/win4r"
+    ]
+   ],
+   "gloss": [
+    [
+     "持久雲端電腦",
+     "一直開著、檔案會保留的雲端機器，AI 助理可以在上面跑排程和存資料。"
+    ],
+    [
+     "Cursor Cloud Agents",
+     "Cursor 的雲端寫程式代理，可以接手開發任務、在雲端改程式。"
+    ]
+   ]
+  }
+ ],
  "leaderboards": {
   "snapshot": "2026-11-04",
   "compared_to": "2026-11-03",
