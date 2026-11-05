@@ -326,14 +326,17 @@ details.more p{font-size:14px;color:var(--muted)}
 .cmf-card .src{margin-top:auto}
 
 /* Optional full articles in design column cards. */
-#autodesign .cmf-card:has(.ad-toggle){scroll-margin-top:calc(var(--tbh,57px) + 72px)}
-#autodesign .cmf-card.ad-open{grid-column:1/-1;position:relative;overflow:visible}
+#autodesign .cmf{grid-template-columns:minmax(0,1fr)}
+#autodesign .cmf-card:has(.ad-side-tab){position:relative;overflow:visible;scroll-margin-top:calc(var(--tbh,57px) + 72px)}
 .ad-summary{display:contents}
 .ad-summary[hidden],.ad-detail[hidden]{display:none}
-.ad-toggle{font:inherit;font-size:14px;color:var(--accent);background:transparent;border:1px solid var(--line);border-radius:4px;padding:7px 12px;margin:0 0 14px;cursor:pointer}
-.ad-toggle:focus-visible,.ad-float-collapse:focus-visible,.ad-detail h3:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-.ad-collapse-rail{position:absolute;top:0;bottom:0;left:100%;width:30px;pointer-events:none;z-index:5}
-.ad-float-collapse{position:sticky;top:40vh;display:block;pointer-events:auto;font:inherit;font-size:14px;line-height:1.3;color:var(--accent);background:var(--card);border:1px solid var(--line);border-left:0;border-radius:0 6px 6px 0;padding:12px 6px;cursor:pointer;writing-mode:vertical-rl}
+.ad-side-tab:focus-visible,.ad-detail h3:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.ad-collapse-rail{position:absolute;top:0;bottom:0;left:100%;width:40px;pointer-events:none;z-index:5}
+.ad-float-collapse.ad-side-tab{position:sticky;top:40vh;display:block;width:40px;pointer-events:auto;font:inherit;font-size:15px;font-weight:700;line-height:1.3;color:#16161a;background:var(--accent);border:1px solid var(--accent);border-left:0;border-radius:0 8px 8px 0;padding:14px 10px;box-shadow:2px 3px 8px #0003;cursor:pointer;writing-mode:vertical-rl;transition:filter .15s,box-shadow .15s}
+.ad-side-tab:hover,.ad-side-tab:focus-visible{filter:brightness(1.1);box-shadow:2px 4px 12px #0005}
+@media(min-width:600px){
+  #autodesign .cmf:has(.ad-side-tab){padding-right:40px}
+}
 .ad-detail img{cursor:zoom-out}
 .ad-detail-content{padding-top:8px}
 .ad-detail .ad-section{display:flow-root;margin:14px 0;padding:0}
@@ -349,8 +352,9 @@ details.more p{font-size:14px;color:var(--muted)}
 .ad-detail .ad-note{font-size:12px;color:var(--muted)}
 .ad-detail .src{margin-top:4px;font-size:12px;line-height:1.5}
 @media(max-width:599px){
-  .ad-collapse-rail{left:auto;right:0;width:24px}
-  .ad-float-collapse{font-size:12px;padding:8px 4px;border-left:1px solid var(--line);border-right:0;border-radius:5px 0 0 5px}
+  #autodesign .cmf-card:has(.ad-side-tab){padding-right:calc(var(--cardpad) + 34px)}
+  .ad-collapse-rail{left:auto;right:0;width:34px}
+  .ad-float-collapse.ad-side-tab{width:34px;padding:14px 7px;border-left:1px solid var(--accent);border-right:0;border-radius:8px 0 0 8px}
   .ad-section-body{display:flex;flex-direction:column}
   .ad-section-body>p{order:0}
   .ad-image{float:none;width:100%;margin:8px 0 10px;order:1}

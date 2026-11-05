@@ -356,10 +356,12 @@ def zh_alts(g):
     return g
 AD_DETAIL_JS = """<script>(()=>{
 document.querySelectorAll('#autodesign .cmf-card').forEach(card=>{
-const button=card.querySelector('.ad-toggle');if(!button)return;
+const button=card.querySelector('.ad-side-tab');if(!button)return;
 const panel=document.getElementById(button.getAttribute('aria-controls')),summary=card.querySelector('.ad-summary');
 const setOpen=open=>{
 button.setAttribute('aria-expanded',String(open));
+button.setAttribute('aria-label',open?'收合文章':'展開文章');
+button.textContent=open?'收合 ▴':'展開 ▾';
 summary.hidden=open;summary.inert=open;panel.hidden=!open;panel.inert=!open;
 card.classList.toggle('ad-open',open);
 if(open)panel.querySelector('h3').focus({preventScroll:true});
@@ -369,8 +371,7 @@ panel.addEventListener('click',event=>{
 if(event.defaultPrevented||window.getSelection()?.toString()||event.target.closest('a,button,input,select,textarea,video,audio,[contenteditable]'))return;
 if(event.target.matches('img,.ad-detail,.ad-detail-content,.ad-section,.ad-section-body'))setOpen(false);
 });
-button.addEventListener('click',()=>setOpen(true));
-panel.querySelector('.ad-float-collapse').addEventListener('click',()=>setOpen(false));
+button.addEventListener('click',()=>setOpen(button.getAttribute('aria-expanded')!=='true'));
 summary.addEventListener('click',event=>{
 if(event.defaultPrevented||event.target.closest('a,button,input,select,textarea,video,audio,[contenteditable],.gtrack')||window.getSelection()?.toString())return;
 setOpen(true);
@@ -380,8 +381,7 @@ setOpen(true);
 def ad_body(a, img=""):
     # 02 uses short bullets like other sections; old issues fall back to summary.
     body = ('<ul class="cpts">' + "".join(f'<li>{e(x)}</li>' for x in a["points"]) + '</ul>') if a.get("points") else f'<p class="sum">{e(a.get("summary", ""))}</p>'
-    if a.get("detail") is None: return body
-    return body + f'<button class="ad-toggle" type="button" aria-expanded="false" aria-controls="{e(a["id"] + "-detail")}">展開完整筆記 ▾</button>'
+    return body
 
 def ad_article(a, img=""):
     detail = a["detail"]
@@ -419,7 +419,6 @@ def ad_article(a, img=""):
     credit_links = "、".join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(name)}</a>' for name, url in credits)
     credit_line = f'<div class="src">圖文來源：{credit_links}</div>' if credits else ""
     return (f'<div class="ad-detail" id="{e(a["id"] + "-detail")}" hidden inert>'
-            '<div class="ad-collapse-rail"><button class="ad-float-collapse" type="button" aria-label="收合文章">收合 ▴</button></div>'
             f'{hero}<div class="cbody ad-detail-content">'
             f'<span class="tag">{tag} · {e(a["date"])}</span><h3 tabindex="-1">{e(a["title"])}</h3>'
             + "".join(content) + note + credit_line + f'<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(source)} ↗</a></div>'
@@ -647,7 +646,7 @@ def page(d, base, all_issues, is_root):
             if a.get("detail") is None:
                 H.append(f'<article class="cmf-card" id="{e(a["id"])}">{summary}</article>')
             else:
-                H.append(f'<article class="cmf-card" id="{e(a["id"])}"><div class="ad-summary">{summary}</div>{ad_article(g, img)}</article>')
+                H.append(f'<article class="cmf-card" id="{e(a["id"])}"><div class="ad-collapse-rail"><button class="ad-float-collapse ad-side-tab" type="button" aria-expanded="false" aria-controls="{e(a["id"] + "-detail")}" aria-label="展開文章">展開 ▾</button></div><div class="ad-summary">{summary}</div>{ad_article(g, img)}</article>')
         H.append('</div></section>')
         if any(a.get("detail") is not None for a in AD): H.append(AD_DETAIL_JS)
     # colour & material (optional; issues without "cmf" render exactly as before)
