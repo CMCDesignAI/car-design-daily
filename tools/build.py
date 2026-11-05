@@ -354,10 +354,75 @@ def zh_alts(g):
             if n == 1: g["image"] = im
             else: g["more_images"][n - 2] = im
     return g
-def ad_body(a):
-    # zley 11/4: 02 uses 3–4 short bullets like other sections; old issues fall back to summary.
-    if a.get("points"): return '<ul class="cpts">' + "".join(f'<li>{html.escape(x)}</li>' for x in a["points"]) + '</ul>'
-    return f'<p class="sum">{html.escape(a.get("summary", ""))}</p>'
+AD_DETAIL_JS = """<script>(()=>{
+document.querySelectorAll('#autodesign .cmf-card').forEach(card=>{
+const button=card.querySelector('.ad-side-tab');if(!button)return;
+const panel=document.getElementById(button.getAttribute('aria-controls')),summary=card.querySelector('.ad-summary');
+const setOpen=open=>{
+button.setAttribute('aria-expanded',String(open));
+button.setAttribute('aria-label',open?'收合文章':'展開文章');
+button.textContent=open?'收合 ▴':'展開 ▾';
+summary.hidden=open;summary.inert=open;panel.hidden=!open;panel.inert=!open;
+card.classList.toggle('ad-open',open);
+if(open)panel.querySelector('h3').focus({preventScroll:true});
+else{button.focus({preventScroll:true});card.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
+};
+panel.addEventListener('click',event=>{
+if(event.defaultPrevented||window.getSelection()?.toString()||event.target.closest('a,button,input,select,textarea,video,audio,[contenteditable]'))return;
+if(event.target.matches('img,.ad-detail,.ad-detail-content,.ad-section,.ad-section-body'))setOpen(false);
+});
+button.addEventListener('click',()=>setOpen(button.getAttribute('aria-expanded')!=='true'));
+summary.addEventListener('click',event=>{
+if(event.defaultPrevented||event.target.closest('a,button,input,select,textarea,video,audio,[contenteditable],.gtrack')||window.getSelection()?.toString())return;
+setOpen(true);
+});
+})})()</script>"""
+
+def ad_body(a, img=""):
+    # 02 uses short bullets like other sections; old issues fall back to summary.
+    body = ('<ul class="cpts">' + "".join(f'<li>{e(x)}</li>' for x in a["points"]) + '</ul>') if a.get("points") else f'<p class="sum">{e(a.get("summary", ""))}</p>'
+    return body
+
+def ad_article(a, img=""):
+    detail = a["detail"]
+    # A section-less detail still provides a final home for unassigned images.
+    sections = detail.get("sections") or [{}]
+    assigned = [[] for _ in sections]
+    trailing = []
+    for im in detail.get("images", []):
+        index = im.get("section")
+        if type(index) is int and 0 <= index < len(sections): assigned[index].append(im)
+        else: trailing.append(im)
+    content = []
+    image_number = 0
+    def figure(im):
+        nonlocal image_number
+        side = "ad-image-left" if image_number % 2 else "ad-image-right"
+        image_number += 1
+        return f'<figure class="ad-image {side}"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" title="點圖片收合" loading="lazy" decoding="async"><figcaption>{e(im["alt"])}</figcaption></figure>'
+    for index, section in enumerate(sections):
+        heading = f'<h4>{e(section["h"])}</h4>' if section.get("h") else ""
+        paragraphs = section.get("p", [])
+        body = []
+        for position in range(max(len(paragraphs), len(assigned[index]))):
+            if position < len(assigned[index]): body.append(figure(assigned[index][position]))
+            if position < len(paragraphs): body.append(f'<p>{e(paragraphs[position])}</p>')
+        if index == len(sections) - 1:
+            body.extend(figure(im) for im in trailing)
+        content.append(f'<section class="ad-section">{heading}<div class="ad-section-body">{"".join(body)}</div></section>')
+    note = f'<p class="ad-note">{e(detail["note"])}</p>' if detail.get("note") else ""
+    source = a.get("source", "Auto&Design")
+    tag = ((e(a["design_tag"]) + " · ") if a.get("design_tag") else "") + e(source) + " · " + e(a["column"])
+    hero_image = a.get("image")
+    hero = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(hero_image["file"])}" alt="{e(hero_image["alt"])}" title="點圖片收合" loading="lazy" decoding="async" width="1600" height="900"></div><figcaption>{e(hero_image["alt"])}</figcaption></figure>') if hero_image else ""
+    credits = dict.fromkeys((im["credit"], im["credit_url"]) for im in [hero_image, *detail.get("images", [])] if im)
+    credit_links = "、".join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(name)}</a>' for name, url in credits)
+    credit_line = f'<div class="src">圖文來源：{credit_links}</div>' if credits else ""
+    return (f'<div class="ad-detail" id="{e(a["id"] + "-detail")}" hidden inert>'
+            f'{hero}<div class="cbody ad-detail-content">'
+            f'<span class="tag">{tag} · {e(a["date"])}</span><h3 tabindex="-1">{e(a["title"])}</h3>'
+            + "".join(content) + note + credit_line + f'<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(source)} ↗</a></div>'
+            '</div></div>')
 def warn_untranslated(day, items):
     for a in items:
         for f in ("title", "summary", "points"):
@@ -577,8 +642,13 @@ def page(d, base, all_issues, is_root):
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             g = zh_alts(g)
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{(e(a["design_tag"]) + " · ") if a.get("design_tag") else ""}{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
+            summary = f'{fig}<div class="cbody"><span class="tag">{(e(a["design_tag"]) + " · ") if a.get("design_tag") else ""}{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a, img)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div>'
+            if a.get("detail") is None:
+                H.append(f'<article class="cmf-card" id="{e(a["id"])}">{summary}</article>')
+            else:
+                H.append(f'<article class="cmf-card" id="{e(a["id"])}"><div class="ad-collapse-rail"><button class="ad-float-collapse ad-side-tab" type="button" aria-expanded="false" aria-controls="{e(a["id"] + "-detail")}" aria-label="展開文章">展開 ▾</button></div><div class="ad-summary">{summary}</div>{ad_article(g, img)}</article>')
         H.append('</div></section>')
+        if any(a.get("detail") is not None for a in AD): H.append(AD_DETAIL_JS)
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
     off = 1 if AD else 0

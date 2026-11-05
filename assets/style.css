@@ -325,6 +325,41 @@ details.more p{font-size:14px;color:var(--muted)}
 .cpts li::before{content:"";position:absolute;left:2px;top:16px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .cmf-card .src{margin-top:auto}
 
+/* Optional full articles in design column cards. */
+#autodesign .cmf{grid-template-columns:minmax(0,1fr)}
+#autodesign .cmf-card:has(.ad-side-tab){position:relative;overflow:visible;scroll-margin-top:calc(var(--tbh,57px) + 72px)}
+.ad-summary{display:contents}
+.ad-summary[hidden],.ad-detail[hidden]{display:none}
+.ad-side-tab:focus-visible,.ad-detail h3:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.ad-collapse-rail{position:absolute;top:0;bottom:0;left:100%;width:40px;pointer-events:none;z-index:5}
+.ad-float-collapse.ad-side-tab{position:sticky;top:40vh;display:block;width:40px;pointer-events:auto;font:inherit;font-size:15px;font-weight:700;line-height:1.3;color:#16161a;background:var(--accent);border:1px solid var(--accent);border-left:0;border-radius:0 8px 8px 0;padding:14px 10px;box-shadow:2px 3px 8px #0003;cursor:pointer;writing-mode:vertical-rl;transition:filter .15s,box-shadow .15s}
+.ad-side-tab:hover,.ad-side-tab:focus-visible{filter:brightness(1.1);box-shadow:2px 4px 12px #0005}
+@media(min-width:600px){
+  #autodesign .cmf:has(.ad-side-tab){padding-right:40px}
+}
+.ad-detail img{cursor:zoom-out}
+.ad-detail-content{padding-top:8px}
+.ad-detail .ad-section{display:flow-root;margin:14px 0;padding:0}
+.ad-detail h3 + .ad-section{margin-top:8px}
+.ad-detail h4{font-family:var(--serif);font-size:18px;margin:0 0 10px}
+.ad-detail p{font-size:15px;line-height:1.75;margin:0 0 8px}
+.ad-image{width:48%;margin:0 0 10px;clear:both}
+.ad-image-right{float:right;margin-left:18px}
+.ad-image-left{float:left;margin-right:18px}
+.ad-image img{display:block;width:100%;height:auto;border-radius:3px}
+.ad-image figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:4px;overflow-wrap:anywhere}
+.ad-image a{color:var(--muted)}
+.ad-detail .ad-note{font-size:12px;color:var(--muted)}
+.ad-detail .src{margin-top:4px;font-size:12px;line-height:1.5}
+@media(max-width:599px){
+  #autodesign .cmf-card:has(.ad-side-tab){padding-right:calc(var(--cardpad) + 34px)}
+  .ad-collapse-rail{left:auto;right:0;width:34px}
+  .ad-float-collapse.ad-side-tab{width:34px;padding:14px 7px;border-left:1px solid var(--accent);border-right:0;border-radius:8px 0 0 8px}
+  .ad-section-body{display:flex;flex-direction:column}
+  .ad-section-body>p{order:0}
+  .ad-image{float:none;width:100%;margin:8px 0 10px;order:1}
+}
+
 /* breaking news (新車特報) */
 .breaking{margin:0 0 32px}
 .breaking .bk-label{display:inline-block;background:#d7263d;color:#fff;font-weight:700;letter-spacing:.14em;font-size:13px;padding:6px 12px;border-radius:3px 3px 0 0}
@@ -483,3 +518,5 @@ html{scroll-padding-top:110px}
 [data-theme="dark"] .mast h1.mast-logo .lg-dark{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mast h1.mast-logo .lg-light{display:none}:root:not([data-theme="light"]) .mast h1.mast-logo .lg-dark{display:block}}
 .sec-sfx{display:inline-block;margin-left:.3em;font-size:.8em;letter-spacing:0;vertical-align:.05em}
+.ad-detail > figure:first-child img,.ad-detail > img:first-child,.ad-detail > .news-img img{max-height:380px;width:100%;object-fit:cover}
+.ad-detail > .news-img .ratio{aspect-ratio:auto;height:380px;padding-top:0}.ad-detail > .news-img .ratio img{height:100%}@media(max-width:600px){.ad-detail > .news-img .ratio{height:220px}}
