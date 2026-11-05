@@ -354,16 +354,37 @@ def zh_alts(g):
             if n == 1: g["image"] = im
             else: g["more_images"][n - 2] = im
     return g
-AD_DETAIL_JS = """<script>(()=>{document.querySelectorAll('#autodesign .cmf-card').forEach(card=>{
+AD_DETAIL_JS = """<button class="ad-float-collapse" type="button" aria-label="收合文章" hidden>收合 ▴</button>
+<script>(()=>{
+const floating=document.querySelector('.ad-float-collapse'),visible=new Set(),collapse=new Map();
+let active=null;
+const updateFloating=()=>{
+active=[...visible].find(panel=>!panel.hidden)||null;
+floating.hidden=!active;
+};
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{if(entry.isIntersecting&&!entry.target.hidden)visible.add(entry.target);else visible.delete(entry.target);});
+updateFloating();
+});
+floating.addEventListener('click',()=>{if(active)collapse.get(active)();});
+document.querySelectorAll('#autodesign .cmf-card').forEach(card=>{
 const button=card.querySelector('.ad-toggle');if(!button)return;
 const panel=document.getElementById(button.getAttribute('aria-controls')),summary=card.querySelector('.ad-summary');
 const setOpen=open=>{
 button.setAttribute('aria-expanded',String(open));
 summary.hidden=open;summary.inert=open;panel.hidden=!open;panel.inert=!open;
 card.classList.toggle('ad-open',open);
+if(open){observer.unobserve(panel);observer.observe(panel);}
+else{visible.delete(panel);updateFloating();}
 if(open)panel.querySelector('h3').focus({preventScroll:true});
 else{button.focus({preventScroll:true});card.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}
 };
+collapse.set(panel,()=>setOpen(false));
+observer.observe(panel);
+panel.addEventListener('click',event=>{
+if(event.defaultPrevented||window.getSelection()?.toString()||event.target.closest('a,button,input,select,textarea,video,audio,[contenteditable]'))return;
+if(event.target.matches('img,.ad-detail,.ad-detail-content,.ad-section,.ad-section-body'))setOpen(false);
+});
 button.addEventListener('click',()=>setOpen(true));
 panel.querySelector('.ad-collapse').addEventListener('click',()=>setOpen(false));
 summary.addEventListener('click',event=>{
@@ -394,7 +415,7 @@ def ad_article(a, img=""):
         nonlocal image_number
         side = "ad-image-left" if image_number % 2 else "ad-image-right"
         image_number += 1
-        return f'<figure class="ad-image {side}"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async"><figcaption>{e(im["alt"])}<br>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>'
+        return f'<figure class="ad-image {side}"><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" title="點圖片收合" loading="lazy" decoding="async"><figcaption>{e(im["alt"])}</figcaption></figure>'
     for index, section in enumerate(sections):
         heading = f'<h4>{e(section["h"])}</h4>' if section.get("h") else ""
         paragraphs = section.get("p", [])
@@ -408,10 +429,14 @@ def ad_article(a, img=""):
     note = f'<p class="ad-note">{e(detail["note"])}</p>' if detail.get("note") else ""
     source = a.get("source", "Auto&Design")
     tag = ((e(a["design_tag"]) + " · ") if a.get("design_tag") else "") + e(source) + " · " + e(a["column"])
-    hero = gallery({"image": a.get("image")}, img)
+    hero_image = a.get("image")
+    hero = (f'<figure class="news-img"><div class="ratio"><img src="{img}{e(hero_image["file"])}" alt="{e(hero_image["alt"])}" title="點圖片收合" loading="lazy" decoding="async" width="1600" height="900"></div><figcaption>{e(hero_image["alt"])}</figcaption></figure>') if hero_image else ""
+    credits = dict.fromkeys((im["credit"], im["credit_url"]) for im in [hero_image, *detail.get("images", [])] if im)
+    credit_links = "、".join(f'<a href="{e(url)}" target="_blank" rel="noopener">{e(name)}</a>' for name, url in credits)
+    credit_line = f'<div class="src">圖文來源：{credit_links}</div>' if credits else ""
     return (f'<div class="ad-detail" id="{e(a["id"] + "-detail")}" hidden inert>{hero}<div class="cbody ad-detail-content">'
             f'<span class="tag">{tag} · {e(a["date"])}</span><h3 tabindex="-1">{e(a["title"])}</h3>'
-            + "".join(content) + note + f'<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(source)} ↗</a></div>'
+            + "".join(content) + note + credit_line + f'<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(source)} ↗</a></div>'
             '<button class="ad-collapse" type="button">收合 ▴</button></div></div>')
 def warn_untranslated(day, items):
     for a in items:
