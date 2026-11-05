@@ -354,10 +354,31 @@ def zh_alts(g):
             if n == 1: g["image"] = im
             else: g["more_images"][n - 2] = im
     return g
-def ad_body(a):
+AD_DETAIL_JS = """<script>(()=>{document.querySelectorAll('#autodesign .cmf-card').forEach(card=>{
+const button=card.querySelector('.ad-toggle');if(!button)return;
+const panel=document.getElementById(button.getAttribute('aria-controls'));
+card.addEventListener('click',event=>{
+if(event.defaultPrevented||event.target.closest('a,input,select,textarea,video,audio,[contenteditable]')||event.target.closest('button')!==null&&!event.target.closest('.ad-toggle')||window.getSelection()?.toString())return;
+const open=button.getAttribute('aria-expanded')!=='true';
+if(!open&&panel.contains(document.activeElement))button.focus();
+button.setAttribute('aria-expanded',String(open));button.textContent=open?'收合 ▴':'展開完整筆記 ▾';
+panel.inert=!open;panel.setAttribute('aria-hidden',String(!open));card.classList.toggle('ad-open',open);
+});
+})})()</script>"""
+
+def ad_body(a, img=""):
     # zley 11/4: 02 uses 3–4 short bullets like other sections; old issues fall back to summary.
-    if a.get("points"): return '<ul class="cpts">' + "".join(f'<li>{html.escape(x)}</li>' for x in a["points"]) + '</ul>'
-    return f'<p class="sum">{html.escape(a.get("summary", ""))}</p>'
+    body = ('<ul class="cpts">' + "".join(f'<li>{e(x)}</li>' for x in a["points"]) + '</ul>') if a.get("points") else f'<p class="sum">{e(a.get("summary", ""))}</p>'
+    detail = a.get("detail")
+    if detail is None: return body
+    panel_id = e(a["id"] + "-detail")
+    sections = "".join(f'<section><h4>{e(s["h"])}</h4>' + "".join(f'<p>{e(p)}</p>' for p in s.get("p", [])) + '</section>' for s in detail.get("sections", []))
+    images = "".join(f'<figure><img src="{img}{e(im["file"])}" alt="{e(im["alt"])}" loading="lazy" decoding="async"><figcaption>{e(im["alt"])}<br>圖片來源：<a href="{e(im["credit_url"])}" target="_blank" rel="noopener">{e(im["credit"])}</a></figcaption></figure>' for im in detail.get("images", []))
+    note = f'<p class="ad-note">{e(detail["note"])}</p>' if detail.get("note") else ""
+    source = ""  # card footer already shows the source link
+    return (body + f'<button class="ad-toggle" type="button" aria-expanded="false" aria-controls="{panel_id}">展開完整筆記 ▾</button>'
+            f'<div class="ad-detail" id="{panel_id}" aria-hidden="true" inert><div class="ad-detail-inner"><div class="ad-detail-content">{sections}'
+            + (f'<div class="ad-gallery">{images}</div>' if images else "") + note + source + '</div></div></div>')
 def warn_untranslated(day, items):
     for a in items:
         for f in ("title", "summary", "points"):
@@ -577,8 +598,9 @@ def page(d, base, all_issues, is_root):
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
             g = zh_alts(g)
             fig = gallery(g, img); srcn = a.get("source", "Auto&Design")
-            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{(e(a["design_tag"]) + " · ") if a.get("design_tag") else ""}{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
+            H.append(f'<article class="cmf-card" id="{e(a["id"])}">{fig}<div class="cbody"><span class="tag">{(e(a["design_tag"]) + " · ") if a.get("design_tag") else ""}{e(srcn)} · {e(a["column"])}</span><span class="date" style="font-size:12px;color:var(--muted);margin-left:8px">{e(a["date"])}</span><h3>{e(a["title"])}</h3>{orig_line(a)}{ad_body(a, img)}<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(srcn)} ↗</a></div></div></article>')
         H.append('</div></section>')
+        if any(a.get("detail") is not None for a in AD): H.append(AD_DETAIL_JS)
     # colour & material (optional; issues without "cmf" render exactly as before)
     cmf = d.get("cmf") or []
     off = 1 if AD else 0
