@@ -554,5 +554,29 @@
   "angle": "Ice Blue／Diamond Red 配黑車頂",
   "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint",
   "image": "cmf-paint-mg4-urban-ice-blue.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "car",
+  "car_key": "car:pagani-anima-cabin",
+  "angle": "Huayra 70 Anima：牛奶色皮革配 Loro Piana",
+  "url": "https://www.whichcar.com.au/news/pagani-huayra-70-anima-paint-diamond-dust-specs",
+  "image": "cmf-car-pagani-anima-cabin.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "paint",
+  "car_key": "paint:lambo-tettonero",
+  "angle": "Temerario Tettonero：Nero Noctis 黑頂雙色",
+  "url": "https://www.carscoops.com/2306965/lamborghini-temerario-tettonero/",
+  "image": "cmf-paint-lambo-tettonero.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "trend",
+  "car_key": "trend:akzonobel-soulful-sage",
+  "angle": "AkzoNobel 2027 年度色：Soulful Sage",
+  "url": "https://www.pcimag.com/articles/115482-akzonobel-announces-automotive-color-of-the-year",
+  "image": null
  }
 ]
