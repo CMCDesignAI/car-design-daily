@@ -360,6 +360,49 @@
    ]
   }
  ],
+ "autodesign": [
+  {
+   "id": "mf-1646536",
+   "source": "CAR STYLING / Motor-Fan",
+   "credit": "CAR STYLING / Motor-Fan",
+   "kind": "analysis",
+   "column": "CAR STYLING",
+   "date": "2026-10-11",
+   "url": "https://motor-fan.jp/article/1646536/",
+   "paywalled": false,
+   "needs_browser": null,
+   "orig": "「デザインのセオリーが違う」 日産の新型エルグランドは競合を追わず、クローム加飾を使わずに、フラッグシップの威厳を表現",
+   "title": "Nissan Elgrand：不用鍍鉻，用組子格柵表現旗艦威嚴",
+   "design_tag": "設計師專訪",
+   "points": [
+    "設計經理松田昌弘說，初期很在意 Toyota Alphard，後來決定專心做出 Elgrand 的樣子。",
+    "概念「The private MAGLEV」：車尾逆斜的車廂讓車頂顯得更長，像磁浮列車般有速度感。",
+    "格柵用日本傳統工藝組子（Kumiko）圖案，被批「顆粒感很噁心」後直接做原型說服內部。",
+    "18 吋輪圈受操控與舒適性限制，改用細密圖案的樹脂飾蓋讓輪圈看起來更大。"
+   ],
+   "craft_score": 8,
+   "image": {
+    "file": "mf-1646536.jpg",
+    "alt": "新 Nissan Elgrand 組子圖案格柵與頭燈特寫",
+    "credit": "Nissan (via CAR STYLING / Motor-Fan)",
+    "credit_url": "https://motor-fan.jp/article/1646536/"
+   },
+   "image2": {
+    "file": "mf-1646536-2.jpg",
+    "alt": "新 Elgrand 雙色車身側面與逆斜車尾",
+    "credit": "Nissan (via CAR STYLING / Motor-Fan)",
+    "credit_url": "https://motor-fan.jp/article/1646536/"
+   },
+   "more_images": [
+    {
+     "file": "mf-1646536-3.jpg",
+     "alt": "新 Elgrand 車尾與橫向一字尾燈",
+     "credit": "Nissan (via CAR STYLING / Motor-Fan)",
+     "credit_url": "https://motor-fan.jp/article/1646536/"
+    }
+   ]
+  }
+ ],
  "cmf": [
   {
    "id": "cmf-car-pagani-anima-cabin",
