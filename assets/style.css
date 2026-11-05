@@ -325,26 +325,30 @@ details.more p{font-size:14px;color:var(--muted)}
 .cpts li::before{content:"";position:absolute;left:2px;top:16px;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .cmf-card .src{margin-top:auto}
 
-/* Optional full notes in design column cards. */
+/* Optional full articles in design column cards. */
+#autodesign .cmf-card:has(.ad-toggle){scroll-margin-top:calc(var(--tbh,57px) + 72px)}
 #autodesign .cmf-card.ad-open{grid-column:1/-1}
-.ad-toggle{font:inherit;font-size:14px;color:var(--accent);background:transparent;border:1px solid var(--line);border-radius:4px;padding:7px 12px;margin:0 0 14px;cursor:pointer}
-.ad-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-.ad-detail{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .3s ease,visibility .3s}
-.ad-open .ad-detail{grid-template-rows:1fr;visibility:visible}
-.ad-detail-inner{min-height:0;overflow:hidden}
-.ad-detail-content{border-top:1px solid var(--line);padding:20px 0}
-.ad-detail-content section{margin:0 0 20px}
+.ad-summary{display:contents}
+.ad-summary[hidden],.ad-detail[hidden]{display:none}
+.ad-toggle,.ad-collapse{font:inherit;font-size:14px;color:var(--accent);background:transparent;border:1px solid var(--line);border-radius:4px;padding:7px 12px;margin:0 0 14px;cursor:pointer}
+.ad-toggle:focus-visible,.ad-collapse:focus-visible,.ad-detail h3:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.ad-detail-content{padding-top:20px}
+.ad-detail .ad-section{display:flow-root;margin:24px 0}
 .ad-detail h4{font-family:var(--serif);font-size:18px;margin:0 0 10px}
 .ad-detail p{font-size:15px;line-height:1.8;margin:0 0 12px}
-.ad-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:20px 0}
-.ad-gallery figure{min-width:0;margin:0}
-.ad-gallery img{display:block;width:100%;height:auto;border-radius:3px}
-.ad-gallery figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:8px;overflow-wrap:anywhere}
-.ad-gallery a{color:var(--muted)}
+.ad-image{width:34%;margin:0 0 18px;clear:both}
+.ad-image-right{float:right;margin-left:24px}
+.ad-image-left{float:left;margin-right:24px}
+.ad-image img{display:block;width:100%;height:auto;border-radius:3px}
+.ad-image figcaption{font-size:12px;line-height:1.6;color:var(--muted);margin-top:8px;overflow-wrap:anywhere}
+.ad-image a{color:var(--muted)}
 .ad-detail .ad-note{font-size:12px;color:var(--muted)}
-@media(max-width:1199px){.ad-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:599px){.ad-gallery{grid-template-columns:1fr}}
-@media(prefers-reduced-motion:reduce){.ad-detail{transition:none}}
+.ad-collapse{margin-top:20px}
+@media(max-width:599px){
+  .ad-section-body{display:flex;flex-direction:column}
+  .ad-section-body>p{order:0}
+  .ad-image{float:none;width:100%;margin:8px 0 20px;order:1}
+}
 
 /* breaking news (新車特報) */
 .breaking{margin:0 0 32px}
@@ -504,3 +508,5 @@ html{scroll-padding-top:110px}
 [data-theme="dark"] .mast h1.mast-logo .lg-dark{display:block}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mast h1.mast-logo .lg-light{display:none}:root:not([data-theme="light"]) .mast h1.mast-logo .lg-dark{display:block}}
 .sec-sfx{display:inline-block;margin-left:.3em;font-size:.8em;letter-spacing:0;vertical-align:.05em}
+.ad-detail > figure:first-child img,.ad-detail > img:first-child,.ad-detail > .news-img img{max-height:380px;width:100%;object-fit:cover}
+.ad-detail > .news-img .ratio{aspect-ratio:auto;height:380px;padding-top:0}.ad-detail > .news-img .ratio img{height:100%}@media(max-width:600px){.ad-detail > .news-img .ratio{height:220px}}
