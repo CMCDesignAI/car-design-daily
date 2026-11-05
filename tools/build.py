@@ -423,6 +423,10 @@ def ad_article(a, img=""):
             f'<span class="tag">{tag} · {e(a["date"])}</span><h3 tabindex="-1">{e(a["title"])}</h3>'
             + "".join(content) + note + credit_line + f'<div class="src">來源：<a href="{e(a["url"])}" target="_blank" rel="noopener">{e(source)} ↗</a></div>'
             '</div></div>')
+def note_fallback(day, d):
+    # 02 schema: optional top-level "design_fallback": {"reason": "..."} (absent when the article is a best pick). Not rendered; read by the 8:30 notice.
+    fb = d.get("design_fallback")
+    if fb: print(f"INFO {day} 02 design_fallback: {(fb.get('reason') if isinstance(fb, dict) else '') or 'no reason given'}", flush=True)
 def warn_untranslated(day, items):
     for a in items:
         for f in ("title", "summary", "points"):
@@ -636,7 +640,7 @@ def page(d, base, all_issues, is_root):
     H.append('</div></section>')
     # 02 Auto&Design column digest (optional; hidden when empty)
     if AD:
-        warn_untranslated(date, AD)
+        warn_untranslated(date, AD); note_fallback(date, d)
         H.append('<section id="autodesign"><div class="sec-head"><span class="num">02</span><h2>設計專欄' + SFX + '</h2><span class="en">Design Stories · Auto&amp;Design · ADP · CAR STYLING · Car Design TV · The Autopian</span></div><div class="cmf">')
         for a in AD:
             g = dict(a); g["more_images"] = (([a["image2"]] if a.get("image2") else []) + a.get("more_images", []))[:2]
