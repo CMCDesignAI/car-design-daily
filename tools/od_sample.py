@@ -128,6 +128,9 @@ def check(date,seed=False,backfill=False):
     if not targets: print(f'No new issue (latest {newest}, last_issue {last})')
 
 def crop(issue,page,box,out):
+    """Crop a vehicle photo from a sample page. Box must be tight to the photo
+    itself (car/subject only)—no white page margins, captions, page numbers or
+    magazine body text (zley 11/6)."""
     from PIL import Image
     if Path(out).name!=out or out in ('','.','..'): raise ValueError('--out must be a filename')
     page_number=int(page)
