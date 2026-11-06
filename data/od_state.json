@@ -157,10 +157,19 @@
       "crid": "54867afc-fdfd-407a-8c97-e4c86d6f6830",
       "sample_url": "https://samples.overdrive.com/?crid=54867afc-fdfd-407a-8c97-e4c86d6f6830&.epub-sample.overdrive.com",
       "overdrive_url": "https://downloadlibrary.overdrive.com/media/10106963"
+    },
+    "281": {
+      "issue": 281,
+      "edition": "281",
+      "media_id": "13827173",
+      "crid": "34584922-0df7-4808-b302-9157adb9f3e1",
+      "sample_url": "https://samples.overdrive.com/?crid=34584922-0df7-4808-b302-9157adb9f3e1&.epub-sample.overdrive.com",
+      "overdrive_url": "https://downloadlibrary.overdrive.com/media/13827173",
+      "release_date": "2026-11-06"
     }
   },
-  "checked": "2026-11-05",
-  "last_issue": 280,
+  "checked": "2026-11-06",
+  "last_issue": 281,
   "seeded_backfill": {
     "280": 3,
     "279": 3,
@@ -168,5 +177,19 @@
     "277": 0,
     "276": 4,
     "275": 2
+  },
+  "pending_sections": {
+    "281": {
+      "date": "2026-11-06",
+      "pages": [
+        "/workspace/car-design-daily/data/od_samples/281/page_01.png",
+        "/workspace/car-design-daily/data/od_samples/281/page_02.png",
+        "/workspace/car-design-daily/data/od_samples/281/page_03.png",
+        "/workspace/car-design-daily/data/od_samples/281/page_04.png",
+        "/workspace/car-design-daily/data/od_samples/281/page_05.png",
+        "/workspace/car-design-daily/data/od_samples/281/page_06.png"
+      ],
+      "overdrive_url": "https://downloadlibrary.overdrive.com/media/13827173"
+    }
   }
 }

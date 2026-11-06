@@ -1,0 +1,40 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="封閉式車頭 Closed front 示意圖：BYD Seal 07">
+  <defs>
+    <style>
+      .c{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+      .t{fill:currentColor;font-family:system-ui,-apple-system,sans-serif;font-size:15px}
+      .s{fill:currentColor;font-family:system-ui,-apple-system,sans-serif;font-size:12px;opacity:.75}
+      .a{stroke:#f08a5d;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+      .ad{stroke:#f08a5d;stroke-dasharray:4 3;fill:none;stroke-width:1.6}
+      .af{fill:#f08a5d}
+    </style>
+  </defs>
+  <!-- ground -->
+  <line class="c" x1="40" y1="250" x2="480" y2="250"/>
+  <!-- car side silhouette -->
+  <path class="c" d="M70,220 L95,180 L150,155 L250,145 L360,150 L420,175 L450,220 L430,225 L400,200 L160,200 L120,225 Z"/>
+  <!-- wheels -->
+  <circle class="c" cx="140" cy="225" r="28"/>
+  <circle class="c" cx="380" cy="225" r="28"/>
+  <circle class="c" cx="140" cy="225" r="12"/>
+  <circle class="c" cx="380" cy="225" r="12"/>
+  <!-- greenhouse -->
+  <path class="c" d="M160,200 L175,160 L300,152 L355,168 L360,200"/>
+  <!-- CLOSED FRONT highlighted: no grille opening, smooth nose -->
+  <path class="a" d="M70,220 L95,180 L150,155 L160,200 L120,225"/>
+  <!-- DRL thin strip on nose -->
+  <path class="a" d="M88,195 L145,168"/>
+  <!-- callouts -->
+  <line class="ad" x1="100" y1="170" x2="100" y2="90"/>
+  <circle class="af" cx="100" cy="90" r="3"/>
+  <text class="t" x="112" y="86">① 封閉式車頭</text>
+  <text class="s" x="112" y="104">沒有傳統進氣格柵開口</text>
+  <line class="ad" x1="130" y1="175" x2="210" y2="70"/>
+  <circle class="af" cx="210" cy="70" r="3"/>
+  <text class="t" x="222" y="66">② 細長日間行車燈</text>
+  <text class="s" x="222" y="84">Seal 07 的 Ocean Aesthetics 2.0</text>
+  <line class="ad" x1="145" y1="210" x2="250" y2="250"/>
+  <circle class="af" cx="250" cy="250" r="3"/>
+  <text class="t" x="260" y="255">③ 頭燈改藏進保桿區</text>
+  <text class="s" x="40" y="285">示意：BYD Seal 07 第二代 · 封閉式車頭（Closed front）</text>
+</svg>

@@ -1,0 +1,779 @@
+{
+ "date": "2026-11-06",
+ "weekday": "週五",
+ "issue_no": 30,
+ "lede": "BYD 第二代 Seal 07 以 Ocean Aesthetics 2.0 上市；Chery Arrizo 7 與 VW Virtus 小改款亮相；設計專欄讀 Auto&Design 新刊封面故事 Citroën 2 CV Concept。",
+ "design_news": [
+  {
+   "id": "byd-seal-07-gen2",
+   "tag": "新車 · 中國",
+   "date": "2026-11-05",
+   "brand": "BYD",
+   "title": "第二代 BYD Seal 07：Ocean Aesthetics 2.0，車頂裝光達",
+   "orig": "Second-gen BYD Seal 07 enters China with flash charging and God’s Eye ADAS",
+   "summary": "BYD 在中國推出第二代 Seal 07，純電與插電油電雙動力，外觀改採 Ocean 系列最新的「Ocean Aesthetics 2.0」：細長日間燈、封閉式車頭、頭燈整合進前保桿，並有貫穿式尾燈與車頂光達。純電版 CLTC 續航可達 775 公里，並支援快充。",
+   "analysis": [
+    [
+     "造型語彙",
+     "與旗艦 Seal 08 相近：細長 DRL、封閉車頭、頭燈下移進保桿，屬 Ocean Aesthetics 2.0。"
+    ],
+    [
+     "比例",
+     "車長 5,080mm、軸距 2,960mm，比全球版 BMW 5 系列還長 20mm，是大型轎車尺度。"
+    ],
+    [
+     "感測器",
+     "車頂前緣裝光達，對應 God’s Eye B 輔助駕駛的城市與高架 NOA。"
+    ],
+    [
+     "色彩",
+     "提供綠、粉、紫、銀、白、黑六色，延續 Ocean 系列的鮮明配色。"
+    ],
+    [
+     "品牌方向",
+     "第一代銷售疲弱後八個月就換代，用新造型與快充規格重新搶市場。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/5）",
+     "https://carnewschina.com/2026/11/05/second-gen-byd-seal-07-enters-china-with-flash-charging-and-gods-eye-adas/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-seal-07.jpg",
+    "alt": "青綠色第二代 BYD Seal 07 前側 3/4 與車頂光達",
+    "credit": "Xiao Lusiji (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/05/second-gen-byd-seal-07-enters-china-with-flash-charging-and-gods-eye-adas/"
+   },
+   "more_images": [
+    {
+     "file": "byd-seal-07-2.jpg",
+     "alt": "第二代 Seal 07 車尾與貫穿式尾燈",
+     "credit": "Xiao Lusiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/05/second-gen-byd-seal-07-enters-china-with-flash-charging-and-gods-eye-adas/"
+    },
+    {
+     "file": "byd-seal-07-cabin.jpg",
+     "alt": "Seal 07 米白色座艙與直立中控螢幕",
+     "credit": "Xiao Lusiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/05/second-gen-byd-seal-07-enters-china-with-flash-charging-and-gods-eye-adas/"
+    }
+   ]
+  },
+  {
+   "id": "chery-arrizo-7",
+   "tag": "新車 · 中國",
+   "date": "2026-11-05",
+   "brand": "Chery",
+   "title": "Chery Arrizo 7 量產版曝光：六角格柵與斜背，插電版續航 1,700 公里",
+   "orig": "Chery’s Audi-look Arrizo 7 sedan enters production with 1,700 km hybrid range",
+   "summary": "中國工信部公布 Chery Arrizo 7 量產版：源自 Arrizo S 概念車，保留大型六角格柵與棱角頭燈、斜背與整合式尾翼。提供 1.5T 汽油與 1.5L C-DM 插電油電，插電版宣稱 CLTC 綜合續航超過 1,700 公里，預計 2026 第四季上市。",
+   "analysis": [
+    [
+     "前臉",
+     "大型六角格柵搭配棱角頭燈，延續概念車的銳利前臉語彙。"
+    ],
+    [
+     "側面",
+     "斜背式車頂線與整合式尾翼，讓中型轎車看起來更像四門快背。"
+    ],
+    [
+     "座艙",
+     "雙螢幕配置、轉向柱排檔與中央實體開關，保留可觸的實體操作。"
+    ],
+    [
+     "尺度",
+     "車長 4,739mm、軸距 2,770mm，卡在 Arrizo 5 與 Arrizo 8 之間。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/5）",
+     "https://carnewschina.com/2026/11/05/cherys-audi-look-arrizo-7-sedan-enters-production-with-1700-km-hybrid-range/"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-arrizo-7.jpg",
+    "alt": "白色 Chery Arrizo 7 量產版前側 3/4",
+    "credit": "Yanzhao Nüsiji (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/05/cherys-audi-look-arrizo-7-sedan-enters-production-with-1700-km-hybrid-range/"
+   },
+   "more_images": [
+    {
+     "file": "chery-arrizo-7-2.jpg",
+     "alt": "Arrizo 7 車尾與斜背輪廓",
+     "credit": "Yanzhao Nüsiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/05/cherys-audi-look-arrizo-7-sedan-enters-production-with-1700-km-hybrid-range/"
+    },
+    {
+     "file": "chery-arrizo-7-3.jpg",
+     "alt": "Arrizo 7 雙螢幕座艙與實體中控開關",
+     "credit": "Yanzhao Nüsiji (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/05/cherys-audi-look-arrizo-7-sedan-enters-production-with-1700-km-hybrid-range/"
+    }
+   ]
+  },
+  {
+   "id": "vw-virtus-facelift",
+   "tag": "小改款 · 印度",
+   "date": "2026-11-05",
+   "brand": "Volkswagen",
+   "title": "VW Virtus 小改款亮相印度：新保桿菱形網格，GT 藍黑雙色",
+   "orig": "Volkswagen Virtus Facelift Revealed – New Design, Blue Colour, GT Styling",
+   "summary": "Volkswagen 印度公布 Virtus 小改款外觀：前保桿改為菱形／三角形網格下氣壩，霧燈座縮小，GT 車型搭配黑色輪圈、紅色卡鉗與紅色 GT 徽飾，尾燈燻黑並改下保桿。內裝與動力稍晚公布，預計 12 月上市。",
+   "analysis": [
+    [
+     "前臉",
+     "下氣壩改成菱形與三角幾何網格，上下分層更清楚，運動感更強。"
+    ],
+    [
+     "燈號",
+     "頭燈造型大致沿用，日間燈維持獨立 LED；尾燈改燻黑燈殼。"
+    ],
+    [
+     "CMF",
+     "GT 藍車色搭配黑車頂、黑照後鏡與紅卡鉗，對比度提高。"
+    ],
+    [
+     "比例",
+     "三廂比例與肩線不變，改動集中在保桿與輪圈細節。"
+    ]
+   ],
+   "sources": [
+    [
+     "RushLane（11/5）",
+     "https://www.rushlane.com/volkswagen-virtus-facelift-revealed-new-design-blue-colour-gt-styling-12560559.html"
+    ],
+    [
+     "HT Auto（11/5）",
+     "https://auto.hindustantimes.com/auto/cars/volkswagen-virtus-facelift-revealed-gets-revised-exterior-and-gt-variant-41793887146981.html"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-virtus.jpg",
+    "alt": "藍色 VW Virtus GT 小改款前側 3/4",
+    "credit": "Volkswagen India (via RushLane)",
+    "credit_url": "https://www.rushlane.com/volkswagen-virtus-facelift-revealed-new-design-blue-colour-gt-styling-12560559.html"
+   },
+   "more_images": [
+    {
+     "file": "vw-virtus-2.jpg",
+     "alt": "Virtus GT 前保桿菱形網格與紅色 GT 徽飾",
+     "credit": "Volkswagen India (via RushLane)",
+     "credit_url": "https://www.rushlane.com/volkswagen-virtus-facelift-revealed-new-design-blue-colour-gt-styling-12560559.html"
+    },
+    {
+     "file": "vw-virtus-3.jpg",
+     "alt": "Virtus GT 車尾燻黑尾燈與尾翼",
+     "credit": "Volkswagen India (via RushLane)",
+     "credit_url": "https://www.rushlane.com/volkswagen-virtus-facelift-revealed-new-design-blue-colour-gt-styling-12560559.html"
+    }
+   ]
+  },
+  {
+   "id": "changan-lumin-plus",
+   "tag": "新車 · 中國",
+   "date": "2026-11-05",
+   "brand": "Changan",
+   "title": "Changan Lumin Plus：軸距加長 220mm，變四門城市電動車",
+   "orig": "Changan reveals four-door Lumin Plus city EV",
+   "summary": "長安公布 Lumin Plus 官圖：在兩門 Lumin 基礎上把軸距加長 220mm、車長加到 3,515mm，多出一對後門，仍維持四座。圓燈、懸浮車頂沿用，門把改回傳統外露式。動力維持 35kW 後驅，CLTC 續航 205 或 301 公里，預計本月上市。",
+   "analysis": [
+    [
+     "比例",
+     "加長幾乎全給軸距與後門，讓微型電動車也能四門四座。"
+    ],
+    [
+     "細節",
+     "隱藏門把改成外露門把，下氣壩改黑色飾板，實用取向更明顯。"
+    ],
+    [
+     "座艙",
+     "電子排檔騰出中控空間，螢幕加寬，方向盤改三輻並與座椅同色。"
+    ],
+    [
+     "定位",
+     "對標五門／四門版的五菱宏光 MINI EV、奔騰小马等同級加長小車。"
+    ]
+   ],
+   "sources": [
+    [
+     "Inside China Auto（11/5）",
+     "https://insidechinaauto.com/2026/11/05/changan-reveals-four-door-lumin-plus-city-ev/"
+    ]
+   ],
+   "image": {
+    "file": "news-changan-lumin-plus.jpg",
+    "alt": "白色 Changan Lumin Plus 四門版前側官圖",
+    "credit": "Changan (via Inside China Auto)",
+    "credit_url": "https://insidechinaauto.com/2026/11/05/changan-reveals-four-door-lumin-plus-city-ev/"
+   },
+   "more_images": [
+    {
+     "file": "changan-lumin-plus-2.jpg",
+     "alt": "Lumin Plus 側面與懸浮車頂",
+     "credit": "Changan (via Inside China Auto)",
+     "credit_url": "https://insidechinaauto.com/2026/11/05/changan-reveals-four-door-lumin-plus-city-ev/"
+    },
+    {
+     "file": "changan-lumin-plus-3.jpg",
+     "alt": "Lumin Plus 後門開啟狀態",
+     "credit": "Changan (via Inside China Auto)",
+     "credit_url": "https://insidechinaauto.com/2026/11/05/changan-reveals-four-door-lumin-plus-city-ev/"
+    }
+   ],
+   "note": "官圖來源標示為 AI 生成，僅作造型預覽。"
+  },
+  {
+   "id": "toyota-crown-signia-gts",
+   "tag": "概念 · SEMA",
+   "date": "2026-11-03",
+   "brand": "Toyota",
+   "title": "Toyota Crown Signia GT-S：寬體、降 5 吋，走 GT 路線",
+   "orig": "Toyota Brings Grand Touring and Off-Grid Adventure to SEMA 2026",
+   "summary": "Toyota 在 SEMA 展出 Crown Signia GT-S Concept：由 Toyota Motorsports Garage 打造，整合寬體葉子板、重塑頭燈外框與紅色點綴、空氣力學套件，車高約降 5 吋，搭配 21 吋 HRE 輪圈與自調深灰金屬漆（加亮片與五層清漆）。",
+   "analysis": [
+    [
+     "比例",
+     "降低車高、加寬輪拱，把休旅輪廓壓成更接近 GT 旅行車的站姿。"
+    ],
+    [
+     "燈號",
+     "頭燈外框重塑並加紅色點綴，呼應性能化定位。"
+    ],
+    [
+     "CMF",
+     "深灰金屬漆加亮片與多層清漆，保留 Crown 精緻感卻更運動。"
+    ],
+    [
+     "座艙",
+     "前座加高側翼並用紅色點綴，延續 grand touring 主題。"
+    ]
+   ],
+   "sources": [
+    [
+     "Toyota USA Newsroom（11/3）",
+     "https://pressroom.toyota.com/toyota-brings-grand-touring-and-off-grid-adventure-to-sema-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-crown-signia-gts.jpg",
+    "alt": "深灰色 Crown Signia GT-S 概念車前側 3/4",
+    "credit": "Toyota",
+    "credit_url": "https://pressroom.toyota.com/toyota-brings-grand-touring-and-off-grid-adventure-to-sema-2026/"
+   },
+   "more_images": [
+    {
+     "file": "toyota-crown-signia-gts-2.jpg",
+     "alt": "Crown Signia GT-S 寬體與 21 吋輪圈",
+     "credit": "Toyota",
+     "credit_url": "https://pressroom.toyota.com/toyota-brings-grand-touring-and-off-grid-adventure-to-sema-2026/"
+    }
+   ]
+  },
+  {
+   "id": "geely-xingyao-6-ef",
+   "tag": "新車 · 中國",
+   "date": "2026-11-03",
+   "brand": "Geely",
+   "title": "Geely 星耀 6 EF：量產甲醇油電轎車，車長 4.8 米",
+   "orig": "Geely Launches Methanol Hybrid Technology and World’s First Production Methanol Hybrid Sedan",
+   "summary": "吉利發表銀河星耀 6 EF，號稱全球首款量產甲醇油電轎車：同一油箱可混用甲醇與汽油，並可純電行駛。車長約 4.8 米、軸距 2,756mm，採 GEA 架構與 Flyme Auto 座艙；甲醇＋滿電 CLTC 綜合續航約 1,250 公里。",
+   "analysis": [
+    [
+     "定位",
+     "不是取代純電，而是補上寒冷與長途場景的綠色燃料選項。"
+    ],
+    [
+     "比例",
+     "4.8 米級中型轎車，軸距 2,756mm，走主流家轎尺度。"
+    ],
+    [
+     "座艙",
+     "搭載 Flyme Auto 智慧座艙，與吉利電氣化產品線對齊。"
+    ],
+    [
+     "結構",
+     "車身高強度鋼佔比 71.6%，強調安全與量產成熟度。"
+    ]
+   ],
+   "sources": [
+    [
+     "Geely Auto Group（11/3）",
+     "https://www.geelyautogroup.com/en/media/20261103/"
+    ]
+   ],
+   "image": {
+    "file": "news-geely-xingyao-6-ef.jpg",
+    "alt": "Geely 星耀 6 EF 甲醇油電轎車發表現場",
+    "credit": "Geely Auto Group",
+    "credit_url": "https://www.geelyautogroup.com/en/media/20261103/"
+   }
+  },
+  {
+   "id": "porsche-panamera-facelift",
+   "tag": "間諜照 · 歐洲",
+   "date": "2026-11-05",
+   "brand": "Porsche",
+   "title": "Porsche Panamera 小改款無偽裝現身：細修保桿與四出尾管",
+   "orig": "Porsche Panamera Facelift Spied, But Can It Stop The Sales Slide?",
+   "summary": "間諜照片拍到幾乎無偽裝的 Panamera 小改款原型，推測對應 2028 車型年。頭燈與日間燈大致相同，保桿細節微調；油電版充電口在左前葉子板，車尾改較簡潔的下保桿並維持貫穿式尾燈與四出尾管。",
+   "analysis": [
+    [
+     "演進節奏",
+     "Porsche 造型採漸進微調，這次改動集中在保桿與尾段，側面剪影幾乎不變。"
+    ],
+    [
+     "燈號",
+     "頭燈與日間燈配置與現行車接近，辨識度靠細節而非全新燈簽。"
+    ],
+    [
+     "動力暗示",
+     "左前葉子板充電口顯示油電版仍是主力配置之一。"
+    ],
+    [
+     "市場",
+     "上半年 Panamera 銷量年減約 38%，小改款肩負止跌任務。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/5）",
+     "https://www.carscoops.com/2307565/porsche-panamera-hybrid-spy-shots-my28-no-disguise/"
+    ]
+   ],
+   "image": {
+    "file": "news-porsche-panamera.jpg",
+    "alt": "黑色 Panamera 小改款原型前側 3/4（間諜照）",
+    "credit": "Carscoops",
+    "credit_url": "https://www.carscoops.com/2307565/porsche-panamera-hybrid-spy-shots-my28-no-disguise/"
+   },
+   "more_images": [
+    {
+     "file": "porsche-panamera-2.jpg",
+     "alt": "Panamera 油電原型車尾四出尾管與充電口",
+     "credit": "Carscoops",
+     "credit_url": "https://www.carscoops.com/2307565/porsche-panamera-hybrid-spy-shots-my28-no-disguise/"
+    }
+   ]
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "od-281-s1",
+   "source": "Auto&Design",
+   "credit": "Auto&Design No.281, via OverDrive sample",
+   "kind": "issue_sample",
+   "column": "新刊 No.281",
+   "date": "2026-11-06",
+   "url": "https://downloadlibrary.overdrive.com/media/13827173",
+   "paywalled": false,
+   "design_tag": "設計師專訪",
+   "orig": "Citroën 2 CV Concept: Heritage and Desirability",
+   "title": "Citroën 2 CV Concept：不做復古，重做一台小電動車",
+   "points": [
+    "設計總監 Pierre Leclercq 說，這不是復古重生，而是回應新移動需求的小型電動車。",
+    "概念回到 1948 年 T.P.V. 任務書：平價、實用、輕量、多用途，再包進可辨識造型。",
+    "車長 3.76 米，比原版 2CV 還短；圓潤引擎蓋與翼子板掛頭燈的剪影仍在。",
+    "珊瑚橘車身、波紋引擎蓋、大圓雙人字廠徽與艙內串燈，把歡樂感做成可見細節。"
+   ],
+   "image": {
+    "file": "ad-2cv-1.jpg",
+    "alt": "珊瑚橘 Citroën 2 CV Concept 車頭與雙人字廠徽",
+    "credit": "Auto&Design No.281, via OverDrive sample",
+    "credit_url": "https://downloadlibrary.overdrive.com/media/13827173"
+   },
+   "image2": {
+    "file": "ad-2cv-2.jpg",
+    "alt": "2 CV Concept 側面拱形車頂與白色輪蓋",
+    "credit": "Auto&Design No.281, via OverDrive sample",
+    "credit_url": "https://downloadlibrary.overdrive.com/media/13827173"
+   },
+   "more_images": [
+    {
+     "file": "ad-2cv-3.jpg",
+     "alt": "2 CV Concept 車尾與垂直尾門",
+     "credit": "Auto&Design No.281, via OverDrive sample",
+     "credit_url": "https://downloadlibrary.overdrive.com/media/13827173"
+    }
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "Auto&Design No.281 封面故事由 Silvia Baruffaldi 撰寫，記錄 Citroën 在巴黎發表的 2 CV Concept。設計總監 Pierre Leclercq 被問到如何處理「喚醒 2CV」這個既敏感又吸引人的題目時強調：團隊不是在做一份懷舊拷貝，而是要用當代小型電動車的條件，重新回答 1948 年 T.P.V.（Toute Petite Voiture）任務書提出的平價、實用、輕量與多用途。",
+       "執行長 Xavier Chardon 也談到「渴望感」（desirability）：小型車要能讓人想擁有，而不只是規格表上的代步工具。概念車指向約 2028 年的量產型小電動車方向。"
+      ]
+     },
+     {
+      "h": "比例與剪影",
+      "p": [
+       "目標售價約 15,000 歐元；車長 3.76 米，比原版 2CV 的 3.85 米更短，刻意逆著「車越做越大」的產業慣性。保留的是一眼能認的剪影：拱形車頂、突出的翼子板，以及頭燈坐在翼子板上的佈局。",
+       "白色圓盤輪蓋、短前後懸與偏高的離地，讓它在都市裡看起來輕巧、可親近，而不是復古展品。"
+      ]
+     },
+     {
+      "h": "造型手法",
+      "p": [
+       "車頭用大面積圓形雙人字（chevron）廠徽當視覺中心，頭燈是圓角矩形，外側以 C 形 LED 勾邊。引擎蓋上的縱向波紋直接向原版 2CV 的瓦楞鈑金致意，但面處理更平整、更適合量產鈑金。",
+       "透過擋風玻璃可見艙內一串暖色球形燈，把「歡樂、聚會」寫進車頭第一眼；銀色下保險桿與「2 CV La deuche」車牌則用暱稱把品牌記憶說清楚。"
+      ]
+     },
+     {
+      "h": "開發節奏",
+      "p": [
+       "文中提到，3D 模型在 2025 年 10 月呈報給管理層後，專案推進很快，以便趕上巴黎車展原型發表。速度本身也是設計決策：先把可辨識的比例與表情定住，再談細節與成本。",
+       "對 Leclercq 而言，成功與否不在於零件有多像老車，而在於新世代駕駛能不能在一台小電動車上，重新感覺到 2CV 那套簡單與自由。"
+      ]
+     },
+     {
+      "h": "重點收穫",
+      "p": [
+       "這篇封面故事示範一種「遺產車」做法：先回到原始任務書（平價、輕量、多用途），再用現代尺度把車做得更短、更電氣化，最後才用波紋蓋、翼子板頭燈等符號提醒你它是誰。符號服務概念，而不是概念服務符號。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ad-2cv-1.jpg",
+      "alt": "2 CV Concept 車頭特寫：波紋蓋與 C 形燈簽",
+      "credit": "Auto&Design No.281, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13827173",
+      "section": 2
+     },
+     {
+      "file": "ad-2cv-2.jpg",
+      "alt": "2 CV Concept 側面剪影與白色輪蓋",
+      "credit": "Auto&Design No.281, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13827173",
+      "section": 1
+     },
+     {
+      "file": "ad-2cv-3.jpg",
+      "alt": "2 CV Concept 車尾垂直尾門",
+      "credit": "Auto&Design No.281, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13827173",
+      "section": 4
+     }
+    ],
+    "note": "本文為依 OverDrive 試閱頁與原文重點整理改寫的精簡筆記，完整內容請見 Auto&Design No.281。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-zanardi-cabin",
+   "kind": "car",
+   "car": "BMW M3 Tribute to Zanardi",
+   "tag": "內裝 · 義大利",
+   "title": "Zanardi 致敬版：雷射打孔 Alcantara",
+   "points": [
+    "座椅中央用 anthracite Alcantara，雷射打孔透出底層。",
+    "底層呈藍到紅的虹彩漸層，呼應 BMW M 三色。",
+    "素面 Alcantara 飾帶從座椅一路連到門板。",
+    "內裝參考 E30 M3 Sport Evolution 的克制配色。"
+   ],
+   "image": {
+    "file": "cmf-car-zanardi-cabin.jpg",
+    "alt": "M3 Zanardi 座艙：Alcantara 座椅與門板打孔透光",
+    "credit": "BMW Italia / BorromeoDeSilva (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/"
+   },
+   "sources": [
+    [
+     "Auto&Design（11/5）",
+     "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-multiplay-knit",
+   "kind": "material",
+   "car": "Fiat Multiplay",
+   "tag": "材質 · 針織",
+   "title": "Multiplay 內裝：無縫線立體針織",
+   "points": [
+    "座椅與側牆用粗糙織紋的紅色技術布。",
+    "邊緣滾薄荷綠色邊，對應西瓜綠外觀。",
+    "紡織採無縫線立體針織，減少車縫線。",
+    "Petsenger 寵物墊用同色系絎縫塊狀造型。"
+   ],
+   "image": {
+    "file": "cmf-mat-multiplay-cabin.jpg",
+    "alt": "Multiplay 紅薄荷內裝與寵物墊",
+    "credit": "Fiat (via Dezeen)",
+    "credit_url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+   },
+   "more_images": [],
+   "sources": [
+    [
+     "Dezeen（11/5）",
+     "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-akzo-modern-vintage",
+   "kind": "paint",
+   "car": "AkzoNobel / Sikkens",
+   "tag": "塗料 · 修復",
+   "title": "Modern Vintage：依原廠色碼重調經典車漆",
+   "points": [
+    "在 SEMA 推出，對應超過 140 年汽車原廠色。",
+    "可依年份、車型或 OEM 色碼搜尋後調漆寄送。",
+    "與 Dave Kindig 合作，走 Sikkens 現代配方。",
+    "目標是還原出廠色，而不是現代詮釋版。"
+   ],
+   "image": {
+    "file": "cmf-paint-akzo-modern-vintage.jpg",
+    "alt": "AkzoNobel Modern Vintage 產品宣傳圖",
+    "credit": "AkzoNobel (via CollisionWeek)",
+    "credit_url": "https://collisionweek.com/2026/11/04/akzonobel-launches-modern-vintage-line-historic-oem-colors-sema-show/"
+   },
+   "note": "來源圖偏小，僅作產品示意。",
+   "sources": [
+    [
+     "CollisionWeek（11/4）",
+     "https://collisionweek.com/2026/11/04/akzonobel-launches-modern-vintage-line-historic-oem-colors-sema-show/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-grok-menus",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Tesla Grok 會藍框標出設定選單",
+   "date": "2026-11-05",
+   "points": [
+    "用 Grok 叫出某項設定時，介面會用藍色脈衝框住對應區塊。",
+    "同版本在 S/X 儀表加入換檔圖示，前進／倒車更一眼可辨。",
+    "目的地圖示也改依類別分色，例如餐廳橘、商店藍。",
+    "更新編號 2026.26.300.12，11/5 釋出說明。"
+   ],
+   "image": {
+    "file": "hmi-tesla-grok-menus.jpg",
+    "alt": "Tesla 燈光設定頁，Accent Lights 區塊被藍框標出",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes"
+   },
+   "more_images": [
+    {
+     "file": "hmi-tesla-gear-shift.jpg",
+     "alt": "Model S/X 儀表換檔與 HOLD 圖示",
+     "credit": "Tesla (via Not a Tesla App)",
+     "credit_url": "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes"
+    }
+   ],
+   "sources": [
+    [
+     "Not a Tesla App（11/5）",
+     "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "法規 · 歐洲",
+   "date": "2026-11-05",
+   "title": "歐盟議會環境委員會通過放寬 2035 碳排放案",
+   "summary": "歐洲議會環境委員會以 48 票贊成、30 票反對，通過將 2035 年新車 CO₂ 減排目標由 100% 放寬到 95%，並可用歐產低碳鋼再折抵最多 7.5 個百分點。工業與運輸委員會先前已表態支持，全院表決預計 12 月。",
+   "sources": [
+    [
+     "electrive（11/5）",
+     "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 韓國／中國",
+   "date": "2026-11-05",
+   "title": "中國外市場：CATL、BYD 市佔上升，韓廠下滑",
+   "summary": "SNE Research 資料顯示，2026 年前三季中國以外 EV 電池用量年增 24.7%。CATL 市佔 33.7%、BYD 10.8%；LGES、SK On、Samsung SDI 合計市佔由 38.2% 降至 26.5%，北美用量約腰斬。",
+   "sources": [
+    [
+     "CnEVPost（11/5）",
+     "https://cnevpost.com/2026/11/05/catl-byd-gain-ev-battery-share-outside-china/"
+    ]
+   ]
+  },
+  {
+   "tag": "產品 · 日本／全球",
+   "date": "2026-11-05",
+   "title": "Mitsubishi Pajero 公布日本規格與售價",
+   "summary": "Mitsubishi 公布新一代 Pajero 日本規：車長約 4.92 米的三排七人座車身、標準四驅與梯型大樑，動力為 2.4 升渦輪柴油。日本售價約折合 3.9 萬至 5 萬美元，12 月開賣；美國是否以 Montero 導入尚未定案。",
+   "sources": [
+    [
+     "Car and Driver（11/5）",
+     "https://www.caranddriver.com/news/a74345871/mitsubishi-pajero-suv-specs/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-04",
+   "title": "台灣 10 月電動車掛牌掉到 2,598 輛",
+   "summary": "DIGITIMES 評析指出，台灣 10 月電動車總掛牌由 9 月 7,026 輛降至 2,598 輛，跌幅逾五成；Tesla 全月僅 Model Y 掛牌 16 輛，市場進入交車空窗，鴻華先進 Foxtron 面臨量能保衛戰。",
+   "sources": [
+    [
+     "DIGITIMES（11/4）",
+     "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000773416_U6138XW027RI4B5CALPVU"
+    ]
+   ]
+  },
+  {
+   "tag": "設計人事 · 歐洲",
+   "date": "2026-11-05",
+   "title": "Pierre Leclercq 轉任 Opel-Vauxhall 設計負責人",
+   "summary": "Car Design News 獨家報導，原 Citroën 設計總監 Pierre Leclercq 將轉任 Opel-Vauxhall 設計負責人。他剛在巴黎主導 2 CV Concept 等作品；人事異動牽動 Stellantis 旗下品牌設計布局。",
+   "sources": [
+    [
+     "Car Design News（11/5）",
+     "https://www.cardesignnews.com/designers/exclusive-pierre-leclercq-on-his-surprise-move-to-opel-vauxhall/2763251"
+    ]
+   ]
+  },
+  {
+   "tag": "製造 · 中國",
+   "date": "2026-11-05",
+   "title": "CATL 匈牙利 Debrecen 廠開始試產",
+   "summary": "SNE Research 指出，CATL 位於匈牙利 Debrecen 的工廠已於 9 月 22 日啟動前兩條產線試產，有助就近供應歐洲車廠，並為 2027 年 Battery Passport 追溯要求做準備。",
+   "sources": [
+    [
+     "CnEVPost（11/5）",
+     "https://cnevpost.com/2026/11/05/catl-byd-gain-ev-battery-share-outside-china/"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Closed front",
+  "zh": "封閉式車頭（Closed front）",
+  "body": "封閉式車頭是指電動車把傳統水箱護罩的開口拿掉或大幅縮小，讓車頭變成一塊較完整的造形面，進氣改由保桿下方或主動氣壩處理。本期第二代 BYD Seal 07 就是例子：車頭幾乎看不到格柵洞，細長日間燈貼著引擎蓋邊緣，真正的頭燈藏進保桿區，整體更像一塊「臉」而不是「進氣口」。設計師這樣做，是因為電動車不再需要大面積冷卻開口，可以把辨識度與空力一起做在燈簽與面上。",
+  "source": [
+   [
+    "CarNewsChina：Second-gen BYD Seal 07",
+    "https://carnewschina.com/2026/11/05/second-gen-byd-seal-07-enters-china-with-flash-charging-and-gods-eye-adas/"
+   ],
+   [
+    "Wikipedia：Grille (car)",
+    "https://en.wikipedia.org/wiki/Grille_(car)"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "moodboards": [],
+ "color_data": {
+  "interior": {
+   "theme": "Watermelon Cabin & Anthracite Alcantara",
+   "zh": "西瓜紅配薄荷：針織座艙點一筆虹彩",
+   "intro": "每日一組內裝配色示例：上儀表板用 Fiat Multiplay 的西瓜紅織紋色，飾條借薄荷綠滾邊，門板嵌飾用同系深紅針織，扶手偏珊瑚橘（呼應 2 CV Concept），縫線用 BMW M 藍，下門板用 anthracite Alcantara 深灰，搭淺色頂棚。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質織紋",
+     "Watermelon Red（示意）",
+     "#C43B3B",
+     false,
+     "ip-upper",
+     {
+      "src": "Fiat Multiplay 紅內裝",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+     }
+    ],
+    [
+     "儀表板飾條 · 飾件",
+     "Mint Green（示意）",
+     "#6FBFB0",
+     false,
+     "ip-decor",
+     {
+      "src": "Fiat Multiplay 薄荷滾邊",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+     }
+    ],
+    [
+     "門板嵌飾 · 針織",
+     "Deep Knit Red（示意）",
+     "#9E2A2B",
+     false,
+     "door-insert",
+     {
+      "src": "Fiat Multiplay 針織",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+     }
+    ],
+    [
+     "門扶手 · 軟質",
+     "Coral Accent（示意）",
+     "#E07A5F",
+     false,
+     "armrest",
+     {
+      "src": "Citroën 2 CV Concept 珊瑚橘",
+      "url": "https://downloadlibrary.overdrive.com/media/13827173"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "M Blue（示意）",
+     "#1C69D4",
+     false,
+     "stitch",
+     {
+      "src": "BMW M 色（Zanardi）",
+      "url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/"
+     }
+    ],
+    [
+     "下門板 · Alcantara",
+     "Anthracite（示意）",
+     "#2B2E33",
+     false,
+     "door-lower",
+     {
+      "src": "Zanardi Alcantara",
+      "url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Watermelon Red／Mint：Fiat Multiplay（Dezeen）",
+     "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/"
+    ],
+    [
+     "Anthracite Alcantara／M Blue：BMW M3 Tribute to Zanardi（Auto&Design）",
+     "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/"
+    ],
+    [
+     "Coral：Citroën 2 CV Concept（Auto&Design No.281 sample）",
+     "https://downloadlibrary.overdrive.com/media/13827173"
+    ]
+   ],
+   "mood": [
+    "活潑",
+    "針織",
+    "對比",
+    "輕快"
+   ],
+   "mood_text": "西瓜紅與薄荷綠讓座艙像夏季水果盤，深灰 Alcantara 壓住吵雜感，藍色縫線帶一點性能車的清醒。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#C43B3B",
+    "seat-bolster": "#9E2A2B",
+    "seat-center": "#C43B3B",
+    "console": "#2B2E33",
+    "console-arm": "#E07A5F",
+    "steering": "#6FBFB0",
+    "accent-pod": "#1C69D4",
+    "accent-pod2": "#E07A5F",
+    "ip-lower": "#2B2E33"
+   }
+  }
+ }
+}

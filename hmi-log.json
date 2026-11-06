@@ -118,5 +118,11 @@
   "key": "hmi-mercedes-smart-windows",
   "url": "https://www.carscoops.com/2307245/mercedes-benz-smart-rear-window-led-messages/",
   "image": "hmi-mercedes-smart-windows.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "key": "hmi-tesla-grok-menus",
+  "url": "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes",
+  "image": "hmi-tesla-grok-menus.jpg"
  }
 ]

@@ -578,5 +578,29 @@
   "angle": "AkzoNobel 2027 年度色：Soulful Sage",
   "url": "https://www.pcimag.com/articles/115482-akzonobel-announces-automotive-color-of-the-year",
   "image": null
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "car",
+  "car_key": "car:bmw-m3-zanardi-cabin",
+  "angle": "Zanardi 致敬版：雷射打孔 Alcantara",
+  "url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/",
+  "image": "cmf-car-zanardi-cabin.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "material",
+  "car_key": "material:fiat-multiplay-knit",
+  "angle": "Multiplay 內裝：無縫線立體針織",
+  "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/",
+  "image": "cmf-mat-multiplay-cabin.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "paint",
+  "car_key": "paint:akzo-modern-vintage",
+  "angle": "Modern Vintage：依原廠色碼重調經典車漆",
+  "url": "https://collisionweek.com/2026/11/04/akzonobel-launches-modern-vintage-line-historic-oem-colors-sema-show/",
+  "image": "cmf-paint-akzo-modern-vintage.jpg"
  }
 ]
