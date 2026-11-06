@@ -1,0 +1,801 @@
+{
+  "date": "2026-11-06",
+  "weekday": "週五",
+  "issue_no": 30,
+  "lede": "韓國 Adro 的 AOX 平台讓人上傳車輛 3D 檔，約一小時就能在瀏覽器做 AI 空力優化；同一天 OpenAI 推出專攻資安的 GPT-6 Cyber，Google 也把 Gemini Omni 1.2 Flash 推到可做 15 秒影片。",
+  "closed": [],
+  "open": [],
+  "news": [],
+  "ainews": [
+    {
+      "id": "adro-aox-aero",
+      "org": "Adro",
+      "tag": "AI 輔助汽車設計",
+      "date": "2026-11-05",
+      "title": "韓國 Adro 全球上線 AOX：上傳車輛 3D 檔，約一小時用 AI 做空力優化",
+      "short_title": "Adro AOX：上傳 3D 做 AI 空力",
+      "one": "韓國空力零件商 Adro 把空力優化做成雲端瀏覽器服務：丟 3D 檔就能跑 AI 分析，不必自己裝 CFD。",
+      "orig": "Upload a car's 3D file, get aerodynamic optimization in an hour: Adro launches AI platform",
+      "summary": "Herald Business（2026-11-05）報導：Adro 宣布 AOX（AI 空力設計平台）將於下週一全球正式商用。流程是上傳車輛 3D 檔，由 AI 提出降低風阻的設計條件，在約 550 萬計算網格上跑 5 次分析，單次優化週期約 1 小時；全部在雲端瀏覽器完成，不必安裝 CFD 軟體或具備 CFD 專業。實車驗證：Porsche 992 GT3 裝上 AOX 設計的空力套件後，在全羅南道靈岩賽道實測，報導寫空力效率（downforce/drag）較原廠提升約 81%，前空力件迭代從數週縮到一天；另對 Tesla Model Y 做過實車預測驗證。商用車方面，Class 8 長途卡車風阻降 7.38%，公司估計約可換算 3.4% 油耗改善。平台採訂閱制含月用量額度，超量可加購，另有企業方案。資料來自其 2020 年至今為 12 個汽車品牌供應 230+ 種空力零件的實測數據。",
+      "links": [
+        [
+          "Herald Business",
+          "https://biz.heraldcorp.com/article/10927545"
+        ]
+      ],
+      "image": null,
+      "gloss": [
+        [
+          "CFD",
+          "計算流體力學，用電腦模擬空氣怎麼流過車身"
+        ],
+        [
+          "空力效率",
+          "下壓力相對風阻的比值，愈高通常彎道抓地愈好、風阻代價愈低"
+        ]
+      ]
+    },
+    {
+      "id": "openai-gpt6-cyber",
+      "org": "OpenAI",
+      "tag": "資安模型升級",
+      "date": "2026-11-05",
+      "title": "OpenAI 推出 GPT-6 Cyber：ExploitGym 48.5%、對齊評測近 100% 不越界",
+      "short_title": "GPT-6 Cyber 資安模型上線",
+      "one": "OpenAI 發表專做授權範圍內找漏洞、驗證與修補的 GPT-6 Cyber，初期只給核准的 Daybreak Red 客戶。",
+      "orig": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "summary": "OpenAI 官方（2026-11-05）：GPT-6 Cyber 訓練目標是在研究者設定的授權範圍內找漏洞並驗證可利用性。ExploitGym 得分 48.5%（前代 GPT-5.6 Cyber 32.1%）；對齊評測（避免攻擊範圍外服務）無部署提示 99.93%、有提示 100%。Preparedness Framework 資安等級由 High 升為 Critical。實務上用於 Linux 948 個提權漏洞（與昨日報導的研究同一波，今日公開模型身分）與 Firefox 81 個先前未知高嚴重度漏洞（Mozilla 已釋出多項修補）。初期經 API 與 Codex 僅對部分核准的 Daybreak Red 客戶開放，之後擴及全部 Daybreak Red，並向全部 Daybreak Red 提供 GPT-5.6 Cyber。開發者文件 model id：gpt-6-cyber，context window 約 1,050,000。",
+      "links": [
+        [
+          "OpenAI 官方介紹",
+          "https://openai.com/index/introducing-gpt-6-cyber/"
+        ],
+        [
+          "開發者模型頁",
+          "https://developers.openai.com/api/docs/models/gpt-6-cyber"
+        ]
+      ],
+      "image": {
+        "file": "gpt6-cyber.webp",
+        "alt": "OpenAI GPT-6 Cyber 宣傳圖",
+        "credit": "OpenAI",
+        "credit_url": "https://openai.com/index/introducing-gpt-6-cyber/"
+      },
+      "gloss": [
+        [
+          "Daybreak Red",
+          "OpenAI 給核准資安／紅隊研究用的存取方案"
+        ],
+        [
+          "ExploitGym",
+          "測模型能不能在指定漏洞上做出可利用結果的評測"
+        ]
+      ]
+    },
+    {
+      "id": "gemini-omni-12-flash",
+      "org": "Google",
+      "tag": "影片模型升級",
+      "date": "2026-11-05",
+      "title": "Gemini Omni 1.2 Flash 正式上線：原生最長 15 秒影片、多輪對話改片，價格降 30%",
+      "short_title": "Omni 1.2 Flash：15 秒影片",
+      "one": "Google 把 Gemini Omni 1.2 Flash 推上 Gemini API 與 Cloud：最長 15 秒、可邊聊邊改，720p 單秒價格比 1.1 便宜三成。",
+      "orig": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary": "Google 官方部落格（2026-11-05）：Omni 1.2 Flash 在 Gemini API 與 Google Cloud 一般可用。原生可生成／編輯最長 15 秒（1.1 為 10 秒），可按 1 秒增量指定 3–15 秒。720p 影片 $0.07／秒，較 Omni 1.1 降 30%；可先用 360p/720p 草稿，多輪改細節後再升到 1080p/4K。支援多輪對話式編輯（換背景／產品／光線／比例不必整段重生成），並強化參考圖、最多 3 秒動作片段與音訊條件下的角色／產品一致性；輸出帶 SynthID。落地：Flow 可導戲與多輪改；Google Vids 對有 Google 帳號或 Workspace 的使用者可做 15 秒片；Gemini app 向 Google AI Ultra 訂戶滾動上線 15 秒影片。",
+      "links": [
+        [
+          "Google：Omni 1.2 Flash",
+          "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        ],
+        [
+          "Google Vids 說明",
+          "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+        ]
+      ],
+      "image": {
+        "file": "gemini-omni-12.webp",
+        "alt": "Gemini Omni 1.2 Flash 介紹圖",
+        "credit": "Google",
+        "credit_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      "gloss": [
+        [
+          "SynthID",
+          "Google 加在 AI 生成內容上的浮水印，肉眼幾乎看不出"
+        ]
+      ]
+    },
+    {
+      "id": "claude-personal-finance",
+      "org": "Anthropic",
+      "tag": "平台功能",
+      "date": "2026-11-05",
+      "title": "Claude Personal Finance 美國 beta：用 Plaid 唯讀串銀行，用白話問自己的收支",
+      "short_title": "Claude 個人理財 beta（美）",
+      "one": "美國 Pro／Max／Ultra 可用 Claude 串銀行帳戶看餘額與交易，只能讀不能轉帳，對話也不拿去訓練。",
+      "orig": "Introducing Personal Finance in Claude",
+      "summary": "Claude 官方（2026-11-05）：Personal Finance 本週起美國 beta，限 Pro／Max／Ultra；Free／Team／Enterprise 不可用；支援網頁、Desktop、iOS、Android。經 Plaid 連結銀行／信用卡／貸款／投資帳戶；Claude 唯讀，不能轉帳、投資或下單，也不看銀行密碼。可見銀行名、帳戶類型／後四碼、餘額與信用額度、最多兩年交易。Personal Finance hub 內對話不用來訓練模型。可跨帳戶加總本月花費、找重複扣款／異常費用、估計發薪日前剩多少等。",
+      "links": [
+        [
+          "Claude：Personal Finance",
+          "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+        ],
+        [
+          "Help Center",
+          "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude"
+        ]
+      ],
+      "image": {
+        "file": "claude-personal-finance.webp",
+        "alt": "Claude Personal Finance 介紹圖",
+        "credit": "Anthropic",
+        "credit_url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+      },
+      "gloss": [
+        [
+          "Plaid",
+          "幫 App 安全串接銀行帳戶的中介服務，通常不經過 App 直接拿你的網銀密碼"
+        ]
+      ]
+    },
+    {
+      "id": "claude-enterprise-security",
+      "org": "Anthropic",
+      "tag": "企業資安",
+      "date": "2026-11-05",
+      "title": "Claude Enterprise 資安更新：Inference hooks 正式 GA、Security center 與防影子 IT",
+      "short_title": "Claude Enterprise 資安套件",
+      "one": "企業可以把既有 DLP 接到 Claude 的提示與工具呼叫上，還多了資安儀表板、集中管理台與 Desktop 防個人帳號。",
+      "orig": "More visibility and control over Claude Enterprise for security teams",
+      "summary": "Claude 官方（2026-11-05）：Inference hooks（prompt hooks＋pre-tool-call hooks）正式 GA，可把提示與工具呼叫送到企業既有 DLP／資安工具做允許或拒絕。Security center（beta）一頁對照建議設定並可下載稽核報告。Centralized management（beta）在 admin.claude.com 統一 SSO／SCIM／網域與 Compliance API keys。另可用 Admin API 強制簽出成員、自助 IP allowlist，並在託管電腦的 Claude Desktop 封鎖個人／外部帳號；Cowork 本機 VM 可裝企業 EDR sensor（偵測模式，beta）。",
+      "links": [
+        [
+          "Claude Enterprise security updates",
+          "https://claude.com/resources/articles/claude-enterprise-security-updates"
+        ],
+        [
+          "Inference hooks 文件",
+          "https://platform.claude.com/docs/en/manage-claude/inference-hooks"
+        ]
+      ],
+      "image": {
+        "file": "claude-enterprise-sec.webp",
+        "alt": "Claude Enterprise 資安更新介紹圖",
+        "credit": "Anthropic",
+        "credit_url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
+      },
+      "gloss": [
+        [
+          "Inference hooks",
+          "在模型真正回覆或呼叫工具前，先把內容送到你公司資安系統審核的機制"
+        ],
+        [
+          "影子 IT",
+          "員工私自使用公司未核准的帳號或軟體"
+        ]
+      ]
+    },
+    {
+      "id": "meta-conductor",
+      "org": "Meta",
+      "tag": "併購／產品",
+      "date": "2026-11-04",
+      "title": "Meta 收購 AI 程式代理新創 Conductor；雲端服務 11/20 關停",
+      "short_title": "Meta 買下 Conductor",
+      "one": "寫程式用的多代理工作區 Conductor 併入 Meta：雲端 11/20 關閉，本機版會維護到 2027 年初。",
+      "orig": "Conductor is joining Meta",
+      "summary": "Conductor CEO Charlie Holtz（2026-11-04）與 TechCrunch 報導：Conductor 加入 Meta，金額未公布。產品可在雲端／本機／手機同時開多個代理工作區寫軟體；代理模型來自 Anthropic、OpenAI 等。時程：11/4 起停止新註冊；11/13 Cloud 唯讀；11/20 Cloud 關停並開始刪雲端資料（可轉本機或匯出）；本機版續收新模型與關鍵修補至 early 2027。現有 Pro 可免費續用 Pro 功能；活躍訂戶將退款。",
+      "links": [
+        [
+          "Conductor 官方公告",
+          "https://www.conductor.build/announcement"
+        ],
+        [
+          "TechCrunch",
+          "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+        ]
+      ],
+      "image": {
+        "file": "meta-conductor.webp",
+        "alt": "Conductor 加入 Meta 公告圖",
+        "credit": "Conductor",
+        "credit_url": "https://www.conductor.build/announcement"
+      },
+      "gloss": []
+    }
+  ],
+  "watch": [
+    {
+      "id": "minimax-h3",
+      "model": "MiniMax H3",
+      "kind": "影片生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "qwen-image-2.1",
+      "model": "Qwen Image 2.1",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "krea-2",
+      "model": "Krea 2",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "moss-image",
+      "model": "MOSS-Image",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "grok-bot-tips",
+      "model": "Grok Bot 教學與實用資訊",
+      "kind": "AI 助理",
+      "status": "有三則實作教學：新手 30 分鐘上手、電話代打協商帳單、四 bot 電影製作組。",
+      "updates": [
+        {
+          "title": "Grok Bot 新手教學，30 分鐘學會建 bot、AI 團隊、雲端電腦與 Routines",
+          "date": "2026-11-04",
+          "short_title": "30 分鐘 Grok Bot 上手",
+          "one": "學到從安裝到第一隻 bot、幕僚長帶團隊、雲端電腦、外掛／Routines 與 Vault；影片有時間戳與畫面步驟。",
+          "summary": "YouTube 創作者 Gary Chen（約 28 分鐘）：章節含是什麼、第一隻 bot、AI 團隊、雲端電腦、外掛與自動化、群聊與安全。屬作者示範教學，實際選單以你的 App 版本為準。",
+          "links": [
+            [
+              "Gary Chen 教學影片",
+              "https://www.youtube.com/watch?v=nnTqbMhKr3E"
+            ]
+          ],
+          "image": null,
+          "gloss": [
+            [
+              "Routines",
+              "可排程或依事件自動跑的常駐任務"
+            ],
+            [
+              "Vault",
+              "存放帳密等敏感資料的保險庫功能"
+            ]
+          ]
+        },
+        {
+          "title": "Grok Bot 電話代打協商 Comcast 帳單：實況錄音示範",
+          "date": "2026-11-03",
+          "short_title": "電話代打砍電信帳單",
+          "one": "作者實測讓 Bot 把 Comcast 從每月 $84 談到 $45，影片含設定步驟與真實通話錄音。",
+          "summary": "Peter Yang 示範如何在 Grok Bot 設定電話代打，並播放與 Comcast 客服的真實通話（含語音樹、三次 upsell）。作者說最終月費從 $84 降到 $45；並整理何時需要人接手。電話產品本身已於稍早新聞提過，這裡著重操作與結果示範。",
+          "links": [
+            [
+              "Peter Yang 示範影片",
+              "https://www.youtube.com/watch?v=F-356TczoQU"
+            ]
+          ],
+          "image": null,
+          "gloss": []
+        },
+        {
+          "title": "用四隻 Grok Bot 組電影製作組，再串 OpenArt 生圖生影片",
+          "date": "2026-11-02",
+          "short_title": "四 bot 電影製作工作流",
+          "one": "作者把 Story／美術／攝影／Prompt 拆成四隻 bot，審核後再交給 OpenArt MCP 出圖出片。",
+          "summary": "Mira AI 示範多 bot 協作：各 bot 負責故事、視覺指南與角色／場景／道具、運鏡與 shot list、提示詞；每步審核後才進下一專職，最後用 OpenArt MCP 生成圖像與影片再進剪接。屬作者工作流示範。",
+          "links": [
+            [
+              "Mira AI 工作流影片",
+              "https://www.youtube.com/watch?v=EC0lEkIKdjo"
+            ]
+          ],
+          "image": null,
+          "gloss": [
+            [
+              "MCP",
+              "Model Context Protocol，讓助理外掛連到外部工具的協定"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "id": "col-t8-ph3-vs-qwen",
+      "creator": "T8star-Aix",
+      "creator_key": "t8star-aix",
+      "platform": "YouTube",
+      "date": "2026-11-05",
+      "title": "T8star 對比 P-H3-Image 與 Qwen Image 2.1：MiniMax H3 圖像模型實測＋ComfyUI 工作流",
+      "short_title": "P-H3 對上 Qwen Image 2.1",
+      "orig": "P-H3-Image Vs Qwen Image 2.1全面深度对比，Minimax H3图像模型测评",
+      "one": "作者實測 MiniMax H3 系的 P-H3-Image 與 Qwen Image 2.1，並附可本地下載的 ComfyUI 模型與工作流。",
+      "points": [
+        "Hugging Face README（PrunaAI/P-H3-Image-Comfy）：P-H3-Image 基於 MiniMax-H3，做文生圖與最多 8 張圖的圖像編輯；ComfyUI 原生支援、不必自訂節點；可 8 步出約 8MP；提供 bf16／int8／w4a8，最小組合下載約 20GB、峰值約 21GB VRAM。",
+        "作者說明欄附本期飛書資料、夸克網盤本地模型／工作流，以及 HF 模型頁；並寫 RunningHub 線上工作流預計 11.06 更新（作者說）。",
+        "影片標題定位為全面深度對比與 MiniMax H3 圖像模型測評；細節對比結論屬作者實測。"
+      ],
+      "url": "https://www.youtube.com/watch?v=fRl903el3n4",
+      "image": {
+        "file": "col-t8-ph3.webp",
+        "alt": "T8star-Aix 影片縮圖：P-H3-Image 對比 Qwen Image 2.1",
+        "credit": "T8star-Aix（YouTube 縮圖）",
+        "credit_url": "https://www.youtube.com/watch?v=fRl903el3n4"
+      },
+      "links": [
+        [
+          "Hugging Face：P-H3-Image-Comfy",
+          "https://huggingface.co/PrunaAI/P-H3-Image-Comfy"
+        ]
+      ],
+      "gloss": [
+        [
+          "P-H3-Image",
+          "PrunaAI 把 MiniMax-H3 量化／打包成 ComfyUI 可用的圖像模型"
+        ]
+      ]
+    },
+    {
+      "id": "col-wf-dsh-tutorial",
+      "creator": "Work-Fisher",
+      "creator_key": "work-fisher",
+      "platform": "YouTube",
+      "date": "2026-11-05",
+      "title": "Work-Fisher 大肥魚 DeepSeek Harness 終極教程：插件、介面美化、手機互通",
+      "short_title": "DeepSeek Harness 從零到插件",
+      "orig": "DeepSeek Harness 大肥鱼终极教程：新手进阶/插件生态/界面美化/手机端互通/全能鲸鱼娘【附完整文档】",
+      "one": "從官網安裝到插件市場、桌寵與手機遠端，作者整理一份可跟著做的 DeepSeek Harness 資源清單。",
+      "points": [
+        "官方 GitHub README：DeepSeek Harness（dsh）是 DeepSeek AI 開源 agent harness，「everything-is-a-plugin」架構；可用 `npx @deepseek-ai/dsh web` 在本機開 Web UI（預設 http://127.0.0.1:3080）。",
+        "作者說明欄分塊附連結：官網、GitHub、awesome-dsh-plugin、DSH Market、創造模式提示詞合集，以及 SurfCore／SurfPet 等鯨魚娘與語音外掛、DSH Go 手機遠端。",
+        "另附夸克網盤圖文版＋素材；具體操作步驟屬作者教學。"
+      ],
+      "url": "https://www.youtube.com/watch?v=CSTQSkLlTNc",
+      "image": {
+        "file": "col-wf-dsh.webp",
+        "alt": "Work-Fisher 影片縮圖：DeepSeek Harness 教學",
+        "credit": "Work-Fisher（YouTube 縮圖）",
+        "credit_url": "https://www.youtube.com/watch?v=CSTQSkLlTNc"
+      },
+      "links": [
+        [
+          "GitHub：deepseek-harness",
+          "https://github.com/deepseek-ai/deepseek-harness"
+        ],
+        [
+          "中文官網 Harness",
+          "https://www.deepseek.com/zh/harness"
+        ]
+      ],
+      "gloss": [
+        [
+          "DeepSeek Harness / DSH",
+          "DeepSeek 開源的本機 Agent 殼層，功能以插件擴充"
+        ]
+      ]
+    },
+    {
+      "id": "col-aisd-chatgpt-images26",
+      "creator": "AI超元域",
+      "creator_key": "aisuperdomain",
+      "platform": "YouTube",
+      "date": "2026-11-05",
+      "title": "AI超元域 ChatGPT Images 2.6 全方位實測：GIF、裝修圖、產品攝影到分鏡接力影片",
+      "short_title": "Images 2.6 創作場景實測",
+      "one": "作者把 Images 2.6 丟進裝修、書法、產品攝影與古裝分鏡，並用 Grok Bot 把靜態分鏡接成影片，同時記下失敗案例。",
+      "points": [
+        "作者實測（說明＋章節）：白羽雞打籃球 GIF 改三版；一張毛坯房照片約 1 分 27 秒生成 10 張不同風格裝修圖；另測平面圖轉室內、書體切換、產品攝影換背景／改側光。",
+        "作者實測：10 張長安俠客圖交給 Grok Bot 接力生成影片；章節亦含宋詞畫面、賽博分鏡與手機／桌面 UI 原型。",
+        "作者說也保留問題：書法簡繁混用、部分步驟與細節不夠自然——屬能力邊界紀錄。"
+      ],
+      "url": "https://www.youtube.com/watch?v=9fGwwQaaLSQ",
+      "image": {
+        "file": "col-aisd-images26.webp",
+        "alt": "AI超元域 影片縮圖：ChatGPT Images 2.6 實測",
+        "credit": "AI超元域（YouTube 縮圖）",
+        "credit_url": "https://www.youtube.com/watch?v=9fGwwQaaLSQ"
+      },
+      "links": [
+        [
+          "作者開源項目 GitHub",
+          "https://github.com/win4r/"
+        ]
+      ],
+      "gloss": []
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "tut-video-upscale",
+      "title": "ComfyUI 影片放大總覽：依品質／速度／修 AI 片怎麼選模型",
+      "learn": "學會依需求在 SeedVR2、FlashVSR、Topaz Astra、HitPaw 之間選影片放大路線，並知道官方給的耗時對照。",
+      "level": "中階",
+      "vram": "官方文件未統一列出各模型顯存；僅有耗時對照（例如 FlashVSR 10 秒 720p→1080p 約 41 秒），依原頁為準",
+      "kind": "常青教學",
+      "gloss": [
+        [
+          "影片放大",
+          "把影片解析度拉高，同時盡量補細節、維持前後幀一致"
+        ]
+      ],
+      "steps": [
+        "把 ComfyUI 更新到最新版。",
+        "依用途選模型：要畫質與角色一致可走 SeedVR2／HitPaw；要速度可走 FlashVSR；要修 AI 生成片的電影感可試 Topaz Astra Creative。",
+        "文件建議先清理再逐步放大（例如先到 1080p，再考慮 4K），避免一次拉太高。",
+        "可用 Partner nodes（Topaz／WaveSpeed／HitPaw）或開源 SeedVR2／FlashVSR 工作流；需要更順可再接幀插值。"
+      ],
+      "links": [
+        [
+          "ComfyUI：Video Upscaling",
+          "https://docs.comfy.org/tutorials/utility/video-upscale"
+        ]
+      ]
+    },
+    {
+      "id": "tut-partial-execution",
+      "title": "ComfyUI Partial Execution：只跑選中輸出節點那一條分支",
+      "learn": "學會選 preview／save 等輸出節點後，用藍色三角只執行該分支，不必整張工作流重跑。",
+      "level": "入門",
+      "vram": "不適用（介面功能）",
+      "kind": "常青教學",
+      "gloss": [
+        [
+          "輸出節點",
+          "工作流末端負責預覽或存檔的節點，例如 Preview／Save Image"
+        ]
+      ],
+      "steps": [
+        "在畫布上選取一個輸出節點（preview 或 save）。",
+        "確認選取工具列出現藍色三角 Partial Execution 圖示（只有輸出節點才會出現）。",
+        "點藍色三角，只跑從上游到該輸出的分支。",
+        "若仍整圖執行：確認 frontend ≥ v1.23.4（文件指相關 bug 約在 1.24.x 修復），並把 ComfyUI 更新到最新。"
+      ],
+      "links": [
+        [
+          "ComfyUI：Partial Execution",
+          "https://docs.comfy.org/interface/features/partial-execution"
+        ]
+      ]
+    }
+  ],
+  "video": {
+    "title": "Grok Bot 新手教學：30 分鐘建 bot、組 AI 團隊、用雲端電腦與 Routines",
+    "orig": "Grok Bot 新手教學，30 分鐘學會！",
+    "channel": "Gary Chen",
+    "youtube_id": "nnTqbMhKr3E",
+    "url": "https://www.youtube.com/watch?v=nnTqbMhKr3E",
+    "date": "2026-11-04",
+    "thumb": {
+      "file": "vid-grokbot-tutorial.webp",
+      "alt": "Grok Bot 新手教學影片縮圖",
+      "credit": "Gary Chen（YouTube 縮圖）"
+    },
+    "one": "想快速搞懂 Grok Bot 能做什麼，可以跟著這支有時間戳的上手片走一遍。"
+  },
+  "caveats": [
+    "LMArena 官網今日 curl 403，文字榜改依官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset（資料更新日仍為 2026-10-28）。",
+    "X 共用讀取額度今日遭 429，未能抓各大廠帳號近 36 小時貼文；產品消息改依官方部落格與新聞稿。"
+  ],
+  "leaderboards": {
+    "snapshot": "2026-11-06",
+    "compared_to": "2026-11-05",
+    "boards": [
+      {
+        "id": "text",
+        "title": "文字 LLM 總榜",
+        "en": "Text Arena · Overall",
+        "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+        "source_url": "https://lmarena.ai/leaderboard/text",
+        "metric": "Arena score",
+        "as_of": "2026-10-28",
+        "fetched": "2026-11-06",
+        "carried_from": "2026-10-30",
+        "latest_as_of": "2026-10-28",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Gemini 4 Carbon (high)",
+            "org": "Google",
+            "score": 1540,
+            "ci": 9,
+            "new": true
+          },
+          {
+            "rank": 2,
+            "model": "Gemini 4 Argon (high)",
+            "org": "Google",
+            "score": 1529,
+            "ci": 6,
+            "move": -1,
+            "delta": 3
+          },
+          {
+            "rank": 3,
+            "model": "Claude Opus 5.5 (high)",
+            "org": "Anthropic",
+            "score": 1516,
+            "ci": 7,
+            "move": -1
+          },
+          {
+            "rank": 4,
+            "model": "Claude Fable 5.1 (max)",
+            "org": "Anthropic",
+            "score": 1514,
+            "ci": 6,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 5,
+            "model": "Claude Opus 5 (max)",
+            "org": "Anthropic",
+            "score": 1508,
+            "ci": 5,
+            "move": -1
+          },
+          {
+            "rank": 6,
+            "model": "Claude Opus 5 (high)",
+            "org": "Anthropic",
+            "score": 1504,
+            "ci": 4,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 7,
+            "model": "Claude Opus 4.6 (high)",
+            "org": "Anthropic",
+            "score": 1502,
+            "ci": 3,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 8,
+            "model": "Muse Wonder (max)",
+            "org": "Meta",
+            "score": 1499,
+            "ci": 7,
+            "move": -1,
+            "delta": -2
+          },
+          {
+            "rank": 9,
+            "model": "Gemini 3.8 Flash (high)",
+            "org": "Google",
+            "score": 1498,
+            "ci": 4,
+            "move": -1
+          },
+          {
+            "rank": 10,
+            "model": "Claude Opus 4.6",
+            "org": "Anthropic",
+            "score": 1496,
+            "ci": 3,
+            "move": -1,
+            "delta": -1
+          }
+        ],
+        "compared_to": "2026-11-05",
+        "diff": {
+          "summary": [
+            "無變化"
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "title": "文生圖排行",
+        "en": "Text-to-Image · AA-Image-T2I v2.1",
+        "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "metric": "Elo",
+        "as_of": "2026-11-05",
+        "fetched": "2026-11-06",
+        "carried_from": "2026-11-05",
+        "latest_as_of": "2026-11-06",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "GPT Image 2.5 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1224,
+            "ci": 1095,
+            "delta": 6
+          },
+          {
+            "rank": 2,
+            "model": "GPT Image 2.5 Flare (max)",
+            "org": "OpenAI",
+            "score": 1208,
+            "ci": 1095
+          },
+          {
+            "rank": 3,
+            "model": "GPT Image 2 (high)",
+            "org": "OpenAI",
+            "score": 1188,
+            "ci": 1195,
+            "delta": 2
+          },
+          {
+            "rank": 4,
+            "model": "Nano Banana 2.1",
+            "org": "Google",
+            "score": 1176,
+            "ci": 1295,
+            "delta": 4
+          },
+          {
+            "rank": 5,
+            "model": "Grok Imagine Image 2.0",
+            "org": "SpaceXAI",
+            "score": 1168,
+            "ci": 1295,
+            "delta": 2
+          },
+          {
+            "rank": 6,
+            "model": "MAI-Image-2.6",
+            "org": "Microsoft AI",
+            "score": 1168,
+            "ci": 1295,
+            "delta": 3
+          },
+          {
+            "rank": 7,
+            "model": "Nano Banana 2",
+            "org": "Google",
+            "score": 1140,
+            "ci": 1095,
+            "delta": 1
+          },
+          {
+            "rank": 8,
+            "model": "Muse Image",
+            "org": "Meta",
+            "score": 1127,
+            "ci": 1195
+          },
+          {
+            "rank": 9,
+            "model": "GPT Image 1.5 (high)",
+            "org": "OpenAI",
+            "score": 1125,
+            "ci": 1195,
+            "delta": 4
+          },
+          {
+            "rank": 10,
+            "model": "MAI-Image-2.6-Flash",
+            "org": "Microsoft AI",
+            "score": 1120,
+            "ci": 1295,
+            "delta": 3
+          }
+        ],
+        "compared_to": "2026-11-05",
+        "diff": {
+          "summary": [
+            "GPT Image 2.5 Sunburst (max): #1→#1 (0 名), 1224→1227 (+3)",
+            "Nano Banana 2.1: #4→#4 (0 名), 1176→1175 (-1)",
+            "MAI-Image-2.6: #6→#5 (+1 名), 1168→1169 (+1)",
+            "Grok Imagine Image 2.0: #5→#6 (-1 名), 1168→1166 (-2)",
+            "Nano Banana 2: #7→#7 (0 名), 1140→1142 (+2)",
+            "Muse Image: #8→#8 (0 名), 1127→1128 (+1)",
+            "GPT Image 1.5 (high): #9→#9 (0 名), 1125→1123 (-2)",
+            "MAI-Image-2.6-Flash: #10→#10 (0 名), 1120→1121 (+1)"
+          ]
+        }
+      },
+      {
+        "id": "video",
+        "title": "文生影片排行",
+        "en": "Text-to-Video · AA-Video-T2V v2.1",
+        "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "as_of": "2026-11-04",
+        "fetched": "2026-11-06",
+        "metric": "Elo",
+        "carried_from": "2026-11-04",
+        "latest_as_of": "2026-11-06",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Wan 3.0",
+            "org": "Alibaba",
+            "score": 1172,
+            "ci": 14,
+            "released": "Aug 2026"
+          },
+          {
+            "rank": 2,
+            "model": "Utopai X",
+            "org": "Utopai Studios",
+            "score": 1169,
+            "ci": 14,
+            "released": "Sep 2026"
+          },
+          {
+            "rank": 3,
+            "model": "MiniMax H3 (768p)",
+            "org": "MiniMax",
+            "score": 1160,
+            "ci": 14,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 4,
+            "model": "FLUX 3 Max",
+            "org": "Fal",
+            "score": 1156,
+            "ci": 16,
+            "released": "Oct 2026"
+          },
+          {
+            "rank": 5,
+            "model": "Dreamina Seedance 2.5",
+            "org": "ByteDance Seed",
+            "score": 1155,
+            "ci": 14,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 6,
+            "model": "HeyGen Video 1",
+            "org": "HeyGen",
+            "score": 1153,
+            "ci": 14,
+            "released": "Oct 2026"
+          },
+          {
+            "rank": 7,
+            "model": "MiniMax H3 Max",
+            "org": "Fal",
+            "score": 1148,
+            "ci": 16,
+            "released": "Aug 2026"
+          },
+          {
+            "rank": 8,
+            "model": "FLUX 3",
+            "org": "Black Forest Labs",
+            "score": 1139,
+            "ci": 14,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 9,
+            "model": "Dreamina Seedance 2.0",
+            "org": "ByteDance Seed",
+            "score": 1136,
+            "ci": 14,
+            "released": "Mar 2026"
+          },
+          {
+            "rank": 10,
+            "model": "Gemini Omni Flash 1.1",
+            "org": "Google",
+            "score": 1129,
+            "ci": 13,
+            "released": "Aug 2026"
+          }
+        ],
+        "compared_to": "2026-11-05",
+        "diff": {
+          "summary": [
+            "無變化"
+          ]
+        }
+      }
+    ]
+  }
+}

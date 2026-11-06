@@ -1,100 +1,121 @@
 [
- {
-  "date": "2026-10-28",
-  "key": "col-dseditor-strata-nemotron",
-  "creator_key": "dseditor",
-  "url": "https://www.facebook.com/dseditorlab/posts/pfbid02QduCYoqaxD17HXGJ6Fs9qqzAzXdNQgRa6YQ9v4xV4e4KskqnFiGnjG9MtX77Srdml",
-  "topic": "把 Strata＋Nemotron 編成 Windows 原生版"
- },
- {
-  "date": "2026-10-28",
-  "key": "col-t8-hi3d",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=2xV7ef6w5Mk",
-  "topic": "T8 開源 Hi3D 3D 創作台"
- },
- {
-  "date": "2026-10-28",
-  "key": "col-fisher-moss-expander",
-  "creator_key": "work-fisher",
-  "url": "https://www.youtube.com/watch?v=XDG9BzlRwy4",
-  "topic": "MOSS 文生圖＋提示詞擴寫 Skill"
- },
- {
-  "date": "2026-10-29",
-  "key": "col-t8-h3-2k",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=sAUTuPPdC-I",
-  "topic": "minimax-h3-open-2k-regenerate"
- },
- {
-  "date": "2026-10-29",
-  "key": "col-aisd-claude-duet",
-  "creator_key": "aisuperdomain",
-  "url": "https://www.youtube.com/watch?v=aQ8gC58O4l0",
-  "topic": "claude-duet-workflow-test"
- },
- {
-  "date": "2026-10-31",
-  "key": "col-songyin-h3-toybox",
-  "creator_key": "dseditor",
-  "url": "https://www.facebook.com/dseditorlab/posts/pfbid02sjmEzkJCLMn1BRLg1faTDLZXtKFZUNeZCA4QmtBL7exKn6KLvjjP4NY7SZg751PFl",
-  "topic": "MiniMax H3 Colab 玩具箱"
- },
- {
-  "date": "2026-10-31",
-  "key": "col-t8-drama3",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=a9YzHLZNj8A",
-  "topic": "T8 開源 Drama-3 語音導演台"
- },
- {
-  "date": "2026-10-31",
-  "key": "col-aisd-unlimited-ocr2",
-  "creator_key": "aisuperdomain",
-  "url": "https://www.youtube.com/watch?v=W7lSIikNJBI",
-  "topic": "unlimited-ocr-2-local-test"
- },
- {
-  "date": "2026-11-01",
-  "key": "col-t8-code-animate",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=7YeFQlDXUuo",
-  "topic": "T8 開源程式碼動畫 Skill（Code-Animate-T8）"
- },
- {
-  "date": "2026-11-01",
-  "key": "col-songyin-vllm-windows-spark",
-  "creator_key": "dseditor",
-  "url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl",
-  "topic": "vLLM-Windows RTX Spark 原生安裝檔"
- },
- {
-  "date": "2026-11-02",
-  "key": "col-t8-bluepixel",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=55Jwm8G6TQQ",
-  "topic": "vivo BluePixel 4K 改圖 ComfyUI 節點"
- },
- {
-  "date": "2026-11-03",
-  "key": "col-t8-apt-replace",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=mmaHUbG309g",
-  "topic": "MiniMax H3 換角復刻 Codex Skill（APT＋技能工廠 1.4.0）"
- },
- {
-  "date": "2026-11-04",
-  "key": "col-aisd-grokbot-advanced",
-  "creator_key": "aisuperdomain",
-  "url": "https://www.youtube.com/watch?v=uK3j5AbpiF0",
-  "topic": "Grok Bot 進階玩法：跨裝置派工、雲端電腦、多 BOT 群聊交接 Cursor Cloud Agents"
- },
- {
-  "date": "2026-11-05",
-  "key": "col-t8-troublemaker-v11",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=G40et2yTs78",
-  "topic": "TroubleMaker 換角複刻 Skill 優化版 1.1.0（RunningHub、兩張參考圖換男女主角）"
- }
+  {
+    "date": "2026-10-28",
+    "key": "col-dseditor-strata-nemotron",
+    "creator_key": "dseditor",
+    "url": "https://www.facebook.com/dseditorlab/posts/pfbid02QduCYoqaxD17HXGJ6Fs9qqzAzXdNQgRa6YQ9v4xV4e4KskqnFiGnjG9MtX77Srdml",
+    "topic": "把 Strata＋Nemotron 編成 Windows 原生版"
+  },
+  {
+    "date": "2026-10-28",
+    "key": "col-t8-hi3d",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=2xV7ef6w5Mk",
+    "topic": "T8 開源 Hi3D 3D 創作台"
+  },
+  {
+    "date": "2026-10-28",
+    "key": "col-fisher-moss-expander",
+    "creator_key": "work-fisher",
+    "url": "https://www.youtube.com/watch?v=XDG9BzlRwy4",
+    "topic": "MOSS 文生圖＋提示詞擴寫 Skill"
+  },
+  {
+    "date": "2026-10-29",
+    "key": "col-t8-h3-2k",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=sAUTuPPdC-I",
+    "topic": "minimax-h3-open-2k-regenerate"
+  },
+  {
+    "date": "2026-10-29",
+    "key": "col-aisd-claude-duet",
+    "creator_key": "aisuperdomain",
+    "url": "https://www.youtube.com/watch?v=aQ8gC58O4l0",
+    "topic": "claude-duet-workflow-test"
+  },
+  {
+    "date": "2026-10-31",
+    "key": "col-songyin-h3-toybox",
+    "creator_key": "dseditor",
+    "url": "https://www.facebook.com/dseditorlab/posts/pfbid02sjmEzkJCLMn1BRLg1faTDLZXtKFZUNeZCA4QmtBL7exKn6KLvjjP4NY7SZg751PFl",
+    "topic": "MiniMax H3 Colab 玩具箱"
+  },
+  {
+    "date": "2026-10-31",
+    "key": "col-t8-drama3",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=a9YzHLZNj8A",
+    "topic": "T8 開源 Drama-3 語音導演台"
+  },
+  {
+    "date": "2026-10-31",
+    "key": "col-aisd-unlimited-ocr2",
+    "creator_key": "aisuperdomain",
+    "url": "https://www.youtube.com/watch?v=W7lSIikNJBI",
+    "topic": "unlimited-ocr-2-local-test"
+  },
+  {
+    "date": "2026-11-01",
+    "key": "col-t8-code-animate",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=7YeFQlDXUuo",
+    "topic": "T8 開源程式碼動畫 Skill（Code-Animate-T8）"
+  },
+  {
+    "date": "2026-11-01",
+    "key": "col-songyin-vllm-windows-spark",
+    "creator_key": "dseditor",
+    "url": "https://www.facebook.com/dseditorlab/posts/pfbid0y2RkFXmiJcCqxnmqxoyxNDEp3ocXT3RVMkEG6oQtGARi5pgJQf6qWZoG3Bg2jNNGl",
+    "topic": "vLLM-Windows RTX Spark 原生安裝檔"
+  },
+  {
+    "date": "2026-11-02",
+    "key": "col-t8-bluepixel",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=55Jwm8G6TQQ",
+    "topic": "vivo BluePixel 4K 改圖 ComfyUI 節點"
+  },
+  {
+    "date": "2026-11-03",
+    "key": "col-t8-apt-replace",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=mmaHUbG309g",
+    "topic": "MiniMax H3 換角復刻 Codex Skill（APT＋技能工廠 1.4.0）"
+  },
+  {
+    "date": "2026-11-04",
+    "key": "col-aisd-grokbot-advanced",
+    "creator_key": "aisuperdomain",
+    "url": "https://www.youtube.com/watch?v=uK3j5AbpiF0",
+    "topic": "Grok Bot 進階玩法：跨裝置派工、雲端電腦、多 BOT 群聊交接 Cursor Cloud Agents"
+  },
+  {
+    "date": "2026-11-05",
+    "key": "col-t8-troublemaker-v11",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=G40et2yTs78",
+    "topic": "TroubleMaker 換角複刻 Skill 優化版 1.1.0（RunningHub、兩張參考圖換男女主角）"
+  },
+  {
+    "date": "2026-11-06",
+    "key": "col-t8-ph3-vs-qwen",
+    "creator_key": "t8star-aix",
+    "url": "https://www.youtube.com/watch?v=fRl903el3n4",
+    "topic": "col-t8-ph3-vs-qwen"
+  },
+  {
+    "date": "2026-11-06",
+    "key": "col-wf-dsh-tutorial",
+    "creator_key": "work-fisher",
+    "url": "https://www.youtube.com/watch?v=CSTQSkLlTNc",
+    "topic": "col-wf-dsh-tutorial"
+  },
+  {
+    "date": "2026-11-06",
+    "key": "col-aisd-chatgpt-images26",
+    "creator_key": "aisuperdomain",
+    "url": "https://www.youtube.com/watch?v=9fGwwQaaLSQ",
+    "topic": "col-aisd-chatgpt-images26"
+  }
 ]
