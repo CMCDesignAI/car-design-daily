@@ -4542,7 +4542,7 @@
       "image": "https://autodesignmagazine.com/wp-content/uploads/2026/10/2026110502_FAW-Trucks-TLX.jpg?x11123",
       "excerpt": "“It’s true that the heavy-duty sector is investing in autonomous driving, but we don’t expect to see it fully deployed on the roads for another 10 to 15 years. Until then, trucks will still be driven by real people, who first and foremost live in them,” explain Rustam Schogenow and Wenyu Wu, FAW Trucks’ exterior and interior designers, respectively, at the end of our conversation about the TL.X. The lorry for the 70th anniversary Unveiled at IAA Transportation, the concept looks ahead to the truck of 2036 while drawing inspiration from the company’s origins. In Hannover, it was displayed along",
       "added": "2026-11-06",
-      "used": false
+      "used": true
     },
     "dz-fiat-multiplay-multipilina-concept-car-video-interview": {
       "id": "dz-fiat-multiplay-multipilina-concept-car-video-interview",
@@ -4715,6 +4715,51 @@
       ],
       "back_issue": false,
       "release_date": "2026-11-06"
+    },
+    "ad-omoda-x-off-roading-robot": {
+      "id": "ad-omoda-x-off-roading-robot",
+      "source": "Auto&Design",
+      "credit": "Auto&Design",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Extra",
+      "title_en": "OMODA X, OFF-ROADING ROBOT",
+      "date": "2026-11-06",
+      "url": "https://autodesignmagazine.com/en/2026/11/omoda-x-off-roading-robot/",
+      "image": "https://autodesignmagazine.com/wp-content/uploads/2026/11/OMODA_X_14_Rear_Three_Quarter_View.jpg?x11123",
+      "excerpt": "Mecha is the design language that unites the new Omoda family. It draws inspiration from futuristic technology, mecha culture and mechanical aesthetics, with a different interpretation for each model. While the Omoda 4 offers a youthful, digital take on the concept, dubbed Cyber Mecha, the new Omoda X, unveiled in a world premiere on 20 October 2026, takes things a step further with its Super Mecha styling, which the brand describes as more mature, powerful and futuristic. The proportions are inspired by those of mecha robots, with broad shoulders and a narrow waist. The design focuses on a wi",
+      "added": "2026-11-07",
+      "used": false
+    },
+    "wp-1970-psychedelic-porsche-917-043": {
+      "id": "wp-1970-psychedelic-porsche-917-043",
+      "source": "Wallpaper*",
+      "credit": "Wallpaper*",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Transportation",
+      "title_en": "The 1970 psychedelic Porsche 917 racing car that pre-empted the art car movement",
+      "date": "2026-11-06",
+      "url": "https://www.wallpaper.com/transportation/1970-psychedelic-porsche-917-043",
+      "image": "https://cdn.mos.cms.futurecdn.net/qVdLhFNvh7JXBfAQeUaJJk-1920-80.jpg",
+      "excerpt": "By the summer of 1970, the world was in flux. Paul McCartney had walked out on the Beatles in April; the Woodstock documentary was in cinemas, cementing the summer of ’69 as pure spectacle; and the World Cup was beaming out of Mexico, the first tournament broadcast in colour. That same energy reached motor racing at precisely four o’clock on the afternoon of Saturday 13 June, when a psychedelic Porsche 917, shaped like a spaceship and hand-painted days earlier, rolled onto the start line of the 24 Hours of Le Mans. The 917 on the track in its heyday (Image credit: Porsche) The car was chassis",
+      "added": "2026-11-07",
+      "used": false
+    },
+    "cdn-2763951": {
+      "id": "cdn-2763951",
+      "source": "Car Design News",
+      "credit": "Car Design News",
+      "paywalled": true,
+      "kind": "analysis",
+      "column": "Analysis",
+      "title_en": "Design round-up: 20 years of the Qashaqai; AUDI Shanghai technology centre opens; Kia experiments with clay",
+      "date": "2026-11-06",
+      "url": "https://www.cardesignnews.com/cars/design-round-up-20-years-of-qashaqai-audis-shanghai-tech-centre-kia-experiments-with-clay/2763951",
+      "image": "https://image.cardesignnews.com/2763970.jpg?imageId=2763970&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "excerpt": "Car Design News looks at news that may have gone under the radar, including the latest updates from Nissan, AUDI, Kia and people news",
+      "added": "2026-11-07",
+      "used": false
     }
   }
 }

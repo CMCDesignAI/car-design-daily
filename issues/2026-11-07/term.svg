@@ -1,0 +1,29 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="數位燈光畫布示意：車頭可程式化顯示面">
+  <defs>
+    <style>
+      .c{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+      .t{fill:currentColor;font-family:system-ui,-apple-system,sans-serif;font-size:15px}
+      .s{fill:currentColor;font-family:system-ui,-apple-system,sans-serif;font-size:12px;opacity:.75}
+      .h{stroke:#f08a5d;stroke-width:3;fill:none}
+      .hd{fill:#f08a5d}
+      .panel{fill:#f08a5d;opacity:.25;stroke:#f08a5d;stroke-width:2}
+    </style>
+  </defs>
+  <path class="c" d="M40 240 H480"/>
+  <!-- front 3/4 simple sedan -->
+  <path class="c" d="M90 210
+    L120 160 L200 145 L320 145 L400 160 L430 210
+    L400 210 L390 230 L320 230 L310 210 L200 210 L190 230 L120 230 L110 210 Z"/>
+  <path class="c" d="M200 145 L220 120 L300 120 L320 145"/>
+  <circle class="c" cx="160" cy="230" r="22"/>
+  <circle class="c" cx="360" cy="230" r="22"/>
+  <!-- digital canvas on front -->
+  <rect class="panel" x="125" y="168" width="70" height="28" rx="4"/>
+  <path class="h" d="M125 168 H195"/>
+  <!-- leopard-eye lamps -->
+  <path class="h" d="M110 175 Q118 170 130 172"/>
+  <path class="h" d="M200 172 Q212 170 220 175"/>
+  <circle class="hd" cx="160" cy="130" r="9"/><text class="t" x="174" y="135">① 車頭數位畫布</text>
+  <circle class="hd" cx="250" cy="185" r="9"/><text class="t" x="264" y="190">② 可換燈簽／動畫</text>
+  <text class="s" x="40" y="275">示意：Lepas Aura 概念車頭的可程式化燈光顯示面</text>
+</svg>
