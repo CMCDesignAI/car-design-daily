@@ -1,0 +1,632 @@
+{
+  "date": "2026-11-07",
+  "weekday": "週六",
+  "issue_no": 31,
+  "lede": "日產新任全球設計首長說，AI 與數位工具已把造型從首張草圖到 design freeze 縮到約五個月；開源陣營同日有 Thinking Machines 的 Inkling 2 Small（594B／17B）與百度 ERNIE 5.5 Flash Base（280B／14B）釋出。",
+  "closed": [],
+  "open": [],
+  "news": [],
+  "ainews": [
+    {
+      "id": "nissan-ai-styling",
+      "org": "Nissan",
+      "tag": "AI 輔助汽車設計",
+      "date": "2026-11-05",
+      "title": "日產新設計首長：AI＋數位工具把造型週期縮半，首張草圖到 design freeze 約五個月",
+      "short_title": "日產：AI 讓造型週期縮半",
+      "one": "Matthew Weaver 說新數位工具可做出沙漠實拍感的動態視覺化，讓高層更早拍板；同時審批人也從十多人砍到約四人。",
+      "orig": "Nissan says AI is halving its vehicle styling timeline",
+      "summary": "Carboratory（2026-11-05）整理 Automotive News（2026-11-04）對日產新任全球設計首長 Matthew Weaver 的訪談：他表示數位工具與人工智慧正在把完成車輛造型所需時間砍半。Autoblog 轉述的數字是從首張草圖到 design freeze 約五個月；這指的是造型流程里程碑，不是整車開發、驗證到量產都只要五個月。Weaver 描述可用超寫實動態視覺化（例如沙漠場景的「類實拍」長片）讓決策者更早看懂比例與性格。報導同時指出組織面也在加速：最終拍板從約 10–12 名高階縮到約四人（Car Watch 日文報導寫設計／企劃／CEO 三者）。公司另有把整體產品開發從約 50 個月壓到 30 個月的目標，以及向中國合資學習 flush glazing 等製造細節；兩者與「造型週期縮半」應分開看。可用公開報導並未拆開 AI、審批精簡與其他數位流程各貢獻多少時間。",
+      "links": [
+        [
+          "Carboratory 整理",
+          "https://carboratory.com/news/nissan-ai-design-time-matthew-weaver"
+        ],
+        [
+          "Car Watch 日文報導",
+          "https://car.watch.impress.co.jp/docs/news/2153731.html"
+        ]
+      ],
+      "image": {
+        "file": "nissan-ai-styling.webp",
+        "alt": "日產 AI 造型週期相關報導配圖",
+        "credit": "Carboratory（轉載 Nissan 檔案照）",
+        "credit_url": "https://carboratory.com/news/nissan-ai-design-time-matthew-weaver"
+      },
+      "gloss": [
+        [
+          "design freeze",
+          "造型定案：外觀方向鎖定、之後大幅改形會很貴的節點"
+        ],
+        [
+          "flush glazing",
+          "玻璃與車身幾乎齊平的鑲嵌方式，視覺更俐落"
+        ]
+      ]
+    },
+    {
+      "id": "inkling-2-small",
+      "org": "Thinking Machines",
+      "tag": "開源模型預告",
+      "date": "2026-11-05",
+      "title": "Thinking Machines 推出 Inkling 2 Small：594B／17B MoE，Tinker 先上線、權重下周擬 Apache 2.0",
+      "short_title": "Inkling 2 Small：594B 下周開源？",
+      "one": "Mira Murati 團隊第二代模型先閉源上 Tinker；官方寫安全測試後下周釋出完整 Apache 2.0 權重。",
+      "orig": "Introducing Inkling 2 Small",
+      "summary": "Thinking Machines Lab 官方（2026-11-05）：Inkling 2 Small 是第二代首發，Mixture-of-Experts 總參數 594B、每 token 啟動 17B，支援文字與圖像輸入與可調 effort，不支援音訊。官方寫 Artificial Analysis Intelligence Index 分數 31（文內表格為 AA Index v5.0 的 30.6）。今日起可在 Tinker Playground／取樣／微調使用，啟動時權重閉源；公司表示完成外部安全測試與紅隊後，「下周」打算以 Apache 2.0 釋出完整權重——屬計畫而非已完成。官網強調長程代理編碼、視覺迴圈建網站／遊戲／3D，以及金融等知識工作；也列出囉唆、工具選擇與聊天體驗等限制。訓練細節含 H1 預訓 8.4T tokens（GB300、NVFP4）與一輪聯合 RL（約 17M rollouts）。",
+      "links": [
+        [
+          "Thinking Machines 官方公告",
+          "https://thinkingmachines.ai/news/inkling-2-small/"
+        ],
+        [
+          "Model Card",
+          "https://thinkingmachines.ai/model-card/inkling-2-small/"
+        ]
+      ],
+      "image": {
+        "file": "inkling-2-small.webp",
+        "alt": "Inkling 2 Small 公告封面",
+        "credit": "Thinking Machines Lab",
+        "credit_url": "https://thinkingmachines.ai/news/inkling-2-small/"
+      },
+      "gloss": [
+        [
+          "MoE",
+          "Mixture-of-Experts：每次只啟動一部分專家參數，總參數可以很大但單次計算量較省"
+        ],
+        [
+          "Tinker",
+          "Thinking Machines 的託管推論／微調平台"
+        ]
+      ]
+    },
+    {
+      "id": "ernie-55-flash-base",
+      "org": "Baidu",
+      "tag": "開源權重",
+      "date": "2026-11-05",
+      "title": "百度釋出 ERNIE 5.5 Flash Base：280B／14B 預訓練基座，HF 上有 FP8／BF16",
+      "short_title": "ERNIE 5.5 Flash Base 開權重",
+      "one": "預訓練結束、尚未做 mid／post-training 的基座模型；推論與微調宣稱可到 1M context，授權對年營收與地區有限制。",
+      "orig": "ERNIE 5.5 Flash Base",
+      "summary": "百度 ERNIE 官方（2026-11-05）與 Hugging Face 模型卡：ERNIE-5.5-Flash-Base 是稀疏 MoE，總參數 280B、每 token 啟動 14B；從零預訓練於 33.5T tokens，訓練 context 最長 128K，微調與推論支援 1M-token context。釋出的是預訓練結束、尚未 mid-／post-training 的 checkpoint，供領域適配、指令微調與 RL 研究當起點；HF 提供 FP8 與 BF16（ERNIE-5.5-Flash-Base-BF16）權重。授權為自訂「ERNIE 5.5 Flash Base Model License v1.0」：Territory 排除歐盟、英國與南韓；相關產品年營收超過 5,000 萬美元的商業使用須另取得書面授權，低於門檻的商業使用須依約完成標示與一次性通知。",
+      "links": [
+        [
+          "ERNIE 官方釋出頁",
+          "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+        ],
+        [
+          "Hugging Face 權重",
+          "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+        ]
+      ],
+      "image": {
+        "file": "ernie-55-flash.webp",
+        "alt": "ERNIE 5.5 Flash Base Hugging Face 社群縮圖",
+        "credit": "Baidu / Hugging Face",
+        "credit_url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+      },
+      "gloss": [
+        [
+          "Base 模型",
+          "預訓練完、還沒做對話對齊／指令微調的基座，通常要再自己 post-train"
+        ],
+        [
+          "FP8／BF16",
+          "兩種權重精度：FP8 較省空間，BF16 較常見於訓練／相容性"
+        ]
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "id": "minimax-h3",
+      "model": "MiniMax H3",
+      "kind": "影片生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "qwen-image-2.1",
+      "model": "Qwen Image 2.1",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "krea-2",
+      "model": "Krea 2",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "moss-image",
+      "model": "MOSS-Image",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "grok-bot-tips",
+      "model": "Grok Bot 教學與實用資訊",
+      "kind": "AI 助理",
+      "status": "今天沒有新消息。",
+      "updates": []
+    }
+  ],
+  "columns": [],
+  "tutorials": [
+    {
+      "id": "tut-p-h3-image",
+      "title": "ComfyUI P-H3-Image：8 步文生圖＋參考圖編輯（MiniMax H3 系）",
+      "learn": "學會用官方模板跑 P-H3-Image 的文生圖與編輯流程，知道模型檔放哪、約需多少 VRAM。",
+      "level": "中階",
+      "vram": "官方寫 int8 約需 21 GB VRAM；模型檔合計約 35 GB（擴散模型可與 MiniMax H3 工作流共用）",
+      "kind": "常青教學",
+      "gloss": [
+        [
+          "P-H3-Image",
+          "Pruna AI 把 MiniMax H3 做成可文生圖／編輯的開源圖像模型"
+        ],
+        [
+          "CFG",
+          "Classifier-Free Guidance；此模型採無 CFG、單次正向條件的蒸餾排程"
+        ]
+      ],
+      "steps": [
+        "把 ComfyUI 更新到 0.44.0 或更新（需 PH3ImageConditioning 節點）。",
+        "下載擴散／文字編碼器／prompt upsampler／VAE／LoRA 到文件指定資料夾（合計約 35 GB）。",
+        "在 Template Library 開「text to image」或「image editing」模板。",
+        "文生圖：輸入一句話，讓內建 prompt upsampler 展開後再跑 8 步；編輯：第一張是被改的圖，後續圖在提示詞裡當 <Picture 2> 等參考。"
+      ],
+      "links": [
+        [
+          "ComfyUI：P-H3-Image",
+          "https://docs.comfy.org/tutorials/image/pruna/p-h3-image"
+        ],
+        [
+          "HF：P-H3-Image-Comfy",
+          "https://huggingface.co/PrunaAI/P-H3-Image-Comfy"
+        ]
+      ]
+    },
+    {
+      "id": "tut-pixal3d",
+      "title": "ComfyUI Pixal3D：單圖轉帶 PBR 材質的 3D 模型",
+      "learn": "學會用 Pixal3D 模板把一張圖變成像素對齊的 PBR 3D，並知道工作流也可切到 TRELLIS.2。",
+      "level": "中階",
+      "vram": "官方文件未列出單一 VRAM 數字；依原頁與本機模型為準",
+      "kind": "常青教學",
+      "gloss": [
+        [
+          "PBR",
+          "Physically Based Rendering，用金屬度／粗糙度等參數描述真實感材質"
+        ],
+        [
+          "pixel-aligned",
+          "生成的正面幾何與輸入圖像素一對一對齊，減少貼圖錯位"
+        ]
+      ],
+      "steps": [
+        "更新 ComfyUI，在 Template Library 搜尋「Pixal3D & TRELLIS.2: Image to Model」。",
+        "把單張圖丟進 LoadImage；預設 Boolean（Switch to Trellis2）= false 跑 Pixal3D。",
+        "需要更準的側／背面時，改用 Multi Views 模板，或先做角色三視圖再生成。",
+        "也可在 Comfy Cloud 一鍵跑同一模板。"
+      ],
+      "links": [
+        [
+          "ComfyUI：Pixal3D",
+          "https://docs.comfy.org/tutorials/3d/pixal3d"
+        ]
+      ]
+    }
+  ],
+  "caveats": [
+    "LMArena 官網今日 curl 遭 Cloudflare 擋（403），文字榜改依官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset（資料更新日仍為 2026-10-28）。",
+    "X 共用讀取額度遭 429，未能抓各大廠帳號近 36 小時貼文；產品消息改依官方部落格與公開報導。本期最低版略過名家專欄與推薦影片。"
+  ],
+  "leaderboards": {
+    "snapshot": "2026-11-07",
+    "compared_to": "2026-11-06",
+    "boards": [
+      {
+        "id": "text",
+        "title": "文字 LLM 總榜",
+        "en": "Text Arena · Overall",
+        "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+        "source_url": "https://lmarena.ai/leaderboard/text",
+        "metric": "Arena score",
+        "as_of": "2026-10-28",
+        "fetched": "2026-11-07",
+        "carried_from": "2026-10-30",
+        "latest_as_of": "2026-10-28",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Gemini 4 Carbon (high)",
+            "org": "Google",
+            "score": 1540,
+            "ci": 9,
+            "new": true
+          },
+          {
+            "rank": 2,
+            "model": "Gemini 4 Argon (high)",
+            "org": "Google",
+            "score": 1529,
+            "ci": 6,
+            "move": -1,
+            "delta": 3
+          },
+          {
+            "rank": 3,
+            "model": "Claude Opus 5.5 (high)",
+            "org": "Anthropic",
+            "score": 1516,
+            "ci": 7,
+            "move": -1
+          },
+          {
+            "rank": 4,
+            "model": "Claude Fable 5.1 (max)",
+            "org": "Anthropic",
+            "score": 1514,
+            "ci": 6,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 5,
+            "model": "Claude Opus 5 (max)",
+            "org": "Anthropic",
+            "score": 1508,
+            "ci": 5,
+            "move": -1
+          },
+          {
+            "rank": 6,
+            "model": "Claude Opus 5 (high)",
+            "org": "Anthropic",
+            "score": 1504,
+            "ci": 4,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 7,
+            "model": "Claude Opus 4.6 (high)",
+            "org": "Anthropic",
+            "score": 1502,
+            "ci": 3,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 8,
+            "model": "Muse Wonder (max)",
+            "org": "Meta",
+            "score": 1499,
+            "ci": 7,
+            "move": -1,
+            "delta": -2
+          },
+          {
+            "rank": 9,
+            "model": "Gemini 3.8 Flash (high)",
+            "org": "Google",
+            "score": 1498,
+            "ci": 4,
+            "move": -1
+          },
+          {
+            "rank": 10,
+            "model": "Claude Opus 4.6",
+            "org": "Anthropic",
+            "score": 1496,
+            "ci": 3,
+            "move": -1,
+            "delta": -1
+          }
+        ],
+        "compared_to": "2026-11-06",
+        "diff": {
+          "summary": [
+            "無變化"
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "title": "文生圖排行",
+        "en": "Text-to-Image · AA-Image-T2I v2.1",
+        "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "metric": "Elo",
+        "as_of": "2026-11-07",
+        "fetched": "2026-11-07",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "GPT Image 2.6 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1259,
+            "ci": 15,
+            "new": true
+          },
+          {
+            "rank": 2,
+            "model": "GPT Image 2.6 Flare (max)",
+            "org": "OpenAI",
+            "score": 1228,
+            "ci": 12,
+            "new": true
+          },
+          {
+            "rank": 3,
+            "model": "GPT Image 2.5 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1227,
+            "ci": 10,
+            "move": -2,
+            "delta": 3
+          },
+          {
+            "rank": 4,
+            "model": "GPT Image 2.5 Flare (max)",
+            "org": "OpenAI",
+            "score": 1208,
+            "ci": 10,
+            "move": -2
+          },
+          {
+            "rank": 5,
+            "model": "GPT Image 2 (high)",
+            "org": "OpenAI",
+            "score": 1188,
+            "ci": 11,
+            "move": -2
+          },
+          {
+            "rank": 6,
+            "model": "Kling 4.0 Image (preview)",
+            "org": "KlingAI",
+            "score": 1178,
+            "ci": 13,
+            "new": true
+          },
+          {
+            "rank": 7,
+            "model": "Nano Banana 2.1",
+            "org": "Google",
+            "score": 1176,
+            "ci": 12,
+            "move": -3
+          },
+          {
+            "rank": 8,
+            "model": "MAI-Image-2.6",
+            "org": "Microsoft AI",
+            "score": 1168,
+            "ci": 12,
+            "move": -2
+          },
+          {
+            "rank": 9,
+            "model": "Grok Imagine Image 2.0",
+            "org": "SpaceXAI",
+            "score": 1166,
+            "ci": 12,
+            "move": -4,
+            "delta": -2
+          },
+          {
+            "rank": 10,
+            "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+            "org": "Google",
+            "score": 1142,
+            "ci": 10,
+            "new": true
+          }
+        ],
+        "compared_to": "2026-11-06",
+        "diff": {
+          "summary": [
+            "NEW #1: GPT Image 2.6 Sunburst (max) 取代 GPT Image 2.5 Sunburst (max)",
+            "NEW #1 GPT Image 2.6 Sunburst (max) (OpenAI) 1259",
+            "NEW #2 GPT Image 2.6 Flare (max) (OpenAI) 1228",
+            "GPT Image 2.5 Sunburst (max): #1→#3 (-2 名), 1224→1227 (+3)",
+            "GPT Image 2.5 Flare (max): #2→#4 (-2 名), 1208→1208 (+0)",
+            "GPT Image 2 (high): #3→#5 (-2 名), 1188→1188 (+0)",
+            "NEW #6 Kling 4.0 Image (preview) (KlingAI) 1178",
+            "Nano Banana 2.1: #4→#7 (-3 名), 1176→1176 (+0)",
+            "MAI-Image-2.6: #6→#8 (-2 名), 1168→1168 (+0)",
+            "Grok Imagine Image 2.0: #5→#9 (-4 名), 1168→1166 (-2)",
+            "NEW #10 Nano Banana 2 (Gemini 3.1 Flash Image) (Google) 1142",
+            "OUT Nano Banana 2 (前次 #7 1140)",
+            "OUT Muse Image (前次 #8 1127)",
+            "OUT GPT Image 1.5 (high) (前次 #9 1125)",
+            "OUT MAI-Image-2.6-Flash (前次 #10 1120)"
+          ],
+          "dropped": [
+            {
+              "model": "Nano Banana 2",
+              "org": "Google",
+              "rank": 7,
+              "score": 1140
+            },
+            {
+              "model": "Muse Image",
+              "org": "Meta",
+              "rank": 8,
+              "score": 1127
+            },
+            {
+              "model": "GPT Image 1.5 (high)",
+              "org": "OpenAI",
+              "rank": 9,
+              "score": 1125
+            },
+            {
+              "model": "MAI-Image-2.6-Flash",
+              "org": "Microsoft AI",
+              "rank": 10,
+              "score": 1120
+            }
+          ]
+        },
+        "dropped": [
+          {
+            "model": "Nano Banana 2",
+            "org": "Google",
+            "rank": 7,
+            "score": 1140
+          },
+          {
+            "model": "Muse Image",
+            "org": "Meta",
+            "rank": 8,
+            "score": 1127
+          },
+          {
+            "model": "GPT Image 1.5 (high)",
+            "org": "OpenAI",
+            "rank": 9,
+            "score": 1125
+          },
+          {
+            "model": "MAI-Image-2.6-Flash",
+            "org": "Microsoft AI",
+            "rank": 10,
+            "score": 1120
+          }
+        ],
+        "analysis": "文生圖榜今天大洗牌：OpenAI 新的 GPT Image 2.6 直接包辦前兩名，Sunburst (max) 以 Elo 1259 取代前一天的 2.5 Sunburst；Flare (max) 1228 緊追其後。原本前段的 2.5 系與 GPT Image 2 各往下掉兩名。全新 Kling 4.0 Image（preview）插入第 6；Google Nano Banana 2.1、Microsoft MAI-Image-2.6、xAI Grok Imagine Image 2.0 也跟著往後擠。前十之外擠掉了 Muse Image、GPT Image 1.5 (high) 與 MAI-Image-2.6-Flash；Nano Banana 2 以完整型號名「Nano Banana 2 (Gemini 3.1 Flash Image)」留在第 10。數字取自 Artificial Analysis AA-Image-T2I v2.1 頁面當日抓取。",
+        "analysis_short": "GPT Image 2.6 包辦文生圖前兩名；Kling 4.0 Image（preview）新進第 6。"
+      },
+      {
+        "id": "video",
+        "title": "文生影片排行",
+        "en": "Text-to-Video · AA-Video-T2V v2.1",
+        "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "as_of": "2026-11-07",
+        "fetched": "2026-11-07",
+        "metric": "Elo",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Wan 3.0",
+            "org": "Alibaba",
+            "score": 1172,
+            "ci": 13
+          },
+          {
+            "rank": 2,
+            "model": "Utopai X",
+            "org": "Utopai Studios",
+            "score": 1167,
+            "ci": 14,
+            "delta": -2
+          },
+          {
+            "rank": 3,
+            "model": "MiniMax H3 (768p)",
+            "org": "MiniMax",
+            "score": 1160,
+            "ci": 13
+          },
+          {
+            "rank": 4,
+            "model": "FLUX 3 Max",
+            "org": "Fal",
+            "score": 1156,
+            "ci": 16
+          },
+          {
+            "rank": 5,
+            "model": "Dreamina Seedance 2.5",
+            "org": "ByteDance Seed",
+            "score": 1155,
+            "ci": 13
+          },
+          {
+            "rank": 6,
+            "model": "HeyGen Video 1",
+            "org": "HeyGen",
+            "score": 1152,
+            "ci": 13,
+            "delta": -1
+          },
+          {
+            "rank": 7,
+            "model": "MiniMax H3 Max",
+            "org": "Fal",
+            "score": 1145,
+            "ci": 16,
+            "delta": -3
+          },
+          {
+            "rank": 8,
+            "model": "FLUX 3",
+            "org": "Black Forest Labs",
+            "score": 1138,
+            "ci": 13,
+            "delta": -1
+          },
+          {
+            "rank": 9,
+            "model": "Dreamina Seedance 2.0",
+            "org": "ByteDance Seed",
+            "score": 1135,
+            "ci": 14,
+            "delta": -1
+          },
+          {
+            "rank": 10,
+            "model": "P-Video-2-Pro",
+            "org": "Pruna AI",
+            "score": 1128,
+            "ci": 16,
+            "new": true
+          }
+        ],
+        "compared_to": "2026-11-06",
+        "diff": {
+          "summary": [
+            "Utopai X: #2→#2 (0 名), 1169→1167 (-2)",
+            "HeyGen Video 1: #6→#6 (0 名), 1153→1152 (-1)",
+            "MiniMax H3 Max: #7→#7 (0 名), 1148→1145 (-3)",
+            "FLUX 3: #8→#8 (0 名), 1139→1138 (-1)",
+            "Dreamina Seedance 2.0: #9→#9 (0 名), 1136→1135 (-1)",
+            "NEW #10 P-Video-2-Pro (Pruna AI) 1128",
+            "OUT Gemini Omni Flash 1.1 (前次 #10 1129)"
+          ],
+          "dropped": [
+            {
+              "model": "Gemini Omni Flash 1.1",
+              "org": "Google",
+              "rank": 10,
+              "score": 1129
+            }
+          ]
+        },
+        "dropped": [
+          {
+            "model": "Gemini Omni Flash 1.1",
+            "org": "Google",
+            "rank": 10,
+            "score": 1129
+          }
+        ],
+        "analysis": "文生影片榜前九名順序沒變，但多個 Elo 微幅下修（例如 Utopai X 1169→1167、MiniMax H3 Max 1148→1145）。最大變化在第 10：Pruna AI 的 P-Video-2-Pro（1128）擠下前一天的 Gemini Omni Flash 1.1（1129）。Wan 3.0 仍以 1172 居首；MiniMax H3 (768p) 維持第 3。數字為 Artificial Analysis AA-Video-T2V v2.1 今日抓取。",
+        "analysis_short": "前九名順序不變；第 10 換成 P-Video-2-Pro，擠下 Gemini Omni Flash 1.1。"
+      }
+    ]
+  },
+  "video": null
+}
