@@ -4760,6 +4760,52 @@
       "excerpt": "Car Design News looks at news that may have gone under the radar, including the latest updates from Nissan, AUDI, Kia and people news",
       "added": "2026-11-07",
       "used": false
+    },
+    "wp-electra-aero-el9-high-lift-blown-wings": {
+      "id": "wp-electra-aero-el9-high-lift-blown-wings",
+      "source": "Wallpaper*",
+      "credit": "Wallpaper*",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Transportation",
+      "title_en": "Meet the Electra Aero EL9, an aircraft that might just revolutionise point-to-point travel",
+      "date": "2026-11-07",
+      "url": "https://www.wallpaper.com/transportation/electra-aero-el9-high-lift-blown-wings",
+      "image": "https://cdn.mos.cms.futurecdn.net/HxBdzGN7VuZ99GkFDUH3EU-1920-80.jpg",
+      "excerpt": "‘The problem with normal fixed-wing aircraft is that they need a long runway to get into the air. And it’s very hard to place that runway anywhere near where people want to go,’ says Diana Siegel, vice president of commercial programmes at Electra. That’s a Virginia-based company, established in 2019, that reckons it has a solution: it has revisited a technology first proposed in the 1950s to create an aircraft with what it calls ‘Ultra Short’ capabilities, which means it can take off or land within around 60 metres. That opens up many more places where it might operate from, with minimal infr",
+      "added": "2026-11-08",
+      "used": false
+    },
+    "wp-cupra-raval-ev-jorge-diez-interview": {
+      "id": "wp-cupra-raval-ev-jorge-diez-interview",
+      "source": "Wallpaper*",
+      "credit": "Wallpaper*",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Transportation",
+      "title_en": "The Cupra Raval is the Spanish brand’s newest EV. We talk design with Cupra’s Jorge Díez",
+      "date": "2026-11-07",
+      "url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "image": "https://cdn.mos.cms.futurecdn.net/6q5Cvd2Cg35gs59HvSj2cb-1920-80.jpg",
+      "excerpt": "Launched in summer 2026, the Cupra Raval has done wonders for the Spanish brand, a concentrated dose of the company’s spirited design language wrapped up in a capable, comfortable and compact city car that is finding favour amongst buyers and industry commentators alike. Recently shortlisted for the final round of seven in the 2027 Car of the Year (COTY) award, the Raval is the most prominent and distinctive model in VW Group’s Electric Urban Car Family, alongside the Volkswagen ID. Polo, Škoda Epiq and Volkswagen ID. Cross. All the above are made at Cupra’s plant just north of Barcelona. Cupr",
+      "added": "2026-11-08",
+      "used": true
+    },
+    "mft-1673870": {
+      "id": "mft-1673870",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "スバルは水平対向エンジンを諦めない！ 目指すは熱効率50％。次世代ボクサーエンジンの開発現場で何が起きている？",
+      "date": "2026-11-07",
+      "url": "https://motor-fan.jp/article/1673870/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/IMG_1912.jpeg?v=1794048492",
+      "excerpt": "熱効率50％への挑戦。水平対向エンジンならではの難しさ スバルは2026年10月17日に栃木県佐野市のスバル研究実験センター（SKC）で「SUBARU 開発戦略 説明・取材会」を開催した。この場では自社開発BE […]",
+      "added": "2026-11-08",
+      "used": false,
+      "language": "ja"
     }
   }
 }

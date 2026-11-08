@@ -130,5 +130,11 @@
     "key": "hmi-tesla-grok-voice-map",
     "url": "https://www.notateslaapp.com/news/4958/everything-you-can-control-with-grok-in-your-tesla",
     "image": "hmi-tesla-grok-voice.jpg"
+  },
+  {
+    "date": "2026-11-08",
+    "key": "hmi-android-auto-gemini-call",
+    "url": "https://9to5google.com/2026/11/05/android-auto-gemini-call-text-voice-command-bug/",
+    "image": "hmi-android-auto-gemini.jpg"
   }
 ]

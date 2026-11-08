@@ -634,5 +634,29 @@
     "angle": "Aquacron PWB：水性液態金屬色效應",
     "url": "https://news.ppg.com/Press-Releases/news-details/2026/PPG-named-among-Top-100-Players-of-Chinas-New-Automotive-Supply-Chain-by-industry-news-outlet-Gasgoo/default.aspx",
     "image": null
+  },
+  {
+    "date": "2026-11-08",
+    "kind": "car",
+    "car_key": "car:yangwang-altior-cabin",
+    "angle": "Altior 後艙：奶油雙座與水晶旋鈕",
+    "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/",
+    "image": "cmf-car-yangwang-cabin.jpg"
+  },
+  {
+    "date": "2026-11-08",
+    "kind": "material",
+    "car_key": "material:kolon-mic-hood-pv5",
+    "angle": "PV5 免噴漆複合材料引擎蓋",
+    "url": "https://www.yna.co.kr/view/AKR20261105128500003",
+    "image": null
+  },
+  {
+    "date": "2026-11-08",
+    "kind": "paint",
+    "car_key": "paint:mitsu-trail-green",
+    "angle": "Trail Green Metallic：對森林與河流的新綠",
+    "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html",
+    "image": "cmf-paint-trail-green.jpg"
   }
 ]

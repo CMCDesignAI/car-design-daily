@@ -1,0 +1,782 @@
+{
+ "date": "2026-11-08",
+ "weekday": "週日",
+ "issue_no": 32,
+ "lede": "仰望 Altior／鼎曜在阿布達比全球首發，對開式車門與 137 顆寶石格柵對標勞斯萊斯；設計專欄讀 Cupra Raval，看三角形與針織座套如何寫進量產小車。",
+ "moodboards": [],
+ "parts_added": 5,
+ "design_news": [
+  {
+   "id": "yangwang-altior-debut",
+   "tag": "首發 · 中國",
+   "date": "2026-11-07",
+   "brand": "Yangwang（仰望）",
+   "title": "仰望 Altior／鼎曜阿布達比首發：對開式車門與 137 顆寶石格柵",
+   "orig": "BYD Yangwang Altior debuts with Rolls-Royce-style coach doors",
+   "summary": "BYD 高端品牌仰望於 11 月 7 日在阿布達比 Emirates Palace 舉行品牌海外首場活動，全球首發旗艦轎車 Altior（中文名鼎曜）。車長 5,600mm、軸距 3,500mm，後對開式車門可開至 90 度，定位對標勞斯萊斯 Ghost、邁巴赫 S-Class 與尊界 S800。中國預售基準價 208 萬元人民幣，對應山河鼎運限量版。",
+   "analysis": [
+    [
+     "比例",
+     "直立三廂、短前懸與長後懸，C 柱另開三角形窗，把五米六的尺度做成傳統座車剪影。"
+    ],
+    [
+     "車頭",
+     "家族式水晶 C 形頭燈被稱為鼎形切割水晶燈，高大格柵填入 137 顆寶石切面元件，廠徽為 24K 金。"
+    ],
+    [
+     "車門",
+     "前門開啟約 80 度，後對開式車門近 90 度；門框內藏雨傘槽，肩線有 4.8 米手繪雙條 coachline。"
+    ],
+    [
+     "輪圈",
+     "鏡面拋光一體式碟輪採浮動中心蓋，配 275/45 R21，相對車身尺度刻意偏小。"
+    ],
+    [
+     "品牌方向",
+     "銷售總經理胡曉青說前臉方案超過 100 個、開發三年；仰望把旗艦轎車放到阿布達比做海外首秀。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/7）",
+     "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+    ]
+   ],
+   "image": {
+    "file": "news-yangwang.jpg",
+    "alt": "香檳金雙色仰望 Altior／鼎曜停在宅邸前的前側官方照",
+    "credit": "Yangwang (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+   },
+   "more_images": [
+    {
+     "file": "news-yangwang-2.jpg",
+     "alt": "Altior／鼎曜側面：短前懸、長後懸與雙色車頂",
+     "credit": "Yangwang (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+    },
+    {
+     "file": "news-yangwang-3.jpg",
+     "alt": "Altior／鼎曜 C 柱與厚實 C 形尾燈近景",
+     "credit": "Yangwang (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+    }
+   ]
+  },
+  {
+   "id": "im-ls8-neo",
+   "tag": "新車 · 中國",
+   "date": "2026-11-05",
+   "brand": "IM Motors（智己）",
+   "title": "智己 LS8 NEO 上市：全系標配線控轉向",
+   "orig": "IM Motors launches LS8 BEV SUV with steer-by-wire chassis",
+   "summary": "上汽智己於 11 月 5 日推出純電 LS8 NEO，售價 23.98 萬與 25.98 萬元人民幣兩級。車長 5,085mm、軸距 3,060mm，延續星環燈帶與矩陣 LED 頭燈；全系標配「蜥蜴」數位底盤，含雙冗餘線控轉向與大角度後輪轉向，迴轉半徑 4.85 米。",
+   "analysis": [
+    [
+     "燈簽",
+     "封閉式車頭以星環燈帶加矩陣 LED 頭燈作為家族臉，車尾同樣是貫穿燈條。"
+    ],
+    [
+     "比例",
+     "隱藏式門把、多輻輪圈與懸浮車頂，把五米級六座／五座 SUV 做成較光順的側影。"
+    ],
+    [
+     "底盤",
+     "線控轉向加大角度後輪轉向，官方強調窄路就能做 180 度迴轉。"
+    ],
+    [
+     "座艙",
+     "27.1 吋 5K Mini LED 中控、15.6 吋副駕屏與 21.5 吋吸頂後屏，並整合 IM Claw 智慧代理。"
+    ],
+    [
+     "產品節奏",
+     "在增程版之後補上 800V 純電，把線控底盤當成這一級距的標配賣點。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/6）",
+     "https://carnewschina.com/2026/11/06/im-motors-launches-ls8-bev-suv-with-steer-by-wire-chassis-in-china-starting-at-35800-usd/"
+    ]
+   ],
+   "image": {
+    "file": "news-ls8.jpg",
+    "alt": "香檳金色智己 LS8 NEO 前側 3/4 官方照",
+    "credit": "IM Motors (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/06/im-motors-launches-ls8-bev-suv-with-steer-by-wire-chassis-in-china-starting-at-35800-usd/"
+   },
+   "more_images": [
+    {
+     "file": "news-ls8-2.jpg",
+     "alt": "LS8 NEO 後上方：懸浮車頂與貫穿尾燈",
+     "credit": "IM Motors (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/06/im-motors-launches-ls8-bev-suv-with-steer-by-wire-chassis-in-china-starting-at-35800-usd/"
+    }
+   ]
+  },
+  {
+   "id": "honda-avancier-teaser",
+   "tag": "預告 · 日本",
+   "date": "2026-11-06",
+   "brand": "Honda",
+   "title": "Honda Avancier 預告：新 H 標與細長眉燈，12/1 首發",
+   "orig": "2027 Honda Avancier teased ahead of December 1 debut",
+   "summary": "Honda 發布全新 Avancier 預告，確認 12 月 1 日、泰國車展前夕首發。新車將在泰國生產、主打東南亞，定位高於 CR-V 的七人座 SUV。預告可見分體頭燈與細長眉形日行燈，以及倒 U 形燈條；這也將是首款量產使用新 H 標、並掛上 Honda Hybrid 字樣的車型。",
+   "analysis": [
+    [
+     "燈簽",
+     "分體頭燈搭配細長眉形日行燈，語彙接近 Hybrid Sedan Prototype，夜間剪影就能讀出新家族臉。"
+    ],
+    [
+     "車尾",
+     "預告後半段露出倒 U 形燈條與修長 D 柱，車側玻璃艙偏低、偏旅行車。"
+    ],
+    [
+     "識別",
+     "全新 H 標首次上量產車，並以 Honda Hybrid 取代舊有 e:HEV 對外稱謂。"
+    ],
+    [
+     "尺度",
+     "日媒轉述長寬高約 4,960×1,950×1,690mm，比馬自達 CX-80 略短、略寬、略低。"
+    ],
+    [
+     "產品節奏",
+     "被視為新中型平台的第一彈，後續 Civic、CR-V 也將共用，用來拉開與中國競品的區隔。"
+    ]
+   ],
+   "sources": [
+    [
+     "Paul Tan（11/6）",
+     "https://paultan.org/2026/11/06/2027-honda-avancier-teased-thai-built-hybrid-7-seater-suv-to-sit-above-cr-v-rival-mazda-cx-80-debuts-dec-1/"
+    ]
+   ],
+   "image": {
+    "file": "news-honda.jpg",
+    "alt": "Honda Avancier 預告：黑暗中只亮起細長眉形日行燈的車頭剪影",
+    "credit": "Honda (via Paul Tan)",
+    "credit_url": "https://paultan.org/2026/11/06/2027-honda-avancier-teased-thai-built-hybrid-7-seater-suv-to-sit-above-cr-v-rival-mazda-cx-80-debuts-dec-1/"
+   },
+   "more_images": [
+    {
+     "file": "news-honda-2.jpg",
+     "alt": "Avancier 預告車尾：倒 U 形燈條與修長 D 柱",
+     "credit": "Honda (via Paul Tan)",
+     "credit_url": "https://paultan.org/2026/11/06/2027-honda-avancier-teased-thai-built-hybrid-7-seater-suv-to-sit-above-cr-v-rival-mazda-cx-80-debuts-dec-1/"
+    }
+   ]
+  },
+  {
+   "id": "byd-seal-07-gen2",
+   "tag": "小改 · 中國",
+   "date": "2026-11-05",
+   "brand": "BYD",
+   "title": "第二代 BYD Seal 07：海洋美學 2.0 與九分鐘快充",
+   "orig": "BYD updates its Seal 07 after just eight months",
+   "summary": "比亞迪在 11 月 5 日推出第二代海豹 07，距上一輪改款僅約八個月。新車採用已見於海豹 08 的海洋美學 2.0：細長日行燈、封閉車頭與貫穿尾燈，車頂光達支援天神之眼 B。純電版標榜近 1000V 閃充，10% 到 97% 約九分鐘；車長 5,080mm、軸距 2,960mm。",
+   "analysis": [
+    [
+     "前臉",
+     "細長日行燈加完全封閉的進氣面，把中型房車對齊更大的海豹 08。"
+    ],
+    [
+     "尺度",
+     "5,080×1,960×1,495mm、軸距 2,960mm，站上公路旅行房車的尺度。"
+    ],
+    [
+     "座艙",
+     "懸浮中控、抬頭式儀表與方向盤檔位旋鈕，中島保留實體按鍵與 50W 無線充電。"
+    ],
+    [
+     "配色",
+     "提供綠、粉、紫、銀、白、黑等六色，用高彩度拉開與前代的距離。"
+    ],
+    [
+     "產品節奏",
+     "前代銷量偏低後八個月就換代，設計語言跟上旗艦，把補能速度當成主宣傳。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car Revs Daily（11/7）",
+     "https://www.car-revs-daily.com/2026/11/07/byd-updates-its-seal-07-after-just-eight-months-promises-ultra-fast-charging/"
+    ]
+   ],
+   "image": {
+    "file": "news-seal07.jpg",
+    "alt": "藍綠色第二代比亞迪海豹 07 前側官方照",
+    "credit": "BYD (via Car Revs Daily)",
+    "credit_url": "https://www.car-revs-daily.com/2026/11/07/byd-updates-its-seal-07-after-just-eight-months-promises-ultra-fast-charging/"
+   }
+  },
+  {
+   "id": "lincoln-aviator-ex8",
+   "tag": "預告 · 中國",
+   "date": "2026-11-06",
+   "brand": "Lincoln（林肯）",
+   "title": "Lincoln Aviator EX8 申報圖：長城式直瀑格柵的中國插電",
+   "orig": "Lincoln is bringing back the plug-in hybrid Aviator in China",
+   "summary": "林肯與長安合作的 Aviator EX8 插電 SUV 出現在工信部申報圖，外觀與美規 Aviator 完全不同：直立車頭、大型矩形格柵飾以層疊直瀑鍍鉻，前保底部有 U 形飾條，車尾是一條矩形貫穿燈。動力為長安 1.5 升渦輪四缸（148hp）的插電系統，預計廣州車展正式發表、明年在中國上市。",
+   "analysis": [
+    [
+     "前臉",
+     "層疊直瀑鍍鉻把格柵做成更正式的行政臉，和美規 Aviator 的盾形語彙明顯切開。"
+    ],
+    [
+     "站姿",
+     "塊面更方正、車頭更直立，前保 U 形飾條把視覺重量壓在地面。"
+    ],
+    [
+     "車尾",
+     "全寬矩形尾燈加 Lincoln 字樣，申報圖可見 Aviator EX8 銘牌。"
+    ],
+    [
+     "尺度",
+     "與美規 Aviator 接近，略短、略窄、略高，仍是中大型三排。"
+    ],
+    [
+     "品牌方向",
+     "這是專為中國市場重繪的插電 Aviator，美規短期看不到相同造型。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（11/6）",
+     "https://www.caranddriver.com/news/a74349456/lincoln-aviator-ex8-china-revealed/"
+    ]
+   ],
+   "image": {
+    "file": "news-lincoln.jpg",
+    "alt": "灰色 Lincoln Aviator EX8 工信部申報圖：直瀑格柵前側",
+    "credit": "工信部 (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74349456/lincoln-aviator-ex8-china-revealed/"
+   },
+   "more_images": [
+    {
+     "file": "news-lincoln-2.jpg",
+     "alt": "Aviator EX8 車尾：全寬矩形燈與 Aviator EX8 銘牌",
+     "credit": "工信部 (via Car and Driver)",
+     "credit_url": "https://www.caranddriver.com/news/a74349456/lincoln-aviator-ex8-china-revealed/"
+    }
+   ]
+  },
+  {
+   "id": "geely-xingyao-6-ef",
+   "tag": "新車 · 中國",
+   "date": "2026-11-07",
+   "brand": "Geely Galaxy（吉利銀河）",
+   "title": "銀河星耀 6 EF 上市：29 條瀑布格柵的甲醇電混",
+   "orig": "Geely Galaxy Xingyao 6 EF launched in China with methanol hybrid tech",
+   "summary": "吉利 11 月 7 日推出銀河星耀 6 EF 甲醇電混房車，限時售價 7.68 萬至 9.68 萬元人民幣。外觀採波紋美學，發光瀑布格柵有 29 條獨特豎飾，車尾是熏黑貫穿燈加 Geely 英文標識。車長 4,806mm、軸距 2,756mm；車色有絲銀、玉白、曜石黑與墨灰。內裝新增 Winter Warm Brown 暖棕主題。",
+   "analysis": [
+    [
+     "格柵",
+     "29 條瀑布式豎飾組成可發光的車頭，是波紋美學在這台車上最容易指認的面。"
+    ],
+    [
+     "側影",
+     "銳利的特徵線、齊平門把與專屬車型徽飾，把四米八房車拉得較低、較長。"
+    ],
+    [
+     "車尾",
+     "全寬熏黑燈條配 Geely 字母，和車頭豎飾形成前後對照。"
+    ],
+    [
+     "座艙",
+     "Winter Warm Brown 與 14.6 吋中控、10.25 吋儀表，中島仍保留可盲操的實體鍵。"
+    ],
+    [
+     "產品主張",
+     "甲醇、電、汽油都能跑，設計語言仍走吉利現役的波紋與瀑布，而不是另起一套臉。"
+    ]
+   ],
+   "sources": [
+    [
+     "ChinaPEV（11/7）",
+     "https://www.chinapev.com/geely/geely-galaxy-xingyao-6-ef-launched-in-china-with-methanol-hybrid-tech-and-low-running-costs/"
+    ]
+   ],
+   "image": {
+    "file": "news-xingyao.jpg",
+    "alt": "銀河星耀 6 EF 發表會舞台車：瀑布格柵與星耀 6 E-fuel 車牌",
+    "credit": "Geely (via ChinaPEV)",
+    "credit_url": "https://www.chinapev.com/geely/geely-galaxy-xingyao-6-ef-launched-in-china-with-methanol-hybrid-tech-and-low-running-costs/"
+   }
+  },
+  {
+   "id": "mitsubishi-outlander-diamond-trail",
+   "tag": "特仕 · 北美",
+   "date": "2026-11-07",
+   "brand": "Mitsubishi",
+   "title": "Outlander Diamond Trail Edition：上翹保桿與 Trail Green",
+   "orig": "Mitsubishi showcases the Outlander Diamond Trail Edition at SEMA",
+   "summary": "三菱 11 月 7 日（東京時間）發布新聞稿，北美將於 2027 年上半年推出 Outlander 越野特仕 Diamond Trail Edition，並在拉斯維加斯 SEMA 展出多款改裝示例。設計圍繞 Capable、Protective、Authentic 三個詞：上翹前後保桿、鑄造金屬質感輪拱飾板、18 吋消光黑輪圈與全地形胎，新色 Trail Green Metallic 可選白車頂雙色。接近角由 18.3 度增至 20.5 度。",
+   "analysis": [
+    [
+     "保桿",
+     "前後保桿上翹並加上雕塑感下護板，接近角 18.3→20.5 度、離去角 22.2→23.1 度，外形直接對應通過角。"
+    ],
+    [
+     "材質",
+     "輪拱與車門飾板用鑄造金屬質感，水箱護罩、Dynamic Shield 與頭燈內構改消光黑。"
+    ],
+    [
+     "色彩",
+     "新色 Trail Green Metallic 對森林與河流；也可配白車頂，讓它在戶外場合更跳。"
+    ],
+    [
+     "機能",
+     "橋式車頂架可綁繩固定天幕，不只是裝飾用的行李架。"
+    ],
+    [
+     "識別",
+     "山岳主題專屬標誌把滑雪道的菱形難度符號與三菱廠徽疊在一起，出現在車門飾板、尾門與座椅繡標。"
+    ]
+   ],
+   "sources": [
+    [
+     "JCN Newswire（11/7）",
+     "https://www.jcnnewswire.com/english/pressrelease/111429/3/Mitsubishi-Motors-Showcases-the-Outlander-Diamond-Trail-Edition-Off-Road-Model-at-the-SEMA-Show"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsu.jpg",
+    "alt": "Trail Green Metallic 的 Outlander Diamond Trail Edition 停在岩石地形",
+    "credit": "Mitsubishi Motors",
+    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html"
+   },
+   "more_images": [
+    {
+     "file": "news-mitsu-2.jpg",
+     "alt": "Diamond Trail Edition 後方：上翹後保桿與橋式車頂架",
+     "credit": "Mitsubishi Motors",
+     "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html"
+    }
+   ]
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "wp-cupra-raval-ev-jorge-diez-interview",
+   "source": "Wallpaper*",
+   "credit": "Wallpaper*",
+   "kind": "interview",
+   "column": "Design Story",
+   "date": "2026-11-07",
+   "url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+   "paywalled": false,
+   "design_tag": "設計師專訪",
+   "orig": "The Cupra Raval is the Spanish brand’s newest EV. We talk design with Cupra’s Jorge Díez",
+   "title": "Cupra Raval：用三角形把西班牙情緒寫進量產小車",
+   "points": [
+    "Díez 說這是一張白紙：沒有歷史包袱，車要表達情緒，而不只是金屬與塑膠。",
+    "三角形帶有方向；前端面與面交疊，讓 Raval 看起來在往前推，不是穩定停住。",
+    "座艙與中央脊線朝駕駛傾斜；3D 針織座套與球鞋製程的氯丁橡膠帶來觸感。",
+    "Sangalli 說汽車供應鏈偏保守，Cupra 常走出傳統供應商去找新材料。"
+   ],
+   "image": {
+    "file": "ad-cupra-raval.jpg",
+    "alt": "消光綠 Cupra Raval 停在樹籬前",
+    "credit": "Cupra (via Wallpaper*)",
+    "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview"
+   },
+   "image2": {
+    "file": "ad-cupra-interior.jpg",
+    "alt": "Raval 駕駛導向座艙與黃灰 3D 針織座椅",
+    "credit": "Cupra (via Wallpaper*)",
+    "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview"
+   },
+   "more_images": [
+    {
+     "file": "ad-cupra-knit.jpg",
+     "alt": "3D 針織座套特寫：黃灰撞色與 Cupra 標",
+     "credit": "Cupra (via Wallpaper*)",
+     "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview"
+    }
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "Wallpaper* 走訪 Cupra 總部，由設計總監 Jorge Díez 與色彩材質暨概念策略主管 Francesca Sangalli 帶讀 Raval。這台都會純電小車在 2026 年夏季上市，近期進入 2027 歐洲年度風雲車最後七強，也是福斯集團 MEB+ 都會電車家族裡最醒目的成員，與 Volkswagen ID. Polo、Škoda Epiq 一起在巴塞隆納北郊的 Cupra 工廠生產。",
+       "Díez 說他們拿到的是一張白紙，加上西班牙的文化情緒，而且「沒有過去的包袱」：這台車是情緒的表達，不只是金屬和塑膠。Cupra 希望當福斯體系裡不講理的那一面——任務是製造慾望，不必取悅所有人，也不想妥協。"
+      ]
+     },
+     {
+      "h": "造型手法",
+      "p": [
+       "Raval 這個名字來自巴塞隆納市中心、一向氣勢外放的 El Raval 街區；它的前身是 2021 年的 UrbanRebel 概念。Díez 帶路時說：「Raval 是往前推的，它不是穩定的形體。」從鯊魚般的車頭到受頭盔啟發的玻璃艙，這種表面張力在小車級距並不常見。",
+       "他強調三角形是有方向的動態形狀；前端面與面交疊、交叉，讓這台小車有自己的性格。Cupra 也不做「俄羅斯套娃」：Tavascan、Terramar、Born、Formentor 比較像各有個性的兄弟姊妹，而不是同一張臉縮放。"
+      ]
+     },
+     {
+      "h": "內裝與配色",
+      "p": [
+       "座艙延續駕駛優先：儀表板與中央脊線朝駕駛傾斜。表面與紋理感覺既數位又有機，團隊用 3D 積層製造，以及來自球鞋製程的氯丁橡膠，來製造視覺與觸覺回饋。",
+       "銅色在車系裡被克制地使用。Díez 說他們愛用高飽和色彩，但總會加一個轉折，而且「幾乎可以用光來畫內裝」。消光塗裝也成為簽名，輕輕改變光線落在型面上的方式。"
+      ]
+     },
+     {
+      "h": "材料與供應",
+      "p": [
+       "Sangalli 解釋，汽車業是個保守的世界，必須走出一般供應商才能找到這種自由。座椅採用 3D 針織「襪子」面套，能減少裁切廢料，這項做法直接來自時尚產業；中控也有 3D 列印元件。",
+       "她還提到正在開發的環境光與投影系統「像一座小小的 James Turrell 雕塑」，把光和聲音變成新內容。Díez 補充：態度讓很多事情成為可能，「重要的是繼續對抗、不要太安於現狀。我不想知道未來，我想探索它。」"
+      ]
+     },
+     {
+      "h": "重點收穫",
+      "p": [
+       "Raval 示範如何在 MEB+ 硬點裡做出真正不同的車：用三角形的方向性取代穩定停駐的姿勢，用針織與跨界材料補上觸感，並拒絕跟銷量最好的中性色盤走。完整訪談見 Wallpaper*。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ad-cupra-side.jpg",
+      "alt": "消光綠 Raval 側面：前傾站姿與修長 D 柱",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 1
+     },
+     {
+      "file": "ad-cupra-front.jpg",
+      "alt": "Raval 前保與輪拱的三角形開口",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 1
+     },
+     {
+      "file": "ad-cupra-interior.jpg",
+      "alt": "朝駕駛傾斜的座艙與針織座椅",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 2
+     },
+     {
+      "file": "ad-cupra-knit.jpg",
+      "alt": "3D 針織座套特寫",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 3
+     },
+     {
+      "file": "ad-cupra-detail.jpg",
+      "alt": "車門內飾與金屬觸控細節",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 2
+     },
+     {
+      "file": "ad-cupra-print.jpg",
+      "alt": "三角形穿孔的 3D 列印飾件樣品",
+      "credit": "Cupra (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/cupra-raval-ev-jorge-diez-interview",
+      "section": 3
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "color_data": {
+  "interior": {
+   "theme": "Hetian Cream & Ding Bronze",
+   "zh": "和田米配銅金：行政後艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板借仰望 Altior／鼎曜後艙的奶油皮革感，飾條用深色木紋，門板嵌飾偏駝棕，扶手近象牙，縫線點一筆銅金，下門板深褐。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Cream Leather（示意）",
+     "#E8DCC8",
+     false,
+     "ip-upper",
+     {
+      "src": "Yangwang Altior 奶油後艙",
+      "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+     }
+    ],
+    [
+     "儀表板飾條 · 木紋",
+     "Dark Wood（示意）",
+     "#4A3426",
+     false,
+     "ip-decor",
+     {
+      "src": "Yangwang 木紋中島",
+      "url": "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "Camel Tan（示意）",
+     "#C4A882",
+     false,
+     "door-insert",
+     {
+      "src": "示意搭配",
+      "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+     }
+    ],
+    [
+     "門扶手 · 軟質",
+     "Ivory Soft（示意）",
+     "#EDE6DA",
+     false,
+     "armrest",
+     {
+      "src": "示意搭配",
+      "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Ding Bronze（示意）",
+     "#B08D57",
+     false,
+     "stitch",
+     {
+      "src": "示意搭配",
+      "url": "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Deep Walnut（示意）",
+     "#2A211C",
+     false,
+     "door-lower",
+     {
+      "src": "示意搭配",
+      "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Paul Tan：Altior 奶油雙座後艙與水晶旋鈕",
+     "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+    ],
+    [
+     "CarNewsChina：半苯胺全粒面皮革與木紋中島",
+     "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+    ]
+   ],
+   "mood": "warm executive lounge",
+   "mood_text": "奶油皮革、一筆銅金與深木。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#E8DCC8",
+    "seat-bolster": "#C4A882",
+    "seat-center": "#EDE6DA",
+    "console": "#1A1410",
+    "console-arm": "#E8DCC8",
+    "steering": "#3A3028",
+    "ip-lower": "#1A1410",
+    "accent-pod": "#B08D57",
+    "accent-pod2": "#4A3426"
+   }
+  }
+ },
+ "cmf": [
+  {
+   "id": "cmf-car-yangwang-cabin",
+   "kind": "car",
+   "car": "Yangwang Altior",
+   "tag": "內裝 · 中國",
+   "title": "Altior 後艙：奶油雙座與水晶旋鈕",
+   "points": [
+    "官方影片與照片可見奶油雙獨立後座，中間是深色長條木紋中島。",
+    "中島上有多切面水晶頂的旋轉控制器，周圍是高光深色面板。",
+    "CarNewsChina 寫內裝用半苯胺全粒面皮革，地墊是天然羊毛。",
+    "後座為零重力雲感躺椅，標配四頭機械按摩、腿托與電動遮陽簾。"
+   ],
+   "image": {
+    "file": "cmf-car-yangwang-cabin.jpg",
+    "alt": "Altior／鼎曜奶油雙座後艙與深色中島",
+    "credit": "Yangwang (via Paul Tan)",
+    "credit_url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-yangwang-rotary.jpg",
+     "alt": "木紋中島上的水晶頂旋轉控制器特寫",
+     "credit": "Yangwang (via Paul Tan)",
+     "credit_url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+    }
+   ],
+   "sources": [
+    [
+     "Paul Tan（11/8）",
+     "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-kolon-mic-hood",
+   "kind": "material",
+   "car": "Kolon Spaceworks × Hyundai / Kia PV5",
+   "tag": "材質 · 韓國",
+   "title": "PV5 免噴漆複合材料引擎蓋",
+   "points": [
+    "這是起亞 PV5 使用的模內發色複合材料引擎蓋，可省略噴漆製程。",
+    "多層片材分別負責上色、隔紫外線與表面保護，顏料混在片材裡。",
+    "刮傷不會掉漆，也減少每次補漆出現的色差。",
+    "內外板一體成型，比鋼製引擎蓋約輕 30%；去年下半年已量產。"
+   ],
+   "sources": [
+    [
+     "韓聯社（11/5）",
+     "https://www.yna.co.kr/view/AKR20261105128500003"
+    ],
+    [
+     "Maeil Business（11/4）",
+     "https://www.mk.co.kr/en/it/12197092"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-trail-green",
+   "kind": "paint",
+   "car": "Mitsubishi Outlander Diamond Trail",
+   "tag": "塗料 · 北美",
+   "title": "Trail Green Metallic：對森林與河流的新綠",
+   "deep": true,
+   "points": [
+    "官方把新色命名為 Trail Green Metallic，說它與森林、河流等自然環境調和。",
+    "除了單色車身，也可選白車頂雙色，讓這台越野特仕在戶外場合更跳。",
+    "它搭配消光黑水箱護罩、鑄造金屬質感輪拱與 18 吋消光黑輪圈一起出現。",
+    "此色用在即將於 2027 年上半年登陸北美的 Outlander Diamond Trail Edition 車身。"
+   ],
+   "image": {
+    "file": "cmf-paint-trail-green.jpg",
+    "alt": "Trail Green Metallic 車色的 Outlander Diamond Trail Edition",
+    "credit": "Mitsubishi Motors",
+    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html"
+   },
+   "sources": [
+    [
+     "Mitsubishi Motors（11/4）",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-android-auto-gemini-call",
+   "kind": "case",
+   "brand": "Google",
+   "tag": "介面與 HMI",
+   "title": "Gemini 打電話會反覆問要打給誰",
+   "date": "2026-11-05",
+   "points": [
+    "改用 Gemini 之後，用語音打電話或傳訊時，它常聽不懂聯絡人名字。",
+    "使用者在 Google 論壇回報：助理會反覆問「你想打給誰」，即使名字已說了好幾次。",
+    "問題不限特定手機或 Android Auto 版本，10 月初開始出現，最近回報變多。",
+    "畫面仍會顯示 Personal Intelligence 連線中的卡片，和地圖、訊息、播放列疊在一起。"
+   ],
+   "image": {
+    "file": "hmi-android-auto-gemini.jpg",
+    "alt": "Android Auto 畫面：Gemini Personal Intelligence 連線中，疊在地圖與訊息卡片上",
+    "credit": "Google (via 9to5Google)",
+    "credit_url": "https://9to5google.com/2026/11/05/android-auto-gemini-call-text-voice-command-bug/"
+   },
+   "sources": [
+    [
+     "9to5Google（11/5）",
+     "https://9to5google.com/2026/11/05/android-auto-gemini-call-text-voice-command-bug/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "召回 · 歐洲",
+   "date": "2026-11-07",
+   "title": "福斯全球召回近 7.27 萬輛電車，高電壓電池芯有品質問題",
+   "summary": "德國聯邦汽車運輸管理局公布，福斯因供應商生產缺陷，召回約 72,700 輛電車，德國約 1 萬輛。涉及特定期間的 ID.3、ID.4、ID.7、ID. Buzz 與 2022–2024 年 Cupra Born。極少數情況可能讓電池熱負荷升高，極端時有起火風險。在進廠檢查前，充電被限制在 80%；電池模組不一定要換，軟體更新可能就夠。",
+   "sources": [
+    [
+     "Batteries News（11/7）",
+     "https://batteriesnews.com/volkswagen-to-recall-over-70000-evs-worldwide-due-to-faulty-batteries/"
+    ]
+   ]
+  },
+  {
+   "tag": "財報 · 日本",
+   "date": "2026-11-06",
+   "title": "三菱汽車下修全年展望：營業利益由 900 億改為 700 億日圓",
+   "summary": "三菱汽車 11 月 6 日公告，截至 2027 年 3 月的全年合併預測：營收由 3.26 兆改為 2.96 兆日圓，營業利益由 900 億改為 700 億日圓，全球銷量預測改為 76.4 萬輛。公司說中東衝突推高油價，電動化轉換比預期更快、更大，價格競爭也加劇，再加上材料成本惡化。美元與歐元假設分別為 157 與 184 日圓。",
+   "sources": [
+    [
+     "Mitsubishi Motors IR（11/6）",
+     "https://www.mitsubishi-motors.com/en/investors/irnews/2026/20261106en.pdf"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-11-06",
+   "title": "SNE Research：中國電池廠已拿下中國以外市場逾半",
+   "summary": "韓國 SNE Research 統計，今年 1 至 9 月中國以外電動車電池裝機量 426.7 GWh，年增 24.7%。寧德時代、比亞迪、國軒、蜂巢、中創新航與億緯等六家中國企業合計市占由 43.1% 升至 56.4%，光是寧德時代與比亞迪就佔 44.5%。同期韓系三家合計市占由 38.2% 降至 26.5%，北美衰退最明顯。磷酸鐵鋰在中國以外市場的占比升至 27.7%。",
+   "sources": [
+    [
+     "electrive（11/6）",
+     "https://www.electrive.com/2026/11/06/sne-research-chinese-oems-increasingly-dominate-global-ev-battery-market/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-08",
+   "title": "和泰車前九月營收 2,411.91 億元、年增 14.44%，創同期新高",
+   "summary": "工商時報 11 月 8 日報導，和泰車 Toyota、Lexus 雙品牌銷售持穩，前九月營收 2,411.91 億元、年增 14.44%，創同期新高。本週將公告前三季財報；在日本經銷商併表及轉投資獲利貢獻下，公司對獲利維持高峰偏樂觀。6 日股價收 528 元，外資連續六個交易日買超。",
+   "sources": [
+    [
+     "工商時報（11/8）",
+     "https://www.ctee.com.tw/news/20261108700135-439903"
+    ]
+   ]
+  },
+  {
+   "tag": "召回 · 美國",
+   "date": "2026-11-04",
+   "title": "通用召回 67,380 輛電車：低速轉彎遇顛簸可能短暫失去煞車",
+   "summary": "通用向 NHTSA 通報召回 67,380 輛採用後輪驅動的 Cadillac Lyriq、Celestiq、Vistiq 與 Chevy Blazer EV。原因是煞車系統控制模組軟體在輕點煞車、急轉並遇上顛簸時，可能誤判滑移而短暫失去煞車。文件列出 24 件客訴，其中 20 件輕微碰撞、2 件指控輕傷。車主可免費透過遠端或經銷商更新軟體，通知信預計 12 月 14 日寄出。召回編號 N262570900，NHTSA 案件 26V717。",
+   "sources": [
+    [
+     "Electrek（11/4）",
+     "https://electrek.co/2026/11/04/gm-recalls-67000-cadillac-chevy-evs-over-brake-software-defect/"
+    ]
+   ]
+  },
+  {
+   "tag": "投資 · 韓國",
+   "date": "2026-11-06",
+   "title": "起亞將在光州再投 3 兆韓元，把工廠轉成電車與 PBV 基地",
+   "summary": "《The Korea Herald》11 月 6 日報導，起亞宣布至 2029 年在光州汽車園區再投資 3 兆韓元（約 22.1 億美元），把現有內燃機產線擴成軟體定義汽車與電動移動載具的主力基地。這筆錢屬於現代汽車集團 2025 年 11 月宣布、五年內在國內投入 125.2 兆韓元計畫的一部分。同日起亞與全南光州市、全南大學、光州科學技術院簽署備忘錄，將測試需求回應公車、自駕 PBV 接駁、PV5 遠端駕駛與可重組車體；並部署 200 輛 Ioniq 5 自駕車，用來試營運與訓練人工智慧。",
+   "sources": [
+    [
+     "The Korea Herald（11/6）",
+     "https://www.koreaherald.com/article/10929031"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Coach doors",
+  "zh": "對開式車門（Coach doors）",
+  "body": "對開式車門是把後門鉸鏈放在車尾一側、開門方向與前門相反的做法，兩扇門對開，後座乘客有更寬的上下車開口。它來自舊式馬車與豪華座車，也常被叫做 suicide doors。本期阿布達比首發的仰望 Altior／鼎曜就是例子：前門約開 80 度，後對開式車門可開到近 90 度，門框裡還藏了雨傘槽。這種門讓五米六的長軸距座車在停妥後更好進出，但開合軌跡與側撞結構都比普通車門更難處理。",
+  "source": [
+   [
+    "CarNewsChina：Yangwang Altior coach doors",
+    "https://carnewschina.com/2026/11/07/byd-yangwang-altior-debuts-with-rolls-royce-style-coach-doors-and-5-5-metre-body/"
+   ],
+   [
+    "Paul Tan：Yangwang Altior debut",
+    "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/"
+   ]
+  ],
+  "diagram": "term.svg"
+ }
+}
