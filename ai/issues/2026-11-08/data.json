@@ -1,0 +1,596 @@
+{
+  "date": "2026-11-08",
+  "weekday": "週日",
+  "issue_no": 32,
+  "lede": "Moonshot 預告會在 11 月 4 日釋出的 Kimi K3.1 Pro 權重，現已在 Hugging Face 公開；同週 OpenAI 宣布將收購開發工具公司 Pierre，把 Code Storage 與開源檢視元件收進 Codex。文字榜資料更新到 11 月 6 日，Meta 的 Muse Wonder 升到第 6。",
+  "closed": [],
+  "open": [],
+  "news": [],
+  "ainews": [
+    {
+      "id": "kimi-k31-pro-weights",
+      "org": "Moonshot",
+      "tag": "延伸 · 開源權重",
+      "date": "2026-11-04",
+      "title": "延伸 · Kimi K3.1 Pro 權重已上 Hugging Face：2.8T／104B MoE，1M context",
+      "short_title": "Kimi K3.1 Pro 權重上線",
+      "one": "10 月宣布、原訂 11 月 4 日釋出的完整權重現已公開；可用 vLLM／SGLang／TokenSpeed 自架，或走 Kimi API。",
+      "orig": "Kimi K3.1 Pro",
+      "summary": "延續 10 月 25 日報過的 Kimi K3.1 Pro 發布：當時官方寫完整權重會在 11 月 4 日釋出，11 月 4 日當日稍早檢查時 Hugging Face 上尚未出現。現在 moonshotai/Kimi-K3.1-Pro 已公開。模型卡寫這是 K3.1 系列首發、從 Kimi K3 再做大規模聯合強化學習的開源權重，原生多模態（文字＋圖像輸入）代理模型，上下文 1,048,576 tokens。架構是 Mixture-of-Experts：總參數 2.8T、每 token 啟動 104B，93 層（69 層 KDA＋24 層 Gated DSA；相較 K3，把全注意力的 Gated MLA 換成 Gated DeepSeek Sparse Attention 以節省長上下文）、896 個專家、每次選 16 個另加 2 個共享專家；視覺編碼器為 MoonViT-V2（401M）。權重為訓練時就量化的 MXFP4，活化為 MXFP8。倉儲檔名顯示共 96 個分片（model-00001-of-000096 起）。官方建議用 vLLM、SGLang 或 TokenSpeed 推論，API 在 platform.kimi.ai 選 kimi-k3.1-pro。授權是「Kimi K3.1-Pro License」：一般使用、修改、微調與再散布允許，但若把模型當服務賣給第三方（Model as a Service）且連續 12 個月營收超過 2,000 萬美元，商業使用須另與 Moonshot 簽約；面向終端、月活用戶超過 1 億或月營收超過 2,000 萬美元的產品須醒目標示「Kimi K3.1-Pro」。內部使用，以及透過 Moonshot 官方產品或認證推論夥伴使用，不受這兩條限制。模型卡列出官方評測數字（例如 Terminal-Bench 4.0 為 65.7，以 Claude Code 套件評測）；不同基準的對照分數來自各家報告或排行榜，不宜直接當成同一套實驗。",
+      "links": [
+        [
+          "Hugging Face 權重",
+          "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        ],
+        [
+          "Kimi 官方介紹（含權重時程）",
+          "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        ],
+        [
+          "Kimi API",
+          "https://platform.kimi.ai"
+        ]
+      ],
+      "image": {
+        "file": "kimi-k31-pro.webp",
+        "alt": "Kimi K3.1 Pro Hugging Face 模型卡分享圖",
+        "credit": "Moonshot AI / Hugging Face",
+        "credit_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      },
+      "gloss": [
+        [
+          "MoE",
+          "Mixture-of-Experts：每次只啟動一部分專家參數，總參數可以很大但單次計算量較省"
+        ],
+        [
+          "MXFP4",
+          "一種 4-bit 浮點權重量化；這裡是訓練時就量化，不是事後再壓縮"
+        ]
+      ]
+    },
+    {
+      "id": "openai-pierre",
+      "org": "OpenAI",
+      "tag": "收購／Codex",
+      "date": "2026-11-04",
+      "title": "OpenAI 宣布將收購 Pierre：把 Code Storage 與開源檢視工具收進 Codex",
+      "short_title": "OpenAI 要買 Pierre 補強 Codex",
+      "one": "Codex 裡瀏覽檔案與看 diff 用的 Trees、Diffs 本來就是 Pierre 的開源庫；收購後打算把對方的 Git 程式碼儲存服務也併進 Codex。",
+      "orig": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI 官方（2026-11-04）宣布將收購 Pierre Computer Company, Inc.。Pierre 開發 Code Storage，以及一套開源開發者工具；OpenAI 寫，若你已在 Codex 應用程式裡瀏覽檔案或審查變更，其實已經在用 Pierre 的 Trees 與 Diffs 函式庫。Trees 用來快速瀏覽專案檔案，Diffs 用來看出改了什麼；Diffs 的 Edit 模式可讓審查者在發現問題的那一行直接改碼。Pierre 最近還發布 Highlights，官方形容是會隨開發者打字或代理程式串流輸出即時更新的語法突顯。Code Storage 則是讓應用程式用 Git 存程式碼並追蹤歷史的服務。OpenAI 說稍早已介紹自家給工程師與代理程式用的原始碼後端 Pando，並希望與 Pierre 一起把 Git 工作流改成更適合代理程式並行開發。收購完成後，目標是把 Code Storage 的功能併進 Codex，並讓開源專案維持開源、持續貢獻；既有 Code Storage 客戶在交割後仍可繼續使用，同時雙方把功能遷到 Codex。交割仍須滿足慣例條件（包括取得監管核准）；在此之前兩家公司維持獨立。官網未公布交易金額。",
+      "links": [
+        [
+          "OpenAI 官方公告",
+          "https://openai.com/index/openai-to-acquire-pierre"
+        ],
+        [
+          "The Verge 報導",
+          "https://www.theverge.com/ai-artificial-intelligence/1026315/openai-is-acquiring-software-startup-pierre-computer-company"
+        ],
+        [
+          "SiliconANGLE 報導",
+          "https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/"
+        ]
+      ],
+      "image": {
+        "file": "pierre-acquire.webp",
+        "alt": "OpenAI 宣布收購 Pierre 的官方分享圖",
+        "credit": "OpenAI",
+        "credit_url": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      "gloss": [
+        [
+          "Code Storage",
+          "Pierre 做的程式碼託管服務，用 Git 幫應用程式存程式並保留歷史"
+        ],
+        [
+          "Codex",
+          "OpenAI 的程式助理產品，用來寫、看與審查程式碼"
+        ]
+      ]
+    },
+    {
+      "id": "claude-marketplace-agents",
+      "org": "Anthropic",
+      "tag": "平台服務",
+      "date": "2026-11-04",
+      "title": "Claude Marketplace 新上架安全、開發、創意與生產力夥伴方案",
+      "short_title": "Claude Marketplace 擴大上架",
+      "one": "企業客戶可把一部分已承諾的 Anthropic 支出拿去買這些夥伴工具；官方說市集上的夥伴方案現已超過 25 項。",
+      "orig": "New agents and products on Claude Marketplace",
+      "summary": "Anthropic 於 Claude 官網（頁面標示 2026-11-04）宣布 Claude Marketplace 新增一批夥伴代理與產品，涵蓋資安、開發基礎建設、創意與生產力。符合資格的企業客戶可以把一部分已承諾給 Anthropic 的支出，用在這些解決方案上（新購或既有平台加購皆可）。官方寫市集現有超過 25 項夥伴代理與產品。新點名的資安向包括：Chainguard Harness（在隔離的微型虛擬機從原始碼建應用並探測可利用漏洞）、Checkmarx One（規則分析加上 AI 推理找程式漏洞）、Cyera Agent Guardian（清點 Claude 部署、在執行前管理權限並對提示／檔案／工具呼叫套政策）、Rubrik Code Guardian（用 Anthropic 模型審查 GitHub 或 Azure DevOps 儲存庫副本，找多步驟攻擊路徑）、Tanium Cloud（端點即時可見與控制）。開發基礎建設有 Datadog Agent Observability（追蹤代理程式穿越工具與服務的執行）與 Netlify Enterprise（把應用、網站與代理部署到全球邊緣網路，每次變更給預覽網址）。創意向有 AirOps、Runway、Webflow；生產力向有 Asana AI Teammates、Glean、monday agents，以及可在 Claude 裡用會議摘要與連線資料回答問題的 Zoom Agentic Search。官網寫可在市集瀏覽並對任一品項提出購買請求。",
+      "links": [
+        [
+          "Claude 官方說明",
+          "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace"
+        ],
+        [
+          "Claude Marketplace",
+          "https://claude.com/marketplace/agents-products"
+        ]
+      ],
+      "image": {
+        "file": "claude-marketplace.webp",
+        "alt": "Claude Marketplace 文章分享圖",
+        "credit": "Anthropic",
+        "credit_url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace"
+      },
+      "gloss": [
+        [
+          "Claude Marketplace",
+          "Anthropic 的夥伴工具市集，企業可在這裡找與 Claude 搭配的代理和產品"
+        ]
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "id": "minimax-h3",
+      "model": "MiniMax H3",
+      "kind": "影片生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "qwen-image-2.1",
+      "model": "Qwen Image 2.1",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "krea-2",
+      "model": "Krea 2",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "moss-image",
+      "model": "MOSS-Image",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "grok-bot-tips",
+      "model": "Grok Bot 教學與實用資訊",
+      "kind": "AI 助理",
+      "status": "今天沒有新消息。",
+      "updates": []
+    }
+  ],
+  "columns": [],
+  "tutorials": [
+    {
+      "id": "tut-tencent-hy4",
+      "title": "ComfyUI Tencent HY4：看圖寫提示詞與圖像分析",
+      "learn": "學會用官方模板把參考圖交給 HY4，產出可直接貼進文生圖模型的提示詞，也知道節點還能做說明與圖表拆解。",
+      "level": "入門",
+      "vram": "走 Comfy API 的 Partner Node，官方寫不需本機下載模型、也不需本機 GPU；按 API token 計費",
+      "kind": "本週新教學",
+      "gloss": [
+        [
+          "Partner Node",
+          "ComfyUI 裡呼叫雲端模型 API 的官方節點，不用把權重下載到自己的顯卡"
+        ],
+        [
+          "HY4",
+          "騰訊於 2026-11-04 發布的模型，官方文件寫這是 Hy 系列首代具備視覺理解的版本"
+        ]
+      ],
+      "steps": [
+        "把 ComfyUI 更新到最新，並確認已登入且網路環境允許使用 Partner Nodes。",
+        "在 Template Library 搜尋「Tencent: Hy4」，打開看圖寫提示詞工作流。",
+        "把參考圖丟進 LoadImage；模板會請 HY4 寫出以逗號分隔、可直接貼進圖像模型的提示詞。",
+        "在 Preview Any 看回答。若要存檔，保留 Save Text，它會把提示詞與回答寫到 output/Hy4/。",
+        "提示詞技巧：在 prompt 寫明只要輸出正面提示、不要多餘說明；連多張圖時用「第一張／第二張」對應。固定角色說明放 system_prompt，本次任務放 prompt。reasoning 可讓模型先思考再回答；max_tokens 最高可到 64,000。一次請求最多 20 張圖。"
+      ],
+      "links": [
+        [
+          "ComfyUI：Tencent HY4",
+          "https://docs.comfy.org/tutorials/partner-nodes/tencent/hy-4"
+        ]
+      ]
+    },
+    {
+      "id": "tut-lens-t2i",
+      "title": "ComfyUI Lens：本機跑 Microsoft 開源 3.8B 文生圖",
+      "learn": "學會用官方模板跑 Lens 或更快的 Lens Turbo，並把擴散模型、文字編碼器與 VAE 放到對的資料夾。",
+      "level": "中階",
+      "vram": "官方寫 3.8B 體積可在 24 GB 消費級 GPU 上跑",
+      "kind": "常青教學",
+      "gloss": [
+        [
+          "Lens",
+          "Microsoft 開源的 3.8B 文生圖模型，MIT 授權，用雙流 MMDiT 搭配 GPT-OSS-20B 文字特徵與 FLUX.2 semantic VAE"
+        ],
+        [
+          "MMDiT",
+          "一種同時處理圖像與文字資料流的擴散架構"
+        ]
+      ],
+      "steps": [
+        "把 ComfyUI 更新到最新，在 Template Library 搜尋「Lens」或「Lens Turbo」。",
+        "到 Hugging Face 的 Comfy-Org/Lens 下載模型：標準版 lens_bf16.safetensors（約 50 步）或蒸餾版 lens_turbo_bf16.safetensors（約 8 步），放到 models/diffusion_models/。",
+        "兩個版本共用文字編碼器 gpt_oss_20b_nvfp4.safetensors（放 models/text_encoders/）與 FLUX.2 VAE flux2-vae.safetensors（放 models/vae/）。",
+        "打開模板、輸入提示詞、選解析度與長寬比後按 Queue。工作流用 Subgraph 包住管線，可點進去改內部節點。"
+      ],
+      "links": [
+        [
+          "ComfyUI：Lens",
+          "https://docs.comfy.org/tutorials/image/lens/lens"
+        ],
+        [
+          "HF：Comfy-Org/Lens",
+          "https://huggingface.co/Comfy-Org/Lens"
+        ]
+      ]
+    }
+  ],
+  "caveats": [
+    "LMArena 官網今日 curl 遭 Cloudflare 擋（403），文字榜改依官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset（資料更新日 2026-11-06）。",
+    "OpenAI 官網對一般 curl 回 403，Pierre 收購一文已用其他方式讀過原文，並附上 HTTP 200 的公開報導連結。本期未及收錄名家專欄與 X 帳號近 36 小時貼文。"
+  ],
+  "video": null,
+  "leaderboards": {
+    "snapshot": "2026-11-08",
+    "compared_to": "2026-11-07",
+    "boards": [
+      {
+        "id": "text",
+        "title": "文字 LLM 總榜",
+        "en": "Text Arena · Overall",
+        "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+        "source_url": "https://lmarena.ai/leaderboard/text",
+        "as_of": "2026-11-06",
+        "fetched": "2026-11-08",
+        "metric": "Arena score",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Gemini 4 Carbon (high)",
+            "org": "Google",
+            "score": 1539,
+            "ci": 9,
+            "delta": -1
+          },
+          {
+            "rank": 2,
+            "model": "Gemini 4 Argon (high)",
+            "org": "Google",
+            "score": 1530,
+            "ci": 6,
+            "delta": 1
+          },
+          {
+            "rank": 3,
+            "model": "Claude Fable 5.1 (max)",
+            "org": "Anthropic",
+            "score": 1513,
+            "ci": 6,
+            "move": 1,
+            "delta": -1
+          },
+          {
+            "rank": 4,
+            "model": "Claude Opus 5.5 (high)",
+            "org": "Anthropic",
+            "score": 1512,
+            "ci": 6,
+            "move": -1,
+            "delta": -4
+          },
+          {
+            "rank": 5,
+            "model": "Claude Opus 5 (max)",
+            "org": "Anthropic",
+            "score": 1507,
+            "ci": 5,
+            "delta": -1
+          },
+          {
+            "rank": 6,
+            "model": "Muse Wonder (max)",
+            "org": "Meta",
+            "score": 1505,
+            "ci": 6,
+            "move": 2,
+            "delta": 6
+          },
+          {
+            "rank": 7,
+            "model": "Claude Opus 5 (high)",
+            "org": "Anthropic",
+            "score": 1503,
+            "ci": 4,
+            "move": -1,
+            "delta": -1
+          },
+          {
+            "rank": 8,
+            "model": "Claude Opus 4.6 (high)",
+            "org": "Anthropic",
+            "score": 1502,
+            "ci": 3,
+            "move": -1
+          },
+          {
+            "rank": 9,
+            "model": "Gemini 3.8 Flash (high)",
+            "org": "Google",
+            "score": 1501,
+            "ci": 4,
+            "delta": 3
+          },
+          {
+            "rank": 10,
+            "model": "Claude Opus 4.6",
+            "org": "Anthropic",
+            "score": 1497,
+            "ci": 3,
+            "delta": 1
+          }
+        ],
+        "compared_to": "2026-11-07",
+        "diff": {
+          "summary": [
+            "Gemini 4 Carbon (high): #1→#1 (0 名), 1540→1539 (-1)",
+            "Gemini 4 Argon (high): #2→#2 (0 名), 1529→1530 (+1)",
+            "Claude Fable 5.1 (max): #4→#3 (+1 名), 1514→1513 (-1)",
+            "Claude Opus 5.5 (high): #3→#4 (-1 名), 1516→1512 (-4)",
+            "Claude Opus 5 (max): #5→#5 (0 名), 1508→1507 (-1)",
+            "Muse Wonder (max): #8→#6 (+2 名), 1499→1505 (+6)",
+            "Claude Opus 5 (high): #6→#7 (-1 名), 1504→1503 (-1)",
+            "Claude Opus 4.6 (high): #7→#8 (-1 名), 1502→1502 (+0)",
+            "Gemini 3.8 Flash (high): #9→#9 (0 名), 1498→1501 (+3)",
+            "Claude Opus 4.6: #10→#10 (0 名), 1496→1497 (+1)"
+          ],
+          "dropped": []
+        },
+        "dropped": [],
+        "analysis": "Hugging Face 上的 LMArena 文字榜資料更新日從 10 月 28 日跳到 11 月 6 日。Gemini 4 Carbon（high）續居第一（1539，比上次快照少 1 分），Gemini 4 Argon（high）仍是第二（1530，多 1 分）。最大變化是 Meta 的 Muse Wonder（max）從第 8 升到第 6（升 2 名），分數從 1499 升到 1505（多 6 分）。Anthropic 的 Claude Fable 5.1（max）從第 4 升到第 3，Claude Opus 5.5（high）從第 3 掉到第 4，分數少 4 分。前 10 名成員與上次相同，沒有模型新進或掉出。",
+        "analysis_short": "Muse Wonder（max）升到第 6、分數多 6 分；Claude Fable 5.1 與 Opus 5.5 對調第 3／4 名。前 10 名單不變。"
+      },
+      {
+        "id": "image",
+        "title": "文生圖排行",
+        "en": "Text-to-Image · AA-Image-T2I v2.1",
+        "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "as_of": "2026-11-08",
+        "fetched": "2026-11-08",
+        "metric": "Elo",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "GPT Image 2.6 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1259,
+            "ci": 15
+          },
+          {
+            "rank": 2,
+            "model": "GPT Image 2.6 Flare (max)",
+            "org": "OpenAI",
+            "score": 1228,
+            "ci": 12
+          },
+          {
+            "rank": 3,
+            "model": "GPT Image 2.5 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1227,
+            "ci": 10
+          },
+          {
+            "rank": 4,
+            "model": "GPT Image 2.5 Flare (max)",
+            "org": "OpenAI",
+            "score": 1208,
+            "ci": 10
+          },
+          {
+            "rank": 5,
+            "model": "GPT Image 2 (high)",
+            "org": "OpenAI",
+            "score": 1188,
+            "ci": 11
+          },
+          {
+            "rank": 6,
+            "model": "Nano Banana 2.1",
+            "org": "Google",
+            "score": 1176,
+            "ci": 12,
+            "move": 1
+          },
+          {
+            "rank": 7,
+            "model": "MAI-Image-2.6",
+            "org": "Microsoft AI",
+            "score": 1168,
+            "ci": 12,
+            "move": 1
+          },
+          {
+            "rank": 8,
+            "model": "Grok Imagine Image 2.0",
+            "org": "SpaceXAI",
+            "score": 1166,
+            "ci": 12,
+            "move": 1
+          },
+          {
+            "rank": 9,
+            "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+            "org": "Google",
+            "score": 1142,
+            "ci": 10,
+            "move": 1
+          },
+          {
+            "rank": 10,
+            "model": "Muse Image",
+            "org": "Meta",
+            "score": 1128,
+            "ci": 11,
+            "new": true
+          }
+        ],
+        "compared_to": "2026-11-07",
+        "diff": {
+          "summary": [
+            "Nano Banana 2.1: #7→#6 (+1 名), 1176→1176 (+0)",
+            "MAI-Image-2.6: #8→#7 (+1 名), 1168→1168 (+0)",
+            "Grok Imagine Image 2.0: #9→#8 (+1 名), 1166→1166 (+0)",
+            "Nano Banana 2 (Gemini 3.1 Flash Image): #10→#9 (+1 名), 1142→1142 (+0)",
+            "NEW #10 Muse Image (Meta) 1128",
+            "OUT Kling 4.0 Image (preview) (前次 #6 1178)"
+          ],
+          "dropped": [
+            {
+              "model": "Kling 4.0 Image (preview)",
+              "org": "KlingAI",
+              "rank": 6,
+              "score": 1178
+            }
+          ]
+        },
+        "dropped": [
+          {
+            "model": "Kling 4.0 Image (preview)",
+            "org": "KlingAI",
+            "rank": 6,
+            "score": 1178
+          }
+        ],
+        "analysis": "文生圖榜前五名與分數都沒變，仍由 GPT Image 2.6 Sunburst（max）、GPT Image 2.6 Flare（max）、GPT Image 2.5 Sunburst（max）、GPT Image 2.5 Flare（max）與 GPT Image 2（high）包辦。昨日第 6 的 Kling 4.0 Image（preview，1178）掉出前 10；其後的 Nano Banana 2.1、MAI-Image-2.6、Grok Imagine Image 2.0、Nano Banana 2（Gemini 3.1 Flash Image）各升 1 名。第 10 由 Meta 的 Muse Image（1128）補上。沒有新的第 1 名，也沒有分數大幅跳動。",
+        "analysis_short": "Kling 4.0 Image（preview）掉出前 10；Meta 的 Muse Image 新進第 10。前五名仍是 GPT Image 系列。"
+      },
+      {
+        "id": "video",
+        "title": "文生影片排行",
+        "en": "Text-to-Video · AA-Video-T2V v2.1",
+        "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "as_of": "2026-11-08",
+        "fetched": "2026-11-08",
+        "metric": "Elo",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Wan 3.0",
+            "org": "Alibaba",
+            "score": 1172,
+            "ci": 13,
+            "released": "Aug 2026"
+          },
+          {
+            "rank": 2,
+            "model": "Utopai X",
+            "org": "Utopai Studios",
+            "score": 1167,
+            "ci": 14,
+            "released": "Sep 2026"
+          },
+          {
+            "rank": 3,
+            "model": "MiniMax H3 (768p)",
+            "org": "MiniMax",
+            "score": 1160,
+            "ci": 13,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 4,
+            "model": "FLUX 3 Max",
+            "org": "Fal",
+            "score": 1156,
+            "ci": 16,
+            "released": "Oct 2026"
+          },
+          {
+            "rank": 5,
+            "model": "Dreamina Seedance 2.5",
+            "org": "ByteDance Seed",
+            "score": 1155,
+            "ci": 13,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 6,
+            "model": "HeyGen Video 1",
+            "org": "HeyGen",
+            "score": 1152,
+            "ci": 13,
+            "released": "Oct 2026"
+          },
+          {
+            "rank": 7,
+            "model": "MiniMax H3 Max",
+            "org": "Fal",
+            "score": 1145,
+            "ci": 16,
+            "released": "Aug 2026"
+          },
+          {
+            "rank": 8,
+            "model": "FLUX 3",
+            "org": "Black Forest Labs",
+            "score": 1138,
+            "ci": 13,
+            "released": "Jul 2026"
+          },
+          {
+            "rank": 9,
+            "model": "SkyReels V4",
+            "org": "Skywork AI",
+            "score": 1137,
+            "ci": 15,
+            "released": "Mar 2026",
+            "new": true
+          },
+          {
+            "rank": 10,
+            "model": "Dreamina Seedance 2.0",
+            "org": "ByteDance Seed",
+            "score": 1135,
+            "ci": 14,
+            "released": "Mar 2026",
+            "move": -1
+          }
+        ],
+        "compared_to": "2026-11-07",
+        "diff": {
+          "summary": [
+            "NEW #9 SkyReels V4 (Skywork AI) 1137",
+            "Dreamina Seedance 2.0: #9→#10 (-1 名), 1135→1135 (+0)",
+            "OUT P-Video-2-Pro (前次 #10 1128)"
+          ],
+          "dropped": [
+            {
+              "model": "P-Video-2-Pro",
+              "org": "Pruna AI",
+              "rank": 10,
+              "score": 1128
+            }
+          ]
+        },
+        "dropped": [
+          {
+            "model": "P-Video-2-Pro",
+            "org": "Pruna AI",
+            "rank": 10,
+            "score": 1128
+          }
+        ],
+        "analysis": "文生影片前八名與分數與昨日相同：Wan 3.0（1172）繼續第一，其後是 Utopai X、MiniMax H3（768p）、FLUX 3 Max、Dreamina Seedance 2.5、HeyGen Video 1、MiniMax H3 Max 與 FLUX 3。第 9 名改為 Skywork AI 的 SkyReels V4（1137），Dreamina Seedance 2.0 從第 9 掉到第 10（1135 分不變）。昨日新進第 10 的 P-Video-2-Pro（1128）掉出前 10。第 1 名沒有易主。",
+        "analysis_short": "前八名不變；第 9 換成 SkyReels V4，擠下昨天新進的 P-Video-2-Pro。"
+      }
+    ]
+  }
+}
