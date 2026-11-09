@@ -1,0 +1,578 @@
+{
+ "date": "2026-11-09",
+ "weekday": "星期一",
+ "issue_no": 33,
+ "lede": "Google 把 Gemini Live 語音接進 Antigravity 程式代理，Google Vids 也開放每月 3 支免費 15 秒 AI 影片；NVIDIA 為 Cosmos 3 加開 4 個駕駛與機器人模擬用的開放權重模型。三張榜單今天都沒有重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "antigravity-voice-mode",
+   "org": "Google",
+   "tag": "平台功能 · 程式代理",
+   "date": "2026-11-06",
+   "title": "Google Antigravity 推出語音模式：用 Gemini Live 邊講話邊指揮程式代理",
+   "short_title": "Antigravity 可以用講的寫程式了",
+   "one": "在 Antigravity App 或 CLI 開語音模式，就能用說的交代任務、中途改方向、口頭核准權限，代理會即時用語音回答。",
+   "orig": "Voice mode in Antigravity is here. Enabled by the Gemini Live model, you can use your voice to plan, steer code changes, and approve permissions out loud.",
+   "summary": "Google 於 11/6 發文介紹 Antigravity 語音模式，由 Gemini Live 模型驅動：直接聽你的聲音（不是先轉文字），可隨時插話打斷，延續當前對話的上下文，代理照常讀程式、改檔、跑指令並把結果顯示在對話中。使用方式：App 裡在空白訊息框按 Start Voice mode 並選聲音；CLI 需 1.5.0 以上，輸入 /voice live 或按 F6。官方文件說明音訊會串流到 Google 伺服器處理，語音模式只能存取開啟它的那個對話，檔案與指令仍走原本權限。v2.29.0 更新日誌（11/3）寫明語音模式逐步推出、可能還看不到；同版也開始向 Google AI Ultra 與 Pro 訂閱者推出在雲端執行對話的 Remote agents。9to5Google 報導語音播放速度可調 0.75x–2x。",
+   "links": [
+    [
+     "Antigravity 官方部落格",
+     "https://antigravity.google/blog/antigravity-voice-mode/"
+    ],
+    [
+     "官方文件：Voice mode",
+     "https://antigravity.google/docs/voice-mode/"
+    ],
+    [
+     "官方更新日誌 v2.29.0",
+     "https://antigravity.google/docs/changelog/"
+    ],
+    [
+     "9to5Google 報導",
+     "https://9to5google.com/2026/11/06/google-antigravity-remote-agents-voice-mode/"
+    ]
+   ],
+   "image": {
+    "file": "ag.webp",
+    "alt": "Antigravity 語音模式官方宣傳圖",
+    "credit": "Google Antigravity Blog",
+    "credit_url": "https://antigravity.google/blog/antigravity-voice-mode/"
+   },
+   "gloss": [
+    [
+     "Gemini Live",
+     "Google 的即時語音對話模型，可以直接聽聲音、即時回話、被插話打斷"
+    ],
+    [
+     "Remote agents",
+     "讓代理的對話改在雲端專案執行，不佔用自己的電腦"
+    ]
+   ]
+  },
+  {
+   "id": "vids-omni12-free",
+   "org": "Google",
+   "tag": "延伸 · 影片生成 · 平台",
+   "date": "2026-11-05",
+   "title": "Google Vids 改用 Omni 1.2 Flash：一般 Google 帳號每月可免費做 3 支 15 秒 AI 影片",
+   "short_title": "Google Vids 每月 3 支免費 AI 影片",
+   "one": "不用付費訂閱，用個人 Google 帳號到 vids.new 就能每月生成最多 3 支 15 秒影片，片長可在 3–15 秒間調。",
+   "orig": "Starting today, anyone with a Google account or Google Workspace subscription can generate up to three 15-second videos per month in Vids at no cost.",
+   "summary": "上期已報 Gemini Omni 1.2 Flash 正式上線；新的實質內容是平台開放：Google 官方部落格（11/5）表示 Google Vids 改用 Omni 1.2 Flash，任何 Google 帳號或 Workspace 訂閱者每月可免費生成最多 3 支 15 秒影片。Workspace Updates 說明：片長可用滑桿在 3–15 秒間選、用參考圖時角色與產品一致性更好、語音講者變化更多；個人帳號、Google AI Pro／Ultra 與多數 Business／Enterprise 方案可用，AI Expanded Access 加購授權有較高額度，網域約 1–3 天內看到。官方沒有寫超過 3 支後的價格。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+    ],
+    [
+     "Google Workspace Updates",
+     "https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html"
+    ],
+    [
+     "The Decoder／Mixed 報導",
+     "https://mixed-news.com/en/google-vids-omni-1-2-flash-free-15-second-videos/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Google Vids",
+     "Google Workspace 裡的網頁版影片製作與剪輯工具"
+    ]
+   ]
+  },
+  {
+   "id": "cosmos3-sim-checkpoints",
+   "org": "NVIDIA",
+   "tag": "開源 · 世界模型 · 自駕模擬",
+   "date": "2026-11-05",
+   "title": "NVIDIA 為 Cosmos 3 加開 4 個開放權重模型：多鏡頭駕駛場景、相機＋LiDAR 串流模擬與機器人動作",
+   "short_title": "Cosmos 3 新增 4 個駕駛／機器人模擬模型",
+   "one": "NVIDIA 釋出 4 個以 Cosmos 3 Nano 後訓練的 16B 模型，可生成最多 11 路鏡頭的駕駛影片、同步 LiDAR，或依機器人動作預測畫面，可商用。",
+   "orig": "NVIDIA Cosmos world model development platform adds four new open-weight checkpoints to its Cosmos 3 model family for generating interactive world simulation and multi-sensor multi-view driving scenes.",
+   "summary": "NVIDIA 在 Hugging Face 部落格（11/5）公布四個新檢查點：Transfer-Auto（依場景地圖與文字改天氣、光線、時段，生成最多 11 路含魚眼鏡頭的同步影片，可同時生成 LiDAR）、Sim-Auto（Transfer-Auto 的串流蒸餾版，幾步去噪就能邊開邊生成相機與 LiDAR 觀測）、Sim-Transfer（把模擬器控制加文字轉成寫實影片）、Sim-Bimanual（依雙臂機器人動作預測影片）。四個都是 16B 可訓練參數，採 OpenMDW 1.1 授權，允許商用與非商用。執行需要 Linux、NVIDIA GPU、Docker；官方的 vLLM-Omni 設定是在一張 GB200 上測試，並註明這不是最低顯存規格。",
+   "links": [
+    [
+     "Hugging Face 官方部落格",
+     "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+    ],
+    [
+     "Cosmos3 模型合集（Hugging Face）",
+     "https://huggingface.co/collections/nvidia/cosmos3"
+    ]
+   ],
+   "image": {
+    "file": "cosmos.webp",
+    "alt": "NVIDIA Cosmos 3 互動世界模擬官方示意圖",
+    "credit": "NVIDIA／Hugging Face Blog",
+    "credit_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+   },
+   "gloss": [
+    [
+     "世界模型",
+     "能根據輸入預測「世界接下來會怎麼變」並生成畫面的模型，常用來做自駕與機器人模擬"
+    ],
+    [
+     "LiDAR",
+     "光達，用雷射測距掃描周圍環境的感測器，自駕車常用"
+    ]
+   ]
+  },
+  {
+   "id": "grokbot-efficiency-fix",
+   "org": "xAI",
+   "tag": "平台 · Grok Bot",
+   "date": "2026-11-08",
+   "title": "Musk：Grok Bot 正在修正，提升 token 效率與行為判斷",
+   "short_title": "Grok Bot 將改善 token 用量",
+   "one": "Musk 在 X 表示 Grok Bot 改善 token 效率、讓行為更聰明的修正正在進行；目前只有這句宣布，沒有時程與細節。",
+   "orig": "Grok Bot fixes for improved token efficiency and smarter behavior are underway",
+   "summary": "Elon Musk 於台北時間 11/8 21:17 在 X 發文，表示 Grok Bot 提升 token 效率與更聰明行為的修正「正在進行中」。貼文沒有說明上線時間、具體改動或對方案額度的影響，xAI 官方帳號近 36 小時沒有相關公告；有正式更新再追蹤。",
+   "links": [
+    [
+     "Elon Musk X 貼文",
+     "https://x.com/elonmusk/status/2119419126045454531"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "token",
+     "模型計算用量的單位，大約是字詞的一小段；token 越省，同樣額度能做越多事"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "AI 助理",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-ming-image-design",
+   "title": "ComfyUI Ming Image 0.1 Design：生成帶清楚文字、透明背景的版面設計圖",
+   "learn": "學會用官方模板讓 6B 開源模型做海報、資訊圖、UI 版面，引號裡的字會照寫，還能輸出帶 alpha 透明通道的 PNG。",
+   "level": "中階",
+   "vram": "官方頁未列顯存需求（模型 6B，模板載入 int8 量化檔；提示詞改寫另用 Qwen3.8-27B w4a8），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "RGBA",
+     "紅綠藍三色再加一個透明度（alpha）通道，背景可以是真正透明"
+    ],
+    [
+     "提示詞改寫",
+     "先用一個語言模型把簡短想法擴寫成詳細版面描述，再交給生圖模型"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新，在 Template Library 搜尋「Ming Image 0.1 Design」打開模板（或從官方頁下載 JSON）。",
+    "依官方頁下載 4 個檔：ming_image_0.1_design_int8_convrot（diffusion_models）、ming_image_0.1_ling_mini_2.0_int8_convrot 與 qwen3.8_27b_w4a8（text_encoders）、ming_image_vae_bf16（vae）。",
+    "進入「Text to Image (Ming Image 0.1 Design)」子圖，在 prompt 逐區描述版面，要出現的文字放在引號裡。",
+    "用 ResolutionSelector 選畫布：2048×2048 品質最好，1024×1024 較快；enable_PE 開著會用 Qwen3.8-27B 擴寫提示詞，關掉則原文照送。",
+    "要透明背景時，在提示詞最前面加「RGBA, 4-channel, transparent background」，按 Run 後在 PreviewImage 看結果。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Ming Image 0.1 Design",
+     "https://docs.comfy.org/tutorials/image/ming-image/ming-image-0-1-design"
+    ],
+    [
+     "inclusionAI/Ming-Image（GitHub）",
+     "https://github.com/inclusionAI/Ming-Image"
+    ],
+    [
+     "Ming-Image-0.1-Design 模型卡（Hugging Face）",
+     "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design"
+    ]
+   ]
+  },
+  {
+   "id": "tut-cosmos-predict2-v2w",
+   "title": "ComfyUI Cosmos Predict2 Video2World：單張圖片生成符合物理的影片",
+   "learn": "學會在 ComfyUI 跑 NVIDIA 的 Cosmos-Predict2 2B 圖轉影片，先體驗今天新聞裡 Cosmos 世界模型家族的入門版本。",
+   "level": "入門",
+   "vram": "官方頁寫測試 2B 版本約需 16GB 顯存",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "Video2World",
+     "給一張圖（可加最後一格），讓模型預測接下來的畫面並生成影片"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，從官方頁下載工作流 JSON（或把官方示範影片拖進 ComfyUI，裡面內嵌了模型下載連結）。",
+    "若自動下載失敗，手動放好：cosmos_predict2_2B_video2world_480p_16fps（diffusion_models）、oldt5_xxl_fp8_e4m3fn_scaled（text_encoders）、wan_2.1_vae（vae）。",
+    "確認 Load Diffusion Model、Load CLIP、Load VAE 三個節點各自載入對應檔案，在 Load Image 上傳輸入圖。",
+    "需要首尾幀控制時按 Ctrl(cmd)+B 啟用最後一幀輸入；可在 ClipTextEncode 改提示詞、在 CosmosPredict2ImageToVideoLatent 改尺寸與幀數。",
+    "按 Run 或 Ctrl(cmd)+Enter 生成。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Cosmos Predict2 Video2World",
+     "https://docs.comfy.org/tutorials/video/cosmos/cosmos-predict2-video2world"
+    ],
+    [
+     "nvidia-cosmos/cosmos-predict2（GitHub）",
+     "https://github.com/nvidia-cosmos/cosmos-predict2"
+    ],
+    [
+     "Comfy-Org/Cosmos_Predict2_repackaged（Hugging Face）",
+     "https://huggingface.co/Comfy-Org/Cosmos_Predict2_repackaged"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "LMArena 官網 curl 遭 Cloudflare 擋，文字榜依官方 Hugging Face 資料集（資料更新日 2026-11-06）；三張榜單今日皆無重大變化，沿用前次資料。",
+  "@xai 帳號今日 X 工具無法讀取（授權錯誤），其餘官方帳號近 36 小時無產品宣布；本週沒有新的合格 AI 汽車設計新聞。"
+ ],
+ "video": null,
+ "leaderboards": {
+  "snapshot": "2026-11-09",
+  "compared_to": "2026-11-08",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-06",
+    "fetched": "2026-11-09",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-06",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 6,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 6,
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1505,
+      "ci": 6,
+      "move": 2,
+      "delta": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1501,
+      "ci": 4,
+      "delta": 3
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": 1
+     }
+    ],
+    "compared_to": "2026-11-08",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-11-08",
+    "fetched": "2026-11-09",
+    "metric": "Elo",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-09",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1259,
+      "ci": 15
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1228,
+      "ci": 12
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 10
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1188,
+      "ci": 11
+     },
+     {
+      "rank": 6,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 7,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 8,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1166,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 9,
+      "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "org": "Google",
+      "score": 1142,
+      "ci": 10,
+      "move": 1
+     },
+     {
+      "rank": 10,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1128,
+      "ci": 11,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-08",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-08",
+    "fetched": "2026-11-09",
+    "metric": "Elo",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-09",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1172,
+      "ci": 13,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1167,
+      "ci": 14,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1160,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 4,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1156,
+      "ci": 16,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 5,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 6,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1152,
+      "ci": 13,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 7,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1145,
+      "ci": 16,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1137,
+      "ci": 15,
+      "released": "Mar 2026",
+      "new": true
+     },
+     {
+      "rank": 10,
+      "model": "Dreamina Seedance 2.0",
+      "org": "ByteDance Seed",
+      "score": 1135,
+      "ci": 14,
+      "released": "Mar 2026",
+      "move": -1
+     }
+    ],
+    "compared_to": "2026-11-08",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   }
+  ]
+ }
+}
