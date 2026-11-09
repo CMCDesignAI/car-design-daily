@@ -179,11 +179,81 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "AI 助理",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "1 則新教學。",
+   "updates": [
+    {
+     "title": "Notion 官方設定指南：讓 Grok Bot 和其他 AI 代理共用 Notion 當「共同大腦」",
+     "date": "2026-11-05",
+     "short_title": "用 Notion 當多個 bot 的共同記憶",
+     "one": "學到：把 Notion 官方設定頁丟給 Grok Bot，透過 Notion MCP 建「Agent Operating Guide」、Memories 與 Skills，換 bot、換 AI 都能沿用同一份記憶與技能；效果依 Notion 官方說明，屬廠商說法。",
+     "summary": "Notion 於台北時間 11/5 在 X 宣布「Give all your agents one shared brain in Notion」，點名 ChatGPT、Claude、Muse 與 Bot 可把學到的東西存到同一份 Notion 記憶並共用技能；Notion MCP 說明頁也把 GrokBot 列為可連線的工具之一。做法是把官方設定頁（developers.notion.com/prompts/setup，v0.0.6，10/30 發布）分享給代理，代理會：1）請你授權 Notion MCP；2）讓你選「Shared context layer（建議）」或「Basic setup」；3）建立私人 Agent Operating Guide 頁並更新自訂指令；4）可選建立每日迴圈，把新記憶與成果存進 Notion、並檢查設定頁是否有新版（不會自行修改指南）；5）把現有記憶與已安裝技能存到私人頁面。官方指南明寫不要存密碼、金鑰、閒聊或可從程式庫找回的資訊。X 上也有使用者分享把規則、技能、routine 全寫回 Notion、讓 bot 維護任務看板的作法（作者說）。",
+     "links": [
+      [
+       "Notion 官方設定指南（給代理看的）",
+       "https://developers.notion.com/prompts/setup"
+      ],
+      [
+       "Notion Help：Notion MCP",
+       "https://www.notion.com/help/notion-mcp"
+      ],
+      [
+       "Notion X 貼文",
+       "https://x.com/NotionHQ/status/2118059335930744999"
+      ],
+      [
+       "使用者實作分享（X）",
+       "https://x.com/romitmirchi/status/2119565628889821272"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "MCP",
+       "Model Context Protocol，讓 AI 代理用統一方式連接外部工具與資料的開放協定"
+      ]
+     ]
+    }
+   ]
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-aisd-grokbot-skills",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-07",
+   "title": "AI超元域：Grok Bot 進階玩法——專屬信箱寄資訊、每日復盤沉澱技能、Pages 看板與影片導演",
+   "short_title": "Grok Bot：信箱、技能沉澱與影片導演",
+   "orig": "🚀Grok Bot进阶玩法保姆级教程！超越Meta Muse/OpenAI Dots/Claude Duet！定制专属邮箱、自动沉淀skill、Pages制作、视频生成！让Grok Bot越用越聪明",
+   "one": "示範把 Grok Bot 分工成專職助手：每天晚上 8 點用專屬信箱寄 AI 資訊、定期復盤把對話經驗沉澱成技能，再做 Pages 看板與 15 秒武俠短片。",
+   "points": [
+    "作者領取 Grok Bot 專屬信箱並訂閱資訊，設定每天晚上 8 點寄出 AI 資訊信，影片展示實際收到的內容。",
+    "設「技能沉澱員」定期檢查對話與工作經驗，產生可重複使用的技能與檔案交付規則，並把任務設定同步到 GitHub。",
+    "用可互動的 Pages 整理團隊週報、模型趨勢榜與影片看板，再由「檔案檢索員」找回對應頁面。",
+    "建立「影片導演」bot 並安裝作者公開的 video-director 技能，選畫幅、氛圍、畫風與聲音後生成 15 秒港風武俠短片；作者註明定時任務的長期穩定性本期未驗證。"
+   ],
+   "url": "https://www.youtube.com/watch?v=aRY7YrXOmKo",
+   "image": {
+    "file": "col-aisd-grokbot-skills.webp",
+    "alt": "AI超元域 Grok Bot 進階玩法影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=aRY7YrXOmKo"
+   },
+   "links": [
+    [
+     "video-director 技能（GitHub）",
+     "https://github.com/win4r/video-director"
+    ]
+   ],
+   "gloss": [
+    [
+     "Skill（技能）",
+     "把一套做事方法寫成檔案，bot 之後遇到同類工作可以直接套用"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-ming-image-design",
@@ -262,7 +332,7 @@
  ],
  "caveats": [
   "LMArena 官網 curl 遭 Cloudflare 擋，文字榜依官方 Hugging Face 資料集（資料更新日 2026-11-06）；三張榜單今日皆無重大變化，沿用前次資料。",
-  "@xai 帳號今日 X 工具無法讀取（授權錯誤），其餘官方帳號近 36 小時無產品宣布；本週沒有新的合格 AI 汽車設計新聞。"
+  "@xai 帳號今日 X 工具無法讀取（授權錯誤），其餘官方帳號近 36 小時無產品宣布；松音 FB 公開檢視只看到 9/13 置頂課程貼文、近 7 天無新貼文，本期專欄未收。"
  ],
  "video": null,
  "leaderboards": {
