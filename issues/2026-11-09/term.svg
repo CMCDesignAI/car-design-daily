@@ -1,0 +1,13 @@
+<svg class="diagram" viewBox="0 0 520 300" width="100%" role="img" aria-label="雙色車身示意：側面車身，車頂與柱子用強調色，下方車身另一色" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60 190 L60 165 Q62 150 90 146 L150 140 L196 96 Q206 88 222 88 L360 88 Q378 88 390 100 L428 140 L462 148 Q478 152 478 170 L478 190 Z"/>
+<path d="M206 136 L230 100 L300 100 L300 136 Z"/><path d="M310 136 L310 100 L362 100 Q372 100 380 110 L404 136 Z"/>
+<path d="M150 140 L428 140"/><circle cx="135" cy="192" r="28"/><circle cx="135" cy="192" r="11"/><circle cx="398" cy="192" r="28"/><circle cx="398" cy="192" r="11"/>
+<path d="M66 160 L92 156"/><path d="M462 156 L476 160"/></g>
+<path d="M196 96 Q206 88 222 88 L360 88 Q378 88 390 100 L428 140 L404 140 L380 110 Q372 100 362 100 L310 100 L310 140 L300 140 L300 100 L230 100 L206 140 L150 140 Z" fill="#f08a5d" fill-opacity="0.55" stroke="#f08a5d" stroke-width="2.2"/>
+<g font-size="15" fill="currentColor" font-family="sans-serif">
+<path d="M290 88 L290 40" stroke="currentColor" stroke-dasharray="4 4"/><text x="200" y="34">① 車頂＋車窗柱：第二色</text>
+<path d="M260 165 L260 240" stroke="currentColor" stroke-dasharray="4 4"/><text x="180" y="258">② 腰線以下車身：主色</text>
+<path d="M428 140 L470 110" stroke="currentColor" stroke-dasharray="4 4"/><text x="400" y="104" font-size="13">③ 分色線</text>
+<text x="20" y="288" font-size="12">把車頂換色，視覺上車頂變低、變輕（例：騰勢 N8 EV 雙色版）</text></g>
+</svg>

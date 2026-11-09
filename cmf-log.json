@@ -658,5 +658,29 @@
     "angle": "Trail Green Metallic：對森林與河流的新綠",
     "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html",
     "image": "cmf-paint-trail-green.jpg"
+  },
+  {
+    "date": "2026-11-09",
+    "kind": "car",
+    "car_key": "car:cmf-car-lynk08-cabin",
+    "angle": "2027 款領克 08：新增內裝配色",
+    "url": "https://www.jiemian.com/article/15307261.html",
+    "image": "cmf-car-lynk08-cabin.jpg"
+  },
+  {
+    "date": "2026-11-09",
+    "kind": "material",
+    "car_key": "material:cmf-mat-rr-abalone",
+    "angle": "首度用鮑魚殼做木飾鑲嵌",
+    "url": "https://www.watchpreviously.com/news/rolls-royce-phantom-hummingbird/",
+    "image": "cmf-rr-hummingbird-abalone.jpg"
+  },
+  {
+    "date": "2026-11-09",
+    "kind": "paint",
+    "car_key": "paint:cmf-paint-dongfeng-box-rosegold",
+    "angle": "Box 限量 Rose Gold 配白車頂",
+    "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/",
+    "image": null
   }
 ]

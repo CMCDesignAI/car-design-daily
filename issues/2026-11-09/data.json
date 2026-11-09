@@ -1,0 +1,690 @@
+{
+ "date": "2026-11-09",
+ "weekday": "週一",
+ "issue_no": 33,
+ "lede": "騰勢 N8 EV 改款 11/12 上市，分體式頭燈加主動進氣格柵；EICMA 收尾的 Yamaha Ténéré 4 概念與 Genesis 在蒙札並排展出的兩台概念車也一併整理。設計專欄讀 capricorn 01 Zagato Tutto Rosso，看 Zagato 怎麼從白紙畫出第一台超跑。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "denza-n8-ev",
+   "tag": "改款 · 中國",
+   "date": "2026-11-06",
+   "brand": "Denza（騰勢）",
+   "title": "騰勢 N8 EV 11/12 上市：分體頭燈、主動進氣與四款雙色車身",
+   "orig": "BYD's new Denza N8 EV to launch on November 12",
+   "summary": "BYD 旗下騰勢宣布改款純電 SUV N8 EV 將於 11 月 12 日上市，10 月 26 日已開放預訂。車長 5,150mm、軸距 3,075mm，延續品牌設計語言，提供四種單色與四種雙色塗裝。",
+   "analysis": [
+    [
+     "燈號",
+     "分體式頭燈：上方是雙條 LED 日行燈，下方另設直立的遠近光燈組。"
+    ],
+    [
+     "車頭",
+     "前保桿整合主動式進氣格柵，並保留前車廂。"
+    ],
+    [
+     "側面",
+     "凹入式半隱藏門把，輪圈有 20 吋與 21 吋兩種。"
+    ],
+    [
+     "車尾",
+     "車頂擾流板整合高位煞車燈，隱藏式後雨刷，配貫穿式雙條尾燈。"
+    ],
+    [
+     "CMF",
+     "單色有 Celestial Cyan 等四色，另有 Deep Space Blue、Aurora Green、Daylight Orange、Twilight Grey 四種雙色。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/6）",
+     "https://carnewschina.com/2026/11/06/byds-new-denza-n8-ev-to-launch-on-november-12-up-to-1193-hp-and-1003-km-range/"
+    ]
+   ],
+   "image": {
+    "file": "news-denza-n8.webp",
+    "alt": "香檳色騰勢 N8 EV 前側官方照",
+    "credit": "Denza (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/06/byds-new-denza-n8-ev-to-launch-on-november-12-up-to-1193-hp-and-1003-km-range/"
+   }
+  },
+  {
+   "id": "yamaha-tenere4-concept",
+   "tag": "概念 · 機車",
+   "date": "2026-11-07",
+   "brand": "Yamaha",
+   "title": "Yamaha Ténéré 4 概念：回到單缸的輕量冒險車",
+   "orig": "Yamaha Ténéré 4 Concept",
+   "summary": "Yamaha 在 EICMA 2026 開展前夕發表 Ténéré 4 概念，是以 A2 駕照族群為目標的輕量冒險車，採新開發單缸引擎與新車架。外界期待的三缸 Ténéré 900 並未出現。",
+   "analysis": [
+    [
+     "比例",
+     "21／18 吋輻條輪加長行程 KYB 懸吊，維持 Ténéré 家族高坐姿的越野站姿。"
+    ],
+    [
+     "品牌方向",
+     "從雙缸回到單缸，把 Ténéré 名稱往更輕、更好上手的入門冒險車延伸。"
+    ],
+    [
+     "細節",
+     "鈦合金 Akrapovič 排氣管是概念車的亮點配件。"
+    ],
+    [
+     "開發階段",
+     "排氣量、馬力、重量與上市日都未公布，官方說仍在開發中。"
+    ]
+   ],
+   "sources": [
+    [
+     "EICMA（11/7）",
+     "https://www.eicma.it/en/yamaha-tenere-4-concept/"
+    ],
+    [
+     "motorcycles.news：EICMA 2026 總整理",
+     "https://www.motorcycles.news/en/eicma-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-yamaha-tenere4.webp",
+    "alt": "EICMA 展台植栽布景中的 Yamaha Ténéré 4 概念車，車身有 CONCEPT 字樣",
+    "credit": "Yamaha (via EICMA)",
+    "credit_url": "https://www.eicma.it/en/yamaha-tenere-4-concept/"
+   }
+  },
+  {
+   "id": "genesis-monza-concepts",
+   "tag": "概念 · 韓國",
+   "date": "2026-11-08",
+   "brand": "Genesis",
+   "title": "Genesis 在蒙札並排展出 Magma GT 與 X Scorpio 兩台概念",
+   "orig": "제네시스만 달랐다…마그마 GT·엑스 스콜피오로 보여준 브랜드 비전",
+   "orig_title_zh": "Genesis 與眾不同：以 Magma GT、X Scorpio 展示品牌願景",
+   "summary": "WEC 2026 最終站在義大利蒙札舉行，Genesis 展區除量產車外，同時擺出 Magma GT 概念與 X Scorpio 概念。韓國《亞洲時報》現場報導，其他品牌多展示現有代表車，Genesis 則把現在與未來放在同一個空間。",
+   "analysis": [
+    [
+     "Magma GT",
+     "中置引擎 GT 架構，低寬車身、寬大翼子板與船尾式車尾，代表品牌「Sport」領域。"
+    ],
+    [
+     "X Scorpio",
+     "以蠍子姿態為靈感的極限越野概念，配專用懸吊與 40 吋越野胎，代表「Cool」領域。"
+    ],
+    [
+     "品牌方向",
+     "Genesis 把概念車分成 Luxury、Sport、Cool 三個感性領域，底層仍是 Athletic Elegance。"
+    ],
+    [
+     "展示策略",
+     "兩台性格相反的概念並排，展示品牌從豪華高性能延伸到越野生活風格。"
+    ]
+   ],
+   "sources": [
+    [
+     "Asia Times Korea（11/8）",
+     "https://www.asiatime.co.kr/article/20261108500070"
+    ]
+   ],
+   "image": {
+    "file": "news-genesis-monza.webp",
+    "alt": "蒙札賽道 Genesis 展區帳篷下的黑色 Magma GT 概念車",
+    "credit": "아시아타임즈 박시하 기자",
+    "credit_url": "https://www.asiatime.co.kr/article/20261108500070"
+   }
+  },
+  {
+   "id": "cupra-raval-abt",
+   "tag": "特仕 · 歐洲",
+   "date": "2026-11-09",
+   "brand": "Cupra",
+   "title": "Cupra Raval CUSTOM CUPRA by ABT：小電車的運動化套件",
+   "orig": "CUPRA Brings ABT-Tuned Raval to the Paris Motor Show",
+   "summary": "Cupra 在巴黎發表 Raval CUSTOM CUPRA by ABT，與 Cupra KIRO Formula E 車隊同台。官方只說強化運動性格，尚未公布動力、底盤、輪圈或車身改動與價格。Raval 自 4 月開賣已累積逾 5 萬張訂單。",
+   "analysis": [
+    [
+     "品牌方向",
+     "Cupra 稱 Raval 為「urban electric hero」，ABT 合作把入門電車往賽車形象拉。"
+    ],
+    [
+     "延續性",
+     "CUSTOM CUPRA by ABT 先前已推出 Formentor 與 Leon 套件，Raval 是第三台。"
+    ],
+    [
+     "展示",
+     "展台與 Formula E 車隊並列，用賽車背景強化小車的運動印象。"
+    ],
+    [
+     "待確認",
+     "官方未說明改了哪些外觀件；是否只是外觀套件仍待公布。"
+    ]
+   ],
+   "sources": [
+    [
+     "Tarmac Life（11/9）",
+     "https://www.tarmaclife.co.nz/news/cupra-brings-abt-tuned-raval-to-the-paris-motor-show/"
+    ]
+   ],
+   "image": {
+    "file": "news-cupra-raval-abt.webp",
+    "alt": "深色展間中的 Cupra Raval CUSTOM CUPRA by ABT 官方照",
+    "credit": "CUPRA (via Tarmac Life)",
+    "credit_url": "https://www.tarmaclife.co.nz/news/cupra-brings-abt-tuned-raval-to-the-paris-motor-show/"
+   }
+  },
+  {
+   "id": "toyota-rav4-mts",
+   "tag": "改良 · 日本",
+   "date": "2026-11-07",
+   "brand": "Toyota",
+   "title": "日規 Toyota RAV4 改良：新增 Multi-Terrain Select",
+   "orig": "トヨタRAV4がマルチテレインセレクトを新搭載",
+   "orig_title_zh": "Toyota RAV4 新搭載多路況選擇系統",
+   "summary": "《CAR and DRIVER》日本版 11 月 7 日報導，日規 RAV4 一部改良，新增協助越野脫困的 Multi-Terrain Select；PHEV 版預定 2027 年 1 月 6 日推出。",
+   "analysis": [
+    [
+     "定位",
+     "新增多路況選擇，把越野能力從外觀強調延伸到功能。"
+    ],
+    [
+     "產品線",
+     "PHEV 版排在 2027 年 1 月 6 日，日本產品線分兩階段更新。"
+    ],
+    [
+     "功能",
+     "Multi-Terrain Select 協助在越野路面提升走破性，是這次改良的重點。"
+    ]
+   ],
+   "sources": [
+    [
+     "CAR and DRIVER 日本版（11/7）",
+     "https://www.caranddriver.co.jp/newcar/127393/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-rav4.webp",
+    "alt": "灰色新款 Toyota RAV4 前側官方照",
+    "credit": "Toyota (via CAR and DRIVER Japan)",
+    "credit_url": "https://www.caranddriver.co.jp/newcar/127393/"
+   }
+  },
+  {
+   "id": "suzuki-gsx10r",
+   "tag": "新車 · 機車",
+   "date": "2026-11-09",
+   "brand": "Suzuki",
+   "title": "Suzuki GSX-10R：全整流罩公升級跑車回歸",
+   "orig": "Suzuki Unveils GSX-10R and US-Only GSX-10RS at EICMA",
+   "summary": "Suzuki 在 EICMA 發表 2027 GSX-10R 與美國限定 GSX-10RS，999cc 直列四缸源自 GSX-R 家族，定位介於 GSX-S1000 與 GSX-R1000R 之間。",
+   "analysis": [
+    [
+     "比例",
+     "全整流罩車身配 810mm 座高，比 GSX-R 更偏公路舒適。"
+    ],
+    [
+     "CMF",
+     "藍白配色延續 Suzuki 賽道塗裝傳統。"
+    ],
+    [
+     "電子",
+     "15 項騎乘輔助，含 Suzuki 首次的 Slide Control 與可下坡使用的 Brake Hold。"
+    ],
+    [
+     "定位",
+     "整備重量 214kg，K5 世代引擎重新調校，美國另有 GSX-10RS。"
+    ]
+   ],
+   "sources": [
+    [
+     "Tarmac Life（11/9）",
+     "https://www.tarmaclife.co.nz/news/suzuki-unveils-gsx-10r-and-us-only-gsx-10rs-litre-class-sportbikes-at-eicma/"
+    ],
+    [
+     "motorcycles.news：EICMA 2026 總整理",
+     "https://www.motorcycles.news/en/eicma-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-suzuki-gsx10r.webp",
+    "alt": "藍白配色 Suzuki GSX-10R 側面官方照",
+    "credit": "Suzuki (via Tarmac Life)",
+    "credit_url": "https://www.tarmaclife.co.nz/news/suzuki-unveils-gsx-10r-and-us-only-gsx-10rs-litre-class-sportbikes-at-eicma/"
+   }
+  },
+  {
+   "id": "lynk-08-2027",
+   "tag": "年式 · 中國",
+   "date": "2026-11-05",
+   "brand": "Lynk & Co（領克）",
+   "title": "2027 款領克 08 EM-P：新橙色車漆，取消短續航版",
+   "orig": "2027款领克08 EM-P取消短续航版本",
+   "orig_title_zh": "2027 款領克 08 EM-P 取消短續航版本",
+   "summary": "2027 款領克 08 EM-P 於 11 月 5 日上市，三款車型指導價 17.18–19.88 萬元人民幣。外觀延續分體式前燈與貫穿式尾燈，調整燈組細節、後擾流板並新增橙色車漆，新增 Jumping Orange 等選擇。",
+   "analysis": [
+    [
+     "燈號",
+     "維持分體式前燈與貫穿式尾燈，只微調燈組細節。"
+    ],
+    [
+     "CMF",
+     "新增橙色車漆，是這次年式更新最明顯的外觀變化。"
+    ],
+    [
+     "車尾",
+     "後擾流板重新設計。"
+    ],
+    [
+     "產品策略",
+     "精簡版本、取消短續航版，把輔助駕駛與舒適配備基礎拉高。"
+    ]
+   ],
+   "sources": [
+    [
+     "揚子晚報（11/5）",
+     "https://www.yzwb.net/news/qiche/202611/t20261105_409738.html"
+    ]
+   ],
+   "image": {
+    "file": "news-lynk-08.webp",
+    "alt": "橙紅色 2027 款領克 08 側面官方照",
+    "credit": "Lynk & Co (via 界面新聞)",
+    "credit_url": "https://www.jiemian.com/article/15307261.html"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote",
+   "source": "Auto&Design",
+   "credit": "Auto&Design",
+   "kind": "column",
+   "column": "Design Story",
+   "date": "2026-09-04",
+   "url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+   "paywalled": false,
+   "needs_browser": null,
+   "orig": "CAPRICORN 01 ZAGATO TUTTO ROSSO, A PIECE OF ART ON FOUR WHEELS",
+   "title": "capricorn 01 Zagato：沒有前例的超跑，從一張白紙畫出浪漫",
+   "design_tag": "設計師專訪",
+   "points": [
+    "Zagato 107 年從未做過超跑，設計主管原田紀彥說等於拿到一張白紙。",
+    "他不想讓車變成戰爭機器，用車頂 double bubble 連回 Zagato 的浪漫傳統。",
+    "Tutto Rosso 是 19 台量產中的第 3 台原型，可見表面 95% 都是紅色。",
+    "全紅靈感來自 1931 年 Alfa Romeo 6C 1750 Zagato，當年連煞車鼓都是紅的。"
+   ],
+   "craft_score": 4,
+   "image": {
+    "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte-.jpg",
+    "alt": "capricorn 01 Zagato 側面草圖",
+    "credit": "Zagato (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/"
+   },
+   "image2": {
+    "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte--2.jpg",
+    "alt": "capricorn 01 Zagato 雙泡車頂草圖",
+    "credit": "Zagato (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/"
+   },
+   "more_images": [
+    {
+     "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte--3.jpg",
+     "alt": "紅色 capricorn 01 Zagato Tutto Rosso 鷗翼門開啟",
+     "credit": "Zagato (via Auto&Design)",
+     "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/"
+    }
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "capricorn 是德國杜塞道夫的公司，執行長 Robertino Wild 想做一台完整的車，而且第一台就要是超跑。他缺的是設計師，於是找上米蘭老牌車身廠 Zagato 的總裁 Andrea Zagato。問題是 Zagato 的工坊從沒做過超跑，capricorn 01 Zagato 就從這個交會點誕生，由 Zagato 設計主管原田紀彥（Norihiko Harada）操刀。"
+      ]
+     },
+     {
+      "h": "白紙上的浪漫",
+      "p": [
+       "原田說這個案子是挑戰，因為 Zagato 歷史裡沒有超跑可以參考，等於拿到一張白紙。但他不想讓它變成一台「戰爭機器」，而是要夠浪漫，才接得上品牌歷史。第一個連結就是車頂的 double bubble 雙泡造型，他說這種處理從沒出現在車高只有一公尺多的車上。"
+      ]
+     },
+     {
+      "h": "在既有骨架上做造型",
+      "p": [
+       "原田的白紙其實有很多邊界：capricorn 交給他的是腰線以下的車身、引擎尺寸、車輪位置、水箱，甚至內裝。動力是大幅改造的 5.2 升 Ford V8，輸出 900 匹。也就是說，Zagato 的設計集中在上半部車身與比例的情緒表達，在工程已定的條件下找出品牌辨識度。"
+      ]
+     },
+     {
+      "h": "Tutto Rosso：用顏色接回傳統",
+      "p": [
+       "Tutto Rosso（義大利文「全紅」）是 19 台量產車的第 3 台原型，由一位拉丁美洲收藏家委託。可見表面 95% 是紅色，從碳纖維車身、輪圈到座椅與儀表板都一樣。Zagato 商務長 Marcel Yoshida 說靈感來自 1931 年 Alfa Romeo 6C 1750 Zagato Gran Sport Spider，那台車裡外全紅，連煞車鼓也是。第一台原型是綠色（2025 年 10 月），第二台在巴黎 Rétromobile 展出的是黃色。"
+      ]
+     },
+     {
+      "h": "把極端配置做成量產",
+      "p": [
+       "Wild 說像 Tutto Rosso 這樣的案子不只是造型，而是逼團隊重新思考材料、工程與美學在每個層面怎麼互動，也考驗怎麼把這麼極端的配置工業化並通過驗證。Zagato 則把它定位為品牌 107 年、與 45 個以上車廠合作史上的轉折點：第一台超跑，開啟一個介於當代與經典之間的新收藏車類別。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte-.jpg",
+      "alt": "capricorn 01 Zagato 側面草圖",
+      "credit": "Zagato (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+      "section": 1
+     },
+     {
+      "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte--2.jpg",
+      "alt": "capricorn 01 Zagato 雙泡車頂與車尾草圖",
+      "credit": "Zagato (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+      "section": 1
+     },
+     {
+      "file": "ad-capricorn-05.jpg",
+      "alt": "capricorn 01 座椅與方向盤骨架",
+      "credit": "Zagato (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+      "section": 2
+     },
+     {
+      "file": "ad-capricorn-01-zagato-tutto-rosso-un-pezzo-darte--3.jpg",
+      "alt": "紅色 capricorn 01 Zagato Tutto Rosso 鷗翼門開啟",
+      "credit": "Zagato (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+      "section": 3
+     },
+     {
+      "file": "ad-capricorn-06.jpg",
+      "alt": "Tutto Rosso 全紅座艙",
+      "credit": "Zagato (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/capricorn-01-zagato-tutto-rosso-un-pezzo-darte-su-quattro-ruote/",
+      "section": 3
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "color_data": {
+  "interior": {
+   "theme": "Rose Gold & Ember Orange",
+   "zh": "玫瑰金配餘燼橙：都會小車示意",
+   "intro": "每日一組內裝配色示例：上儀表板用暖灰，飾條借東風 Box 的 Rose Gold，門板嵌飾與座椅側翼點領克 08 新內裝的橙色，扶手米白，縫線玫瑰金，下門板炭黑。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Warm Graphite（示意）",
+     "#4A4643",
+     false,
+     "ip-upper",
+     {
+      "src": "示意搭配",
+      "url": "https://www.jiemian.com/article/15307261.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬漆",
+     "Rose Gold（示意）",
+     "#C99A86",
+     false,
+     "ip-decor",
+     {
+      "src": "Dongfeng Box Rose Gold",
+      "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Ember Orange（示意）",
+     "#D8642A",
+     false,
+     "door-insert",
+     {
+      "src": "領克 08 橙色內裝",
+      "url": "https://www.jiemian.com/article/15307261.html"
+     }
+    ],
+    [
+     "門扶手 · 軟質",
+     "Shell White（示意）",
+     "#E9E4DC",
+     false,
+     "armrest",
+     {
+      "src": "Box 白黑內裝",
+      "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Rose Gold Stitch（示意）",
+     "#C99A86",
+     false,
+     "stitch",
+     {
+      "src": "Dongfeng Box Rose Gold",
+      "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Charcoal（示意）",
+     "#232323",
+     false,
+     "door-lower",
+     {
+      "src": "示意搭配",
+      "url": "https://www.jiemian.com/article/15307261.html"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "EVs and Beyond：Box Rose Gold 白車頂、白黑內裝",
+     "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+    ],
+    [
+     "界面新聞：2027 款領克 08 新增內裝配色",
+     "https://www.jiemian.com/article/15307261.html"
+    ]
+   ],
+   "mood": "urban warm metallic",
+   "mood_text": "暖灰底、一筆玫瑰金與亮橙。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#2B2B2B",
+    "seat-bolster": "#D8642A",
+    "seat-center": "#2B2B2B",
+    "console": "#1C1C1C",
+    "console-arm": "#E9E4DC",
+    "steering": "#2A2A2A",
+    "ip-lower": "#232323",
+    "accent-pod": "#C99A86",
+    "accent-pod2": "#D8642A"
+   }
+  }
+ },
+ "cmf": [
+  {
+   "id": "cmf-car-lynk08-cabin",
+   "kind": "car",
+   "car": "Lynk & Co 08 EM-P 2027",
+   "tag": "內裝 · 中國",
+   "title": "2027 款領克 08：新增內裝配色",
+   "points": [
+    "2027 款延續原有座艙布局，新增內裝配色選擇。",
+    "官方圖可見黑色座椅配橙色側翼與飾件。",
+    "副駕有零重力座椅，後排座椅可電動調整。",
+    "配車載冰箱，系統為 LYNK Flyme Auto 2.5。"
+   ],
+   "image": {
+    "file": "cmf-car-lynk08-cabin.jpg",
+    "alt": "2027 款領克 08 黑橙配色座艙",
+    "credit": "Lynk & Co (via 界面新聞)",
+    "credit_url": "https://www.jiemian.com/article/15307261.html"
+   },
+   "sources": [
+    [
+     "界面新聞（11/8）",
+     "https://www.jiemian.com/article/15307261.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-rr-abalone",
+   "kind": "material",
+   "car": "Rolls-Royce Phantom Hummingbird",
+   "tag": "材質 · 英國",
+   "deep": true,
+   "title": "首度用鮑魚殼做木飾鑲嵌",
+   "points": [
+    "Rolls-Royce 首次在 marquetry 用鮑魚殼，練了九個多月、改了六版構圖。",
+    "鮑魚殼與珍珠母先雷射切割、再磨薄，手工修邊後嵌入 Ash Burr 木皮並上漆。",
+    "後座野餐桌上每隻蜂鳥由 53 片組成，翅膀就佔 18 片。",
+    "座椅間 Waterfall 面板另有 84 片的植物圖樣；內裝配 Creme Light 皮革與 Moccasin、Tan 嵌飾。"
+   ],
+   "image": {
+    "file": "cmf-rr-hummingbird-abalone.jpg",
+    "alt": "Ash Burr 木皮上以鮑魚殼與珍珠母鑲嵌的蜂鳥",
+    "credit": "Rolls-Royce (via Previously)",
+    "credit_url": "https://www.watchpreviously.com/news/rolls-royce-phantom-hummingbird/"
+   },
+   "sources": [
+    [
+     "Previously（11/7）",
+     "https://www.watchpreviously.com/news/rolls-royce-phantom-hummingbird/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-dongfeng-box-rosegold",
+   "kind": "paint",
+   "car": "Dongfeng Box",
+   "tag": "塗料 · 紐西蘭",
+   "title": "Box 限量 Rose Gold 配白車頂",
+   "points": [
+    "紐西蘭東風為首年破千輛推出 50 台 Rose Gold 限量 Box。",
+    "車身 Rose Gold 搭白色車頂，內裝為白黑雙色。",
+    "這個車色加價 990 紐幣，首批 15 台本月到港。",
+    "標準色是 Twilight White，其他車色同樣加價 990 紐幣。"
+   ],
+   "swatch": {
+    "label": "Rose Gold（示意）",
+    "hex": "#C99A86"
+   },
+   "note": "來源頁圖片無法下載，色塊為示意色。",
+   "sources": [
+    [
+     "EVs and Beyond（11/9）",
+     "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-mercedes-e-l-china",
+   "kind": "case",
+   "brand": "Mercedes-Benz",
+   "tag": "介面與 HMI",
+   "title": "長軸 E 級換上中國研發座艙介面",
+   "date": "2026-11-02",
+   "points": [
+    "2026 款長軸距 E 級的智慧座艙由賓士中國研發團隊主導開發。",
+    "新介面加入車輛狀態 3D 模型、多工視窗與自訂情境。",
+    "可直接在螢幕上控制車窗與遮陽簾。",
+    "虛擬助理融合豆包大模型，全系支援華為 HiCar。"
+   ],
+   "image": {
+    "file": "hmi-mercedes-e-l-cockpit.jpg",
+    "alt": "長軸 E 級中控與副駕螢幕",
+    "credit": "Mercedes-Benz (via 界面新聞)",
+    "credit_url": "https://www.jiemian.com/article/15307261.html"
+   },
+   "sources": [
+    [
+     "界面新聞（11/8）",
+     "https://www.jiemian.com/article/15307261.html"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "產能 · 美國",
+   "date": "2026-11-08",
+   "title": "Tesla 加開一班清 Cybertruck 訂單，明年中改產 Cybercab",
+   "summary": "Musk 11 月 7 日在 X 表示，Cybertruck 積壓訂單遠超過產線在約明年 6、7 月拆線前能做完的量，因此將加開一個班次。前一天他才說德州廠會逐步停產 Cybertruck，把資源轉給兩座自駕計程車 Cybercab。Kelley Blue Book 數字顯示，Cybertruck 去年美國銷量約 2 萬輛，2024 年近 3.9 萬輛。",
+   "sources": [
+    [
+     "Reuters via Daily Sabah（11/8）",
+     "https://www.dailysabah.com/business/automotive/tesla-to-fast-track-cybertruck-production-amid-shift-to-cybercabs"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 中國",
+   "date": "2026-11-08",
+   "title": "比亞迪 10 月出口年增逾一倍，抵銷國內疲弱",
+   "summary": "比亞迪 10 月新能源車銷量約 49 萬輛、年增 10.97%，其中出口約 17 萬輛、年增 102.84%。1 至 10 月累計約 360 萬輛，仍比去年同期少 2.16%。公司也否認「天神之眼 C」停產與改用外部供應商的傳聞，表示堅持自研。",
+   "sources": [
+    [
+     "ad-hoc-news（11/8）",
+     "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/byd-s-export-engine-doubles-in-october-offsetting-a-soft-home-market-as-piper-sandler-trims-its/70476846"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 韓國",
+   "date": "2026-11-08",
+   "title": "起亞前十月全球賣 277 萬輛，可望 12 年來首度達標",
+   "summary": "起亞 1 至 10 月全球累計 2,769,954 輛、年增 5.1%；10 月單月 291,219 輛、年增 10.3%。若維持這個速度，全年可望超過 335 萬輛目標。現代則把全球批售目標由 415.8 萬下修到 400 萬輛。分析指美國油電與歐洲電動車需求是主因，起亞第三季美國油電銷量 6.9 萬輛、年增 118%。",
+   "sources": [
+    [
+     "Aju Press（11/8）",
+     "https://www.ajupress.com/view/20261108150470608"
+    ]
+   ]
+  },
+  {
+   "tag": "組織 · 日本",
+   "date": "2026-11-08",
+   "title": "Toyota 2027 年 1 月成立直屬「Toyota Robotics」",
+   "summary": "Toyota 在組織改組中整併碳中和開發中心等部門，2027 年 1 月 1 日成立公司直屬的機器人組織 Toyota Robotics，由執行董事兼生產長志賀武史領軍。集團內分散的機器人知識、人才與技術將統一管理，先在全球生產現場驗證，再擴展到外部市場。",
+   "sources": [
+    [
+     "Star News Korea（11/8）",
+     "https://www.starnewskorea.com/business-life/2026/11/08/2026110809403052853"
+    ]
+   ]
+  },
+  {
+   "tag": "財報 · 台灣",
+   "date": "2026-11-05",
+   "title": "裕隆前三季 EPS 0.72 元，下半年聚焦輕型車與外銷",
+   "summary": "裕隆前三季稅後淨利 7.55 億元、EPS 0.72 元；第 3 季 EPS 0.22 元，去年同期 0.24 元。公司說國產車今年經營辛苦，但第 3 季已逐漸回穩，下半年重點是輕型車交付與外銷，並擴大能源與海外事業。9 月進口車占比達 55.5%，國產車受到擠壓。",
+   "sources": [
+    [
+     "經濟日報（11/5）",
+     "https://money.udn.com/money/story/5607/9860495"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Two-tone paint",
+  "zh": "雙色車身（Two-tone paint）",
+  "body": "雙色車身是把車身分成兩個顏色上漆，最常見的是車頂（有時連同 A、B、C 柱）用一色，下方車身用另一色。本期的騰勢 N8 EV 除了四種單色，還提供 Deep Space Blue、Aurora Green、Daylight Orange、Twilight Grey 四種雙色；東風 Box 的 Rose Gold 限量版則是玫瑰金車身配白色車頂。設計師用這種分色讓車頂看起來更低、更輕，也讓同一台車多一種個性。",
+  "source": [
+   [
+    "CarNewsChina：Denza N8 EV 雙色選項",
+    "https://carnewschina.com/2026/11/06/byds-new-denza-n8-ev-to-launch-on-november-12-up-to-1193-hp-and-1003-km-range/"
+   ],
+   [
+    "EVs and Beyond：Dongfeng Box Rose Gold 白車頂",
+    "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/"
+   ]
+  ],
+  "diagram": "term.svg"
+ }
+}
