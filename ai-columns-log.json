@@ -124,5 +124,19 @@
   "creator_key": "aisuperdomain",
   "url": "https://www.youtube.com/watch?v=aRY7YrXOmKo",
   "topic": "grokbot-skills-email-video-director"
+ },
+ {
+  "date": "2026-11-10",
+  "key": "col-t8-drama3-v24",
+  "creator_key": "t8star-aix",
+  "url": "https://www.youtube.com/watch?v=wb9Vxnzkz50",
+  "topic": "Drama-3 新舊權重對比＋語音導演台 0.3.3"
+ },
+ {
+  "date": "2026-11-10",
+  "key": "col-lingdu-hyperflow-h3-flash",
+  "creator_key": "lingdujieshuo",
+  "url": "https://www.youtube.com/watch?v=n6MeunOm980",
+  "topic": "HyperFlow H3 Flash 本機部署與漫劇"
  }
 ]

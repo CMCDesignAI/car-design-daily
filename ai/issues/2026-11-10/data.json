@@ -1,0 +1,685 @@
+{
+ "date": "2026-11-10",
+ "weekday": "星期二",
+ "issue_no": 34,
+ "lede": "Anthropic 推出 Claude Fable 5.2 與 Mythos 5.2，價格調降、速度最多快 30%；Gemini 也開放查看、修改自己被記住的「記憶摘要」。三張榜單今天都沒有重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "claude-fable-mythos-52",
+   "org": "Anthropic",
+   "tag": "模型升級 · 文字",
+   "date": "2026-11-09",
+   "title": "Anthropic 推出 Claude Fable 5.2 與 Mythos 5.2：寫程式、推理、看圖都升級，價格降到每百萬 token 輸入 8／輸出 40 美元",
+   "short_title": "Claude Fable 5.2 上線",
+   "one": "Anthropic 最強的一級模型升級：比 5.1 快最多 30%、更便宜，所有付費平台今天就能用；Mythos 5.2 是同一顆模型、少了資安與生物安全限制，只開放給審核過的機構。",
+   "orig": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.",
+   "summary": "【比上一版進步在哪（官方說法）】Fable 與 Mythos 是同一顆底層模型，5.2 在寫程式、推理與視覺都有提升：FrontierCode 2.0 從 5.1 的 32.4% 升到 49.1%（Xhigh），FrontierSWE v2 69.9%（5.1 為 56.3%），OSWorld 2.1 電腦操作 89.3%，Humanity's Last Exam（含工具）74.2%，機器人模擬 RoboDojo 64.9%（5.1 為 27.6%）。官方說 High 檔的 FrontierCode 分數約等於 Opus 5.5 最高檔，成本約一半；輸出速度比 5.1 快最多 30%，資安／生物安全誤擋比 5.1 少約 55%。案例包含 1,000 個代理 30 小時完成費馬最後定理的 Lean 形式化、從一段提示詞設計出三台能用的電子裝置。【限制與價格】每百萬 token 輸入 8 美元、輸出 40 美元；可選 fast mode（最多快 2.5 倍）為 16／80 美元。Fable 會擋大部分資安與研究生物任務（被擋時改由 Opus 4.8／Opus 5 回答）；Mythos 5.2 需透過 Cyber 或 Life Sciences Verification Program 申請。官方仍建議日常工作先用 Opus 5.5。【哪裡能用】今天起在所有平台上線（含 AWS、Google Cloud、Microsoft Azure），API 名稱 claude-fable-5-2；本週有資格的付費方案會加送 1–3 次 Fable 用量重置，Pro 與 Team 標準席位的 Fable 可用到每週額度的 50%。【初步實測，樣本小】Ethan Mollick 說它一次就把小鍵盤改成遊戲機，但仍不會自己察覺作品無聊或太長；一位 Substack 作者跑了 79 次評分，在程式碼審查與有分數可追的難題上明顯領先 Opus 5.5、Codex 與 Grok，其他工作大多打平，並建議用 medium 或 high 檔；Decrypt 整理 Matthew Berman 的長時間建置，一個遊戲關卡估計花掉約 14,710 美元 API 費用；Matt Shumer 則抱怨它太謹慎、像「糾察隊」。",
+   "links": [
+    [
+     "Anthropic 官方介紹",
+     "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    ],
+    [
+     "實測：Ethan Mollick〈Fable 5.2 and Jagged AGI〉",
+     "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+    ],
+    [
+     "實測：79 次評分對比 Opus 5.5／Codex／Grok",
+     "https://limitededitionjonathan.substack.com/p/the-best-model-in-the-world"
+    ],
+    [
+     "Decrypt：Matthew Berman 長時間建置與費用",
+     "https://decrypt.co/382897/anthropic-claude-fable-5-2-and-mythos-5-2-impressive-and-expensive"
+    ],
+    [
+     "Digg：Matt Shumer 評測整理",
+     "https://digg.com/ai/t05uxwp5"
+    ]
+   ],
+   "image": {
+    "file": "fable52.webp",
+    "alt": "Claude Fable 5.2 與 Mythos 5.2 官方宣傳圖",
+    "credit": "Anthropic",
+    "credit_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+   },
+   "gloss": [
+    [
+     "Effort（思考檔位）",
+     "讓模型想多久的設定，從 low 到 max，越高越準但越慢越貴"
+    ],
+    [
+     "fast mode",
+     "付較高單價換取更快的出字速度"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-memory-summary",
+   "org": "Google",
+   "tag": "平台功能 · Gemini App",
+   "date": "2026-11-09",
+   "title": "Gemini 推出「Memory summary」：一頁看完 Gemini 記得你的哪些事，可直接用一句話新增或刪除",
+   "short_title": "Gemini 可以管理自己的記憶了",
+   "one": "在網頁版 Gemini 的設定裡，可以看到它記住的你的背景、工作、旅行與興趣，覺得不對就打一句話改掉或刪掉。",
+   "orig": "Google Gemini now offers a “Memory summary” to “view, edit, and delete what Gemini Apps understands about you.”",
+   "summary": "9to5Google 11/9 報導：網頁版從 Settings > Personal Intelligence（gemini.google.com/personalization-settings）進入，記憶依類別列出，例如 The Essentials（核心背景、所在地與重要關係）、Career & Professional Projects、Travel & Daily Gear、Media & Entertainment、Fitness & Lifestyle。底部輸入框可以用一句話新增或移除（例如「把我會說日文加進記憶」），要求不清楚時 Gemini 會追問；右上鉛筆可整份編輯，選單裡的「Memory history」能看到每筆資訊何時新增或修改。官方說目前只開放給 Google AI 訂閱者、美國英文介面，且要開啟 Keep Activity 與 Memory；Android 與 iOS 尚未看到。",
+   "links": [
+    [
+     "9to5Google 報導",
+     "https://9to5google.com/2026/11/09/google-gemini-memory-summary/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Memory（記憶）",
+     "AI 助理跨對話記住你的偏好與背景，下次不用重講"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-enterprise-aws",
+   "org": "OpenAI",
+   "tag": "方案 · 企業",
+   "date": "2026-11-09",
+   "title": "ChatGPT Enterprise 上架 AWS Marketplace：企業可用 AWS 帳單購買並抵 AWS 承諾消費",
+   "short_title": "ChatGPT Enterprise 可以在 AWS 買了",
+   "one": "公司若已經用 AWS，現在能直接在 AWS Marketplace 採購 ChatGPT Enterprise，費用算進 AWS 帳單，功能與直接跟 OpenAI 買相同。",
+   "orig": "Today, ChatGPT Enterprise is available through AWS Marketplace.",
+   "summary": "OpenAI 11/9 宣布：ChatGPT Enterprise 在 AWS Marketplace 上架，企業可用既有的 AWS 採購與帳單關係購買、管理，符合資格的支出可抵 AWS 承諾消費。內容涵蓋 ChatGPT、ChatGPT Work、Codex 與 dots，模型與功能和直接向 OpenAI 購買相同、新功能同步推出；ChatGPT for Healthcare 與 ChatGPT for Financial Services 也能透過 AWS Marketplace 購買。OpenAI 同時說明這與 Amazon Bedrock 上的 OpenAI 模型互補：開發者在 Bedrock 建應用，一般員工用 ChatGPT Enterprise。OpenAI 稱 ChatGPT 每週使用者超過 12 億。",
+   "links": [
+    [
+     "OpenAI 官方公告",
+     "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+    ]
+   ],
+   "image": null
+  },
+  {
+   "id": "grokbot-calls-terms",
+   "org": "xAI",
+   "tag": "延伸 · Grok Bot",
+   "date": "2026-11-09",
+   "title": "延伸 · Grok Bot 電話代打：條款寫明使用者是「來電者」並自負法律責任，長時間等候會吃每週額度",
+   "short_title": "Grok Bot 代打電話的責任與額度",
+   "one": "Grok Bot 幫你打客服電話之前要知道：條款把你列為來電者、要自己負責錄音與電話行銷相關法規，而且等很久的電話會用掉每週額度。",
+   "orig": "Grok Bot now calls businesses, navigates phone menus, waits on hold, negotiates bills and books appointments for paying subscribers, using temporary phone numbers and live transcripts.",
+   "summary": "PYMNTS 11/9 整理 Grok Bot 條款與實測：通話用 SpaceXSI 指派的臨時號碼撥出，會先表明是代客戶來電的虛擬助理、可能錄音；條款把客戶列為「the caller of record and solely responsible」，包括 TCPA 等電話行銷、自動撥號與錄音法規，並需賠償 SpaceXSI 因通話產生的求償。目前只能打美國號碼（引 Teslarati）；功能從每月 30 美元方案起，長時間等候會用掉每週額度，但官方尚未說明怎麼計算。實例：Peter Yang 讓代理打給 Comcast，拒絕三次加購、月費從 84 降到 45 美元，最後條件先暫停等他核准；也有使用者說客服一發現是 AI 就不肯幫忙取消訂閱。Shotwell 在 10/20 財報會說 10 月初 Grok Bot 每週付費使用者約 80 萬。",
+   "links": [
+    [
+     "PYMNTS 報導",
+     "https://www.pymnts.com/news/artificial-intelligence/2026/grok-bot-calls-customer-service-but-humans-remain-on-the-hook/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "TCPA",
+     "美國《電話消費者保護法》，規範自動撥號、預錄語音與電話行銷"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "1 則更新：社群壓縮版 HyperFlow H3 Flash 支援 ComfyUI INT8。",
+   "updates": [
+    {
+     "title": "HyperFlow H3 Flash：MiniMax H3 壓縮成 13.7B、6 步出 5 秒有聲影片，ComfyUI 節點 1.1.0 加入 INT8 版",
+     "date": "2026-11-09",
+     "short_title": "MiniMax H3 壓縮版可在 24GB 顯卡跑",
+     "one": "Video Rebirth 把約 31B 的 MiniMax H3 剪成 13.7B，不用 CFG、預設 6 步就能出影片加立體聲音軌；11/9 的 ComfyUI 節點 1.1.0 新增 INT8 權重與工作流。",
+     "summary": "依 Hugging Face 模型卡：HyperFlow H3 Flash 是 Video Rebirth 做的 MiniMax-H3 壓縮、少步數版本（非 MiniMax 官方），輸出 5.2–15 秒、24fps、預設 1344×768 的影片並同步產生 32kHz 立體聲；4／6／8 步取樣、不用 CFG。速度（5.2 秒片、6 步）：RTX 5090 約 92 秒、單張 H200 約 36 秒。Q4_K_M GGUF 9.1GB，已在 24GB 與 32GB 顯卡、16GB 系統記憶體的電腦上實測，16GB 顯卡尚未測。ComfyUI 節點（需 ComfyUI 0.43.0 以上）提供 t2v、i2v、首尾幀與多圖參考四套模板；文字編碼器與音訊、影片 VAE 沿用 Comfy-Org/MiniMax-H3。授權沿用 MiniMax H3 社群授權，不涵蓋歐盟、英國、韓國與美國。",
+     "links": [
+      [
+       "HyperFlow H3 Flash 模型卡（HF）",
+       "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash"
+      ],
+      [
+       "ComfyUI-HyperFlow-Flash（GitHub）",
+       "https://github.com/Video-Rebirth/ComfyUI-HyperFlow-Flash"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "CFG",
+       "無分類器引導：每步多算一次來加強貼合提示詞，關掉可以快一倍"
+      ],
+      [
+       "GGUF／INT8",
+       "把模型權重壓成較少位元的格式，換取更小檔案與更低顯存"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "AI 助理",
+   "status": "1 則新教學。",
+   "updates": [
+    {
+     "title": "Wilson 威爾森實驗室：Grok Bot 新手教學＋省 Token 心法（1 個主管＋3 個專員、每週健檢、能寫成小工具就別叫 AI）",
+     "date": "2026-11-09",
+     "short_title": "Grok Bot 省額度做法",
+     "one": "學到：不要一口氣建 20 個 bot，改用 1 個主管配 3 個專員、每週做一次團隊健檢，固定步驟寫成小工具交給程式跑；影片實際跑一次「一個人一週的內容流程」示範，效果屬作者實測。",
+     "summary": "YouTube 頻道 Wilson威爾森實驗室 11/9 上傳約 10 分鐘教學。依說明欄與章節：先講 Grok Bot 和聊天 AI 的差別、介面與「下指令要給目標」、手機和電腦接力；接著說明建 20 個 Bot 為什麼燒額度，實際建一個專員；作者分享國外玩家的省 Token 心法：1 個主管＋3 個專員就夠、每週團隊健檢、能寫成小工具就別叫 AI；最後實際跑一次一人一週的內容流程（建專員、簡報與對外草稿），並說明方案與額度。以上做法與效果為作者說法。",
+     "links": [
+      [
+       "YouTube 影片",
+       "https://www.youtube.com/watch?v=06NMG07enM8"
+      ],
+      [
+       "Grok Bot 官方入口",
+       "https://x.ai/bot"
+      ]
+     ],
+     "image": null
+    }
+   ]
+  }
+ ],
+ "columns": [
+  {
+   "id": "col-t8-drama3-v24",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-09",
+   "title": "T8star：Drama-3 新舊權重對比，新版語音導演台整合包與 ComfyUI 節點 0.3.3",
+   "short_title": "Drama-3 語音導演台更新",
+   "orig": "开源登顶！Drama3新老模型对比测评！新版语音导演台整合包免费下载！Comfyui T8整合包V24更新",
+   "one": "T8 把 Fish Audio 的 Drama-3 配音模型做成本機「語音導演台」和 ComfyUI 節點，這版換上官方 10/29 新權重，影片對比新舊模型。",
+   "points": [
+    "依 GitHub README：0.3.3 版改用 Fish Audio 2026-10-29 官方權重（78e5ab7）的 FP8、W4A8 與兩個 text head，Codec 沒變，舊的參考聲音可以繼續用。",
+    "Studio 可以建角色聲音庫、匯入台詞或 SRT、每句生成多個版本比較後鎖定，再輸出 WAV、分軌與字幕；新版預設會在出現無聲或空輸出時自動重試一次。",
+    "ComfyUI 版有 30 個原生節點與 19 個工作流 JSON，需要 ComfyUI 0.40.0 以上；模型卡列出主模型 FP8 版 38.58GB、W4A8 版 24.60GB。",
+    "權重沿用 Fish Audio 社群授權，商用有年營收 50 萬美元門檻；作者另提供完整 Windows 整合包。"
+   ],
+   "url": "https://www.youtube.com/watch?v=wb9Vxnzkz50",
+   "image": {
+    "file": "col-t8-drama3-v24.webp",
+    "alt": "T8star Drama3 新舊模型對比影片縮圖",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=wb9Vxnzkz50"
+   },
+   "links": [
+    [
+     "Comfyui-Drama-3（GitHub）",
+     "https://github.com/T8mars/Comfyui-Drama-3"
+    ],
+    [
+     "Drama-3-Comfy 模型（HF）",
+     "https://huggingface.co/t8star/Drama-3-Comfy"
+    ]
+   ],
+   "gloss": [
+    [
+     "TTS",
+     "文字轉語音，把台詞直接念成聲音"
+    ]
+   ]
+  },
+  {
+   "id": "col-lingdu-hyperflow-h3-flash",
+   "creator": "零度解說",
+   "creator_key": "lingdujieshuo",
+   "platform": "YouTube",
+   "date": "2026-11-09",
+   "title": "零度解說：HyperFlow H3 Flash 本機部署，用 ComfyUI 做 AI 漫劇",
+   "short_title": "HyperFlow H3 Flash 本機部署",
+   "orig": "AI 漫剧生成教程！31B 模型被硬砍到 13.7B！HyperFlow H3 Flash 免费开源，本地部署生成速度飞快，实测效果如何？| 零度解说",
+   "one": "手把手把壓縮版 MiniMax H3 裝進 ComfyUI，依顯存選 GGUF 或 INT8 工作流，用多圖參考做漫劇短片。",
+   "points": [
+    "作者部落格寫明要先把 ComfyUI 升到 v0.44.2，並安裝 HyperFlow Flash 與 GGUF 兩個節點，缺一不可。",
+    "要另外下載文字編碼器（約 15.7GB）、影片 VAE（約 5.21GB）、音訊 VAE（約 605MB）和主模型；主模型有 6 種版本可依顯存挑選。",
+    "作者建議顯存 16GB 以內用官方 GGUF 工作流（文生、首幀、首尾幀、多圖參考 4 套），24GB 以上用社群 INT8 加速版，稀疏注意力版作者說再快約 20%。",
+    "做漫劇用多圖參考生成影片，部落格附首尾幀提示詞與圖片範例。"
+   ],
+   "url": "https://www.youtube.com/watch?v=n6MeunOm980",
+   "image": {
+    "file": "col-lingdu-hyperflow-h3-flash.webp",
+    "alt": "零度解說 HyperFlow H3 Flash 影片縮圖",
+    "credit": "零度解說（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=n6MeunOm980"
+   },
+   "links": [
+    [
+     "作者部落格教學",
+     "https://www.freedidi.com/25977.html"
+    ],
+    [
+     "ComfyUI-HyperFlow-Flash（GitHub）",
+     "https://github.com/Video-Rebirth/ComfyUI-HyperFlow-Flash"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-wan-move",
+   "title": "ComfyUI Wan-Move：在圖上畫軌跡，控制影片裡物體怎麼動",
+   "learn": "學會用官方模板讓單張圖片生成 5 秒 480p 影片，並用點軌跡指定物體的移動路線。",
+   "level": "中階",
+   "vram": "官方頁未列顯存需求（主模型為 14B fp8_scaled 版），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "點軌跡",
+     "在第一幀圖上標點並畫出路線，模型讓那一塊照著路線移動"
+    ],
+    [
+     "LightX2V",
+     "把多步取樣蒸餾成少步的 LoRA，生成更快"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新，在 Template Library 搜尋「Wan-Move Motion-Control」打開模板（或從官方頁下載 JSON）。",
+    "依官方頁下載 5 個檔：Wan21-WanMove_fp8_scaled（diffusion_models）、lightx2v I2V 14B 480p LoRA（loras）、umt5_xxl_fp8（text_encoders）、clip_vision_h（clip_vision）、wan_2.1_vae（vae）。",
+    "在 LoadImage 節點放入範例圖 snowboard_rush.png 或自己的圖片。",
+    "照模板設定軌跡與提示詞後按 Run，生成 5 秒 480p 影片。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Wan-Move",
+     "https://docs.comfy.org/tutorials/video/wan/wan-move"
+    ],
+    [
+     "ali-vilab/Wan-Move（GitHub）",
+     "https://github.com/ali-vilab/Wan-Move"
+    ],
+    [
+     "Wan-Move-14B-480P 模型卡（HF）",
+     "https://huggingface.co/Ruihang/Wan-Move-14B-480P"
+    ]
+   ]
+  },
+  {
+   "id": "tut-anima-base",
+   "title": "ComfyUI Anima Base v1：2B 小模型畫動漫與插畫風",
+   "learn": "學會用官方模板跑 2B 參數的開源動漫文生圖模型，不需要輸入圖片、一般顯卡就能跑。",
+   "level": "入門",
+   "vram": "官方頁未列具體顯存（2B 模型，官方說可在一般消費級顯卡順跑），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "子圖（Subgraph）",
+     "把一串節點收成一個節點，點開可以看到或修改裡面"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新，到 Template 搜尋「Anima Base v1」，選「Anima Base v1: Text to Image」。",
+    "從 circlestone-labs/Anima 下載 anima-base-v1.0（diffusion_models）、qwen_3_06b_base（text_encoders）、qwen_image_vae（vae）。",
+    "輸入描述動漫角色或場景的提示詞，按 Queue 生成。",
+    "想試早期版本可改用「Anima Preview」模板，可調步數與 CFG。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Anima",
+     "https://docs.comfy.org/tutorials/image/anima/anima"
+    ],
+    [
+     "circlestone-labs/Anima（HF）",
+     "https://huggingface.co/circlestone-labs/Anima"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "OpenAI 公告頁擋自動抓取，ChatGPT Enterprise 內容依搜尋取得的官方頁全文整理；Gemini 記憶摘要依 9to5Google 報導。",
+  "松音 FB 今天只看到 11/9 一則短片閒聊、沒有可查證的做法，未收入專欄（本次用未登入公開檢視）。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-10",
+  "compared_to": "2026-11-09",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-06",
+    "fetched": "2026-11-10",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-08",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 6,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 6,
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1505,
+      "ci": 6,
+      "move": 2,
+      "delta": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1501,
+      "ci": 4,
+      "delta": 3
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": 1
+     }
+    ],
+    "compared_to": "2026-11-09",
+    "diff": {
+     "summary": [
+      "Claude Opus 5.5 (high): #4→#4 (0 名), 1512→1513 (+1)",
+      "Claude Opus 5 (max): #5→#5 (0 名), 1507→1506 (-1)",
+      "Muse Wonder (max): #6→#6 (0 名), 1505→1504 (-1)",
+      "Claude Opus 5 (high): #7→#7 (0 名), 1503→1502 (-1)",
+      "Gemini 3.8 Flash (high): #9→#9 (0 名), 1501→1500 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-11-08",
+    "fetched": "2026-11-10",
+    "metric": "Elo",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-10",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1259,
+      "ci": 15
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1228,
+      "ci": 12
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 10
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1208,
+      "ci": 10
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1188,
+      "ci": 11
+     },
+     {
+      "rank": 6,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 7,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 8,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1166,
+      "ci": 12,
+      "move": 1
+     },
+     {
+      "rank": 9,
+      "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "org": "Google",
+      "score": 1142,
+      "ci": 10,
+      "move": 1
+     },
+     {
+      "rank": 10,
+      "model": "Muse Image",
+      "org": "Meta",
+      "score": 1128,
+      "ci": 11,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-09",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-08",
+    "fetched": "2026-11-10",
+    "metric": "Elo",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-10",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1172,
+      "ci": 13,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1167,
+      "ci": 14,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1160,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 4,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1156,
+      "ci": 16,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 5,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 6,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1152,
+      "ci": 13,
+      "released": "Oct 2026"
+     },
+     {
+      "rank": 7,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1145,
+      "ci": 16,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026"
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1137,
+      "ci": 15,
+      "released": "Mar 2026",
+      "new": true
+     },
+     {
+      "rank": 10,
+      "model": "Dreamina Seedance 2.0",
+      "org": "ByteDance Seed",
+      "score": 1135,
+      "ci": 14,
+      "released": "Mar 2026",
+      "move": -1
+     }
+    ],
+    "compared_to": "2026-11-09",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1172→1175 (+3)",
+      "Utopai X: #2→#2 (0 名), 1167→1168 (+1)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1160→1161 (+1)",
+      "Dreamina Seedance 2.5: #5→#4 (+1 名), 1155→1155 (+0)",
+      "FLUX 3 Max: #4→#5 (-1 名), 1156→1155 (-1)",
+      "HeyGen Video 1: #6→#6 (0 名), 1152→1153 (+1)",
+      "MiniMax H3 Max: #7→#7 (0 名), 1145→1147 (+2)",
+      "SkyReels V4: #9→#8 (+1 名), 1137→1138 (+1)",
+      "FLUX 3: #8→#9 (-1 名), 1138→1138 (+0)",
+      "Dreamina Seedance 2.0: #10→#10 (0 名), 1135→1137 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
