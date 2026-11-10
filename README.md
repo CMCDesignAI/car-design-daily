@@ -44,6 +44,7 @@ tools/
    - **固定 7 則（自 2026-10-13 起；10-12 已補到 7 則）**：第 1 則是全寬 feature 卡，其後 6 則在 ≥1200px 三欄格線排成 3＋3，剛好填滿；build.py／CSS 不需改動（卡片數不寫死）。
      **排序純粹依新聞重磅程度**：最大條的（通常是全新車型全球首發）當第 1 則（首則圖也會成為 og:image 與往期列表標題）。**Mitsubishi 追蹤**：每天專門搜尋 Mitsubishi（合作夥伴）消息；有新鮮且重要的消息就保底佔 7 則中的一則，位置依它的重要程度排，不硬放第一或最後。未經官方證實的報導要在標題／摘要寫明「報導」並附雙方回應。沒有重要消息就不硬塞、也不必提沒有消息，改用下一則最好的備選（日系車廠是不錯的後備）補滿 7 則。
    每則：品牌、標籤、日期、中文標題、原文標題、2–3 句摘要、3–5 點設計解析（比例／燈號／面處理／CMF／室內 UX／品牌方向）、來源連結。
+   - 補圖／CMF 候選照片先用 `python3 tools/contact_sheet.py --out /tmp/candidates.jpg [--cols 4] [--thumb 320] [--check-edges] <img_or_url...>` 製成縮圖表，再用 Read 確認車款與構圖。超過 16 張會自動分頁為 `_p2.jpg` 等。
    - **每則設計新聞都必須有 1 張代表圖（必要步驟）**：
      1. 優先用車廠官方新聞室／press kit 圖片（BMW PressClub、JLR Media、VW Newsroom、Renault/Alpine Media、Hyundai Newsroom、Porsche Newsroom…）；找不到才用來源報導的 `og:image`。
         取得方式：`curl -sL -A "<瀏覽器 UA>" <URL> | grep -o -i -E '<meta[^>]*og:image[^>]*>'`，必要時在頁面 HTML 中找較大尺寸的圖。
@@ -52,6 +53,7 @@ tools/
      4. 在 data.json 該則加入 `"image": {"file": "news-<id>.webp", "alt": "<中文描述>", "credit": "<來源名稱，如 BMW Group PressClub>", "credit_url": "<來源頁面>"}`。
         build.py 會把圖片放在卡片最上方（object-fit: cover、lazy loading、alt），並顯示「圖片來源：…」連結；首則卡片的圖也會用作 og:image。
 1a. **設計專欄 · Design Columns（02 區塊，2026-11-05 起；01 標題同日改為「新車快訊 / New Car Brief」，分界日在 build.py 的 `CARNEWS_FROM`）**：選完 01 的 7 則後執行：
+   - 選封面／內文圖或檢查緊裁時，先跑 `python3 tools/page_digest.py <url_or_file> [--chars 3000] [--images-only] [--json]` 讀候選文章文字與圖片網址（需登入來源跳過）；只下載選定文章的候選圖，再跑 `python3 tools/contact_sheet.py --out /tmp/column.jpg --check-edges <img_or_url...>`，用 Read 看縮圖表，不逐張開大圖。粉紅框是保守裁切建議，座標右／下界不包含在內。
    - **每日固定 1 篇＋展開全文（zley 11/5，取代下方「每個來源 1 張／自動 1 或 2 則」的數量規則）**：02 每天**正好 1 篇**，從所有候選中挑最有料的（設計師專訪、草圖／製程、具體造型手法優先）。收合狀態＝`design_tag`＋3–4 條 `points`；**必須填 `detail`**：`{"sections":[{"h":"設計背景","p":["…"]}, …], "images":[{"file","alt","credit","credit_url","section":<段落索引>}], "note":"本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"}`。`sections` 4–5 段，合計約 600–900 字繁中，精簡改寫、不可整篇翻譯；`images` 3–6 張（約 960px JPG，存 `issues/<日期>/img/`，只提交實際用到的圖；**緊貼照片本體，不要白邊／雜誌文字**），每張以 `section` 指定插在哪段；`credit` 照填，頁面文末自動合併成一行「圖文來源」。付費／計次來源（Auto&Design、OverDrive、ADP）只用摘要、小裁圖與連結。側邊「展開／收合」標籤由 build.py 產生。
    - **次佳備援（`design_fallback`）**：當天沒有最佳級來源而用次佳文章時，在 data.json **頂層**加 `"design_fallback": {"reason": "<為何用次佳，例：今日無設計師專訪／草圖類文章，改用 Motor-Fan 造型解說>"}`；最佳篇時不要有這個鍵。不會顯示在頁面上；build.py 會印 INFO，8:30 上線通知要把 reason 一併告知 zley。
    - **內容範圍（zley 11/4）**：02 寫的是每一台車／載具**量產前的設計故事與設計手法**，不是新車新聞。要講：設計流程、草圖主題、想傳達的感覺、量產前的開發故事；造型手法（比例、面、線條、站姿、DLO／圖像）；人因工程（Packaging、H-point、坐姿／騎姿、視野、內裝配置、人因標準制定）；空力與工程經驗（空力問題怎麼解、冷卻、輕量化取捨）。範圍包含所有載具：汽車、機車、自行車、火車、飛機、船、電動微型載具。**每張卡都要以一台具體車款／載具為例**。純發表、規格、售價、上市日、續航里程的文章即使來自設計網站也不用；OverDrive 試閱同樣從設計角度寫，只有產品新聞的段落不做卡。
@@ -154,6 +156,8 @@ tools/
 7. **發布**：`./tools/publish.sh "AI 00N · YYYY-MM-DD"`（內含 `--site-url`，會同時重建汽車與 AI 兩區；注意它用 `git add -A`，根目錄不要留預覽截圖），約 1 分鐘後檢查 `/ai/`、`/ai/issues/DATE/`、`/ai/archive/`。手動重建時一定要加 `--site-url "$(cat .site-url)"`，否則 og:image／canonical 會消失。
 
 ## AI Model Daily：名家專欄（`columns[]`，zley 10/28 指示）
+長篇創作者頁／FB dump 先跑 `python3 tools/page_digest.py <url_or_file> [--chars 3000] [--images-only] [--json]`（也擷取 pfbid 貼文連結）；只抓當天實際採用的頁面與圖片。
+
 節錄知名 AI 創作者**近 7 天**的影片／貼文裡的**實用應用**（工作流、工具、節點、提示詞技巧、本地部署實測），放在「追蹤清單」之後、「教學區」之前；當期 `columns` 空或缺 → 整區不顯示（導覽也不出現）。程式：`tools/build_ai.py` 的 `column()`；樣式 `.cpts`／`.colthumb`。
 - **追蹤名單與抓法**：`tools/ai_creators.json`（`core` = zley 指定／已同意：松音、T8star-Aix、Work-Fisher、AI超元域、零度解說；`suggested` = 建議名單，zley 同意後才可上）。
   - 松音（Facebook `facebook.com/dseditorlab`）：未登入用 headless Chrome `--dump-dom` 可讀公開專頁，但只看得到置頂＋最新 1–2 篇 → 每天抓、單篇 permalink 再 dump 取全文、`creation_time`、貼文圖（約 590px）。補充：Threads `@dseditor`（最新約 4 則）、Medium RSS、dslab.tw。不要用任何登入繞過。
