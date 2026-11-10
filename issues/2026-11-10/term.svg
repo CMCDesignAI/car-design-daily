@@ -1,0 +1,16 @@
+<svg class="diagram" viewBox="0 0 520 320" width="100%" role="img" aria-label="A 柱示意：三廂房車側面，A 柱用強調色標出，虛線延長到前輪軸心" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40 200 L40 178 Q42 164 70 160 L178 150 L238 104 Q250 96 268 96 L352 96 Q372 96 388 110 L424 146 L470 152 Q488 156 488 174 L488 200 Z"/>
+<path d="M248 146 L270 108 L318 108 L318 146 Z"/><path d="M328 146 L328 108 L356 108 Q366 108 376 118 L398 146 Z"/>
+<path d="M180 150 L424 150"/>
+<circle cx="128" cy="202" r="30"/><circle cx="128" cy="202" r="12"/><circle cx="410" cy="202" r="30"/><circle cx="410" cy="202" r="12"/>
+<path d="M44 172 L76 168"/><path d="M472 160 L486 166"/>
+<path d="M30 232 L500 232" stroke-width="1.4"/></g>
+<path d="M178 150 L238 104 L248 112 L194 152 Z" fill="#f08a5d" fill-opacity="0.6" stroke="#f08a5d" stroke-width="2.4"/>
+<path d="M238 104 L128 202" stroke="#f08a5d" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="128" cy="202" r="4" fill="#f08a5d"/>
+<g font-size="15" fill="currentColor" font-family="sans-serif">
+<path d="M222 120 L222 52" stroke="currentColor" stroke-dasharray="4 4"/><text x="150" y="44">① A 柱：擋風玻璃兩側的柱子</text>
+<path d="M128 202 L70 270" stroke="currentColor" stroke-dasharray="4 4"/><text x="20" y="288">② 延長線通過前輪軸心（後驅比例）</text>
+<text x="20" y="312" font-size="12">以 BMW 3 Series 與 i3 為例的示意線稿，非實車比例</text></g>
+</svg>

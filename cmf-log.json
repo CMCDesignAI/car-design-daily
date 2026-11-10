@@ -682,5 +682,37 @@
     "angle": "Box 限量 Rose Gold 配白車頂",
     "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/",
     "image": null
+  },
+  {
+    "date": "2026-11-10",
+    "kind": "car",
+    "car_key": "car:outlander-diamond-trail-cabin",
+    "angle": "Outlander Diamond Trail：防潑水座椅配卡其縫線",
+    "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/",
+    "image": "cmf-car-outlander-dt-seat.jpg"
+  },
+  {
+    "date": "2026-11-10",
+    "kind": "car",
+    "car_key": "car:bentley-olympia-cabin",
+    "angle": "Olympia Collection：雙綠皮革配黑染胡桃木",
+    "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
+    "image": "cmf-car-bentley-olympia-cabin.jpg"
+  },
+  {
+    "date": "2026-11-10",
+    "kind": "paint",
+    "car_key": "paint:bentley-ombre-olympia",
+    "angle": "Ombré by Mulliner：每台噴 56 小時的漸層綠",
+    "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
+    "image": "cmf-paint-bentley-ombre.jpg"
+  },
+  {
+    "date": "2026-11-10",
+    "kind": "material",
+    "car_key": "material:basf-kia-ev3-study-seat",
+    "angle": "EV3 Study Car 2.0：為拆解而設計的座椅",
+    "url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190",
+    "image": "cmf-mat-basf-ev3-seat.jpg"
   }
 ]

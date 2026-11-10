@@ -1,0 +1,701 @@
+{
+ "date": "2026-11-10",
+ "weekday": "週二",
+ "issue_no": 34,
+ "lede": "Genesis GV90 今天在韓國開賣，月亮壺造型加上無 B 柱對開門的 Neolun；EICMA 尾聲的 Honda V3R 設計概念與 GWM ORA 5 PLUS 旅行車也一併整理。設計專欄跟著 Autopian 的職業設計師，用 A 柱與輪子比較 BMW 3 Series 和 i3 的側面比例。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "genesis-gv90-korea",
+   "tag": "上市 · 韓國",
+   "date": "2026-11-10",
+   "brand": "Genesis",
+   "title": "Genesis GV90 韓國開賣：月亮壺車身與無 B 柱對開門 Neolun",
+   "orig": "Genesis commences sales of GV90 Neolun and GV90 in Korea",
+   "summary": "Genesis 11 月 10 日在韓國開放旗艦電動 SUV GV90 與 GV90 Neolun 接單。標準版用一般車門，Neolun 配備官方稱全球首見、可各自開關的隱藏 B 柱對開門「Neolun Arch Gate」。車長 5,285mm、軸距 3,245mm。",
+   "analysis": [
+    [
+     "造型",
+     "外觀靈感來自韓國傳統月亮壺（moon jar），以克制的量體表現氣勢；車尾用柔和的弧面呼應壺身。"
+    ],
+    [
+     "燈號",
+     "Wing Face 微透鏡陣列（MLA）頭燈與車身線條融為一體，配雙層立體 G-matrix 鍍鉻水箱護罩。"
+    ],
+    [
+     "車門",
+     "Neolun 前後門相對同時向外打開；車門內藏雙鋼梁、車架加厚 1.5 倍，取代 B 柱的結構。"
+    ],
+    [
+     "CMF",
+     "16 種外觀色（13 亮面、3 霧面，如 Seychelles Beige、Baena Green）；飾板可選實木、天然石材與羊毛喀什米爾。"
+    ],
+    [
+     "室內 UX",
+     "彈出式 OLED 螢幕行駛時 23.6 吋、停車時展開成 24.6 吋；Neolun 前座可電動旋轉 180 度。"
+    ]
+   ],
+   "sources": [
+    [
+     "Genesis Newsroom（11/10）",
+     "https://newsroom.genesis.com/genesis-commences-sales-of-gv90-neolun-and-gv90-in-korea/"
+    ]
+   ],
+   "image": {
+    "file": "news-genesis-gv90.webp",
+    "alt": "米色 Genesis GV90 Neolun 對開門全開，露出棕色座艙",
+    "credit": "Genesis Newsroom",
+    "credit_url": "https://newsroom.genesis.com/genesis-commences-sales-of-gv90-neolun-and-gv90-in-korea/"
+   }
+  },
+  {
+   "id": "honda-v3r-supersport-concept",
+   "tag": "概念 · 機車",
+   "date": "2026-11-08",
+   "brand": "Honda",
+   "title": "Honda V3R SuperSport 設計概念：EICMA 未預告突襲亮相",
+   "orig": "Honda V3R SuperSport Design Concept",
+   "summary": "Honda 在 EICMA 2026 新 Fireblade 發表隔天，未經預告推出 V3R SuperSport Design Concept，是單座、偏賽道取向的跑車概念，以 V3R900 平台為基礎。官方尚未公布規格。",
+   "analysis": [
+    [
+     "比例",
+     "車身極窄，看起來幾乎和後輪胎一樣寬，強調輕量與緊湊。"
+    ],
+    [
+     "空力",
+     "不用大型翼片，改在精簡的前整流罩內整合導流通道，並加上空力下導流罩。"
+    ],
+    [
+     "面處理",
+     "整流罩側面用類似 F1 的分層導流板（purge board）處理氣流。"
+    ],
+    [
+     "車尾",
+     "MotoGP 風格的尾段造型，單座配置。"
+    ]
+   ],
+   "sources": [
+    [
+     "News Minimalist（11/8，整理自 AutoBy／Yahoo!ニュース）",
+     "https://www.newsminimalist.com/articles/hondas-v3r-supersport-concept-stuns-at-eicma-2026-in-milan-31b8c0da"
+    ]
+   ],
+   "image": {
+    "file": "news-honda-v3r.webp",
+    "alt": "Honda V3R SuperSport 設計概念正面，偽裝塗裝整流罩",
+    "credit": "Honda (via AutoBy / Yahoo!ニュース)",
+    "credit_url": "https://www.newsminimalist.com/articles/hondas-v3r-supersport-concept-stuns-at-eicma-2026-in-milan-31b8c0da"
+   }
+  },
+  {
+   "id": "gwm-ora5-plus-wagon",
+   "tag": "首發 · 泰國",
+   "date": "2026-11-10",
+   "brand": "GWM（長城）",
+   "title": "GWM ORA 5 PLUS 在泰國全球首發：把 SUV 拉長成旅行車",
+   "orig": "GWM ORA 5 PLUS set for global debut in Thailand as a versatile wagon",
+   "summary": "長城汽車 11 月 10 日在泰國全球首發 ORA 5 PLUS，由 3 月曼谷車展的 ORA 5 SUV 衍生出旅行車車身，提供純電與 HEV Hi2 油電兩種動力。",
+   "analysis": [
+    [
+     "比例",
+     "車長 4,758mm，比 SUV 版多 287mm；車高降 11mm 到 1,630mm，軸距維持 2,720mm。"
+    ],
+    [
+     "側面",
+     "多出來的長度全放在後懸，拉出較長的旅行車車尾與更大的行李廂。"
+    ],
+    [
+     "品牌方向",
+     "選在泰國首發，鎖定想要轎車操控又要 SUV 實用性的東南亞家庭客群。"
+    ],
+    [
+     "動力",
+     "純電版 204 匹、58.3kWh 電池、NEDC 520km；油電版合計 223 匹。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motorist Thailand（11/4 預告）",
+     "https://www.motorist.co.th/en/article/6596/gwm-ora-5-plus-wagon-set-for-global-debut-in-thailand-on-10-november-with-bev-and-hev-hi2-powertrains"
+    ]
+   ],
+   "image": {
+    "file": "news-gwm-ora5plus.webp",
+    "alt": "白色 GWM ORA 5 PLUS 前側棚拍",
+    "credit": "GWM (via Motorist Thailand)",
+    "credit_url": "https://www.motorist.co.th/en/article/6596/gwm-ora-5-plus-wagon-set-for-global-debut-in-thailand-on-10-november-with-bev-and-hev-hi2-powertrains"
+   }
+  },
+  {
+   "id": "suzuki-spacia-base-2026",
+   "tag": "預告 · 日本",
+   "date": "2026-11-09",
+   "brand": "Suzuki",
+   "title": "新型 Suzuki Spacia Base 先行公開：丸型頭燈與戶外風保桿",
+   "orig": "Suzuki previews new Spacia Base kei commercial van",
+   "summary": "Suzuki 11 月 9 日在官網專屬頁公開輕商用車新型 Spacia Base 的先行資訊，預定 2026 年冬天發售，11 月 14 日起在愛知 FIELDSTYLE EXPO 2026 展出實車。",
+   "analysis": [
+    [
+     "燈號",
+     "改用類似 Spacia Gear 的丸型頭燈，車頭表情更像休旅玩具車。"
+    ],
+    [
+     "車頭",
+     "新設計的保桿加強戶外風格，下緣有分色護板。"
+    ],
+    [
+     "室內 UX",
+     "雙座配置，標配 2 片多功能板與 8 支腳管，可組成車床、桌面或隔間。"
+    ],
+    [
+     "用途",
+     "延續 Spacia 的高車室，訴求車泊、戶外與移動辦公。"
+    ]
+   ],
+   "sources": [
+    [
+     "Suzuki 新聞稿（11/9）",
+     "https://www.suzuki.co.jp/release/a/2026/1109/"
+    ],
+    [
+     "Response（11/9）",
+     "https://response.jp/article/2026/11/09/418762.html"
+    ]
+   ],
+   "image": {
+    "file": "news-suzuki-spacia-base.webp",
+    "alt": "卡其色新型 Suzuki Spacia Base 前側官方圖",
+    "credit": "Suzuki",
+    "credit_url": "https://www.suzuki.co.jp/car/spacia_base/teaser/"
+   }
+  },
+  {
+   "id": "hero-xpulse450-scrambler",
+   "tag": "概念 · 機車",
+   "date": "2026-11-08",
+   "brand": "Hero MotoCorp",
+   "title": "Hero Xpulse 450 Scrambler 概念：金色輻條輪配棕色皮座",
+   "orig": "Hero Xpulse 450 Scrambler concept revealed at EICMA 2026",
+   "summary": "Hero MotoCorp 在 EICMA 2026 展出以新 Xpulse 450 為基礎的 Scrambler 概念，換上不同車身與配備，做出復古越野風格。官方未公布上市計畫。",
+   "analysis": [
+    [
+     "燈號",
+     "新 LED 頭燈，日行燈為 H 字形圖樣。"
+    ],
+    [
+     "比例",
+     "寬把手配端子後照鏡與護手，直立坐姿；前方有小型越野鳥嘴與長行程倒立前叉。"
+    ],
+    [
+     "面處理",
+     "新油箱造型有雕塑感的面。"
+    ],
+    [
+     "CMF",
+     "棕褐色皮座延伸接到極簡尾段；輻條輪圈漆成金色，配塊狀胎紋。"
+    ],
+    [
+     "介面",
+     "圓形 TFT 儀表，支援藍牙與騎乘模式。"
+    ]
+   ],
+   "sources": [
+    [
+     "Shifting Gears（11/8）",
+     "https://shiftinggears.in/hero-xpulse-450-scrambler-concept-revealed-at-eicma-2026/"
+    ]
+   ],
+   "image": {
+    "file": "news-hero-xpulse-scrambler.webp",
+    "alt": "紅白配色 Hero Xpulse 450 Scrambler 概念側面",
+    "credit": "Hero MotoCorp (via Shifting Gears)",
+    "credit_url": "https://shiftinggears.in/hero-xpulse-450-scrambler-concept-revealed-at-eicma-2026/"
+   }
+  },
+  {
+   "id": "zero-project-ventura",
+   "tag": "首發 · 機車",
+   "date": "2026-11-08",
+   "brand": "Zero Motorcycles",
+   "title": "Zero Project Ventura：用 Supermoto 姿態做入門電動街車",
+   "orig": "Zero Motorcycles unveils Project Ventura in a world premiere",
+   "summary": "Zero Motorcycles 在 EICMA 2026 全球首發 Project Ventura，是輕量靈活的電動街車，用電動方式重新詮釋 Supermoto 的動感，預計 2027 年夏天上市。",
+   "analysis": [
+    [
+     "比例",
+     "直立坐姿配 17 吋前後輪，維持 Supermoto 窄而高的車身比例。"
+    ],
+    [
+     "定位",
+     "鎖定 A1 或 B 駕照的新手，也兼顧有經驗的騎士。"
+    ],
+    [
+     "性能",
+     "峰值功率超過 20kW，極速 130km/h，實際續航估 150km。"
+    ],
+    [
+     "介面",
+     "內建充電器，可用藍牙連接新的 Zero App 調整設定。"
+    ]
+   ],
+   "sources": [
+    [
+     "EICMA（11/8）",
+     "https://www.eicma.it/en/zero-motorcycles-unveils-project-ventura-in-a-world-premiere/"
+    ]
+   ],
+   "image": {
+    "file": "news-zero-ventura.webp",
+    "alt": "白色 Zero Project Ventura 電動 Supermoto 側面",
+    "credit": "Zero Motorcycles (via EICMA)",
+    "credit_url": "https://www.eicma.it/en/zero-motorcycles-unveils-project-ventura-in-a-world-premiere/"
+   }
+  },
+  {
+   "id": "brabus-800-911-turbo-s",
+   "tag": "改裝 · 德國",
+   "date": "2026-11-10",
+   "brand": "Brabus",
+   "title": "Brabus 800：911 Turbo S 敞篷換上裸碳空力套件",
+   "orig": "Meet the new Brabus 800 based on the Porsche 911 Turbo S",
+   "summary": "Brabus 發表以 Porsche 911 Turbo S Cabriolet（992.2）為基礎的 Brabus 800，同時推出 911 Turbo S 的客製計畫。",
+   "analysis": [
+    [
+     "空力",
+     "裸露碳纖維空力套件：前下擾流、保桿飾件與通風口、碳纖引擎蓋與專屬尾翼。"
+    ],
+    [
+     "輪圈",
+     "首發 Monoblock ZL「Platinum Edition」Y 字輻輪圈，前 21 吋、後 22 吋。"
+    ],
+    [
+     "CMF",
+     "黑色皮革配灰色滾邊，座椅與門板用 Dynamic Diamond Double 菱格絎縫。"
+    ],
+    [
+     "細節",
+     "碳纖飾板與鋁合金踏板；動力升級到 800 匹。"
+    ]
+   ],
+   "sources": [
+    [
+     "The Supercar Blog（11/10）",
+     "https://www.thesupercarblog.com/meet-the-new-brabus-800-based-on-the-porsche-911-turbo-s/"
+    ]
+   ],
+   "image": {
+    "file": "news-brabus-800.webp",
+    "alt": "黑色 Brabus 800 敞篷車頭與車尾",
+    "credit": "Brabus (via The Supercar Blog)",
+    "credit_url": "https://www.thesupercarblog.com/meet-the-new-brabus-800-based-on-the-porsche-911-turbo-s/"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ap-why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side",
+   "source": "The Autopian",
+   "credit": "The Autopian",
+   "kind": "analysis",
+   "column": "Damn Good Design (Adrian Clarke)",
+   "date": "2026-10-05",
+   "url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/",
+   "paywalled": false,
+   "needs_browser": null,
+   "orig": "Why Do Some Cars Look Wrong? Our Professional Car Designer Compares The New BMW 3-Series And Its i3 Sibling Side By Side",
+   "title": "BMW 3 Series 對 i3：同一張皮，為什麼側面比例差這麼多",
+   "design_tag": "造型手法",
+   "points": [
+    "設計師多從側視圖起稿，比例就是三個量體與輪子、軸距、前後懸的關係。",
+    "用輪徑量：D 級房車軸距約 3⅓ 個輪子、車高約 2 到 2¼ 個輪子。",
+    "燃油版 G50 3 Series 的 A 柱延長線穿過前輪軸心，後驅比例到位。",
+    "純電 i3 的 A 柱指向前輪前方、前後懸近乎等長，側面顯得呆板。"
+   ],
+   "craft_score": 13,
+   "image": {
+    "file": "ap-bmw-3series-side.jpg",
+    "alt": "銀色新世代 BMW 3 Series 正側面",
+    "credit": "BMW (via The Autopian)",
+    "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/"
+   },
+   "image2": {
+    "file": "ap-bmw-i3-apillar.jpg",
+    "alt": "BMW i3 側面加上 A 柱延長線，線條落在前輪前方",
+    "credit": "BMW (via The Autopian)",
+    "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "BMW 推出 G50 世代 3 Series，同時有 Neue Klasse 平台的純電 i3，兩台外觀幾乎是同一張皮，車長只差 5mm（i3 4,760mm、3 Series 4,765mm）。The Autopian 專欄作者、職業汽車設計師 Adrian Clarke 認為，車廠把幾乎相同的車身放到兩個不同平台上，想讓客人覺得是同一台車，這很少見，也正好拿來說明設計最基本的功課：把比例做對。"
+      ]
+     },
+     {
+      "h": "從側視圖起稿",
+      "p": [
+       "設計師的第一張草圖通常是側視圖，因為側面是車上最大的面，決定整體。概念設計師 Daniel Simon 對他說過：側面搞定，等於房租付了一半。但側視圖是平的，零透視會把前後懸放大，看起來比實車笨拙；所以確定側面後，草圖多改用前後 3/4 透視發展，才能處理頭燈怎麼包到葉子板、引擎蓋線條怎麼轉折。他舉例：不會畫圖的 Harley Earl 只看正面、側面、背面分開的三視圖，接班的 Bill Mitchell 則堅持看整台車。"
+      ]
+     },
+     {
+      "h": "用輪子量比例",
+      "p": [
+       "三廂房車由引擎蓋、座艙、行李廂三個「量體」（volumes）組成，量體彼此之間、以及和輪子、軸距的關係就是比例：車子是否穩穩坐在輪子上、有沒有頭重或尾重。Clarke 用輪徑當尺：D 級房車的軸距約 3⅓ 個輪子，車身高度約 2 到 2¼ 個輪子。G50 3 Series 幾乎剛好落在範圍內；拿 E30、E36 等歷代 3 Series 套同一個框，比例也很接近，因為車變大、輪子也一起變大。"
+      ]
+     },
+     {
+      "h": "A 柱與前軸",
+      "p": [
+       "後驅車要放縱置引擎與變速箱，引擎蓋較長、座艙往後，前懸短、後懸長；把 A 柱往下延長，應該穿過或略落在前軸中心後方。i3 的延長線卻落在前輪前方，比較像前驅車的比例，前後懸也幾乎等長，整台車顯得靜止。i3 其實軸距長 37mm、只高 25mm，但輪圈大 1 吋，多出的軸距被吃掉了。他也強調前驅車不一定難看，Audi A5、Alfa Romeo 156、初代 Peugeot 406 都是比例很好的例子。"
+      ]
+     },
+     {
+      "h": "平台硬點的代價",
+      "p": [
+       "Clarke 推測，Neue Klasse 平台的防火牆到前軸距離是不能動的硬點。同平台的 iX3 是兩廂 SUV，這點不明顯；放到講究運動感的三廂房車上，就讓 i3 進退兩難：不走真正的 cab-forward，又做不出燃油版的修長。他的結論是：設計要退一步看整台車，連背後的平台決策也一起看。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ap-bmw-3series-side.jpg",
+      "alt": "銀色新世代 BMW 3 Series 正側面",
+      "credit": "BMW (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/",
+      "section": 0
+     },
+     {
+      "file": "ap-bmw-i3-side.jpg",
+      "alt": "銀色純電 BMW i3 正側面",
+      "credit": "BMW (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/",
+      "section": 1
+     },
+     {
+      "file": "ap-bmw-3series-apillar.jpg",
+      "alt": "BMW 3 Series 側面加上 A 柱延長線，線條通過前輪軸心",
+      "credit": "BMW (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/",
+      "section": 3
+     },
+     {
+      "file": "ap-bmw-i3-apillar.jpg",
+      "alt": "BMW i3 側面加上 A 柱延長線，線條落在前輪前方",
+      "credit": "BMW (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/",
+      "section": 3
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "design_fallback": {
+  "reason": "今日最佳候選是 Automotive Design Planet 的設計師專訪（Michele Albera 談 Pagani × IED），全文需在已登入的瀏覽器閱讀，本次沒有瀏覽器可用而未讀；改用 The Autopian 職業設計師的 BMW 3 Series／i3 比例解析"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Olympia Green & Trail Khaki",
+   "zh": "雙綠配卡其：英式旅行房車示意",
+   "intro": "每日一組內裝配色示例：上儀表板用 Bentley Olympia Collection 的 Coach Green，門板嵌飾換較淺的 Cumbrian Green，飾條借 Champagne Gold，扶手與縫線取自 Outlander Diamond Trail 的卡其色，下門板深灰。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Coach Green（示意）",
+     "#1F3A2D",
+     false,
+     "ip-upper",
+     {
+      "src": "Bentley Olympia Collection",
+      "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Champagne Gold（示意）",
+     "#C6AE7A",
+     false,
+     "ip-decor",
+     {
+      "src": "Bentley Olympia Collection",
+      "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "Cumbrian Green（示意）",
+     "#4E6A4B",
+     false,
+     "door-insert",
+     {
+      "src": "Bentley Olympia Collection",
+      "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+     }
+    ],
+    [
+     "門扶手 · 軟質",
+     "Trail Khaki（示意）",
+     "#A99B74",
+     false,
+     "armrest",
+     {
+      "src": "Outlander Diamond Trail 卡其縫線",
+      "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Khaki Stitch（示意）",
+     "#B8A57B",
+     false,
+     "stitch",
+     {
+      "src": "Outlander Diamond Trail",
+      "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Dark Satin Grey（示意）",
+     "#2A2C2B",
+     false,
+     "door-lower",
+     {
+      "src": "Outlander Diamond Trail 暗緞面",
+      "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "The Daily Car News：Olympia Collection 的 Coach Green／Cumbrian Green 皮革與 Champagne Gold",
+     "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+    ],
+    [
+     "Autoweek：Diamond Trail 深灰座椅配卡其縫線",
+     "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+    ]
+   ],
+   "mood": "heritage forest touring",
+   "mood_text": "深綠打底、一筆香檳金與卡其。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#2B2D2C",
+    "seat-bolster": "#1F3A2D",
+    "seat-center": "#3A3D3B",
+    "console": "#1C1D1C",
+    "console-arm": "#A99B74",
+    "steering": "#232423",
+    "ip-lower": "#2A2C2B",
+    "accent-pod": "#C6AE7A",
+    "accent-pod2": "#4E6A4B"
+   }
+  }
+ },
+ "cmf": [
+  {
+   "id": "cmf-car-outlander-dt-seat",
+   "kind": "car",
+   "car": "Mitsubishi Outlander Diamond Trail Edition",
+   "tag": "內裝 · 美國",
+   "title": "Outlander Diamond Trail：防潑水座椅配卡其縫線",
+   "points": [
+    "全新座椅材質為深灰色，配卡其色縫線。",
+    "三菱說這種材質防潑水，也更容易清理。",
+    "內裝統一霧面深色：紋理霧黑、暗鉻與暗緞面。",
+    "椅背、腳踏墊與門板都有 Diamond Trail 標誌。"
+   ],
+   "image": {
+    "file": "cmf-car-outlander-dt-seat.jpg",
+    "alt": "Outlander Diamond Trail 深色座椅與卡其縫線、山形標誌特寫",
+    "credit": "Mitsubishi (via Autoweek)",
+    "credit_url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+   },
+   "sources": [
+    [
+     "Autoweek（11/9）",
+     "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-car-bentley-olympia-cabin",
+   "kind": "car",
+   "car": "Bentley Continental GT Olympia Collection",
+   "tag": "內裝 · 英國",
+   "title": "Olympia Collection：雙綠皮革配黑染胡桃木",
+   "points": [
+    "座艙以 Coach Green 與 Cumbrian Green 兩種綠皮革分色。",
+    "搭配刻意做出使用痕跡的 heritage-patinated 飾面。",
+    "飾板為黑色染色、開孔的 crown-cut 胡桃木。",
+    "控制件用菱紋滾花，點綴 Champagne Gold。"
+   ],
+   "image": {
+    "file": "cmf-car-bentley-olympia-cabin.jpg",
+    "alt": "Olympia Collection 深綠皮革座椅與門板",
+    "credit": "Bentley (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/olympia-collection-by-mulliner-honors-the-lasting-legacy-of-wo-bentley-with-12-continental-gts-278042.html"
+   },
+   "sources": [
+    [
+     "The Daily Car News（11/9）",
+     "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+    ],
+    [
+     "Bentley Media（11/5）",
+     "https://www.bentleymedia.com/en/newsitem/1848-olympia-collection-by-mulliner-celebrating-the-spirit-of-wo-bentle"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-bentley-ombre",
+   "kind": "paint",
+   "car": "Bentley Mulliner",
+   "tag": "塗裝 · 英國",
+   "title": "Ombré by Mulliner：每台噴 56 小時的漸層綠",
+   "points": [
+    "車頭 Verdant 森林綠漸變到車尾 Midnight Emerald 深綠。",
+    "Bentley 說光是這道漸層漆，每台就要 56 小時。",
+    "兩種綠要跨過每片板件不留接縫，需多次噴塗與手工修正。",
+    "只做 12 台 Continental GT，紀念 6½ Litre 亮相百年。"
+   ],
+   "image": {
+    "file": "cmf-paint-bentley-ombre.jpg",
+    "alt": "Ombré 漸層綠 Continental GT Olympia Collection",
+    "credit": "Bentley (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/olympia-collection-by-mulliner-honors-the-lasting-legacy-of-wo-bentley-with-12-continental-gts-278042.html"
+   },
+   "sources": [
+    [
+     "The Daily Car News（11/9）",
+     "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f"
+    ],
+    [
+     "autoevolution（11/6）",
+     "https://www.autoevolution.com/news/olympia-collection-by-mulliner-honors-the-lasting-legacy-of-wo-bentley-with-12-continental-gts-278042.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-basf-ev3-seat",
+   "kind": "material",
+   "car": "Kia EV3 Study Car 2.0 × BASF",
+   "tag": "材質 · 韓國",
+   "title": "EV3 Study Car 2.0：為拆解而設計的座椅",
+   "points": [
+    "現代汽車集團、Alten Korea 與 BASF 合作，從設計就考慮報廢拆解。",
+    "座椅包覆用 Haptex 合成皮，原料含生物循環來源。",
+    "坐墊與椅背用含消費後回收料的 Elastoflex W 泡棉。",
+    "頭枕用部分生質原料的 Elastollan TPU，椅背蓋板用回收 PA。"
+   ],
+   "image": {
+    "file": "cmf-mat-basf-ev3-seat.jpg",
+    "alt": "EV3 Study Car 2.0 概念座椅拆解爆炸圖",
+    "credit": "BASF",
+    "credit_url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190"
+   },
+   "sources": [
+    [
+     "BASF（11/9）",
+     "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190"
+    ]
+   ]
+  }
+ ],
+ "hmi": [],
+ "knowledge": [
+  {
+   "tag": "投資 · 日本／北美",
+   "date": "2026-11-09",
+   "title": "Honda 砸 30 億美元在俄亥俄蓋新廠，主力油電車",
+   "summary": "Honda 宣布在俄亥俄州 Marysville 附近新建整車廠，投資 30 億美元，預計 2029 年投產、年產能 24 萬輛，可生產燃油、油電與純電車，美國輕型車產能將提高到 130 萬輛。同日也宣布投資加拿大 Alliston 廠 1.66 億加幣改造產線，並恢復引擎生產。",
+   "sources": [
+    [
+     "CNBC（11/9）",
+     "https://www.cnbc.com/2026/11/09/honda-to-invest-3-billion-in-new-vehicle-assembly-plant-in-ohio.html"
+    ],
+    [
+     "Honda（11/9）",
+     "https://global.honda/en/newsroom/news/2026/c261110ceng.html"
+    ]
+   ]
+  },
+  {
+   "tag": "法規 · 歐洲",
+   "date": "2026-11-09",
+   "title": "多個歐盟成員國反對德法放寬 2035 碳排放案",
+   "summary": "德法上月達成共同立場，等於取消 2035 年燃油車禁令且不需抵換。其他成員國擔心拖慢電動化、讓中國車廠坐大，BYD 與奇瑞上月已占歐洲總銷量 14.5%。輪值主席國愛爾蘭提出折衷：2035 年減排 90%，其餘 10% 可用燃料機制與低碳鋼鋁額度抵換；各國大使 11 月 11 日開會討論。",
+   "sources": [
+    [
+     "Just Auto（11/9）",
+     "https://www.just-auto.com/news/eu-states-oppose-franco-german-car-emissions-pact-report/"
+    ]
+   ]
+  },
+  {
+   "tag": "製造 · 義大利",
+   "date": "2026-11-09",
+   "title": "Fiat 500 停產進入第四週：晶片短缺與需求不振",
+   "summary": "Stellantis 杜林 Mirafiori 廠 11 月 9 日至 13 日繼續停工，Fiat 500 已連續四週沒有生產。公司說前兩週是需求疲弱，後兩週是引擎控制單元用晶片短缺；FIOM 工會則認為需求才是主因。Stellantis 維持 2026 年財測不變。",
+   "sources": [
+    [
+     "AD HOC NEWS（11/9）",
+     "https://www.ad-hoc-news.de/boerse/news/corporate-news/stellantis-stock-faces-fourth-week-of-fiat-500-disruption-in-turin/70480234"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 中國",
+   "date": "2026-11-09",
+   "title": "中國 10 月新能源車零售年減 13.7%，滲透率創新高 67.5%",
+   "summary": "乘聯會數據：10 月新能源乘用車零售 110.9 萬輛，年減 13.7%，連續第十個月年減，但滲透率創新高 67.5%。出口年增 144.7% 到 58.2 萬輛，帶動批發年增 9.8%。插混零售年減 37.2%，增程則因小米、零跑年增 1%。",
+   "sources": [
+    [
+     "CnEVPost（11/9）",
+     "https://cnevpost.com/2026/11/09/china-oct-2026-nev-retail-sales-cpca/"
+    ]
+   ]
+  },
+  {
+   "tag": "合作 · 中國",
+   "date": "2026-11-09",
+   "title": "報導：Maserati 與華為、江淮合作電動車，外觀已定案",
+   "summary": "第一財經報導，Maserati 與華為、江淮合作的電動車專案「Maserati Design」外觀設計已完成，目標 2027 年第四季推進量產。車輛由江淮生產、用華為技術，中國以尊界品牌銷售、海外掛 Maserati 標。江淮 9 月公告仍在洽談、尚未簽具約束力協議。",
+   "sources": [
+    [
+     "CarNewsChina（11/9）",
+     "https://carnewschina.com/2026/11/09/maseratis-china-developed-ev-reportedly-completes-exterior-design-production-targeted-for-2027/"
+    ],
+    [
+     "CnEVPost（11/9）",
+     "https://cnevpost.com/2026/11/09/maserati-partner-with-maextro-localized-production-china/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-09",
+   "title": "年底車市搶單：Kia 台灣前十月 9,260 輛、油電占比過半",
+   "summary": "各車商年底推出零利率、特仕車與抽獎搶單：和泰 HILUX 最高 80 萬 0 利率、bZ4X 半年充電吃到飽，裕隆日產推 KICKS 與 SENTRA MOMIJI 特仕車。台灣森那美起亞表示 1 至 10 月累計賣 9,260 輛、年增 7.5%，油電車款占比由去年 17% 升到超過五成。",
+   "sources": [
+    [
+     "中國時報 via 工商時報（11/9）",
+     "https://www.ctee.com.tw/news/20261109700678-430904"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "A-pillar",
+  "zh": "A 柱（A-pillar）",
+  "body": "A 柱是擋風玻璃兩側、連接車頂與車身的第一對柱子。本期設計專欄裡，設計師 Adrian Clarke 把 A 柱往下延長畫到前輪：燃油版 BMW 3 Series 的延長線大約穿過前輪軸心；純電 BMW i3 的延長線卻落在前輪前方，表示擋風玻璃底部更往前、引擎蓋更短。設計師常用這條線快速檢查車頭比例和驅動配置是否相稱。",
+  "source": [
+   [
+    "The Autopian：用 A 柱延長線比較 3 Series 與 i3",
+    "https://www.theautopian.com/why-do-some-cars-look-wrong-our-professional-car-designer-compares-the-new-bmw-3-series-and-its-i3-sibling-side-by-side/"
+   ]
+  ],
+  "diagram": "term.svg"
+ }
+}
