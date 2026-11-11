@@ -138,5 +138,12 @@
   "creator_key": "lingdujieshuo",
   "url": "https://www.youtube.com/watch?v=n6MeunOm980",
   "topic": "HyperFlow H3 Flash 本機部署與漫劇"
+ },
+ {
+  "date": "2026-11-11",
+  "key": "col-aisd-fable52-7cases",
+  "creator_key": "aisuperdomain",
+  "url": "https://www.youtube.com/watch?v=wZYzXW3tQYQ",
+  "topic": "Claude Fable 5.2 七場景實測（互動場景、Unity/Godot、動畫）"
  }
 ]

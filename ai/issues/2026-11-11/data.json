@@ -744,5 +744,43 @@
     "analysis_short": "Gemini Omni Flash 1.2 新進第 6 名、Seedance 2.0 跌出；Wan 3.0 小幅拉開領先。"
    }
   ]
- }
+ },
+ "columns": [
+  {
+   "id": "col-aisd-fable52-7cases",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-10",
+   "title": "AI超元域：用 7 個案例實測 Claude Fable 5.2 做互動場景、Unity／Godot 遊戲與配樂動畫",
+   "short_title": "Fable 5.2 七個場景實測",
+   "orig": "🚀世界最强AI！深度实测Claude Fable 5.2！价格更低、速度更快！7大场景真实测评，从可探索的古画场景到Unity 3D游戏开发到Godot 4复杂游戏开发，再看动画视频生成！改写游戏开发",
+   "one": "想知道新出的 Fable 5.2 實際能做出什麼，這支影片在 Claude 桌面版只開 Medium 推理，做出可互動的古畫場景、遊戲關卡和配樂動畫給你看。",
+   "points": [
+    "依說明欄：測試環境是 Claude 桌面版、推理等級 Medium，用 7 個案例看實際運行效果。",
+    "案例包含可切換晝夜的像素天空城堡、清明上河圖虹橋（船隻放倒桅杆過橋）、聖家堂彩窗與室內光影、把一張圖片變成可探索的童話場景。",
+    "也示範把 ChatGPT 生成的圖片轉成 Unity 場景、用 Godot 做三關海戰，以及帶配樂的四季與藝術發展史動畫。",
+    "作者說價格比 Fable 5.1 標準輸入輸出降 20%、輸出速度最高快 30%，並註明速度數字來自官方說明，影片重點是實際演示效果。"
+   ],
+   "url": "https://www.youtube.com/watch?v=wZYzXW3tQYQ",
+   "image": {
+    "file": "col-aisd-fable52.webp",
+    "alt": "AI超元域 Claude Fable 5.2 實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=wZYzXW3tQYQ"
+   },
+   "links": [
+    [
+     "Anthropic 官方介紹",
+     "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    ]
+   ],
+   "gloss": [
+    [
+     "Godot",
+     "免費開源的遊戲引擎"
+    ]
+   ]
+  }
+ ]
 }
