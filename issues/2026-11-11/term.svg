@@ -1,0 +1,20 @@
+<svg class="diagram" viewBox="0 0 520 330" width="100%" role="img" aria-label="座艙後移示意：低矮跑車側面，座艙與擋風玻璃往後放，長引擎蓋用強調色標出" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M36 206 L36 186 Q38 172 66 168 L250 154 L300 118 Q312 110 330 110 L392 112 Q414 114 432 130 L470 160 Q490 166 490 184 L490 206 Z"/>
+<path d="M306 152 L322 122 L366 122 L366 152 Z"/><path d="M376 152 L376 122 L396 122 Q410 124 420 136 L432 152 Z"/>
+<path d="M250 156 L470 160"/>
+<circle cx="120" cy="208" r="32"/><circle cx="120" cy="208" r="13"/><circle cx="412" cy="208" r="34"/><circle cx="412" cy="208" r="13"/>
+<path d="M40 180 L80 176"/><path d="M474 168 L488 174"/>
+<path d="M370 176 Q412 150 456 176" stroke-width="1.6"/>
+<path d="M24 242 L504 242" stroke-width="1.4"/></g>
+<path d="M66 168 L250 154 L254 162 L70 176 Z" fill="#f08a5d" fill-opacity="0.55" stroke="#f08a5d" stroke-width="2"/>
+<path d="M250 154 L300 118 L310 124 L262 160 Z" fill="#f08a5d" fill-opacity="0.85" stroke="#f08a5d" stroke-width="2.4"/>
+<path d="M120 252 L280 252" stroke="#f08a5d" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M120 246 L120 258 M280 246 L280 258" stroke="#f08a5d" stroke-width="2"/>
+<g font-size="15" fill="currentColor" font-family="sans-serif">
+<path d="M282 132 L282 60" stroke="currentColor" stroke-dasharray="4 4"/><text x="196" y="52">① 擋風玻璃與座艙往後放</text>
+<path d="M160 168 L120 100" stroke="currentColor" stroke-dasharray="4 4"/><text x="40" y="92">② 長引擎蓋</text>
+<text x="92" y="276">③ 前輪到 A 柱的距離拉長</text>
+<text x="400" y="100" font-size="13">④ 粗壯後輪拱</text>
+<text x="20" y="314" font-size="12">以 Polestar Formula 2030 側面為例：座艙推到後輪拱上方，重心看起來在後、蓄勢往前。</text>
+</g></svg>

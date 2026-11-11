@@ -1,718 +1,742 @@
 [
-  {
-    "date": "2026-10-13",
-    "car_key": "citroen-2cv-concept",
-    "angle": "黃格紋座椅、電木米色、藤編布料",
-    "url": "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/",
-    "image": "cmf-citroen-2cv-concept.webp"
-  },
-  {
-    "date": "2026-10-13",
-    "car_key": "ferrari-purosangue-denim",
-    "angle": "KUROKI 丹寧內裝、藍色漸層霧面車身",
-    "url": "https://car.watch.impress.co.jp/docs/news/2146093.html",
-    "image": "cmf-ferrari-purosangue-denim.webp"
-  },
-  {
-    "date": "2026-10-13",
-    "car_key": "porsche-911-turbo-s-land-down-under",
-    "angle": "Dark Night Blue／Coolibah Brown 皮革、Silky Oak 木飾",
-    "url": "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html",
-    "image": "cmf-porsche-911-land-down-under.webp"
-  },
-  {
-    "date": "2026-10-14",
-    "car_key": "renault-e-space-concept",
-    "angle": "單一紅色系、染色稻草飾板、羊毛漸層地毯",
-    "url": "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng",
-    "image": "cmf-renault-e-space-concept.webp"
-  },
-  {
-    "date": "2026-10-14",
-    "car_key": "alfa-romeo-cuorerosso",
-    "angle": "紅色漸層座艙、Poltrona Frau 磨砂皮、Luna Rossa 透明布",
-    "url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/",
-    "image": "cmf-alfa-romeo-cuorerosso.webp"
-  },
-  {
-    "date": "2026-10-15",
-    "car_key": "jaguar-type01-kvadrat-brass",
-    "angle": "Kvadrat DuoWeave、黃銅脊骨、家具式少縫線座椅",
-    "url": "https://www.jaguar.com/en-us/type-01/material-detail.html",
-    "image": "cmf-jaguar-type01.webp"
-  },
-  {
-    "date": "2026-10-15",
-    "car_key": "fiat-multiplay-watermelon",
-    "angle": "西瓜配色、無縫 3D 針織單材質、防水兒童／寵物區",
-    "url": "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/",
-    "image": "cmf-fiat-multiplay.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "car_key": "porsche-mission-s-analogue-cabin",
-    "angle": "類比五圓儀表、無中控大螢幕、運動座椅",
-    "url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s",
-    "image": "cmf-porsche-mission-s.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "car_key": "polestar-5-flax-seatback",
-    "angle": "亞麻纖維／PP 座椅背、ampliTex＋powerRibs",
-    "url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design",
-    "image": "cmf-polestar5.webp"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "trend",
-    "car_key": "trend:ppg-country-soil-2027",
-    "angle": "PPG 2027 年度色",
-    "url": "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "paint",
-    "car_key": "paint:axalta-redefined-2027",
-    "angle": "Axalta 2027 車色",
-    "url": "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
-  },
-  {
-    "date": "2026-10-16",
-    "kind": "material",
-    "car_key": "material:adara-hair-keratin-fibre",
-    "angle": "DDW 頭髮角蛋白纖維",
-    "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "car",
-    "car_key": "rolls-royce-phantom-hummingbird",
-    "angle": "鮑魚殼／珍珠母鑲嵌、Ash burr 木皮",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html",
-    "image": "cmf-rr-phantom-hummingbird.webp"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "trend",
-    "car_key": "trend:wgsn-coloro-aw2829",
-    "angle": "WGSN×Coloro AW28/29 五大關鍵色",
-    "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "material",
-    "car_key": "material:magna-apple-leather",
-    "angle": "蘋果生質皮革替代材",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html",
-    "image": "cmf-magna-apple-leather.webp"
-  },
-  {
-    "date": "2026-10-17",
-    "kind": "material",
-    "car_key": "material:elix-pcabs-gr5125",
-    "angle": "低光澤 PC/ABS",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
-  },
-  {
-    "date": "2026-10-18",
-    "kind": "car",
-    "car_key": "mercedes-amg-gt-suv-console",
-    "angle": "RACE ENGINEER 三旋鈕碳纖中控",
-    "url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar",
-    "image": "cmf-amg-gt-suv-console.webp"
-  },
-  {
-    "date": "2026-10-18",
-    "kind": "car",
-    "car_key": "volvo-xc40-40series-2026",
-    "angle": "Arianne Cardamom／Brown Ash 內裝更新",
-    "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html",
-    "image": "cmf-volvo-xc40.webp"
-  },
-  {
-    "date": "2026-10-18",
-    "kind": "material",
-    "car_key": "material:asahi-kasei-tpe-coreback",
-    "angle": "同族 TPE 表皮＋發泡 core-back",
-    "url": "https://www.polyformnext.de/news-en/fakuma-2026--new-material-concepts-for-vehicle-interiors.htm"
-  },
-  {
-    "date": "2026-10-18",
-    "kind": "material",
-    "car_key": "material:basf-elastollan-tpu-lightguide",
-    "angle": "透明 Elastollan TPU 導光條",
-    "url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
-  },
-  {
-    "date": "2026-10-18",
-    "kind": "material",
-    "car_key": "material:alcantara-automotive-collection-2026",
-    "angle": "四組車用內裝面料情境：虹彩、微雕刻、雷射打孔、新色 Brique／Ember Orange",
-    "url": "https://www.formulamotori.it/2026/10/06/alcantara-automotive-2026-quattro-scenari/",
-    "image": "cmf-alcantara-auto-2026.webp"
-  },
-  {
-    "date": "2026-10-19",
-    "kind": "car",
-    "car_key": "acura-nexera-vision-circuleather",
-    "angle": "單色座艙粉色點綴、CircuLeather、鍛造碳、回收鋁",
-    "url": "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review",
-    "image": "cmf-acura-nexera-interior.webp"
-  },
-  {
-    "date": "2026-10-19",
-    "kind": "paint",
-    "car_key": "paint:mini-frozen-nomad-blue-matt",
-    "angle": "MINI 首款原廠消光漆 Frozen Nomad Blue",
-    "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
-  },
-  {
-    "date": "2026-10-19",
-    "kind": "material",
-    "car_key": "material:lexus-nx-forged-bamboo",
-    "angle": "55% 生質 Forged Bamboo 飾板",
-    "url": "https://www.carscoops.com/2026/09/lexus-nx-debut/"
-  },
-  {
-    "date": "2026-10-20",
-    "kind": "car",
-    "car_key": "hyundai-elantra-n-monochrome-alcantara",
-    "angle": "單色主題、Alcantara 方向盤與座椅門板、淺藍縫線",
-    "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290",
-    "image": "cmf-elantra-n-monochrome-interior.webp"
-  },
-  {
-    "date": "2026-10-20",
-    "kind": "paint",
-    "car_key": "paint:velar-belgravia-satin-film",
-    "angle": "Velar 首見緞面保護膜，三色日本限定",
-    "url": "https://car.watch.impress.co.jp/docs/news/2148133.html",
-    "image": "cmf-velar-belgravia-satin.webp"
-  },
-  {
-    "date": "2026-10-20",
-    "kind": "material",
-    "car_key": "material:mercedes-modern-meadow-ledfiber",
-    "angle": "廢輪胎回收聚醯胺＋生質蛋白替代皮",
-    "url": "https://www.emove360.com/ledfiber/",
-    "image": "cmf-ledfiber.webp"
-  },
-  {
-    "date": "2026-10-21",
-    "kind": "car",
-    "car_key": "ineos-grenadier-helmsman-oyster",
-    "angle": "黑皮座椅牡蠣色嵌片、Whiteout Blue",
-    "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html",
-    "image": "cmf-grenadier-helmsman-interior.webp"
-  },
-  {
-    "date": "2026-10-21",
-    "kind": "material",
-    "car_key": "material:bader-circutex",
-    "angle": "無 PVC、68% 回收 PET 塗層織物替代皮",
-    "url": "https://bader-leather.com/en/what-we-do/circutex/"
-  },
-  {
-    "date": "2026-10-21",
-    "kind": "paint",
-    "car_key": "paint:axalta-solar-boost-2026",
-    "angle": "Axalta 2026 年度色暖橙＋香檳玻璃片",
-    "url": "https://www.axalta.com/us/en_US/about-axalta/color/solar-boost-color-of-the-year-2026.html"
-  },
-  {
-    "date": "2026-10-22",
-    "kind": "car",
-    "car_key": "cupra-terramar-tribe-3d-knit",
-    "angle": "回收 3D 針織座椅、Sulfur Green 生質塗料",
-    "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades",
-    "image": "cmf-cupra-terramar-tribe-interior.webp"
-  },
-  {
-    "date": "2026-10-22",
-    "kind": "material",
-    "car_key": "material:zaker-floravara",
-    "angle": "非糧植物原料＋全水性 PU 合成皮",
-    "url": "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
-  },
-  {
-    "date": "2026-10-22",
-    "kind": "material",
-    "car_key": "material:camira-replay-zero",
-    "angle": "消費後回收聚酯交通座椅面料",
-    "url": "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
-  },
-  {
-    "date": "2026-10-23",
-    "kind": "car",
-    "car_key": "byd-qin-plus-2027-interior",
-    "angle": "淺色軟質座艙、懸浮螢幕、雙輻方向盤",
-    "url": "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/",
-    "image": "cmf-byd-qin-plus-2027-interior.jpg"
-  },
-  {
-    "date": "2026-10-23",
-    "kind": "material",
-    "car_key": "material:arda-new-grain",
-    "angle": "啤酒糟植物蛋白無塑膠替代皮",
-    "url": "https://materialdistrict.com/article/new-grain-plastic-free-leather-alternative-made-from-brewers-spent-grain/"
-  },
-  {
-    "date": "2026-10-23",
-    "kind": "material",
-    "car_key": "material:dinamica-infinity",
-    "angle": "單一材質高回收 PET 麂皮、小鵬 P7 打孔",
-    "url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
-  },
-  {
-    "date": "2026-10-24",
-    "kind": "car",
-    "car_key": "bmw-ix3-neue-klasse-healthy-cabin",
-    "angle": "低 VOC 超纖與鋼質喇叭罩健康座艙",
-    "url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html",
-    "image": "cmf-bmw-ix3-healthy-cabin.jpg"
-  },
-  {
-    "date": "2026-10-24",
-    "kind": "material",
-    "car_key": "material:fiat-autobianchi-quadrettoni",
-    "angle": "淺沙色超纖大方格紋復古座椅",
-    "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/",
-    "image": "cmf-material-fiat-quadrettoni.jpg"
-  },
-  {
-    "date": "2026-10-24",
-    "kind": "material",
-    "car_key": "material:toray-ultrasuede",
-    "angle": "植物基 PET 超細纖維麂皮、廣州車展",
-    "url": "https://www.ciaace.cc/news323.html"
-  },
-  {
-    "date": "2026-10-25",
-    "kind": "car",
-    "car_key": "denza-n8-cabin-colours",
-    "angle": "四款內裝配色、木飾與水晶排檔",
-    "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/",
-    "image": "cmf-denza-n8-cabin.jpg"
-  },
-  {
-    "date": "2026-10-25",
-    "kind": "trend",
-    "car_key": "trend:axalta-2026-27",
-    "angle": "Axalta 2026–27 四大車色趨勢",
-    "url": "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
-  },
-  {
-    "date": "2026-10-25",
-    "kind": "material",
-    "car_key": "material:kuangda-eco-synthetic-leather-mona-l05",
-    "angle": "生態合成革配套小鵬 MONA L05",
-    "url": "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home",
-    "image": "cmf-material-kuangda-mona-l05.jpg"
-  },
-  {
-    "date": "2026-10-26",
-    "kind": "car",
-    "car_key": "aito-m8-2026-fuguang-cabin",
-    "angle": "浮光菱影座艙配色與菱格 Nappa",
-    "url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html",
-    "image": "cmf-aito-m8-cabin.jpg"
-  },
-  {
-    "date": "2026-10-26",
-    "kind": "paint",
-    "car_key": "paint:geely-emgrand-alps-gold",
-    "angle": "銀元鋁片加奈米鈦白的阿爾卑斯金",
-    "url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml",
-    "image": "cmf-paint-emgrand-alps-gold.jpg"
-  },
-  {
-    "date": "2026-10-26",
-    "kind": "material",
-    "car_key": "material:ktrd-suede-vegan-nappa",
-    "angle": "經濟型機能麂皮與植絨純素 Nappa（Carnival 實車）",
-    "url": "https://www.dt.co.kr/article/12090677"
-  },
-  {
-    "date": "2026-10-27",
-    "kind": "car",
-    "car_key": "dongfeng-nissan-nx7-cabin",
-    "angle": "90% 軟包與 256 色氛圍燈座艙",
-    "url": "https://www.ithome.com/1/018/049.htm",
-    "image": "cmf-nx7-cabin.jpg"
-  },
-  {
-    "date": "2026-10-27",
-    "kind": "paint",
-    "car_key": "paint:lixiang-i6-coldlight",
-    "angle": "風信紫／磁力藍冷光漆",
-    "url": "https://www.ithome.com/1/011/495.htm",
-    "image": "cmf-paint-lixiang-i6-palette.jpg"
-  },
-  {
-    "date": "2026-10-27",
-    "kind": "trend",
-    "car_key": "trend:byd-seal-07-cabin-colours",
-    "angle": "內裝三色 Yunxi White／Phantom Grey／Ningye Purple",
-    "url": "https://carnewschina.com/2026/10/26/byd-opens-blind-orders-for-second-generation-seal-07-with-lidar-and-2960-mm-wheelbase/",
-    "image": "cmf-byd-seal-07-cabin-colours.jpg"
-  },
-  {
-    "date": "2026-10-23",
-    "kind": "trend",
-    "car_key": "trend:lepas-aura-colors",
-    "angle": "(已於 10/23 設計新聞報導；封鎖)",
-    "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
-  },
-  {
-    "date": "2026-10-28",
-    "kind": "car",
-    "car_key": "gfg-peralta-d-copper-interior",
-    "angle": "金屬感銅色皮革、打孔 Alcantara、真銅線縫線",
-    "url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html",
-    "image": "cmf-car-peralta-d-copper.jpg"
-  },
-  {
-    "date": "2026-10-28",
-    "kind": "paint",
-    "car_key": "trend:surventis-nexistential",
-    "angle": "Horizon Flux／Chromotopic Metal／Motile Red",
-    "url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential",
-    "image": "cmf-paint-surventis-nexistential.jpg"
-  },
-  {
-    "date": "2026-10-28",
-    "kind": "material",
-    "car_key": "material:polestar-signature-weave",
-    "angle": "(deep) Signature Weave 雙色亞麻可見表面、powerRibs 尾門",
-    "url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward",
-    "image": "cmf-material-polestar-signature-weave.jpg"
-  },
-  {
-    "date": "2026-10-29",
-    "kind": "car",
-    "car_key": "ford-edge-l",
-    "angle": "(deep) 菱格絎縫＋漸層打孔、麂皮肩部、緞面金屬框、深淺兩種內裝",
-    "url": "http://www.ford.com.cn/newsroom/2026/20261020",
-    "image": "cmf-car-ford-edge-l-cabin.jpg"
-  },
-  {
-    "date": "2026-10-29",
-    "kind": "paint",
-    "car_key": "paint:tesla-cybercab-rim-colour",
-    "angle": "不設烤漆廠，色料混入 RIM 面板",
-    "url": "https://www.notateslaapp.com/news/4914/tesla-considered-other-innovative-ways-to-color-the-cybercab",
-    "image": "cmf-paint-cybercab-rim-colour.jpg"
-  },
-  {
-    "date": "2026-10-29",
-    "kind": "paint",
-    "car_key": "paint:ds-f3ver-cosmic-blue",
-    "angle": "Cosmic Blue 藍轉紫變色漆",
-    "url": "https://www.dezeen.com/2026/10/28/concept-cars-stellantis-paris-motor-show-design-video/",
-    "image": "cmf-paint-ds-f3ver-cosmic-blue.jpg"
-  },
-  {
-    "date": "2026-10-30",
-    "kind": "car",
-    "car_key": "lamborghini-temerario-tettonero",
-    "angle": "Nero Ade 黑皮、Grigio Octans 縫線、Q-citura 六角絎縫、Matt Carbon 銘牌",
-    "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/",
-    "image": "cmf-car-temerario-tettonero-cabin.jpg"
-  },
-  {
-    "date": "2026-10-30",
-    "kind": "paint",
-    "car_key": "fiat-topolino-2027",
-    "angle": "新色 Corallo Orange、Luna Greige，Sanlorenzo 特製",
-    "url": "https://www.prnewswire.com/news-releases/2027-fiat-topolino-brings-new-colors-body-style-and-low-speed-vehicle-street-legal-capability-to-the-us-302923758.html",
-    "image": "cmf-paint-topolino-2027-colours.jpg"
-  },
-  {
-    "date": "2026-10-30",
-    "kind": "material",
-    "car_key": "avery-dennison-spectrix",
-    "angle": "彩色 PPF 與車內 TPU 保護套件",
-    "url": "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough",
-    "image": "cmf-material-avery-spectrix-ppf.jpg"
-  },
-  {
-    "date": "2026-10-31",
-    "kind": "car",
-    "car_key": "xpeng-mona-l05-cabin",
-    "angle": "MONA L05：3D Mesh 軟包與三套 ROAM 內飾",
-    "url": "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml",
-    "image": "cmf-car-xpeng-mona-l05-cabin.jpg"
-  },
-  {
-    "date": "2026-10-31",
-    "kind": "paint",
-    "car_key": "paint:toyota-horizon-blue",
-    "angle": "Horizon Blue：1960 年代 Toyota 的復刻藍",
-    "url": "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/",
-    "image": "cmf-paint-toyota-horizon-blue.jpg"
-  },
-  {
-    "date": "2026-10-31",
-    "kind": "paint",
-    "car_key": "paint:crown-signia-gts",
-    "angle": "Crown Signia GT-S：加亮片的深灰金屬漆",
-    "url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html",
-    "image": "cmf-paint-crown-signia-gts-grey.jpg"
-  },
-  {
-    "date": "2026-11-01",
-    "kind": "car",
-    "car_key": "car:byd-tang-3rd",
-    "angle": "第三代唐：沙丘米菱格絎縫與星際雙屏",
-    "url": "https://www.ithome.com/1/020/234.htm",
-    "image": "cmf-car-byd-tang-cabin.jpg"
-  },
-  {
-    "date": "2026-11-01",
-    "kind": "paint",
-    "car_key": "paint:lamborghini-temerario-tettonero",
-    "angle": "Tettonero：五色車身配 Nero Noctis 黑頂",
-    "url": "https://www.autoblog.com/news/lamborghini-temerario-gets-a-wild-two-tone-makeover-in-five-colors",
-    "image": "cmf-paint-lamborghini-tettonero.jpg"
-  },
-  {
-    "date": "2026-11-01",
-    "kind": "paint",
-    "car_key": "paint:mini-cooper-oxford-edition",
-    "angle": "Oxford Edition：Indigo Sunset Blue 配米字旗頂",
-    "url": "https://www.mk.co.kr/en/business/12191337",
-    "image": "cmf-paint-mini-oxford.jpg"
-  },
-  {
-    "date": "2026-11-02",
-    "kind": "car",
-    "car_key": "byd-seagull-2nd",
-    "angle": "貝殼白座艙與水轉印飾板",
-    "url": "https://gemsgbr.com/article/art_99867625",
-    "image": "cmf-car-byd-seagull-2nd-cabin.jpg"
-  },
-  {
-    "date": "2026-11-02",
-    "kind": "paint",
-    "car_key": "paint:byd-seal07-2nd-aurora-pala",
-    "angle": "極光粉與帕拉綠展車",
-    "url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/",
-    "image": "cmf-paint-byd-seal07-aurora-pala.jpg"
-  },
-  {
-    "date": "2026-11-02",
-    "kind": "paint",
-    "car_key": "paint:bmw-i3-le-castellet-blue",
-    "angle": "M Le Castellet Blue 配 Digital White",
-    "url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/",
-    "image": "cmf-paint-bmw-i3-le-castellet.jpg"
-  },
-  {
-    "date": "2026-11-03",
-    "kind": "car",
-    "car_key": "car:changan-lumin-plus",
-    "angle": "Lumin Plus：棕色座艙配 D 字方向盤",
-    "url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/",
-    "image": "cmf-car-changan-lumin-plus.jpg"
-  },
-  {
-    "date": "2026-11-03",
-    "kind": "paint",
-    "car_key": "paint:smart2-couture",
-    "angle": "smart #2 Couture：消光白配白金色車頂",
-    "url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/",
-    "image": "cmf-paint-smart2-couture.jpg"
-  },
-  {
-    "date": "2026-11-03",
-    "kind": "paint",
-    "car_key": "paint:nissan-pathfinder-xev6",
-    "angle": "Pathfinder XE-V6：紅底黑、炭灰、銀三色條紋",
-    "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts",
-    "image": "cmf-paint-nissan-pathfinder-xev6.jpg"
-  },
-  {
-    "date": "2026-11-04",
-    "kind": "car",
-    "car_key": "car:jeep-scrambler-srt-cabin",
-    "angle": "深石墨座椅配橘色嵌飾、可反轉後座",
-    "url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires",
-    "image": "cmf-car-jeep-scrambler-srt-cabin.jpg"
-  },
-  {
-    "date": "2026-11-04",
-    "kind": "paint",
-    "car_key": "paint:peugeot-3008-5008-titanium-grey",
-    "angle": "Titanium Grey 限定車色",
-    "url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103",
-    "image": "cmf-paint-peugeot-titanium-grey.jpg"
-  },
-  {
-    "date": "2026-11-04",
-    "kind": "paint",
-    "car_key": "paint:mg4-urban-ice-blue",
-    "angle": "Ice Blue／Diamond Red 配黑車頂",
-    "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint",
-    "image": "cmf-paint-mg4-urban-ice-blue.jpg"
-  },
-  {
-    "date": "2026-11-05",
-    "kind": "car",
-    "car_key": "car:pagani-anima-cabin",
-    "angle": "Huayra 70 Anima：牛奶色皮革配 Loro Piana",
-    "url": "https://www.whichcar.com.au/news/pagani-huayra-70-anima-paint-diamond-dust-specs",
-    "image": "cmf-car-pagani-anima-cabin.jpg"
-  },
-  {
-    "date": "2026-11-05",
-    "kind": "paint",
-    "car_key": "paint:lambo-tettonero",
-    "angle": "Temerario Tettonero：Nero Noctis 黑頂雙色",
-    "url": "https://www.carscoops.com/2306965/lamborghini-temerario-tettonero/",
-    "image": "cmf-paint-lambo-tettonero.jpg"
-  },
-  {
-    "date": "2026-11-05",
-    "kind": "trend",
-    "car_key": "trend:akzonobel-soulful-sage",
-    "angle": "AkzoNobel 2027 年度色：Soulful Sage",
-    "url": "https://www.pcimag.com/articles/115482-akzonobel-announces-automotive-color-of-the-year",
-    "image": null
-  },
-  {
-    "date": "2026-11-06",
-    "kind": "car",
-    "car_key": "car:bmw-m3-zanardi-cabin",
-    "angle": "Zanardi 致敬版：雷射打孔 Alcantara",
-    "url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/",
-    "image": "cmf-car-zanardi-cabin.jpg"
-  },
-  {
-    "date": "2026-11-06",
-    "kind": "material",
-    "car_key": "material:fiat-multiplay-knit",
-    "angle": "Multiplay 內裝：無縫線立體針織",
-    "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/",
-    "image": "cmf-mat-multiplay-cabin.jpg"
-  },
-  {
-    "date": "2026-11-06",
-    "kind": "paint",
-    "car_key": "paint:akzo-modern-vintage",
-    "angle": "Modern Vintage：依原廠色碼重調經典車漆",
-    "url": "https://collisionweek.com/2026/11/04/akzonobel-launches-modern-vintage-line-historic-oem-colors-sema-show/",
-    "image": "cmf-paint-akzo-modern-vintage.jpg"
-  },
-  {
-    "date": "2026-11-07",
-    "kind": "car",
-    "car_key": "car:car-pajero-cabin",
-    "angle": "Aquacron PWB：水性液態金屬色效應",
-    "url": "https://www.mitsubishi-motors.co.jp/global/en/lineup/pajero/special/",
-    "image": "cmf-car-pajero-cabin.jpg"
-  },
-  {
-    "date": "2026-11-07",
-    "kind": "trend",
-    "car_key": "trend:trend-surventis-nexistential",
-    "angle": "NEXISTENTIAL：三區關鍵車色出爐",
-    "url": "https://www.pcimag.com/articles/115484-surventis-reveals-first-automotive-color-forecast-under-new-identity",
-    "image": "cmf-trend-surventis.jpg"
-  },
-  {
-    "date": "2026-11-07",
-    "kind": "material",
-    "car_key": "material:mat-basf-ultramid-deepgloss",
-    "angle": "Ultramid Deep Gloss：免塗高光門把框",
-    "url": "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-41",
-    "image": null
-  },
-  {
-    "date": "2026-11-07",
-    "kind": "paint",
-    "car_key": "paint:paint-ppg-aquacron-pwb",
-    "angle": "Aquacron PWB：水性液態金屬色效應",
-    "url": "https://news.ppg.com/Press-Releases/news-details/2026/PPG-named-among-Top-100-Players-of-Chinas-New-Automotive-Supply-Chain-by-industry-news-outlet-Gasgoo/default.aspx",
-    "image": null
-  },
-  {
-    "date": "2026-11-08",
-    "kind": "car",
-    "car_key": "car:yangwang-altior-cabin",
-    "angle": "Altior 後艙：奶油雙座與水晶旋鈕",
-    "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/",
-    "image": "cmf-car-yangwang-cabin.jpg"
-  },
-  {
-    "date": "2026-11-08",
-    "kind": "material",
-    "car_key": "material:kolon-mic-hood-pv5",
-    "angle": "PV5 免噴漆複合材料引擎蓋",
-    "url": "https://www.yna.co.kr/view/AKR20261105128500003",
-    "image": null
-  },
-  {
-    "date": "2026-11-08",
-    "kind": "paint",
-    "car_key": "paint:mitsu-trail-green",
-    "angle": "Trail Green Metallic：對森林與河流的新綠",
-    "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html",
-    "image": "cmf-paint-trail-green.jpg"
-  },
-  {
-    "date": "2026-11-09",
-    "kind": "car",
-    "car_key": "car:cmf-car-lynk08-cabin",
-    "angle": "2027 款領克 08：新增內裝配色",
-    "url": "https://www.jiemian.com/article/15307261.html",
-    "image": "cmf-car-lynk08-cabin.jpg"
-  },
-  {
-    "date": "2026-11-09",
-    "kind": "material",
-    "car_key": "material:cmf-mat-rr-abalone",
-    "angle": "首度用鮑魚殼做木飾鑲嵌",
-    "url": "https://www.watchpreviously.com/news/rolls-royce-phantom-hummingbird/",
-    "image": "cmf-rr-hummingbird-abalone.jpg"
-  },
-  {
-    "date": "2026-11-09",
-    "kind": "paint",
-    "car_key": "paint:cmf-paint-dongfeng-box-rosegold",
-    "angle": "Box 限量 Rose Gold 配白車頂",
-    "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/",
-    "image": null
-  },
-  {
-    "date": "2026-11-10",
-    "kind": "car",
-    "car_key": "car:outlander-diamond-trail-cabin",
-    "angle": "Outlander Diamond Trail：防潑水座椅配卡其縫線",
-    "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/",
-    "image": "cmf-car-outlander-dt-seat.jpg"
-  },
-  {
-    "date": "2026-11-10",
-    "kind": "car",
-    "car_key": "car:bentley-olympia-cabin",
-    "angle": "Olympia Collection：雙綠皮革配黑染胡桃木",
-    "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
-    "image": "cmf-car-bentley-olympia-cabin.jpg"
-  },
-  {
-    "date": "2026-11-10",
-    "kind": "paint",
-    "car_key": "paint:bentley-ombre-olympia",
-    "angle": "Ombré by Mulliner：每台噴 56 小時的漸層綠",
-    "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
-    "image": "cmf-paint-bentley-ombre.jpg"
-  },
-  {
-    "date": "2026-11-10",
-    "kind": "material",
-    "car_key": "material:basf-kia-ev3-study-seat",
-    "angle": "EV3 Study Car 2.0：為拆解而設計的座椅",
-    "url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190",
-    "image": "cmf-mat-basf-ev3-seat.jpg"
-  }
+ {
+  "date": "2026-10-13",
+  "car_key": "citroen-2cv-concept",
+  "angle": "黃格紋座椅、電木米色、藤編布料",
+  "url": "https://autodesignmagazine.com/en/2026/10/citroen-2-cv-concept-the-icon-is-reborn-as-an-electric-car/",
+  "image": "cmf-citroen-2cv-concept.webp"
+ },
+ {
+  "date": "2026-10-13",
+  "car_key": "ferrari-purosangue-denim",
+  "angle": "KUROKI 丹寧內裝、藍色漸層霧面車身",
+  "url": "https://car.watch.impress.co.jp/docs/news/2146093.html",
+  "image": "cmf-ferrari-purosangue-denim.webp"
+ },
+ {
+  "date": "2026-10-13",
+  "car_key": "porsche-911-turbo-s-land-down-under",
+  "angle": "Dark Night Blue／Coolibah Brown 皮革、Silky Oak 木飾",
+  "url": "https://newsroom.porsche.com/en/2026/products/porsche-911-turbo-s-down-under-australia-42993.html",
+  "image": "cmf-porsche-911-land-down-under.webp"
+ },
+ {
+  "date": "2026-10-14",
+  "car_key": "renault-e-space-concept",
+  "angle": "單一紅色系、染色稻草飾板、羊毛漸層地毯",
+  "url": "https://media.renault.com/renault-e-space-concept-a-contemporary-vision-of-voitures-a-vivre/?lang=eng",
+  "image": "cmf-renault-e-space-concept.webp"
+ },
+ {
+  "date": "2026-10-14",
+  "car_key": "alfa-romeo-cuorerosso",
+  "angle": "紅色漸層座艙、Poltrona Frau 磨砂皮、Luna Rossa 透明布",
+  "url": "https://autodesignmagazine.com/en/2026/10/alfa-romeo-cuorerosso-bellezza-necessaria/",
+  "image": "cmf-alfa-romeo-cuorerosso.webp"
+ },
+ {
+  "date": "2026-10-15",
+  "car_key": "jaguar-type01-kvadrat-brass",
+  "angle": "Kvadrat DuoWeave、黃銅脊骨、家具式少縫線座椅",
+  "url": "https://www.jaguar.com/en-us/type-01/material-detail.html",
+  "image": "cmf-jaguar-type01.webp"
+ },
+ {
+  "date": "2026-10-15",
+  "car_key": "fiat-multiplay-watermelon",
+  "angle": "西瓜配色、無縫 3D 針織單材質、防水兒童／寵物區",
+  "url": "https://autodesignmagazine.com/en/2026/10/fiat-multiplay-the-suv-that-turns-into-a-pickup-truck/",
+  "image": "cmf-fiat-multiplay.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "car_key": "porsche-mission-s-analogue-cabin",
+  "angle": "類比五圓儀表、無中控大螢幕、運動座椅",
+  "url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s",
+  "image": "cmf-porsche-mission-s.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "car_key": "polestar-5-flax-seatback",
+  "angle": "亞麻纖維／PP 座椅背、ampliTex＋powerRibs",
+  "url": "https://www.compositesworld.com/articles/polestar-5-takes-aesthetics-and-circularity-approach-to-biocomposite-seatback-design",
+  "image": "cmf-polestar5.webp"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "trend",
+  "car_key": "trend:ppg-country-soil-2027",
+  "angle": "PPG 2027 年度色",
+  "url": "https://investor.ppg.com/news/news-details/2026/PPG-announces-Country-Soil-as-2027-Color-of-the-Year/default.aspx"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "paint",
+  "car_key": "paint:axalta-redefined-2027",
+  "angle": "Axalta 2027 車色",
+  "url": "https://ir.axalta.com/news/press-releases/detail/690/axalta-unveils-redefined-as-its-2027-global-automotive-color-of-the-year"
+ },
+ {
+  "date": "2026-10-16",
+  "kind": "material",
+  "car_key": "material:adara-hair-keratin-fibre",
+  "angle": "DDW 頭髮角蛋白纖維",
+  "url": "https://materialdistrict.com/article/fibres-fabrication-and-new-textile-structures-at-dutch-design-week-2026/"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "car",
+  "car_key": "rolls-royce-phantom-hummingbird",
+  "angle": "鮑魚殼／珍珠母鑲嵌、Ash burr 木皮",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/rolls-royce-presents-phantom-hummingbird-with-abalone-shell-interior-marquetry.html",
+  "image": "cmf-rr-phantom-hummingbird.webp"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "trend",
+  "car_key": "trend:wgsn-coloro-aw2829",
+  "angle": "WGSN×Coloro AW28/29 五大關鍵色",
+  "url": "https://fashionunited.com/news/fashion/from-bloodstone-to-liminal-yellow-wgsn-and-coloro-unveil-five-key-colours-for-aw28-29/2026101475170"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "material",
+  "car_key": "material:magna-apple-leather",
+  "angle": "蘋果生質皮革替代材",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/magna-develops-sustainable-seating-material-incorporating-bio-based-and-recycled-inputs.html",
+  "image": "cmf-magna-apple-leather.webp"
+ },
+ {
+  "date": "2026-10-17",
+  "kind": "material",
+  "car_key": "material:elix-pcabs-gr5125",
+  "angle": "低光澤 PC/ABS",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/elix-polymers-launches-new-low-gloss-pc-abs-grade.html"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "car",
+  "car_key": "mercedes-amg-gt-suv-console",
+  "angle": "RACE ENGINEER 三旋鈕碳纖中控",
+  "url": "https://www.autocar.co.uk/car-news/electric-cars/new-mercedes-amg-gt-suv-revealed-1153bhp-family-supercar",
+  "image": "cmf-amg-gt-suv-console.webp"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "car",
+  "car_key": "volvo-xc40-40series-2026",
+  "angle": "Arianne Cardamom／Brown Ash 內裝更新",
+  "url": "https://www.automotiveinteriorsworld.com/news/materials/volvo-updates-xc40-ex40-and-ec40-with-new-interior-and-driver-assist-safety-features.html",
+  "image": "cmf-volvo-xc40.webp"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:asahi-kasei-tpe-coreback",
+  "angle": "同族 TPE 表皮＋發泡 core-back",
+  "url": "https://www.polyformnext.de/news-en/fakuma-2026--new-material-concepts-for-vehicle-interiors.htm"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:basf-elastollan-tpu-lightguide",
+  "angle": "透明 Elastollan TPU 導光條",
+  "url": "https://www.drivingvisionnews.com/news/2026/10/06/basf-show-tpu-light-guides-at-fakuma-26/"
+ },
+ {
+  "date": "2026-10-18",
+  "kind": "material",
+  "car_key": "material:alcantara-automotive-collection-2026",
+  "angle": "四組車用內裝面料情境：虹彩、微雕刻、雷射打孔、新色 Brique／Ember Orange",
+  "url": "https://www.formulamotori.it/2026/10/06/alcantara-automotive-2026-quattro-scenari/",
+  "image": "cmf-alcantara-auto-2026.webp"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "car",
+  "car_key": "acura-nexera-vision-circuleather",
+  "angle": "單色座艙粉色點綴、CircuLeather、鍛造碳、回收鋁",
+  "url": "https://www.wallpaper.com/transportation/acura-nexera-vision-concept-review",
+  "image": "cmf-acura-nexera-interior.webp"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "paint",
+  "car_key": "paint:mini-frozen-nomad-blue-matt",
+  "angle": "MINI 首款原廠消光漆 Frozen Nomad Blue",
+  "url": "https://girlracer.co.uk/2026/10/07/new-mini-countryman-untamed-edition/"
+ },
+ {
+  "date": "2026-10-19",
+  "kind": "material",
+  "car_key": "material:lexus-nx-forged-bamboo",
+  "angle": "55% 生質 Forged Bamboo 飾板",
+  "url": "https://www.carscoops.com/2026/09/lexus-nx-debut/"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "car",
+  "car_key": "hyundai-elantra-n-monochrome-alcantara",
+  "angle": "單色主題、Alcantara 方向盤與座椅門板、淺藍縫線",
+  "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001290",
+  "image": "cmf-elantra-n-monochrome-interior.webp"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "paint",
+  "car_key": "paint:velar-belgravia-satin-film",
+  "angle": "Velar 首見緞面保護膜，三色日本限定",
+  "url": "https://car.watch.impress.co.jp/docs/news/2148133.html",
+  "image": "cmf-velar-belgravia-satin.webp"
+ },
+ {
+  "date": "2026-10-20",
+  "kind": "material",
+  "car_key": "material:mercedes-modern-meadow-ledfiber",
+  "angle": "廢輪胎回收聚醯胺＋生質蛋白替代皮",
+  "url": "https://www.emove360.com/ledfiber/",
+  "image": "cmf-ledfiber.webp"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "car",
+  "car_key": "ineos-grenadier-helmsman-oyster",
+  "angle": "黑皮座椅牡蠣色嵌片、Whiteout Blue",
+  "url": "https://media.ineosgrenadier.com/en/news-articles/inspired-by-the-tides-grenadier-helmsman-launches-a-series-of-special-editions-inspired-by-the-elements.html",
+  "image": "cmf-grenadier-helmsman-interior.webp"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "material",
+  "car_key": "material:bader-circutex",
+  "angle": "無 PVC、68% 回收 PET 塗層織物替代皮",
+  "url": "https://bader-leather.com/en/what-we-do/circutex/"
+ },
+ {
+  "date": "2026-10-21",
+  "kind": "paint",
+  "car_key": "paint:axalta-solar-boost-2026",
+  "angle": "Axalta 2026 年度色暖橙＋香檳玻璃片",
+  "url": "https://www.axalta.com/us/en_US/about-axalta/color/solar-boost-color-of-the-year-2026.html"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "car",
+  "car_key": "cupra-terramar-tribe-3d-knit",
+  "angle": "回收 3D 針織座椅、Sulfur Green 生質塗料",
+  "url": "https://www.carexpert.com.au/car-news/cupra-terramar-vz-tribe-edition-brings-sustainable-style-upgrades",
+  "image": "cmf-cupra-terramar-tribe-interior.webp"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "material",
+  "car_key": "material:zaker-floravara",
+  "angle": "非糧植物原料＋全水性 PU 合成皮",
+  "url": "https://www.zakernm.com/news/company-news/zaker-a-differentiated-path-for-plantbased-leather-in-new-energy.html"
+ },
+ {
+  "date": "2026-10-22",
+  "kind": "material",
+  "car_key": "material:camira-replay-zero",
+  "angle": "消費後回收聚酯交通座椅面料",
+  "url": "https://eurobusxpo.com/exhibitor-news/camira-develops-replay-zero-fabric-to-reuse-waste-plastic-bottles/"
+ },
+ {
+  "date": "2026-10-23",
+  "kind": "car",
+  "car_key": "byd-qin-plus-2027-interior",
+  "angle": "淺色軟質座艙、懸浮螢幕、雙輻方向盤",
+  "url": "https://carnewschina.com/2026/10/22/byd-unveils-interior-of-its-2027-qin-plus/",
+  "image": "cmf-byd-qin-plus-2027-interior.jpg"
+ },
+ {
+  "date": "2026-10-23",
+  "kind": "material",
+  "car_key": "material:arda-new-grain",
+  "angle": "啤酒糟植物蛋白無塑膠替代皮",
+  "url": "https://materialdistrict.com/article/new-grain-plastic-free-leather-alternative-made-from-brewers-spent-grain/"
+ },
+ {
+  "date": "2026-10-23",
+  "kind": "material",
+  "car_key": "material:dinamica-infinity",
+  "angle": "單一材質高回收 PET 麂皮、小鵬 P7 打孔",
+  "url": "https://www.cardesignnews.com/partner-content/how-dinamica-is-shaping-chinas-luxury-car-interiors/2633873"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "car",
+  "car_key": "bmw-ix3-neue-klasse-healthy-cabin",
+  "angle": "低 VOC 超纖與鋼質喇叭罩健康座艙",
+  "url": "https://www.autoreport.cn/zonghexinwen/20261023/11114094972.html",
+  "image": "cmf-bmw-ix3-healthy-cabin.jpg"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "material",
+  "car_key": "material:fiat-autobianchi-quadrettoni",
+  "angle": "淺沙色超纖大方格紋復古座椅",
+  "url": "https://www.carscoops.com/2293798/fiat-pandina-tributo-autobianchi/",
+  "image": "cmf-material-fiat-quadrettoni.jpg"
+ },
+ {
+  "date": "2026-10-24",
+  "kind": "material",
+  "car_key": "material:toray-ultrasuede",
+  "angle": "植物基 PET 超細纖維麂皮、廣州車展",
+  "url": "https://www.ciaace.cc/news323.html"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "car",
+  "car_key": "denza-n8-cabin-colours",
+  "angle": "四款內裝配色、木飾與水晶排檔",
+  "url": "https://carnewschina.com/2026/10/24/byds-denza-n8-reveals-four-cabin-colours-ahead-of-october-26-presale/",
+  "image": "cmf-denza-n8-cabin.jpg"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "trend",
+  "car_key": "trend:axalta-2026-27",
+  "angle": "Axalta 2026–27 四大車色趨勢",
+  "url": "https://ir.axalta.com/news/press-releases/detail/694/axalta-releases-2026-2027-global-automotive-color-trends-highlighting-the-future-of-automotive-color-design"
+ },
+ {
+  "date": "2026-10-25",
+  "kind": "material",
+  "car_key": "material:kuangda-eco-synthetic-leather-mona-l05",
+  "angle": "生態合成革配套小鵬 MONA L05",
+  "url": "https://www.kuangdacn.com/index.php?a=index&aid=634&c=View&m=home",
+  "image": "cmf-material-kuangda-mona-l05.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "car",
+  "car_key": "aito-m8-2026-fuguang-cabin",
+  "angle": "浮光菱影座艙配色與菱格 Nappa",
+  "url": "https://www.autoreport.cn/zonghe/20261016/18113929607.html",
+  "image": "cmf-aito-m8-cabin.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "paint",
+  "car_key": "paint:geely-emgrand-alps-gold",
+  "angle": "銀元鋁片加奈米鈦白的阿爾卑斯金",
+  "url": "https://auto.sina.com.cn/newcar/2026-10-25/detail-iniwmpas3105382.shtml",
+  "image": "cmf-paint-emgrand-alps-gold.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "kind": "material",
+  "car_key": "material:ktrd-suede-vegan-nappa",
+  "angle": "經濟型機能麂皮與植絨純素 Nappa（Carnival 實車）",
+  "url": "https://www.dt.co.kr/article/12090677"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "car",
+  "car_key": "dongfeng-nissan-nx7-cabin",
+  "angle": "90% 軟包與 256 色氛圍燈座艙",
+  "url": "https://www.ithome.com/1/018/049.htm",
+  "image": "cmf-nx7-cabin.jpg"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "paint",
+  "car_key": "paint:lixiang-i6-coldlight",
+  "angle": "風信紫／磁力藍冷光漆",
+  "url": "https://www.ithome.com/1/011/495.htm",
+  "image": "cmf-paint-lixiang-i6-palette.jpg"
+ },
+ {
+  "date": "2026-10-27",
+  "kind": "trend",
+  "car_key": "trend:byd-seal-07-cabin-colours",
+  "angle": "內裝三色 Yunxi White／Phantom Grey／Ningye Purple",
+  "url": "https://carnewschina.com/2026/10/26/byd-opens-blind-orders-for-second-generation-seal-07-with-lidar-and-2960-mm-wheelbase/",
+  "image": "cmf-byd-seal-07-cabin-colours.jpg"
+ },
+ {
+  "date": "2026-10-23",
+  "kind": "trend",
+  "car_key": "trend:lepas-aura-colors",
+  "angle": "(已於 10/23 設計新聞報導；封鎖)",
+  "url": "https://www.prnewswire.com/news-releases/designed-for-global-expectations-the-first-lepas-global-concept-car-aura-makes-its-world-premiere-302917203.html"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "car",
+  "car_key": "gfg-peralta-d-copper-interior",
+  "angle": "金屬感銅色皮革、打孔 Alcantara、真銅線縫線",
+  "url": "https://www.autoevolution.com/news/giugiaro-s-peralta-d-is-the-hand-made-copper-body-gran-tourer-no-one-s-rich-enough-to-have-another-277637.html",
+  "image": "cmf-car-peralta-d-copper.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "paint",
+  "car_key": "trend:surventis-nexistential",
+  "angle": "Horizon Flux／Chromotopic Metal／Motile Red",
+  "url": "https://www.surventiscoatings.com/media/news/surventis-automotive-color-trends-collection-nexistential",
+  "image": "cmf-paint-surventis-nexistential.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "kind": "material",
+  "car_key": "material:polestar-signature-weave",
+  "angle": "(deep) Signature Weave 雙色亞麻可見表面、powerRibs 尾門",
+  "url": "https://www.plasticstoday.com/automotive-mobility/bcomp-s-flax-composites-drive-polestar-5-forward",
+  "image": "cmf-material-polestar-signature-weave.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "car",
+  "car_key": "ford-edge-l",
+  "angle": "(deep) 菱格絎縫＋漸層打孔、麂皮肩部、緞面金屬框、深淺兩種內裝",
+  "url": "http://www.ford.com.cn/newsroom/2026/20261020",
+  "image": "cmf-car-ford-edge-l-cabin.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "paint",
+  "car_key": "paint:tesla-cybercab-rim-colour",
+  "angle": "不設烤漆廠，色料混入 RIM 面板",
+  "url": "https://www.notateslaapp.com/news/4914/tesla-considered-other-innovative-ways-to-color-the-cybercab",
+  "image": "cmf-paint-cybercab-rim-colour.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "kind": "paint",
+  "car_key": "paint:ds-f3ver-cosmic-blue",
+  "angle": "Cosmic Blue 藍轉紫變色漆",
+  "url": "https://www.dezeen.com/2026/10/28/concept-cars-stellantis-paris-motor-show-design-video/",
+  "image": "cmf-paint-ds-f3ver-cosmic-blue.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "car",
+  "car_key": "lamborghini-temerario-tettonero",
+  "angle": "Nero Ade 黑皮、Grigio Octans 縫線、Q-citura 六角絎縫、Matt Carbon 銘牌",
+  "url": "https://motorillustrated.com/lamborghini-temerario-tettonero-black-roof/200549/",
+  "image": "cmf-car-temerario-tettonero-cabin.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "paint",
+  "car_key": "fiat-topolino-2027",
+  "angle": "新色 Corallo Orange、Luna Greige，Sanlorenzo 特製",
+  "url": "https://www.prnewswire.com/news-releases/2027-fiat-topolino-brings-new-colors-body-style-and-low-speed-vehicle-street-legal-capability-to-the-us-302923758.html",
+  "image": "cmf-paint-topolino-2027-colours.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "kind": "material",
+  "car_key": "avery-dennison-spectrix",
+  "angle": "彩色 PPF 與車內 TPU 保護套件",
+  "url": "https://www.outlookbusiness.com/spotlight/news-wire/beyond-the-clear-coat-avery-dennison-fuses-molecular-armor-with-living-color-in-next-gen-ppf-breakthrough",
+  "image": "cmf-material-avery-spectrix-ppf.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "car",
+  "car_key": "xpeng-mona-l05-cabin",
+  "angle": "MONA L05：3D Mesh 軟包與三套 ROAM 內飾",
+  "url": "http://auto.ce.cn/auto/gundong/202610/t20261030_3277437.shtml",
+  "image": "cmf-car-xpeng-mona-l05-cabin.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "paint",
+  "car_key": "paint:toyota-horizon-blue",
+  "angle": "Horizon Blue：1960 年代 Toyota 的復刻藍",
+  "url": "https://www.roadandtrack.com/news/a74295433/toyota-woodland-sema-2026-bz-sienna-rav4-crown-signia-grand-highlander/",
+  "image": "cmf-paint-toyota-horizon-blue.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "kind": "paint",
+  "car_key": "paint:crown-signia-gts",
+  "angle": "Crown Signia GT-S：加亮片的深灰金屬漆",
+  "url": "https://media.toyota.ca/en/releases/2026/toyota-reimagines-crown-signia-as-gt-s-performance-concept-for-s.html",
+  "image": "cmf-paint-crown-signia-gts-grey.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "car",
+  "car_key": "car:byd-tang-3rd",
+  "angle": "第三代唐：沙丘米菱格絎縫與星際雙屏",
+  "url": "https://www.ithome.com/1/020/234.htm",
+  "image": "cmf-car-byd-tang-cabin.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "paint",
+  "car_key": "paint:lamborghini-temerario-tettonero",
+  "angle": "Tettonero：五色車身配 Nero Noctis 黑頂",
+  "url": "https://www.autoblog.com/news/lamborghini-temerario-gets-a-wild-two-tone-makeover-in-five-colors",
+  "image": "cmf-paint-lamborghini-tettonero.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "kind": "paint",
+  "car_key": "paint:mini-cooper-oxford-edition",
+  "angle": "Oxford Edition：Indigo Sunset Blue 配米字旗頂",
+  "url": "https://www.mk.co.kr/en/business/12191337",
+  "image": "cmf-paint-mini-oxford.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "car",
+  "car_key": "byd-seagull-2nd",
+  "angle": "貝殼白座艙與水轉印飾板",
+  "url": "https://gemsgbr.com/article/art_99867625",
+  "image": "cmf-car-byd-seagull-2nd-cabin.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "paint",
+  "car_key": "paint:byd-seal07-2nd-aurora-pala",
+  "angle": "極光粉與帕拉綠展車",
+  "url": "https://carnewschina.com/2026/10/30/2nd-gen-byd-seal-07-reaches-dealers-with-402-hp-and-an-875-km-range/",
+  "image": "cmf-paint-byd-seal07-aurora-pala.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "kind": "paint",
+  "car_key": "paint:bmw-i3-le-castellet-blue",
+  "angle": "M Le Castellet Blue 配 Digital White",
+  "url": "https://www.bmwblog.com/2026/11/01/bmw-i3-uk-launch-press-photos/",
+  "image": "cmf-paint-bmw-i3-le-castellet.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "car",
+  "car_key": "car:changan-lumin-plus",
+  "angle": "Lumin Plus：棕色座艙配 D 字方向盤",
+  "url": "https://carnewschina.com/2026/11/02/five-door-changan-lumin-plus-reached-dealers-in-china-ahead-of-launch/",
+  "image": "cmf-car-changan-lumin-plus.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "paint",
+  "car_key": "paint:smart2-couture",
+  "angle": "smart #2 Couture：消光白配白金色車頂",
+  "url": "https://www.bitauto.hk/en/news/smart-2-electric-launches-in-china-electric-two-seater-retur-1001833/",
+  "image": "cmf-paint-smart2-couture.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "kind": "paint",
+  "car_key": "paint:nissan-pathfinder-xev6",
+  "angle": "Pathfinder XE-V6：紅底黑、炭灰、銀三色條紋",
+  "url": "https://usa.nissannews.com/en-US/releases/nissan-adventures-into-2026-sema-with-rugged-new-frontier-pathfinder-armada-show-concepts",
+  "image": "cmf-paint-nissan-pathfinder-xev6.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "car",
+  "car_key": "car:jeep-scrambler-srt-cabin",
+  "angle": "深石墨座椅配橘色嵌飾、可反轉後座",
+  "url": "https://www.thedrive.com/news/this-is-the-jeep-wrangler-scrambler-srt-with-reversible-jump-seats-a-v8-and-37-inch-tires",
+  "image": "cmf-car-jeep-scrambler-srt-cabin.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "paint",
+  "car_key": "paint:peugeot-3008-5008-titanium-grey",
+  "angle": "Titanium Grey 限定車色",
+  "url": "https://motorcars.jp/peugeot-launches-limited-edition-3008-and-5008-models-in-a-special-titanium-gray-color20261103",
+  "image": "cmf-paint-peugeot-titanium-grey.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "kind": "paint",
+  "car_key": "paint:mg4-urban-ice-blue",
+  "angle": "Ice Blue／Diamond Red 配黑車頂",
+  "url": "https://autotrader.co.nz/news/mg4-urban-special-edition-two-tone-paint",
+  "image": "cmf-paint-mg4-urban-ice-blue.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "car",
+  "car_key": "car:pagani-anima-cabin",
+  "angle": "Huayra 70 Anima：牛奶色皮革配 Loro Piana",
+  "url": "https://www.whichcar.com.au/news/pagani-huayra-70-anima-paint-diamond-dust-specs",
+  "image": "cmf-car-pagani-anima-cabin.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "paint",
+  "car_key": "paint:lambo-tettonero",
+  "angle": "Temerario Tettonero：Nero Noctis 黑頂雙色",
+  "url": "https://www.carscoops.com/2306965/lamborghini-temerario-tettonero/",
+  "image": "cmf-paint-lambo-tettonero.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "kind": "trend",
+  "car_key": "trend:akzonobel-soulful-sage",
+  "angle": "AkzoNobel 2027 年度色：Soulful Sage",
+  "url": "https://www.pcimag.com/articles/115482-akzonobel-announces-automotive-color-of-the-year",
+  "image": null
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "car",
+  "car_key": "car:bmw-m3-zanardi-cabin",
+  "angle": "Zanardi 致敬版：雷射打孔 Alcantara",
+  "url": "https://autodesignmagazine.com/en/2026/11/bmw-m3-tribute-to-zanardi-borromeodesilvas-design-blends-pineapple-and-alcantara/",
+  "image": "cmf-car-zanardi-cabin.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "material",
+  "car_key": "material:fiat-multiplay-knit",
+  "angle": "Multiplay 內裝：無縫線立體針織",
+  "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview/",
+  "image": "cmf-mat-multiplay-cabin.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "kind": "paint",
+  "car_key": "paint:akzo-modern-vintage",
+  "angle": "Modern Vintage：依原廠色碼重調經典車漆",
+  "url": "https://collisionweek.com/2026/11/04/akzonobel-launches-modern-vintage-line-historic-oem-colors-sema-show/",
+  "image": "cmf-paint-akzo-modern-vintage.jpg"
+ },
+ {
+  "date": "2026-11-07",
+  "kind": "car",
+  "car_key": "car:car-pajero-cabin",
+  "angle": "Aquacron PWB：水性液態金屬色效應",
+  "url": "https://www.mitsubishi-motors.co.jp/global/en/lineup/pajero/special/",
+  "image": "cmf-car-pajero-cabin.jpg"
+ },
+ {
+  "date": "2026-11-07",
+  "kind": "trend",
+  "car_key": "trend:trend-surventis-nexistential",
+  "angle": "NEXISTENTIAL：三區關鍵車色出爐",
+  "url": "https://www.pcimag.com/articles/115484-surventis-reveals-first-automotive-color-forecast-under-new-identity",
+  "image": "cmf-trend-surventis.jpg"
+ },
+ {
+  "date": "2026-11-07",
+  "kind": "material",
+  "car_key": "material:mat-basf-ultramid-deepgloss",
+  "angle": "Ultramid Deep Gloss：免塗高光門把框",
+  "url": "https://www.basf.com/us/en/media/news-releases/2026/11/P-US-26-41",
+  "image": null
+ },
+ {
+  "date": "2026-11-07",
+  "kind": "paint",
+  "car_key": "paint:paint-ppg-aquacron-pwb",
+  "angle": "Aquacron PWB：水性液態金屬色效應",
+  "url": "https://news.ppg.com/Press-Releases/news-details/2026/PPG-named-among-Top-100-Players-of-Chinas-New-Automotive-Supply-Chain-by-industry-news-outlet-Gasgoo/default.aspx",
+  "image": null
+ },
+ {
+  "date": "2026-11-08",
+  "kind": "car",
+  "car_key": "car:yangwang-altior-cabin",
+  "angle": "Altior 後艙：奶油雙座與水晶旋鈕",
+  "url": "https://paultan.org/2026/11/08/yangwang-altior-debut-abu-dhabi/",
+  "image": "cmf-car-yangwang-cabin.jpg"
+ },
+ {
+  "date": "2026-11-08",
+  "kind": "material",
+  "car_key": "material:kolon-mic-hood-pv5",
+  "angle": "PV5 免噴漆複合材料引擎蓋",
+  "url": "https://www.yna.co.kr/view/AKR20261105128500003",
+  "image": null
+ },
+ {
+  "date": "2026-11-08",
+  "kind": "paint",
+  "car_key": "paint:mitsu-trail-green",
+  "angle": "Trail Green Metallic：對森林與河流的新綠",
+  "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261104_1.html",
+  "image": "cmf-paint-trail-green.jpg"
+ },
+ {
+  "date": "2026-11-09",
+  "kind": "car",
+  "car_key": "car:cmf-car-lynk08-cabin",
+  "angle": "2027 款領克 08：新增內裝配色",
+  "url": "https://www.jiemian.com/article/15307261.html",
+  "image": "cmf-car-lynk08-cabin.jpg"
+ },
+ {
+  "date": "2026-11-09",
+  "kind": "material",
+  "car_key": "material:cmf-mat-rr-abalone",
+  "angle": "首度用鮑魚殼做木飾鑲嵌",
+  "url": "https://www.watchpreviously.com/news/rolls-royce-phantom-hummingbird/",
+  "image": "cmf-rr-hummingbird-abalone.jpg"
+ },
+ {
+  "date": "2026-11-09",
+  "kind": "paint",
+  "car_key": "paint:cmf-paint-dongfeng-box-rosegold",
+  "angle": "Box 限量 Rose Gold 配白車頂",
+  "url": "https://evsandbeyond.co.nz/dongfeng-first-year-nz-1000-sales-rose-gold-box-007-my27/",
+  "image": null
+ },
+ {
+  "date": "2026-11-10",
+  "kind": "car",
+  "car_key": "car:outlander-diamond-trail-cabin",
+  "angle": "Outlander Diamond Trail：防潑水座椅配卡其縫線",
+  "url": "https://www.autoweek.com/news/a74363325/2028-mitsubishi-outlander-diamond-trail-edition-drive-reveal/",
+  "image": "cmf-car-outlander-dt-seat.jpg"
+ },
+ {
+  "date": "2026-11-10",
+  "kind": "car",
+  "car_key": "car:bentley-olympia-cabin",
+  "angle": "Olympia Collection：雙綠皮革配黑染胡桃木",
+  "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
+  "image": "cmf-car-bentley-olympia-cabin.jpg"
+ },
+ {
+  "date": "2026-11-10",
+  "kind": "paint",
+  "car_key": "paint:bentley-ombre-olympia",
+  "angle": "Ombré by Mulliner：每台噴 56 小時的漸層綠",
+  "url": "https://thedailycar.news/story/2026-11-09-bentley-mulliner-builds-12-continental-gts-with-a-56-hour-ombre-paint-fi--1604fe9f",
+  "image": "cmf-paint-bentley-ombre.jpg"
+ },
+ {
+  "date": "2026-11-10",
+  "kind": "material",
+  "car_key": "material:basf-kia-ev3-study-seat",
+  "angle": "EV3 Study Car 2.0：為拆解而設計的座椅",
+  "url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190",
+  "image": "cmf-mat-basf-ev3-seat.jpg"
+ },
+ {
+  "date": "2026-11-11",
+  "kind": "car",
+  "car_key": "car:polestar-f2030-cabin",
+  "angle": "Formula 2030：充氣側翼座椅與金色點綴",
+  "url": "https://www.asiae.co.kr/en/article/2026111108190202576",
+  "image": "cmf-car-polestar-f2030-cabin.jpg"
+ },
+ {
+  "date": "2026-11-11",
+  "kind": "paint",
+  "car_key": "paint:lepas-aura-colors",
+  "angle": "Lepas Aura：瓷器般亮面與三款旅行地景色",
+  "url": "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/",
+  "image": "cmf-paint-lepas-aura.jpg"
+ },
+ {
+  "date": "2026-11-11",
+  "kind": "paint",
+  "car_key": "paint:voyah-zhiyin-2027-mushan-purple",
+  "angle": "2027 款嵐圖知音：暮山紫車色配極光紫座艙",
+  "url": "https://www.bitauto.com/article/1003114551987/",
+  "image": "cmf-paint-voyah-zhiyin.jpg"
+ }
 ]

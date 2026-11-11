@@ -1,0 +1,786 @@
+{
+ "date": "2026-11-11",
+ "weekday": "週三",
+ "issue_no": 35,
+ "lede": "Polestar 發表 Formula 2030 概念車，預告下一代 Polestar 2 的 Dual Blade 臉與 Single Blade 尾燈；長城歐拉 7 同時推旅行與溜背兩種車身，第二代魏牌藍山改走方正越野。設計專欄翻開 Auto&Design 封面故事，看吉利銀河戰艦 700 如何用石獅與古天文儀畫出越野臉。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "polestar-formula-2030",
+   "tag": "概念車 · 瑞典",
+   "date": "2026-11-10",
+   "brand": "Polestar",
+   "title": "Polestar Formula 2030 概念車：下一代 Polestar 2 的臉與單刃尾燈",
+   "orig": "Polestar unveils Formula 2030 concept, previewing the next Polestar 2",
+   "summary": "Polestar 11 月 10 日完整發表 Formula 2030 概念車，是 2024 年從 Audi 加入的設計總監 Philipp Römers 主導的第一台展示車。低矮四門跑車長 4,680mm、寬 2,021mm、高僅 1,350mm，官方說車頭就是 2027 年下一代 Polestar 2 的樣子，部分設計也會用在 2028 年的 Polestar 7。",
+   "analysis": [
+    [
+     "比例",
+     "長引擎蓋、短前後懸，座艙往後推到粗壯的後輪拱上，配 22 吋中央鎖定輪圈；比現行 Polestar 2 低約 5 吋。"
+    ],
+    [
+     "燈號",
+     "保留 Dual Blade 頭燈，嵌進鯊魚鼻上方的空力翼；車尾捨棄滿版燈條，改用官方說會先於量產導入的 Single Blade 尾燈。"
+    ],
+    [
+     "車門",
+     "後門向後開、取消 B 柱，整個側面打開就是四張獨立座椅。"
+    ],
+    [
+     "室內 UX",
+     "20 吋 HyperDIM 曲面螢幕裝在轉向柱上，中控屏下方加回 8 個可自訂的實體控制件，內裝設計主管 Juan Pablo Bernal 說要重新平衡數位與實體。"
+    ],
+    [
+     "品牌方向",
+     "外觀設計主管 Nahum Escobedo 說想在演進中保留 Polestar 可辨識的核心設計價值；Ars Technica 認為兩廂側形讓人想起 Saab Aero-X。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/10）",
+     "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+    ],
+    [
+     "Ars Technica（11/10）",
+     "https://arstechnica.com/cars/2026/11/polestar-has-a-new-look-with-its-formula-2030-concept/"
+    ]
+   ],
+   "image": {
+    "file": "news-polestar-f2030.webp",
+    "alt": "銀色 Polestar Formula 2030 概念車前 3/4，Dual Blade 頭燈",
+    "credit": "Polestar (via Electrek)",
+    "credit_url": "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+   },
+   "more_images": [
+    {
+     "file": "news-polestar-f2030-2.jpg",
+     "alt": "Formula 2030 前後門對開、無 B 柱",
+     "credit": "Polestar (via Electrek)",
+     "credit_url": "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+    },
+    {
+     "file": "news-polestar-f2030-3.jpg",
+     "alt": "Formula 2030 夜間車尾與 Single Blade 尾燈",
+     "credit": "Polestar (via Electrek)",
+     "credit_url": "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+    },
+    {
+     "file": "news-polestar-f2030-4.jpg",
+     "alt": "Formula 2030 車尾正面",
+     "credit": "Polestar (via Electrek)",
+     "credit_url": "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+    }
+   ]
+  },
+  {
+   "id": "gwm-ora-7",
+   "tag": "新車 · 中國",
+   "date": "2026-11-10",
+   "brand": "GWM（長城歐拉）",
+   "title": "長城歐拉 7：同一軸距做旅行車與溜背兩種車身",
+   "orig": "长城欧拉7正式亮相 旅行轿跑双造型",
+   "summary": "長城汽車 11 月 10 日正式公布歐拉 7，是品牌第一台「旅行轎跑」，同時提供旅行版與溜背轎跑版，兩者軸距都是 2,870mm。新車採「長城歐拉＋數字」全球命名，車尾改掛 GWM 標誌，實車已陸續到店。",
+   "analysis": [
+    [
+     "比例",
+     "旅行版 4,820×1,862×1,520mm，車頂平緩後延；轎跑版長 70mm、低 17mm，溜背更修長。"
+    ],
+    [
+     "燈號",
+     "「圓潤光眸」圓形頭燈延續歐拉家族臉，前燈 127 顆、尾燈 78 顆 LED 前後呼應。"
+    ],
+    [
+     "線條",
+     "「御風而行」超流線從車頭延伸到車尾，A 柱平順拉到 D 柱，再接上上揚的車尾。"
+    ],
+    [
+     "面處理",
+     "車尾曲面飽滿度 19%、隆起區曲率半徑 132mm，隆起點放在 0.618 黃金分割處，官方說是模仿潮水弧面。"
+    ],
+    [
+     "實用",
+     "旅行版尾門開角 81 度、配低裝載地台，車尾外擴也增加行李廂縱深。"
+    ]
+   ],
+   "sources": [
+    [
+     "鳳凰網汽車／網通社（11/10）",
+     "https://auto.ifeng.com/c/8xw1pIaWne0"
+    ]
+   ],
+   "image": {
+    "file": "news-gwm-ora7.webp",
+    "alt": "橘紅色長城歐拉 7 旅行版停在戶外露天座旁",
+    "credit": "GWM (via 鳳凰網汽車)",
+    "credit_url": "https://auto.ifeng.com/c/8xw1pIaWne0"
+   },
+   "more_images": [
+    {
+     "file": "news-gwm-ora7-2.jpg",
+     "alt": "橘紅色歐拉 7 車尾 3/4 與上揚尾部",
+     "credit": "GWM (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8xw1pIaWne0"
+    },
+    {
+     "file": "news-gwm-ora7-3.jpg",
+     "alt": "歐拉 7 旅行版側後方，人物在車旁",
+     "credit": "GWM (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8xw1pIaWne0"
+    }
+   ]
+  },
+  {
+   "id": "wey-lanshan-2",
+   "tag": "預售 · 中國",
+   "date": "2026-11-10",
+   "brand": "Wey（魏牌）",
+   "title": "第二代魏牌藍山：從圓潤改成方正越野箱型",
+   "orig": "GWM Wey opens pre-sales for second-gen Lanshan with new boxy SUV design",
+   "summary": "長城旗下魏牌 11 月 10 日開放第二代藍山預售，插電混動 SUV 從第一代的柔和圓潤改為方正箱型。提供 5 座與 6 座共 4 個版本，預售價 28.98 萬至 32.98 萬元人民幣，預計年底前正式上市。",
+   "analysis": [
+    [
+     "造型",
+     "直條式水箱護罩、外掛備胎與側開尾門，把越野 SUV 的方正語彙做足。"
+    ],
+    [
+     "比例",
+     "5 座車長 5,140mm、6 座 5,300mm，寬 2,050mm、高 1,960mm，軸距同為 3,010mm。"
+    ],
+    [
+     "配置",
+     "6 座版多出的 160mm 車長全給第三排與行李空間，用兩種車長對應不同家庭需求。"
+    ],
+    [
+     "底盤",
+     "雙腔空氣懸吊、機械式後差速鎖與後輪轉向，兼顧舒適與越野。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost（11/10）",
+     "https://cnevpost.com/2026/11/10/gwm-wey-opens-pre-sales-2nd-gen-lanshan/"
+    ]
+   ],
+   "image": {
+    "file": "news-wey-lanshan2.webp",
+    "alt": "藍灰色第二代魏牌藍山前 3/4，直條水箱護罩",
+    "credit": "Wey (via CnEVPost)",
+    "credit_url": "https://cnevpost.com/2026/11/10/gwm-wey-opens-pre-sales-2nd-gen-lanshan/"
+   },
+   "more_images": [
+    {
+     "file": "news-wey-lanshan2-2.jpg",
+     "alt": "藍色與黑色兩台第二代藍山並排",
+     "credit": "Wey (via CnEVPost)",
+     "credit_url": "https://cnevpost.com/2026/11/10/gwm-wey-opens-pre-sales-2nd-gen-lanshan/"
+    },
+    {
+     "file": "news-wey-lanshan2-3.jpg",
+     "alt": "第二代藍山正側面，方正車身與外掛備胎",
+     "credit": "Wey (via CnEVPost)",
+     "credit_url": "https://cnevpost.com/2026/11/10/gwm-wey-opens-pre-sales-2nd-gen-lanshan/"
+    },
+    {
+     "file": "news-wey-lanshan2-4.jpg",
+     "alt": "第二代藍山正面停在海邊岩石",
+     "credit": "Wey (via CnEVPost)",
+     "credit_url": "https://cnevpost.com/2026/11/10/gwm-wey-opens-pre-sales-2nd-gen-lanshan/"
+    }
+   ]
+  },
+  {
+   "id": "aion-ray-7",
+   "tag": "上市預告 · 中國",
+   "date": "2026-11-10",
+   "brand": "Aion（埃安）",
+   "title": "埃安 Ray 7 11/12 上市：低趴溜背、風阻 0.22",
+   "orig": "埃安Ray 7将于11月12日正式上市",
+   "summary": "廣汽埃安全新 Ray 車系的第一台中大型純電轎車 Ray 7 將在 11 月 12 日上市，車長近 5 米、主打年輕市場。長寬高 4,960×1,900×1,455mm，軸距 2,920mm。",
+   "analysis": [
+    [
+     "比例",
+     "低趴寬體配溜背轎跑側形，車長近 5 米。"
+    ],
+    [
+     "空力",
+     "全車 14 處氣動優化，把風阻係數降到 0.22Cd。"
+    ],
+    [
+     "燈號",
+     "家族式「量子星環」前臉、貫穿燈帶與可點亮 LOGO，車尾也用貫穿式尾燈。"
+    ],
+    [
+     "CMF",
+     "閃電黃用 5C3B 噴塗工藝，仲夏紫用超細粒徑鋁粉，強調質感。"
+    ]
+   ],
+   "sources": [
+    [
+     "鳳凰網汽車／易車（11/10）",
+     "https://auto.ifeng.com/c/8xwwmOIyjcS"
+    ]
+   ],
+   "image": {
+    "file": "news-aion-ray7.webp",
+    "alt": "閃電黃埃安 Ray 7 車頭特寫，貫穿燈帶",
+    "credit": "GAC Aion (via 鳳凰網汽車)",
+    "credit_url": "https://auto.ifeng.com/c/8xwwmOIyjcS"
+   },
+   "more_images": [
+    {
+     "file": "news-aion-ray7-2.jpg",
+     "alt": "閃電黃埃安 Ray 7 展台前 3/4",
+     "credit": "GAC Aion (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8xwwmOIyjcS"
+    },
+    {
+     "file": "news-aion-ray7-3.jpg",
+     "alt": "閃電黃埃安 Ray 7 側面溜背線條",
+     "credit": "GAC Aion (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8xwwmOIyjcS"
+    }
+   ]
+  },
+  {
+   "id": "ktm-xbow-arrow",
+   "tag": "新車 · 奧地利",
+   "date": "2026-11-10",
+   "brand": "KTM X-Bow",
+   "title": "KTM X-Bow Arrow：把達卡賽車做成封閉座艙 UTV",
+   "orig": "KTM X-Bow off-roader revealed: Dune basher gets Audi S3 power",
+   "summary": "奧地利 KTM X-Bow 11 月 10 日發表品牌第一台高性能並座越野車（SSV）Arrow，由收購 KTM 汽車部門的比利時拉力車手 Guillaume de Mévius 團隊主導，等於是達卡新 SSV 組賽車的民用版。11 月 17 日開放預訂。",
+   "analysis": [
+    [
+     "定位",
+     "Autocar 說它瞄準 Ariel Nomad；官方強調全封閉、高質感座艙，在 SSV 類別少見。"
+    ],
+    [
+     "結構",
+     "以鉻鉬鋼管車架為基礎，車重 999kg。"
+    ],
+    [
+     "動力",
+     "沿用 Audi S3 的 EA888 2.0 升渦輪，標準 276bhp、限量 500 台首發版 325bhp，七速雙離合加兩個限滑差速器。"
+    ],
+    [
+     "開發",
+     "和 de Mévius 的 G Rally 車隊（已改名 KTM X-Bow Lab Team）合作，從達卡 SSV 賽車降規而來。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar（11/10）",
+     "https://www.autocar.co.uk/car-news/new-cars/ktm-x-bow-roader-revealed-dune-basher-gets-audi-s3-power"
+    ],
+    [
+     "Racer X／KTM X-Bow 新聞稿（11/10）",
+     "https://racerxonline.com/2026/11/10/ktm-introduces-all-new-x-bow-arrow-side-by-side"
+    ]
+   ],
+   "image": {
+    "file": "news-ktm-arrow.webp",
+    "alt": "橘黑配色 KTM X-Bow Arrow 越野車前 3/4",
+    "credit": "KTM X-Bow (via Autocar)",
+    "credit_url": "https://www.autocar.co.uk/car-news/new-cars/ktm-x-bow-roader-revealed-dune-basher-gets-audi-s3-power"
+   },
+   "more_images": [
+    {
+     "file": "news-ktm-arrow-2.jpg",
+     "alt": "兩台 KTM X-Bow Arrow 停在沙丘夕陽",
+     "credit": "KTM X-Bow (via Autocar)",
+     "credit_url": "https://www.autocar.co.uk/car-news/new-cars/ktm-x-bow-roader-revealed-dune-basher-gets-audi-s3-power"
+    },
+    {
+     "file": "news-ktm-arrow-3.jpg",
+     "alt": "KTM X-Bow Arrow 座艙與方向盤",
+     "credit": "KTM X-Bow (via Autocar)",
+     "credit_url": "https://www.autocar.co.uk/car-news/new-cars/ktm-x-bow-roader-revealed-dune-basher-gets-audi-s3-power"
+    }
+   ]
+  },
+  {
+   "id": "jaguar-i-type-08",
+   "tag": "賽車 · 英國",
+   "date": "2026-11-10",
+   "brand": "Jaguar",
+   "title": "Jaguar I-Type 08：用 Type 01 的量產色塗裝 GEN4 賽車",
+   "orig": "Jaguar TCS Racing reveal Jaguar I-Type 08 with a striking new livery",
+   "summary": "Jaguar TCS Racing 11 月 10 日在倫敦 Knightsbridge 發表 Formula E GEN4 世代賽車 I-Type 08，四輪驅動最高 600kW、回收煞車 700kW。11 月 16–20 日將參加馬德里季前測試。",
+   "analysis": [
+    [
+     "CMF",
+     "塗裝以藍色為主，取自客戶可選的 Type 01 量產車色 French Ultramarine Blue。"
+    ],
+    [
+     "品牌方向",
+     "官方說藍色代表 Jaguar 新品牌識別的「科技」支柱。"
+    ],
+    [
+     "圖像",
+     "Jaguar 跳豹標誌放在 Type 01 的關鍵設計元素 strikethrough 橫線圖形上。"
+    ],
+    [
+     "技術連結",
+     "車隊說賽道驗證的技術已回饋 Type 01 開發，未來也會用在 Jaguar 道路車。"
+    ]
+   ],
+   "sources": [
+    [
+     "JLR Media（11/10）",
+     "https://media.jlr.com/jaguar-tcs-racing/news/2026/11/jaguar-tcs-racing-reveal-jaguar-i-type-08-striking-new-livery-reigning-formula-e-teams"
+    ]
+   ],
+   "image": {
+    "file": "news-jaguar-itype08.webp",
+    "alt": "藍色塗裝 Jaguar I-Type 08 Formula E 賽車",
+    "credit": "Jaguar TCS Racing (JLR Media)",
+    "credit_url": "https://media.jlr.com/jaguar-tcs-racing/news/2026/11/jaguar-tcs-racing-reveal-jaguar-i-type-08-striking-new-livery-reigning-formula-e-teams"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "od-280-s3",
+   "source": "Auto&Design",
+   "credit": "Auto&Design No.280, via OverDrive sample",
+   "kind": "issue_sample",
+   "column": "新刊 No.280",
+   "date": "2026-11-11",
+   "url": "https://downloadlibrary.overdrive.com/media/13569124",
+   "paywalled": false,
+   "orig": "Emotion, Made Tangible: Geely Galaxy Zhanjian 700 (Cover story)",
+   "design_tag": "設計故事",
+   "craft_score": 5,
+   "issue_no": 280,
+   "part": 3,
+   "section": "Emotion, Made Tangible: Geely Galaxy Zhanjian 700 (Cover story)",
+   "language": "en",
+   "title": "吉利銀河戰艦 700：用石獅與古天文儀畫出方正越野臉",
+   "points": [
+    "吉利設計主管陳政說，銀河 TT 與戰艦 700 是「一體兩面」，一個柔、一個剛。",
+    "戰艦 700 以垂直架構建立力量感，頭燈參考中國古代天文儀器。",
+    "草圖把車頭和中國守護石獅並排推敲，讓方正前臉有可辨識的性格。",
+    "內裝用麂皮、自研 CVU 軟質飾面與金屬質感，從儀表板到車頂設磁吸掛點。"
+   ],
+   "image": {
+    "file": "od-280-s3.jpg",
+    "alt": "黑色吉利銀河戰艦 700 停在城市街道",
+    "credit": "Auto&Design No.280, via OverDrive sample",
+    "credit_url": "https://downloadlibrary.overdrive.com/media/13569124"
+   },
+   "image2": {
+    "file": "od-280-s3-side.jpg",
+    "alt": "銀色戰艦 700 渲染圖側面越野姿態",
+    "credit": "Auto&Design No.280, via OverDrive sample",
+    "credit_url": "https://downloadlibrary.overdrive.com/media/13569124"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "Auto&Design 第 280 期封面故事把吉利銀河的兩台新車放在一起看：電動轎車銀河 TT 鎖定追求性能的年輕族群，線條流暢優雅；越野 SUV 戰艦 700 則要傳達從城市到越野的安全感、掌控感和舒適。雜誌形容兩台車是「同一枚硬幣的兩面」，一柔一剛，卻出自同一套品牌想法。",
+       "吉利汽車集團副總裁、全球設計負責人陳政（Chen Zheng）說：「設計是品牌最好的詮釋者。」他把設計的邏輯整理成一條鏈：形式服從功能，功能服務體驗，體驗喚起情感。"
+      ]
+     },
+     {
+      "h": "戰艦 700 的造型手法",
+      "p": [
+       "戰艦 700 的力量感來自垂直架構：立起來的車頭、方正的量體和厚實的車身側面，讓整台車看起來穩穩站在地上。設計團隊再加上幾個強烈的性格元素，其中最醒目的是頭燈，靈感來自中國古代的天文儀器。",
+       "草圖階段，設計師把戰艦 700 的車頭和中國守護石獅並排畫，一半是車、一半是獅子，用石獅的臉部結構推敲水箱護罩、頭燈和保險桿的關係，讓方正的越野臉不只硬朗，也有中國文化裡「守護」的意味。"
+      ]
+     },
+     {
+      "h": "另一面：銀河 TT 與風",
+      "p": [
+       "相對地，銀河 TT 以「風」為核心主題：Shark Nose 鯊魚鼻車頭、流動的車身線條和主動式尾翼。陳政說：「是空氣本身塑造了這台車的站姿。」車身是和空力工程師一起開發的；座艙則借用飛機機翼後掠的意象。把兩台車放在一起，可以看到同一個設計團隊如何用完全不同的主題，分別處理轎車的速度感與 SUV 的安全感。"
+      ]
+     },
+     {
+      "h": "內裝材質與巧思",
+      "p": [
+       "戰艦 700 的內裝特別講究材質：麂皮皮革、吉利自行開發的 CVU 軟質飾面、金屬質感飾件，以及仿碳纖維紋理。陳政說，每個元素都被細心組合，要營造精緻的觸感體驗。",
+       "團隊也加了實用的小設計：從儀表板一路到車頂都有磁吸固定點，車內變成可以彈性擴充的空間，駕駛和乘客能把各種配件「卡上去」使用，呼應越野與戶外的使用情境。"
+      ]
+     },
+     {
+      "h": "重點收穫",
+      "p": [
+       "這篇的價值在於看到一個品牌如何同時經營兩種性格：先定下「形式→功能→體驗→情感」的共同邏輯，再替每台車找一個清楚的主題（風、守護石獅與天文儀），讓草圖、燈組和內裝材質都圍繞主題展開。對越野車來說，垂直架構加上一兩個文化性的圖像元素，就能在方正車身裡做出辨識度。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "od-280-s3-sk.jpg",
+      "alt": "戰艦 700 前後 3/4 草圖，背景寫著 700",
+      "credit": "Auto&Design No.280, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13569124",
+      "section": 0
+     },
+     {
+      "file": "od-280-s3-3.jpg",
+      "alt": "車頭與中國守護石獅並排的草圖",
+      "credit": "Auto&Design No.280, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13569124",
+      "section": 1
+     },
+     {
+      "file": "od-280-s3-side.jpg",
+      "alt": "銀色戰艦 700 側面渲染，越過岩石",
+      "credit": "Auto&Design No.280, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13569124",
+      "section": 1
+     },
+     {
+      "file": "od-280-s3-2.jpg",
+      "alt": "橘色戰艦 700 在雪地甩尾",
+      "credit": "Auto&Design No.280, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13569124",
+      "section": 3
+     },
+     {
+      "file": "od-280-s3.jpg",
+      "alt": "黑色戰艦 700 停在城市街道",
+      "credit": "Auto&Design No.280, via OverDrive sample",
+      "credit_url": "https://downloadlibrary.overdrive.com/media/13569124",
+      "section": 4
+     }
+    ],
+    "note": "本文為依 Auto&Design 第 280 期 OverDrive 公開試閱頁重點整理改寫的精簡筆記，完整內容請見原刊。"
+   }
+  }
+ ],
+ "color_data": {
+  "interior": {
+   "theme": "Nitrogen Grey & Swedish Gold",
+   "zh": "氮灰配瑞典金：北歐性能座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板用接近 Polestar Formula 2030 外觀 Nitrogen 的冷灰，飾條與縫線借 Polestar Performance 的 Swedish Gold，門板嵌飾換成嵐圖知音極光紫方向的低彩度紫灰，扶手取 Lepas Aura Bacalar Blue 的深湖藍，下門板深灰。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Nitrogen Grey（示意）",
+     "#8E9499",
+     false,
+     "ip-upper",
+     {
+      "src": "Polestar Formula 2030 Nitrogen",
+      "url": "https://www.asiae.co.kr/en/article/2026111108190202576"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Swedish Gold（示意）",
+     "#C9A04A",
+     false,
+     "ip-decor",
+     {
+      "src": "Polestar Swedish Gold",
+      "url": "https://www.asiae.co.kr/en/article/2026111108190202576"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Aurora Mauve（示意）",
+     "#7C6A86",
+     false,
+     "door-insert",
+     {
+      "src": "嵐圖知音 極光紫內裝",
+      "url": "https://www.bitauto.com/article/1003114551987/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Bacalar Deep Blue（示意）",
+     "#2F4F6B",
+     false,
+     "armrest",
+     {
+      "src": "Lepas Aura Bacalar Blue",
+      "url": "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Gold Stitch（示意）",
+     "#D2AE5C",
+     false,
+     "stitch",
+     {
+      "src": "Polestar Swedish Gold 安全帶",
+      "url": "https://www.asiae.co.kr/en/article/2026111108190202576"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Graphite（示意）",
+     "#2B2E31",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "The Asia Business Daily：Nitrogen 外觀色與 Swedish Gold 點綴",
+     "https://www.asiae.co.kr/en/article/2026111108190202576"
+    ],
+    [
+     "易車：極光紫內裝",
+     "https://www.bitauto.com/article/1003114551987/"
+    ],
+    [
+     "Auto&Design：Lepas Aura 三款車色",
+     "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+    ]
+   ],
+   "mood": "nordic performance cool grey gold",
+   "mood_text": "冷灰打底，一抹瑞典金與紫灰，安靜但帶性能感。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#3A3D41",
+    "seat-bolster": "#8E9499",
+    "seat-center": "#7C6A86",
+    "console": "#24272A",
+    "console-arm": "#2F4F6B",
+    "steering": "#26292C",
+    "ip-lower": "#2B2E31",
+    "accent-pod": "#C9A04A",
+    "accent-pod2": "#7C6A86"
+   }
+  }
+ },
+ "cmf": [
+  {
+   "id": "cmf-car-polestar-f2030-cabin",
+   "kind": "car",
+   "car": "Polestar Formula 2030",
+   "tag": "內裝 · 瑞典",
+   "title": "Formula 2030：充氣側翼座椅與金色點綴",
+   "points": [
+    "四張獨立座椅的側翼與坐墊可充氣，貼合每位乘客身形。",
+    "Polestar Performance 招牌 Swedish Gold 用在卡鉗、氣嘴蓋、內裝細節與安全帶。",
+    "外觀 Nitrogen 專屬色會隨自然光變化，全車採同色調設計。",
+    "中控屏下方 8 個實體控制件，車主可選翹板開關或旋鈕。"
+   ],
+   "image": {
+    "file": "cmf-car-polestar-f2030-cabin.jpg",
+    "alt": "Formula 2030 淺灰座艙與四張獨立座椅、金色安全帶",
+    "credit": "Polestar (via The Asia Business Daily)",
+    "credit_url": "https://www.asiae.co.kr/en/article/2026111108190202576"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-polestar-f2030-cabin-2.jpg",
+     "alt": "Formula 2030 駕駛座、轉向柱上的 20 吋螢幕",
+     "credit": "Polestar (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2311930/polestar-formula-2030-concept-previews-new-crossover/"
+    }
+   ],
+   "sources": [
+    [
+     "The Asia Business Daily（11/11）",
+     "https://www.asiae.co.kr/en/article/2026111108190202576"
+    ],
+    [
+     "Carscoops（11/10）",
+     "https://www.carscoops.com/2311930/polestar-formula-2030-concept-previews-new-crossover/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-lepas-aura",
+   "kind": "paint",
+   "car": "Lepas Aura",
+   "tag": "車色 · 中國",
+   "title": "Lepas Aura：瓷器般亮面與三款旅行地景色",
+   "points": [
+    "造型先用雕塑做出量體與張力，再覆上亮面塗層，像瓷器一樣凸顯下方曲面。",
+    "設計師說：雕塑給車形體，瓷器給它優雅的存在感。",
+    "三款車色 Dawn Pearl、Bacalar Blue、Provence Twilight，各取自大溪地日出、墨西哥 Bacalar 潟湖等地景。",
+    "首席設計師 Iván Dulanović 說優雅不是固定的，會隨光線改變。"
+   ],
+   "image": {
+    "file": "cmf-paint-lepas-aura.jpg",
+    "alt": "藍色 Lepas Aura 概念車停在展台燈光下",
+    "credit": "Lepas (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-lepas-aura-2.jpg",
+     "alt": "藍色 Lepas Aura 前 3/4",
+     "credit": "Lepas (via Auto&Design)",
+     "credit_url": "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+    },
+    {
+     "file": "cmf-paint-lepas-aura-3.jpg",
+     "alt": "Lepas Aura 車頭正面與燈組",
+     "credit": "Lepas (via Auto&Design)",
+     "credit_url": "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+    }
+   ],
+   "sources": [
+    [
+     "Auto&Design（11/10）",
+     "https://autodesignmagazine.com/en/2026/11/lepas-aura-feline-elegance/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-voyah-zhiyin-2027",
+   "kind": "paint",
+   "car": "Voyah 2027 款嵐圖知音",
+   "tag": "車色＋內裝 · 中國",
+   "title": "2027 款嵐圖知音：暮山紫車色配極光紫座艙",
+   "points": [
+    "全系新增暮山紫車色，延續「星伴時光美學」設計語言。",
+    "內裝新增極光紫專屬配色，用環抱式「繁星擁抱座艙」佈局。",
+    "大面積皮質包覆、木紋飾板，加上漫反射氛圍燈。",
+    "新車 11 月 13 日上市，暮山紫與極光紫是這次改款的主要配色更新。"
+   ],
+   "image": {
+    "file": "cmf-paint-voyah-zhiyin.jpg",
+    "alt": "暮山紫 2027 款嵐圖知音前 3/4",
+    "credit": "Voyah (via 易車)",
+    "credit_url": "https://www.bitauto.com/article/1003114551987/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-voyah-zhiyin-2.jpg",
+     "alt": "極光紫內裝儀表板與紫色氛圍燈",
+     "credit": "Voyah (via 易車)",
+     "credit_url": "https://www.bitauto.com/article/1003114551987/"
+    }
+   ],
+   "sources": [
+    [
+     "易車（11/10）",
+     "https://www.bitauto.com/article/1003114551987/"
+    ],
+    [
+     "鳳凰網汽車／易車訊（11/9）",
+     "https://auto.ifeng.com/c/8xvHk55Whhc"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-app-tablet",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "App 介面 · 美國",
+   "title": "Tesla App 4.62：平板版把按鈕搬上車輛圖",
+   "date": "2026-11-10",
+   "points": [
+    "App 支援 iPad 與摺疊手機，多數畫面改為滿版、配大尺寸車輛視覺化圖。",
+    "大螢幕上的車輛圖幾乎和車內顯示一致，有環境背景與車身反射。",
+    "前後廂、充電口與上鎖按鈕直接放在車輛圖上，不再塞在快捷操作列。",
+    "胎壓按鈕移到車輛圖下方；空調、位置、自駕、召喚與充電等面板都善用大螢幕。"
+   ],
+   "image": {
+    "file": "hmi-tesla-app-tablet.jpg",
+    "alt": "Tesla App 平板版介面，左側選單與滿版能源畫面",
+    "credit": "Not a Tesla App 示意圖",
+    "credit_url": "https://www.notateslaapp.com/tesla-app-updates/version/4.62.5/release-notes"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（11/10）",
+     "https://www.notateslaapp.com/tesla-app-updates/version/4.62.5/release-notes"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "財報 · 日本",
+   "date": "2026-11-10",
+   "title": "Honda 上修全年獲利 20%，再認列 30 億美元電車重整費用",
+   "summary": "Honda 將全年營業利益預估從 6,500 億日圓上修到 7,800 億日圓，靠美國油電車需求與日圓走弱支撐；但本季再認列 4,848 億日圓電車重整費用，累計電車相關損失超過 120 億美元。7–9 月營業利益年減 39%，全年全球銷量預估因中國下滑下修 7% 至 316 萬輛。",
+   "sources": [
+    [
+     "Reuters via Investing.com（11/10）",
+     "https://www.investing.com/news/stock-market-news/honda-raises-fullyear-profit-outlook-books-3-billion-in-evlinked-costs-in-q2-5014292"
+    ]
+   ]
+  },
+  {
+   "tag": "供應鏈 · 歐洲",
+   "date": "2026-11-10",
+   "title": "晶片廠警告：AI 搶產能，車用成熟製程出現瓶頸",
+   "summary": "在慕尼黑 Electronica 展上，Nexperia 臨時執行長 Stefan Tilger 說公司訂單「嚴重超額」，因同業把產能轉向 AI 資料中心，車用二極體、電晶體等成熟製程投資多年落後，車廠「正嚴重受影響」。STMicroelectronics 執行長也說代工與封裝廠正逐步撤出車用與工業產品。",
+   "sources": [
+    [
+     "Reuters via Investing.com（11/10）",
+     "https://www.investing.com/news/stock-market-news/chipmakers-warn-ai-demand-is-creating-bottlenecks-in-automotive-supply-chain-5015687"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 美國",
+   "date": "2026-11-10",
+   "title": "Cybertruck 明年停產，大型電動皮卡市場再失一員",
+   "summary": "Musk 表示 Tesla 會先拉高 Austin 廠產量消化訂單，約明年 6、7 月拆掉 Cybertruck 產線，改產 Cybercab。Motor Intelligence 估計今年前九月 Cybertruck 銷量年減 28%、約 11,600 輛。Ford 已停產 F-150 Lightning、轉做約 2.8 萬美元的小型電動皮卡，Stellantis 明年推增程式皮卡。",
+   "sources": [
+    [
+     "Reuters via Investing.com（11/10）",
+     "https://www.investing.com/news/stock-market-news/teslacybertruck-is-ev-pickup-markets-latest-casualty-5014733"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 中國",
+   "date": "2026-11-10",
+   "title": "商務部延長暫停鋰電池及材料出口管制至 2027 年 1 月",
+   "summary": "商務部、海關總署 11 月 9 日發布 2026 年第 58 號公告，自 11 月 11 日起至 2027 年 1 月 10 日，繼續暫停實施 2025 年第 55–58 號及第 61、62 號公告的管制措施，涵蓋鋰電池與鋰電材料等出口管制，電池與儲能廠出口安排可再延續。",
+   "sources": [
+    [
+     "隆眾資訊／我的鋼鐵網（11/10）",
+     "https://www.mysteel.com/oilchem/a/26111018/02576F66CD1CF28A.html"
+    ]
+   ]
+  },
+  {
+   "tag": "供應鏈 · 台灣",
+   "date": "2026-11-10",
+   "title": "海運缺櫃缺艙，東陽、麗清 10 月營收年減逾 9%",
+   "summary": "東陽說進入北美旺季訂單持續湧入，但海運缺櫃、艙位吃緊比疫情時更嚴重，10 月營收 19.92 億元、年減 9.27%。車燈 LED 廠麗清受關鍵零件缺料影響，10 月營收年減 9.16%，第三季每股虧 1.24 元，但說訂單能見度已到 2028 年，墨西哥新廠 11 月小量產。",
+   "sources": [
+    [
+     "工商時報（11/10）",
+     "https://www.ctee.com.tw/news/20261110700174-439901"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 台灣",
+   "date": "2026-11-10",
+   "title": "和泰車 10 月營收 259.76 億元創同期新高",
+   "summary": "和泰車 10 月合併營收年增 4.77%，前十月 2,671.67 億元、年增 13.42%，都創同期新高，日本原廠來車增加帶動 UX、ES 銷售，日本經銷商貢獻 36.5 億元。和泰預估 11 月 TOYOTA 與 LEXUS 掛牌約 1.49 萬輛、市占 39.2%，今年台灣車市維持 43 萬輛。BMW 代理汎德永業前三季每股賺 10.62 元。",
+   "sources": [
+    [
+     "經濟日報／中央社（11/10）",
+     "https://money.udn.com/money/story/5612/9869898"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Cab-rearward",
+  "zh": "座艙後移（cab-rearward）",
+  "body": "座艙後移是指把整個座艙和擋風玻璃往車尾方向放，讓引擎蓋變長、前輪到 A 柱的距離拉開，常見於後驅跑車和豪華房車。本期的 Polestar Formula 2030 就是例子：它的座艙被推到粗壯的後輪拱上方，前面留出長引擎蓋和短前懸，官方說這是用現代手法重新詮釋座艙後移的側面。設計師這樣做，是讓車看起來重心在後、蓄勢往前衝。",
+  "source": [
+   [
+    "The Asia Business Daily：Formula 2030 側面重新詮釋 cab-rearward",
+    "https://www.asiae.co.kr/en/article/2026111108190202576"
+   ],
+   [
+    "Electrek：Formula 2030 座艙後推到後輪拱上",
+    "https://electrek.co/2026/11/10/polestar-formula-2030-concept-unveiled-next-polestar-2/"
+   ]
+  ],
+  "diagram": "term.svg"
+ }
+}

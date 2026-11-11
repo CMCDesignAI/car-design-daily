@@ -1,146 +1,152 @@
 [
-  {
-    "date": "2026-10-17",
-    "key": "hmi-carplay-ios27-siri",
-    "url": "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/",
-    "image": "hmi-carplay-ios27.jpg"
-  },
-  {
-    "date": "2026-10-18",
-    "key": "hmi-gv90-cinematic",
-    "url": "https://newsroom.genesis.com/redefining-space-with-the-genesis-gv90s-luxury-home-theater/",
-    "image": "hmi-gv90-cinematic.jpg"
-  },
-  {
-    "date": "2026-10-19",
-    "key": "hmi-byd-tang-giant-screen-ui",
-    "url": "https://carnewschina.com/2026/10/16/byd-unveils-modular-widescreen-ui-on-3rd-gen-tang-ev-ahead-of-q4-launch/",
-    "image": "hmi-byd-tang-giant-ui.jpg"
-  },
-  {
-    "date": "2026-10-20",
-    "key": "hmi-tesla-large-font",
-    "url": "https://www.notateslaapp.com/news/4847/musk-confirms-bigger-text-option-coming-to-tesla-screens",
-    "image": "hmi-tesla-large-font.jpg"
-  },
-  {
-    "date": "2026-10-21",
-    "key": "hmi-tesla-parked-vis-surroundings",
-    "url": "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings",
-    "image": "hmi-tesla-parked-vis.jpg"
-  },
-  {
-    "date": "2026-10-22",
-    "key": "hmi-android-auto-gemini-pi",
-    "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/",
-    "image": "hmi-android-auto-gemini-pi.jpg"
-  },
-  {
-    "date": "2026-10-23",
-    "key": "hmi-android-auto-work-account",
-    "url": "https://9to5google.com/2026/10/19/android-auto-tests-work-account-support/",
-    "image": "hmi-android-auto-work-account.jpg"
-  },
-  {
-    "date": "2026-10-24",
-    "key": "hmi-avatr-os-6-1-pet-card",
-    "url": "https://www.ithome.com/1/016/844.htm",
-    "image": "hmi-avatr-os-6-1-pet-card.jpg"
-  },
-  {
-    "date": "2026-10-25",
-    "key": "hmi-tesla-halloween-mode",
-    "url": "https://www.notateslaapp.com/software-updates/version/2026.38.3.2/release-notes",
-    "image": "hmi-tesla-halloween-mode.jpg"
-  },
-  {
-    "date": "2026-10-26",
-    "key": "hmi-tesla-roadster-ui",
-    "url": "https://www.notateslaapp.com/news/4894/tesla-shows-off-new-roadsters-fighter-jet-inspired-ui-video",
-    "image": "hmi-tesla-roadster-ui.jpg"
-  },
-  {
-    "date": "2026-10-27",
-    "key": "hmi-tesla-robotaxi-live-activity",
-    "url": "https://www.notateslaapp.com/news/4896/tesla-adds-ipad-iphone-duo-support-to-robotaxi-app",
-    "image": "hmi-tesla-robotaxi-live-activity.jpg"
-  },
-  {
-    "date": "2026-10-28",
-    "key": "hmi-phoneauto-android-auto",
-    "url": "https://9to5google.com/2026/10/27/android-auto-phone-display-app/",
-    "image": "hmi-phoneauto-android-auto.jpg"
-  },
-  {
-    "date": "2026-10-29",
-    "key": "hmi-carplay-ios-27-2",
-    "url": "https://9to5mac.com/2026/10/27/ios-27-2-has-two-carplay-improvements-heres-whats-new/",
-    "image": "hmi-carplay-ios-27-2.jpg"
-  },
-  {
-    "date": "2026-10-30",
-    "key": "hmi-mini-round-oled",
-    "url": "https://www.bmwblog.com/2026/10/29/mini-keeping-circular-screen/",
-    "image": "hmi-mini-round-oled.jpg"
-  },
-  {
-    "date": "2026-10-31",
-    "key": "hmi-tesla-robotaxi-calm-mode",
-    "url": "https://www.notateslaapp.com/news/4920/tesla-extends-robotaxi-hours-to-2-am-adds-new-calm-mode-that-hides-fsd-visuals",
-    "image": "hmi-tesla-robotaxi-calm-mode.jpg"
-  },
-  {
-    "date": "2026-11-01",
-    "key": "hmi-tesla-grok-intel-2026-38",
-    "url": "https://www.notateslaapp.com/news/4927/tesla-adds-grok-files-to-intel-cars-in-update-202638-will-it-be-enabled",
-    "image": "hmi-tesla-grok-intel.jpg"
-  },
-  {
-    "date": "2026-11-02",
-    "key": "hmi-hyundai-pleos-naver-kakao",
-    "url": "https://en.fnnews.com/news/202611011810549415",
-    "image": "hmi-hyundai-pleos-naver-kakao.jpg"
-  },
-  {
-    "date": "2026-11-03",
-    "key": "hmi-tesla-app-foldables",
-    "url": "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables",
-    "image": "hmi-tesla-app-foldables.jpg"
-  },
-  {
-    "date": "2026-11-04",
-    "key": "hmi-android-auto-18-1",
-    "url": "https://9to5google.com/2026/11/03/android-auto-18-1-update-rollout-teardown/",
-    "image": "hmi-android-auto-18-1.jpg"
-  },
-  {
-    "date": "2026-11-05",
-    "key": "hmi-mercedes-smart-windows",
-    "url": "https://www.carscoops.com/2307245/mercedes-benz-smart-rear-window-led-messages/",
-    "image": "hmi-mercedes-smart-windows.jpg"
-  },
-  {
-    "date": "2026-11-06",
-    "key": "hmi-tesla-grok-menus",
-    "url": "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes",
-    "image": "hmi-tesla-grok-menus.jpg"
-  },
-  {
-    "date": "2026-11-07",
-    "key": "hmi-tesla-grok-voice-map",
-    "url": "https://www.notateslaapp.com/news/4958/everything-you-can-control-with-grok-in-your-tesla",
-    "image": "hmi-tesla-grok-voice.jpg"
-  },
-  {
-    "date": "2026-11-08",
-    "key": "hmi-android-auto-gemini-call",
-    "url": "https://9to5google.com/2026/11/05/android-auto-gemini-call-text-voice-command-bug/",
-    "image": "hmi-android-auto-gemini.jpg"
-  },
-  {
-    "date": "2026-11-09",
-    "key": "hmi-mercedes-e-l-china",
-    "url": "https://www.jiemian.com/article/15307261.html",
-    "image": "hmi-mercedes-e-l-cockpit.jpg"
-  }
+ {
+  "date": "2026-10-17",
+  "key": "hmi-carplay-ios27-siri",
+  "url": "https://9to5mac.com/2026/09/21/heres-everything-new-for-carplay-in-ios-27/",
+  "image": "hmi-carplay-ios27.jpg"
+ },
+ {
+  "date": "2026-10-18",
+  "key": "hmi-gv90-cinematic",
+  "url": "https://newsroom.genesis.com/redefining-space-with-the-genesis-gv90s-luxury-home-theater/",
+  "image": "hmi-gv90-cinematic.jpg"
+ },
+ {
+  "date": "2026-10-19",
+  "key": "hmi-byd-tang-giant-screen-ui",
+  "url": "https://carnewschina.com/2026/10/16/byd-unveils-modular-widescreen-ui-on-3rd-gen-tang-ev-ahead-of-q4-launch/",
+  "image": "hmi-byd-tang-giant-ui.jpg"
+ },
+ {
+  "date": "2026-10-20",
+  "key": "hmi-tesla-large-font",
+  "url": "https://www.notateslaapp.com/news/4847/musk-confirms-bigger-text-option-coming-to-tesla-screens",
+  "image": "hmi-tesla-large-font.jpg"
+ },
+ {
+  "date": "2026-10-21",
+  "key": "hmi-tesla-parked-vis-surroundings",
+  "url": "https://www.notateslaapp.com/news/4852/what-if-teslas-parked-vehicle-screen-matched-your-surroundings",
+  "image": "hmi-tesla-parked-vis.jpg"
+ },
+ {
+  "date": "2026-10-22",
+  "key": "hmi-android-auto-gemini-pi",
+  "url": "https://9to5google.com/2026/10/20/gemini-android-auto-personal-intelligence/",
+  "image": "hmi-android-auto-gemini-pi.jpg"
+ },
+ {
+  "date": "2026-10-23",
+  "key": "hmi-android-auto-work-account",
+  "url": "https://9to5google.com/2026/10/19/android-auto-tests-work-account-support/",
+  "image": "hmi-android-auto-work-account.jpg"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "hmi-avatr-os-6-1-pet-card",
+  "url": "https://www.ithome.com/1/016/844.htm",
+  "image": "hmi-avatr-os-6-1-pet-card.jpg"
+ },
+ {
+  "date": "2026-10-25",
+  "key": "hmi-tesla-halloween-mode",
+  "url": "https://www.notateslaapp.com/software-updates/version/2026.38.3.2/release-notes",
+  "image": "hmi-tesla-halloween-mode.jpg"
+ },
+ {
+  "date": "2026-10-26",
+  "key": "hmi-tesla-roadster-ui",
+  "url": "https://www.notateslaapp.com/news/4894/tesla-shows-off-new-roadsters-fighter-jet-inspired-ui-video",
+  "image": "hmi-tesla-roadster-ui.jpg"
+ },
+ {
+  "date": "2026-10-27",
+  "key": "hmi-tesla-robotaxi-live-activity",
+  "url": "https://www.notateslaapp.com/news/4896/tesla-adds-ipad-iphone-duo-support-to-robotaxi-app",
+  "image": "hmi-tesla-robotaxi-live-activity.jpg"
+ },
+ {
+  "date": "2026-10-28",
+  "key": "hmi-phoneauto-android-auto",
+  "url": "https://9to5google.com/2026/10/27/android-auto-phone-display-app/",
+  "image": "hmi-phoneauto-android-auto.jpg"
+ },
+ {
+  "date": "2026-10-29",
+  "key": "hmi-carplay-ios-27-2",
+  "url": "https://9to5mac.com/2026/10/27/ios-27-2-has-two-carplay-improvements-heres-whats-new/",
+  "image": "hmi-carplay-ios-27-2.jpg"
+ },
+ {
+  "date": "2026-10-30",
+  "key": "hmi-mini-round-oled",
+  "url": "https://www.bmwblog.com/2026/10/29/mini-keeping-circular-screen/",
+  "image": "hmi-mini-round-oled.jpg"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "hmi-tesla-robotaxi-calm-mode",
+  "url": "https://www.notateslaapp.com/news/4920/tesla-extends-robotaxi-hours-to-2-am-adds-new-calm-mode-that-hides-fsd-visuals",
+  "image": "hmi-tesla-robotaxi-calm-mode.jpg"
+ },
+ {
+  "date": "2026-11-01",
+  "key": "hmi-tesla-grok-intel-2026-38",
+  "url": "https://www.notateslaapp.com/news/4927/tesla-adds-grok-files-to-intel-cars-in-update-202638-will-it-be-enabled",
+  "image": "hmi-tesla-grok-intel.jpg"
+ },
+ {
+  "date": "2026-11-02",
+  "key": "hmi-hyundai-pleos-naver-kakao",
+  "url": "https://en.fnnews.com/news/202611011810549415",
+  "image": "hmi-hyundai-pleos-naver-kakao.jpg"
+ },
+ {
+  "date": "2026-11-03",
+  "key": "hmi-tesla-app-foldables",
+  "url": "https://www.notateslaapp.com/news/4930/tesla-to-update-app-to-better-handle-android-foldables",
+  "image": "hmi-tesla-app-foldables.jpg"
+ },
+ {
+  "date": "2026-11-04",
+  "key": "hmi-android-auto-18-1",
+  "url": "https://9to5google.com/2026/11/03/android-auto-18-1-update-rollout-teardown/",
+  "image": "hmi-android-auto-18-1.jpg"
+ },
+ {
+  "date": "2026-11-05",
+  "key": "hmi-mercedes-smart-windows",
+  "url": "https://www.carscoops.com/2307245/mercedes-benz-smart-rear-window-led-messages/",
+  "image": "hmi-mercedes-smart-windows.jpg"
+ },
+ {
+  "date": "2026-11-06",
+  "key": "hmi-tesla-grok-menus",
+  "url": "https://www.notateslaapp.com/software-updates/version/2026.26.300.12/release-notes",
+  "image": "hmi-tesla-grok-menus.jpg"
+ },
+ {
+  "date": "2026-11-07",
+  "key": "hmi-tesla-grok-voice-map",
+  "url": "https://www.notateslaapp.com/news/4958/everything-you-can-control-with-grok-in-your-tesla",
+  "image": "hmi-tesla-grok-voice.jpg"
+ },
+ {
+  "date": "2026-11-08",
+  "key": "hmi-android-auto-gemini-call",
+  "url": "https://9to5google.com/2026/11/05/android-auto-gemini-call-text-voice-command-bug/",
+  "image": "hmi-android-auto-gemini.jpg"
+ },
+ {
+  "date": "2026-11-09",
+  "key": "hmi-mercedes-e-l-china",
+  "url": "https://www.jiemian.com/article/15307261.html",
+  "image": "hmi-mercedes-e-l-cockpit.jpg"
+ },
+ {
+  "date": "2026-11-11",
+  "key": "hmi-tesla-app-tablet",
+  "url": "https://www.notateslaapp.com/tesla-app-updates/version/4.62.5/release-notes",
+  "image": "hmi-tesla-app-tablet.jpg"
+ }
 ]
