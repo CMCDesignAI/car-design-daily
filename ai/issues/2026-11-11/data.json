@@ -1,0 +1,748 @@
+{
+ "date": "2026-11-11",
+ "weekday": "星期三",
+ "issue_no": 35,
+ "lede": "MiniMax 開源可直出 16MP 的 H3-Image，ComfyUI 當天支援；Gemini 4 Carbon 正式開放給 Ultra 訂戶與付費 API。圖像與影片榜各有一款新進前 10。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "aif26-ai-car-design",
+   "org": "Autodesk",
+   "tag": "AI 輔助汽車設計",
+   "date": "2026-11-06",
+   "topic": "ai-car-design",
+   "title": "Autodesk 汽車創新論壇 AIF26 回顧：AI 從「展示可能」走向設計、視覺化與工程的日常流程",
+   "short_title": "AIF26：車廠怎麼把 AI 放進設計流程",
+   "one": "Autodesk 整理德國達姆施塔特 AIF26 論壇的與會心得：設計與工程正把 AI 模擬和工程限制提前到概念階段，但大家一致強調創意方向仍要靠人。",
+   "orig": "From possibility to practicality: Reflections on AIF26",
+   "summary": "【誰在做】Autodesk 11/6 的官方回顧：AIF26 兩天、491 人、76 家汽車與移動產業公司、27 場議程。【流程怎麼走】MUNIQ Design 說 AI 已更深入設計、視覺化與工程流程，讓團隊更早做決定、更有效率地探索點子；Design Week 的十點觀察指出，工程限制被提前帶進概念開發，AI 輔助模擬讓設計師也能拿到技術回饋，再配合混合實境一起評估實體與數位體驗。議程包含 Ford 與 Autodesk 的「Ford Raptor 衍生式設計懸吊：設計與工程一起工作」。與會者 David Coveney 試用 Granstudio 的 DigiPHY（把實體車件放進虛擬環境，一起檢查開門方式、操控位置），作者說體驗「incredible」。【人怎麼介入】Linkage Design 強調光加速不夠，創意方向、視覺化與說故事仍是驗證設計意圖的關鍵。【限制】這是主辦方 Autodesk 的回顧文，沒有公開具體使用的 AI 模型或量化成效。",
+   "links": [
+    [
+     "Autodesk Design Studio 部落格（11/6）",
+     "https://blogs.autodesk.com/design-studio/2026/11/06/from-possibility-to-practicality-reflections-on-aif26/"
+    ]
+   ],
+   "image": {
+    "file": "aif26-autodesk.webp",
+    "alt": "AIF26 會場中庭擠滿與會者與展示車",
+    "credit": "Autodesk",
+    "credit_url": "https://blogs.autodesk.com/design-studio/2026/11/06/from-possibility-to-practicality-reflections-on-aif26/"
+   },
+   "gloss": [
+    [
+     "衍生式設計",
+     "工程師設定條件與限制，由軟體自動產生多種可行造型再挑選"
+    ],
+    [
+     "混合實境",
+     "把實體物件和虛擬畫面放在同一個場景一起看"
+    ]
+   ]
+  },
+  {
+   "id": "minimax-h3-image-open",
+   "org": "MiniMax",
+   "tag": "重磅開源 · 圖像",
+   "date": "2026-11-10",
+   "title": "MiniMax 開源 H3-Image：一顆模型同時文生圖與改圖，6 步直接出 4096×4096（約 1600 萬像素）",
+   "short_title": "MiniMax H3-Image 開源",
+   "one": "MiniMax 把影片模型 H3 的圖像版開放權重：文生圖和參考圖編輯同一顆模型，原生出 16MP 大圖，ComfyUI 當天就支援。",
+   "orig": "Today, we're releasing MiniMax H3-Image, an open-weight image generation model built on H3.",
+   "summary": "【是什麼（官方說法）】H3-Image 以 H3 為基礎、拿掉音訊分支，支援文生圖、參考圖生成與編輯，最多 16 張參考圖；官方說 4K（4096×4096）不到 10 秒、最快為主流方案的 5 倍，提示詞遵循是開源模型最佳。模型蒸餾成 6 步、不用 CFG，各比例都原生約 16MP（到 6272×2688 的 21:9），不用放大器。【規格】DiT 約 33.1B 參數，BF16 權重約 66 GB，文字編碼器沿用 MiniMax-H3；另有選用的提示詞擴寫模型 H3-Image-PE。【哪裡能用、價格】Hugging Face 開放權重（MiniMax-H3-Image 社群授權，部分用途需另申請書面授權）；也可用 MiniMax API、MiniMax Code 與海螺 AI，官方說價格約主流方案的 50–70%，首週 4K 以上請求半價。ComfyUI 原生支援並提供 Partner Nodes 雲端版。【限制】速度與品質都是官方說法，尚無獨立評測；本機版需要大顯存（見今日教學）。",
+   "links": [
+    [
+     "MiniMax 官方部落格",
+     "https://www.minimax.io/blog/minimax-h3-image"
+    ],
+    [
+     "Hugging Face 模型卡",
+     "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+    ],
+    [
+     "ComfyUI 官方部落格",
+     "https://blog.comfy.org/p/minimax-h3-image-is-now-available"
+    ]
+   ],
+   "image": {
+    "file": "minimax-h3-image.webp",
+    "alt": "MiniMax H3 image 字樣與粉紅水母主視覺",
+    "credit": "MiniMax",
+    "credit_url": "https://www.minimax.io/blog/minimax-h3-image"
+   },
+   "gloss": [
+    [
+     "開放權重",
+     "模型檔可以下載到自己電腦跑，但要遵守授權條款"
+    ],
+    [
+     "16MP",
+     "1600 萬像素，例如 4096×4096 的圖"
+    ]
+   ]
+  },
+  {
+   "id": "gemini4-carbon-ga",
+   "org": "Google",
+   "tag": "延伸 · 文字模型 · 正式開放",
+   "date": "2026-11-10",
+   "title": "Gemini 4 Carbon 正式開放：AI Ultra 訂戶在 Gemini App、搜尋 AI 模式可用，付費 API 同步上線",
+   "short_title": "Gemini 4 Carbon 正式開放",
+   "one": "10 月底只給資安夥伴試用的 Google 最強模型，現在 Ultra 訂戶和付費開發者都能用了；一般難題 Google 仍建議用 Argon。",
+   "orig": "Today, we're making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers.",
+   "summary": "【這次新在哪】10/29 本報介紹過 Carbon 預覽，當時只開放給 Fairwind 計畫的資安防禦者。11/10 起：Google AI Ultra 訂戶可在 Gemini App（桌機、手機、網頁）、搜尋 AI 模式與 Antigravity 使用；付費開發者可在 AI Studio、Android Studio 透過 API 使用，企業可用 Gemini for business。9to5Google 指出 App 的模型選單變成「4 Argon：程式與分析」「4 Carbon：最複雜的工作」，並移除 3.1 Pro。【官方定位】Carbon 會用比 Argon 更多 token 深入探索、跑更長的驗證迴圈，適合複雜多步驟寫程式除錯與開放式科研；多數工作 Argon 仍是首選。【價格】11/30 前優惠價每百萬 token 輸入 2／輸出 10 美元，之後 4／20 美元。The Verge 說優惠價約是 GPT-6 Astra 的五分之一、Fable 5.2 的四分之一，但不同模型用的 token 數不同，不一定真的比較省。【限制】AI Pro 與免費用戶何時能用尚未公布。【外部評測】LMArena 文字榜目前第 1 名（1538 分，資料 11/9）。",
+   "links": [
+    [
+     "Google 官方部落格（11/10）",
+     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    ],
+    [
+     "9to5Google",
+     "https://9to5google.com/2026/11/10/gemini-app-4-carbon/"
+    ],
+    [
+     "The Verge",
+     "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+    ],
+    [
+     "LMArena Text 排行榜",
+     "https://lmarena.ai/leaderboard/text"
+    ],
+    [
+     "Google DeepMind X 貼文",
+     "https://x.com/GoogleDeepMind/status/2120219371473617099"
+    ]
+   ],
+   "image": {
+    "file": "gemini4-carbon-ga.webp",
+    "alt": "Gemini 4 Carbon 字樣與藍色晶體主視覺",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+   },
+   "gloss": [
+    [
+     "AI Ultra",
+     "Google 最高階的 AI 訂閱方案"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-robotics-25",
+   "org": "Google DeepMind",
+   "tag": "機器人模型",
+   "date": "2026-11-10",
+   "title": "Gemini Robotics 2.5：機器人學更多技能、做得更快，在賓士產線揀料成功率 96%",
+   "short_title": "Gemini Robotics 2.5 進賓士工廠",
+   "one": "DeepMind 新一代控制機器人的 AI 模型，實驗室任務成功率提高 30–100%；和 Apptronik、賓士在匈牙利與德國產線試做汽車零件揀料。",
+   "orig": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date.",
+   "summary": "【官方說法】在 200 多項任務（用夾子夾食物、綁蝴蝶結、用滴管等）評估，成功率比前一版高 30–100%（依任務類型），速度快 20–30%。在 Kecskemét（匈牙利）與 Sindelfingen（德國）的賓士產線概念驗證中，Apptronik Apollo 2 人形機器人從散裝料箱揀出零件做 kitting，成功率 96%。推理時的安全引導讓有障礙物時的安全完成率提高 33%（Ars Technica：有人擋路時提高 43%）；另開源機器人越獄安全基準 ASIMOV。【限制】只開放給機器人合作夥伴（如 Agile Robots、Apptronik、Boston Dynamics），沒有公開 API 或權重；數字都是 Google 自評。",
+   "links": [
+    [
+     "Google DeepMind 部落格",
+     "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+    ],
+    [
+     "Ars Technica",
+     "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/"
+    ],
+    [
+     "Google DeepMind X 貼文",
+     "https://x.com/GoogleDeepMind/status/2120169787896525104"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "VLA",
+     "視覺-語言-動作模型：看畫面、聽指令，直接輸出機器人動作"
+    ],
+    [
+     "kitting",
+     "把生產要用的零件從料箱分揀成一套一套"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-businesses-beta",
+   "org": "OpenAI",
+   "tag": "平台服務",
+   "date": "2026-11-10",
+   "title": "ChatGPT 推出 Businesses（beta）：商家可認領自己的頁面、看被提及數，美國電商可上架 Business Agent",
+   "short_title": "商家可以在 ChatGPT 認領頁面",
+   "one": "像 Google 商家檔案一樣，店家能在 ChatGPT 裡更新資料、看多少人點進網站；美國電商與線上服務還能做一個替自己回答客人問題的 AI 客服。",
+   "orig": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you.",
+   "summary": "依 OpenAI 官方頁與說明中心：在 Business Hub 認領商家（用電話、公司信箱、網域 TXT 或 Shopify 驗證），通過後再做 Persona 身分驗證，才能更新資料、上傳含價格與庫存的商品清單、看彙總數據（被提及次數、網站點擊、常見討論主題）。OpenAI 說不會把使用者對話或 Business Agent 對話內容給商家，數據達門檻才顯示。Business Agent 先開放美國有網站的合格電商與線上服務；對話會清楚標示、和 ChatGPT 自己的回答分開，商家也能贊助 Agent 當 ChatGPT 廣告的落地頁（標示為贊助）。認領不需要廣告帳號或 Enterprise 合約；VentureBeat 說目前不收費，但未排除日後收費。OpenAI 官方頁擋自動抓取，內容依搜尋取得的官方全文與說明中心整理。",
+   "links": [
+    [
+     "OpenAI 官方公告",
+     "https://openai.com/index/introducing-businesses-chatgpt/"
+    ],
+    [
+     "OpenAI 說明中心",
+     "https://help.openai.com/en/articles/20001635-setting-up-your-business-on-chatgpt"
+    ],
+    [
+     "VentureBeat",
+     "https://venturebeat.com/technology/openai-lets-you-claim-your-business-in-chatgpt-and-set-up-a-custom-agentic-ai-customer-sales-rep"
+    ],
+    [
+     "OpenAI X 貼文",
+     "https://x.com/OpenAI/status/2120216592395174382"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Business Agent",
+     "商家用自己提供的資料建的 AI 客服，在 ChatGPT 裡回答客人"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "1 則更新：官方開源圖像版 H3-Image（詳見 AI 新聞）。",
+   "updates": [
+    {
+     "title": "MiniMax 官方開源 H3-Image：H3 家族的圖像生成＋編輯模型",
+     "date": "2026-11-10",
+     "short_title": "H3 家族多了官方圖像模型",
+     "one": "同一套 H3 架構拿掉音訊、改做圖像，沿用 H3 的文字編碼器；已經在跑 H3 影片的人不用再下載文字編碼器。",
+     "summary": "依 Hugging Face 模型卡與 ComfyUI 部落格：H3-Image 的 DiT 是 H3 架構去掉音訊層，文字編碼器直接沿用 MiniMax-H3（Qwen3-VL），6 步、無 CFG，原生約 16MP。完整介紹見今天 AI 新聞，本機跑法見教學區。",
+     "links": [
+      [
+       "Hugging Face 模型卡",
+       "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+      ],
+      [
+       "ComfyUI 官方部落格",
+       "https://blog.comfy.org/p/minimax-h3-image-is-now-available"
+      ]
+     ],
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "1 則更新：Forge Classic neo 2.32 加速 Moss-Image-Edit。",
+   "updates": [
+    {
+     "title": "Forge Classic（neo 分支）發布 2.32：Moss-Image-Edit 加速＋使用體驗改善",
+     "date": "2026-11-11",
+     "short_title": "Forge 2.32 讓 MOSS 改圖更快",
+     "one": "習慣用 Forge 介面的人更新到 2.32，跑 Moss-Image-Edit 會更快；release 說明只有兩行，沒有附具體數字。",
+     "summary": "Haoming02/sd-webui-forge-classic 在台北時間 11/11 凌晨發布 2.32 release，說明只寫「Moss-Image-Edit goes brrr」（加速）與「QoL」（使用體驗改善），沒有提供速度數字或細節，實際提升請自行測試。",
+     "links": [
+      [
+       "Forge Classic 2.32 release（GitHub）",
+       "https://github.com/Haoming02/sd-webui-forge-classic/releases/tag/2.32"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "Forge Classic",
+       "以 Stable Diffusion WebUI 為基礎的圖像生成介面，neo 分支支援較新的模型"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "1 則新教學。",
+   "updates": [
+    {
+     "title": "RoboNuggets：Grok Bot 38 個技巧，從入門到排程、電話與自己的電腦",
+     "date": "2026-11-06",
+     "short_title": "Grok Bot 38 招完整整理",
+     "one": "把 38 個技巧分成入門、中階、進階三段，每招寫「是什麼、為什麼、怎麼做」；學到用「被動 routine」只在需要你決定時才通知，減少被打擾。",
+     "summary": "作者 Jay E 在 RoboNuggets 電子報整理 38 個技巧：入門（1–13）把 bot 設定好、交小任務；中階（14–26）讓 bot 自己跑，例如第 17 招叫 bot「每天早上 8 點告訴我哪些代理在等我」做成 routine；第 18 招在 routine 加上「只有需要我決定時才通知，否則安靜記錄」；進階（27–38）談付款、電話、自己的電腦與搭配 Claude Code。作者說另附免費 PDF 可丟給自己的 Grok Bot 問哪些技巧適合；作者說對應的影片一週內 30 萬觀看。",
+     "links": [
+      [
+       "RoboNuggets 原文（11/6）",
+       "https://robonuggets.beehiiv.com/p/the-only-grok-bot-guide-you-ll-ever-need"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "routine",
+       "Grok Bot 的排程或事件觸發任務，雲端自動執行"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-minimax-h3-image",
+   "title": "ComfyUI 跑 MiniMax-H3-Image：本機 16MP 文生圖與改圖",
+   "learn": "學會用官方模板下載 4 個檔、在 ComfyUI 文生圖，或接上參考圖用一句話改圖。",
+   "level": "中階",
+   "vram": "官方頁未列顯存需求；模板預設 4MP 方形是為了讓低顯存機器不爆，INT8 主模型 21 GB＋文字編碼器 25.28 GB，依原頁為準",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "Partner Nodes",
+     "在 ComfyUI 畫布上直接呼叫雲端 API，不用下載模型"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到 0.45.0 以上（模板包 0.11.104 以上），在 Template Library 搜尋「MiniMax-H3-Image: Text to Image」或「Image Edit」。",
+    "依官方頁下載 4 個檔：minimax_h3_image_pruned_int8_convrot（diffusion_models，21 GB）、qwen3vl_32b_minimax_h3_int8_convrot（text_encoders，25.28 GB）、qwen3.5_9b_w4a8_gptq 提示詞擴寫（text_encoders，7.34 GB）、minimax_h3_image_vae_fp16（vae，1.17 GB）。",
+    "文生圖：寫完整、詳細的提示詞（最長 4096 token），步數固定 6、guidance 1，不用寫負面提示詞；顯卡夠力再用解析度選單調高到 4096×4096。",
+    "改圖：把原圖接到 image_1，在提示詞用 <Picture 1>、<Picture 2> 指定參考圖（依連接順序編號），按 Run 後模板會顯示前後對照。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：MiniMax-H3-Image",
+     "https://docs.comfy.org/tutorials/image/minimax/minimax-h3-image"
+    ],
+    [
+     "ComfyUI 官方部落格",
+     "https://blog.comfy.org/p/minimax-h3-image-is-now-available"
+    ],
+    [
+     "MiniMax-H3-Image 模型卡（HF）",
+     "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+    ]
+   ]
+  },
+  {
+   "id": "tut-preprocessors",
+   "title": "ComfyUI 前處理工作流：把影片轉成深度圖、線稿、骨架與法線圖",
+   "learn": "學會用官方模板先抽出深度、線稿／Canny、姿勢骨架或法線圖，再拿去給 ControlNet 或影片工作流控制構圖。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "前處理器",
+     "把圖片轉成深度、線條、骨架等結構資訊的工具"
+    ],
+    [
+     "法線圖",
+     "用 RGB 顏色記錄每個像素表面朝向的圖，可用來重新打光"
+    ]
+   ],
+   "steps": [
+    "這些工作流含自訂節點，先用 ComfyUI Manager 安裝缺少的節點。",
+    "在 Template Library 搜尋「Video to Depth Map」「Video to Lineart / Canny」或「Video to Pose Map - OpenPose」打開模板（也可在 Comfy Cloud 直接開）。",
+    "把影片上傳到 VHS_LoadVideo 節點（官方頁附範例影片，如 roller_coaster.mp4），按 Run 輸出逐格穩定的控制圖。",
+    "把輸出的深度／線稿／骨架圖接到 ControlNet、圖生圖或影片工作流；前處理分開跑，調生成參數時不用每次重算。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Preprocessors",
+     "https://docs.comfy.org/tutorials/utility/preprocessors"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "OpenAI 官方頁擋自動抓取，ChatGPT Businesses 依搜尋取得的官方全文與說明中心整理；H3-Image 速度與品質為 MiniMax 官方說法。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-11",
+  "compared_to": "2026-11-10",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-06",
+    "fetched": "2026-11-11",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-09",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 6,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 6,
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1505,
+      "ci": 6,
+      "move": 2,
+      "delta": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1501,
+      "ci": 4,
+      "delta": 3
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": 1
+     }
+    ],
+    "compared_to": "2026-11-10",
+    "diff": {
+     "summary": [
+      "Gemini 4 Carbon (high): #1→#1 (0 名), 1539→1538 (-1)",
+      "Claude Opus 5.5 (high): #4→#3 (+1 名), 1512→1513 (+1)",
+      "Claude Fable 5.1 (max): #3→#4 (-1 名), 1513→1512 (-1)",
+      "Claude Opus 5 (max): #5→#5 (0 名), 1507→1506 (-1)",
+      "Muse Wonder (max): #6→#6 (0 名), 1505→1503 (-2)",
+      "Claude Opus 5 (high): #7→#7 (0 名), 1503→1502 (-1)",
+      "Gemini 3.8 Flash (high): #9→#9 (0 名), 1501→1500 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-11",
+    "metric": "Elo",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1259,
+      "ci": 1595
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1228,
+      "ci": 1095,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1209,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1189,
+      "ci": 1195,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295
+     },
+     {
+      "rank": 7,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295
+     },
+     {
+      "rank": 8,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "org": "Google",
+      "score": 1142,
+      "ci": 1095
+     },
+     {
+      "rank": 10,
+      "model": "Seedream 5.5",
+      "org": "ByteDance Seed",
+      "score": 1135,
+      "ci": 1395,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-10",
+    "diff": {
+     "summary": [
+      "GPT Image 2.5 Sunburst (max): #3→#2 (+1 名), 1227→1228 (+1)",
+      "GPT Image 2.6 Flare (max): #2→#3 (-1 名), 1228→1227 (-1)",
+      "GPT Image 2.5 Flare (max): #4→#4 (0 名), 1208→1209 (+1)",
+      "GPT Image 2 (high): #5→#5 (0 名), 1188→1189 (+1)",
+      "Grok Imagine Image 2.0: #8→#8 (0 名), 1166→1167 (+1)",
+      "NEW #10 Seedream 5.5 (ByteDance Seed) 1135",
+      "OUT Muse Image (前次 #10 1128)"
+     ],
+     "dropped": [
+      {
+       "model": "Muse Image",
+       "org": "Meta",
+       "rank": 10,
+       "score": 1128
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Muse Image",
+      "org": "Meta",
+      "rank": 10,
+      "score": 1128
+     }
+    ],
+    "analysis": "前 9 名幾乎沒動：GPT Image 2.6 Sunburst（max）以 1259 分穩居第 1，GPT Image 2.5 Sunburst 與 2.6 Flare 只差 1 分互換第 2、3 名。變動在第 10 名：字節的 Seedream 5.5 以 1135 分新進前 10，Meta 的 Muse Image（1128）跌出。前 5 名仍全是 OpenAI，Google 最好的是第 6 名 Nano Banana 2.1（1176）。",
+    "analysis_short": "Seedream 5.5 新進第 10 名、Muse Image 跌出；前 9 名只有 1 分級的小波動。"
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-11",
+    "metric": "Elo",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-10",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1172→1175 (+3)",
+      "Utopai X: #2→#2 (0 名), 1167→1168 (+1)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1160→1161 (+1)",
+      "Dreamina Seedance 2.5: #5→#4 (+1 名), 1155→1155 (+0)",
+      "FLUX 3 Max: #4→#5 (-1 名), 1156→1155 (-1)",
+      "NEW #6 Gemini Omni Flash 1.2 (Google) 1154",
+      "HeyGen Video 1: #6→#7 (-1 名), 1152→1153 (+1)",
+      "MiniMax H3 Max: #7→#8 (-1 名), 1145→1147 (+2)",
+      "SkyReels V4: #9→#9 (0 名), 1137→1138 (+1)",
+      "FLUX 3: #8→#10 (-2 名), 1138→1138 (+0)",
+      "OUT Dreamina Seedance 2.0 (前次 #10 1135)"
+     ],
+     "dropped": [
+      {
+       "model": "Dreamina Seedance 2.0",
+       "org": "ByteDance Seed",
+       "rank": 10,
+       "score": 1135
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Dreamina Seedance 2.0",
+      "org": "ByteDance Seed",
+      "rank": 10,
+      "score": 1135
+     }
+    ],
+    "analysis": "Wan 3.0 再加 3 分到 1175，續居第 1，領先第 2 名 Utopai X 7 分。Google 的 Gemini Omni Flash 1.2 以 1154 分新進第 6 名，把 HeyGen Video 1、MiniMax H3 Max 各往下擠一名；FLUX 3 從第 8 掉到第 10，Dreamina Seedance 2.0 跌出前 10。第 3 到第 7 名只差 8 分，排名仍很容易互換。",
+    "analysis_short": "Gemini Omni Flash 1.2 新進第 6 名、Seedance 2.0 跌出；Wan 3.0 小幅拉開領先。"
+   }
+  ]
+ }
+}
