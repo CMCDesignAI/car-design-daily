@@ -2,7 +2,7 @@
  "date": "2026-11-12",
  "weekday": "星期四",
  "issue_no": 36,
- "lede": "Grok Bot 1.0 正式把 bot 帶進團隊：可共用、進 Slack／Teams 和視訊會議；Gemini 也上了 Apple CarPlay。三張榜單本期都沒有重大變化。",
+ "lede": "Grok Bot 1.0 正式把 bot 帶進團隊：可共用、進 Slack／Teams 和視訊會議；Gemini 也上了 Apple CarPlay。三張榜單本期都沒有重大變化，名家專欄看 H3-Image 提示詞節點與 Gemini 4 Carbon 寫程式實測。",
  "closed": [],
  "open": [],
  "news": [],
@@ -207,8 +207,29 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "教學",
-   "status": "今天沒有新的合格教學；Grok Bot 1.0 官方更新見 AI 新聞。",
-   "updates": []
+   "status": "1 則新教學。",
+   "updates": [
+    {
+     "title": "Parker Prompts：Grok Bot 新手設定，到組一支會分工的 AI 團隊",
+     "date": "2026-11-08",
+     "short_title": "從零組 Grok Bot 團隊",
+     "one": "12 分鐘影片實際示範建好幾隻 bot 分工：記收據、管試算表和信件、讓多隻 bot 合作、排程重複任務，還有錄下你的操作教 bot 新技能。",
+     "summary": "依影片說明欄：作者示範設定 Grok Bot，用連接的 App 和 bot 自己的雲端電腦處理工作；案例包含追蹤收據、管理試算表與電子郵件、讓多個代理一起工作、自動化 Goodreads、排定重複任務，以及錄下自己的操作來教 bot 新技能。成效為作者實機示範，說明欄另有作者的付費社群連結。",
+     "links": [
+      [
+       "YouTube 影片（Parker Prompts）",
+       "https://www.youtube.com/watch?v=xHYp3LvPCTA"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "技能（skill）",
+       "教給 bot 的可重複使用做法，下次遇到同類工作會照著做"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "tutorials": [
@@ -620,5 +641,81 @@
    }
   ]
  },
- "columns": []
+ "columns": [
+  {
+   "id": "col-t8-h3image-pe",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-11",
+   "title": "T8star：MiniMax H3-Image 改圖深度對比，加上自製提示詞擴寫節點與 6 步加速工作流",
+   "short_title": "H3-Image 改圖＋T8 提示詞節點",
+   "orig": "原神再次开源：MiniMax H3 Image图像编辑模型，最全深度对比测评，非官方正确版工作流，T8开源提示词强化节点，直出16MP高清图像，6步加速模式",
+   "one": "昨天開源的 H3-Image 要寫很長的提示詞才好用，T8 做了一個 ComfyUI 節點，用官方的擴寫提示詞幫你把一句話擴成完整描述，再接進改圖或文生圖。",
+   "points": [
+    "依 GitHub README：節點名稱 MiniMax H3 Image Prompt Enhancer T8（1.41.0 新增），支援文生圖與最多 16 張有順序的參考圖改圖，使用官方 H3 Image PE 的兩套固定提示詞。",
+    "可用 API、本地 GGUF 或 Strata 跑擴寫；可設畫幅比例、目標英文字數，並能逐字鎖住畫面裡的文字；輸出的 expanded_prompt 接到 H3 正向提示詞，改圖原圖要照相同順序接下游。",
+    "README 附文生圖與雙圖改圖的範例工作流；作者也註明結構驗證不代表出圖品質，節點本身不附帶、不下載模型。",
+    "影片標題提到直出 16MP 與 6 步加速模式，這是作者的工作流設定；說明欄其餘多為雲端平台邀請連結。"
+   ],
+   "url": "https://www.youtube.com/watch?v=_gjV2a24ZRo",
+   "image": {
+    "file": "col-t8-h3image-pe.webp",
+    "alt": "T8star MiniMax H3 Image 改圖測評影片縮圖",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=_gjV2a24ZRo"
+   },
+   "links": [
+    [
+     "T8 提示詞擴寫節點（GitHub）",
+     "https://github.com/T8mars/comfyui-minimax-h3-prompt-enhancer-T8"
+    ],
+    [
+     "官方 H3 Image PE（HF）",
+     "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE"
+    ]
+   ],
+   "gloss": [
+    [
+     "提示詞擴寫",
+     "把一句簡短需求自動擴寫成模型更看得懂的詳細描述"
+    ]
+   ]
+  },
+  {
+   "id": "col-aisd-carbon9",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-11",
+   "title": "AI超元域：用 Antigravity CLI 跑 9 個複雜開發案例，實測 Gemini 4 Carbon 對上 Fable 5.2 與 Opus 5.5",
+   "short_title": "Gemini 4 Carbon 九個寫程式實測",
+   "orig": "🚀Gemini 4 Carbon复杂编程实测：我用Antigravity连测9个复杂开发案例，3D场景、游戏开发、原生macOS应用！能否超越Fable5.2和Opus 5.5？真实差距完整记录公开！",
+   "one": "想知道剛開放的 Gemini 4 Carbon 寫程式到底多強，這支影片用同一批 9 個任務，直接跟 Claude Fable 5.2、Opus 5.5 比成品。",
+   "points": [
+    "依說明欄：使用 Antigravity CLI、推理等級 medium，用同一批任務挑戰 Claude Fable 5.2 與 Opus 5.5。",
+    "9 個案例（依章節）：像素風雲端城堡、原生 macOS 音樂播放器、Unity 3D 射箭角色、Godot 4 侏羅紀沙盒、從平面圖還原可探索的 3D 房間、聖家堂建築復刻、3A 射擊遊戲、極光號太空船、黑洞吞噬恆星動畫。",
+    "影片最後一章是九項實測結果總結；誰比較強是作者實測的主觀比較。"
+   ],
+   "url": "https://www.youtube.com/watch?v=vYDfUWHZPN4",
+   "image": {
+    "file": "col-aisd-carbon9.webp",
+    "alt": "AI超元域 Gemini 4 Carbon 複雜編程實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=vYDfUWHZPN4"
+   },
+   "links": [
+    [
+     "Google DeepMind：Gemini 4 Carbon 官方貼文",
+     "https://x.com/GoogleDeepMind/status/2120219371473617099"
+    ]
+   ],
+   "gloss": [
+    [
+     "Antigravity CLI",
+     "Google 的 AI 寫程式工具的命令列版本"
+    ]
+   ]
+  }
+ ]
 }
