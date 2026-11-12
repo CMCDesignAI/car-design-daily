@@ -738,5 +738,29 @@
   "angle": "2027 款嵐圖知音：暮山紫車色配極光紫座艙",
   "url": "https://www.bitauto.com/article/1003114551987/",
   "image": "cmf-paint-voyah-zhiyin.jpg"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "car",
+  "car_key": "lynk-900l",
+  "angle": "二排 180 度旋轉座椅、淺色 2+2+3 座艙",
+  "url": "https://cnevpost.com/2026/11/11/lynk-co-unveils-7-seat-900l-suv/",
+  "image": "cmf-car-lynk-900l-cabin.jpg"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "paint",
+  "car_key": "paint:defender-atlas-colours",
+  "angle": "Atlas 六色：經典色復刻與地景新色",
+  "url": "https://media.jlr.com/defender/news/2026/11/defender-launches-new-atlas-colours-inspired-spirit-adventure-around-world",
+  "image": "cmf-paint-defender-atlas.jpg"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "material",
+  "car_key": "material:defender-upl-protective-film",
+  "angle": "Nitra Universal Paint Line 與自癒保護膜",
+  "url": "https://media.jlr.com/defender/news/2026/11/defender-launches-new-atlas-colours-inspired-spirit-adventure-around-world",
+  "image": "cmf-mat-defender-upl.jpg"
  }
 ]

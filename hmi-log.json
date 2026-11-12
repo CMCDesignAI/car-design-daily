@@ -148,5 +148,11 @@
   "key": "hmi-tesla-app-tablet",
   "url": "https://www.notateslaapp.com/tesla-app-updates/version/4.62.5/release-notes",
   "image": "hmi-tesla-app-tablet.jpg"
+ },
+ {
+  "date": "2026-11-12",
+  "key": "hmi-gemini-carplay",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+  "image": "hmi-gemini-carplay.jpg"
  }
 ]
