@@ -100,6 +100,57 @@
    ]
   },
   {
+   "id": "scion-kei01",
+   "tag": "新品牌 · 日本／美國",
+   "date": "2026-11-10",
+   "brand": "Scion by Toyota",
+   "title": "Toyota 重啟 Scion 品牌：首款車 KEI-01 把日本輕型貨卡帶進美國",
+   "orig": "Toyota Says 'Okei' to America: Introducing the Scion by Toyota Brand and KEI-01",
+   "summary": "Toyota 北美 11 月 9 日在密西根與德州同步發表新品牌「Scion by Toyota」，首款車 KEI-01 是以日本輕型貨卡（kei truck）為原型的超小型貨卡，2027 下半年在印第安納廠組裝，先以車隊試行方案銷售。它依美國低速車（LSV）法規設計，右駕、極速 25 mph（約 40 km/h），不能上高速公路。",
+   "analysis": [
+    [
+     "比例",
+     "車長約 11 呎（約 3.4m）、寬不到 5 呎（約 1.5m），短車頭平頭駕駛室加上長貨斗，典型 kei truck 的方盒子比例。"
+    ],
+    [
+     "室內 UX",
+     "加長駕駛室、車頂墊高，座椅可前後滑動與後仰，椅背後方另有收納工具的空間；有暖氣與冷氣。"
+    ],
+    [
+     "機能設計",
+     "貨斗三面側板都能放倒，從較低的高度裝卸貨物，載重約 600 磅（約 270kg）。"
+    ],
+    [
+     "品牌方向",
+     "Toyota 設計總監 Simon Humphries 把新 Scion 定位為「freedom lab」實驗室，同場還展示 SxS 越野車與 BKE 兩款概念車。"
+    ]
+   ],
+   "sources": [
+    [
+     "Toyota USA Newsroom（11/10）",
+     "https://pressroom.toyota.com/toyota-says-okei-to-america-introducing-the-scion-by-toyota-brand-and-kei-01/"
+    ],
+    [
+     "Carscoops（11/10）",
+     "https://www.carscoops.com/2312041/scion-by-toyota-kei-01-low-speed-vehicle-truck/"
+    ]
+   ],
+   "image": {
+    "file": "news-scion-kei01.webp",
+    "alt": "銀色 Scion by Toyota KEI-01 輕型貨卡前 3/4",
+    "credit": "Toyota (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2312041/scion-by-toyota-kei-01-low-speed-vehicle-truck/"
+   },
+   "more_images": [
+    {
+     "file": "news-scion-kei01-2.jpg",
+     "alt": "KEI-01 貨斗三面側板與載貨示意",
+     "credit": "Toyota (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2312041/scion-by-toyota-kei-01-low-speed-vehicle-truck/"
+    }
+   ]
+  },
+  {
    "id": "byd-microcar-patent",
    "tag": "專利 · 中國",
    "date": "2026-11-10",
