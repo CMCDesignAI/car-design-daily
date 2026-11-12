@@ -1,0 +1,624 @@
+{
+ "date": "2026-11-12",
+ "weekday": "星期四",
+ "issue_no": 36,
+ "lede": "Grok Bot 1.0 正式把 bot 帶進團隊：可共用、進 Slack／Teams 和視訊會議；Gemini 也上了 Apple CarPlay。三張榜單本期都沒有重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "grok-bot-1-0",
+   "org": "SpaceXAI",
+   "tag": "產品更新",
+   "date": "2026-11-11",
+   "topic": "grok-bot-1-0",
+   "title": "Grok Bot 1.0 推出：bot 可以全團隊共用、進 Slack／Teams 和視訊會議，還會主動接手工作",
+   "short_title": "Grok Bot 1.0：AI 同事進團隊",
+   "one": "Grok Bot 從「一個人用的助理」升級成「全團隊共用的同事」：可以分享給同事、在 Slack／Teams 裡一起用、被邀進會議，還會主動提醒沒做完的事。",
+   "orig": "Introducing Grok Bot 1.0. AI teammates that work alongside your whole team.",
+   "summary": "【比上一版進步在哪】官方 Grok Bot 帳號 11/11（台北時間 11/12 凌晨）宣布 1.0，官方新聞頁標示日期為 11/2。官方列出三大改進：①多人協作：Team Bots 可分享給特定人或群組，在 Slack、Microsoft Teams 和視訊會議裡一起用，會從每個合作的人身上學習團隊知識與偏好；②主動：能辨識該做的工作並主動提議接手、追蹤未完成的任務、需要人判斷時把人拉進來；③更能幹：瀏覽器操作更快更穩，文件、簡報更好，還能做可共同編輯、可請 bot 持續更新的互動 Pages，Gmail、Google 日曆、GitHub 連接改善，核准判斷更聰明（已授權的不再重複問）。官方說完成任務需要的資源也變少。【限制與哪裡能用】Team Bots 限 Team 與 Enterprise 方案；會議功能限 Team、Enterprise、Ultra 方案，Enterprise 需管理員在設定開啟。依 Sulat 引述的 11/11 changelog（v1.0.1）：bot 可從連結加入 Google Meet、Zoom、Teams 會議，在會議聊天室回答並於會後寄摘要；同事教給 Team Bot 的內容要等擁有者或 Manager 在「Review learnings」核准。官方說法之外尚無獨立實測。",
+   "links": [
+    [
+     "官方公告：Introducing Grok Bot 1.0",
+     "https://x.ai/news/grok-bot-1-0"
+    ],
+    [
+     "Grok Bot 官方 X 貼文（11/11）",
+     "https://x.com/bot/status/2120582957782200586"
+    ],
+    [
+     "Sulat：1.0 功能與 changelog 整理",
+     "https://news.sulat.com/2026/11/12/grok-bot-1-0-team-bots-meetings/"
+    ],
+    [
+     "TeslaNorth：方案限制整理",
+     "https://teslanorth.com/2026/11/11/grok-bot-1-0-slack-teams-meetings/"
+    ]
+   ],
+   "image": {
+    "file": "grokbot-1-0.webp",
+    "alt": "Introducing Grok Bot 1.0 官方主視覺",
+    "credit": "SpaceXAI",
+    "credit_url": "https://x.ai/news/grok-bot-1-0"
+   },
+   "gloss": [
+    [
+     "Team Bots",
+     "可以分享給整個團隊一起使用、一起教的 bot"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-carplay",
+   "org": "Google",
+   "tag": "產品更新",
+   "date": "2026-11-11",
+   "topic": "gemini-carplay",
+   "title": "Gemini App 上 Apple CarPlay：全球推出，開車時用 Gemini Live 免手持對話",
+   "short_title": "Gemini 上了 Apple CarPlay",
+   "one": "iPhone 使用者現在可以在車上螢幕直接點 Gemini，用語音聊天、聽每日簡報、整理信件，對話會同步回手機。",
+   "orig": "Talk it through with Gemini, now on Apple CarPlay",
+   "summary": "Google 11/11 部落格：繼 Android Auto 和內建 Google 的車款之後，Gemini App 登上 Apple CarPlay，即日起對所有 iOS 版 Gemini 使用者、所有支援 Gemini Live 的語言全球推出。點 CarPlay 畫面或側欄的 Gemini 圖示，可接續最近的對話或開新對話，中途可插話、換話題或暫停；能查行事曆、摘要信件、練習簡報、腦力激盪，對話自動同步到 iPhone 的聊天紀錄。【怎麼開始】更新 Gemini App、開麥克風權限，並先在手機上用過一次 Gemini Live。【限制】每日簡報等個人化功能需先開啟，未滿 18 歲、歐洲經濟區與奈及利亞不提供。9to5Mac 指出 ChatGPT、Claude、Grok 等早已支援 CarPlay，Gemini 是最後一個補上的主要聊天機器人。",
+   "links": [
+    [
+     "Google 官方部落格（11/11）",
+     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
+    ],
+    [
+     "MacRumors 報導",
+     "https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/"
+    ],
+    [
+     "9to5Mac 報導",
+     "https://9to5mac.com/2026/11/11/google-confirms-gemini-app-coming-to-apple-carplay/"
+    ]
+   ],
+   "image": {
+    "file": "gemini-carplay.webp",
+    "alt": "車內 CarPlay 螢幕顯示 Gemini 連線中",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
+   },
+   "gloss": [
+    [
+     "Gemini Live",
+     "Gemini 的即時語音對話模式，可以像講電話一樣來回聊"
+    ]
+   ]
+  },
+  {
+   "id": "muse-ember",
+   "org": "Meta",
+   "tag": "新模型",
+   "date": "2026-11-09",
+   "topic": "muse-ember",
+   "title": "Meta 推出 Muse Ember：Muse 家族最小最便宜的模型，主打代理反覆執行的工作",
+   "short_title": "Meta Muse Ember 小模型上線",
+   "one": "Meta 推出便宜的小模型 Muse Ember，專門做 AI 代理裡大量重複的步驟，例如照順序呼叫工具、讀檔、跑測試、修小 bug。",
+   "orig": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+   "summary": "Meta 11/9 發布，模型 ID muse-ember-1.0，是繼 Spark、Glimmer、Wonder 之後的第四個 Muse 模型。【定位】由 Muse Wonder 這類大模型規劃，再把重複步驟交給 Ember 執行：依序呼叫工具、讀檔、跑測試、小幅修程式、從文件抽資料。【規格】輸入文字、圖片、音訊、影片、PDF，輸出文字；上下文 1,048,576 token、最大輸出 524,288 token。【價格與哪裡能用】Meta Model API 與 Muse Code；20 萬 token 以內每百萬 token 輸入 0.10、輸出 0.50 美元，超過 20 萬改收 0.30／1.50 美元。權重不公開。Meta 說同價位比 Claude Haiku 5.5、GPT-6 Luna 更划算，這是官方說法；The Model Gap 11/10 掃描時還沒有獨立評測分數。",
+   "links": [
+    [
+     "Meta 官方部落格",
+     "https://research.meta.ai/blog/muse-ember"
+    ],
+    [
+     "Muse Ember 官方評測報告",
+     "https://research.meta.ai/static/muse-ember-evaluation-report"
+    ],
+    [
+     "Meta Model API 文件",
+     "https://dev.meta.ai/docs/muse-ember"
+    ],
+    [
+     "The Model Gap 規格與價格整理",
+     "https://themodelgap.com/new-ai-models/2026-11"
+    ]
+   ],
+   "image": {
+    "file": "muse-ember.webp",
+    "alt": "Build with Muse，Available on Meta Model API 宣傳圖",
+    "credit": "Meta",
+    "credit_url": "https://dev.meta.ai/docs/muse-ember"
+   },
+   "gloss": [
+    [
+     "上下文",
+     "模型一次能讀進來的內容長度"
+    ]
+   ]
+  },
+  {
+   "id": "alphagenome-2",
+   "org": "Google DeepMind",
+   "tag": "新模型",
+   "date": "2026-11-11",
+   "topic": "alphagenome-2",
+   "title": "Google DeepMind 推出 AlphaGenome 2：一次看一種細胞，找出 DNA 變異在哪裡致病",
+   "short_title": "AlphaGenome 2 看單一細胞",
+   "one": "同一段 DNA 在心臟、大腦、免疫細胞裡作用不同，AlphaGenome 2 能針對單一細胞類型預測 DNA 變化的影響，幫科學家找病因。",
+   "orig": "AlphaGenome 2 is our new AI model that zooms in on specific cells to help scientists understand what drives disease.",
+   "summary": "依 Google DeepMind 11/11 官方 X 串文：AlphaGenome 2 用 68 種組織、超過 1 億筆單細胞資料訓練，一次專注一種細胞類型，官方說找出的突變幾乎是以往的兩倍；不用重新訓練，研究人員只要放進幾十個細胞的實驗資料，就能看特定情境（例如免疫細胞對疫苗的反應）下 DNA 變化的作用。即日起透過 API 與互動式 Colab 教學開放非商業研究使用。",
+   "links": [
+    [
+     "Google DeepMind 官方 X 串文（11/11）",
+     "https://x.com/GoogleDeepMind/status/2120532824465805749"
+    ]
+   ],
+   "image": null
+  },
+  {
+   "id": "alphaproof-code-signal",
+   "org": "Google DeepMind",
+   "tag": "研究",
+   "date": "2026-11-11",
+   "topic": "alphaproof-code-signal",
+   "title": "AlphaProof Code 首次用 AI 在程式碼層級數學證明 Signal 加密協定安全",
+   "short_title": "AI 證明 Signal 協定安全",
+   "one": "Google DeepMind 用 Gemini 代理寫了 600 多萬行 Lean 證明，證明 Signal 的加密系統在程式碼層級是安全的，人類專家只需審最關鍵的 1%。",
+   "orig": "For the first time, AI has mathematically proven @signalapp's protocol is secure down to the code level.",
+   "summary": "依 Google DeepMind 11/11 官方 X 貼文：用 AlphaProof Code 框架驗證 Signal 的加密系統（每天保護數十億則私訊）；Gemini 代理產生超過 600 萬行 Lean 證明並稽核程式碼，人類專家只需審查關鍵的 1%。官方說這是用 AI 驗證通訊、電網等關鍵基礎設施的重要一步。",
+   "links": [
+    [
+     "Google DeepMind 官方 X 貼文（11/11）",
+     "https://x.com/GoogleDeepMind/status/2120484246401777737"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Lean",
+     "一種讓電腦逐步檢查數學證明是否正確的程式語言"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新的合格教學；Grok Bot 1.0 官方更新見 AI 新聞。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-comfy-image-upscale",
+   "title": "ComfyUI 圖片放大總覽：依人像、產品、風景、插畫挑對放大模型",
+   "learn": "學會分辨「保守放大」和「創意放大」，依照片類型選模型，避免放大後細節走樣。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求；本機模型與雲端 Partner Nodes 需求不同，依原頁為準",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "Partner Nodes",
+     "在 ComfyUI 畫布上直接呼叫雲端 API，不用下載模型"
+    ]
+   ],
+   "steps": [
+    "先決定要哪一種：保守放大（Magnific Precise、SeedVR2、FlashVSR、Topaz Fast、HitPaw）忠於原圖；創意放大（Wan 2.2、Magnific Creative、Topaz Astra 等）會補出原本沒有的細節，但可能變形。",
+    "產品照（材質、標籤邊緣、小字要準）用保守型：官方推薦 HitPaw、Magnific Precise、WaveSpeed SeedVR2 或 Nano Banana Pro；人像修塑膠皮膚推薦 Magnific Skin Enhancer。",
+    "用開源 SeedVR2 時，官方建議先用 ImageScaleToTotalPixels 節點把圖縮到約 0.35 百萬像素再放大，效果更好。",
+    "風景與插畫看需求：要保持建築或畫風一致用保守型，想加細節用創意型並調 creativity 參數；官方提醒不要指望放大修好 AI 常見瑕疵。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Image Upscaling",
+     "https://docs.comfy.org/tutorials/utility/image-upscale"
+    ],
+    [
+     "ComfyUI 官方部落格：AI 放大完整手冊",
+     "https://blog.comfy.org/p/upscaling-in-comfyui"
+    ]
+   ]
+  },
+  {
+   "id": "tut-bria-fibo-2",
+   "title": "ComfyUI 跑 Bria FIBO 2.0 開放權重：一句話改圖（Turbo／Dev）",
+   "learn": "學會用官方模板下載 FIBO 2.0 檔案，放一張參考圖、寫一句「改完的樣子」就能本機改圖，不花額度。",
+   "level": "中階",
+   "vram": "官方頁未列顯存需求；int8 檔約為 bf16 的一半大小，依原頁為準",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "蒸餾版（Turbo）",
+     "把原模型壓成步數更少、更快的版本，細節略少"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，在 Template Library 搜尋「Fibo 2.0 Turbo: Image Edit」或「Fibo 2.0 Dev: Image Edit」。",
+    "依官方頁下載：fibo2_edit_turbo 或 fibo2_dev 的 int8_convrot 主模型（放 diffusion_models）、qwen3vl_4b 文字編碼器與 qwen3vl_8b_int8_convrot（提示詞增強用，放 text_encoders）、flux2-vae（放 vae）。",
+    "在 LoadImage 放參考圖，prompt 寫「想改的區域改完後的樣子」，按 Run；Turbo 適合快速試方向。",
+    "要最乾淨的結果改用 Dev 版：官方說取樣時間約 12 倍、紋理更細，記得保留模板附的結構化 negative_prompt。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：Bria FIBO 2.0",
+     "https://docs.comfy.org/tutorials/image/bria/fibo-2-0"
+    ],
+    [
+     "FIBO 2.0 模型檔（Comfy-Org HF）",
+     "https://huggingface.co/Comfy-Org/Fibo-2.0"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "今天沒有找到近 7 天內、可查證流程細節的 AI 輔助汽車設計新案例（福斯集團設計 AI 為 10/11 舊聞、Škoda 設計師訪談為 10/16），所以本期不放。",
+  "AlphaGenome 2 與 AlphaProof Code 依 Google DeepMind 官方 X 貼文整理；Muse Ember 的性價比為 Meta 官方說法。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-12",
+  "compared_to": "2026-11-11",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-06",
+    "fetched": "2026-11-12",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-09",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 6,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 6,
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1505,
+      "ci": 6,
+      "move": 2,
+      "delta": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1501,
+      "ci": 4,
+      "delta": 3
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": 1
+     }
+    ],
+    "compared_to": "2026-11-11",
+    "diff": {
+     "summary": [
+      "Gemini 4 Carbon (high): #1→#1 (0 名), 1539→1538 (-1)",
+      "Claude Opus 5.5 (high): #4→#3 (+1 名), 1512→1513 (+1)",
+      "Claude Fable 5.1 (max): #3→#4 (-1 名), 1513→1512 (-1)",
+      "Claude Opus 5 (max): #5→#5 (0 名), 1507→1506 (-1)",
+      "Muse Wonder (max): #6→#6 (0 名), 1505→1503 (-2)",
+      "Claude Opus 5 (high): #7→#7 (0 名), 1503→1502 (-1)",
+      "Gemini 3.8 Flash (high): #9→#9 (0 名), 1501→1500 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-12",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-12",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1259,
+      "ci": 1595
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1228,
+      "ci": 1095,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1209,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1189,
+      "ci": 1195,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295
+     },
+     {
+      "rank": 7,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295
+     },
+     {
+      "rank": 8,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "org": "Google",
+      "score": 1142,
+      "ci": 1095
+     },
+     {
+      "rank": 10,
+      "model": "Seedream 5.5",
+      "org": "ByteDance Seed",
+      "score": 1135,
+      "ci": 1395,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-11",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1259→1261 (+2)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1228→1229 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "GPT Image 2.5 Flare (max): #4→#4 (0 名), 1209→1210 (+1)",
+      "GPT Image 2 (high): #5→#5 (0 名), 1189→1190 (+1)",
+      "MAI-Image-2.6: #7→#7 (0 名), 1168→1170 (+2)",
+      "Grok Imagine Image 2.0: #8→#8 (0 名), 1167→1168 (+1)",
+      "Nano Banana 2 (Gemini 3.1 Flash Image): #9→#9 (0 名), 1142→1143 (+1)"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-12",
+    "metric": "Elo",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-12",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-11",
+    "diff": {
+     "summary": [
+      "Utopai X: #2→#2 (0 名), 1168→1170 (+2)",
+      "Gemini Omni Flash 1.2: #6→#5 (+1 名), 1154→1154 (+0)",
+      "FLUX 3 Max: #5→#6 (-1 名), 1155→1153 (-2)",
+      "HeyGen Video 1: #7→#7 (0 名), 1153→1152 (-1)",
+      "MiniMax H3 Max: #8→#8 (0 名), 1147→1149 (+2)",
+      "SkyReels V4: #9→#9 (0 名), 1138→1137 (-1)",
+      "FLUX 3: #10→#10 (0 名), 1138→1137 (-1)"
+     ]
+    }
+   }
+  ]
+ },
+ "columns": []
+}
