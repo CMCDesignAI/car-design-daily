@@ -1,0 +1,664 @@
+{
+ "date": "2026-11-13",
+ "weekday": "星期五",
+ "issue_no": 37,
+ "lede": "Google 推出 Gemini 4 Hydrogen：Flash 等級的速度、超過 Argon 的智力指數，Gemini App 與 Google 搜尋都換上；Gemini 智慧眼鏡也開放預購。三張榜單本期都沒有重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "gemini-4-hydrogen",
+   "org": "Google",
+   "tag": "新模型",
+   "date": "2026-11-13",
+   "topic": "gemini-4-hydrogen",
+   "title": "Gemini 4 Hydrogen 上線：接替 3.8 Flash 的快速模型，Gemini App、Google 搜尋、AI Studio 同步推出",
+   "short_title": "Gemini 4 Hydrogen：快又聰明的新 Flash",
+   "one": "Google 把 Gemini 4 帶給所有人：Hydrogen 是主打速度的日常模型，寫程式、跑代理任務比 3.8 Flash 快，智力指數還略贏 Argon。",
+   "orig": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
+   "summary": "【比上一版進步在哪】Google DeepMind 官方說，Hydrogen 完成任務比 3.8 Flash 快 2.5 倍；Artificial Analysis 智力指數在預設 high 思考等級為 51（Argon 為 50），最高 xhigh 為 54；指令遵循更緊、捏造說法更少，有四段可調思考等級，1M token context。\n【價格與限制】API 全 1M context 統一 $1.50／百萬輸入、$7.50／百萬輸出，AI Studio 有免費額度；Carbon、Argon 目前 $2／$10，12/1 起漲到 $4／$20（Google Cloud 價目表）。\n【哪裡能用】Gemini API（AI Studio、Android Studio）、Gemini for business、Gemini App 模型選單、Google 搜尋（官方稱是搜尋史上最大模型升級，AI Overviews／AI Mode 回答更視覺化）；Google AI Pro／Ultra 訂戶可在 Antigravity 使用。官方說免費用戶在 Gemini App 會由自動選模型在合適時用到 Hydrogen；Ars Technica 則觀察到 App 內目前主要開給 Pro／Ultra。\n【初步實測（樣本小）】OrcaRouter 整理 Artificial Analysis 數據：輸出速度 198 tok/s（xhigh）對 3.8 Flash 111 tok/s，每完成一個任務成本 $3.16 對 $7.77，但首字延遲 41 秒對 17 秒，聊天時體感未必較快；Reddit r/GeminiAI 使用者實測動態圖形提示詞，Hydrogen 生成時間明顯短於 3.8 Flash。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    ],
+    [
+     "Google 搜尋升級說明",
+     "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+    ],
+    [
+     "Google DeepMind X 貼文",
+     "https://x.com/GoogleDeepMind/status/2120940338869055788"
+    ],
+    [
+     "實測：OrcaRouter Hydrogen vs 3.8 Flash",
+     "https://www.orcarouter.ai/blog/gemini-4-hydrogen-vs-gemini-3-8-flash"
+    ],
+    [
+     "實測：Ars Technica 上手整理",
+     "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+    ],
+    [
+     "實測：r/GeminiAI 動態圖形對比（AI Newsnow 收錄）",
+     "https://ainewsnow.io/story/gemini-4-hydrogen-vs-gemini-3-8-flash-motion-graphics-nbg2qf"
+    ]
+   ],
+   "image": {
+    "file": "gemini-4-hydrogen.webp",
+    "alt": "Gemini 4 Hydrogen 官方主視覺",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+   },
+   "gloss": [
+    [
+     "思考等級",
+     "讓模型先「想」多久再回答；想越久通常越準，但越慢、越花 token"
+    ],
+    [
+     "首字延遲",
+     "從送出問題到看到第一個字的等待時間"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-intelligent-eyewear",
+   "org": "Google",
+   "tag": "產品更新",
+   "date": "2026-11-13",
+   "topic": "gemini-intelligent-eyewear",
+   "title": "Gemini 智慧眼鏡開放預購：Warby Parker 395 美元起、Gentle Monster 449 美元起，12/10 上市",
+   "short_title": "Gemini 智慧眼鏡開賣預購",
+   "one": "Google、Samsung 與兩個眼鏡品牌合作的 Android XR 眼鏡，內建 Gemini，可導航、即時翻譯、看眼前東西回答問題；先在美國與南韓推出。",
+   "orig": "Today, pre-orders begin for the new Intelligent Eyewear collections, made in collaboration with Gentle Monster, Warby Parker, and Samsung.",
+   "summary": "Google 官方部落格 11/12 宣布預購。眼鏡沒有顯示螢幕，靠 1200 萬畫素相機、4 支麥克風與開放式喇叭，用「Hey Gemini」做即時導航、翻譯、視覺協助、拍照、聽音樂、查行程。Samsung 規格：Snapdragon AR1 Gen 1、2GB 記憶體、64GB 儲存、單次約 9 小時、IPX4、約 41 克。限制：只能搭配美國與南韓的 Google 帳號、需 18 歲以上；支援 Pixel 7 以上、部分 Galaxy、iPhone 13 Pro 以上。Warby Parker 系列 395 美元起、Gentle Monster 系列 449–489 美元，12/10 店面與線上開賣。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+    ],
+    [
+     "9to5Google 整理",
+     "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/"
+    ],
+    [
+     "Gemini App X 貼文",
+     "https://x.com/GeminiApp/status/2120901953505177996"
+    ]
+   ],
+   "image": {
+    "file": "intelligent-eyewear.webp",
+    "alt": "Warby Parker 與 Gentle Monster 智慧眼鏡款式",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/"
+   },
+   "gloss": [
+    [
+     "Android XR",
+     "Google 給頭戴裝置與眼鏡用的作業系統"
+    ]
+   ]
+  },
+  {
+   "id": "seedance-2-5-flash",
+   "org": "ByteDance",
+   "tag": "影片模型",
+   "date": "2026-11-12",
+   "topic": "seedance-2.5-flash",
+   "title": "Seedance 2.5 Flash：接近旗艦畫質、速度近 2 倍，720p 每秒 0.152 美元，API 11/15 開放",
+   "short_title": "Seedance 2.5 Flash：便宜快速版影片模型",
+   "one": "字節的影片模型出了平價快速版，適合大量試做短片；要 1080p／4K 還是得用旗艦 Seedance 2.5。",
+   "orig": "Dreamina Seedance 2.5 Flash — results close to the flagship Seedance 2.5 model, with nearly doubled generation speed.",
+   "summary": "依 Neural Brew 整理 BytePlus 11/12 公告：Flash 版號稱效果接近旗艦 Seedance 2.5、生成速度近 2 倍；720p 文生影片與圖生影片每秒 0.152 美元，約比 Seedance 2.5 便宜 34%；API 11/15 在 BytePlus ModelArk 開放。中國火山引擎版本（據 IT 之家）720p 約每秒 0.99 元人民幣、影片最長 30 秒，可輸入最多 10 張圖、5 段影片、5 段音訊參考，支援 480p／720p。限制：解析度上限 720p；「接近旗艦」是官方說法，尚無獨立評測。",
+   "links": [
+    [
+     "Neural Brew 整理",
+     "https://neuralbrew.ai/en/articles/2026/11/bytedance-seedance-flash-fast-cheap-video-model/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "圖生影片",
+     "給一張圖當開頭，讓 AI 生成接下來會動的影片"
+    ]
+   ]
+  },
+  {
+   "id": "pan-2-open",
+   "org": "MBZUAI",
+   "tag": "開源",
+   "date": "2026-11-11",
+   "topic": "pan-2",
+   "title": "MBZUAI 開源 PAN 2 世界模型：給場景和動作，生成最長 20 秒的「接下來會發生什麼」影片（Apache 2.0）",
+   "short_title": "PAN 2：開源世界模型",
+   "one": "不是一般影片生成，而是「模擬」：給一張起始畫面加一句動作描述，它推演出物理上合理的後續影片，權重與程式碼都開源。",
+   "orig": "PAN 2, an open general-purpose world model.",
+   "summary": "依 Hugging Face IFM/PAN2、GitHub 與 Diffusers 0.43.0 發行說明：PAN 2 分兩段，先由語言模型寫出帶時間戳的事件與鏡頭描述，再由 29B 參數的影片擴散模型生成畫面；輸出 704×1248、24fps、最長 20 秒，文生影片與圖生影片共用同一權重，使用 Wan 2.2 VAE 與 Qwen3.5-9B 文字編碼器。授權 Apache 2.0；已進 Diffusers 與 vLLM，Diffusers 版預設開啟提示詞與影片安全檢查（需另裝 pan2-guardrail）。",
+   "links": [
+    [
+     "Hugging Face 模型頁",
+     "https://huggingface.co/IFM/PAN2"
+    ],
+    [
+     "GitHub",
+     "https://github.com/ifm-ai/PAN2"
+    ],
+    [
+     "Diffusers 0.43.0 發行說明",
+     "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+    ]
+   ],
+   "image": {
+    "file": "pan2.webp",
+    "alt": "Hugging Face IFM/PAN2 分享卡",
+    "credit": "Hugging Face",
+    "credit_url": "https://huggingface.co/IFM/PAN2"
+   },
+   "gloss": [
+    [
+     "世界模型",
+     "學會物理與因果的模型，能預測「做了某個動作之後會怎樣」"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "1 則更新。",
+   "updates": [
+    {
+     "title": "Diffusers 0.43.0 正式支援 MiniMax-H3-Image 與 Pika H3 Flex",
+     "date": "2026-11-12",
+     "short_title": "Diffusers 支援 H3-Image",
+     "one": "Python 用 Diffusers 就能直接跑 H3-Image 文生圖／改圖，以及建立在 H3 上、會同時出立體聲的 Pika H3 Flex 影片。",
+     "summary": "依 Hugging Face Diffusers 0.43.0 發行說明（11/12）：MiniMax-H3-Image 以模組化管線整合，支援文生圖與一或多張參考圖編輯，固定 6 步取樣、蒸餾引導，另有提示詞擴寫流程會建議長寬比；Pika H3 Flex 建立在 MiniMax-H3 上，6 步生成影片與同步立體聲，支援首／尾幀與多模態參考，可載入 LoRA，並可與 H3 共用已載入元件省記憶體。",
+     "links": [
+      [
+       "Diffusers 0.43.0 發行說明",
+       "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+      ]
+     ],
+     "image": {
+      "file": "diffusers-043.webp",
+      "alt": "Diffusers 0.43.0 發行頁分享卡",
+      "credit": "GitHub · huggingface/diffusers",
+      "credit_url": "https://github.com/huggingface/diffusers/releases/tag/v0.43.0"
+     },
+     "gloss": [
+      [
+       "Diffusers",
+       "Hugging Face 的開源 Python 套件，用幾行程式就能跑圖像／影片生成模型"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "1 則新教學。",
+   "updates": [
+    {
+     "title": "Greg Isenberg × Ras Mic：用 Grok Bot 當總指揮，工程交給 Claude Code、設計先在 Paper 定稿",
+     "date": "2026-11-12",
+     "short_title": "Grok Bot 當總指揮分派工作",
+     "one": "學到「一個專案一隻 bot」的分工法：Grok Bot 負責規劃與分派，寫程式交給 Claude Code，還有每天兩次自動找影片題材的內容 bot；作者實際展示做出的專案。",
+     "summary": "依影片說明欄與章節：Ras Mic 示範五類 bot（工程、設計、內容、商業財務、購物）。做法：每個重要專案開一隻 bot，另留一隻通用工程 bot 處理零星點子，沒用了就刪；Grok Bot 當總指揮，交給 Claude Code（Opus 5.5）寫程式，並有「安全檢查」段落；寫程式前先在 Paper 把設計定稿，附 agent 可參考的設計系統；YouTube 內容 bot 每天 9 點與 17 點掃 X，送回三個選題附推文、標題與資料。作者展示的成果包含 Pluto、Bezalel、一個 Rust 交易 App，以及弟弟服飾品牌的 Shopify 商店。作者說 200 美元月費的 Claude Code 方案約等於 8,000–12,000 美元 API 額度（作者說法）。",
+     "links": [
+      [
+       "YouTube 影片（Greg Isenberg）",
+       "https://www.youtube.com/watch?v=1cWZ7Ekff6E"
+      ],
+      [
+       "Greg Isenberg X 貼文",
+       "https://x.com/gregisenberg/status/2120594418231398677"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-ras-mic.webp",
+      "alt": "Use Grok Bot Better Than 99% of People 影片縮圖",
+      "credit": "Greg Isenberg（YouTube 縮圖）",
+      "credit_url": "https://www.youtube.com/watch?v=1cWZ7Ekff6E"
+     },
+     "gloss": [
+      [
+       "總指揮（orchestrator）",
+       "自己不一定動手，負責拆工作、分派給其他工具或 agent，再收回結果"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-comfy-desktop-install",
+   "title": "安裝新版 Comfy Desktop（Windows）：一個啟動器管理多個 ComfyUI",
+   "learn": "學會用官方安裝檔裝好 Comfy Desktop，第一次啟動時選雲端或本機，並知道舊版怎麼搬家、更新怎麼設定。",
+   "level": "入門",
+   "vram": "官方未列最低顯存；建議 NVIDIA／AMD 獨立顯卡但非必要，每個安裝至少約 4.85 GB 硬碟",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Comfy Desktop",
+     "ComfyUI 官方桌面版，現在可在同一個啟動器裡開多個 ComfyUI 安裝（instance）"
+    ]
+   ],
+   "steps": [
+    "確認環境：Windows 10 以上、x64 或 ARM64，每個安裝預留至少約 4.85 GB 硬碟。",
+    "從官方頁下載安裝檔（.exe），執行後依提示安裝，再從開始選單或桌面捷徑開啟。",
+    "第一次開啟會問要在 Comfy Cloud 跑還是裝在本機；選本機就照首次設定完成。",
+    "用過舊版 Desktop：新版會自動偵測並搬移自訂節點、工作流、模型與設定，搬家前會先備份，但會直接沿用原資料夾，想留乾淨副本要自己先備份。",
+    "更新：程式啟動後與每 10 分鐘會自動檢查並下載更新（無法關閉），只能設定要不要自動安裝；要每個最新 commit 請改用 portable 或手動 git 安裝。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Comfy Desktop for Windows",
+     "https://docs.comfy.org/installation/desktop/windows"
+    ],
+    [
+     "ComfyUI 官方：系統需求",
+     "https://docs.comfy.org/installation/system_requirements"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfy-lora-basics",
+   "title": "ComfyUI LoRA 入門：下載、載入、調強度，幫同一個模型換畫風",
+   "learn": "學會把 LoRA 放進正確資料夾、用 Load LoRA 節點套上去，並用強度參數控制風格濃淡。",
+   "level": "入門",
+   "vram": "官方頁未列；範例用 SD1.5 系 dreamshaper_8，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "LoRA",
+     "在大模型上加的小型微調檔，只調一小部分參數，就能換畫風或角色"
+    ]
+   ],
+   "steps": [
+    "下載範例模型：dreamshaper_8.safetensors 放 ComfyUI/models/checkpoints，blindbox_V1Mix.safetensors 放 ComfyUI/models/loras。",
+    "下載官方頁的工作流圖片，直接拖進 ComfyUI（或 Workflows → Open）載入。",
+    "確認 Load Checkpoint 選 dreamshaper_8、Load LoRA 選 blindbox_V1Mix，按 Queue 或 Ctrl+Enter 生成。",
+    "調 strength_model（影響模型權重）與 strength_clip（影響文字理解）控制風格強度；Lycoris、LoHa、LoKr 等變體用法相同，多個 Load LoRA 可串接疊用。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方教學：LoRA",
+     "https://docs.comfy.org/tutorials/basic/lora"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "今天沒有找到近 7 天內、可查證流程細節的 AI 輔助汽車設計新案例（Nissan 縮短造型週期已於 11/7 報過），本期不放；名家專欄候選影片說明欄多為下載／邀請連結，松音 FB 公開檢視顯示「頁面暫時無法使用」，本期不放專欄。",
+  "Seedance 2.5 Flash 依 Neural Brew 轉述 BytePlus 公告整理；Gemini 4 Hydrogen 實測為少量初步比較。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-13",
+  "compared_to": "2026-11-12",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-06",
+    "fetched": "2026-11-13",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-09",
+    "status": "unchanged",
+    "compared_to": "2026-11-12",
+    "diff": {
+     "summary": [
+      "Gemini 4 Carbon (high): #1→#1 (0 名), 1539→1538 (-1)",
+      "Claude Opus 5.5 (high): #4→#3 (+1 名), 1512→1513 (+1)",
+      "Claude Fable 5.1 (max): #3→#4 (-1 名), 1513→1512 (-1)",
+      "Claude Opus 5 (max): #5→#5 (0 名), 1507→1506 (-1)",
+      "Muse Wonder (max): #6→#6 (0 名), 1505→1503 (-2)",
+      "Claude Opus 5 (high): #7→#7 (0 名), 1503→1502 (-1)",
+      "Gemini 3.8 Flash (high): #9→#9 (0 名), 1501→1500 (-1)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 9,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 6,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 6,
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1505,
+      "ci": 6,
+      "move": 2,
+      "delta": 6
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1503,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 3,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1501,
+      "ci": 4,
+      "delta": 3
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "score": 1497,
+      "ci": 3,
+      "delta": 1
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-13",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-13",
+    "status": "unchanged",
+    "compared_to": "2026-11-12",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1259→1262 (+3)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1228→1230 (+2)",
+      "GPT Image 2.5 Flare (max): #4→#4 (0 名), 1209→1211 (+2)",
+      "Nano Banana 2.1: #6→#6 (0 名), 1176→1177 (+1)",
+      "MAI-Image-2.6: #7→#7 (0 名), 1168→1170 (+2)",
+      "Nano Banana 2 (Gemini 3.1 Flash Image): #9→#9 (0 名), 1142→1144 (+2)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1259,
+      "ci": 1595
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1228,
+      "ci": 1095,
+      "move": 1,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1209,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1189,
+      "ci": 1195,
+      "delta": 1
+     },
+     {
+      "rank": 6,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295
+     },
+     {
+      "rank": 7,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295
+     },
+     {
+      "rank": 8,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "org": "Google",
+      "score": 1142,
+      "ci": 1095
+     },
+     {
+      "rank": 10,
+      "model": "Seedream 5.5",
+      "org": "ByteDance Seed",
+      "score": 1135,
+      "ci": 1395,
+      "new": true
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-13",
+    "metric": "Elo",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-13",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-12",
+    "diff": {
+     "summary": [
+      "Utopai X: #2→#2 (0 名), 1168→1170 (+2)",
+      "Gemini Omni Flash 1.2: #6→#5 (+1 名), 1154→1154 (+0)",
+      "FLUX 3 Max: #5→#6 (-1 名), 1155→1153 (-2)",
+      "HeyGen Video 1: #7→#7 (0 名), 1153→1152 (-1)",
+      "MiniMax H3 Max: #8→#8 (0 名), 1147→1149 (+2)",
+      "SkyReels V4: #9→#9 (0 名), 1138→1137 (-1)",
+      "FLUX 3: #10→#10 (0 名), 1138→1137 (-1)"
+     ]
+    }
+   }
+  ]
+ },
+ "columns": []
+}
