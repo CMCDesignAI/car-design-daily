@@ -762,5 +762,29 @@
   "angle": "Nitra Universal Paint Line 與自癒保護膜",
   "url": "https://media.jlr.com/defender/news/2026/11/defender-launches-new-atlas-colours-inspired-spirit-adventure-around-world",
   "image": "cmf-mat-defender-upl.jpg"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "car",
+  "car_key": "car:mercedes-sl55-manufaktur-wta",
+  "angle": "SL 55 Crystal White Nappa 座艙",
+  "url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/",
+  "image": "cmf-car-sl55-cabin.jpg"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "paint",
+  "car_key": "paint:mercedes-ultraviolet-wta",
+  "angle": "Ultraviolet 紫",
+  "url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/",
+  "image": "cmf-paint-sl55-ultraviolet.jpg"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "material",
+  "car_key": "material:polestar-f2030-mono-polymer-flax",
+  "angle": "單一聚合物車門與亞麻椅背",
+  "url": "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors",
+  "image": "cmf-mat-polestar-f2030-seat.jpg"
  }
 ]

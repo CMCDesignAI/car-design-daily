@@ -2065,7 +2065,7 @@
       "image": null,
       "excerpt": "Porsche has unveiled the Mission S, a striking new concept that represents considerably more than another... The post Porsche Mission S: Rediscovering the Essence of the Sports Car appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "craft": 16,
       "craft_news": 2,
       "craft_ok": true,
@@ -4650,7 +4650,9 @@
       "excerpt": "「C-DM Hybrid System」は、ハイブリッド専用エンジン、ハイブリッド専用トランスミッション（DHT：Dedicated Hybrid Transmission）、専用バッテリー、および制御マネジメントシステ […]",
       "added": "2026-11-06",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft_ok": false,
+      "skipped_reason": "not_design_craft"
     },
     "mft-1659712": {
       "id": "mft-1659712",
@@ -4666,7 +4668,9 @@
       "excerpt": "第4世代EVプラットフォームは、車体構造／駆動ユニット／電気電子（E/E）アーキテクチャを単一のシステムとして協調設計している。その中でも特に、LMR角形バッテリー、部品点数を4割削減した電動駆動ユニット、空力設計の統合 […]",
       "added": "2026-11-06",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft_ok": false,
+      "skipped_reason": "not_design_craft"
     },
     "mft-1659765": {
       "id": "mft-1659765",
@@ -4682,7 +4686,9 @@
       "excerpt": "NVIDIA Hyperionは、レベル4自動運転車やロボタクシー向けにNVIDIAが提供するセンサー・演算のリファレンスアーキテクチャ。新プラットフォームは、NVIDIA Hyperion内のデュアル「NVIDIA D […]",
       "added": "2026-11-06",
       "used": false,
-      "language": "ja"
+      "language": "ja",
+      "craft_ok": false,
+      "skipped_reason": "not_design_craft"
     },
     "od-281-s1": {
       "id": "od-281-s1",
@@ -5111,6 +5117,101 @@
       "image": "https://motor-fan.jp/wp-content/uploads/2026/11/BMWxLumissil_web_thumbnail.jpg?v=1794352782",
       "excerpt": "一般的に、電気自動車のバッテリーパック内部には、数百個におよぶセルの電圧・温度を監視するため、各セルモジュールから中央BMSへ伸びる膨大な数の信号線（低圧ワイヤーハーネス）とコネクターが張り巡らされている。この専用通信配 […]",
       "added": "2026-11-12",
+      "used": false,
+      "language": "ja"
+    },
+    "c77-Sony-Brings-Back-1979-Wired-Walkman-Headphones-Design": {
+      "id": "c77-Sony-Brings-Back-1979-Wired-Walkman-Headphones-Design",
+      "source": "Core77",
+      "credit": "Core77",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Analysis",
+      "title_en": "Sony Brings Back 1979 Wired Walkman Headphones Design",
+      "date": "2026-11-13",
+      "url": "https://www.core77.com/posts/145875/Sony-Brings-Back-1979-Wired-Walkman-Headphones-Design",
+      "image": "https://s3files.core77.com/blog/images/lead_n_spotlight/1856616_lead_400_145875_.jpeg",
+      "excerpt": "In 2016, Apple released the first AirPods. This seemed to be the futuristic pinnacle of headphone evolution. Surprisingly, in the subsequent ten years, things have started sliding the other way. A subset of consumers don't like having to deal with an additional thing to charge. Small",
+      "added": "2026-11-13",
+      "used": false
+    },
+    "mf-1677702": {
+      "id": "mf-1677702",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "concept",
+      "column": "CAR STYLING",
+      "title_en": "全幅2021mm、全高1350mmの4ドアスポーツ。ポールスターが次世代デザインを示すコンセプトカー「フォーミュラ2030」を公開",
+      "date": "2026-11-12",
+      "url": "https://motor-fan.jp/article/1677702/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/polestar-formula-2030_11.jpg?v=1794467877",
+      "excerpt": "ボルボのパフォーマンス部門から独立したEVブランド。新デザイン責任者のもとで生まれた最初のショーカー ポールスター（Polestar）の起源は、1996年からボルボとともにモータースポーツに取り組んできたスウェーデンのチ […]",
+      "added": "2026-11-13",
+      "used": false,
+      "language": "ja"
+    },
+    "mft-1677427": {
+      "id": "mft-1677427",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "スバルはなぜ開発期間を半減できたのか？ CAEと実車検証の一体化、「大部屋制」が変えるクルマづくり",
+      "date": "2026-11-12",
+      "url": "https://motor-fan.jp/article/1677427/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/IMG_1817.jpeg?v=1794450787",
+      "excerpt": "デジタルと実車を分業しない。スバルが導入した「一気通貫」の開発手法 スバルは2026年10月17日に栃木県佐野市のスバル研究実験センター（SKC）で「SUBARU 開発戦略 説明・取材会」を開催した。この場では […]",
+      "added": "2026-11-13",
+      "used": false,
+      "language": "ja"
+    },
+    "mft-1676652": {
+      "id": "mft-1676652",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "ピーク効率99.7％と電圧サージ90％削減。HillcrestとEquipmakeが量産化する800V商用車向けZVSインバーター",
+      "date": "2026-11-12",
+      "url": "https://motor-fan.jp/article/1676652/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/Hillcrest-ZVS-Technology.jpg?v=1794369824",
+      "excerpt": "従来のインバーターで用いられる「ハードスイッチング」は、半導体素子に電圧と電流が同時にかかった状態で高速ON/OFFを行うため、スイッチング損失（熱）が大きく、急峻な電圧変動（dV/dt）によってモーター端子に有害なサー […]",
+      "added": "2026-11-13",
+      "used": false,
+      "language": "ja"
+    },
+    "mft-1677245": {
+      "id": "mft-1677245",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "電池端子を横に向けて全高20％削減。そして軽トラがいよいよアメリカに上陸。",
+      "date": "2026-11-12",
+      "url": "https://motor-fan.jp/article/1677245/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/Toyota-Corporate-Logo-600x427-1.jpg?v=1794438608",
+      "excerpt": "イベントでは、次世代パワートレーン・バッテリー、自動運転、ソフトウェア定義車両（SDV）、AI・ロボティクスに関する最新の技術進捗が示された。 注目は新型角形リチウムイオン電池。電極端子を水平方向に配置する設計を採用する […]",
+      "added": "2026-11-13",
+      "used": false,
+      "language": "ja"
+    },
+    "mft-1677356": {
+      "id": "mft-1677356",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "スバルの次世代BEVは薄型バッテリーと小型・軽量eアクスルが鍵！ アイシン、パナソニックとの共同開発で目指す「意のままの走り」",
+      "date": "2026-11-12",
+      "url": "https://motor-fan.jp/article/1677356/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/O.jpg?v=1794448487",
+      "excerpt": "次世代BEVのパワーソースは小型・軽量化と高密度化を追求 スバルは2026年10月17日に栃木県佐野市のスバル研究実験センター（SKC）で「SUBARU 開発戦略 説明・取材会」を開催した。この場では自社開発B […]",
+      "added": "2026-11-13",
       "used": false,
       "language": "ja"
     }

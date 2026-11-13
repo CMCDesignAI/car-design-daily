@@ -1,0 +1,680 @@
+{
+ "date": "2026-11-13",
+ "weekday": "週五",
+ "issue_no": 37,
+ "lede": "騰勢 N8 正式上市，用三排座車身只做五人座，π 式車頭與懸浮車頂一起登場；VW 電動 ID. Tiguan 開始量產、改走方正 SUV 路線。設計專欄回看 Porsche Mission S 怎麼用「漂浮量體」與歷代經典細節，重新定義中置跑車。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "denza-n8",
+   "tag": "新車 · 中國",
+   "date": "2026-11-12",
+   "brand": "Denza",
+   "title": "Denza N8 上市：五人座寬體 SUV，π 式車頭與懸浮車頂",
+   "orig": "Denza N8 Launched Starting at 269,900 Yuan",
+   "summary": "騰勢 11 月 12 日正式上市 N8，純電與插電油電兩種動力共 6 個車型，官方指導價 26.99–32.99 萬元人民幣。車長 5,150mm、軸距 3,075mm，用三排座等級的車身只做五人座；純電版 CLTC 續航最高 1,003 km。",
+   "analysis": [
+    [
+     "車頭",
+     "騰勢經典 π-motion 設計語言的電動化演進：發光 logo、箭羽雙燈與星鑽頭燈三層排列。"
+    ],
+    [
+     "側面",
+     "一條肩線從車頭延伸到車尾，搭配動感裙線與懸浮車頂，讓大車身看起來輕盈。"
+    ],
+    [
+     "內裝",
+     "新一代內裝主打「靜奢美學」，環抱式座艙，前後排扶手連成一體；天際屏＋巨幕雙屏，出風口隱藏。"
+    ],
+    [
+     "CMF",
+     "8 種車色（4 款雙色）、4 種座艙配色；大面積軟包、麂皮車頂、Nappa 真皮、實木飾板與水晶旋鈕。"
+    ]
+   ],
+   "sources": [
+    [
+     "GEMS / kmautoBANG（11/12）",
+     "https://gemsgbr.com/article/art_252921196"
+    ]
+   ],
+   "image": {
+    "file": "news-denza-n8.webp",
+    "alt": "銀色 Denza N8 停在海岸山景前，兩人坐在旁邊看海",
+    "credit": "Denza (via GEMS)",
+    "credit_url": "https://gemsgbr.com/article/art_252921196"
+   },
+   "more_images": [
+    {
+     "file": "news-denza-n8-2.jpg",
+     "alt": "Denza N8 環抱式座艙，前後排連成一體的扶手與寬幅螢幕",
+     "credit": "Denza (via GEMS)",
+     "credit_url": "https://gemsgbr.com/article/art_252921196"
+    }
+   ]
+  },
+  {
+   "id": "vw-id-tiguan",
+   "tag": "量產 · 德國",
+   "date": "2026-11-12",
+   "brand": "Volkswagen",
+   "title": "電動 ID. Tiguan 在 Emden 開始量產：改走方正傳統 SUV 造型",
+   "orig": "Volkswagen's new electric SUV is taking over where the ID.4 left off",
+   "summary": "Volkswagen 11 月 12 日宣布電動 ID. Tiguan 在德國 Emden 廠開始量產，2027 年接替 ID.4。新車沿用品牌最暢銷的 Tiguan 車名，告別 ID.4／ID.5 的數字命名。",
+   "analysis": [
+    [
+     "設計語言",
+     "採用 VW「Pure Positive」設計語言，內外都重新設計。"
+    ],
+    [
+     "比例",
+     "不像 ID.4 走空力圓潤路線，外型更接近油車 Tiguan 的方正傳統 SUV。"
+    ],
+    [
+     "車頭",
+     "寬而厚實的車頭。"
+    ],
+    [
+     "細節",
+     "改回傳統拉式門把，不用隱藏式門把。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/12）",
+     "https://electrek.co/2026/11/12/volkswagens-new-electric-suv-taking-over-where-id-4-left-off/"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-tiguan.webp",
+    "alt": "橄欖綠色 Volkswagen ID. Tiguan 側前方，停在建築前",
+    "credit": "Volkswagen (via Electrek)",
+    "credit_url": "https://electrek.co/2026/11/12/volkswagens-new-electric-suv-taking-over-where-id-4-left-off/"
+   }
+  },
+  {
+   "id": "fiat-argo-x",
+   "tag": "新車 · 巴西",
+   "date": "2026-11-12",
+   "brand": "Fiat",
+   "title": "Fiat Argo X：巴西版 Grande Panda，門板拿掉 Panda 字樣",
+   "orig": "No Panda, No Problem: Fiat's New Argo X Smooths Out Its Doors",
+   "summary": "Fiat 公布 Argo X 官方照片，未來幾個月在巴西上市。它是歐洲 Grande Panda 的南美兄弟車，在巴西 Betim 的 Stellantis 廠生產，共用 Smart Car 平台；Fiat 說這是新全球設計語言首次在巴西亮相。",
+   "analysis": [
+    [
+     "車門",
+     "門板改成平滑面，拿掉歐洲版壓在門上的 Panda 浮雕字樣。"
+    ],
+    [
+     "標誌",
+     "車頭與尾門的 Fiat 標誌改為置中對稱，不用復古的偏一側擺法，車尾另加 Argo X 字樣。"
+    ],
+    [
+     "配色",
+     "雙色車身，黑色車頂與車柱，換上不同的鑽石切削輪圈。"
+    ],
+    [
+     "共用",
+     "方正比例、墊高姿態、塑料護板與像素風 LED 燈都和 Grande Panda 相同。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/12）",
+     "https://www.carscoops.com/2314493/no-panda-no-problem-fiat-argo-x-smooths-doors/"
+    ]
+   ],
+   "image": {
+    "file": "news-fiat-argo-x.webp",
+    "alt": "淺綠色 Fiat Argo X 前 3/4，像素風 LED 頭燈與黑色車頂",
+    "credit": "Stellantis (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2314493/no-panda-no-problem-fiat-argo-x-smooths-doors/"
+   }
+  },
+  {
+   "id": "honda-alpha",
+   "tag": "命名 · 印度／日本",
+   "date": "2026-11-12",
+   "brand": "Honda",
+   "title": "Honda 首款全球電動 SUV 定名 Alpha，12/2 在印度首發",
+   "orig": "Se desvela el nombre 'Honda Alpha' para el primer SUV eléctrico global",
+   "summary": "Honda Cars India 確認首款全球電動 SUV 名為 Honda Alpha，12 月 2 日在印度全球首發，印度也將是它的全球生產基地。規格、價格與其他市場時程都還沒公布。",
+   "analysis": [
+    [
+     "新標誌",
+     "Alpha 是第一台在印度生產、掛上 Honda 重新設計「H」標誌的量產車，新標誌屬於下一代電動車的視覺更新。"
+    ],
+    [
+     "來源",
+     "報導指它是 Japan Mobility Show 上 Honda 0 Alpha 原型的量產版。"
+    ],
+    [
+     "輪廓",
+     "蓋著車罩的預告圖看得出車尾高而方正，和 0 Alpha 的側面相近。"
+    ],
+    [
+     "命名",
+     "名稱取自希臘字母第一個字，Honda 說代表新的開始。"
+    ]
+   ],
+   "sources": [
+    [
+     "Motor1 España（11/12）",
+     "https://es.motor1.com/news/814613/honda-alpha-suv-electrico-global/"
+    ]
+   ]
+  },
+  {
+   "id": "audi-nuvolari-us",
+   "tag": "超跑 · 美國",
+   "date": "2026-11-12",
+   "brand": "Audi",
+   "title": "Audi Nuvolari 確定進美國：全球限量 499 台，起價 70 萬美元",
+   "orig": "987-HP Audi Nuvolari Coming To The US In 2028 For $700,000",
+   "summary": "Audi 在歐洲首發約五個月後，確認 R8 的油電後繼車 Nuvolari 在美國銷售：全球限量 499 台、美國分配 182 台，2028 下半年交車，美國起價 70 萬美元。動力是 4.0L 雙渦輪 V8 加三具軸向磁通馬達，合計 987 hp。",
+   "analysis": [
+    [
+     "結構",
+     "新的 Audi Space Frame 架構，車身覆件用輕量碳纖維。"
+    ],
+    [
+     "空力",
+     "三段可調尾翼加 DRS，下壓力超過 400 kg。"
+    ],
+    [
+     "CMF",
+     "標準有 50 多種亮面漆、10 種消光漆，也可選裸碳車身；內裝 33 種皮革色與 3 種 Dinamica 織物。"
+    ],
+    [
+     "客製",
+     "Audi Exclusive 另提供專屬車色與材質。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/12）",
+     "https://www.carscoops.com/2315315/audi-nuvolari-coming-to-us-2028/"
+    ]
+   ],
+   "image": {
+    "file": "news-audi-nuvolari.webp",
+    "alt": "銀色 Audi Nuvolari 在賽道上，低矮車頭與分層頭燈",
+    "credit": "Audi (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2315315/audi-nuvolari-coming-to-us-2028/"
+   }
+  },
+  {
+   "id": "lambo-temerario-akrapovic",
+   "tag": "配件 · 義大利",
+   "date": "2026-11-12",
+   "brand": "Lamborghini",
+   "title": "Temerario 加推 Akrapovič 鈦排氣，敞篷衍生車 11/18 洛杉磯登場",
+   "orig": "Lamborghini Temerario Just Got A Loud Upgrade Right Before Losing Its Top",
+   "summary": "Lamborghini 為 Temerario 推出與 Akrapovič 合作的選配鈦合金排氣，列入 Accessori Originali 目錄，也能替現有車主加裝。官方確認首款 Temerario 衍生車 11 月 18 日在洛杉磯發表，報導推測是敞篷版。",
+   "analysis": [
+    [
+     "材質",
+     "高等級鈦合金、手工組裝，精密鑄造閥體，尾管是專屬黑色處理。"
+    ],
+    [
+     "重量",
+     "系統重 11.4 kg，比標準排氣輕 12%。"
+    ],
+    [
+     "預告",
+     "官網預告照只拍了三道百葉，報導推測在重新設計的引擎蓋上。"
+    ],
+    [
+     "命名",
+     "報導推測沿用 Gallardo、Huracán 敞篷版的「Spyder」名稱，官方尚未證實。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/12）",
+     "https://www.carscoops.com/2314539/lamborghini-temerario-loud-upgrade-before-losing-top/"
+    ]
+   ],
+   "image": {
+    "file": "news-lambo-temerario.webp",
+    "alt": "黃色 Lamborghini Temerario 前 3/4，左上方是鈦合金排氣特寫",
+    "credit": "Lamborghini (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2314539/lamborghini-temerario-loud-upgrade-before-losing-top/"
+   }
+  },
+  {
+   "id": "mitsubishi-xforce-ice",
+   "tag": "改款 · 印尼",
+   "date": "2026-11-12",
+   "brand": "Mitsubishi",
+   "title": "印尼 New Xforce 汽油版五項更新：無框全景天窗、調軟懸吊",
+   "orig": "Lima Pembaruan Penting yang Dimiliki Mitsubishi New Xforce Versi Mesin Bensin",
+   "summary": "三菱印尼 MMKSI 以「Elevated Urban SUV」概念推出 New Xforce，除了油電版，汽油版 Exceed 與 Ultimate 也有五項更新，主打提升座艙舒適與質感。",
+   "analysis": [
+    [
+     "座艙",
+     "無框全景天窗延伸到半個車頂，讓車室更亮、更寬敞。"
+    ],
+    [
+     "懸吊",
+     "避震重新調校，過顛簸路更軟，高速仍維持穩定。"
+    ],
+    [
+     "配備",
+     "加入 360 度環景攝影、駕駛座六向電動椅與更亮的 LED 車室燈。"
+    ],
+    [
+     "選配",
+     "Premium Package 可選雙色車身、Yamaha 音響與電動尾門。"
+    ]
+   ],
+   "sources": [
+    [
+     "Suara.com（11/12）",
+     "https://www.suara.com/otomotif/2026/11/12/133000/lima-pembaruan-penting-yang-dimiliki-mitsubishi-new-xforce-versi-mesin-bensin"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-xforce.webp",
+    "alt": "紅色 Mitsubishi New Xforce 黑色車頂，行駛在高架道路",
+    "credit": "MMKSI (via Suara.com)",
+    "credit_url": "https://www.suara.com/otomotif/2026/11/12/133000/lima-pembaruan-penting-yang-dimiliki-mitsubishi-new-xforce-versi-mesin-bensin"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "cdtv-porsche-mission-s-rediscovering-the-essence-of-the-sports-car",
+   "source": "Car Design TV",
+   "credit": "Car Design TV",
+   "kind": "analysis",
+   "column": "Design Analysis",
+   "date": "2026-10-16",
+   "url": "https://www.cardesigntv.com/porsche-mission-s-rediscovering-the-essence-of-the-sports-car/",
+   "paywalled": false,
+   "orig": "Porsche Mission S: Rediscovering the Essence of the Sports Car",
+   "design_tag": "造型手法",
+   "craft_score": 16,
+   "title": "Porsche Mission S：用漂浮量體與歷代細節，重新定義中置跑車",
+   "points": [
+    "不靠滿身折線，讓幾個大量體互相流動，靠比例與面張力表達性能。",
+    "一條主特徵線連起前後燈，上方是肌肉雕塑、下方露出空力結構。",
+    "959 車頂、GT1 車中車、928 電話撥盤輪圈，都改寫成新比例而非復古。",
+    "座艙拿掉常駐中控螢幕，五顆圓錶會依駕駛模式實體移動。"
+   ],
+   "image": {
+    "file": "cdtv-mission-s.jpg",
+    "alt": "白色 Porsche Mission S 概念車前 3/4，低矮車頭與中置比例",
+    "credit": "Porsche (via Top Gear)",
+    "credit_url": "https://www.topgear.com/car-news/supercars/mission-accepted-meet-stunning-new-mid-engined-porsche-mission-s"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "Porsche 10 月 15 日在紐約皇后區碼頭發表 Mission S，對岸就是曼哈頓──1953 年 550 Spyder 正是在這裡拍下打響美國名號的照片。這台概念車不只是設計練習，它預告一個要長期存在、位在 911 之上的中置超跑平台，而不是過去 Carrera GT、918 那種偶爾一次的限量車。",
+       "設計由 Style Porsche 負責人 Tobias Sühlmann 主導，三個原則是真實、一致與永恆；董事長 Michael Leiters 則強調，不論技術和比例怎麼變，每台 Porsche 都要一眼認得出來。"
+      ]
+     },
+     {
+      "h": "漂浮量體：少線條、多張力",
+      "p": [
+       "低矮車頭、隆起的輪拱、緊湊座艙與寬厚的後肩，構成和 911 明顯不同的中置站姿。",
+       "設計師說的「floating volumes」是重點：車身不靠一堆銳利折線定義，而是讓幾個大面彼此流動，組成連續的雕塑。一條主特徵線連起前後燈號，劃出上下分界──上方強調肌肉與動感，下方露出功能與空力結構。Car Design TV 認為，它靠比例、面張力和量體關係說話，而不是堆砌細節。"
+      ]
+     },
+     {
+      "h": "歷代經典，改寫而非複製",
+      "p": [
+       "隆起的前葉子板和圓頭燈呼應 911 的魚雷形輪拱；燈組周圍的接縫處理參考 G 系列 911；極低的車頭取自 911 GT1。",
+       "流線車頂讓人想到 959，一路延伸到尾翼下方再接進車尾；車尾則重新詮釋 GT1 的「車中車」（Car-in-Car）手法，在大量體裡做出一個獨立的技術結構。這些引用都配合新比例和空力需求改寫，所以不會變成復古車。"
+      ]
+     },
+     {
+      "h": "空力與工程進到造型裡",
+      "p": [
+       "中置引擎讓 Porsche 能保留招牌的流線車頂，同時把機構集中在車身中央。冷卻設計參考 917 的風扇排列；主動尾翼完整整合進車身雕塑。",
+       "輪圈改寫 928 的「電話撥盤」圓孔造型，強調輕量。尾翼、燈組與技術面板在車尾組成同一個構圖，而不是各自外掛的翼片和風口。"
+      ]
+     },
+     {
+      "h": "座艙：讓螢幕退場",
+      "p": [
+       "內裝回到以駕駛為中心，靈感來自 550 Spyder 與 356。兩條主線貫穿儀表板與車門，包住乘員，和外觀雕塑相連。安全帶扣整合進座椅中央側翼，電動調整鈕也換了位置。",
+       "招牌五圓錶改成五個獨立圓形儀表，會依駕駛模式實體移動：中央轉速錶是類比指針疊在數位螢幕前，運動模式時會往駕駛靠近。Mission S 沒有常駐中控螢幕、也沒有副駕螢幕，改用可收起、相容 MagSafe 的手機介面；鑰匙孔仍在方向盤左側。Car Design TV 說，對跑車來說少一點視覺資訊可能是真正的進步。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "cdtv-mission-s-side.jpg",
+      "alt": "Mission S 側面草圖，低車頭、隆起輪拱與後移座艙",
+      "credit": "Porsche (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/porsche-mission-s-rediscovering-the-essence-of-the-sports-car/",
+      "section": 1
+     },
+     {
+      "file": "cdtv-mission-s-front.jpg",
+      "alt": "Mission S 前 3/4 草圖，圓頭燈與隆起前葉子板",
+      "credit": "Porsche (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/porsche-mission-s-rediscovering-the-essence-of-the-sports-car/",
+      "section": 2
+     },
+     {
+      "file": "cdtv-mission-s-rear.jpg",
+      "alt": "Mission S 後 3/4 草圖，整合式尾翼與車中車結構",
+      "credit": "Porsche (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/porsche-mission-s-rediscovering-the-essence-of-the-sports-car/",
+      "section": 3
+     },
+     {
+      "file": "cdtv-mission-s-cabin.jpg",
+      "alt": "Mission S 座艙，黑白內裝、五圓儀表與實體按鍵，沒有中控螢幕",
+      "credit": "Porsche (via Car and Driver)",
+      "credit_url": "https://www.caranddriver.com/photos/a74147892/porsche-mission-s-concept-revealed-gallery/",
+      "section": 4
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-sl55-manufaktur",
+   "kind": "car",
+   "car": "Mercedes-AMG SL 55 Manufaktur",
+   "tag": "內裝 · 德國",
+   "title": "SL 55 冠軍獎車：Crystal White 全白 Nappa 座艙",
+   "points": [
+    "座艙用 Manufaktur Nappa 皮革，Crystal White 白色處理。",
+    "頭枕上有專屬壓紋圖案。",
+    "加上碳纖維飾件、專屬門檻與刻有冠軍名字的銘牌。",
+    "整台車透過 Manufaktur Made to Measure 客製計畫打造。"
+   ],
+   "image": {
+    "file": "cmf-car-sl55-cabin.jpg",
+    "alt": "SL 55 白色 Nappa 座椅與頭枕壓紋特寫",
+    "credit": "Mercedes-Benz (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+   },
+   "sources": [
+    [
+     "Carscoops（11/12）",
+     "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-sl55-ultraviolet",
+   "kind": "paint",
+   "car": "Mercedes-AMG SL 55",
+   "tag": "塗料 · 德國",
+   "title": "Ultraviolet 紫：取自 WTA 代表色的獨一台",
+   "points": [
+    "車身是專屬 Ultraviolet 紫色，靈感來自女子網球協會 WTA 的代表色。",
+    "這台 SL 55 全球只有一台，送給 2026 WTA 年終賽冠軍。",
+    "Carscoops 指這個紫和 Porsche 2015 年 911 GT3 RS 的 Ultraviolet 很接近。",
+    "紫色外觀配全白 Crystal White 座艙，形成強烈對比。"
+   ],
+   "image": {
+    "file": "cmf-paint-sl55-ultraviolet.jpg",
+    "alt": "Ultraviolet 紫色 Mercedes-AMG SL 55 正面，背景是 Manufaktur 字樣",
+    "credit": "Mercedes-Benz (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+   },
+   "sources": [
+    [
+     "Carscoops（11/12）",
+     "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-polestar-f2030-circular",
+   "kind": "material",
+   "car": "Polestar Formula 2030",
+   "tag": "材質 · 瑞典",
+   "title": "單一聚合物車門與亞麻椅背：為回收而設計",
+   "points": [
+    "車門用同一個聚合物家族製成，方便閉環回收。",
+    "椅背用歐洲亞麻與生質聚丙烯，降低重量與碳排。",
+    "座椅骨架與橫梁用低排放鍍鋅鋼。",
+    "內外採同色調（tone-in-tone）配色。"
+   ],
+   "image": {
+    "file": "cmf-mat-polestar-f2030-seat.jpg",
+    "alt": "Formula 2030 淺灰座椅與黃色安全帶，車門開啟",
+    "credit": "Polestar (via Interesting Engineering)",
+    "credit_url": "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors"
+   },
+   "sources": [
+    [
+     "Interesting Engineering（11/12）",
+     "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-denza-n8-trifold",
+   "kind": "case",
+   "brand": "Denza",
+   "tag": "座艙螢幕 · 中國",
+   "title": "Denza N8：天際屏加三折巨幕，像手機一樣拖曳",
+   "date": "2026-11-12",
+   "points": [
+    "全球首見「天際屏＋巨幕」雙屏組合，天際屏可自訂導航、車速等數十種小工具。",
+    "巨幕用浮動視窗，可在單屏、二折、三折之間切換、任意拖曳。",
+    "和主流手機品牌互聯，中控屏秒變三折手機畫面。",
+    "螢幕上的 AI 寵物「小麵包」會回應呼喚與觸碰，讓介面有溫度。"
+   ],
+   "image": {
+    "file": "hmi-denza-n8-screen.jpg",
+    "alt": "Denza N8 寬幅中控螢幕，畫面上有時鐘與柯基 AI 寵物",
+    "credit": "Denza (via GEMS)",
+    "credit_url": "https://gemsgbr.com/article/art_252921196"
+   },
+   "sources": [
+    [
+     "GEMS / kmautoBANG（11/12）",
+     "https://gemsgbr.com/article/art_252921196"
+    ],
+    [
+     "DVN（11/12）",
+     "https://www.drivingvisionnews.com/news/2026/11/12/byd-denza-n8-has-wide-pano-display-four-new-cmfs/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "政策 · 歐洲",
+   "date": "2026-11-12",
+   "title": "歐盟與英國擬再延後電動車 10% 關稅，電池原產地規則恐卡關",
+   "summary": "依英歐脫歐協議，2027 年起電動車至少 55% 價值、電芯與模組 65%、電池包 70% 須來自歐盟或英國，否則課 10% 關稅。ACEA 估計 2027 年約 52 萬輛輸英電動車中 82% 不符規定，額外關稅約 14.7 億歐元；歐盟正徵詢業界延後方案，英國表態支持。",
+   "sources": [
+    [
+     "electrive（11/12）",
+     "https://www.electrive.net/2026/11/12/eu-und-grossbritannien-wollen-gegenseitige-e-auto-zoelle-erneut-verschieben/"
+    ],
+    [
+     "The Guardian（11/12）",
+     "https://www.theguardian.com/business/2026/nov/12/uk-car-industry-rules-of-origin-brexit-ev-tariffs-eu"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 中國",
+   "date": "2026-11-11",
+   "title": "中國 10 月新能源車銷量 194 萬輛、年增 13.1%，占新車 64.3%",
+   "summary": "中汽協公布 10 月汽車銷量 301.6 萬輛、年減 9.2%，新能源車則逆勢成長到 194 萬輛，占比 64.3%。出口表現強勁：10 月汽車出口 106.6 萬輛、年增 60.2%，其中新能源車 60.6 萬輛、年增 1.4 倍。",
+   "sources": [
+    [
+     "波新聞（11/12）",
+     "https://www.bo6s.com.tw/news_detail.php?NewsID=118695"
+    ]
+   ]
+  },
+  {
+   "tag": "財報 · 日本",
+   "date": "2026-11-11",
+   "title": "日產上半年續虧 397 億日圓，中國銷量目標砍到 37–40 萬輛",
+   "summary": "日產 4–9 月營收年增 8.8%、營益 800 億日圓，但淨損 397 億日圓，連續第二年同期虧損。中國需求轉向新能源車快於預期，全年全球銷量目標從 315 萬輛下修至 297–300 萬輛，中國從 58 萬輛砍到 37–40 萬輛；隔天股價一度跌逾 5%。",
+   "sources": [
+    [
+     "MoneyDJ（11/12）",
+     "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=2e8dc4f5-3f03-447e-9c3a-a67113d42524"
+    ]
+   ]
+  },
+  {
+   "tag": "投資 · 韓國／印度",
+   "date": "2026-11-12",
+   "title": "Kia 與供應商砸 20 億美元在印度蓋第二座廠，2030 年初投產",
+   "summary": "Kia 與印度安得拉邦簽署合作備忘錄，在 Anantapur 新建第二座工廠，生產燃油與電動車，年產能增加 20 萬輛（現有 43 萬輛），預計創造約 1.2 萬個就業機會；兩座印度廠累計投資（含供應商）將達約 50 億美元。",
+   "sources": [
+    [
+     "The Hindu／Reuters（11/12）",
+     "https://www.thehindu.com/business/kia-suppliers-plan-2-billion-investment-in-second-plant-in-andhra-pradesh-targets-2030-production-kickoff/article71695150.ece"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 台灣",
+   "date": "2026-11-11",
+   "title": "環境部預告：老舊車汰換電動車補助延長到 2030 年底",
+   "summary": "環境部預告修正「老舊車輛汰舊換新空氣汙染物減量補助辦法」，原訂今年底到期的補助延長至 2030 年底，汰舊換購電動車或低汙染車可領 1,000 至 3 萬元。2022 年上路以來僅 14.6 萬輛響應，全台車齡 10 年以上的老機車仍超過 600 萬輛。",
+   "sources": [
+    [
+     "聯合報（11/12）",
+     "https://udn.com/news/story/7314/9873027"
+    ]
+   ]
+  },
+  {
+   "tag": "品質 · 中國",
+   "date": "2026-11-11",
+   "title": "比亞迪大唐輪圈錯裝致歉：供應商編碼錄入失誤，整車保固重新起算",
+   "summary": "比亞迪聲明，部分大唐車輛輪圈錯裝，原因是輪圈分裝供應商編碼錄入失誤；經檢測不影響操控與行車安全。比亞迪將免費檢測並更換輪圈、提供代步車或交通補償，錯裝車輛整車保固自即日起重新起算，供應商產線也新增視覺防錯機制。",
+   "sources": [
+    [
+     "財聯社汽車早報（11/12）",
+     "https://news.qq.com/rain/a/20261112A040SE00"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Shoulder line",
+  "zh": "肩線（shoulder line）",
+  "body": "肩線是車身側面、車窗下緣再往下一點的那道彎折或稜線，車身在這裡從上方的面轉折成垂直的側面。本期的 Denza N8 就是例子：官方說它的側面有一條肩線，從車頭一路延伸到車尾，下方再搭一條裙線。設計師用這條線把長車身串成一個整體，讓大型 SUV 看起來更有力、也更修長。",
+  "source": [
+   [
+    "Wikipedia：Glossary of automotive design（Shoulder）",
+    "https://en.wikipedia.org/wiki/Glossary_of_automotive_design"
+   ],
+   [
+    "GEMS：Denza N8 肩線從前延伸到後",
+    "https://gemsgbr.com/article/art_252921196"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Ultraviolet & Crystal Flax",
+   "zh": "紫外光配水晶白：冠軍紫與亞麻淺灰座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板用接近 SL 55 Crystal White Nappa 的暖白，飾條取 Ultraviolet 紫轉深的茄紫，門板嵌飾換成 Polestar Formula 2030 同色調座艙方向的霧藍灰，扶手用亞麻米，下門板深石墨。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Crystal Ivory（示意）",
+     "#E6E2DA",
+     false,
+     "ip-upper",
+     {
+      "src": "SL 55 Crystal White Nappa",
+      "url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Ultraviolet Plum（示意）",
+     "#4B2A6B",
+     false,
+     "ip-decor",
+     {
+      "src": "SL 55 Ultraviolet",
+      "url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Tone Mist Blue（示意）",
+     "#9AA6B2",
+     false,
+     "door-insert",
+     {
+      "src": "Polestar Formula 2030 tone-in-tone",
+      "url": "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Flax Beige（示意）",
+     "#CDBFA6",
+     false,
+     "armrest",
+     {
+      "src": "Polestar 亞麻椅背",
+      "url": "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors"
+     }
+    ],
+    [
+     "縫線／滾邊",
+     "Violet Stitch（示意）",
+     "#6E4A93",
+     false,
+     "stitch",
+     {
+      "src": "SL 55 Ultraviolet",
+      "url": "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Graphite Night（示意）",
+     "#2F3036",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Carscoops：SL 55 Ultraviolet 與 Crystal White",
+     "https://www.carscoops.com/2314956/mercedes-sl55-amg-manufaktur-purple/"
+    ],
+    [
+     "Interesting Engineering：Formula 2030 同色調與亞麻",
+     "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors"
+    ]
+   ],
+   "mood": "ultraviolet ivory mist blue flax",
+   "mood_text": "暖白打底，霧藍灰與亞麻米調和，一抹冠軍紫點亮座艙。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#E6E2DA",
+    "seat-bolster": "#CDBFA6",
+    "seat-center": "#9AA6B2",
+    "console": "#2F3036",
+    "console-arm": "#CDBFA6",
+    "steering": "#2A2A30",
+    "ip-lower": "#2F3036",
+    "accent-pod": "#4B2A6B",
+    "accent-pod2": "#9AA6B2"
+   }
+  }
+ }
+}

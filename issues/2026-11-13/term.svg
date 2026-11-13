@@ -1,0 +1,19 @@
+<svg class="diagram" viewBox="0 0 520 320" width="100%" role="img" aria-label="肩線示意：大型 SUV 側面，車窗下方從車頭延伸到車尾的肩線用強調色標出" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M28 206 L28 160 Q30 140 58 134 L118 126 L168 80 Q176 72 192 72 L440 74 Q462 76 470 92 L490 130 L494 168 L494 206 Z"/>
+<path d="M128 124 L174 84 L250 84 L250 124 Z"/>
+<path d="M260 124 L260 84 L360 84 L360 124 Z"/>
+<path d="M370 124 L370 84 L436 86 Q452 88 458 104 L466 124 Z"/>
+<path d="M255 128 L255 200" stroke-width="1.6"/><path d="M365 128 L365 200" stroke-width="1.6"/>
+<path d="M150 188 Q300 196 440 188" stroke-width="1.6"/>
+<circle cx="110" cy="208" r="32"/><circle cx="110" cy="208" r="13"/><circle cx="410" cy="208" r="32"/><circle cx="410" cy="208" r="13"/>
+<path d="M30 150 L70 142" stroke-width="3"/><path d="M486 120 L492 150" stroke-width="3"/>
+<path d="M14 242 L506 242" stroke-width="1.4"/></g>
+<path d="M60 142 Q120 134 200 134 L470 134 Q484 134 490 140" fill="none" stroke="#f08a5d" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M150 188 Q300 196 440 188" fill="none" stroke="#f08a5d" stroke-width="2" stroke-dasharray="6 5" stroke-opacity="0.8"/>
+<g font-size="15" fill="currentColor" font-family="sans-serif">
+<path d="M300 134 L300 40" stroke="currentColor" stroke-dasharray="4 4"/><text x="210" y="32">① 從車頭延伸到車尾的肩線</text>
+<path d="M120 124 L60 58" stroke="currentColor" stroke-dasharray="4 4"/><text x="18" y="52">② 車窗下緣</text>
+<path d="M440 190 L470 270" stroke="currentColor" stroke-dasharray="4 4"/><text x="380" y="288">③ 下方的裙線</text>
+<text x="18" y="310" font-size="13">肩線在窗線下方，是車身側面由上往下轉折的那道線（Denza N8 示意）</text>
+</g></svg>
