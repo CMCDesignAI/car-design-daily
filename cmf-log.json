@@ -786,5 +786,36 @@
   "angle": "單一聚合物車門與亞麻椅背",
   "url": "https://interestingengineering.com/photo-story/polestar-formula-2030-with-pillarless-doors",
   "image": "cmf-mat-polestar-f2030-seat.jpg"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "car",
+  "car_key": "acura integra type s",
+  "angle": "Integra Type S：深灰菱格飾板配黃色縫線",
+  "url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r",
+  "image": "cmf-car-integra-ebony.jpg"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "paint",
+  "car_key": "paint:acura-integra-blazing-phoenix-yellow",
+  "angle": "Blazing Phoenix Yellow：重現 DC2 的鳳凰黃",
+  "url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r",
+  "image": "cmf-paint-integra-phoenix.jpg"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "paint",
+  "car_key": "paint:theon-911-oak-green-neo",
+  "angle": "Oak Green Neo Metallic 配香檳金輪圈",
+  "url": "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/",
+  "image": "cmf-paint-theon-oakgreen.jpg"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "material",
+  "car_key": "material:mingxin-smart-microfiber-eink",
+  "angle": "會顯示、能觸控的智慧超纖革專利",
+  "url": "https://finance.sina.com.cn/stock/aigc/zl/2026-11-11/doc-iniyipkf1945835.shtml"
  }
 ]

@@ -1,0 +1,693 @@
+{
+ "date": "2026-11-14",
+ "weekday": "週六",
+ "issue_no": 38,
+ "lede": "荷蘭新創 Sanrivatti One 讓駕駛跪著開 V10 賽道超跑，外型取材遊隼與戰機；比亞迪第三代唐只做五人座、塞進兩塊大螢幕。設計專欄由前 JLR 設計師拆解 Jaguar Type 01 的超長車身、低車頂與座艙取捨。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "sanrivatti-one",
+   "tag": "全球首發 · 荷蘭",
+   "date": "2026-11-13",
+   "brand": "Sanrivatti",
+   "title": "Sanrivatti One：跪姿駕駛的 V10 賽道超跑，以遊隼與戰機為靈感",
+   "orig": "The Sanrivatti One Supercar Has an 800-HP Judd V-10 and a Motorcycle-Like Seating Position",
+   "summary": "荷蘭新創 Sanrivatti 11 月 13 日完整發表 One：中置 5.5 升自然進氣 Judd V10、800 匹馬力，碳纖維單體車身，乾重約 1,100 公斤，原廠配光頭胎，定位賽道專用。最大話題是像騎重機一樣「跪著、頭在腿前面」的駕駛姿勢。",
+   "analysis": [
+    [
+     "人因",
+     "駕駛採跪姿、頭部位在雙腿前方，類似重機騎姿，顛覆傳統坐姿。"
+    ],
+    [
+     "造型",
+     "側面一道掃過全車的特徵線，模仿遊隼俯衝時的翅膀。"
+    ],
+    [
+     "座艙罩",
+     "一體式座艙罩與車鼻進氣口，取材自戰鬥機。"
+    ],
+    [
+     "空力",
+     "大型尾翼從擴散器向上伸出，車尾大面積開放以幫 V10 散熱。"
+    ]
+   ],
+   "sources": [
+    [
+     "Road & Track（11/13）",
+     "https://www.roadandtrack.com/news/a74424060/the-sanrivatti-one-supercar-has-an-800-hp-judd-v-10-and-a-motorcycle-like-seating-position/"
+    ],
+    [
+     "Motor1（11/13）",
+     "https://www.motor1.com/news/815398/sanrivatti-one-apex-position-hypercar/"
+    ]
+   ],
+   "image": {
+    "file": "news-sanrivatti-one.webp",
+    "alt": "銀黑色 Sanrivatti One 超跑側前方，一體座艙罩與大型尾翼",
+    "credit": "Sanrivatti (via Road & Track)",
+    "credit_url": "https://www.roadandtrack.com/news/a74424060/the-sanrivatti-one-supercar-has-an-800-hp-judd-v-10-and-a-motorcycle-like-seating-position/"
+   }
+  },
+  {
+   "id": "byd-tang-3",
+   "tag": "預售 · 中國",
+   "date": "2026-11-13",
+   "brand": "BYD",
+   "title": "第三代比亞迪唐開放預售：只做五人座，車內兩塊 30 吋級大螢幕",
+   "orig": "BYD opens Tang EV orders with two enormous screens for $34,000",
+   "summary": "BYD 11 月 13 日開放第三代唐預售，售價 22.5 萬人民幣起，定位「大五座旗艦 SUV」。前代有五座與六座，新一代只做五人座，騰出車室空間，並有同級最大的 205 公升前車廂。",
+   "analysis": [
+    [
+     "座艙",
+     "35.4 吋一體式螢幕加上 30 吋全景「劇院屏」，兩塊大螢幕主導儀表板。"
+    ],
+    [
+     "配置",
+     "放棄六座、專做五人座，把空間讓給乘客。"
+    ],
+    [
+     "收納",
+     "205 公升前車廂，BYD 稱同級最大。"
+    ],
+    [
+     "底盤",
+     "搭 Disus-A 雙腔空氣懸吊與 22 喇叭 Dynaudio 音響，強化旗艦定位。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/13）",
+     "https://electrek.co/2026/11/13/byd-opens-tang-ev-orders-two-enormous-screens-for-34000/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-tang.webp",
+    "alt": "綠色第三代比亞迪唐側後方，停在湖邊",
+    "credit": "BYD (via Electrek)",
+    "credit_url": "https://electrek.co/2026/11/13/byd-opens-tang-ev-orders-two-enormous-screens-for-34000/"
+   }
+  },
+  {
+   "id": "lucid-cosmos",
+   "tag": "預告 · 美國",
+   "date": "2026-11-13",
+   "brand": "Lucid",
+   "title": "Lucid Cosmos 預告：細長頭燈與發光尾標，入門 SUV 延到 2027 下半年",
+   "orig": "Lucid's Cosmos EV Takes Shape, But It's Launching Later Than Planned",
+   "summary": "Lucid 在 X 釋出新影片，預告入門電動 SUV Cosmos，偽裝原型車在紐西蘭進行冬季測試。Cosmos 是 Lucid 新中型平台的第一款車，原訂 2026 年底投產，已延到 2027 下半年，在沙烏地阿拉伯 AM2 廠生產。",
+   "analysis": [
+    [
+     "家族",
+     "延續 Air 與 Gravity 的設計主題，但尺寸較小。"
+    ],
+    [
+     "燈號",
+     "細長 LED 頭燈內有精細的日行燈圖案。"
+    ],
+    [
+     "車尾",
+     "發光 Lucid 字標加窄型 LED 尾燈。"
+    ],
+    [
+     "比例",
+     "尾端小鴨尾把後擋風玻璃分成上下兩段，車頂比 Genesis GV60 更直立。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/13）",
+     "https://www.carscoops.com/2315861/lucid-cosmos-ev-teaser-video/"
+    ]
+   ],
+   "image": {
+    "file": "news-lucid-cosmos.webp",
+    "alt": "Lucid Cosmos 預告圖，黑暗中亮起的細長尾燈與 LUCID 字標",
+    "credit": "Lucid (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2315861/lucid-cosmos-ev-teaser-video/"
+   }
+  },
+  {
+   "id": "arcfox-beta-t1",
+   "tag": "上市 · 中國",
+   "date": "2026-11-13",
+   "brand": "Arcfox（極狐）",
+   "title": "極狐 Beta T1 換電版上市：Arc-Flow 圓潤新語言、貫穿式星環燈",
+   "orig": "Arcfox launches new battery-swappable Beta S3 and Beta T1 models",
+   "summary": "北汽極狐 11 月 13 日推出 Beta S3 與 Beta T1 兩款換電車型，接入寧德時代「巧克力」換電網路。Beta T1 換電版起價 5.2 萬人民幣，車長 4,337 mm。",
+   "analysis": [
+    [
+     "設計語言",
+     "Beta T1 採用「Arc-Flow」設計語言，比現有車款更圓潤。"
+    ],
+    [
+     "車頭",
+     "封閉式水箱罩，搭配貫穿式星環燈與 C 形導風口。"
+    ],
+    [
+     "車尾",
+     "下半部加寬，配貫穿式尾燈，站姿更穩。"
+    ],
+    [
+     "座艙",
+     "淺色「雲米」主題內裝與水平式儀表板。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/13）",
+     "https://carnewschina.com/2026/11/13/arcfox-launches-new-battery-swappable-beta-s3-and-beta-t1-models/"
+    ]
+   ],
+   "image": {
+    "file": "news-arcfox-t1.webp",
+    "alt": "銀灰色極狐 Beta T1 換電版前側，貫穿式星環頭燈",
+    "credit": "Arcfox (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/13/arcfox-launches-new-battery-swappable-beta-s3-and-beta-t1-models/"
+   }
+  },
+  {
+   "id": "vezel-trailsport",
+   "tag": "新車型 · 日本",
+   "date": "2026-11-12",
+   "brand": "Honda",
+   "title": "Honda Vezel 新增 TrailSport 與 RS：橘色點綴的戶外臉、霧黑輪圈的運動款",
+   "orig": "Honda Vezel Gains Rugged TrailSport And Sporty RS Trims With Fake Gear Shifts",
+   "summary": "Honda 11 月 12 日在日本官網公開 Vezel 今冬新增的 e:HEV TRAILSPORT 與 e:HEV RS，並開始預約。兩款都搭載 Prelude、Civic 用過的 S+ Shift 模擬換檔。TrailSport 是 Honda 越野路線「Trail line」在日本的首例。",
+   "analysis": [
+    [
+     "車頭",
+     "TrailSport 專屬水箱罩，內嵌一對像定位燈的 LED。"
+    ],
+    [
+     "配色",
+     "霧燈飾板與水箱罩上緣加橘色點綴，配黑色車頂架與可選霧黑引擎蓋貼紙。"
+    ],
+    [
+     "座艙",
+     "深色內裝配橘色縫線，座椅織物部分有 FABTECT 撥水撥油處理。"
+    ],
+    [
+     "RS",
+     "保留暗鍍鉻空力套件，18 吋輪圈改霧黑、加黑鉻廠徽與紅色 RS 標。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/13）",
+     "https://www.carscoops.com/2316128/honda-vezel-trailsport-rs-fake-gear-shift/"
+    ],
+    [
+     "AUTOCAR JAPAN（11/12）",
+     "https://www.autocar.jp/post/1294300"
+    ]
+   ],
+   "image": {
+    "file": "news-honda-vezel.webp",
+    "alt": "灰色 Vezel TrailSport 與紅色 Vezel RS 並排",
+    "credit": "Honda (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2316128/honda-vezel-trailsport-rs-fake-gear-shift/"
+   }
+  },
+  {
+   "id": "mitsubishi-pajero-ship",
+   "tag": "出口 · 泰國／日本",
+   "date": "2026-11-13",
+   "brand": "Mitsubishi",
+   "title": "新型 Pajero 從泰國首批運往日本，2027 年度起外銷百國",
+   "orig": "三菱『パジェロ』新型、タイから日本に初出荷…世界100カ国以上に輸出拡大へ",
+   "orig_title_zh": "三菱新型 Pajero 從泰國首度出貨日本，擴大外銷至全球百餘國",
+   "summary": "三菱泰國法人在 Laem Chabang 港舉行新世代旗艦 SUV Pajero 首批輸日儀式。新車在泰國開發、測試與生產，實路測試超過 10 萬公里，八成以上零件供應商在泰國；2027 年度起擴大外銷到東協、中南美與中東等百餘國。",
+   "analysis": [
+    [
+     "定位",
+     "三菱稱新 Pajero 為「新世代高級旗艦 SUV」，是品牌最重要的車款之一。"
+    ],
+    [
+     "開發",
+     "泰日團隊在泰國共同開發，實路測試超過 10 萬公里。"
+    ],
+    [
+     "生產",
+     "Laem Chabang 工廠從組裝到品管全由泰籍員工負責。"
+    ],
+    [
+     "市場",
+     "泰國提供 GLS 2WD、GSR 2WD 與 Super Exceed 4WD 三個等級。"
+    ]
+   ],
+   "sources": [
+    [
+     "Response（11/13）",
+     "https://response.jp/article/2026/11/13/418970.html"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-pajero.webp",
+    "alt": "古銅色新型 Mitsubishi Pajero 前側，停在湖邊草地",
+    "credit": "Mitsubishi Motors (via Response)",
+    "credit_url": "https://response.jp/article/2026/11/13/418970.html"
+   }
+  },
+  {
+   "id": "hyundai-kona-3",
+   "tag": "報導 · 韓國",
+   "date": "2026-11-13",
+   "brand": "Hyundai",
+   "title": "報導：第三代 Kona 跳過小改直接換代，改走方正越野風",
+   "orig": "Hyundai is overhauling the Kona, and it looks like it may remain an EV after all",
+   "summary": "Electrek 報導，Hyundai 不做 Kona 中期小改，直接推出全新第三代（代號 SX3），測試車已在韓、美、歐路試；韓國停車場拍到的偽裝車預期是電動版。Hyundai 尚未證實動力與電池規格。",
+   "analysis": [
+    [
+     "比例",
+     "比現行 Kona 更方正、更直立，接近新 Santa Fe、Palisade 與 Tucson。"
+    ],
+    [
+     "靈感",
+     "造型被認為取材自去年洛杉磯車展的越野概念車 Crater Concept。"
+    ],
+    [
+     "細節",
+     "先前外流圖顯示像素燈組與蚌殼式引擎蓋。"
+    ],
+    [
+     "座艙",
+     "偽裝車疑似採用 IONIQ 3 的 Pleos Connect 車機系統。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/13）",
+     "https://electrek.co/2026/11/13/hyundai-overhauling-kona-ev/"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-kona.webp",
+    "alt": "偽裝中的第三代 Hyundai Kona 測試車側前方",
+    "credit": "KindelAuto (via Electrek)",
+    "credit_url": "https://electrek.co/2026/11/13/hyundai-overhauling-kona-ev/"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ap-the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it",
+   "source": "The Autopian",
+   "credit": "The Autopian",
+   "kind": "analysis",
+   "column": "Design Analysis",
+   "date": "2026-10-08",
+   "url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+   "paywalled": false,
+   "orig": "If You're The Kind Of Person The Jaguar Type 01 Is Designed For, You Better Buy It",
+   "design_tag": "人因工程",
+   "title": "Jaguar Type 01：前 JLR 設計師拆解超長車身、低車頂與座艙取捨",
+   "points": [
+    "5.2 米車長、3.2 米軸距，卻沒把電池移到防火牆前，換來擁擠座艙。",
+    "極低車頂讓後車頂橫樑落在後座頭部後方，只能取消後擋改用攝影機。",
+    "車門小、門框圓角大，上下車比同級豪華車更費力。",
+    "作者認為它刻意對外冷硬、對內熟悉，鎖定特定買家而非大眾。"
+   ],
+   "image": {
+    "file": "ap-jaguar-type01-front.jpg",
+    "alt": "銀色 Jaguar Type 01 行駛中側前方，長車頭與低矮車頂",
+    "credit": "Jaguar (via The Autopian)",
+    "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "The Autopian 專欄作者 Adrian Clarke 曾在 JLR 設計部工作，他在 Type 01 發表後寫下這篇評論。他指出 Type 00 概念車早在近兩年前亮相，量產版內裝也先在 Monterey 車週公開，外觀已無法像概念車那樣震撼。",
+       "更關鍵的是時間軸：Type 01 大約在 2021 年就定案，概念車是從量產車反推出來的；他還聽說，當年 clay 模型師是在社交距離限制下雕塑量產模型。這樣漫長的開發週期，讓他更意外某些地方的妥協。"
+      ]
+     },
+     {
+      "h": "超長車身與電池配置",
+      "p": [
+       "Type 01 全長約 5,200 mm、軸距 3,200 mm，接近 Cadillac Celestiq 的尺度。作者原本以為 Jaguar 會利用這麼長的 dash-to-axle（前軸到防火牆距離），把電芯放在防火牆前方，這樣就能壓低車頂又不犧牲車室空間。",
+       "實際做法是電芯仍放在地板，只拿掉後座腳下的一部分，再把一組電芯與電池管理模組放到防火牆前，同時保留極低車頂。結果座艙看起來很擠，讓它成為一台非常大的 2+2 GT。"
+      ]
+     },
+     {
+      "h": "上下車與車窗：人因的代價",
+      "p": [
+       "偏小的車門讓上下車比豪華車應有的更彆扭；門框轉角半徑很大，作者推測和全鋁車身結構有關。無框車窗在前門特別明顯，因為前門玻璃沒有隱私色，從外面就能看到門框後露出的內飾。",
+       "他提問：既然 Jaguar 宣稱這是最剛性的車身，何不乾脆拿掉 B 柱、做成像 Rolls-Royce Spectre 的雙門車，再配上可前傾的前座方便進出後座？"
+      ]
+     },
+     {
+      "h": "低車頂帶來的座艙配置",
+      "p": [
+       "車頂太低，後車頂橫樑落在後座乘客頭部後方，裝不了後擋風玻璃，Jaguar 學 Polestar 改用後視攝影機。但這個畫面放在擋風玻璃下緣「soundbar」中央，似乎被駕駛儀表遮住一部分。",
+       "座艙中央有一條貫穿的中脊，作者原本期待它有新用法，結果只是杯架與置物；方正的方向盤在輻條與撥桿上有觸覺按鍵，其他操作都靠駕駛前方螢幕與中脊上的小螢幕，他認為這是六年前、大家還沒開始反彈觸控化時做的決定。"
+      ]
+     },
+     {
+      "h": "結論：為特定族群而做的車",
+      "p": [
+       "作者強調他不討厭 Type 01，也認為 Jaguar 必須做出改變。他在官網選了黑配黑，立刻覺得一切都說得通；反而其他上市顏色都偏灰濁，他建議乾脆推出概念車那種 Miami Pink。",
+       "他的判斷是：高端車設計正從「平衡與好品味」轉向鎖定特定族群。Type 01 外觀用陡直的面與極端比例刺激路人，內裝則用極簡又熟悉的數位介面讓車主安心，瞄準的是矽谷高資產人士。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ap-jaguar-type01-side.jpg",
+      "alt": "銀色 Type 01 側前方，長車頭與低矮車頂",
+      "credit": "Jaguar (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "section": 0
+     },
+     {
+      "file": "ap-jaguar-type01-top.jpg",
+      "alt": "Type 01 俯視剖面，四座座艙與地板電池配置",
+      "credit": "Jaguar (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "section": 1
+     },
+     {
+      "file": "ap-jaguar-type01-cabin.jpg",
+      "alt": "Type 01 前座內裝，淺色座椅與方正方向盤",
+      "credit": "Jaguar (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "section": 2
+     },
+     {
+      "file": "ap-jaguar-type01-rear.jpg",
+      "alt": "Type 01 後 3/4，沒有後擋風玻璃的車尾",
+      "credit": "Jaguar (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "section": 3
+     },
+     {
+      "file": "ap-jaguar-type01-spine.jpg",
+      "alt": "Type 01 中脊上的直立小螢幕與置物區",
+      "credit": "Jaguar (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/the-jaguar-type-01-is-not-meant-for-us-and-thats-ok-but-the-people-it-is-for-had-better-buy-it/",
+      "section": 3
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-integra-ebony",
+   "kind": "car",
+   "car": "Acura Integra Type S 2027",
+   "tag": "內裝 · 美國",
+   "title": "Integra Type S：深灰菱格飾板配黃色縫線",
+   "points": [
+    "儀表板、門板、排檔座與門把改用深灰飾件。",
+    "儀表板飾板新增菱格紋，強化賽車感。",
+    "Ebony 黑內裝在座椅加黃色打孔點綴與縫線。",
+    "黃色縫線延伸到方向盤、門板、中央扶手與排檔護套。"
+   ],
+   "image": {
+    "file": "cmf-car-integra-ebony.jpg",
+    "alt": "Integra Type S Ebony 黑色座艙，排檔與座椅上的黃色縫線",
+    "credit": "Acura",
+    "credit_url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+   },
+   "sources": [
+    [
+     "Acura News（11/13）",
+     "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+    ],
+    [
+     "Hagerty（11/13）",
+     "https://www.hagerty.com/media/news/2027-integra-type-s-heritage-edition-pays-tribute-to-the-dc2-type-r/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-integra-phoenix",
+   "kind": "paint",
+   "car": "Acura Integra Type S Heritage Edition",
+   "tag": "塗料 · 美國",
+   "title": "Blazing Phoenix Yellow：重現 DC2 的鳳凰黃",
+   "points": [
+    "Heritage Edition 專屬 Blazing Phoenix Yellow 車色，北美限量 700 台。",
+    "Acura 說它是 2000 年 Integra Type R 的 Phoenix Yellow 更鮮豔的現代版。",
+    "是 2001 年 Type R 之後，Integra 首次再推黃色。",
+    "搭配銅色 19 吋輪圈、黑色 Type S 徽標與鈦合金排檔頭。"
+   ],
+   "image": {
+    "file": "cmf-paint-integra-phoenix.jpg",
+    "alt": "Blazing Phoenix Yellow 新 Integra Type S 與黃色 DC2 Integra Type R 同框",
+    "credit": "Acura",
+    "credit_url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+   },
+   "sources": [
+    [
+     "Acura News（11/13）",
+     "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+    ],
+    [
+     "GearHead Daily（11/13）",
+     "https://gearheaddaily.com/2027-acura-integra-type-s-heritage-edition-dc2-type-r"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-theon-oakgreen",
+   "kind": "paint",
+   "car": "Theon Design Porsche 911 (964)",
+   "tag": "塗料 · 英國",
+   "title": "Oak Green Neo Metallic 配香檳金輪圈",
+   "points": [
+    "Theon 以 964 世代 911 為底，換上碳纖維車身外板。",
+    "外板漆成 Oak Green Neo Metallic，靈感來自 Porsche 原廠 Oak Green Metallic。",
+    "Porsche 字樣、17 吋輪圈與煞車卡鉗都是香檳色。",
+    "碳纖維外板讓車重少約 300 公斤，全車約 1,150 公斤。"
+   ],
+   "image": {
+    "file": "cmf-paint-theon-oakgreen.jpg",
+    "alt": "Oak Green 綠色 Theon 911 側後方，香檳色輪圈與 PORSCHE 字樣",
+    "credit": "Theon Design (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/"
+   },
+   "sources": [
+    [
+     "Carscoops（11/13）",
+     "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-mingxin-smart-leather",
+   "kind": "material",
+   "car": "明新旭騰（Mingxin）",
+   "tag": "材質 · 中國",
+   "title": "會顯示、能觸控的智慧超纖革專利",
+   "points": [
+    "明新梅諾卡與明新旭騰申請「智慧內飾超纖革複合材料」專利。",
+    "由上而下為電子墨水顯示層、透光保護層、柔性壓阻感測層與水性超纖革基底。",
+    "保護層為有機矽改性聚氨酯 UV 塗層，可見光透光率 ≥85%。",
+    "目標是讓內飾皮革同時具備顯示、觸控與包覆三種功能。"
+   ],
+   "swatch": {
+    "label": "超纖革＋電子墨水（示意色）",
+    "hex": "#3A3B3F"
+   },
+   "sources": [
+    [
+     "新浪財經（11/11）",
+     "https://finance.sina.com.cn/stock/aigc/zl/2026-11-11/doc-iniyipkf1945835.shtml"
+    ]
+   ],
+   "note": "專利公告沒有附圖，以示意色表示。"
+  }
+ ],
+ "hmi": [],
+ "knowledge": [
+  {
+   "tag": "產業 · 德國",
+   "date": "2026-11-13",
+   "title": "Mercedes 暫停在德國投資乘用車生產，不排除關廠",
+   "summary": "Mercedes-Benz 表示將停止在德國本土的乘用車製造投資，並可能關閉工廠、把產能移往匈牙利。生產主管 Michael Schiebe 說「目前的成本結構不允許我們在德國投資」；公司正與 IG Metall 工會協商降低人力成本。",
+   "sources": [
+    [
+     "Carscoops（11/13）",
+     "https://www.carscoops.com/2316111/mercedes-stops-german-factory-investment/"
+    ]
+   ]
+  },
+  {
+   "tag": "產品 · 歐洲",
+   "date": "2026-11-13",
+   "title": "VW 再延後一款 SSP 平台電動車，Golf EV 已延到 2030 前後",
+   "summary": "Volkswagen 第三季營業虧損 59 億歐元，是柴油門以來最大單季虧損。品牌 CEO Thomas Schäfer 在內部備忘錄說 Wolfsburg 廠電動 Golf 開發要延後，現在又有另一款 SSP 平台電動車延期；SSP 是與 Rivian 合作開發的平台。",
+   "sources": [
+    [
+     "Electrek（11/13）",
+     "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 美國",
+   "date": "2026-11-13",
+   "title": "Tesla 美國只剩 Cyberbeast 可訂，Cybertruck 起價漲到 10.999 萬美元",
+   "summary": "Tesla 美國官網上的 Cybertruck 雙馬達與 Premium AWD 都已無法選購，只剩三馬達 Cyberbeast，且一週內兩度漲價到 10.999 萬美元，比 8 月初的 6.999 萬美元入門價高 57%。Musk 已在 11 月 6 日宣布 Cybertruck 停產。",
+   "sources": [
+    [
+     "Electrek（11/13）",
+     "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/"
+    ]
+   ]
+  },
+  {
+   "tag": "技術 · 日本",
+   "date": "2026-11-13",
+   "title": "下一代 CR-V 只賣油電，率先搭載成本低三成的新 Honda Hybrid",
+   "summary": "Honda 確認下一代 CR-V 明年登場、全面油電化，是首款搭載新世代雙馬達混合動力的車。新系統用 2.0 升阿特金森循環直噴引擎，Honda 稱生產成本比現行降 30%、油耗改善逾 10%；新中型平台減重 90 公斤，2030 年 3 月前將有 15 款新油電車。",
+   "sources": [
+    [
+     "Carscoops（11/13）",
+     "https://www.carscoops.com/2315611/honda-previews-all-new-crv-hybrid/"
+    ]
+   ]
+  },
+  {
+   "tag": "法規 · 中國／歐洲",
+   "date": "2026-11-12",
+   "title": "BYD 仿 Defender 官司首回合勝訴，法院令 JLR 銷毀扣押文件",
+   "summary": "JLR 指控 BYD Ti 7 外型抄襲 Defender，8 月申請搜查 BYD 荷蘭辦公室並扣押數位資料。海牙法院 11 月 11 日判 JLR 須在 24 小時內銷毀這些含上市計畫與技術資料的文件，否則每小時罰 5 萬歐元、上限 50 萬歐元。",
+   "sources": [
+    [
+     "Electrek（11/12）",
+     "https://electrek.co/2026/11/12/byd-wins-round-one-defender-copycat-battle-jlr-told-to-destroy-documents/"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 台灣",
+   "date": "2026-11-11",
+   "title": "環境部擬延長老車汰換電動車補助到 2030 年底",
+   "summary": "環境部預告修正「老舊車輛汰舊換新空氣汙染物減量補助辦法」，把年底到期的補助延長到 2030 年 12 月 31 日。機車、小客貨車與大客貨車汰舊換購電動車或低汙染車，依車種可領約 1,000 元到 3 萬元，迄今已有逾 13 萬輛響應。",
+   "sources": [
+    [
+     "聯合新聞網（11/11）",
+     "https://udn.com/news/story/7266/9871344"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Down-the-road graphic (DRG)",
+  "zh": "車頭燈號圖像（DRG）",
+  "body": "DRG 指的是一台車從正前方、隔一段距離看過去時，頭燈、日行燈和水箱罩組成的整體圖案，讓人遠遠就認得出是哪個品牌、哪台車。本期的極狐 Beta T1 就是例子：它用封閉式水箱罩，上方一道貫穿車頭的星環燈帶，兩側下方再配 C 形導風口，夜裡只看燈的形狀就能辨認。設計師這樣做，是因為燈號比車身線條更容易在遠處和夜間被看見。",
+  "source": [
+   [
+    "cartechnical：Down the road graphics (DRG)",
+    "https://www.cartechnical.co.uk/jargonbuster/37-d/295-down-the-road-graphics-drg"
+   ],
+   [
+    "CarNewsChina：Beta T1 星環貫穿燈與 C 形導風口",
+    "https://carnewschina.com/2026/11/13/arcfox-launches-new-battery-swappable-beta-s3-and-beta-t1-models/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Phoenix Ebony & Oak Green",
+   "zh": "鳳凰黃配橡木綠：黑灰座艙的雙色點綴示意",
+   "intro": "每日一組內裝配色示例：上儀表板用接近 Integra Type S Ebony 的近黑色，飾條取新加入的深灰菱格飾板色，門板嵌飾換成 Theon 911 Oak Green 轉深的橡木綠，縫線用 Blazing Phoenix Yellow，扶手配香檳金灰，下門板深石墨。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Ebony Black（示意）",
+     "#1F1F22",
+     false,
+     "ip-upper",
+     {
+      "src": "Integra Ebony 內裝",
+      "url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+     }
+    ],
+    [
+     "儀表板飾條 · 菱格紋",
+     "Diamond Graphite（示意）",
+     "#4A4C51",
+     false,
+     "ip-decor",
+     {
+      "src": "Integra 深灰菱格飾板",
+      "url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Oak Green Deep（示意）",
+     "#3C4A3A",
+     false,
+     "door-insert",
+     {
+      "src": "Theon Oak Green Neo Metallic",
+      "url": "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Champagne Grey（示意）",
+     "#A99A80",
+     false,
+     "armrest",
+     {
+      "src": "Theon 香檳色輪圈",
+      "url": "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/"
+     }
+    ],
+    [
+     "縫線／打孔點綴",
+     "Phoenix Yellow（示意）",
+     "#F2C21B",
+     false,
+     "stitch",
+     {
+      "src": "Blazing Phoenix Yellow",
+      "url": "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Graphite Night（示意）",
+     "#2B2C30",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Acura News：Integra Type S Ebony 黃色縫線、深灰飾板與 Blazing Phoenix Yellow",
+     "https://acuranews.com/en-US/releases/release-b26ae02ff5dca50cb32a1f47830acba1-2027-acura-integra-type-s-updated-new-heritage-edition-pays-tribute-to-iconic-integra-type-r"
+    ],
+    [
+     "Carscoops：Theon 911 Oak Green Neo Metallic 與香檳色細節",
+     "https://www.carscoops.com/2316307/theon-oak-green-porsche-911/"
+    ]
+   ],
+   "mood": "ebony phoenix yellow oak green champagne",
+   "mood_text": "近黑座艙打底，橡木綠嵌飾沉穩，一道鳳凰黃縫線點出跑車性格。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#1F1F22",
+    "seat-bolster": "#2B2C30",
+    "seat-center": "#3C4A3A",
+    "console": "#2B2C30",
+    "console-arm": "#A99A80",
+    "steering": "#1F1F22",
+    "ip-lower": "#2B2C30",
+    "accent-pod": "#F2C21B",
+    "accent-pod2": "#4A4C51"
+   }
+  }
+ },
+ "design_fallback": {
+  "reason": "最佳為 ADP，需瀏覽器讀全文，為準時上線先放次好"
+ }
+}
