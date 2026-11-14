@@ -689,5 +689,6 @@
  },
  "design_fallback": {
   "reason": "最佳為 ADP，需瀏覽器讀全文，為準時上線先放次好"
- }
+ },
+ "parts_added": 5
 }
