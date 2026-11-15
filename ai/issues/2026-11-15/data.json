@@ -1,0 +1,599 @@
+{
+ "date": "2026-11-15",
+ "weekday": "週日",
+ "issue_no": 39,
+ "lede": "Grok 把圖片與影片生成直接併進主介面，Gemini 在美國可連接 Google Wallet 做理財分析，Anthropic 推出可自架的 Claude Managed Agents。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "grok-imagine-in-grok",
+   "org": "SpaceXSI（xAI）",
+   "tag": "平台異動",
+   "date": "2026-11-15",
+   "topic": "grok-imagine-in-grok",
+   "title": "圖片與影片生成直接併入 Grok：官方說要把更多 SpaceXSI 產品整合成「一個 Grok」",
+   "short_title": "Grok 裡直接生圖、做影片",
+   "one": "不用再另外打開 Imagine：打開 Grok 就能生成圖片和影片，官方說之後還會把更多產品收進同一個介面。",
+   "orig": "Image and video creation now live in Grok. Just open Grok and start creating. / We’re bringing more @spacexai products together into one Grok experience, so there’s one place to create, build and get work done.",
+   "summary": "【是什麼】Grok Imagine 官方帳號 @imagine 於台北時間 11/15 凌晨發文「圖片與影片生成已在 Grok 上線，打開 Grok 就能開始創作」；約一分鐘後 @grok 引用並表示，正把更多 @spacexai 產品整合成一個 Grok 體驗，「在同一個地方創作、開發、完成工作」。\n【在哪裡能用】SpaceXSI 官方說明頁（11/13 更新）列出 Grok 網頁版 grok.com 與 iOS／Android App 都可「Create images and video」，付費 SuperGrok 方案共用每週用量額度。\n【限制】兩則貼文都沒說明價格、適用方案、地區，也沒說原本獨立的 Imagine 介面怎麼處理、還有哪些產品會被整合（ORIENS 報導同樣指出這點）。",
+   "links": [
+    [
+     "@grok 官方貼文",
+     "https://x.com/grok/status/2121673185540378797"
+    ],
+    [
+     "@imagine 官方貼文",
+     "https://x.com/i/status/2121672946968318285"
+    ],
+    [
+     "SpaceXSI Docs：Welcome to Grok",
+     "https://docs.x.ai/grok/overview"
+    ],
+    [
+     "ORIENS 整理報導",
+     "https://ai-oriens.com/en/news/grok-imagine-in-grok/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Grok Imagine",
+     "SpaceXSI 的 AI 圖片／影片生成功能，原本有自己的入口"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-google-wallet",
+   "org": "Google",
+   "tag": "新功能",
+   "date": "2026-11-13",
+   "topic": "gemini-google-wallet",
+   "title": "Gemini 可連接 Google Wallet：依你的消費紀錄做預算、抓漏掉的訂閱（美國）",
+   "short_title": "Gemini 看得懂你的帳單了",
+   "one": "在 Gemini 裡 @Google Wallet，就能請它畫出花費圖表、找出偷偷漲價的訂閱、幫你排節日預算；只能讀、不能動你的錢。",
+   "orig": "All Gemini app users in the U.S. can connect Google Wallet to get responses informed by their spending habits.",
+   "summary": "【是什麼】依 Google 官方部落格（11/13）：Personal Intelligence 新增 Google Wallet 為可連接的 App，在對話中 @Google Wallet 即可問個人理財問題；可選擇透過 Plaid 把信用卡與銀行帳戶連到 Wallet，取得更深入分析。官方舉例：產生現金流、資產配置、預算的動態圖表，找出跨帳戶的定期扣款並標出漲價，依去年禮物與旅遊花費建議今年節日預算。\n【在哪裡能用】美國所有 Gemini App 使用者，網頁、Android、iOS 逐步推出；在 Personal Intelligence 設定的 Connected Apps 開啟（9to5Google：Customize > Connectors）。同篇也介紹 Memory Summary（查看與編輯 Gemini 記住的偏好）。\n【限制】唯讀，不能轉帳、管理或投資；需自行選擇開啟、可隨時關閉。The Next Web 依 Google 說明頁指出：若保留 Gemini 活動紀錄，Google 可能用交易摘要訓練 AI，部分對話可能經人工審閱。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+    ],
+    [
+     "Plaid 官方說明",
+     "https://plaid.com/blog/google-wallet-gemini-plaid/"
+    ],
+    [
+     "9to5Google 報導",
+     "https://9to5google.com/2026/11/13/gemini-google-wallet/"
+    ],
+    [
+     "The Next Web 報導（隱私說明）",
+     "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid"
+    ]
+   ],
+   "image": {
+    "file": "gemini-wallet.webp",
+    "alt": "Google 官方示意圖：Gemini Personal Intelligence 連接 Google Wallet",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+   },
+   "gloss": [
+    [
+     "Personal Intelligence",
+     "Gemini 連接 Gmail、相簿、YouTube 等你的 App，讓回答依你的資料量身打造的功能"
+    ],
+    [
+     "Plaid",
+     "美國常見的金融帳戶串接服務，負責把銀行／信用卡帳戶安全地連到 App"
+    ]
+   ]
+  },
+  {
+   "id": "claude-selfhosted-managed-agents",
+   "org": "Anthropic",
+   "tag": "企業方案",
+   "date": "2026-11-12",
+   "topic": "claude-selfhosted-managed-agents",
+   "title": "Claude Managed Agents 推出自架版（私人測試）：代理程式、憑證、對話紀錄都放在自家雲端或機房",
+   "short_title": "Claude 代理可以自己架了",
+   "one": "企業可以把 Claude 的整套代理執行環境裝在自己的伺服器上，資料不出公司，模型請求也能改走 AWS、Google、微軟等雲端。",
+   "orig": "Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise.",
+   "summary": "【是什麼】依 Anthropic 官方文章與文件：Managed Agents（打造長時間自主代理的 API 套件）新增自架模式，代理框架、沙箱、憑證與對話紀錄全部跑在客戶自己的雲端或機房；客戶要自行營運 Managed Agents 伺服器（cma-server）、PostgreSQL 16 以上資料庫，以及執行 shell／檔案工具的 worker。模型請求可直送 Anthropic，或改走 Amazon Bedrock、Google Agent Platform、Microsoft Foundry、自家 gateway；開發 API 與雲端版相同。\n【在哪裡能用】私人測試（private beta），要透過 Anthropic 業務團隊申請。\n【限制】官方文件提醒：代理的 bash 是真的 shell，隔離要靠你把 worker 放在拋棄式容器或 VM；伺服器、資料庫與防火牆的安全與更新都由客戶負責；部分功能只有雲端版才有。",
+   "links": [
+    [
+     "Anthropic 官方文章",
+     "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
+    ],
+    [
+     "官方文件：Self-hosted Claude Managed Agents",
+     "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+    ]
+   ],
+   "image": {
+    "file": "claude-selfhosted-cma.webp",
+    "alt": "Anthropic 官方分享圖：Self-hosted Claude Managed Agents",
+    "credit": "Anthropic",
+    "credit_url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents"
+   },
+   "gloss": [
+    [
+     "自架（Self-hosted）",
+     "軟體裝在自己公司的伺服器上執行，而不是用供應商的雲端"
+    ],
+    [
+     "沙箱（Sandbox）",
+     "隔離的執行環境，讓代理在裡面跑指令，出事也不影響外面"
+    ]
+   ]
+  },
+  {
+   "id": "grokbot-harness-usage",
+   "org": "SpaceXSI（xAI）",
+   "tag": "延伸 · 用量",
+   "date": "2026-11-14",
+   "topic": "grokbot-efficiency-fix",
+   "title": "延伸 · Grok Bot 效率優化上線：同方案可用量約多 7%，排程任務最多約多 15%",
+   "short_title": "Grok Bot 同方案多約 7% 用量",
+   "one": "11/9 Musk 說在修的 Grok Bot 效率問題有了結果：本週幾項底層優化上線，同樣的方案大約可以多用 7%，routine 最多約多 15%。",
+   "orig": "Shipped a few Grok Bot harness optimizations this week. You should get ~7% more usage out of your plan, and up to ~15% more on routine runs!",
+   "summary": "【是什麼】@samsokolin 於台北時間 11/14 凌晨發文，說本週上線了幾項 Grok Bot harness（代理執行框架）優化，方案可用量約多 7%，routine（排程任務）最多約多 15%；Musk 11/14 晚間引用轉發並寫「Improvements to Grok @Bot efficiency」。\n【限制】數字是貼文中的約略值，沒有公開測試方法，實際效果依任務而定；未說明是否所有方案都適用。",
+   "links": [
+    [
+     "@samsokolin 貼文",
+     "https://x.com/samsokolin/status/2121303079803089179"
+    ],
+    [
+     "Musk 引用貼文",
+     "https://x.com/elonmusk/status/2121628295234023654"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Harness",
+     "包在模型外面、負責呼叫工具與管理流程的執行框架；優化它可以少花 token"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-comfy-img2img",
+   "title": "ComfyUI 圖生圖（Image to Image）入門：拿一張圖當參考，換風格、線稿變實景",
+   "learn": "學會載入官方圖生圖工作流，並用 KSampler 的 denoise 控制「新圖要離原圖多遠」。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求；範例用 SD1.5 的 v1-5-pruned-emaonly-fp16 模型，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Denoise（去噪強度）",
+     "0–1 的數值：越小越像原圖，設成 1 就等於完全重畫、原圖特徵全部消失"
+    ]
+   ],
+   "steps": [
+    "下載 v1-5-pruned-emaonly-fp16.safetensors，放進 ComfyUI/models/checkpoints。",
+    "下載官方工作流圖片拖進 ComfyUI 載入（圖片裡含工作流），再下載官方輸入圖。",
+    "確認 Load Checkpoint 選對模型、Load Image 上傳輸入圖，按 Queue（Ctrl/Cmd+Enter）生成。",
+    "調整 KSampler 的 denoise（要小於 1）：數值越小越接近原圖，越大變化越多。",
+    "用途：照片轉插畫風格、線稿轉寫實、修復或替老照片上色等。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Image to Image Workflow",
+     "https://docs.comfy.org/tutorials/basic/image-to-image"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfy-outpaint",
+   "title": "ComfyUI 擴圖（Outpainting）入門：把畫面往外延伸、補出更大的場景",
+   "learn": "學會用 Pad Image for outpainting 節點設定往哪個方向擴、擴多少，讓 AI 補出原圖外的畫面。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求；範例用 SD 2 系列的 512-inpainting-ema 模型，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Outpainting（擴圖）",
+     "把畫布往外加大，讓 AI 依原圖內容補出新的區域"
+    ],
+    [
+     "Feathering（羽化）",
+     "讓原圖和新補區域的交界過渡更平順的參數"
+    ]
+   ],
+   "steps": [
+    "下載 512-inpainting-ema.safetensors，放進 ComfyUI/models/checkpoints。",
+    "下載官方工作流圖片拖進 ComfyUI 載入，Load Image 上傳要延伸的圖。",
+    "在 Pad Image for outpainting 節點設定 left／top／right／bottom 各要擴多少像素，feathering 調大可讓接縫更自然。",
+    "按 Queue（Ctrl+Enter）生成；官方說明這其實是 inpaint 工作流，只是用這個節點自動產生遮罩。",
+    "用途：延伸場景、調整構圖、在畫面旁補上相關元素。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Outpainting",
+     "https://docs.comfy.org/tutorials/basic/outpaint"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "今天沒有找到近 7 天內、可查證流程細節的 AI 輔助汽車設計新案例（Nissan AI 縮短設計時程為 11/5 報導，已超過 7 天），本期不放。",
+  "Grok 生圖併入與 Grok Bot 用量優化目前只有 X 貼文，官方未公布方案與地區細節。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-15",
+  "compared_to": "2026-11-14",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-15",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1500,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-14",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-14",
+    "fetched": "2026-11-15",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-15",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495,
+      "delta": 2
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1226,
+      "ci": 1295,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1191,
+      "ci": 1195,
+      "delta": 2
+     },
+     {
+      "rank": 6,
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1169,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "Canva Craft",
+      "org": "Canva",
+      "score": 1158,
+      "ci": 1395,
+      "new": true
+     }
+    ],
+    "compared_to": "2026-11-14",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1226→1227 (+1)",
+      "GPT Image 2 (high): #5→#5 (0 名), 1191→1192 (+1)",
+      "MAI-Image-2.6: #8→#8 (0 名), 1169→1168 (-1)",
+      "Grok Imagine Image 2.0: #9→#9 (0 名), 1168→1167 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-15",
+    "metric": "Elo",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-15",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-14",
+    "diff": {
+     "summary": [
+      "Utopai X: #2→#2 (0 名), 1168→1172 (+4)",
+      "Dreamina Seedance 2.5: #4→#4 (0 名), 1155→1157 (+2)",
+      "Gemini Omni Flash 1.2: #6→#5 (+1 名), 1154→1152 (-2)",
+      "FLUX 3 Max: #5→#6 (-1 名), 1155→1152 (-3)",
+      "HeyGen Video 1: #7→#7 (0 名), 1153→1151 (-2)",
+      "MiniMax H3 Max: #8→#8 (0 名), 1147→1150 (+3)",
+      "FLUX 3: #10→#9 (+1 名), 1138→1138 (+0)",
+      "SkyReels V4: #9→#10 (-1 名), 1138→1136 (-2)"
+     ]
+    }
+   }
+  ]
+ }
+}
