@@ -2,7 +2,7 @@
  "date": "2026-11-15",
  "weekday": "週日",
  "issue_no": 39,
- "lede": "Grok 把圖片與影片生成直接併進主介面，Gemini 在美國可連接 Google Wallet 做理財分析，Anthropic 推出可自架的 Claude Managed Agents。三張榜單本週無重大變化。",
+ "lede": "Grok 把圖片與影片生成併進主介面，Gemini（美國）可連接 Google Wallet 做理財分析，Anthropic 推出可自架的 Claude Managed Agents；三張榜單本週無重大變化。名家專欄看 AI 超元域用一句話把古畫做成 3D 場景、T8 的本地文生圖模型對比。",
  "closed": [],
  "open": [],
  "news": [],
@@ -595,5 +595,91 @@
     }
    }
   ]
- }
+ },
+ "columns": [
+  {
+   "id": "col-aisd-qingming-unity",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-13",
+   "title": "AI超元域：用 Claude Code＋Fable 5.2 一句提示詞，以 Unity 3D 重建《清明上河圖》虹橋",
+   "short_title": "一句話把古畫做成 3D 世界",
+   "orig": "🚀史上最强AI！Claude Fable 5.2+Unity引擎重建清明上河图！从古画变成可自由探索的游戏世界！穿梭河道，还能近距离看船只放倒桅杆过桥，人物、建筑与环境音效都做出来了，真实效果有多惊艳",
+   "one": "示範讓 AI 寫程式代理自己分析一幅古畫、切出建築結構、標記人物，再用 Unity 做成可以自由走動的 3D 場景，適合想看「AI 從參考圖做出互動場景」流程的人。",
+   "points": [
+    "依說明欄：用 Claude Code 呼叫 Claude Fable 5.2、開 High 推理，只給一句簡單提示詞，讓 AI 用 Unity 3D 重建《清明上河圖》的虹橋段落。",
+    "章節顯示作者先試 Three.js，後來改用 Unity 3D；過程中 Claude Code 會自動分析原畫、擷取建築結構、標記人物來輔助還原。",
+    "場景含橋梁、漕運船隻放倒桅杆過橋、人物表情、店鋪與瓦片、樹木與酒旗擺動，以及鳥叫、流水等環境音效；作者自評還原度約 70%–80%。",
+    "影片最後另做了科幻小說《Xeelee Ring》宇宙之環的建造動畫（作者實測）。"
+   ],
+   "url": "https://www.youtube.com/watch?v=hA2FGW2HQww",
+   "image": {
+    "file": "col-aisd-qingming-unity.webp",
+    "alt": "AI超元域 Claude Fable 5.2 重建清明上河圖影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=hA2FGW2HQww"
+   },
+   "links": [
+    [
+     "AI超元域 開源專案（GitHub）",
+     "https://github.com/win4r"
+    ]
+   ],
+   "gloss": [
+    [
+     "Claude Code",
+     "Anthropic 的程式代理工具，能自己讀檔、寫程式、執行指令"
+    ]
+   ]
+  },
+  {
+   "id": "col-t8-h3-vs-moss",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-14",
+   "title": "T8star：MiniMax H3-Image 與 MOSS-Image 社群微調模型文生圖對比（尘星、觀瀾、Juggernaut）",
+   "short_title": "H3-Image vs MOSS 微調模型對比",
+   "orig": "你敢信？Minimax H3 Image吊打了Moss Image！Kook新作尘星 Vs 老白私模White Moss Vs 观澜 Vs Juggernaut",
+   "one": "把幾個新出的社群微調文生圖模型放在一起比，並附上對應工作流和模型下載頁，想挑本地文生圖模型的人可以直接照著試。",
+   "points": [
+    "比較對象（依說明欄）：Kook 的 MiniMax H3 Image 微調「尘星」、MOSS-Image SFT「觀瀾」、Juggernaut Moss，以及非開源的「White Moss」私模。",
+    "說明欄附上各模型的工作流（觀瀾、Juggernaut 為 15 步極速版文生圖），開源模型放在 ModelScope 與 Civitai。",
+    "本地使用可搭配作者的 H3 提示詞強化節點（GitHub）；標題「H3 Image 吊打 Moss Image」是作者說法。",
+    "作者註明 White Moss 非開源、只是幫朋友測評、不介入交易；說明欄其餘多為雲端平台邀請連結。"
+   ],
+   "url": "https://www.youtube.com/watch?v=Ld0s0Bm0808",
+   "image": {
+    "file": "col-t8-h3-vs-moss.webp",
+    "alt": "T8star H3 Image 與 Moss Image 對比影片縮圖",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=Ld0s0Bm0808"
+   },
+   "links": [
+    [
+     "Kook 尘星（H3-Image 微調，ModelScope）",
+     "https://www.modelscope.cn/models/KookYan/KOOK-Minimax-H3-image-chenxing-AIGC"
+    ],
+    [
+     "Kook 觀瀾（MOSS SFT，ModelScope）",
+     "https://www.modelscope.cn/models/KookYan/Kook_Moss_SFT_guanlan"
+    ],
+    [
+     "Juggernaut Moss（Civitai）",
+     "https://civitai.com/models/3042282/juggernaut-moss"
+    ],
+    [
+     "T8 H3 提示詞強化節點（GitHub）",
+     "https://github.com/T8mars/comfyui-minimax-h3-prompt-enhancer-T8"
+    ]
+   ],
+   "gloss": [
+    [
+     "微調（Fine-tune／SFT）",
+     "拿現成模型再用特定資料訓練，讓它更擅長某種風格"
+    ]
+   ]
+  }
+ ]
 }
