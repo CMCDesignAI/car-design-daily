@@ -1,0 +1,18 @@
+<svg class="diagram" viewBox="0 0 520 320" width="100%" role="img" aria-label="座艙前移示意：中置引擎超跑側面，玻璃座艙被推到靠近前輪的位置，座艙後方是長長的引擎艙與車尾，座艙用強調色標出" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M30 206 Q34 186 70 180 L150 170 Q190 120 250 112 Q300 110 330 128 L430 150 Q480 160 492 178 L496 206 Q496 214 486 216 L452 216 A40 40 0 0 0 372 216 L162 216 A40 40 0 0 0 82 216 L44 216 Q30 214 30 206 Z"/>
+<circle cx="122" cy="216" r="34"/><circle cx="122" cy="216" r="16" stroke-width="1.6"/>
+<circle cx="412" cy="216" r="34"/><circle cx="412" cy="216" r="16" stroke-width="1.6"/>
+<path d="M40 192 L66 188" stroke-width="3"/>
+<path d="M484 178 L494 186" stroke-width="3"/>
+<path d="M300 140 L420 156" stroke-width="1.4"/><path d="M318 148 L326 166 M340 151 L348 169 M362 154 L370 172 M384 157 L392 175" stroke-width="1.4"/>
+<path d="M14 252 L506 252" stroke-width="1.4"/></g>
+<path d="M152 170 Q192 122 250 114 Q292 112 314 126 L300 140 Q250 150 196 160 Z" fill="#f08a5d" fill-opacity="0.18" stroke="#f08a5d" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M152 170 L196 160" stroke="#f08a5d" stroke-width="5" stroke-linecap="round"/>
+<g font-size="15" fill="currentColor" font-family="sans-serif">
+<path d="M236 118 L236 40" stroke="currentColor" stroke-dasharray="4 4"/><text x="150" y="32">① 雙座玻璃座艙往前推</text>
+<path d="M164 164 L90 92" stroke="currentColor" stroke-dasharray="4 4"/><text x="14" y="84">② 擋風玻璃伸到前輪上方</text>
+<path d="M360 160 L420 92" stroke="currentColor" stroke-dasharray="4 4"/><text x="352" y="84">③ 座艙後方：中置引擎</text>
+</g>
+<text x="260" y="286" font-size="12" fill="currentColor" font-family="sans-serif" text-anchor="middle" opacity="0.75">車頭短、座艙靠前，後面拖著長長的引擎艙與車尾</text>
+</svg>

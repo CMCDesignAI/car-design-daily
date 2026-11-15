@@ -817,5 +817,29 @@
   "car_key": "material:mingxin-smart-microfiber-eink",
   "angle": "會顯示、能觸控的智慧超纖革專利",
   "url": "https://finance.sina.com.cn/stock/aigc/zl/2026-11-11/doc-iniyipkf1945835.shtml"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "car",
+  "car_key": "car:chery-fulwin-t11-2027-cabin",
+  "angle": "Fulwin T11：新增 Jinpo Orange 內裝色",
+  "url": "https://carnewschina.com/2026/11/13/chery-fulwin-t11-six-seat-5-2-meter-erev-gets-falcon-700-lidar-launched-in-china-from-28480-usd/",
+  "image": "cmf-car-fulwin-t11-cabin.jpg"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "paint",
+  "car_key": "paint:xpeng-nippon-danxia-red-roland-purple",
+  "angle": "Danxia Red 與 Roland Purple：隨角度變色",
+  "url": "https://www.nipponpaint-holdings.com/en/ir/group_spotlight/20261113irupdate1/",
+  "image": "cmf-paint-xpeng-nippon.jpg"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "material",
+  "car_key": "material:honda-fireblade-sp-exposed-titanium-tank",
+  "angle": "裸露拉絲鈦油箱：只上透明漆",
+  "url": "https://www.carscoops.com/2316375/2027-honda-cbr1000rr-r-fireblade-titanium/",
+  "image": "cmf-mat-fireblade-titanium.jpg"
  }
 ]
