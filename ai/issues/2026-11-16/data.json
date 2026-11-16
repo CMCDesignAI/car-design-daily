@@ -1,0 +1,577 @@
+{
+ "date": "2026-11-16",
+ "weekday": "週一",
+ "issue_no": 40,
+ "lede": "AWS 公開用多代理 AI 做車身設計空間探索的完整流程，Google Antigravity 推出能一次指揮多個代理的 Dynamic Workflows；三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "aws-design-space-explorer",
+   "org": "AWS",
+   "tag": "AI 輔助汽車設計",
+   "date": "2026-11-14",
+   "topic": "ai-car-design",
+   "title": "AWS 公開「車身設計空間探索」多代理流程：用自然語言生成車身、秒算風阻、結構與成本",
+   "short_title": "AWS 示範 AI 車身設計流程",
+   "one": "工程師用聊天方式叫 AI 生成或修改車身，AI 再分頭算風阻、結構可行性和製造成本，幾秒內比較多個版本。",
+   "orig": "Accelerate design space exploration with AI on AWS",
+   "summary": "【誰在做】AWS for Industries 官方部落格（美西 11/13 發布，台北 11/14）示範的參考做法，不是特定車廠的量產案例。\n【用了哪些 AI】主控用 Amazon Bedrock 上的 Anthropic Claude，搭配 Strands Agents SDK 與 Bedrock AgentCore；2D 概念預覽圖用 Stable Diffusion 3.5 Large；風阻用 AWS 開源的 MLSimKit 代理模型（surrogate model，用既有模擬資料訓練）取代耗時數小時的 CFD。\n【流程怎麼走】工程師在網頁聊天介面下指令 → 主控代理分派給四個專職代理：Geometry（依離地高度、尾部斜角、擴散器角度、前懸、船尾角等參數生成轎車／跑車／SUV 等車身，或用一句話加後照鏡、尾翼）、Aero（預測 Cd 等係數並畫表面壓力圖）、Structural（直接分析 3D 網格，依鋼、鋁、碳纖給重量、剛性、建議板厚）、Cost（經 MCP 取材料、沖壓、模具成本算出每版成本）→ 主控彙整成一份比較結果。先出 2D 預覽讓人確認，再做 3D。\n【限制】官方文章是技術示範與架構說明，沒有公布實際車廠導入成效；代理模型的預測仍需傳統模擬／實測驗證。",
+   "links": [
+    [
+     "AWS 官方部落格",
+     "https://aws.amazon.com/blogs/industries/accelerate-design-space-exploration-with-ai-on-aws/"
+    ]
+   ],
+   "image": {
+    "file": "aws-design-space-explorer.webp",
+    "alt": "AWS Design Space Explorer 介面：用自然語言生成的參數化轎車車身與風阻數值",
+    "credit": "AWS",
+    "credit_url": "https://aws.amazon.com/blogs/industries/accelerate-design-space-exploration-with-ai-on-aws/"
+   },
+   "gloss": [
+    [
+     "代理模型（Surrogate model）",
+     "用大量舊模擬結果訓練的 AI，能在幾秒內估出原本要算好幾小時的風阻或受力結果"
+    ],
+    [
+     "CFD",
+     "計算流體力學，用電腦模擬空氣流過車身，算出風阻與升力"
+    ]
+   ]
+  },
+  {
+   "id": "antigravity-dynamic-workflows",
+   "org": "Google",
+   "tag": "新功能",
+   "date": "2026-11-13",
+   "topic": "antigravity-dynamic-workflows",
+   "title": "Antigravity 2.32 推出 Dynamic Workflows：AI 自己寫 Python 腳本，指揮多個子代理平行或分段工作",
+   "short_title": "Antigravity 能一次指揮一群代理",
+   "one": "輸入 /run-workflow 加任務，Antigravity 會寫一支小腳本把工作拆給多個代理同時做，你核准後在背景跑完再彙整結果；AI Pro 就能用。",
+   "orig": "This release adds Dynamic Workflows, letting agents orchestrate parallel subagents and multi-step tasks in Python using the runtime bundled with the app.",
+   "summary": "【是什麼】依 Google Antigravity 官方 changelog（11/13，App v2.32.0）與說明文件：代理會讀內建的 run-workflow 技能寫出 Python 腳本，用 parallel() 平行、pipeline() 依序執行多個代理，分成具名階段即時顯示進度；每個子代理在自己的對話裡工作、回傳符合 JSON Schema 的結構化結果，主對話不會被大量檔案與日誌塞滿；可把好用的腳本存檔重跑。\n【在哪裡能用】Google AI Pro 與 Ultra 方案，Antigravity App 與 Antigravity CLI 都能用；App 內建 Python，不必另裝（可用 ANTIGRAVITY_PYTHON 指定自己的 Python 3.8+）。\n【限制】每支腳本執行前預設要你核准（除非權限預設已允許）；子代理各自依權限設定在自己的對話裡請求核准。同版還有 Everforest 主題、提示詞跳轉快捷鍵與內建瀏覽器防護等 11 項改進、13 項修正，官方說逐步推出。",
+   "links": [
+    [
+     "Antigravity 官方 Changelog",
+     "https://antigravity.google/docs/changelog/"
+    ],
+    [
+     "官方文件：Dynamic Workflows",
+     "https://antigravity.google/docs/dynamic-workflows/"
+    ],
+    [
+     "EmpireX 整理",
+     "https://empirex.org/en/blog/google-antigravity-2-32-0-dynamic-workflows"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "子代理（Subagent）",
+     "由主 AI 派出去做一小塊工作的另一個 AI，做完把結果交回來"
+    ]
+   ]
+  },
+  {
+   "id": "grok-text-watermark-off",
+   "org": "SpaceXSI（xAI）",
+   "tag": "延伸 · 政策",
+   "date": "2026-11-15",
+   "topic": "grok-text-watermark",
+   "title": "延伸 · Grok 文字浮水印改為預設關閉：Musk 說只在法律要求或使用者要求時開啟",
+   "short_title": "Grok 文字浮水印改預設關",
+   "one": "11/2 報過 Grok API 要預設加文字浮水印，現在改口：API 預設關閉，Musk 說只有法律規定或使用者自己要求時才會開。",
+   "orig": "Text watermarking with Grok is only on where required by law or requested by the user",
+   "summary": "【是什麼】@techdevnotes 於台北 11/14 清晨貼文指出「SpaceXSI API 的文字浮水印現在預設關閉」；Musk 於台北 11/15 凌晨引用該貼文表示「Grok 的文字浮水印只在法律要求或使用者要求時開啟」。本站 11/2 曾報導 API 自 11/7 起預設加文字浮水印（7 個模型、可逐一關閉）。\n【限制】目前只有 X 貼文，官方文件尚未看到對應的更新說明；哪些地區屬「法律要求」也沒有說明。",
+   "links": [
+    [
+     "Musk 引用貼文",
+     "https://x.com/elonmusk/status/2121644169462681818"
+    ],
+    [
+     "@techdevnotes 貼文",
+     "https://x.com/techdevnotes/status/2121370786208375136"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "文字浮水印",
+     "在 AI 產生的文字裡藏入看不出來的統計記號，之後可用工具判斷是不是 AI 寫的"
+    ]
+   ]
+  },
+  {
+   "id": "inkling-2-small-weights",
+   "org": "Thinking Machines",
+   "tag": "延伸 · 開源",
+   "date": "2026-11-15",
+   "topic": "inkling-2-small",
+   "title": "延伸 · Inkling 2 Small 權重已在 Hugging Face 開放下載（Apache 2.0），各家推理框架與雲端上架",
+   "short_title": "Inkling 2 Small 權重可下載了",
+   "one": "11/7 報過「權重下週開放」的 594B 多模態模型，現在 Hugging Face 已可下載，但要 500GB 以上顯存的機房級 GPU 才跑得動。",
+   "orig": "Inkling 2 Small is a general-purpose multimodal model that accepts text and image inputs and generates text outputs.",
+   "summary": "【是什麼】依 Hugging Face 官方模型卡：Thinking Machines 的 Inkling 2 Small 以 Apache 2.0 授權開放權重，輸入文字與圖片、輸出文字，定位為代理／工具呼叫、寫程式、聊天與 RAG 用的通用模型；提供 NVFP4 與 MXFP8 兩種檢查點。\n【在哪裡能用】可在 Tinker Playground 試用；本地推理支援 SGLang、vLLM、TokenSpeed、Unsloth；模型卡列出 NVIDIA、Fireworks、Together、Baseten、Nebius、Modal、Cloudflare 等第三方 API。\n【限制】NVFP4 版需要合計至少 500GB 顯存（例：2 張 B300 或 4 張 H200），MXFP8 版至少 800GB，一般個人電腦跑不動；社群已有 GGUF 等量化版，但不是官方發布。",
+   "links": [
+    [
+     "Hugging Face 模型卡",
+     "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+    ],
+    [
+     "Unsloth 執行說明",
+     "https://unsloth.ai/docs/models/inkling-2"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "開放權重",
+     "模型檔案公開讓人下載，自己架設、微調；Apache 2.0 也允許商用"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-controlnet-basics",
+   "title": "ComfyUI ControlNet 入門：用一張塗鴉草圖控制生成構圖",
+   "learn": "學會把 ControlNet 模型放對資料夾，載入官方範例，讓 AI 照你的草圖構圖去畫，而不是一直重抽。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求；範例用 SD1.5 系模型與 control_v11p_sd15_scribble_fp16，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "ControlNet",
+     "給生圖模型額外條件（線稿、深度圖、骨架）的外掛模型，讓構圖可控"
+    ]
+   ],
+   "steps": [
+    "到官方頁下載工作流圖片，直接拖進 ComfyUI 載入（圖片裡含工作流與模型下載連結）。",
+    "若自動下載失敗，手動下載 dreamCreationVirtual3DECommerce_v10、vae-ft-mse-840000-ema-pruned、control_v11p_sd15_scribble_fp16，分別放進 models/checkpoints、models/vae、models/controlnet。",
+    "下載官方提供的塗鴉輸入圖，在 Load Image 上傳，按 Queue 生成。",
+    "其他類型（線稿、深度、姿勢）流程相同：換對應的 ControlNet 模型並上傳對應參考圖；核心節點不含全部前處理器，需要時裝 ComfyUI ControlNet aux。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：ControlNet 教學",
+     "https://docs.comfy.org/tutorials/controlnet/controlnet"
+    ],
+    [
+     "ComfyUI ControlNet aux（前處理器節點）",
+     "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfy-manual-install",
+   "title": "手動安裝 ComfyUI（Windows／macOS／Linux）：虛擬環境＋原始碼＋GPU 套件",
+   "learn": "學會不用安裝程式、自己用 Conda 與 Git 裝 ComfyUI，之後更新與除錯更好掌握。",
+   "level": "中階",
+   "vram": "官方安裝頁未列顯存需求，依要跑的模型而定",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "虛擬環境",
+     "替單一程式準備的獨立 Python 環境，裝套件不會弄亂系統或其他程式"
+    ]
+   ],
+   "steps": [
+    "安裝 Miniconda，建立並啟用環境：conda create -n comfyenv、conda activate comfyenv。",
+    "確認已裝 Git，執行 git clone https://github.com/Comfy-Org/ComfyUI.git（Windows 另需 Visual C++ Redistributable）。",
+    "依顯卡裝 PyTorch：NVIDIA 用官方頁的 cu130 指令；AMD、Apple Silicon、Intel Arc 各有對應指令，照原頁複製。",
+    "進 ComfyUI 資料夾安裝相依套件並啟動（指令照官方頁）；也可改用 ComfyUI CLI 安裝與管理。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：手動安裝",
+     "https://docs.comfy.org/installation/manual_install"
+    ],
+    [
+     "ComfyUI GitHub",
+     "https://github.com/Comfy-Org/ComfyUI"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "Grok 文字浮水印改預設關閉目前只有 X 貼文（含 Musk 引用），官方文件尚未見更新說明。",
+  "AWS 車身設計流程為官方技術示範，未公布實際車廠導入成效。"
+ ],
+ "columns": [],
+ "leaderboards": {
+  "snapshot": "2026-11-16",
+  "compared_to": "2026-11-15",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-16",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "unchanged",
+    "compared_to": "2026-11-15",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1500,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-14",
+    "fetched": "2026-11-16",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-16",
+    "status": "unchanged",
+    "compared_to": "2026-11-15",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1226→1227 (+1)",
+      "GPT Image 2 (high): #5→#5 (0 名), 1191→1192 (+1)",
+      "MAI-Image-2.6: #8→#8 (0 名), 1169→1168 (-1)",
+      "Grok Imagine Image 2.0: #9→#9 (0 名), 1168→1167 (-1)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495,
+      "delta": 2
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1226,
+      "ci": 1295,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1191,
+      "ci": 1195,
+      "delta": 2
+     },
+     {
+      "rank": 6,
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1169,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "Canva Craft",
+      "org": "Canva",
+      "score": 1158,
+      "ci": 1395,
+      "new": true
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-16",
+    "metric": "Elo",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-16",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-15",
+    "diff": {
+     "summary": [
+      "Utopai X: #2→#2 (0 名), 1168→1172 (+4)",
+      "Dreamina Seedance 2.5: #4→#4 (0 名), 1155→1157 (+2)",
+      "Gemini Omni Flash 1.2: #6→#5 (+1 名), 1154→1152 (-2)",
+      "FLUX 3 Max: #5→#6 (-1 名), 1155→1152 (-3)",
+      "HeyGen Video 1: #7→#7 (0 名), 1153→1151 (-2)",
+      "MiniMax H3 Max: #8→#8 (0 名), 1147→1150 (+3)",
+      "FLUX 3: #10→#9 (+1 名), 1138→1138 (+0)",
+      "SkyReels V4: #9→#10 (-1 名), 1138→1136 (-2)"
+     ]
+    }
+   }
+  ]
+ }
+}
