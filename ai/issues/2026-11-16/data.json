@@ -2,7 +2,7 @@
  "date": "2026-11-16",
  "weekday": "週一",
  "issue_no": 40,
- "lede": "AWS 公開用多代理 AI 做車身設計空間探索的完整流程，Google Antigravity 推出能一次指揮多個代理的 Dynamic Workflows；三張榜單本週無重大變化。",
+ "lede": "AWS 公開用多代理 AI 做車身設計空間探索的完整流程，Google Antigravity 推出能一次指揮多個代理的 Dynamic Workflows；追蹤清單看 Grok Bot 團隊怎麼讓 AI 大量寫碼不出錯，三張榜單本週無重大變化。",
  "closed": [],
  "open": [],
  "news": [],
@@ -166,8 +166,42 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "教學",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "1 則：Grok Bot 團隊工程師分享怎麼讓 AI 代理大量寫碼又不出錯。",
+   "updates": [
+    {
+     "title": "Lauren Tan（SpaceXSI Grok Bot 團隊）AI Engineer 演講：一個月 11,000 個 PR、回滾率約 0.5% 的做法",
+     "short_title": "Grok Bot 團隊怎麼信任 AI 寫的碼",
+     "date": "2026-11-15",
+     "one": "學到：不要逐行審 AI 的程式，而是先把架構規則、lint、自動測試與執行期驗證做好，讓代理自己證明沒寫壞；作者說團隊一個月合併約 11,000 個 PR、回滾率約 0.5%。",
+     "summary": "AI Engineer 頻道（台北 11/15 上傳，約 17.5 分鐘）。依影片說明欄與章節：講者 Lauren Tan（poteto）說明 Grok Bot 團隊如何用軟體架構、lint 規則、自動測試、執行期驗證，以及 TLA+、Lean 形式驗證來放大 AI 寫碼代理，並搭配 Cursor agents 與 pstack 外掛建立「軟體工廠」。章節包括：信任金字塔與程式碼品質、用 lint 規則取代註解、把 token 花在驗證上、11,000 個 PR 與 0.5% 回滾率、先打地基再談軟體工廠。數字為講者自述。",
+     "links": [
+      [
+       "YouTube：All Code Is Slop (Except Mine)",
+       "https://www.youtube.com/watch?v=O_zcc6Xl12g"
+      ],
+      [
+       "pstack 外掛（GitHub）",
+       "https://github.com/cursor/plugins/tree/main/pstack"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-lauren-tan-talk.webp",
+      "alt": "Lauren Tan 在 AI Engineer Code Summit 演講的影片縮圖",
+      "credit": "AI Engineer（YouTube 縮圖）",
+      "credit_url": "https://www.youtube.com/watch?v=O_zcc6Xl12g"
+     },
+     "gloss": [
+      [
+       "回滾率（Revert rate）",
+       "合併後又被撤回的程式變更比例，越低代表品質越穩"
+      ],
+      [
+       "形式驗證",
+       "用數學方法證明程式在所有情況下都符合規格，而不只是測幾個案例"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "tutorials": [
@@ -236,7 +270,6 @@
   "Grok 文字浮水印改預設關閉目前只有 X 貼文（含 Musk 引用），官方文件尚未見更新說明。",
   "AWS 車身設計流程為官方技術示範，未公布實際車廠導入成效。"
  ],
- "columns": [],
  "leaderboards": {
   "snapshot": "2026-11-16",
   "compared_to": "2026-11-15",
