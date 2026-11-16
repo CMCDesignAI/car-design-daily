@@ -1104,7 +1104,7 @@
       "excerpt": "With the debut of the SPA3 all-electric platform, the Swedish SUV is redefining the proportions of its exterior and interior. The designers explain the unseen role of megacasting, the stylistic exploration of materials alternative to leather, and the ergonomic breakthrough of the new horizontal display. To understand how Scandinavian design is evolving amidst new architectures and technologies, we interviewed Nagre Gaurang (Exterior Designer) and Arasa Gaspar (Senior UX Designer) in Gothenburg. SPA3: the release of proportion The EX60 is the first car built on the new SPA3 platform, and repres",
       "image": "https://autodesignmagazine.com/wp-content/uploads/2026/08/2026090402_VolvoEX60.jpg?x11123",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
@@ -5336,6 +5336,21 @@
       "added": "2026-11-14",
       "used": false,
       "language": "ja"
+    },
+    "wp-the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position": {
+      "id": "wp-the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "source": "Wallpaper*",
+      "credit": "Wallpaper*",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Transportation",
+      "title_en": "The Sanrivatti ONE is a hypercar built for one, complete with a daring driving position",
+      "date": "2026-11-15",
+      "url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "image": "https://cdn.mos.cms.futurecdn.net/W5qsKTsnn3p6EPbdcfburn-1920-80.jpg",
+      "excerpt": "Surprisingly, the solo supercar experience isn’t hugely rare; you’d have thought that ownership of a spectacular piece of styling and engineering would be something buyers wanted to share, if only to show off. Unsurprisingly, when a single seat is all that’s on offer, you can be sure that the reasoning comes from motorsport. From the Gordon Murray-designed Rocket for the Light Car Company, through to today’s BAC Mono and McMurtry Spéirling Pure, through to limited editions like the Ferrari Monza SP1, one-person cars are almost universally aimed at track day aficionados. Sanrivatti ONE Hypercar",
+      "added": "2026-11-16",
+      "used": false
     }
   }
 }

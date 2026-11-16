@@ -1,0 +1,706 @@
+{
+ "date": "2026-11-16",
+ "weekday": "週一",
+ "issue_no": 40,
+ "lede": "Lexus 官宣純電三排休旅 TZ 將在廣州車展亮相，延續一體化紡錘形車身；Mercedes 傳 SL 小改款回歸 Benz 品牌的舒適 GT 路線。設計專欄專訪 Volvo EX60 設計師，談 SPA3 平台如何鬆綁比例、螢幕為何改橫放。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "lexus-tz",
+   "tag": "預告 · 中國",
+   "date": "2026-11-15",
+   "brand": "Lexus",
+   "title": "Lexus TZ 純電三排休旅官宣廣州車展亮相：一體化紡錘形車身，座艙主打「移動會客廳」",
+   "orig": "全新纯电三排SUV，雷克萨斯TZ将于广州车展亮相！",
+   "summary": "Lexus 中國官宣全新純電三排座休旅 TZ 將於 11 月 27 日廣州車展亮相，車長 5,100 mm、軸距 3,050 mm，以專屬純電平台打造。預計推出 TZ450e 單馬達與 TZ550e 雙馬達四驅等版本，價格與續航尚未公布。",
+   "analysis": [
+    [
+     "車頭",
+     "延續品牌一體化紡錘形車身，搭配帶建築感的幾何圖形語言。"
+    ],
+    [
+     "座艙",
+     "「Driving Lounge」概念以低地板與座椅配置，讓第三排也有足夠頭腿空間。"
+    ],
+    [
+     "材質",
+     "內飾大量使用竹韻飾板、再生鋁與生物基材質。"
+    ],
+    [
+     "氛圍",
+     "可調光全景天幕貫穿三排，配 21 揚聲器 Mark Levinson 與 6 種日式氛圍燈。"
+    ]
+   ],
+   "sources": [
+    [
+     "新浪財經／易車（11/15）",
+     "https://finance.sina.com.cn/roll/2026-11-15/doc-iniyuyka6471144.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-lexus-tz.webp",
+    "alt": "墨綠色 Lexus TZ 三排休旅停在建築前，旁邊站著一名男子",
+    "credit": "Lexus (via 易車／新浪財經)",
+    "credit_url": "https://finance.sina.com.cn/roll/2026-11-15/doc-iniyuyka6471144.shtml"
+   }
+  },
+  {
+   "id": "mercedes-sl-refresh",
+   "tag": "報導 · 德國",
+   "date": "2026-11-15",
+   "brand": "Mercedes-Benz",
+   "title": "報導：SL 小改款將回歸 Mercedes-Benz 品牌，非 AMG 版改走舒適 GT 路線",
+   "orig": "Updated Mercedes SL Brings Back Proper Benz Grand Tourer, Report Says",
+   "summary": "據 Autocar 報導，Mercedes 收到車主反映現行 R232 SL 太偏性能，明年的小改款將新增掛 Mercedes-Benz 標、而非 AMG 的標準版 SL。執行長 Ola Källenius 說新車會「更像一台 Mercedes-Benz」；細節仍以原廠正式發表為準。",
+   "analysis": [
+    [
+     "車頭",
+     "標準版預計換上專屬前臉，不用 AMG 招牌的 Panamericana 直瀑水箱罩。"
+    ],
+    [
+     "定位",
+     "懸吊調得較軟，從山路性能車轉向長途巡航 GT。"
+    ],
+    [
+     "由來",
+     "現行 SL 由 AMG 主導開發並與 AMG GT 共用零件，性格明顯偏運動。"
+    ],
+    [
+     "動力",
+     "入門 SL 500 4Matic+ 預期用 3.0 升直六渦輪、443 匹。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/15）",
+     "https://www.carscoops.com/2315881/mercedes-sl-refresh-adds-non-amg-grand-tourer/"
+    ],
+    [
+     "Autocar（11/12）",
+     "https://www.autocar.co.uk/car-news/new-cars/mercedes-amg-sl-goes-back-benz-gt-flavoured-makeover"
+    ]
+   ],
+   "image": {
+    "file": "news-mercedes-sl.webp",
+    "alt": "雪地中測試的 Mercedes SL 偽裝原型車，前保桿貼有迷彩",
+    "credit": "SH Proshots (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2315881/mercedes-sl-refresh-adds-non-amg-grand-tourer/"
+   }
+  },
+  {
+   "id": "mercedes-ecitaro-next",
+   "tag": "原型車 · 德國",
+   "date": "2026-11-15",
+   "brand": "Mercedes-Benz（Daimler Buses）",
+   "title": "次世代 Mercedes-Benz eCitaro 準量產原型亮相：純電專屬平台，鉸接車減重 750 公斤",
+   "orig": "賓士「次世代電動公車準量產原型」亮相！全新平台瘦身750公斤",
+   "summary": "Daimler Buses 在慕尼黑 eMobility Days 3.0 發表次世代 eCitaro 首輛準量產原型，2028 年起上市，正式全球首演預定 2027 年 10 月布魯塞爾 Busworld。第一代 eCitaro 自 2018 年以來已交付超過 4,600 輛。",
+   "analysis": [
+    [
+     "平台",
+     "首度改用專為純電設計的第二代平台，不再沿用柴油車架構；前後模組共用，組出七種車型。"
+    ],
+    [
+     "地板",
+     "取消傳統後置引擎塔，依配置可做到延伸至車尾的全低地板。"
+    ],
+    [
+     "車頂",
+     "多層三明治車頂由 70 mm 減到約 42 mm，12 公尺單節車約輕 100 公斤。"
+    ],
+    [
+     "駕駛區",
+     "兩具 12 吋螢幕的多媒體座艙，支援 OTA 更新。"
+    ]
+   ],
+   "sources": [
+    [
+     "ETtoday 車雲／7Car（11/15）",
+     "https://speed.ettoday.net/news/3272723"
+    ]
+   ],
+   "image": {
+    "file": "news-mercedes-ecitaro.webp",
+    "alt": "白色次世代 Mercedes-Benz eCitaro 公車正面，在舞台燈光下亮相",
+    "credit": "Daimler Buses (via ETtoday 車雲)",
+    "credit_url": "https://speed.ettoday.net/news/3272723"
+   }
+  },
+  {
+   "id": "audi-a2-etron-drive",
+   "tag": "試駕 · 德國",
+   "date": "2026-11-15",
+   "brand": "Audi",
+   "title": "Audi A2 e-tron 試駕：MEB 平台小型車回歸，接替 A1 與 Q2",
+   "orig": "Audi A2 E-tron driven: cult-classic supermini returns with electric power",
+   "summary": "Autocar 發表 A2 e-tron 試駕。它是 Audi 純電陣容中最小、最便宜的車款，實際上間接取代已停產的 A1 與 Q2，底盤取自 VW 集團最新版 MEB 平台。評價認為較便宜、較舒適的 61kWh 版最均衡。",
+   "analysis": [
+    [
+     "由來",
+     "Audi 2011 年做過概念車、2024 年為原版 25 週年做過一台電動 restomod，這次正式量產回歸。"
+    ],
+    [
+     "空間",
+     "Autocar 稱座艙寬敞、實用性與置物設計到位。"
+    ],
+    [
+     "材質",
+     "缺點是缺少高級電動掀背該有的豐富材質感。"
+    ],
+    [
+     "操控",
+     "駕駛表現成熟，操控比預期活潑。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar（11/15）",
+     "https://www.autocar.co.uk/car-review/audi/a2-e-tron"
+    ]
+   ],
+   "image": {
+    "file": "news-audi-a2-etron.webp",
+    "alt": "淺綠色 Audi A2 e-tron 停在路邊的前側方",
+    "credit": "Autocar",
+    "credit_url": "https://www.autocar.co.uk/car-review/audi/a2-e-tron"
+   }
+  },
+  {
+   "id": "ford-f150-lobo-regular-cab",
+   "tag": "間諜照 · 美國",
+   "date": "2026-11-13",
+   "brand": "Ford",
+   "title": "間諜照：Ford 疑似開發兩門單排座 F-150 Lobo 街道貨卡",
+   "orig": "Spied! Ford May Finally Be Working on a Two-Door F-150 Lobo Street Truck",
+   "summary": "Car and Driver 刊出偽裝測試車照片：車身是只有入門 XL 才有的兩門單排座，卻裝著 Lobo 專屬的前保桿與輪圈。目前 F-150 Lobo 只有四門雙排座，Ford 尚未證實會推出兩門版。",
+   "analysis": [
+    [
+     "車頭",
+     "方正下巴般的前保桿，目前只在 F-150 Lobo 上看得到。"
+    ],
+    [
+     "燈具",
+     "測試車用鹵素頭燈，日行燈是琥珀色而非 Lobo 的白色。"
+    ],
+    [
+     "輪圈",
+     "22 吋六輻輪圈與 Lobo 相同，輪胎尺寸一致但品牌不同。"
+    ],
+    [
+     "比例",
+     "單排座加短車身，更接近早年 Lightning 街道貨卡的配方。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（11/13）",
+     "https://www.caranddriver.com/news/a74426798/ford-f150-lobo-regular-cab-street-truck-spied/"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-f150-lobo.webp",
+    "alt": "黑白迷彩偽裝的 Ford F-150 兩門測試車車頭特寫",
+    "credit": "KGP Photography (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74426798/ford-f150-lobo-regular-cab-street-truck-spied/"
+   }
+  },
+  {
+   "id": "rimac-nevera-end",
+   "tag": "報導 · 克羅埃西亞",
+   "date": "2026-11-13",
+   "brand": "Rimac",
+   "title": "報導：Rimac Nevera 年底停產，計畫 190 台只造出 71 台",
+   "orig": "Rimac Is Reportedly Ending Nevera Production After Selling Just 71 Cars",
+   "summary": "德國 Auto Motor und Sport 報導，Rimac 將在 2026 年底結束 Nevera 生產，計畫 150 台的標準版只造 51 台，40 台的 Nevera R 造了 20 台。Rimac 尚未對數字公開回應。",
+   "analysis": [
+    [
+     "定位",
+     "Nevera 是目前最具代表性的量產電動超跑，與 Pininfarina Battista 系出同源。"
+    ],
+    [
+     "紀錄",
+     "曾拿下最快加速量產車與紐北電動車圈速紀錄。"
+    ],
+    [
+     "市場",
+     "Lotus Evija、Porsche 的電動超跑計畫也轉向燃油或油電，電動超跑買氣有限。"
+    ],
+    [
+     "品牌",
+     "Nevera 讓 Mate Rimac 掌管 Bugatti，Rimac Technology 也為 911 Turbo S 供應電驅零件。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（11/13）",
+     "https://www.caranddriver.com/news/a74424848/rimac-is-reportedly-ending-nevera-production-after-selling-just-71-cars/"
+    ]
+   ],
+   "image": {
+    "file": "news-rimac-nevera.webp",
+    "alt": "Rimac Nevera 在林間賽道彎道上行駛",
+    "credit": "Rimac (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74424848/rimac-is-reportedly-ending-nevera-production-after-selling-just-71-cars/"
+   }
+  },
+  {
+   "id": "nissan-qashqai-20",
+   "tag": "里程碑 · 日本",
+   "date": "2026-11-16",
+   "brand": "Nissan",
+   "title": "Nissan Qashqai 20 週年：全球累計 730 萬台，開創跨界休旅類型",
+   "orig": "日産のクロスオーバーSUV『キャシュカイ』、誕生20周年で世界販売730万台突破",
+   "summary": "Nissan 宣布 Qashqai 誕生 20 週年、全球累計銷量突破 730 萬台。2006 年問世的初代把 SUV 特徵與轎車的好開好用結合，開創跨界休旅類型；三代車在 100 多個市場銷售，英國 Sunderland 廠已生產超過 450 萬台。",
+   "analysis": [
+    [
+     "類型",
+     "把 SUV 的高坐姿外型與房車的操駕結合，後來成為全球主流車型類別。"
+    ],
+    [
+     "車名",
+     "日本與澳洲叫 Dualis、中國叫逍客、美國叫 Rogue Sport。"
+    ],
+    [
+     "動力",
+     "2022 年導入 e-POWER，2025 年 9 月換上第三代 e-POWER。"
+    ],
+    [
+     "銷量",
+     "e-POWER 版 Qashqai 全球已賣出超過 23 萬台。"
+    ]
+   ],
+   "sources": [
+    [
+     "Response（11/16）",
+     "https://response.jp/article/2026/11/16/419043.html"
+    ]
+   ],
+   "image": {
+    "file": "news-nissan-qashqai.webp",
+    "alt": "三代 Nissan Qashqai 並排行駛在公路上，中間為紅色現行款",
+    "credit": "Nissan (via Response)",
+    "credit_url": "https://response.jp/article/2026/11/16/419043.html"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ad-volvo-ex60-ingegno-scandinavo",
+   "source": "Auto&Design",
+   "credit": "Auto&Design",
+   "kind": "column",
+   "column": "Design Story",
+   "date": "2026-09-04",
+   "url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+   "paywalled": false,
+   "orig": "VOLVO EX60, SCANDINAVIAN INTELLIGENCE",
+   "design_tag": "設計師專訪",
+   "title": "Volvo EX60：SPA3 平台讓比例「鬆綁」，螢幕改橫放",
+   "points": [
+    "設計團隊一開始就決定不複製 XC60 的公式，追求更大車室與更俐落比例。",
+    "後段一體壓鑄藏在車身下，不限制造型，還把幾十個零件併成一件。",
+    "內裝以 Nordico、羊毛混紡與 Tailored Knit 取代皮革，木紋保留原始質感。",
+    "15 吋中控螢幕改為橫向，儀表貼近擋風玻璃，減少視線離開路面。"
+   ],
+   "image": {
+    "file": "ad-volvo-ex60-ingegno-scandinavo.jpg",
+    "alt": "Volvo EX60 前側方渲染圖，深色車身與細長頭燈",
+    "credit": "Volvo Cars (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "EX60 是 Volvo 第一台以全新純電平台 SPA3 打造的車。Auto&Design 在哥德堡訪問了外觀設計師 Nagre Gaurang 與資深 UX 設計師 Arasa Gaspar，談新架構如何改變一台中型休旅的比例與座艙。",
+       "Gaurang 說，團隊從第一天就知道不要複製 XC60 的公式。有了 SPA3，他們用不妥協的方式去做三件事：把車室空間做到最大、增加載物量，並做出更俐落的比例。"
+      ]
+     },
+     {
+      "h": "一體壓鑄：看不見的造型助力",
+      "p": [
+       "車身底下的關鍵是「megacasting」：後段車體結構以單一鋁件一次鑄造。Gaurang 解釋，因為它是藏在外皮下的結構件，不會限制設計師的雕塑自由。",
+       "相反地，它把幾十個零件合併成一件，減少複雜度。他說在汽車設計裡，每減掉一分重量，就能換成可用的 packaging 空間，這也是 EX60 比例能比過去更舒展的原因之一。"
+      ]
+     },
+     {
+      "h": "材質：Scandinavian Serenity",
+      "p": [
+       "座艙以「Scandinavian Serenity」為主題，導入循環經濟思維，在不犧牲高級感的前提下降低碳足跡。皮革仍可選配，但團隊另外提供 Nordico、羊毛混紡座椅面料，以及新的 Tailored Knit 針織面料。",
+       "團隊說他們的理念是材料的「真實性」：木飾保留最自然的表面處理與木紋，讓材料本身的厚實感去襯托北歐極簡，形成這個內裝的招牌風格。"
+      ]
+     },
+     {
+      "h": "橫向 HMI：螢幕為什麼轉 90 度",
+      "p": [
+       "改變最大的是人機介面。Volvo 放棄過去的直立式中控螢幕，改用 15 吋橫向中控螢幕，再搭配一組貼近擋風玻璃的進階儀表。",
+       "Gaspar 說，過去直式螢幕適合看地圖，但現在情況不同了：橫向配置能減少駕駛視線離開路面的需要，更快、更安全地讀取資訊；它也更容易融入儀表板，把常用的快捷控制拉近到手邊，停車時也更適合車內娛樂。"
+      ]
+     },
+     {
+      "h": "AI 與實體按鍵並存",
+      "p": [
+       "為了安全，必要的實體控制仍然保留，但 EX60 大量整合 Google Gemini。Gaspar 舉例，駕駛可以要求在一家素食餐廳附近找停車位或充電站，AI 會分析網路評論後給出合適的選項。",
+       "她認為 AI 會改變人與車互動的方式；Volvo 以 EX30 與 EX60 打下開放生態系的基礎，之後會持續推出新功能。原文完整版刊於 Auto&Design 第 280 期。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "ad-volvo-ex60-sketches.jpg",
+      "alt": "Volvo EX60 外觀草圖，多個角度的鉛筆線稿",
+      "credit": "Volvo Cars (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+      "section": 0
+     },
+     {
+      "file": "ad-volvo-ex60-ingegno-scandinavo-2.jpg",
+      "alt": "Volvo EX60 後側方渲染圖，低矮車尾與貫穿尾燈",
+      "credit": "Volvo Cars (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+      "section": 1
+     },
+     {
+      "file": "ad-volvo-ex60-seat-sketch.jpg",
+      "alt": "Volvo EX60 座椅與內裝材質設計草圖，米色調",
+      "credit": "Volvo Cars (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+      "section": 2
+     },
+     {
+      "file": "ad-volvo-ex60-cabin-sketch.jpg",
+      "alt": "Volvo EX60 座艙草圖，橫向中控螢幕與方向盤",
+      "credit": "Volvo Cars (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+      "section": 3
+     },
+     {
+      "file": "ad-volvo-ex60-layout-sketch.jpg",
+      "alt": "Volvo EX60 座艙俯視配置草圖，乘員在車內使用螢幕",
+      "credit": "Volvo Cars (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/09/volvo-ex60-ingegno-scandinavo/",
+      "section": 4
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-jaguar-type01-spine",
+   "kind": "car",
+   "car": "Jaguar Type 01",
+   "tag": "內裝 · 英國",
+   "title": "Type 01：黃銅感中脊把座艙切成四席",
+   "points": [
+    "縱貫全車的黃銅感中脊把座艙分成四個獨立座位。",
+    "黃銅效果其實是壓花陽極處理鋁，也延伸到門上緣。",
+    "面料用 Kvadrat 羊毛混紡與 Ultrafabrics Neograin，皮椅改為選配。",
+    "中脊下藏杯架與置物格，內襯同樣是黃銅色飾面。"
+   ],
+   "image": {
+    "file": "cmf-car-jaguar-type01-spine.jpg",
+    "alt": "Jaguar Type 01 俯視座艙，四個座椅與縱貫中央的黃銅色中脊",
+    "credit": "Jaguar (via Exotic Car Trends)",
+    "credit_url": "https://exoticcartrends.com/news/jaguar-type-01-interior-reveal/"
+   },
+   "sources": [
+    [
+     "Exotic Car Trends（11/14）",
+     "https://exoticcartrends.com/news/jaguar-type-01-interior-reveal/"
+    ],
+    [
+     "Supercar Blondie（11/13）",
+     "https://supercarblondie.com/jaguar-full-interior-type-01-ev-reveal/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-car-geely-xingyue-l-plus",
+   "kind": "car",
+   "car": "Geely Xingyue L PLUS",
+   "tag": "內裝 · 中國",
+   "title": "星越 L PLUS：三種內裝主題開放預訂",
+   "points": [
+    "提供栗煙紅真皮、丹霞棕環保麂皮與雲舒米皮質三種主題。",
+    "大面積軟質包覆，皮革搭木紋飾板與氛圍燈。",
+    "車頂襯用麂皮，常觸碰的部位幾乎都是軟材質。",
+    "副駕 Cloud SPA 座椅附加熱電動腿托與 14 點按摩。"
+   ],
+   "image": {
+    "file": "cmf-car-geely-xingyue-l-plus-cabin.jpg",
+    "alt": "吉利星越 L PLUS 米白色菱格縫線前座與門板",
+    "credit": "Geely (via Autohome)",
+    "credit_url": "https://www.bohamachine.com/post-geely-xingyue-l-plus-to-18714.html"
+   },
+   "sources": [
+    [
+     "Bohamachine（11/14）",
+     "https://www.bohamachine.com/post-geely-xingyue-l-plus-to-18714.html"
+    ],
+    [
+     "易車：星越 L PLUS 首發",
+     "https://www.bitauto.com/article/1003112915991/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-peugeot-envy",
+   "kind": "paint",
+   "car": "Peugeot 208 / 2008 Envy",
+   "tag": "塗料 · 法國",
+   "title": "Alvao Green 與 Nazare Blue：Envy 專屬色",
+   "points": [
+    "208 Envy 標配新綠色 Alvao Green，2008 Envy 免費色為 Nazare Blue。",
+    "208 加 Black Diamond 黑車頂與保桿亮黑點綴。",
+    "日行燈周圍改亮黑飾件，輪圈為 Black Mist 亮面切削。",
+    "Envy 介於 Allure 與 GT 之間，英國 12 月起交車。"
+   ],
+   "image": {
+    "file": "cmf-paint-peugeot-envy-alvao.jpg",
+    "alt": "Alvao Green 綠色 Peugeot 208 Envy 前側方，黑色車頂",
+    "credit": "Peugeot (via Motoring Research)",
+    "credit_url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+   },
+   "sources": [
+    [
+     "Motoring Research（11/13）",
+     "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+    ],
+    [
+     "Auto Express（11/12）",
+     "https://www.autoexpress.co.uk/peugeot/370890/new-peugeot-208-and-2008-envy-models-will-leave-people-green-er-jealousy"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-peugeot-envy-tremezzo",
+   "kind": "material",
+   "car": "Peugeot 208 / 2008 Envy",
+   "tag": "材質 · 法國",
+   "title": "Tremezzo 壓紋土耳其藍織物配 Opalite 縫線",
+   "points": [
+    "Dynamic 前座換上土耳其藍 Tremezzo 壓紋織物。",
+    "座椅與門板飾以 Opalite 裝飾縫線。",
+    "前頭枕印上 Peugeot 盾徽輪廓，車頂襯為 Mistral Black。",
+    "門檻改用刻 Peugeot 字樣的鋁製飾板。"
+   ],
+   "image": {
+    "file": "cmf-mat-peugeot-envy-tremezzo.jpg",
+    "alt": "Peugeot Envy 座艙，土耳其藍壓紋織物座椅",
+    "credit": "Peugeot (via Motoring Research)",
+    "credit_url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+   },
+   "sources": [
+    [
+     "Motoring Research（11/13）",
+     "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+    ],
+    [
+     "Auto Express（11/12）",
+     "https://www.autoexpress.co.uk/peugeot/370890/new-peugeot-208-and-2008-envy-models-will-leave-people-green-er-jealousy"
+    ],
+    [
+     "Car Design News（11/13）",
+     "https://www.cardesignnews.com/cars/star-wars-x-aston-martin-y2k-nissan-qashqai-new-peugeot-envy-trim/2766802"
+    ]
+   ]
+  }
+ ],
+ "hmi": [],
+ "knowledge": [
+  {
+   "tag": "自駕 · 日本",
+   "date": "2026-11-16",
+   "title": "Tier IV 與 Komatsu 合作開發自駕砂石車，目標 2027 年導入",
+   "summary": "Tier IV 宣布與 Komatsu 共同開發採石與土木工地用的自動駕駛砂石車，結合 Tier IV 的自駕軟體與 Komatsu 的車輛設計、控制技術，驗證裝載、運輸與卸土情境。對象包括最大載重 93.9 噸的 HD785、64.1 噸的 HD605 與 42 噸的 HM400/460 鉸接式砂石車。",
+   "sources": [
+    [
+     "Response（11/16）",
+     "https://response.jp/article/2026/11/16/419049.html"
+    ]
+   ]
+  },
+  {
+   "tag": "政策 · 歐洲",
+   "date": "2026-11-14",
+   "title": "歐盟與英國可能延後電動車 10% 原產地關稅",
+   "summary": "Financial Times 報導，脫歐協議中對電池材料非在地來源的電動車課徵 10% 關稅、原訂 2027 年 1 月 1 日上路，歐盟與英國可能延後。歐洲車廠協會 ACEA 估計，2027 年預計售出的 52 萬輛相關電動車約 82% 會被課稅，將削弱對中國車的競爭力。",
+   "sources": [
+    [
+     "Carscoops（11/14）",
+     "https://www.carscoops.com/2315845/uk-eu-to-delay-ev-tariffs/"
+    ]
+   ]
+  },
+  {
+   "tag": "安全 · 美國",
+   "date": "2026-11-15",
+   "title": "BMW 在美召回逾 72 萬輛，水泵接頭進水恐短路起火",
+   "summary": "BMW 依 NHTSA 文件召回超過 72 萬輛、橫跨約七個年份的車款，涵蓋 3、5 系列與 X3、X5 等，問題出在兩款四缸引擎的水泵電氣接頭：接頭劣化後進水可能短路並引發火災。這與先前一次召回相關，已維修過的車也可能受影響，原廠建議車主停在戶外。",
+   "sources": [
+    [
+     "CarBuzz（11/15）",
+     "https://carbuzz.com/bmw-water-pump-fire-recall-26v733-november-2026/"
+    ]
+   ]
+  },
+  {
+   "tag": "充電 · 中國",
+   "date": "2026-11-15",
+   "title": "中國最大充電營運商特來電禁止電動機車與自行車充電",
+   "summary": "特來電（TELD）宣布旗下充電站全面禁止兩輪電動車充電，涵蓋低功率電動自行車與高功率電動機車。該公司在 360 多個城市營運逾 7 萬座站點、90 萬支充電樁，理由是兩輪車與四輪車的電壓、插座與通訊協定不同，且有人用改裝轉接器把直流快充降壓給機車充電。",
+   "sources": [
+    [
+     "CarNewsChina（11/15）",
+     "https://carnewschina.com/2026/11/15/chinas-top-ev-charger-operator-bans-e-motos-and-e-bikes-from-juicing-up-citing-safety-concerns/"
+    ]
+   ]
+  },
+  {
+   "tag": "換電 · 中國",
+   "date": "2026-11-15",
+   "title": "蔚來在零下 48°C 的黑河啟用換電站",
+   "summary": "蔚來在中國最北的地級市黑河啟用換電站，當地一年約 200 天低於零度、最低可達 −48°C。換電站有隔熱外殼與獨立溫控艙，電池儲存區全天以熱管理維持 15–30°C，機械構件也會預熱，官方稱蔚來、樂道與螢火蟲車主可在車內完成約 3 分鐘換電。",
+   "sources": [
+    [
+     "CarNewsChina（11/15）",
+     "https://carnewschina.com/2026/11/15/nio-deploys-battery-swap-station-in-a-region-with-temperatures-reaching-48c/"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-13",
+   "title": "和泰車前三季稅後純益 177 億元，TOYOTA 與 LEXUS 市占 37.6%",
+   "summary": "和泰車前三季稅後純益 177.47 億元、年增 27.87%，EPS 31.86 元。成長來自汽車本業與轉投資：TOYOTA、LEXUS 合計市占率達 37.6%，和泰產險投資收入增加，日本 HINO 經銷事業 4 月起併表。10 月營收 259.8 億元、年增 4.77%。",
+   "sources": [
+    [
+     "工商時報（11/13）",
+     "https://www.ctee.com.tw/news/20261113700098-439901"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Spindle body",
+  "zh": "紡錘形車身",
+  "body": "紡錘形車身（spindle body）是 Lexus 把招牌的紡錘形水箱罩「長進」車身的做法：上寬、中間收腰、下方再張開的輪廓不再只是一塊網格，而是由引擎蓋前緣、保桿與車身面板一起圍出來。本期的 Lexus TZ 就延續這種一體化紡錘形車頭，純電車不需要大進氣口，中間可以直接是車身同色面板。設計師這樣做，是為了在取消大水箱罩後，仍讓人一眼認出是 Lexus。",
+  "source": [
+   [
+    "Lexus Europe Newsroom：從 spindle grille 到 spindle body",
+    "https://newsroom.lexus.eu/10-years-of-lexus-design-from-spindle-grille-to-spindle-body/"
+   ],
+   [
+    "新浪財經／易車：Lexus TZ 一體化紡錘形車身",
+    "https://finance.sina.com.cn/roll/2026-11-15/doc-iniyuyka6471144.shtml"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Nazare Blue & Tremezzo Turquoise",
+   "zh": "深海藍配土耳其藍織物：黃銅點綴的清爽座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板用加深的 Nazare Blue，門板嵌飾取 Peugeot Envy 的 Tremezzo 土耳其藍織物，縫線用 Opalite 淺灰綠，飾條借 Jaguar Type 01 的黃銅感陽極鋁，扶手配加深的 Alvao Green，座椅中央用星越 L PLUS 的雲舒米。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Nazare Blue Deep（示意）",
+     "#25405E",
+     false,
+     "ip-upper",
+     {
+      "src": "Peugeot 2008 Envy Nazare Blue",
+      "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+     }
+    ],
+    [
+     "儀表板飾條 · 陽極鋁",
+     "Brass-effect Aluminium（示意）",
+     "#B08D57",
+     false,
+     "ip-decor",
+     {
+      "src": "Jaguar Type 01 黃銅感中脊",
+      "url": "https://exoticcartrends.com/news/jaguar-type-01-interior-reveal/"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Tremezzo Turquoise（示意）",
+     "#1F8A8A",
+     false,
+     "door-insert",
+     {
+      "src": "Peugeot Envy Tremezzo 織物",
+      "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Alvao Green Deep（示意）",
+     "#1E5440",
+     false,
+     "armrest",
+     {
+      "src": "Peugeot 208 Envy Alvao Green",
+      "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+     }
+    ],
+    [
+     "縫線",
+     "Opalite（示意）",
+     "#D5E2DC",
+     false,
+     "stitch",
+     {
+      "src": "Peugeot Envy Opalite 縫線",
+      "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Mistral Black（示意）",
+     "#24262A",
+     false,
+     "door-lower",
+     {
+      "src": "Peugeot Envy Mistral Black 車頂襯",
+      "url": "https://www.autoexpress.co.uk/peugeot/370890/new-peugeot-208-and-2008-envy-models-will-leave-people-green-er-jealousy"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "Motoring Research：Peugeot Envy 的 Alvao Green、Nazare Blue、Tremezzo 織物與 Opalite 縫線",
+     "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/"
+    ],
+    [
+     "Exotic Car Trends：Jaguar Type 01 黃銅感陽極鋁中脊",
+     "https://exoticcartrends.com/news/jaguar-type-01-interior-reveal/"
+    ],
+    [
+     "Bohamachine：星越 L PLUS 雲舒米內裝",
+     "https://www.bohamachine.com/post-geely-xingyue-l-plus-to-18714.html"
+    ]
+   ],
+   "mood": "deep blue turquoise brass fresh",
+   "mood_text": "深海藍儀表板打底，土耳其藍織物帶出清爽，黃銅飾條與淺色縫線提亮。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#1F8A8A",
+    "seat-bolster": "#24262A",
+    "seat-center": "#E4DACA",
+    "console": "#24262A",
+    "console-arm": "#1E5440",
+    "steering": "#24262A",
+    "ip-lower": "#24262A",
+    "accent-pod": "#B08D57",
+    "accent-pod2": "#1F8A8A"
+   }
+  }
+ }
+}

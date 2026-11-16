@@ -1,0 +1,41 @@
+<svg class="diagram" viewBox="0 0 520 380" width="100%" role="img" aria-label="紡錘形車身示意：純電休旅正面，上寬、收腰、下方張開的紡錘輪廓由引擎蓋前緣與保桿圍成" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- roof & windshield -->
+    <path d="M150 70 Q260 52 370 70 L392 132 L128 132 Z"/>
+    <path d="M160 80 Q260 66 360 80 L376 124 L144 124 Z" stroke-width="1.6"/>
+    <!-- mirrors -->
+    <path d="M128 120 L104 116 L102 134 L126 136"/>
+    <path d="M392 120 L416 116 L418 134 L394 136"/>
+    <!-- body shell -->
+    <path d="M128 132 Q96 150 90 196 L88 272 Q90 292 112 296 L408 296 Q430 292 432 272 L430 196 Q424 150 392 132"/>
+    <!-- hood edge -->
+    <path d="M118 158 Q260 146 402 158" stroke-width="1.6"/>
+    <!-- headlights -->
+    <path d="M108 170 L196 178 L190 190 L104 184 Z"/>
+    <path d="M412 170 L324 178 L330 190 L416 184 Z"/>
+    <!-- lower intakes -->
+    <path d="M104 238 L150 246 L146 270 L102 266 Z" stroke-width="1.6"/>
+    <path d="M416 238 L370 246 L374 270 L418 266 Z" stroke-width="1.6"/>
+    <!-- wheels -->
+    <rect x="96" y="290" width="54" height="40" rx="8"/>
+    <rect x="370" y="290" width="54" height="40" rx="8"/>
+    <!-- ground -->
+    <path d="M60 332 L460 332" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <!-- spindle body (accent) -->
+  <path d="M204 162 Q260 156 316 162 L292 214 L330 276 Q260 284 190 276 L228 214 Z" fill="#f08a5d" fill-opacity="0.18" stroke="#f08a5d" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="260" cy="186" r="7" fill="none" stroke="#f08a5d" stroke-width="2.4"/>
+  <!-- labels -->
+  <g font-family="sans-serif" fill="currentColor">
+    <g stroke="#f08a5d" stroke-width="1.6" stroke-dasharray="4 4" fill="none">
+      <path d="M210 164 L176 104 L40 104"/>
+      <path d="M228 214 L40 214"/>
+      <path d="M300 272 L340 352 L380 352"/>
+    </g>
+    <text x="40" y="96" font-size="15">① 上緣接引擎蓋前緣</text>
+    <text x="40" y="206" font-size="15">② 中間收腰</text>
+    <text x="300" y="372" font-size="15">③ 下方張開成保桿</text>
+    <text x="300" y="46" font-size="13" opacity="0.8">Lexus 標誌在收腰上方</text>
+    <path d="M300 50 L264 178" stroke="currentColor" stroke-width="1.2" stroke-dasharray="3 4" fill="none" opacity="0.7"/>
+  </g>
+</svg>

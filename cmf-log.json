@@ -841,5 +841,37 @@
   "angle": "裸露拉絲鈦油箱：只上透明漆",
   "url": "https://www.carscoops.com/2316375/2027-honda-cbr1000rr-r-fireblade-titanium/",
   "image": "cmf-mat-fireblade-titanium.jpg"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "car",
+  "car_key": "car:jaguar-type01-brass-spine-cabin",
+  "angle": "四席中脊與黃銅感陽極鋁",
+  "url": "https://exoticcartrends.com/news/jaguar-type-01-interior-reveal/",
+  "image": "cmf-car-jaguar-type01-spine.jpg"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "car",
+  "car_key": "car:geely-xingyue-l-plus-cabin",
+  "angle": "三種內裝主題",
+  "url": "https://www.bohamachine.com/post-geely-xingyue-l-plus-to-18714.html",
+  "image": "cmf-car-geely-xingyue-l-plus-cabin.jpg"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "paint",
+  "car_key": "paint:peugeot-envy-alvao-nazare",
+  "angle": "Envy 專屬色",
+  "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/",
+  "image": "cmf-paint-peugeot-envy-alvao.jpg"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "material",
+  "car_key": "material:peugeot-envy-tremezzo-fabric",
+  "angle": "Tremezzo 壓紋織物與 Opalite 縫線",
+  "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/",
+  "image": "cmf-mat-peugeot-envy-tremezzo.jpg"
  }
 ]
