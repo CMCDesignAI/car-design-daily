@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-17",
+ "weekday": "週二",
+ "issue_no": 41,
+ "lede": "紅旗在威尼斯首發專為歐洲打造的純電休旅 EHS4，以龍泉青瓷色開場；BMW 首款純電 M3 原型車試駕解禁。設計專欄看 Sanrivatti ONE 如何先定前傾坐姿、再長出戰鬥機般的造型。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "hongqi-ehs4",
+   "tag": "全球首發 · 中國",
+   "date": "2026-11-16",
+   "brand": "Hongqi",
+   "title": "紅旗 EHS4 威尼斯全球首發：首款為歐洲量身打造的純電休旅",
+   "orig": "Hongqi EHS4 Electric SUV Debuts in Venice, First Europe-Specific Model",
+   "summary": "紅旗 11/16 在威尼斯 Scuola Grande di Santa Maria della Misericordia 發表純電休旅 EHS4，官方稱是第一款專為歐洲市場打造的車型。續航目標最高 470 km（WLTP，初步數據），約 20 分鐘快充；售價與各國上市日尚未公布。",
+   "analysis": [
+    [
+     "設計",
+     "由紅旗慕尼黑先進設計中心操刀，結合歐洲視角與東方傳統。"
+    ],
+    [
+     "塗裝",
+     "主打取自龍泉青瓷的 Celadon 青瓷色。"
+    ],
+    [
+     "燈號",
+     "頭燈燈語命名為「Eyes of Infinite Allure」，車尾為全寬燈條。"
+    ],
+    [
+     "座艙",
+     "中控以水晶質感旋鈕（Crystal Control Knob）為視覺中心，空間利用率 87.4%。"
+    ]
+   ],
+   "sources": [
+    [
+     "The EV Report（11/16）",
+     "https://theevreport.com/hongqi-ehs4-electric-suv-europe"
+    ],
+    [
+     "Automotive World",
+     "https://www.automotiveworld.com/news/hongqi-to-debut-europe-focused-ehs4-electric-suv-in-venice/"
+    ]
+   ],
+   "image": {
+    "file": "news-hongqi-ehs4.webp",
+    "alt": "青瓷綠色紅旗 EHS4 停在威尼斯水岸的石板廣場上",
+    "credit": "Hongqi (via dlmag)",
+    "credit_url": "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+   }
+  },
+  {
+   "id": "bmw-m3-ev",
+   "tag": "原型試駕 · 德國",
+   "date": "2026-11-16",
+   "brand": "BMW M",
+   "title": "首款純電 M3 原型車試駕解禁：四馬達、量產造型貼近 Concept M Neue Klasse",
+   "orig": "BMW M3 EV prototype driven: it's the world's best driver's EV",
+   "summary": "BMW 在法國 Miramas 測試場讓媒體試駕純電 M3（ZA0）原型車。新車以 Neue Klasse 轎車為基礎，每個車輪各一具馬達，綜效約 838 匹、電池約 100 kWh；Autocar 稱它是「最好開的駕駛者電動車」。",
+   "analysis": [
+    [
+     "引擎蓋",
+     "V 形引擎蓋與散熱開口延續 Concept M Neue Klasse。"
+    ],
+    [
+     "燈號",
+     "保留 M 黃色燈與賽道燈等識別元素。"
+    ],
+    [
+     "比例",
+     "加寬的葉子板與側裙強調低趴站姿。"
+    ],
+    [
+     "取捨",
+     "概念車誇張的前下擾流在量產版被簡化。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar（11/16）",
+     "https://www.autocar.co.uk/car-news/new-cars/bmw-m3-ev-prototype-driven-its-worlds-best-drivers-ev"
+    ],
+    [
+     "BMWBLOG（11/16）",
+     "https://www.bmwblog.com/2026/11/16/electric-bmw-m3-specs-technology/"
+    ]
+   ],
+   "image": {
+    "file": "news-bmw-m3-ev.webp",
+    "alt": "貼著藍紅偽裝的 BMW M3 純電原型車在測試場甩尾",
+    "credit": "BMW (via Autocar)",
+    "credit_url": "https://www.autocar.co.uk/car-news/new-cars/bmw-m3-ev-prototype-driven-its-worlds-best-drivers-ev"
+   }
+  },
+  {
+   "id": "vw-id-aura-l5",
+   "tag": "預訂 · 中國",
+   "date": "2026-11-16",
+   "brand": "FAW-Volkswagen",
+   "title": "一汽-大眾 ID. AURA L5 開放預訂：中德團隊聯合設計的 CMP 純電轎車",
+   "orig": "一汽-大众ID. AURA L5正式开启预订",
+   "summary": "一汽-大眾 11/16 在廈門舉辦品鑑會，宣布純電轎車 ID. AURA L5 開放預訂，提供 580 Plus、580 Pro 與 580 Max 光達版三種配置。新車採大眾專為中國打造的 CMP 平台與 CEA 1.4 電子電氣架構，CLTC 續航 580 km。",
+   "analysis": [
+    [
+     "比例",
+     "短懸長軸設計，車內空間利用率 84.4%。"
+    ],
+    [
+     "設計",
+     "外觀由中德設計團隊聯合打造。"
+    ],
+    [
+     "配色",
+     "預訂期間全系可免費選裝精選內外飾配色。"
+    ]
+   ],
+   "sources": [
+    [
+     "財經網（11/16）",
+     "https://auto.caijing.com.cn/2026/1116/5193906.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-aura-l5.webp",
+    "alt": "淺藍灰色 ID. AURA L5 在發表會現場展示",
+    "credit": "FAW-Volkswagen (via 財經網)",
+    "credit_url": "https://auto.caijing.com.cn/2026/1116/5193906.shtml"
+   }
+  },
+  {
+   "id": "jetour-tx",
+   "tag": "預售 · 中國",
+   "date": "2026-11-16",
+   "brand": "Jetour",
+   "title": "捷途首款純電休旅 TX（旅行者 EV）開啟預售，方盒子造型 9.99 萬人民幣起",
+   "orig": "Jetour's first BEV: The TX to open pre-sales on November 16 with 550 km CLTC range",
+   "summary": "捷途首款純電休旅 TX 於 11/16 開啟預售，預售價 9.99 萬人民幣起。新車搭載 67.2 kWh 電池，CLTC 續航 550 km，雙馬達四驅版最大約 374 匹，並配獵鷹 500 輔助駕駛。",
+   "analysis": [
+    [
+     "造型",
+     "延續旅行者的方正箱型車身，強調越野感。"
+    ],
+    [
+     "定位",
+     "以純電動力切入入門方盒子休旅市場。"
+    ],
+    [
+     "配色",
+     "官方預售圖以粉紫色車身搭配黑色下護板。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/12）",
+     "https://carnewschina.com/2026/11/12/jetours-first-bev-the-tx-to-open-pre-sales-on-november-16-with-550-km-cltc-range/"
+    ],
+    [
+     "paultan.org",
+     "https://paultan.org/2026/11/12/jetour-tx-ev-china-pre-sale/"
+    ]
+   ],
+   "image": {
+    "file": "news-jetour-tx.webp",
+    "alt": "粉紫色捷途 TX 方盒子純電休旅棚拍",
+    "credit": "Jetour (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/12/jetours-first-bev-the-tx-to-open-pre-sales-on-november-16-with-550-km-cltc-range/"
+   }
+  },
+  {
+   "id": "reo-runabout",
+   "tag": "新品牌 · 美國",
+   "date": "2026-11-16",
+   "brand": "REO Trucks",
+   "title": "REO 復活老品牌推出 Runabout 平價小卡：一套車架做出工作車、雙排卡與休旅",
+   "orig": "REO Trucks Revived With Three Gas-Powered Models, Starting At Just $21,500",
+   "summary": "新創 REO Trucks 公布 Runabout 系列：T4X 工作卡車、T4C 雙排卡與 S4C 家庭休旅，售價 21,500 美元起。三車共用軸距 119.6 吋的梯形車架，B 柱之前完全相同，已收到逾 4 萬筆可退訂預約。",
+   "analysis": [
+    [
+     "模組化",
+     "B 柱前共用，之後分成貨斗、雙排或休旅車廂。"
+    ],
+    [
+     "造型",
+     "方正車頭與粗壯護板，主打簡單耐用。"
+    ],
+    [
+     "維修",
+     "強調容易修理，動力為自然進氣四缸汽油引擎。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/16）",
+     "https://www.carscoops.com/2318046/reo-trucks-launch-pricing/"
+    ]
+   ],
+   "image": {
+    "file": "news-reo-runabout.webp",
+    "alt": "橘色 REO Runabout 小卡在沙漠路面揚起塵土",
+    "credit": "REO Trucks (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2318046/reo-trucks-launch-pricing/"
+   }
+  },
+  {
+   "id": "vw-id-cross-uk",
+   "tag": "上市 · 德國",
+   "date": "2026-11-16",
+   "brand": "Volkswagen",
+   "title": "VW ID. Cross 英國開價：ID. Polo 的高底盤跨界版 11/19 開放訂購",
+   "orig": "VW ID. Cross Goes on Sale, Here’s How Much the Zero-Emission Baby SUV Costs",
+   "summary": "在西班牙 Pamplona 廠 9 月投產的 ID. Cross，英國 11/19 起先接 52 kWh 版本訂單，Life 與 Style 分別 30,260 與 33,675 英鎊起；37 kWh 版 2027 年 1 月開賣。",
+   "analysis": [
+    [
+     "定位",
+     "以 ID. Polo 為基礎、車身墊高的小型跨界休旅。"
+    ],
+    [
+     "造型",
+     "延續 VW 新一代純電小車較圓潤友善的前臉。"
+    ],
+    [
+     "產地",
+     "在西班牙生產，是 VW 平價純電攻勢的一員。"
+    ]
+   ],
+   "sources": [
+    [
+     "autoevolution（11/16）",
+     "https://www.autoevolution.com/news/vw-id-cross-goes-on-sale-heres-how-much-the-zero-emission-baby-suv-costs-278478.html"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-id-cross.webp",
+    "alt": "深綠色 VW ID. Cross 停在戶外空地",
+    "credit": "Volkswagen (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/vw-id-cross-goes-on-sale-heres-how-much-the-zero-emission-baby-suv-costs-278478.html"
+   }
+  },
+  {
+   "id": "mg4-urban-design-edition",
+   "tag": "限量版 · 英國",
+   "date": "2026-11-16",
+   "brand": "MG",
+   "title": "MG4 Urban Design Edition 英國限量 400 台：雙色車身配懸浮式黑車頂",
+   "orig": "MG4 EV Urban Design Edition Coming to the UK With Two Signature Colors, Only 400 Units Available",
+   "summary": "MG 英國推出 MG4 Urban 限量版 Design Edition，以頂規 Premium Long Range 為基礎，限量 400 台、29,495 英鎊起，12 月交車。",
+   "analysis": [
+    [
+     "車頂",
+     "黑色懸浮式車頂與黑後視鏡形成雙色對比。"
+    ],
+    [
+     "輪圈",
+     "17 吋鋁圈讓入門小車看起來更有運動感。"
+    ],
+    [
+     "內裝",
+     "黑色皮革風格座椅，門板加氛圍燈。"
+    ]
+   ],
+   "sources": [
+    [
+     "autoevolution（11/16）",
+     "https://www.autoevolution.com/news/mg4-ev-urban-design-edition-coming-to-the-uk-with-two-signature-colors-only-400-units-available-278469.html"
+    ]
+   ],
+   "image": {
+    "file": "news-mg4-urban-design.webp",
+    "alt": "紅色 MG4 Urban Design Edition 停在聖誕佈置的房屋前",
+    "credit": "MG (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/mg4-ev-urban-design-edition-coming-to-the-uk-with-two-signature-colors-only-400-units-available-278469.html"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "wp-the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+   "source": "Wallpaper*",
+   "credit": "Wallpaper*",
+   "kind": "analysis",
+   "column": "Design Story",
+   "date": "2026-11-15",
+   "url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+   "paywalled": false,
+   "orig": "The Sanrivatti ONE is a hypercar built for one",
+   "design_tag": "人因工程",
+   "title": "Sanrivatti ONE：先決定駕駛姿勢，再長出整台車的造型",
+   "points": [
+    "駕駛像騎重機一樣跨坐中脊、頭部前傾，稱為 Apex Position。",
+    "前傾坐姿讓賽道可視範圍達對照車款的 3.2 倍。",
+    "設計師以俯衝的遊隼與戰鬥機座艙罩為草圖靈感。",
+    "低長車身、單件座艙罩與穿透式風道都圍繞駕駛位置而生。"
+   ],
+   "image": {
+    "file": "col-sanrivatti-one-cover.jpg",
+    "alt": "銀色 Sanrivatti ONE 超跑前側方，置中座艙罩與低矮車身",
+    "credit": "Sanrivatti (via Wallpaper*)",
+    "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position"
+   },
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景：一台為單人打造的超跑",
+      "p": [
+       "荷蘭新創 Sanrivatti 的首款車 ONE 是一台單座超跑。單人座車在賽道車並不罕見，從 Gordon Murray 的 Rocket、BAC Mono 到 Ferrari Monza SP1 都是例子，但 ONE 把重點放在一個更根本的問題：開車到底是什麼感覺。",
+       "創辦人兼執行長 Santiago Sánchez Rivero 說，他們不想再做一台只是馬力更大、科技更多的超跑，而是要重新質疑駕駛體驗本身；每一條線都必須有存在的理由。"
+      ]
+     },
+     {
+      "h": "人因工程：Apex Position 前傾坐姿",
+      "p": [
+       "ONE 的核心是 Sanrivatti 自有的「Apex Position」。駕駛不像一般超跑那樣半躺在前軸後方，而是像騎高性能重機一樣跨坐在車身中脊上，臉朝前、腳往後收，身體更靠近車的中央與前方。",
+       "這個坐姿重新安排了駕駛、座艙、轉向機構、踏板與周圍車身的關係，目的是讓身體更直接感受加速、過彎與車子在賽道上的位置。Wallpaper* 指出，除了 1986 年 ItalDesign Giugiaro 的 Machimoto 概念車，四輪車上幾乎找不到這種坐法。"
+      ]
+     },
+     {
+      "h": "視野數據：為什麼要前傾",
+      "p": [
+       "改坐姿的首要理由是看清前方路面。Sanrivatti 用實體與虛擬模擬器加上概念驗證模型測試，在 Silverstone 第三彎的虛擬比較中，Apex Position 平均能看到的賽道路面是十台對照超跑與賽道車的 3.2 倍。",
+       "官方也公布垂直視野 28 度，對照的標竿超跑只有 15.5 度。對設計團隊來說，這是一個可量化的人因目標，也直接決定了座艙罩的高度與前車身能壓多低。"
+      ]
+     },
+     {
+      "h": "造型手法：遊隼、戰鬥機與座艙罩",
+      "p": [
+       "首席設計師 Robin van Tilborg 在草圖中參考高速俯衝的遊隼，以及戰鬥機的座艙配置。結果是 cab-forward 的布局：中央是座艙罩式的駕駛艙，兩側車身壓低，往後收窄並連到包住整個車尾的大尾翼，駕駛座後方還豎起一片垂直鰭。",
+       "創辦人說，戰鬥機影響了座艙罩、前進氣口，以及流動曲面與銳利邊線之間的關係。designboom 也提到低長車身、掃過全車的上緣線、單件式座艙罩與明顯的穿透式風道，整個輪廓都是順著前傾的駕駛位置長出來的。"
+      ]
+     },
+     {
+      "h": "工程取捨：輕量與直接回饋",
+      "p": [
+       "ONE 以碳纖維單體殼為結構，目標乾重約 1,100 kg，搭配 Judd 5.5 升自然進氣 V10、Hewland 六速序列式變速箱與後輪驅動，目標約 800 匹。",
+       "所有數據都還在開發與驗證階段，內裝圖也尚未公布。但從坐姿出發、再決定比例與造型的做法，讓 ONE 成為少見的「先人因、後造型」超跑案例。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "col-sanrivatti-one-side.jpg",
+      "alt": "銀色 Sanrivatti ONE 正側面，低長車身與後方大尾翼",
+      "credit": "Sanrivatti (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "section": 0
+     },
+     {
+      "file": "col-sanrivatti-one-front.jpg",
+      "alt": "Sanrivatti ONE 正面，置中的座艙罩與兩側低矮車身",
+      "credit": "Sanrivatti (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "section": 1
+     },
+     {
+      "file": "col-sanrivatti-one-top.jpg",
+      "alt": "紅色 Sanrivatti ONE 俯視，中央座艙罩與往後收窄的車身",
+      "credit": "Sanrivatti (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "section": 3
+     },
+     {
+      "file": "col-sanrivatti-one-rear34.jpg",
+      "alt": "銀色 Sanrivatti ONE 後側方，包住車尾的大尾翼",
+      "credit": "Sanrivatti (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "section": 3
+     },
+     {
+      "file": "col-sanrivatti-one-rear.jpg",
+      "alt": "紅色 Sanrivatti ONE 車尾，開放式車身與尾翼結構",
+      "credit": "Sanrivatti (via Wallpaper*)",
+      "credit_url": "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position",
+      "section": 4
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   },
+   "sources": [
+    [
+     "Wallpaper*（11/15）",
+     "https://www.wallpaper.com/transportation/the-sanrivatti-one-is-a-hypercar-built-for-one-complete-with-a-daring-driving-position"
+    ],
+    [
+     "designboom（11/16）",
+     "https://www.designboom.com/technology/sanrivatti-one-forward-lean-motorcycle-racing-hypercar-design/"
+    ]
+   ]
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-byd-han-cabin",
+   "kind": "car",
+   "car": "BYD Han（新一代）",
+   "tag": "內裝 · 中國",
+   "title": "新一代漢：米色座艙配打孔皮椅",
+   "points": [
+    "內裝以米色為主調，搭配打孔皮革前座。",
+    "懸浮式中控螢幕配 D 形三輻方向盤與液晶儀表。",
+    "中央通道有雙無線充電、實體按鍵區與隱藏置物格。",
+    "門板保留明顯的實體門把，並以鍍鉻飾條點綴。"
+   ],
+   "image": {
+    "file": "cmf-car-byd-han-cabin.jpg",
+    "alt": "新一代 BYD 漢米色座艙，懸浮中控螢幕與打孔皮革座椅",
+    "credit": "AutoHome (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/"
+   },
+   "sources": [
+    [
+     "CarNewsChina（11/16）",
+     "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-hongqi-celadon",
+   "kind": "paint",
+   "car": "Hongqi EHS4",
+   "tag": "塗料 · 中國",
+   "title": "紅旗 EHS4：把龍泉青瓷釉色做成車漆",
+   "points": [
+    "Celadon 色取自傳統龍泉青瓷的柔和綠釉。",
+    "官方以這個顏色作為整台車的概念主軸。",
+    "搭配流動曲面與全寬尾燈，強化東方氣質。",
+    "座艙同樣呼應主題，以水晶質感旋鈕為焦點。"
+   ],
+   "image": {
+    "file": "cmf-paint-hongqi-celadon.jpg",
+    "alt": "Celadon 青瓷綠紅旗 EHS4 側面棚拍",
+    "credit": "Hongqi (via dlmag)",
+    "credit_url": "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+   },
+   "sources": [
+    [
+     "dlmag（11/16）",
+     "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-mg4-dynamic-red",
+   "kind": "paint",
+   "car": "MG4 Urban Design Edition",
+   "tag": "塗料 · 英國",
+   "title": "MG4 Urban：Dynamic Red 配黑車頂",
+   "points": [
+    "限量版只提供 Dynamic Red 與 Kensington Blue 兩色。",
+    "兩色都搭黑色車頂與黑色後視鏡，形成雙色對比。",
+    "內裝改用皮革風格座椅並加門板氛圍燈。",
+    "以塗裝與配色差異化，讓入門電動車更有設計感。"
+   ],
+   "image": {
+    "file": "cmf-paint-mg4-dynamic-red.jpg",
+    "alt": "Dynamic Red 紅色 MG4 Urban 棚拍，黑色車頂",
+    "credit": "MG (via autoevolution)",
+    "credit_url": "https://www.autoevolution.com/news/mg4-ev-urban-design-edition-coming-to-the-uk-with-two-signature-colors-only-400-units-available-278469.html"
+   },
+   "sources": [
+    [
+     "Express & Star（11/16）",
+     "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-android-auto-18-2-light-mode",
+   "kind": "case",
+   "brand": "Android Auto",
+   "tag": "介面與 HMI",
+   "title": "Android Auto 18.2：上百個圖示為淺色模式改版",
+   "date": "2026-11-13",
+   "points": [
+    "18.2 開始推送 beta，畫面上幾乎沒有可見的新功能。",
+    "拆解發現 Google 更新了 100 多個按鈕與圖示資產。",
+    "圖示分出 dark 與 light 版本，為淺色模式鋪路。",
+    "淺色模式能改善白天強光下的閱讀，正式上線日期未定。"
+   ],
+   "image": {
+    "file": "hmi-android-auto-18-2.jpg",
+    "alt": "Android Auto 沉浸式導航畫面顯示在車內中控螢幕",
+    "credit": "9to5Google 示意圖",
+    "credit_url": "https://9to5google.com/2026/11/13/android-auto-18-2-update-beta-release/"
+   },
+   "sources": [
+    [
+     "9to5Google（11/13）",
+     "https://9to5google.com/2026/11/13/android-auto-18-2-update-beta-release/"
+    ],
+    [
+     "Samsung Magazine（11/16）",
+     "https://samsungmagazine.eu/en/2026/11/16/android-auto-182-light/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "新車 · 日本",
+   "date": "2026-11-16",
+   "title": "Suzuki 純電 K-Car e Sky 日本開賣，同日獲 RJC 年度風雲車",
+   "summary": "Suzuki 首款純電輕型車 e Sky 11/16 在日本開賣，212 萬日圓起，26 kWh 磷酸鐵鋰電池、WLTC 續航約 310 km。車長 3,395 mm，並奪下 2027 年度 RJC 年度風雲車。",
+   "sources": [
+    [
+     "TVBS 地球黃金線（11/16）",
+     "https://cars.tvbs.com.tw/car-news/342750"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 台灣",
+   "date": "2026-11-16",
+   "title": "Subaru 純電 E-Outback 在台預接單 178.8 萬，12/11 發表",
+   "summary": "台灣速霸陸開放全新純電休旅 E-Outback 預接單，預售價 178.8 萬元，12 月 11 日正式發表。雙馬達四驅 375 匹、74.7 kWh 電池，保留 X-MODE 越野功能。",
+   "sources": [
+    [
+     "ETtoday 車雲",
+     "https://speed.ettoday.net/news/3272540"
+    ]
+   ]
+  },
+  {
+   "tag": "市場 · 中國",
+   "date": "2026-11-16",
+   "title": "比亞迪第三代唐 11/24 上市，預售 22.5 萬人民幣起",
+   "summary": "比亞迪宣布第三代唐將於 11 月 24 日上市，預售 22.5 萬元起，車身 5 米級、純電版續航最高 850 km。",
+   "sources": [
+    [
+     "新浪財經（11/16）",
+     "https://finance.sina.com.cn/stock/t/2026-11-16/doc-iniyxiqz1202389.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 美國",
+   "date": "2026-11-16",
+   "title": "Mercedes 在美推出 MB.DRIVE ASSIST PRO，高速與部分市區可放手",
+   "summary": "Mercedes 宣布 MB.DRIVE ASSIST PRO 年底先在加州開放，可在高速公路自動變換車道，並協助下交流道、路口轉彎與紅綠燈起停；2027 年初擴大到全美，採訂閱制。",
+   "sources": [
+    [
+     "Carscoops（11/16）",
+     "https://www.carscoops.com/2318398/mercedez-benz-hands-free-adas/"
+    ]
+   ]
+  },
+  {
+   "tag": "製造 · 美國",
+   "date": "2026-11-16",
+   "title": "Scout 南卡工廠完成約 85%，首批客戶車 2028 年交付",
+   "summary": "Scout Motors 位於南卡 Blythewood 的工廠約完成 85%，每 88 秒可下線一台、年產能 20 萬輛；目前有 21.2 萬筆預約，預產車 2027 年生產。",
+   "sources": [
+    [
+     "Carscoops（11/16）",
+     "https://www.carscoops.com/2318167/scout-plant-tour/"
+    ]
+   ]
+  },
+  {
+   "tag": "產業 · 英國",
+   "date": "2026-11-16",
+   "title": "JLR 裁減 4,000 名白領，中國銷量下滑 45%",
+   "summary": "Jaguar Land Rover 宣布裁減 4,000 名受薪員工，首批 3,000 人多在 11 月底離職，預計每年省下約 4 億英鎊；上季營收 59 億英鎊，稅後虧損 4.51 億英鎊。",
+   "sources": [
+    [
+     "autoevolution（11/16）",
+     "https://www.autoevolution.com/news/jaguar-land-rover-cuts-4000-salaried-jobs-while-china-sales-fall-45-percent-278479.html"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Floating roof",
+  "zh": "懸浮車頂",
+  "body": "懸浮車頂（floating roof）是把 A、B、C 柱塗黑或藏在玻璃後面，讓車頂看起來和車身分開、像一片浮在上面的板子。本期的 MG4 Urban Design Edition 就是這樣：紅色或藍色車身配黑色車頂與黑後視鏡，柱子跟車窗連成一片深色帶。設計師這樣做，是為了讓車看起來更低、更輕，也方便做雙色車身。",
+  "source": [
+   [
+    "autoevolution：MG4 Urban Design Edition 黑色 floating roof",
+    "https://www.autoevolution.com/news/mg4-ev-urban-design-edition-coming-to-the-uk-with-two-signature-colors-only-400-units-available-278469.html"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Celadon & Han Beige",
+   "zh": "青瓷綠配米色皮革：紅色點綴的溫潤座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板用加深的 Hongqi Celadon 青瓷綠，門板嵌飾取新一代 BYD 漢的米色打孔皮革，飾條用霧面香檳金屬，扶手與縫線借 MG4 Urban 的 Dynamic Red 做點綴。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Celadon Deep（示意）",
+     "#4F6B5E",
+     false,
+     "ip-upper",
+     {
+      "src": "紅旗 EHS4 Celadon 青瓷色",
+      "url": "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Champagne Satin（示意）",
+     "#B9A98A",
+     false,
+     "ip-decor",
+     {
+      "src": "BYD 漢 鍍鉻飾條",
+      "url": "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/"
+     }
+    ],
+    [
+     "門板嵌飾 · 打孔皮革",
+     "Han Beige（示意）",
+     "#D9CBB2",
+     false,
+     "door-insert",
+     {
+      "src": "BYD 漢 米色打孔皮革",
+      "url": "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Celadon Mist（示意）",
+     "#8FA89A",
+     false,
+     "armrest",
+     {
+      "src": "紅旗 EHS4 Celadon 青瓷色",
+      "url": "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+     }
+    ],
+    [
+     "縫線",
+     "Dynamic Red（示意）",
+     "#B3282D",
+     false,
+     "stitch",
+     {
+      "src": "MG4 Urban Dynamic Red",
+      "url": "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Graphite（示意）",
+     "#2A2C2E",
+     false,
+     "door-lower",
+     {
+      "src": "MG4 Urban 黑色內裝",
+      "url": "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687"
+     }
+    ]
+   ],
+   "evidence": [
+    [
+     "dlmag：紅旗 EHS4 Celadon 青瓷色",
+     "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/"
+    ],
+    [
+     "CarNewsChina：新一代 BYD 漢米色打孔皮椅",
+     "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/"
+    ],
+    [
+     "Express & Star：MG4 Urban Design Edition Dynamic Red",
+     "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687"
+    ]
+   ],
+   "mood": "celadon beige champagne red calm",
+   "mood_text": "青瓷綠儀表板打底，米色皮革帶出溫潤，香檳金屬與紅色縫線點亮細節。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#D9CBB2",
+    "seat-bolster": "#4F6B5E",
+    "seat-center": "#E6DCC8",
+    "console": "#2A2C2E",
+    "console-arm": "#8FA89A",
+    "steering": "#2A2C2E",
+    "ip-lower": "#2A2C2E",
+    "accent-pod": "#B9A98A",
+    "accent-pod2": "#B3282D"
+   }
+  }
+ }
+}

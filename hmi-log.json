@@ -166,5 +166,11 @@
   "key": "hmi-bentley-gen2-infotainment",
   "url": "https://www.thedrive.com/news/bentley-will-upgrade-your-old-cars-infotainment-it-only-costs-you-almost-every-button",
   "image": "hmi-bentley-continental-upgrade.jpg"
+ },
+ {
+  "date": "2026-11-17",
+  "key": "hmi-android-auto-18-2-light-mode",
+  "url": "https://9to5google.com/2026/11/13/android-auto-18-2-update-beta-release/",
+  "image": "hmi-android-auto-18-2.jpg"
  }
 ]

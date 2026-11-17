@@ -5350,7 +5350,53 @@
       "image": "https://cdn.mos.cms.futurecdn.net/W5qsKTsnn3p6EPbdcfburn-1920-80.jpg",
       "excerpt": "Surprisingly, the solo supercar experience isn’t hugely rare; you’d have thought that ownership of a spectacular piece of styling and engineering would be something buyers wanted to share, if only to show off. Unsurprisingly, when a single seat is all that’s on offer, you can be sure that the reasoning comes from motorsport. From the Gordon Murray-designed Rocket for the Light Car Company, through to today’s BAC Mono and McMurtry Spéirling Pure, through to limited editions like the Ferrari Monza SP1, one-person cars are almost universally aimed at track day aficionados. Sanrivatti ONE Hypercar",
       "added": "2026-11-16",
+      "used": true
+    },
+    "ad-nissan-leaf-a-renewed-experience": {
+      "id": "ad-nissan-leaf-a-renewed-experience",
+      "source": "Auto&Design",
+      "credit": "Auto&Design",
+      "paywalled": false,
+      "kind": "news",
+      "column": "News",
+      "title_en": "NISSAN LEAF, A RENEWED EXPERIENCE",
+      "date": "2026-11-16",
+      "url": "https://autodesignmagazine.com/en/2026/11/nissan-leaf-a-renewed-experience/",
+      "image": "https://autodesignmagazine.com/wp-content/uploads/2026/11/DSC7908.jpg?x11123",
+      "excerpt": "Can the third generation of the electric car that ushered in a new era be considered something of a small revolution? Yes and no. No, because the new Nissan Leaf remains faithful to its mission as an everyday electric car, while keeping pace with changing times and tastes, particularly those of European customers. Its transformation does not take it all the way into SUV territory, stopping one step short with a compact crossover silhouette. Yes, because it introduces greater versatility, a more dynamic appearance and an even stronger emphasis on practicality. Overall length has been reduced, w",
+      "added": "2026-11-17",
       "used": false
+    },
+    "wp-the-reo-trucks-runabout-is-a-non-nonsense-truck-for-an-over-complicated-world": {
+      "id": "wp-the-reo-trucks-runabout-is-a-non-nonsense-truck-for-an-over-complicated-world",
+      "source": "Wallpaper*",
+      "credit": "Wallpaper*",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Transportation",
+      "title_en": "The REO Trucks Runabout is a no-nonsense truck for an over-complicated world",
+      "date": "2026-11-16",
+      "url": "https://www.wallpaper.com/transportation/the-reo-trucks-runabout-is-a-non-nonsense-truck-for-an-over-complicated-world",
+      "image": "https://cdn.mos.cms.futurecdn.net/YmLRfeCE9jYkvgdYo3fSoQ-1920-80.jpg",
+      "excerpt": "The American truck sits at the fraught intersection of personal identity and geopolitics. Americans buy hundreds of thousands of pick-up trucks every year – Ford’s F-Series trucks were by some margin the best-selling vehicles in the US in 2025, followed by the Chevrolet Silverado. American born and American made have become defining qualities for finding favour with buyers, as does a certain macho physicality that, regardless of your politics, just wasn’t present in the late, unlamented Cybertruck. T4X Pick-up from REO Trucks (Image credit: REO Trucks) The new REO Runabout wants to get in on t",
+      "added": "2026-11-17",
+      "used": false
+    },
+    "mft-1680292": {
+      "id": "mft-1680292",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "地上側のDC充電器を不要にする。Voltu Motorが「走行用インバーター転用」で実現した200kW車載AC急速充電の構造",
+      "date": "2026-11-16",
+      "url": "https://motor-fan.jp/article/1680292/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/Voltumotorsnov12chargig.jpg?v=1794784814",
+      "excerpt": "商用トラックを30分程度で急速充電するには、数百kW級の「DC急速充電スタンド」を事業所（デポ）に設置する必要がある。しかし、メガワット級・数百kW級の高出力DC充電器は、充電器本体の設備費が極めて高価であり、設置工事や […]",
+      "added": "2026-11-17",
+      "used": false,
+      "language": "ja"
     }
   }
 }

@@ -873,5 +873,29 @@
   "angle": "Tremezzo 壓紋織物與 Opalite 縫線",
   "url": "https://www.motoringresearch.com/car-news/peugeot-208-2008-envy-models/",
   "image": "cmf-mat-peugeot-envy-tremezzo.jpg"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "car",
+  "car_key": "car:byd-han-2027-beige-cabin",
+  "angle": "新一代漢：米色座艙配打孔皮椅",
+  "url": "https://carnewschina.com/2026/11/16/interior-of-the-new-byd-han-sedan-exposed-in-china-ahead-of-launch/",
+  "image": "cmf-car-byd-han-cabin.jpg"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "paint",
+  "car_key": "paint:hongqi-ehs4-celadon",
+  "angle": "紅旗 EHS4：把龍泉青瓷釉色做成車漆",
+  "url": "https://dlmag.com/celadon-paint-and-a-venice-debut-carry-hongqis-first-suv-built-for-europe/",
+  "image": "cmf-paint-hongqi-celadon.jpg"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "paint",
+  "car_key": "paint:mg4-urban-dynamic-red",
+  "angle": "MG4 Urban：Dynamic Red 配黑車頂",
+  "url": "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687",
+  "image": "cmf-paint-mg4-dynamic-red.jpg"
  }
 ]

@@ -1,0 +1,38 @@
+<svg class="diagram" viewBox="0 0 520 340" width="100%" role="img" aria-label="懸浮車頂示意：掀背車側面，A、B、C 柱塗黑，車頂看起來像浮在車身上方" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- body side -->
+    <path d="M52 214 Q54 184 92 176 L150 166 L196 120 Q206 112 222 110 L368 108 Q392 108 404 122 L440 168 Q470 176 474 200 L476 228 Q474 240 460 242 L432 242 A40 40 0 0 0 352 242 L170 242 A40 40 0 0 0 90 242 L64 242 Q52 238 52 226 Z"/>
+    <!-- belt line -->
+    <path d="M150 168 L440 168" stroke-width="1.4"/>
+    <!-- door cut -->
+    <path d="M290 168 L292 236" stroke-width="1.4"/>
+    <!-- headlight / taillight -->
+    <path d="M60 192 L96 186 L94 198 L60 202 Z"/>
+    <path d="M470 186 L452 182 L452 196 L472 200 Z"/>
+    <!-- wheels -->
+    <circle cx="130" cy="244" r="34"/><circle cx="130" cy="244" r="15" stroke-width="1.6"/>
+    <circle cx="392" cy="244" r="34"/><circle cx="392" cy="244" r="15" stroke-width="1.6"/>
+    <!-- windows -->
+    <path d="M168 162 L206 124 L282 122 L284 162 Z" stroke-width="1.6"/>
+    <path d="M300 162 L298 122 L362 122 Q380 124 390 138 L408 162 Z" stroke-width="1.6"/>
+    <path d="M40 282 L480 282" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <!-- blacked-out pillars (accent) -->
+  <g fill="#f08a5d" fill-opacity="0.85" stroke="#f08a5d" stroke-width="2" stroke-linejoin="round">
+    <path d="M196 120 L206 124 L168 162 L150 166 Z"/>
+    <path d="M284 122 L298 122 L300 162 L284 162 Z"/>
+    <path d="M390 138 L404 122 L440 168 L408 162 Z"/>
+  </g>
+  <path d="M206 112 L368 110" stroke="#f08a5d" stroke-width="3" fill="none"/>
+  <g font-family="sans-serif" fill="currentColor">
+    <g stroke="#f08a5d" stroke-width="1.6" stroke-dasharray="4 4" fill="none">
+      <path d="M180 140 L120 70 L40 70"/>
+      <path d="M292 140 L292 52"/>
+      <path d="M420 146 L470 80"/>
+    </g>
+    <text x="40" y="62" font-size="15">① A 柱塗黑</text>
+    <text x="236" y="44" font-size="15">② B 柱藏在玻璃後</text>
+    <text x="400" y="72" font-size="15">③ C 柱塗黑</text>
+    <text x="40" y="318" font-size="13" opacity="0.85">柱子變黑後，車頂（可另漆黑色）看起來像一片浮在車身上的板子</text>
+  </g>
+</svg>
