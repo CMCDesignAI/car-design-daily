@@ -1,0 +1,739 @@
+{
+ "date": "2026-11-17",
+ "weekday": "週二",
+ "issue_no": 41,
+ "lede": "小鵬與 Ford 設計主管同一週談 AI 怎麼進入造型流程：一邊自建 AI 設計代理、一邊用 AI 取代比例模型但保留油泥；Qwen4-Max 正式上線、騰訊推出超便宜的 Hy4 flash，三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "xpeng-ai-design-agents",
+   "org": "Xpeng 小鵬",
+   "tag": "AI 輔助汽車設計",
+   "date": "2026-11-17",
+   "topic": "ai-car-design",
+   "title": "小鵬設計總監 Rafik Ferrag：外觀、內裝、水箱罩、車燈都用 AI 發想，自建內部生成工具，未來設計師要指揮多個 AI 設計代理",
+   "short_title": "小鵬怎麼用 AI 做車輛設計",
+   "one": "小鵬用自家內部 AI 平台做外觀、內裝、水箱罩與車燈的創意發想，也拿 AI 分析客戶回饋；數位工具負責創作，實體模型改成只做驗證。",
+   "orig": "Xpeng says artificial intelligence is helping shape its cars, with designers expected to direct teams of digital assistants in the future.",
+   "summary": "【誰在做】小鵬創意設計總監 Rafik Ferrag（領導廣州設計中心、兩代 P7 的設計者）在倫敦工作坊上說明，CarExpert 報導（台北 11/17）。廣州與上海兩個設計中心先在早期提案互相競爭，再分工合作。\n【用了哪些 AI】小鵬自行開發生成器與 AI 工具，透過內部平台給設計師使用；原因之一是保密，避免未發表的設計流到網路上。報導沒有點名使用哪家模型。\n【流程怎麼走】創意階段大量用在外觀、內裝、水箱罩、車燈設計；另用 AI 分析資料、做競品比較、解讀客戶「為什麼不喜歡」的回饋。L03 的內裝原本較激進，因客戶回饋改成圓潤放鬆的座艙。Ferrag 說數位工具越來越多用來創作與收斂設計，實體模型與 3D 列印改為驗證用，「以前正好相反」。未來設計師會「當自己的導演」，決定給不同 AI 設計代理多少自由。\n【限制】Ferrag 沒有說 L03 哪些部件（如果有）來自 AI 生成提案；所述是整體流程，沒有公布量化成效，僅提到「速度快很多」。",
+   "links": [
+    [
+     "CarExpert 報導",
+     "https://www.carexpert.com.au/car-news/xpeng-is-already-using-ai-to-design-its-cars"
+    ]
+   ],
+   "image": {
+    "file": "xpeng-ai-design.webp",
+    "alt": "小鵬 L03 頭燈細節",
+    "credit": "CarExpert",
+    "credit_url": "https://www.carexpert.com.au/car-news/xpeng-is-already-using-ai-to-design-its-cars"
+   },
+   "gloss": [
+    [
+     "AI 設計代理",
+     "能依設計師指示自己發想、出圖或解題的 AI 助手，設計師像導演一樣分派工作"
+    ]
+   ]
+  },
+  {
+   "id": "ford-ai-styling-platto",
+   "org": "Ford",
+   "tag": "AI 輔助汽車設計",
+   "date": "2026-11-15",
+   "topic": "ai-car-design",
+   "title": "Ford 設計總監 Gordon Platto：AI 與 3D 工具取代了比例模型，但全尺寸油泥模型仍保留，設計師要負責檢查與控制 AI",
+   "short_title": "Ford：AI 取代比例模型、不取代油泥",
+   "one": "Ford 近兩年已停做縮小比例模型，改用 Gravity Sketch 與自家 AI 設計工具快速看大量車型方案，但最後仍要做全尺寸油泥模型確認。",
+   "orig": "We're at a time right now we're we are really trying to figure out AI and how it fits in and how to control AI",
+   "summary": "【誰在做】Ford 設計總監 Gordon Platto（在 Ford 37 年）在活動上的說法，Detroit Free Press 11/15 報導，Ford Authority 11/16 轉述。\n【用了哪些工具】依 Ford Authority 轉述：頭戴裝置 3D 建模的 Gravity Sketch，以及 Ford 內部設計工具（報導寫作 Viscom）來產生 3D 車輛設計。\n【流程怎麼走】草圖已全面數位化；過去兩年停做比例模型，改用這些工具「像比例模型一樣看大範圍的車型方案」；最後仍做全尺寸油泥，因為立體實物才能用顧客的眼光看車。Platto 說 AI 是「工具箱裡的另一個工具」，可以加速設計，但設計師必須檢查並控制它。\n【限制】只有設計主管的口頭說法，沒有公布時程縮短多少；Free Press 原文本站無法直接讀取，依 Ford Authority 轉述與 Free Press 摘要整理。",
+   "links": [
+    [
+     "Ford Authority 報導",
+     "https://fordauthority.com/2026/11/ford-design-process-no-longer-includes-some-physical-models/"
+    ],
+    [
+     "Detroit Free Press 原文",
+     "https://www.freep.com/story/money/cars/ford/2026/11/15/designer-ford-ai-car-styling/92747474007/"
+    ]
+   ],
+   "image": {
+    "file": "ford-ai-styling.webp",
+    "alt": "Lincoln Navigator 外觀設計草圖",
+    "credit": "Ford Authority（Lincoln 設計草圖）",
+    "credit_url": "https://fordauthority.com/2026/11/ford-design-process-no-longer-includes-some-physical-models/"
+   },
+   "gloss": [
+    [
+     "油泥模型（Clay model）",
+     "用工業油泥雕出的實體車模，設計定案前用來確認真實比例與光影"
+    ]
+   ]
+  },
+  {
+   "id": "qwen4-max-launch",
+   "org": "Alibaba Qwen",
+   "tag": "延伸 · 新模型",
+   "date": "2026-11-16",
+   "topic": "qwen4-max-preview",
+   "title": "延伸 · Qwen4-Max 正式上線：2.4T 參數 MoE、原生視覺、1M 上下文，API 每百萬 token 輸入 1.5／輸出 4.5 美元",
+   "short_title": "Qwen4-Max 正式版上線",
+   "one": "11/14 報過的預覽版轉正：阿里最強的 Qwen4-Max 已在 QwenCloud API、Token Plan、QwenWork／QwenStudio 開放，比上一代省 token、每題成本約降六成，但不開源。",
+   "orig": "Alibaba has released Qwen4-Max, the most capable model in the Qwen family to date.",
+   "summary": "【比上一版進步在哪】官方說法：總參數 2.4T、每 token 啟用 71B（比 Qwen3.8-Max 少 25%）；自家 Work360 測試（721 個專業領域）整體勝過 Qwen3.8-Max，High 推理模式少用 35% token、每題平均成本降約 60%；Code Arena WebDev 第 6、比 3.8-Max 高 74 分。\n【價格與限制】國際版 API 輸入 1.5、輸出 4.5 美元／百萬 token（3.8-Max 為 2／6），快取讀取 0.075；最大輸出 131K（思考模式 262K）。權重不開放，官方說較小的 Qwen4 開源模型「即將」釋出。\n【哪裡能用】QwenCloud API 與 Token Plan、QwenWork、QwenStudio；OpenRouter、Vercel AI Gateway 等第三方也已上架。\n【初步實測（樣本小）】CodeRouter 175 題 Python：一次重試後 96%（Claude Opus 5.5／Sonnet 5.5 為 100%），總成本 1.47 美元與 Sonnet 相當，但每題中位數 11.3 秒較慢；BestHub 用預覽版做夾娃娃機等任務，總 token 用量是受測模型中最少，但花 75 分鐘最慢；MindStudio 評測認為與 Opus 5.5 互有勝負。",
+   "links": [
+    [
+     "阿里雲官方新聞稿",
+     "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max"
+    ],
+    [
+     "QwenCloud 模型頁（價格）",
+     "https://www.qwencloud.com/models/qwen4-max"
+    ],
+    [
+     "實測：CodeRouter 175 題寫碼",
+     "https://www.coderouter.io/blog/qwen4-max-coding-benchmark-2026"
+    ],
+    [
+     "實測：BestHub 預覽版五項任務",
+     "https://www.besthub.dev/articles/qwen4-max-preview-tested-claw-machines-ink-paintings-3d-worlds-show-strong-token-efficiency-7c71c6934854"
+    ],
+    [
+     "評測：MindStudio",
+     "https://www.mindstudio.ai/blog/qwen4-max-review"
+    ]
+   ],
+   "image": {
+    "file": "qwen4-max.webp",
+    "alt": "Qwen4-Max 與 Qwen3.8-Max 的 Work360 產業基準比較圖",
+    "credit": "Alibaba Cloud",
+    "credit_url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max"
+   },
+   "gloss": [
+    [
+     "MoE（混合專家）",
+     "模型裡有很多「專家」子網路，每次只叫用其中一部分，所以參數很大但跑起來比較省"
+    ]
+   ]
+  },
+  {
+   "id": "tencent-hy4-flash",
+   "org": "Tencent",
+   "tag": "新模型",
+   "date": "2026-11-16",
+   "topic": "hy4-flash",
+   "title": "騰訊 Hy4 flash：224B 參數只啟用 12B，支援多模態與 1M 上下文，API 價格約為 Hy4 的十分之一以下",
+   "short_title": "騰訊 Hy4 flash：超便宜的日常工作模型",
+   "one": "騰訊推出主打做簡報、改文件、修試算表等日常工作的便宜模型，每百萬 token 輸入約 0.07 美元，官方說效果略勝更大的 Hy4 Preview。",
+   "orig": "Tencent today announced the release of Hy4 flash, the latest addition to its Hy model family.",
+   "summary": "【是什麼】依騰訊官方新聞稿（11/16）：總參數 224B（含 64B Engram 參數）、啟用 12B，支援多模態輸入與最長 1M token 上下文；KV cache 只有 Hy4 的 1/6；解碼速度超過每秒 150 token。\n【價格】約每百萬 token 輸入 0.070、輸出 0.281、快取輸入 0.003 美元（Hy4 為 0.834／2.501／0.042）。\n【官方評測】自建 WorkIndex（WorkBuddy 常見任務：做簡報、改文件、修試算表、影音處理、看圖）上整體略勝 Hy4 Preview（770B／啟用 49B），每題成本約為 Hy4 Preview 的 1/13、Hy4 的 1/20。\n【限制】主要數字來自騰訊自家測試；第三方報導指出在進階視覺與軟體工程上仍落後頂尖模型。",
+   "links": [
+    [
+     "騰訊官方新聞稿",
+     "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
+    ],
+    [
+     "Hy 官方技術頁",
+     "https://hy.tencent.ai/research/hy4-flash"
+    ]
+   ],
+   "image": {
+    "file": "hy4-flash.webp",
+    "alt": "Hy4 flash 與 Hy4 API 價格比較表",
+    "credit": "Tencent",
+    "credit_url": "https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/"
+   },
+   "gloss": [
+    [
+     "上下文（Context）",
+     "模型一次能讀進來的內容長度；1M token 約可放下好幾本書"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-notebook-sites",
+   "org": "Google",
+   "tag": "新功能",
+   "date": "2026-11-16",
+   "topic": "gemini-notebook-sites",
+   "title": "Gemini Notebook 能把你的資料來源變成互動網站：輸入「make me a site」就生成解說頁、儀表板或進度追蹤",
+   "short_title": "Gemini Notebook 一句話做互動網站",
+   "one": "在 Gemini Notebook 對話裡打「make me a site」加需求，就能把筆記和資料變成可點選的互動網頁（例如週期表、時間軸、銷售儀表板），還能分享給別人。",
+   "orig": "Starting today, Gemini Notebook can turn your sources into interactive sites to help you quickly make sense of complex information.",
+   "summary": "【是什麼】Google 官方部落格（11/16）：在 Gemini Notebook 聊天中輸入「make me a site」並描述需求，即可依你的來源資料產生互動網站，例如考試用的互動週期表或歷史時間軸、季度業績儀表板、專案任務追蹤器；完成後可「Open in a new tab」操作或分享。\n【在哪裡能用】即日起全球網頁版陸續開放給 18 歲以上 Gemini Notebook 使用者（含 Google Workspace 訂戶），手機 App 之後推出。\n【限制】官方未說明各方案的使用額度。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+    ]
+   ],
+   "image": {
+    "file": "gemini-notebook-sites.webp",
+    "alt": "Gemini Notebook 依資料生成互動週期表網站的畫面",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+   }
+  },
+  {
+   "id": "chatgpt-healthcare-agents",
+   "org": "OpenAI",
+   "tag": "產品更新",
+   "date": "2026-11-16",
+   "topic": "chatgpt-healthcare-agents",
+   "title": "ChatGPT for Healthcare 加入電腦操作代理、更強的臨床搜尋與 20 多個醫療外掛",
+   "short_title": "ChatGPT 醫療版能自己操作醫院系統",
+   "one": "醫療機構版 ChatGPT 的 AI 代理能直接看螢幕、點擊、打字，在病歷、排班、保險系統之間搬資料、轉介，需要時才請人確認。",
+   "orig": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "summary": "【是什麼】OpenAI 官方（11/16）：ChatGPT for Healthcare 的電腦操作代理可在既有醫療軟體間執行多步驟工作，機構可設定代理能用哪些程式、哪些步驟要人工審核，並有存取控制與稽核紀錄；Abridge、Ambience、Cigna、CVS Health 已在處理轉介、搬移文件。臨床搜尋改進：1300 多次醫師盲評中，八個面向（含正確性、安全性）都評分較高。另新增 20 多個醫療外掛。\n【在哪裡能用】ChatGPT for Healthcare（機構方案）；臨床搜尋改進也用於 ChatGPT for Clinicians。處理受保護健康資訊需在與 OpenAI 的 BAA 範圍內使用；內容不用於訓練模型。\n【限制】屬企業／醫療機構方案，一般個人方案沒有。",
+   "links": [
+    [
+     "OpenAI 官方",
+     "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+    ],
+    [
+     "OpenAI X 貼文",
+     "https://x.com/OpenAI/status/2122465625109090646"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "電腦操作代理（Computer-use agent）",
+     "像人一樣看螢幕、移滑鼠、打字來操作軟體的 AI"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "2 則：官方 1.0 新功能影片導覽、用 Grok Bot 把 23 小時直播剪成精華片。",
+   "updates": [
+    {
+     "title": "Matt Palmer（SpaceXSI Grok Bot 團隊）〈What's new in Grok Bot 1.0〉6.5 分鐘影片導覽",
+     "short_title": "官方影片帶你看 Grok Bot 1.0 新功能",
+     "date": "2026-11-16",
+     "one": "學到：用一支短片看完 1.0 的五大改變——Team Bot、Bot 進會議、主動接手工作、從回饋學習、更快更聰明，各段有時間戳可直接跳看。",
+     "summary": "Grok Bot 團隊成員 @mattyp 台北 11/16 晚間發布的影片（約 6 分 34 秒），章節：00:45 Team Bot 改進、01:47 Bot 加入你的會議、03:26 Bot 主動出擊、04:10 Bot 學習與改進、05:19 更聰明更快；作者說片中藏了不少彩蛋。Musk 也引用並寫「Try Grok Bot」。功能與方案限制見本站 11/12 的 Grok Bot 1.0 報導（Team Bots 限 Team／Enterprise，會議限 Team／Enterprise／Ultra）。",
+     "links": [
+      [
+       "X 影片貼文",
+       "https://x.com/mattyp/status/2122343944889483583"
+      ],
+      [
+       "官方公告：Introducing Grok Bot 1.0",
+       "https://x.ai/news/grok-bot-1-0"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-1-0-whats-new.webp",
+      "alt": "What's new in Grok Bot 1.0 影片封面",
+      "credit": "@mattyp（X 影片縮圖）",
+      "credit_url": "https://x.com/mattyp/status/2122343944889483583"
+     },
+     "gloss": [
+      [
+       "Team Bot",
+       "可分享給整個團隊、在 Slack／Teams 裡一起使用的共用 Bot"
+      ]
+     ]
+    },
+    {
+     "title": "@cb_doge：讓 Grok Bot 把 23 小時的星艦直播剪成 1 分鐘精華片",
+     "short_title": "Grok Bot 幫你剪長直播精華",
+     "date": "2026-11-16",
+     "one": "學到：一句話就能把超長影片交給 Grok Bot，它會自己下載、挑精彩片段、剪接並加特效與配樂；作者附上成品影片，Musk 引用說「Grok Bot 幾乎什麼都能做」。",
+     "summary": "@cb_doge 台北 11/16 凌晨貼文：作者說 Grok Bot 下載了 23 小時的 Starship Flight 15 直播，挑出最佳時刻、剪接片段、加上特效與音樂，貼文附 60 秒成品影片（約 86 萬次曝光）。作者沒有公開提示詞與耗時，效果以貼文影片為準（作者實測）。",
+     "links": [
+      [
+       "X 貼文（含成品影片）",
+       "https://x.com/cb_doge/status/2122033615362302355"
+      ],
+      [
+       "Musk 引用貼文",
+       "https://x.com/elonmusk/status/2122164224382447808"
+      ]
+     ],
+     "image": null
+    }
+   ]
+  }
+ ],
+ "columns": [
+  {
+   "id": "col-aisd-ego-lite",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-16",
+   "title": "ego lite 實測：讓 AI 代理在獨立 Space 用你的瀏覽器查資料，不搶你的分頁",
+   "short_title": "AI 代理專用瀏覽器 ego lite 實測",
+   "orig": "🚀ego lite深度实测！免重复登录、不弹调试提示、独立Space！让WorkBuddy和你同时用一个浏览器互不打扰！终于不用和Agent抢浏览器了！超越Codex浏览器",
+   "one": "把瀏覽器交給 AI 做研究時，你還能同時用同一個瀏覽器看論文：ego lite 讓代理在自己的 Space 工作、沿用你已登入的網站。",
+   "points": [
+    "作者用 WorkBuddy 呼叫 ego(lite)，從 GitHub 趨勢榜篩出 3 個開源專案，深入看文件、Issues、PR 與社群熱度後產出報告；同時作者自己繼續讀論文。",
+    "流程包含：安裝並匯入 Chrome 資料、確認 GitHub 與信箱能沿用登入狀態、在 Hugging Face 趨勢榜挑 5 款候選模型（看授權與硬體限制）、用雙分頁對比兩個模型版本並出圖表。",
+    "最後把篩選任務做成 Node 批次腳本供重用；作者註明影片只展示建立結果，未實測再次執行的耗時或 token 節省。",
+    "依官方文件：ego(lite) 透過 /ego-browser 技能讓 Codex、Claude Code、WorkBuddy 等代理操作；Space 只區隔分頁與控制權，不代表帳號隔離。"
+   ],
+   "url": "https://www.youtube.com/watch?v=2RH73xU6O7M",
+   "image": {
+    "file": "col-aisd-ego-lite.webp",
+    "alt": "ego lite AI Agent 專用瀏覽器深度實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=2RH73xU6O7M"
+   },
+   "links": [
+    [
+     "ego(lite) 官網",
+     "https://lite.ego.app/"
+    ],
+    [
+     "官方文件：搭配 WorkBuddy",
+     "https://lite.ego.app/document/en/docs/workbuddy"
+    ]
+   ],
+   "gloss": [
+    [
+     "Space（ego lite）",
+     "瀏覽器裡專給 AI 代理用的分頁群組，代理在裡面操作，不會動到你正在看的分頁"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-text-to-image-basics",
+   "title": "ComfyUI 文生圖入門：跑出第一張圖，順便看懂每個節點在做什麼",
+   "learn": "學會載入官方文生圖工作流、選模型、改正負向提示詞並生成，理解 KSampler、潛空間等基本概念。",
+   "level": "入門",
+   "vram": "官方頁未列顯存需求；範例用 SD1.5（v1-5-pruned-emaonly-fp16），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "正／負向提示詞",
+     "正向寫你想要畫面出現的東西，負向寫不想要的（如模糊、手變形）"
+    ],
+    [
+     "KSampler",
+     "ComfyUI 裡負責一步步把雜訊「去噪」成圖片的取樣節點，seed 決定每次結果"
+    ]
+   ],
+   "steps": [
+    "確認 ComfyUI/models/checkpoints 裡至少有一個 SD1.5 模型，例如 v1-5-pruned-emaonly-fp16.safetensors（官方頁有下載說明）。",
+    "下載官方頁的工作流圖片，直接拖進 ComfyUI（或 Workflows → Open，Ctrl+O）載入。",
+    "在 Load Checkpoint 選好模型，按 Queue 或 Ctrl+Enter 生成，結果出現在 Save Image 節點，可右鍵存檔；不滿意就再跑，seed 會換。",
+    "修改 CLIP Text Encode 裡的提示詞：SD1.5 盡量用英文、逗號分隔短語，可用 (golden hour:1.2) 加權重。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：文生圖工作流",
+     "https://docs.comfy.org/tutorials/basic/text-to-image"
+    ],
+    [
+     "SD1.5 模型（Comfy-Org 封存）",
+     "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive"
+    ]
+   ]
+  },
+  {
+   "id": "tut-comfy-models-folders",
+   "title": "ComfyUI 模型檔放哪裡？資料夾、Loader 節點與共用模型路徑一次搞懂",
+   "learn": "學會把 checkpoint、VAE、LoRA、ControlNet 放進對的資料夾，用對 Loader 節點，並用 extra_model_paths.yaml 讓多套程式共用模型、省硬碟。",
+   "level": "入門",
+   "vram": "不涉及顯存（檔案管理教學）；單一模型常達數 GB，需預留硬碟空間",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Loader 節點",
+     "畫布上名稱多半以 Load 開頭的節點，負責把模型檔載入工作流"
+    ]
+   ],
+   "steps": [
+    "從 Hugging Face、Civitai 或專案 GitHub 下載模型，依類型放進 ComfyUI/models/ 底下的子資料夾（checkpoints、loras、vae 等）。",
+    "在畫布加入對應的 Loader 節點，從下拉選單選檔案再接進工作流；ComfyUI 開著時手動放檔，要重新整理或重啟清單才會更新。",
+    "要刪模型目前沒有介面按鈕，直接刪掉資料夾裡的檔案即可。",
+    "想讓多套 ComfyUI 或 WebUI 共用模型：把根目錄的 extra_model_paths.yaml.example 複製改名成 extra_model_paths.yaml，填入模型路徑（Desktop 版設定位置不同，照官方頁）。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Models",
+     "https://docs.comfy.org/development/core-concepts/models"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "Ford 一則依 Ford Authority 轉述與 Detroit Free Press 摘要整理（Free Press 原文無法直接讀取）。",
+  "Qwen4-Max、Hy4 flash 的效能與成本數字多為官方自家測試；第三方實測樣本小，屬初步結果。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-17",
+  "compared_to": "2026-11-16",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-17",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "unchanged",
+    "compared_to": "2026-11-16",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1500,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-14",
+    "fetched": "2026-11-17",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-17",
+    "status": "unchanged",
+    "compared_to": "2026-11-16",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1226→1227 (+1)",
+      "GPT Image 2 (high): #5→#5 (0 名), 1191→1192 (+1)",
+      "MAI-Image-2.6: #8→#8 (0 名), 1169→1168 (-1)",
+      "Grok Imagine Image 2.0: #9→#9 (0 名), 1168→1167 (-1)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495,
+      "delta": 2
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1226,
+      "ci": 1295,
+      "delta": -1
+     },
+     {
+      "rank": 4,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1191,
+      "ci": 1195,
+      "delta": 2
+     },
+     {
+      "rank": 6,
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1169,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 9,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "Canva Craft",
+      "org": "Canva",
+      "score": 1158,
+      "ci": 1395,
+      "new": true
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-17",
+    "metric": "Elo",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-17",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": 3
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 14,
+      "released": "Sep 2026",
+      "delta": 1
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1161,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1155,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": 1
+     },
+     {
+      "rank": 5,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1155,
+      "ci": 16,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1154,
+      "ci": 14,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 7,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1153,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 8,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1147,
+      "ci": 15,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": 2
+     },
+     {
+      "rank": 9,
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "score": 1138,
+      "ci": 14,
+      "released": "Mar 2026",
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1138,
+      "ci": 13,
+      "released": "Jul 2026",
+      "move": -2
+     }
+    ],
+    "compared_to": "2026-11-16",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1175→1174 (-1)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1161→1159 (-2)",
+      "Dreamina Seedance 2.5: #4→#4 (0 名), 1155→1156 (+1)",
+      "FLUX 3 Max: #5→#5 (0 名), 1155→1152 (-3)",
+      "Gemini Omni Flash 1.2: #6→#6 (0 名), 1154→1151 (-3)",
+      "HeyGen Video 1: #7→#7 (0 名), 1153→1149 (-4)",
+      "MiniMax H3 Max: #8→#8 (0 名), 1147→1143 (-4)",
+      "FLUX 3: #10→#9 (+1 名), 1138→1136 (-2)",
+      "SkyReels V4: #9→#10 (-1 名), 1138→1134 (-4)"
+     ]
+    }
+   }
+  ]
+ }
+}
