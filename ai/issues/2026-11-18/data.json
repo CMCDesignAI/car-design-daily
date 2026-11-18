@@ -1,0 +1,730 @@
+{
+ "date": "2026-11-18",
+ "weekday": "週三",
+ "issue_no": 42,
+ "lede": "BMW Designworks 徵才條件寫出 AI 已進入設計流程的哪些環節；OpenAI 推出 GPT-6.2 Astra 與 Sol、Gemini 的 Tasks 代理免費開放，文生圖與文生影片榜各有新面孔進前 10。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "bmw-designworks-ai-pipeline",
+   "org": "BMW Group Designworks",
+   "tag": "AI 輔助汽車設計",
+   "topic": "ai-car-design",
+   "date": "2026-11-16",
+   "title": "BMW Designworks 徵設計總監：要求熟練 Vizcom、Krea、ComfyUI 等生成式 AI，並把草圖轉渲染、2D 轉 3D、AI 代理研究整合進工作室流程",
+   "short_title": "BMW Designworks 徵才條件透露 AI 設計流程",
+   "one": "BMW 旗下設計工作室的新職缺，把「會用生成式 AI 設計工具並整合進專業流程」列為必備條件，等於公開了他們的 AI 設計工具箱與流程。",
+   "orig": "Integrate AI-powered ideation, sketch-to-render, 2D-to-3D, variant exploration, and agent-based research, pitches, and operations; measure speed, quality, and cost improvements and translate successful approaches into studio playbooks.",
+   "summary": "【誰在做】BMW Group 的設計創新工作室 Designworks（美國加州 Santa Monica），職缺「Creative Director, Automotive Design」，職缺頁標示刊登日 11/16。\n【用了哪些 AI】條件列出生成式 AI 設計工具（例：Vizcom、Krea、Midjourney、Adobe Firefly、Stable Diffusion／ComfyUI）；AI 輔助 3D 與即時工作流（例：image-to-3D、Gravity Sketch、NVIDIA Omniverse、Unreal Engine），以及用 LLM 和 AI 代理做研究、簡報、說故事與提案。\n【流程怎麼走】職責寫明要把 AI 發想、草圖轉渲染、2D 轉 3D、變化型探索與代理式研究整合進工作室流程，並說明 AI 3D 成果要如何交接到 Alias 與 Class-A 建模；流程仍保留草圖、油泥、數位建模到設計凍結，以及 VR/XR、VRED、Unreal 即時評審。\n【成效或限制】職缺要求「衡量速度、品質與成本的改善」並把有效做法寫成工作室手冊，但沒有公布任何成效數字；這是徵才條件，不是案例報告。",
+   "links": [
+    [
+     "BMW Group 職缺頁",
+     "https://jobs.bmwgroup.com/job/Santa-Monica-Creative-Director,-Automotive-Design-Cali/200580-en_US/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Class-A 建模",
+     "量產前把車身曲面做到最高品質、可直接交給工程與模具使用的精修 3D 曲面"
+    ],
+    [
+     "image-to-3D",
+     "把一張圖片自動轉成 3D 模型的 AI 技術"
+    ]
+   ]
+  },
+  {
+   "id": "gpt-6-2-astra-sol",
+   "org": "OpenAI",
+   "tag": "模型升級",
+   "date": "2026-11-18",
+   "title": "GPT-6.2 Astra 與 Sol 上線：Astra 主打複雜專業工作、API 降價 20%；Sol 為日常主力，價格不變",
+   "short_title": "GPT-6.2 Astra／Sol 推出",
+   "one": "OpenAI 新的兩款主力模型：Astra 做難的專業工作（簡報、試算表、程式、3D），Sol 便宜快速做日常事，同方案能做更多事。",
+   "orig": "GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.",
+   "summary": "【比上一版進步在哪（官方說法）】Astra 在 Agents' Last Exam 比 GPT-6 Astra 高 5.2 分、成本不到三分之一；Terminal-Bench-Science 高 9 個百分點；簡報、試算表、文件更貼近範本與產業慣例，網站、遊戲、3D 前端更好。Sol 比 GPT-6.1 Sol 更聰明、更省 token，在 FrontierCode 2.0 與 Astra 差不到 0.5 分、成本約五分之一。\n【價格與限制】Astra API 每百萬 token 輸入 $8、快取輸入 $0.40、輸出 $40（比 GPT-6 Astra 便宜 20%）；Sol 維持 GPT-6.1 Sol 價格（$2／$10）。兩款都達資安「Critical」門檻，上線時加了較嚴的資安防護，會擋掉部分正當的漏洞研究；官方也承認兩款在兩項測試中較常沒回報卡住工作的障礙。\n【哪裡能用】ChatGPT Work 與 Codex（Plus、Pro、Enterprise、Edu），API 名稱 gpt-6.2-astra／gpt-6.2-sol；Pro 500 可用 Ultrafast，Pro 200 首度可對 Sol 用 Ultrafast。\n【第三方實測（初步、樣本小）】Artificial Analysis：Astra 在 Intelligence Index 排第 2（僅次 Claude Fable 5.2），AA-3D 第一；但 Coding Agent Index 與前代持平、Sol 還掉 3 分，幻覺率 59%／55%。Perplexity 自家 WANDR 測試 Astra 0.783（每題約 $12.54）、Sol 0.746（約 $2.65），都比前代進步；Mercor 的 OpenWorldEngineer 測試 Astra 以 67.2% 排第一；Nick Baumann 的 GeoGuessr 電腦操作測試兩款都是 77/100（並列最佳）。",
+   "links": [
+    [
+     "OpenAI 官方公告",
+     "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    ],
+    [
+     "Artificial Analysis 評測",
+     "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol"
+    ],
+    [
+     "Perplexity WANDR 實測（X）",
+     "https://x.com/perplexity_ai/status/2122814545639223348"
+    ],
+    [
+     "Mercor OpenWorldEngineer（X）",
+     "https://x.com/mercor/status/2122754439094354101"
+    ],
+    [
+     "GeoGuessr 電腦操作實測（X）",
+     "https://x.com/nickbaumann_/status/2122805861093417220"
+    ]
+   ],
+   "image": {
+    "file": "gpt62-astra-sol.webp",
+    "alt": "GPT-6.2 Astra 與 Sol 官方主視覺",
+    "credit": "OpenAI",
+    "credit_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+   },
+   "gloss": [
+    [
+     "Ultrafast",
+     "OpenAI 的高速輸出模式，同一模型回得更快，限特定方案"
+    ],
+    [
+     "快取輸入",
+     "重複送出的相同前文可用折扣價計費"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-tasks-free",
+   "org": "Google",
+   "tag": "平台異動",
+   "date": "2026-11-18",
+   "title": "Gemini Tasks（原 Spark 代理）免費開放：美、日、韓、加、澳、印度數億用戶可用，由 Gemini 4 Hydrogen 驅動",
+   "short_title": "Gemini Tasks 代理免費開放",
+   "one": "Gemini App 首頁把「Chat」切到「Task」，就能交辦長時間或定期執行的工作；原本要付費，現在六國免費。",
+   "orig": "Beginning today, Tasks are now free of charge for hundreds of millions of eligible users, starting in the U.S., JP, KR, CA, AU & IN.",
+   "summary": "【改了什麼】Google 把原本只給 AI Pro／Ultra 的 Spark 代理改名 Tasks，免費開放給美國、日本、韓國、加拿大、澳洲、印度的用戶，使用新的 Gemini 4 Hydrogen 模型。可安排排程任務、整理信件找出可能不需要的訂閱、做餐點計畫等。\n【美國限定進階功能】代打電話給商家（比價、問庫存、預約）、用 Google Pay 購物、用 Google 密碼管理工具登入網站；也能寄信到 gemini@google.com 或傳簡訊交辦。購物等敏感動作會先停下來請你確認。\n【限制】需年滿 18 歲、個人 Google 帳號且開啟紀錄（公司／學校帳號不行）；同時最多 15 個任務；用量依方案的運算額度計算。其他地區需 AI Pro／Ultra，歐洲經濟區、英國、瑞士、奈及利亞暫不提供。台灣不在免費名單，需付費方案（官方說明頁所列）。\n【安全】任務在專屬、硬體隔離的虛擬機執行，並有提示詞注入防護（9to5Google 報導）。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    ],
+    [
+     "Gemini 說明：Tasks 條件與限制",
+     "https://support.google.com/gemini/answer/17094507"
+    ],
+    [
+     "9to5Google",
+     "https://9to5google.com/2026/11/17/gemini-tasks-free/"
+    ],
+    [
+     "The Verge",
+     "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+    ]
+   ],
+   "image": {
+    "file": "gemini-tasks-free.webp",
+    "alt": "Gemini App 首頁 Chat／Task 切換",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+   },
+   "gloss": [
+    [
+     "AI 代理",
+     "能自己規劃步驟、操作工具把工作做完的 AI，而不只是回答問題"
+    ]
+   ]
+  },
+  {
+   "id": "grokbot-1-2-0",
+   "org": "SpaceXSI",
+   "tag": "平台異動",
+   "date": "2026-11-16",
+   "title": "Grok Bot 1.2.0：X 貼文與 X Chat 先出草稿卡確認才發、會議可設為不發言、管理員可關閉主動訊息",
+   "short_title": "Grok Bot 1.2.0 更新重點",
+   "one": "這版讓 Bot 發 X 貼文前一定先給你草稿卡按確認，開會時也能讓 Bot 只聽不說，團隊管理員能關掉 Bot 主動傳訊息。",
+   "orig": "Bots show X Chat messages and X posts as draft cards with Send, Discard, Post, and Reply, and publish only after you confirm.",
+   "summary": "官方 changelog（v1.2.0，11/16）重點：\n・X 整合：X Chat 訊息與 X 貼文以草稿卡呈現（Send／Discard／Post／Reply），確認後才發布；滑過 X @提及可看個人檔案卡。\n・會議：可選 Disable Interactivity 讓 Bot 留在會議但不發言、不貼訊息，也能關攝影機；大型或外部會議 Bot 先只聽，並詢問是否為可信任會議。\n・團隊：管理員可在後台關閉團隊 Bot 的 Proactive（主動）訊息；企業版連接器支援 SSO 登入。\n・其他：航班／飯店卡片改版（飯店照片檢視、地圖縮放）、Gift Concierge 送禮範本、iPhone 地點提醒、列出最近 20 通電話紀錄。",
+   "links": [
+    [
+     "Grok Bot 官方 Changelog",
+     "https://x.ai/changelog/bot"
+    ]
+   ],
+   "image": null
+  },
+  {
+   "id": "claude-linked-billing",
+   "org": "Anthropic",
+   "tag": "方案異動",
+   "date": "2026-11-18",
+   "title": "Claude Platform 推出 Linked billing（Beta）：第三方 App 的 Claude 用量可直接記到客戶自己的帳戶，不用交出 API key",
+   "short_title": "Claude 用量可記到你自己的帳上",
+   "one": "用 Linear、Warp 等第三方工具時，可以把 Claude 費用直接掛在自己的 Anthropic 帳戶並設上限，不必把 API key 交給對方。",
+   "orig": "Today we're introducing linked billing on the Claude Platform in beta.",
+   "summary": "【怎麼運作】客戶在 Console 核准連結第三方平台、設定花費上限、隨時可解除；平台每次請求用 billing_policy 決定由誰付費。首批支援平台包括 Asana、Linear、Warp、Ramp、Railway、Higgsfield AI、OpenArt 等。\n【限制】只適用直接付費給 Anthropic 的 API 組織；經 AWS、Google Cloud、Azure 計費，或只有 Claude 訂閱方案者不適用，Claude 方案額度與新創點數也不能用（The Next Web）。請求在平台的組織執行，客戶自己的 IP 白名單、加密金鑰、資料保留（如零保留、HIPAA）設定不會套用。",
+   "links": [
+    [
+     "Anthropic 官方說明",
+     "https://claude.com/resources/articles/linked-billing-on-claude-platform"
+    ],
+    [
+     "Claude Platform 版本紀錄",
+     "https://platform.claude.com/docs/en/release-notes/overview"
+    ],
+    [
+     "The Next Web",
+     "https://thenextweb.com/news/anthropic-linked-billing-claude-api-customers-pay"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "API key",
+     "讓程式代表你呼叫 AI 服務並計費的密碼，外流就可能被盜用"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "2 則：Grok Bot 代打 90 分鐘客服電話、官方分享用 5 個 Bot 組會計團隊的做法。",
+   "updates": [
+    {
+     "title": "@congressdj：Grok Bot 替他和 AT&T 客服通話 90 分鐘處理複雜問題",
+     "short_title": "Grok Bot 代打 90 分鐘客服電話",
+     "date": "2026-11-17",
+     "one": "學到：麻煩的客服問題可以整個交給 Grok Bot 打電話處理；作者說它講到 90 分鐘（Bot 通話時間上限），AT&T 回電時客服很驚訝自己一直在跟 Bot 談。",
+     "summary": "@congressdj 台北 11/17 清晨貼文（約 270 萬次曝光，Musk 引用）：作者說 Grok Bot 跟 AT&T 通話 90 分鐘處理一個複雜問題，並提到 90 分鐘是 Grok Bot 通話的時間上限；之後 AT&T 回電，客服表示很驚訝自己跟 Bot 談了 90 分鐘。貼文沒有說明問題最後是否解決與使用的指示內容，屬作者說法。",
+     "links": [
+      [
+       "X 貼文",
+       "https://x.com/congressdj/status/2122454524468056263"
+      ],
+      [
+       "Musk 引用貼文",
+       "https://x.com/elonmusk/status/2122560774073901341"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "通話上限",
+       "Grok Bot 打電話單次最長 90 分鐘（作者說法）"
+      ]
+     ]
+    },
+    {
+     "title": "SpaceXSI 官方：用 5 個 Team Bot 組成會計團隊，每個 Bot 負責一條完整流程",
+     "short_title": "官方示範：5 個 Bot 組會計團隊",
+     "date": "2026-11-16",
+     "one": "學到：與其叫一個 Bot 什麼都做，不如每個 Bot 只負責一條定義清楚的流程，並先把流程做成有權限控管的工具，Bot 才會可靠。",
+     "summary": "官方文章〈Building an accounting team with Grok Bot〉：五個 Team Bot 分別負責開通／關閉客戶帳號、核對合約開發票、回答帳務問題、套用收款與追查差額、催收與退款協調，只有需要判斷或核准時才找人。作者說 Bot 需要像新員工一樣的文件、上手訓練與持續指導；流程不清楚、靠口耳相傳的工作交給 Bot 也解決不了，所以他們先用 Grok Build 做出有介面與權限控管、留有稽核紀錄的內部工具，再讓 Bot 操作。文章沒有公布量化成效。",
+     "links": [
+      [
+       "SpaceXSI 官方文章",
+       "https://x.ai/news/grok-bot-accounting"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-accounting-bots.webp",
+      "alt": "五個 Bot 分工的會計流程圖",
+      "credit": "SpaceXSI",
+      "credit_url": "https://x.ai/news/grok-bot-accounting"
+     }
+    }
+   ]
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-flux1-t2i",
+   "title": "ComfyUI 跑 Flux.1 文生圖：Dev、Schnell、FP8 三種版本怎麼選",
+   "learn": "學會依顯存選 Flux.1 版本、把四個模型檔放對資料夾，用官方工作流跑出第一張 Flux 圖。",
+   "level": "入門",
+   "vram": "官方頁：完整版 t5xxl_fp16 建議顯存 32GB 以上；顯存不足改用 t5xxl_fp8 或 FP8 Checkpoint 版（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Flux.1",
+     "Black Forest Labs 的 12B 參數開源文生圖模型，Dev 版限非商用，Schnell 版 Apache 2.0、4 步出圖"
+    ],
+    [
+     "FP8",
+     "把模型數字精度壓低以省顯存，畫質略降"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版；從官方頁下載工作流圖片拖進 ComfyUI，或在範本庫搜尋「Flux.1 Dev fp8」「Flux.1 Schnell」。",
+    "完整版需四個檔：clip_l、t5xxl（fp16 或 fp8）放 models/text_encoders，ae 放 models/vae，flux1-dev 或 flux1-schnell 放 models/diffusion_models；flux1-dev 需先在 Hugging Face 同意授權才能下載。",
+    "確認 DualCLIPLoader 載入 t5xxl 與 clip_l、Load Diffusion Model 載入 Flux 主模型、Load VAE 載入 ae，按 Queue 或 Ctrl+Enter。",
+    "Flux 提示詞遵循度高，官方說不需要負向提示詞；低配機器先用 Schnell（4 步）或只需一個檔的 FP8 Checkpoint 版。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Flux.1 文生圖",
+     "https://docs.comfy.org/tutorials/flux/flux-1-text-to-image"
+    ],
+    [
+     "FLUX.1 [schnell] 模型卡",
+     "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+    ]
+   ]
+  },
+  {
+   "id": "tut-qwen-image-native",
+   "title": "ComfyUI 原生跑 Qwen-Image：中英文字渲染強的 20B 開源文生圖",
+   "learn": "學會用官方範本跑 Qwen-Image，並在原版、8 步加速 LoRA、蒸餾版之間依速度取捨。",
+   "level": "中階",
+   "vram": "官方實測 RTX 4090D 24GB：三種 fp8 版本顯存使用率約 86%（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "MMDiT",
+     "多模態擴散 Transformer，把文字和影像放在同一個網路裡處理的生圖架構"
+    ],
+    [
+     "蒸餾版",
+     "用大模型教出來、步數更少速度更快的版本"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，在範本庫搜尋「Qwen-Image」載入工作流（找不到代表版本太舊）。",
+    "依官方頁下載模型檔（Comfy-Org 的 Qwen-Image_ComfyUI 倉庫），放進對應的 models 資料夾。",
+    "選版本：官方 4090D 實測第二次生成約 71 秒（原版 fp8）、34 秒（加 lightx2v 8 步 LoRA）、36 秒（蒸餾版）。",
+    "提示詞可直接寫要出現在畫面上的中英文字，這是 Qwen-Image 的強項；要控制構圖可再看官方頁列出的 ControlNet／union LoRA 選項。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Qwen-Image",
+     "https://docs.comfy.org/tutorials/image/qwen/qwen-image"
+    ],
+    [
+     "Comfy-Org Qwen-Image 模型檔",
+     "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI"
+    ],
+    [
+     "Qwen-Image GitHub",
+     "https://github.com/QwenLM/Qwen-Image"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "OpenAI 官方頁擋直接抓取，GPT-6.2 內容依官方頁（WebFetch 轉讀）與 Artificial Analysis 整理；第三方實測樣本小，屬初步結果。",
+  "BMW Designworks 一則依職缺頁內容整理，屬徵才條件而非成效報告。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-18",
+  "compared_to": "2026-11-17",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-18",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "unchanged",
+    "compared_to": "2026-11-17",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1500,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-18",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-17",
+    "status": "changed",
+    "compared_to": "2026-11-17",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1226→1227 (+1)",
+      "NEW #4 MAI-Image-2.7 (Microsoft AI) 1214",
+      "GPT Image 2.5 Flare (max): #4→#5 (-1 名), 1210→1210 (+0)",
+      "GPT Image 2 (high): #5→#6 (-1 名), 1191→1192 (+1)",
+      "NEW #7 Kling Image 4.0 (Kuaishou) 1180",
+      "Nano Banana 2.1: #7→#8 (-1 名), 1176→1176 (+0)",
+      "MAI-Image-2.6: #8→#9 (-1 名), 1169→1168 (-1)",
+      "Grok Imagine Image 2.0: #9→#10 (-1 名), 1168→1167 (-1)",
+      "OUT Kling Image 4.0 (preview) (前次 #6 1180)",
+      "OUT Canva Craft (前次 #10 1158)"
+     ],
+     "dropped": [
+      {
+       "model": "Kling Image 4.0 (preview)",
+       "org": "Kuaishou",
+       "rank": 6,
+       "score": 1180
+      },
+      {
+       "model": "Canva Craft",
+       "org": "Canva",
+       "rank": 10,
+       "score": 1158
+      }
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "analysis": "Microsoft AI 的 MAI-Image-2.7 以 1214 分新進第 4 名，是本次最大變動；前 3 名仍是 OpenAI 的 GPT Image 2.6 Sunburst（1261）、2.5 Sunburst（1229）、2.6 Flare（1227），沒有變化。快手 Kling Image 4.0 拿掉「preview」標示、以 1180 分列第 7。原第 5 到第 9 名因 MAI-Image-2.7 擠入各退一名，Canva Craft（前次第 10、1158）跌出前 10。分數本身變動都在 ±1 以內，屬名單調整而非分數大跳。",
+    "analysis_short": "Microsoft AI 的 MAI-Image-2.7 以 1214 分新進第 4；Kling Image 4.0 拿掉 preview 標示列第 7，Canva Craft 跌出前 10，前 3 名不變。"
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-18",
+    "metric": "Elo",
+    "status": "changed",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-17",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1175→1174 (-1)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1161→1159 (-2)",
+      "Dreamina Seedance 2.5: #4→#4 (0 名), 1155→1156 (+1)",
+      "NEW #5 Hyperflow H3 (Video Rebirth) 1154",
+      "FLUX 3 Max: #5→#6 (-1 名), 1155→1152 (-3)",
+      "Gemini Omni Flash 1.2: #6→#7 (-1 名), 1154→1151 (-3)",
+      "HeyGen Video 1: #7→#8 (-1 名), 1153→1149 (-4)",
+      "MiniMax H3 Max: #8→#9 (-1 名), 1147→1143 (-4)",
+      "FLUX 3: #10→#10 (0 名), 1138→1136 (-2)",
+      "OUT SkyReels V4 (前次 #9 1138)"
+     ],
+     "dropped": [
+      {
+       "model": "SkyReels V4",
+       "org": "Skywork AI",
+       "rank": 9,
+       "score": 1138
+      }
+     ]
+    },
+    "dropped": [
+     {
+      "model": "SkyReels V4",
+      "org": "Skywork AI",
+      "rank": 9,
+      "score": 1138
+     }
+    ],
+    "analysis": "Video Rebirth 的 Hyperflow H3 以 1154 分新進第 5 名，SkyReels V4（前次第 9、1138）跌出前 10。前 4 名不變：Wan 3.0（1174）仍居第 1，Utopai X、MiniMax H3（768p）、Dreamina Seedance 2.5 緊跟在後。FLUX 3 Max、Gemini Omni Flash 1.2、HeyGen Video 1、MiniMax H3 Max 各退一名，分數小幅下滑 3–4 分，第 2 到第 9 名差距只有 25 分，排名仍可能常變動。",
+    "analysis_short": "Hyperflow H3 以 1154 分新進第 5，SkyReels V4 跌出前 10；Wan 3.0 續居第 1，前 4 名不變。"
+   }
+  ]
+ }
+}
