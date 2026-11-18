@@ -897,5 +897,29 @@
   "angle": "MG4 Urban：Dynamic Red 配黑車頂",
   "url": "https://www.expressandstar.com/lifestyle/cars/mg-reveals-limited-run-mg4-urban-design-edition-9353687",
   "image": "cmf-paint-mg4-dynamic-red.jpg"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "car",
+  "car_key": "car:mhero-m817-ultimate-cabin",
+  "angle": "猛士 M817 Ultimate：汉白赭與帕因棕座艙",
+  "url": "https://www.autohome.com.cn/news/202611/1318293.html",
+  "image": "cmf-car-m817-ultimate.jpg"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "material",
+  "car_key": "material:mhero-m817-ultimate-trim",
+  "angle": "M817 Ultimate：子彈穿躍飾板與金屬喇叭罩",
+  "url": "https://www.autohome.com.cn/news/202611/1318293.html",
+  "image": "cmf-mat-m817-ultimate-trim.jpg"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "paint",
+  "car_key": "paint:mustang-gtd-1901-royal-red",
+  "angle": "Mustang GTD 1901：Royal Red 配 Mahogany Red 皮革",
+  "url": "https://www.hagerty.com/media/news/new-mustang-gtd-1901-is-a-nod-to-henry-fords-sweepstakes-race-car/",
+  "image": "cmf-paint-mustang-gtd-1901.jpg"
  }
 ]

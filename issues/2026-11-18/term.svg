@@ -1,0 +1,28 @@
+<svg class="diagram" viewBox="0 0 520 340" width="100%" role="img" aria-label="鴨尾示意：跑車側面，車尾行李廂蓋末端向上翹起，像鴨子尾巴；箭頭表示氣流在翹起處分離" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- low GT body side -->
+    <path d="M40 212 Q44 196 76 190 L150 178 Q196 140 250 132 Q300 128 340 140 Q380 152 412 170 L446 176 L452 210 Q452 226 440 230 L418 230 A36 36 0 0 0 346 230 L170 230 A36 36 0 0 0 98 230 L58 230 Q40 228 40 216 Z"/>
+    <!-- greenhouse -->
+    <path d="M176 176 Q206 146 250 140 Q296 138 330 150 L360 172 Z" stroke-width="1.6"/>
+    <path d="M268 140 L272 174" stroke-width="1.4"/>
+    <!-- wheels -->
+    <circle cx="134" cy="232" r="32"/><circle cx="134" cy="232" r="14" stroke-width="1.6"/>
+    <circle cx="382" cy="232" r="32"/><circle cx="382" cy="232" r="14" stroke-width="1.6"/>
+    <!-- headlight -->
+    <path d="M48 200 L84 194 L82 204 L48 208 Z"/>
+    <path d="M30 270 L490 270" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <!-- ducktail accent -->
+  <g fill="#f08a5d" fill-opacity="0.85" stroke="#f08a5d" stroke-width="2" stroke-linejoin="round">
+    <path d="M412 170 L446 176 L458 158 L440 160 Z"/>
+  </g>
+  <!-- airflow -->
+  <g fill="none" stroke="#f08a5d" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="6 5">
+    <path d="M150 120 Q260 100 360 128 Q420 144 458 150 L500 140"/>
+    <path d="M490 136 L500 140 L492 148"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="currentColor">
+    <text x="372" y="122">鴨尾：車尾上翹</text>
+    <text x="40" y="306">氣流在翹起處離開車身，減少車尾升力</text>
+  </g>
+</svg>

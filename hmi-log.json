@@ -172,5 +172,11 @@
   "key": "hmi-android-auto-18-2-light-mode",
   "url": "https://9to5google.com/2026/11/13/android-auto-18-2-update-beta-release/",
   "image": "hmi-android-auto-18-2.jpg"
+ },
+ {
+  "date": "2026-11-18",
+  "key": "hmi-tesla-2026-44-1-service",
+  "url": "https://www.notateslaapp.com/news/5028/tesla-update-2026441-brings-redesigned-service-menu-and-improved-charging-views",
+  "image": "hmi-tesla-2026-44-1-service.jpg"
  }
 ]
