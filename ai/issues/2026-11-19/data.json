@@ -1,0 +1,602 @@
+{
+ "date": "2026-11-19",
+ "weekday": "週四",
+ "issue_no": 43,
+ "lede": "Google 推出介於 Carbon 與 Hydrogen 之間的 Gemini 4 Neon，Genie 4 開放 AI Ultra 試玩；OpenAI 公布模型改寫晶片電路、替 AMD GPU 設計省下最多 14% 的成果。三張榜單今天都沒有重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "gemini-4-neon",
+   "org": "Google",
+   "tag": "新模型",
+   "date": "2026-11-19",
+   "title": "Gemini 4 Neon 上線：定位在 Carbon 與 Hydrogen 之間，AA 智力指數第 3、API 每百萬 token 輸入 3／輸出 15 美元",
+   "short_title": "Gemini 4 Neon 推出",
+   "one": "Google 新的中階旗艦模型：比 Carbon 便宜、比 Hydrogen 聰明，AI Pro／Ultra 用戶在 Gemini App 下拉選單選「Deeper analysis」就能用。",
+   "orig": "Gemini 4 Neon is rolling out now. Sitting between Carbon and Hydrogen, it brings frontier intelligence and fast task completion for complex software engineering, knowledge work, and science.",
+   "summary": "【官方說法】Neon 在 Artificial Analysis Intelligence Index（xhigh 思考等級）拿 61 分排第 3，Vals Index 第 2，Arena 新的 Agent Arena Index 1336 分排第 2；Zapier AutomationBench（56.3%）與 Vending-Bench 2 第 1；預設 high 等級每項任務成本比 Carbon 低 32%；內部 Antigravity 測試的捏造率是 Google 目前最低。\n【價格與限制】API 每百萬 token 輸入 $3、快取輸入 $0.15、輸出 $15，1M 上下文，四段思考等級（low／medium／high／xhigh）；9to5Google 指出價格是 Hydrogen 的兩倍。\n【哪裡能用】Gemini API（AI Studio）、Gemini for business、Antigravity（AI Pro／Ultra，含 CLI 與 IDE 擴充，Orchestrator 可搭配 Hydrogen）、Gemini App（AI Pro／Ultra，Chat 與 Tasks 都能選）。\n【第三方實測（初步、樣本小）】Vals AI：Vals Index 70.87%（第 2／42），每次測試約 $7.40，金融與法律指數第 1。Plotly 資料分析測驗：43 題答對 42 題、整套成本 $17.03，與 Carbon 同分，但比滿分的 Hydrogen（$6.36）貴又慢，屬「不在性價比前緣」。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    ],
+    [
+     "Vals AI 評測",
+     "https://www.vals.ai/models/google_gemini-4-neon"
+    ],
+    [
+     "Plotly 資料分析實測",
+     "https://plotly.com/blog/gemini-4-neon-plotly-data-analytics-bench/"
+    ],
+    [
+     "9to5Google 報導",
+     "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+    ],
+    [
+     "@GeminiApp 貼文",
+     "https://x.com/GeminiApp/status/2123168704662012079"
+    ]
+   ],
+   "image": {
+    "file": "neon.webp",
+    "alt": "Gemini 4 Neon 官方主視覺",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+   },
+   "gloss": [
+    [
+     "思考等級",
+     "模型回答前「想多久」的設定，越高越準但越慢越貴"
+    ]
+   ]
+  },
+  {
+   "id": "genie-4-project-genie",
+   "org": "Google DeepMind",
+   "tag": "平台更新",
+   "date": "2026-11-19",
+   "title": "Genie 4 開放 AI Ultra 用戶在 Project Genie 使用：邊逛邊打字改世界、首度有即時原生音效",
+   "short_title": "Genie 4 開放試玩",
+   "one": "用一句話生成可以走進去逛的 3D 世界，逛到一半還能打字改天氣、加角色；目前只開給 AI Ultra，Pro 要排候補。",
+   "orig": "Genie 4 is now available in Project Genie. It brings native audio, real-time editing, and a new agent to help you create interactive, virtual worlds.",
+   "summary": "【比上一版進步在哪（官方說法）】Genie 4 是 Google 最擬真的世界模型，可以在探索中途輸入新提示即時改環境，並首度搭配會隨場景變化的原生音效（環境音到角色對白）。同時新增 Project Genie 代理（用對話建世界）與社群作品庫（可探索、改作、發布）。\n【Genie 3 也更新】單次可逛 3 分鐘（原 60 秒）、可串接多個世界、可用 360 度全景圖當起點。\n【限制】只開放給符合資格的 Google AI Ultra 用戶，AI Pro 可加入候補；MakeUseOf 引 Google One 方案頁指出限 Ultra 20x 方案（美國每月 199.99 美元）。官方說兩代仍是研究系統，長時間場景細節會飄移、文字與複雜物理仍難；所有影音都有 SynthID 浮水印。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    ],
+    [
+     "The Next Web 報導",
+     "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
+    ],
+    [
+     "@GoogleDeepMind 貼文",
+     "https://x.com/GoogleDeepMind/status/2123117733709586849"
+    ]
+   ],
+   "image": {
+    "file": "genie4.webp",
+    "alt": "Project Genie 官方縮圖",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+   },
+   "gloss": [
+    [
+     "世界模型",
+     "能即時生成並模擬一個可互動環境的 AI 模型，像會自己長出來的遊戲場景"
+    ]
+   ]
+  },
+  {
+   "id": "openai-chip-design-amd",
+   "org": "OpenAI",
+   "tag": "AI 輔助設計",
+   "date": "2026-11-19",
+   "title": "OpenAI 公布用模型改寫晶片電路：AMD 旗艦 GPU IP 最多改善 14% PPA，部分改動已送去製造",
+   "short_title": "OpenAI 模型幫 AMD 設計晶片",
+   "one": "AI 不只寫程式，也能改寫晶片的電路描述並自己用 EDA 工具驗證；AMD 已把部分改動放進送廠的設計，屬「AI 進入硬體設計流程」的實例。",
+   "orig": "Working with @AMD, our models identified up to 14% PPA improvement on flagship GPU IP in less than five months—building on designs AMD's engineers had already spent years optimizing.",
+   "summary": "【誰在做、怎麼做】OpenAI 與 AMD 合作，讓模型改寫描述電路的 SystemVerilog RTL，並用 Synopsys 工具驗證每次改寫行為不變、評估功耗／效能／面積（PPA）取捨；工程師保留決定權，AMD 把部分改動放進最近送廠的設計，其他放入未來版本的設計檔。\n【成效（官方說法）】AMD 旗艦 GPU IP 相對高度優化的基準最多改善 14%，約等於一年的進度在 5 個月內完成；AMD 也在下一代旗艦 CPU 關鍵模組驗證到個位數百分比的改善。OpenAI 自家推論晶片 Jalapeño 從 2025 年初用 GPT-4o 協助設計，估計向量單元標準元件面積減約 13%、矩陣單元約 10%，已在晶片點亮時驗證。\n【限制】在 PicoRV32、Ibex 兩個開源 RISC-V 核心的評測（9,881 次）中 GPT-6.2 Astra 平均最高，但 OpenAI 自己也說「從規格重新設計」的題目可能省略原核心功能，仍需加上時序等檢查才更接近量產情境。OpenAI 官方頁擋直接抓取，內容依官方頁摘要與 The Decoder 轉載整理。",
+   "links": [
+    [
+     "OpenAI 官方文章",
+     "https://openai.com/index/advancing-chip-design-with-our-models/"
+    ],
+    [
+     "The Decoder 報導",
+     "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/"
+    ],
+    [
+     "@OpenAI 貼文",
+     "https://x.com/OpenAI/status/2123100386638877054"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "PPA",
+     "晶片設計三大指標：功耗（Power）、效能（Performance）、面積（Area）"
+    ],
+    [
+     "RTL",
+     "用程式碼描述晶片電路行為的設計檔，之後再合成為實際電路"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "1 則：Grok Bot 團隊 Lauren Tan 的〈Automate Anything with Grok Bot〉自動化方法。",
+   "updates": [
+    {
+     "title": "Lauren Tan（Grok Bot 團隊）〈Automate Anything with Grok Bot〉：先定目標、再讓 Bot 訪談你補流程與判斷規則",
+     "short_title": "官方團隊教你把任何工作自動化",
+     "date": "2026-11-19",
+     "one": "學到：先跟 Bot 講「要達成的成果」而不是步驟，用語音把流程、例外與完成標準一次講完，請 Bot 用自己的話複述確認，再用 Routine 排程跑；作者說這樣 Bot 才能真的接手整份工作。",
+     "summary": "@poteto（Grok Bot 團隊、SpaceXSI）11/19 清晨（台北）發表 X 文章，Musk 引用為「把 Grok Bot 當成很聰明的員工」，約 65 萬次曝光、近萬次收藏。依日本 Lab AI 的整理：1) 自動化＝目標＋流程，常見錯誤是把填表、寄信等步驟當成目標；目標說不清時讓 Bot 一次問一題訪談你。2) 用語音把平常做法、注意事項、用到的工具、資料來源和回饋來源一次講完，請 Bot 複述並建議更有效率的做法。3) 明確教它隱性判斷：資料衝突信哪邊、完成的定義、什麼情況要找人。4) 用 Routine 設定排程或事件觸發，送出、購買、刪除、公開等動作保留人工核准。作者同時推出 Dr Eggbot v2 範本，會訪談你後幫你建立單一職責的 Bot。以上為作者的方法說明，沒有量化成效。",
+     "links": [
+      [
+       "X 文章貼文",
+       "https://x.com/poteto/status/2123159537016533493"
+      ],
+      [
+       "Musk 引用貼文",
+       "https://x.com/elonmusk/status/2123161902683746640"
+      ],
+      [
+       "Lab AI 日文整理",
+       "https://lab.main.jp/ai/posts/grok-bot-automation-goal-process-feedback-eggbot/"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "Routine",
+       "Grok Bot 的排程／事件觸發任務，時間到或事件發生就自動執行"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-wan22-video",
+   "title": "ComfyUI 跑 Wan2.2 影片生成：8GB 顯存先從 5B 混合版開始",
+   "learn": "學會分辨 Wan2.2 的 5B 混合版與 14B 文生／圖生影片版，用官方原生工作流產出第一段影片。",
+   "level": "入門",
+   "vram": "官方頁：5B 版靠 ComfyUI 原生卸載可在 8GB 顯存執行；14B 版未標示，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "MoE",
+     "混合專家架構：Wan2.2 14B 版分成高雜訊、低雜訊兩個專家模型，依去噪階段輪流上場"
+    ],
+    [
+     "TI2V",
+     "Text/Image to Video，同一個模型能文生影片也能圖生影片"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版（官方說部分新節點還沒進穩定版，需最新開發版）。",
+    "在範本庫找 Wan2.2 5B（TI2V）工作流，或從官方頁拖入工作流圖；依頁面清單把模型、文字編碼器、VAE 下載到對應資料夾。",
+    "顯存小先用 5B 版做文生或圖生影片；14B 版分 T2V、I2V、首尾幀（FLF2V）三種工作流，需要分別載入高雜訊與低雜訊模型。",
+    "首尾幀工作流預設解析度偏小以免低顯存爆掉，顯存夠再調到約 720P；寫好提示詞後按 Run。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Wan2.2 影片生成",
+     "https://docs.comfy.org/tutorials/video/wan/wan2_2"
+    ]
+   ]
+  },
+  {
+   "id": "tut-multiple-loras",
+   "title": "ComfyUI 串接多個 LoRA：兩種風格混在一起",
+   "learn": "學會把兩個 Load LoRA 節點串起來同時套用，並用強度調整每個 LoRA 的影響。",
+   "level": "入門",
+   "vram": "官方頁未標示；範例用 SD1.5 系 dreamshaper_8，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "strength_model",
+     "Load LoRA 節點的強度參數，數字越大這個 LoRA 的風格越明顯"
+    ]
+   ],
+   "steps": [
+    "下載 dreamshaper_8.safetensors 放 models/checkpoints，blindbox_V1Mix 與 MoXinV1 兩個 LoRA 放 models/loras。",
+    "把官方頁的工作流圖片拖進 ComfyUI（或 Workflows → Open）。",
+    "確認 Load Checkpoint 載入 dreamshaper_8、第一個 Load LoRA 載入 blindbox_V1Mix、第二個載入 MoXinV1，按 Queue 或 Ctrl+Enter。",
+    "調兩個 Load LoRA 的 strength_model 比較混合效果，再換成自己的 LoRA 組合。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：多個 LoRA",
+     "https://docs.comfy.org/tutorials/basic/multiple-loras"
+    ],
+    [
+     "ComfyUI 官方：LoRA 入門",
+     "https://docs.comfy.org/tutorials/basic/lora"
+    ]
+   ]
+  }
+ ],
+ "caveats": [
+  "OpenAI 官方頁擋直接抓取，晶片設計一則依官方頁摘要與 The Decoder 整理；Gemini 4 Neon 第三方實測樣本小，屬初步結果。",
+  "Grok Bot 教學一則的 X 文章全文無法直接讀取，依作者貼文與 Lab AI 的整理撰寫。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-19",
+  "compared_to": "2026-11-18",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-11",
+    "fetched": "2026-11-19",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "unchanged",
+    "compared_to": "2026-11-18",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10,
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 4,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1507,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "delta": -2
+     },
+     {
+      "rank": 7,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "delta": -1
+     },
+     {
+      "rank": 8,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "new": true
+     },
+     {
+      "rank": 9,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "score": 1500,
+      "ci": 4,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-19",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-19",
+    "status": "unchanged",
+    "compared_to": "2026-11-18",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-19",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-19",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-18",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   }
+  ]
+ }
+}
