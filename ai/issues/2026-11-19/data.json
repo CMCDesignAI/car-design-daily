@@ -192,7 +192,47 @@
    ]
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-aisd-gpt62-astra",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-18",
+   "title": "GPT-6.2 Astra 中檔推理 8 題實測：Codex 做遊戲、戶型圖變 3D 住宅、10 分鐘做安卓 App",
+   "short_title": "GPT-6.2 Astra 八題實測",
+   "orig": "🚀深度实测GPT-6.2 Astra模型，综合表现出乎意料！浏览器自动化、Codex中测试Godot 4游戏开发、Unity引擎建模、安卓原生开发、动画视频生成、前端综合能力！能超越Fable5.2吗",
+   "one": "想知道新模型實際能做出什麼：作者用中檔推理跑 8 道開發題，連成功和翻車的地方都展示出來，可當選模型的參考。",
+   "points": [
+    "作者說 GPT-6.2 Astra 在 Codex 極速模式下 6 分 41 秒做出恐龍沙盒遊戲：能打翼龍、手雷能炸坑，但用加特林挖方塊出問題，地圖也有盡頭。",
+    "同為中檔推理：在瀏覽器畫板用畫筆畫出斯巴達戰士；給一張戶型圖就生成可走進去看的雙層住宅；10 分鐘做出能翻卡、做聽力題的安卓背單字 App，作者實測發音音量偏小。",
+    "其他題目包含童話風車場景、《清明上河圖》建模細節放大、《極光》飛船內外探訪；片尾用同一提示詞與 Claude Fable 5.2 對照智子折疊動畫，作者指出 Astra 版遺漏了折疊過程。"
+   ],
+   "url": "https://www.youtube.com/watch?v=HMA3dYdmSLo",
+   "image": {
+    "file": "col-aisd-gpt62-astra.webp",
+    "alt": "GPT-6.2 Astra 深度實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=HMA3dYdmSLo"
+   },
+   "links": [
+    [
+     "OpenAI Codex 官方頁",
+     "https://developers.openai.com/codex"
+    ],
+    [
+     "Artificial Analysis：GPT-6.2 評測",
+     "https://artificialanalysis.ai/articles/openai-has-the-2-model-in-the-intelligence-index-with-the-release-of-gpt-6-2-astra-and-gpt-6-2-sol"
+    ]
+   ],
+   "gloss": [
+    [
+     "Codex",
+     "OpenAI 的程式代理工具，可以讓模型直接寫、跑、改整個專案"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-wan22-video",
