@@ -3846,7 +3846,7 @@
       "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/cs_ghia_caddy.jpg",
       "excerpt": "At the Galpin Car Show this past weekend, among the many incredible cars there, there was one that really stuck with me: the one up top there, a Cadillac re-bodied by Ghia and owned by actress Rita Hayworth. The car was a gift from her then husband, Prince Aly Kahn, who got her the car because he’d been getting his royal rocks off with other women, and Rita had enough of that. So, in a desperate attempt to win her back, the Prince bought the car right off the stand at the 1953 Paris Auto Salon. It’s such a beautiful car, the gambit would probably have worked on me. Though, to be fair, I’m prob",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "craft": 9,
       "craft_news": 3,
       "craft_ok": true,
@@ -5534,6 +5534,21 @@
       "added": "2026-11-18",
       "used": false,
       "language": "ja"
+    },
+    "cdn-2770522": {
+      "id": "cdn-2770522",
+      "source": "Car Design News",
+      "credit": "Car Design News",
+      "paywalled": true,
+      "kind": "interview",
+      "column": "Interview",
+      "title_en": "'The visibility that came with winning shaped where I am today' – The past winners of the CDN People Awards sketch battle",
+      "date": "2026-11-18",
+      "url": "https://www.cardesignnews.com/designers/where-are-they-now-the-past-winners-of-the-cdn-people-awards-sketch-battle/2770522",
+      "image": "https://image.cardesignnews.com/2770555.jpg?imageId=2770555&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "excerpt": "CDN caught up with the previous winners of the sketch battle to see where they are now and how winning the sketch battle boosted their careers",
+      "added": "2026-11-19",
+      "used": false
     }
   }
 }

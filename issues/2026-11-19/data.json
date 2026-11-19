@@ -1,0 +1,813 @@
+{
+ "date": "2026-11-19",
+ "weekday": "四",
+ "issue_no": 43,
+ "lede": "Volkswagen T-Roc R 全球首發，以 48V 輕油電推上 333 PS；VinFast VF 6 小改款換上極簡座艙。設計專欄回看 1950 年代 Ghia 雙門車，如何用同一套造型語言串起 Cadillac、Chrysler 到 Karmann-Ghia。",
+ "moodboards": [],
+ "design_news": [
+  {
+   "id": "vw-troc-r",
+   "tag": "全球首發 · 德國",
+   "date": "2026-11-18",
+   "brand": "Volkswagen",
+   "title": "Volkswagen T-Roc R 全球首發：333 PS 輕油電性能休旅",
+   "orig": "Born on the racetrack: Volkswagen presents the T-Roc R with 333 PS",
+   "summary": "第二代 T-Roc 推出一年後，旗艦性能版 T-Roc R 全球首發。新開發的 EA888 evo5 2.0 渦輪首度在 R 車型加入 48V 輕油電，輸出 245 kW（333 PS）、0–100 km/h 5 秒，標配 4MOTION 與扭力分配後差；德國售價 59,995 歐元起，預計 2027 年初上市。",
+   "analysis": [
+    [
+     "R 專屬外觀",
+     "前保桿 R 設計元素、專屬擴散器與四出排氣，外掛件標配亮黑。"
+    ],
+    [
+     "輪圈與煞車",
+     "新 19 吋 Zandvoort 輪圈，可選 20 吋 Warmenau 鍛造圈；藍色卡鉗。"
+    ],
+    [
+     "專屬色",
+     "Lapiz Blue 金屬藍為 R 車型專屬，除 Grenadilla 黑外都可配黑色車頂。"
+    ],
+    [
+     "座艙",
+     "R 專屬花紋運動座椅、藍色 R 標與藍色對比縫線，數位儀表有 R 專屬畫面。"
+    ]
+   ],
+   "sources": [
+    [
+     "Volkswagen Newsroom（11/18）",
+     "https://www.volkswagen-newsroom.com/en/press-releases/born-on-the-racetrack-volkswagen-presents-the-t-roc-r-with-333-ps-20870"
+    ],
+    [
+     "Autocar（11/18）",
+     "https://www.autocar.co.uk/car-news/new-cars/volkswagen-t-roc-r-returns-325bhp-hot-suv-%E2%80%93-hybrid-power"
+    ]
+   ],
+   "image": {
+    "file": "news-vw-troc-r.webp",
+    "alt": "Lapiz Blue 藍色 Volkswagen T-Roc R 前側方，山景背景",
+    "credit": "Volkswagen Newsroom",
+    "credit_url": "https://www.volkswagen-newsroom.com/en/press-releases/born-on-the-racetrack-volkswagen-presents-the-t-roc-r-with-333-ps-20870"
+   },
+   "more_images": [
+    {
+     "file": "news-vw-troc-r-2.jpg",
+     "alt": "藍色 T-Roc R 停在水面倒影上的側後方",
+     "credit": "Volkswagen Newsroom",
+     "credit_url": "https://www.volkswagen-newsroom.com/en/press-releases/born-on-the-racetrack-volkswagen-presents-the-t-roc-r-with-333-ps-20870"
+    },
+    {
+     "file": "news-vw-troc-r-3.jpg",
+     "alt": "藍色與灰色兩台 T-Roc R 並排",
+     "credit": "Volkswagen Newsroom",
+     "credit_url": "https://www.volkswagen-newsroom.com/en/press-releases/born-on-the-racetrack-volkswagen-presents-the-t-roc-r-with-333-ps-20870"
+    }
+   ]
+  },
+  {
+   "id": "vinfast-vf6-facelift",
+   "tag": "小改款 · 越南",
+   "date": "2026-11-18",
+   "brand": "VinFast",
+   "title": "VinFast VF 6 小改款：箭頭形頭燈與全新極簡座艙",
+   "orig": "VinFast unveils new VF 5 and VF 6 with refreshed design, improved range",
+   "summary": "VinFast 在越南推出 VF 6 小改款（與 VF 5 同步），外觀微調、內裝大改，換上 60 kWh 電池、NEDC 續航最高 510 km，預計 2027 年 2 月農曆新年後交車，最快 2027 年第二季外銷歐洲。",
+   "analysis": [
+    [
+     "車頭",
+     "保桿角落凹槽縮小，頭燈殼改成更細的箭頭形，前臉更乾淨。"
+    ],
+    [
+     "側面",
+     "改用半隱藏式門把，取消下車門灰色塑膠護板，19 吋輪圈加大面積空力蓋。"
+    ],
+    [
+     "車尾",
+     "下方燈組更靠近保桿兩端，拉寬視覺。"
+    ],
+    [
+     "座艙",
+     "更薄的儀表板、雙輻方向盤，中控螢幕改為正對座艙的懸浮式，新增數位儀表。"
+    ]
+   ],
+   "sources": [
+    [
+     "electrive（11/18）",
+     "https://www.electrive.com/2026/11/18/vinfast-unveils-new-vf-5-and-vf-6-with-refreshed-design-improved-range/"
+    ]
+   ],
+   "image": {
+    "file": "news-vinfast-vf6-facelift.webp",
+    "alt": "紅色 VinFast VF 6 小改款前側方",
+    "credit": "VinFast (via electrive)",
+    "credit_url": "https://www.electrive.com/2026/11/18/vinfast-unveils-new-vf-5-and-vf-6-with-refreshed-design-improved-range/"
+   },
+   "more_images": [
+    {
+     "file": "news-vinfast-vf6-facelift-2.jpg",
+     "alt": "藍色 VF 6 小改款側後方，濕滑湖邊道路",
+     "credit": "VinFast (via electrive)",
+     "credit_url": "https://www.electrive.com/2026/11/18/vinfast-unveils-new-vf-5-and-vf-6-with-refreshed-design-improved-range/"
+    },
+    {
+     "file": "news-vinfast-vf6-facelift-3.jpg",
+     "alt": "VF 6 小改款淺色座艙，雙輻方向盤與懸浮中控螢幕",
+     "credit": "VinFast (via electrive)",
+     "credit_url": "https://www.electrive.com/2026/11/18/vinfast-unveils-new-vf-5-and-vf-6-with-refreshed-design-improved-range/"
+    }
+   ]
+  },
+  {
+   "id": "buick-century-family-2027",
+   "tag": "預告 · 中國",
+   "date": "2026-11-18",
+   "brand": "Buick 別克",
+   "title": "別克全新至境世家 11/27 亮相：金標 Avenir 與雙拼色座艙",
+   "orig": "别克全新至境世家将于11月27日亮相 新增2.0T版本",
+   "summary": "別克官宣全新至境世家 MPV 將於 11 月 27 日亮相，外觀、內裝與動力三項升級；工信部資料顯示新增 2.0T 版本（160 kW），推測搭配更大插混電池。",
+   "analysis": [
+    [
+     "品牌標識",
+     "Avenir 標從銀色改為金色，對齊世紀黑金限量版的旗艦定位。"
+    ],
+    [
+     "門把",
+     "由全隱藏改為半隱藏式，搭鍍鉻飾條與下方矩陣星光氛圍燈，斷電仍可機械開啟。"
+    ],
+    [
+     "座椅工藝",
+     "升級三線絎縫，菱格更立體，高接觸區簡化線條提升柔軟觸感。"
+    ],
+    [
+     "門板與配色",
+     "雙拼色內裝；門板同樣三線絎縫加刺繡，新增燈帶與電鍍條。"
+    ]
+   ],
+   "sources": [
+    [
+     "鳳凰網汽車／易車（11/18）",
+     "https://auto.ifeng.com/c/8yACIORQxd9"
+    ],
+    [
+     "IT之家（11/18）",
+     "https://www.ithome.com/1/028/696.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-buick-century-family.webp",
+    "alt": "別克全新至境世家車尾，金色 Avenir 字標與貫穿尾燈",
+    "credit": "別克 (via 鳳凰網汽車)",
+    "credit_url": "https://auto.ifeng.com/c/8yACIORQxd9"
+   },
+   "more_images": [
+    {
+     "file": "news-buick-century-family-2.jpg",
+     "alt": "全新至境世家棕色菱格絎縫座椅與座艙",
+     "credit": "別克 (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8yACIORQxd9"
+    },
+    {
+     "file": "news-buick-century-family-3.jpg",
+     "alt": "全新至境世家座椅側邊 Avenir 標與棕色皮革特寫",
+     "credit": "別克 (via 鳳凰網汽車)",
+     "credit_url": "https://auto.ifeng.com/c/8yACIORQxd9"
+    }
+   ]
+  },
+  {
+   "id": "nissan-primera-ev-ph",
+   "tag": "新車登場 · 菲律賓",
+   "date": "2026-11-18",
+   "brand": "Nissan",
+   "title": "Nissan Primera 復活為純電行政轎車，在菲律賓亮相",
+   "orig": "Nissan unveils Primera pure-electric executive sedan and Navara Pro Plug-in Hybrid pickup",
+   "summary": "Nissan 菲律賓發表純電行政轎車 Primera，讓 1990 年問世的 Primera 車名以純電形式重返；218 PS、58 kWh LFP 電池、續航最高 500 km。同場也發表 Navara Pro 插電油電皮卡。",
+   "analysis": [
+    [
+     "燈號",
+     "全 LED 燈組配序列式方向燈，Nissan 廠徽可發光。"
+    ],
+    [
+     "側面",
+     "無框車門與平貼式門把，維持俐落的轎車側面輪廓。"
+    ],
+    [
+     "比例",
+     "18 吋鋁圈搭配行政轎車比例，造型偏未來感。"
+    ],
+    [
+     "座艙",
+     "前排零重力座椅（按摩、通風、加熱）、15.6 吋中控屏、全景天窗與氛圍燈。"
+    ]
+   ],
+   "sources": [
+    [
+     "2nd Opinion（11/18）",
+     "https://2ndopinion.ph/nissan-unveils-primera-pure-electric-executive-sedan-and-navara-pro-plug-in-hybrid-pickup/"
+    ]
+   ],
+   "image": {
+    "file": "news-nissan-primera-ev.webp",
+    "alt": "淺粉色 Nissan Primera 純電轎車前側方，發表會場",
+    "credit": "Nissan (via 2nd Opinion)",
+    "credit_url": "https://2ndopinion.ph/nissan-unveils-primera-pure-electric-executive-sedan-and-navara-pro-plug-in-hybrid-pickup/"
+   },
+   "more_images": [
+    {
+     "file": "news-nissan-primera-ev-2.jpg",
+     "alt": "Nissan Primera 純電轎車車尾與貫穿式尾燈",
+     "credit": "Nissan (via 2nd Opinion)",
+     "credit_url": "https://2ndopinion.ph/nissan-unveils-primera-pure-electric-executive-sedan-and-navara-pro-plug-in-hybrid-pickup/"
+    }
+   ]
+  },
+  {
+   "id": "toyota-raize-update-jp",
+   "tag": "改款 · 日本",
+   "date": "2026-11-18",
+   "brand": "Toyota",
+   "title": "Toyota Raize 日本改款：新增黑化特仕 Z Powerful",
+   "orig": "Updated Toyota Raize launched in Japan with special edition trim",
+   "summary": "Toyota 在日本推出改款 Raize，標配更新版 Smart Assist 主動安全、倒車鏡頭與方向盤控制鍵，並新增強調「SUV 力量感」的特仕車 Z Powerful，外觀色也加入大地色系。",
+   "analysis": [
+    [
+     "黑化套件",
+     "Z Powerful 換上黑色後視鏡蓋、門把與鯊魚鰭天線。"
+    ],
+    [
+     "輪圈",
+     "汽油版 17 吋黑色四孔造型、油電版五孔造型，用輪圈區分動力。"
+    ],
+    [
+     "經銷商套件",
+     "可加黑色引擎蓋、前角與側門飾板，以及槍灰色前、側、後護板。"
+    ],
+    [
+     "CMF",
+     "全車系換上槍灰色內飾板，外觀色新增大地色系。"
+    ]
+   ],
+   "sources": [
+    [
+     "Autocar Philippines（11/18）",
+     "https://autocar.com.ph/updated-toyota-raize-launched-in-japan-with-special-edition-trim/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-raize-update.webp",
+    "alt": "橄欖綠配黑色車頂的 Toyota Raize Z Powerful 前側方棚拍",
+    "credit": "Toyota (via Autocar Philippines)",
+    "credit_url": "https://autocar.com.ph/updated-toyota-raize-launched-in-japan-with-special-edition-trim/"
+   },
+   "more_images": [
+    {
+     "file": "news-toyota-raize-update-2.jpg",
+     "alt": "綠色 Raize Z Powerful 停在泥土地上，藍天背景",
+     "credit": "Toyota (via Autocar Philippines)",
+     "credit_url": "https://autocar.com.ph/updated-toyota-raize-launched-in-japan-with-special-edition-trim/"
+    }
+   ]
+  },
+  {
+   "id": "mini-cooper-e-racer-editions",
+   "tag": "特別版 · 中國",
+   "date": "2026-11-18",
+   "brand": "MINI",
+   "title": "電動 MINI COOPER 推兩款賽車手特別版：玻璃海綠與班尼迪克黃",
+   "orig": "电动MINI COOPER春日于海/秋日半熟赛车手版上市",
+   "summary": "MINI 在中國推出電動 MINI COOPER「春日于海」「秋日半熟」兩款賽車手特別版，限時價 22.08 萬元，基於 SE 賽車手版本打造，動力維持 160 kW、CLTC 463 km。",
+   "analysis": [
+    [
+     "春日于海",
+     "玻璃海綠車身，搭漸層棋盤格拉花飾條。"
+    ],
+    [
+     "秋日半熟",
+     "班尼迪克黃車身，色調較溫暖復古。"
+    ],
+    [
+     "JCW 套件",
+     "加入 JCW 運動卡鉗、中網、黑色包圍與擾流板。"
+    ],
+    [
+     "比例",
+     "保留經典三門小車比例與圓潤復古輪廓，靠配色區分主題。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（11/18）",
+     "https://www.autohome.com.cn/news/202611/1318423.html"
+    ]
+   ],
+   "image": {
+    "file": "news-mini-cooper-e-racer-editions.webp",
+    "alt": "綠色與黃色兩台電動 MINI COOPER 賽車手特別版停在草地上",
+    "credit": "MINI (via 汽車之家)",
+    "credit_url": "https://www.autohome.com.cn/news/202611/1318423.html"
+   }
+  },
+  {
+   "id": "lepas-aura-design",
+   "tag": "概念車設計 · 中國",
+   "date": "2026-11-18",
+   "brand": "LEPAS",
+   "title": "LEPAS AURA 設計解析：豹形美學與一體式黑色前臉",
+   "orig": "Inside LEPAS AURA: The \"Natural Energy\" Philosophy Behind Its Evolving Design",
+   "summary": "奇瑞旗下 LEPAS 公布首款全球概念車 AURA 的設計說明。首席設計師 Ivan Dulanović 表示，概念車的一體式前臉與豹形日行燈將用在未來量產車。",
+   "analysis": [
+    [
+     "比例",
+     "長軸距、短懸伸與寬輪距，取材豹休息、潛行與奔跑的姿態。"
+    ],
+    [
+     "面處理",
+     "明顯的肩線呼應豹的肌肉張力，流動曲面配瓷器般的亮面質感。"
+    ],
+    [
+     "前臉",
+     "把現款圓形水箱罩與側進氣口合併成一整片黑色面，前螢幕可自訂圖形與動畫。"
+    ],
+    [
+     "配色",
+     "Dawn Pearl、Bacalar Blue、Provence Twilight 三色取材一天中不同時刻的光線。"
+    ]
+   ],
+   "sources": [
+    [
+     "PR Newswire（11/18）",
+     "https://www.prnewswire.com/news-releases/inside-lepas-aura-the-natural-energy-philosophy-behind-its-evolving-design-302943907.html"
+    ]
+   ],
+   "image": {
+    "file": "news-lepas-aura.webp",
+    "alt": "LEPAS AURA 概念車藍色設計草圖與車型演進線稿",
+    "credit": "LEPAS (via PR Newswire)",
+    "credit_url": "https://www.prnewswire.com/news-releases/inside-lepas-aura-the-natural-energy-philosophy-behind-its-evolving-design-302943907.html"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ap-lets-talk-about-the-midcentury-ghia-coupe-look",
+   "source": "The Autopian",
+   "credit": "The Autopian",
+   "kind": "analysis",
+   "column": "Car Design",
+   "date": "2026-10-15",
+   "url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+   "paywalled": false,
+   "orig": "Let’s Talk About The Midcentury Ghia Coupé Look",
+   "design_tag": "造型手法",
+   "title": "Ghia 1950 年代雙門車：從 Ghia-Cadillac 到 Karmann-Ghia 的同一套造型語言",
+   "points": [
+    "小而彎的車窗區把前後側窗合成一塊，往車尾明顯下彎，是整個系列的招牌。",
+    "前葉子板線長長往後滑，後葉子板線從低處猛然上揚，形成圓潤的後輪拱。",
+    "圓潤量體只在葉子板留下像西裝褲摺線的稜線，接近臃腫但不越界。",
+    "同一套語彙在多台車上反覆試驗，最後量產的反而是最平價的 Karmann-Ghia。"
+   ],
+   "image": {
+    "file": "col-ghia-cadillac.jpg",
+    "alt": "1953 年 Ghia 改裝車身的 Cadillac 雙門車，深酒紅色車身與鍍鉻側飾",
+    "credit": "Ghia-Cadillac (via The Autopian)",
+    "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/"
+   },
+   "more_images": [
+    {
+     "file": "col-ghia-fiat8v.jpg",
+     "alt": "Ghia 設計的 Fiat 8V Supersonic 側面，湖水綠車身",
+     "credit": "Fiat (via The Autopian)",
+     "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/"
+    },
+    {
+     "file": "col-ghia-karmann.jpg",
+     "alt": "Volkswagen Karmann-Ghia 側面，奶茶色車身",
+     "credit": "Volkswagen (via The Autopian)",
+     "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/"
+    }
+   ],
+   "sources": [
+    [
+     "The Autopian（10/15）",
+     "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/"
+    ]
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景：一台車引出一整個系列",
+      "p": [
+       "The Autopian 的 Jason Torchinsky 在 Galpin 車展上看到一台由 Ghia 重新打造車身的 Cadillac。這台車由 Petersen 博物館出借，1953 年巴黎車展上被 Aly Khan 王子當場買下，送給女星 Rita Hayworth。",
+       "他由此聯想到 Ghia 在 1950 年代初期的其他作品，特別是替 Chrysler 做的概念車，以及 Volkswagen Karmann-Ghia。把這些車放在一起看，就像同一個設計概念的不同階段：每台都不一樣，卻明顯共用一套美學規則，而最後真正量產的只有一台。"
+      ]
+     },
+     {
+      "h": "造型手法：四個共通特徵",
+      "p": [
+       "車窗區（greenhouse）：小、非常彎，前後側窗合成一個窗形，往車尾大幅下彎。",
+       "設計語彙：以圓潤量體為主，幾乎沒有銳角，只在葉子板留下像西裝褲摺線般的稜線；有些量體接近臃腫，但都守在界線內。",
+       "腰線與特徵線：前葉子板線往後長長滑過；後葉子板線從低處開始，再猛然上揚，形成更圓的後輪拱。",
+       "前臉：多半是高而窄的盾形水箱護罩，不往兩側延伸。"
+      ]
+     },
+     {
+      "h": "側面比較：尺寸不同，語言一致",
+      "p": [
+       "從側面並排來看，各車尺寸差很多，正好說明這套語言的彈性。兩台 Chrysler 和 VW 最接近，葉子板線相似、車身細節很少；Cadillac 差異最大，側面鍍鉻飾條多、葉子板線概念也不同，但比例依然屬於同一系列。",
+       "最驚人的相似處在車窗區：1953 年只做了約 15 台的 Fiat 8V Supersonic，和 1955 年推出的 Karmann-Ghia，車窗形狀幾乎一模一樣。作者認為，與其說 Karmann-Ghia 是 Chrysler D'Elegance（Ghia 為 Chrysler 打造的概念車）的改版，不如說是這一批 Ghia 雙門車設計的綜合。"
+      ]
+     },
+     {
+      "h": "車頭：同一套護罩，多種燈組實驗",
+      "p": [
+       "Ghia 偏好位置居中、略為直立的水箱護罩，並在頭燈數量與排列上做了很多變化：有時把燈嵌進車身的小凹槽，有時做成和車身融成一體的燈莢。",
+       "差異最大的是 Karmann-Ghia。它是後置氣冷引擎，不需要大水箱護罩，改用一對進氣「鼻孔」，因此成為這個家族裡臉最不一樣的一台。"
+      ]
+     },
+     {
+      "h": "重點收穫",
+      "p": [
+       "作者認為，這組車最迷人之處，是能看到設計師在多台車之間反覆試驗元素與細節的組合，找出最恰當的比例。",
+       "對設計師的啟發是：一套造型語言可以在不同尺寸、不同底盤上延伸，只要守住車窗形狀、葉子板線和前臉這幾個關鍵特徵，就能保有家族感。而它最後落在平價的 Beetle 底盤上，讓原本只屬於豪華訂製車的美感，成為一般人也買得起的車。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "col-ghia-cadillac.jpg",
+      "alt": "Ghia-Cadillac 雙門車前側方，展間內拍攝",
+      "credit": "Ghia-Cadillac (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 0
+     },
+     {
+      "file": "col-ghia-chrysler-delegance.jpg",
+      "alt": "Ghia 為 Chrysler 打造的 D'Elegance 概念車側面，紅色車身",
+      "credit": "Chrysler (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 2
+     },
+     {
+      "file": "col-ghia-fiat8v.jpg",
+      "alt": "Fiat 8V Supersonic 側面，小而彎的車窗區",
+      "credit": "Fiat (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 2
+     },
+     {
+      "file": "col-ghia-karmann.jpg",
+      "alt": "Karmann-Ghia 側面，車窗形狀與 8V Supersonic 相近",
+      "credit": "Volkswagen (via The Autopian)",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 2
+     },
+     {
+      "file": "col-ghia-faces-chrysler-cadillac.jpg",
+      "alt": "Ghia 同期車頭比較：上為紅色 Ghia 設計的 Chrysler，下為 Ghia-Cadillac 盾形護罩",
+      "credit": "The Autopian",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 3
+     },
+     {
+      "file": "col-ghia-faces-kg-chrysler.jpg",
+      "alt": "Ghia 同期車頭比較：上為 Karmann-Ghia 的進氣鼻孔，下為直立盾形護罩的藍色雙門車",
+      "credit": "The Autopian",
+      "credit_url": "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/",
+      "section": 3
+     }
+    ]
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-911-sadu",
+   "kind": "car",
+   "car": "Porsche 911 Turbo S Sadu Edition",
+   "tag": "內裝 · 科威特",
+   "title": "911 Turbo S Sadu Edition：黑與波爾多紅雙色座艙",
+   "points": [
+    "黑色與 Bordeaux Red 雙色皮革內裝，Lightsilver 點綴。",
+    "儀表、門板、後座、座椅與中控上緣都有 GT Silver 加紅色的手工十字繡。",
+    "Sports Seat Plus 椅面改用四色 Sadu 圖紋織物，頭枕壓印阿拉伯文「70 Years」。",
+    "由 Exclusive Manufaktur 在 Zuffenhausen 手工完成，限量 20 台、只賣科威特。"
+   ],
+   "image": {
+    "file": "cmf-car-911-sadu.jpg",
+    "alt": "911 Turbo S Sadu Edition 座艙，紅黑雙色皮革與 Sadu 圖紋座椅",
+    "credit": "Porsche Newsroom",
+    "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-911-sadu-2.jpg",
+     "alt": "Sadu Edition 紅色座椅與 Sadu 織物椅面",
+     "credit": "Porsche Newsroom",
+     "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    },
+    {
+     "file": "cmf-car-911-sadu-3.jpg",
+     "alt": "Sadu Edition 門檻與紅色座椅、門板織物細節",
+     "credit": "Porsche Newsroom",
+     "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    }
+   ],
+   "sources": [
+    [
+     "Porsche Newsroom（11/18）",
+     "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-sadu-textile",
+   "kind": "material",
+   "car": "Porsche Exclusive Manufaktur",
+   "tag": "材質 · 科威特",
+   "title": "Sadu 傳統織紋轉成座椅與門板織物",
+   "points": [
+    "Al Sadu 是阿拉伯半島的傳統羊毛編織，以橫向幾何圖紋為特色，2020 年列入 UNESCO 非物質文化遺產。",
+    "Porsche 把圖紋做成新織物，配色為 Bordeaux Red、Guards Red、GT Silver 與黑。",
+    "織物用在座椅椅面與門板中段，外觀側面與車尾也加入 Sadu 圖紋。",
+    "鑰匙、鑰匙套與車主手冊夾也延伸同一套皮革與圖紋。"
+   ],
+   "image": {
+    "file": "cmf-mat-sadu-textile.jpg",
+    "alt": "911 Sadu Edition 紅色門板中段的 Sadu 圖紋織物",
+    "credit": "Porsche Newsroom",
+    "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+   },
+   "more_images": [
+    {
+     "file": "cmf-mat-sadu-textile-2.jpg",
+     "alt": "Sadu 圖紋織物與紅色皮革鑰匙套、Turbo S 銘牌",
+     "credit": "Porsche Newsroom",
+     "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    },
+    {
+     "file": "cmf-mat-sadu-textile-3.jpg",
+     "alt": "911 Sadu Edition 米白車身側裙上的 Sadu 圖紋",
+     "credit": "Porsche Newsroom",
+     "credit_url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    }
+   ],
+   "sources": [
+    [
+     "Porsche Newsroom（11/18）",
+     "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-genesis-gv90",
+   "kind": "paint",
+   "car": "Genesis GV90",
+   "tag": "塗料 · 韓國",
+   "title": "Genesis GV90：「Shift in Stillness」八款新外觀色",
+   "points": [
+    "GV90 共 16 種外觀色，其中 8 款新色，延續「地名＋顏色」命名。",
+    "新色概念「Shift in Stillness」捕捉光線瞬間變化，之後會用到全 Genesis 車系。",
+    "Baena Green 以黃色珠光帶出深綠層次；Monashee Silver 用細銀粒子表現冰晶閃光。",
+    "內裝另有 6 組雙色與 1 款單色，例如 Travertine Beige 配 Tyrian Purple。"
+   ],
+   "image": {
+    "file": "cmf-paint-genesis-gv90.jpg",
+    "alt": "綠色與米白色兩台 Genesis GV90 停在沙地上",
+    "credit": "Genesis Newsroom",
+    "credit_url": "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-genesis-gv90-2.jpg",
+     "alt": "Genesis Baena Green 色彩主視覺",
+     "credit": "Genesis Newsroom",
+     "credit_url": "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/"
+    },
+    {
+     "file": "cmf-paint-genesis-gv90-3.jpg",
+     "alt": "Genesis Como Blue 色彩主視覺",
+     "credit": "Genesis Newsroom",
+     "credit_url": "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/"
+    }
+   ],
+   "sources": [
+    [
+     "Genesis Newsroom（11/18）",
+     "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-cybercab-joystick",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Cybercab 螢幕搖桿：沒方向盤也能挪車",
+   "date": "2026-11-18",
+   "points": [
+    "Cybercab 沒有方向盤和踏板，改在 21 吋螢幕左側放一個圓形「Hold」搖桿。",
+    "按住搖桿才會作動，往上前進、往下倒車、左右推轉向，操作像遊戲手把。",
+    "旁邊集中停止、喇叭與關閉車門按鈕。",
+    "移動時畫面其餘區域同時顯示前方與兩側鏡頭，方便看清周圍。",
+    "只能以 2 mph 內短距離挪車，需持有效美國駕照。"
+   ],
+   "image": {
+    "file": "hmi-tesla-cybercab-joystick.jpg",
+    "alt": "Cybercab 中控螢幕，左側為搖桿挪車介面，右側為前方與兩側鏡頭畫面",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/news/5034/youll-be-able-to-move-cybercab-with-on-screen-controls-like-a-video-game"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（11/18）",
+     "https://www.notateslaapp.com/news/5034/youll-be-able-to-move-cybercab-with-on-screen-controls-like-a-video-game"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "電池 · 美國",
+   "date": "2026-11-18",
+   "title": "Ford 密西根廠開始出貨美國製 LFP 電芯，採 CATL 授權技術",
+   "summary": "Ford 宣布密西根 BlueOval Battery Park 開始生產並出貨 LFP 電芯，使用向寧德時代授權的技術，首批先供 Fathom 原型車；這款約 3 萬美元的電動皮卡將是第一個用上的車型。",
+   "sources": [
+    [
+     "CNBC（11/18）",
+     "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html"
+    ],
+    [
+     "Electrek（11/18）",
+     "https://electrek.co/2026/11/18/fords-first-lfp-batteries-en-route-30k-fathom-ev-pickup/"
+    ]
+   ]
+  },
+  {
+   "tag": "供應鏈 · 美國",
+   "date": "2026-11-18",
+   "title": "美國石墨新創 Molten 啟用示範廠，挑戰中國負極材料壟斷",
+   "summary": "TechCrunch 報導，中國掌控電池石墨供應，美國新創 Molten 已開始運轉示範工廠，希望降低電池負極材料對中國的依賴。",
+   "sources": [
+    [
+     "TechCrunch（11/18）",
+     "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/"
+    ]
+   ]
+  },
+  {
+   "tag": "原料 · 韓國",
+   "date": "2026-11-18",
+   "title": "POSCO 集團與寧德時代強化鋰供應合作",
+   "summary": "POSCO 集團宣布與全球最大電池廠寧德時代擴大鋰原料供應合作，簽下 2026–2028 年的供應協議。",
+   "sources": [
+    [
+     "POSCO Newsroom",
+     "https://newsroom.posco.com/en/posco-group-strengthens-lithium-supply-partnership-with-catl-the-worlds-largest-battery-company/"
+    ]
+   ]
+  },
+  {
+   "tag": "換電 · 中國",
+   "date": "2026-11-18",
+   "title": "寧德時代雙電池換電重卡方案拿下 13,000 台訂單",
+   "summary": "寧德時代推出可換電的雙電池重卡系統，並簽下約 13,000 台重卡的合作協議。",
+   "sources": [
+    [
+     "East Asia Brief",
+     "https://eastasiabrief.com/batteries-ev/catl-lands-13-000-heavy-trucks-swappable-dual-battery-1546"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 台灣",
+   "date": "2026-11-18",
+   "title": "裕隆估明年乘用車市回升至 43 萬輛，代工 Mitsubishi 純電車外銷紐澳",
+   "summary": "裕隆預估 2027 年台灣乘用車市溫和回升至約 43 萬輛；持續交付鴻華先進 Cavira，並代工 Mitsubishi ASX 純電車外銷紐澳，首批 9 月底出貨、預計 12 月開賣。",
+   "sources": [
+    [
+     "工商時報（11/18）",
+     "https://www.ctee.com.tw/news/20261118701664-430503"
+    ]
+   ]
+  },
+  {
+   "tag": "電動車 · 台灣",
+   "date": "2026-11-18",
+   "title": "鴻海純電車開始銷往海外",
+   "summary": "經濟日報報導，鴻海集團的純電車開始賣向海外市場。",
+   "sources": [
+    [
+     "經濟日報（11/18）",
+     "https://money.udn.com/money/story/5710/9884848"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Kick-up",
+  "zh": "後葉子板上揚線",
+  "body": "Kick-up 指車身側面的特徵線在後輪前方由低處突然往上揚起，再包住後輪拱的處理。它讓車尾看起來像肌肉繃緊、隨時要往前衝。本期設計專欄談到的 1950 年代 Ghia 雙門車，就普遍讓後葉子板線從低處開始、再猛然上揚，形成圓潤的後輪拱，Karmann-Ghia 是最廣為人知的例子。設計師用它在不加裝飾的情況下，替簡潔車身加入動態與後驅般的力量感。",
+  "source": [
+   [
+    "The Autopian：Midcentury Ghia Coupé Look（rear fender line kicks up）",
+    "https://www.theautopian.com/lets-talk-about-the-midcentury-ghia-coupe-look/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Bordeaux Weave & Baena Olive",
+   "zh": "波爾多紅織紋配橄欖綠：手工訂製座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板取 Porsche 911 Sadu Edition 的深黑皮革，門板嵌飾用 Sadu 織紋的波爾多紅，扶手與縫線用 GT Silver 銀灰呼應十字繡，點綴色借 Genesis GV90 Baena Green 的深橄欖綠。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 皮革",
+     "Sadu Black（示意）",
+     "#1E1C1D",
+     false,
+     "ip-upper",
+     {
+      "src": "911 Sadu Edition 黑色皮革",
+      "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Lightsilver（示意）",
+     "#B9BBBE",
+     false,
+     "ip-decor",
+     {
+      "src": "911 Sadu Edition Lightsilver 點綴",
+      "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+     }
+    ],
+    [
+     "門板嵌飾 · 織物",
+     "Bordeaux Weave（示意）",
+     "#6E1F2A",
+     false,
+     "door-insert",
+     {
+      "src": "Sadu 圖紋織物",
+      "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Bordeaux Red（示意）",
+     "#7A2430",
+     false,
+     "armrest",
+     {
+      "src": "911 Sadu Edition Bordeaux Red 皮革",
+      "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+     }
+    ],
+    [
+     "縫線",
+     "GT Silver（示意）",
+     "#A7A9AC",
+     false,
+     "stitch",
+     {
+      "src": "GT Silver 十字繡",
+      "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Graphite（示意）",
+     "#2A2A2C",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Porsche Newsroom：911 Turbo S Sadu Edition 內裝",
+     "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html"
+    ],
+    [
+     "Genesis Newsroom：GV90 Baena Green",
+     "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/"
+    ]
+   ],
+   "mood": "bordeaux woven craft silver olive",
+   "mood_text": "深黑皮革與波爾多紅織紋帶出手工訂製的厚重感，銀灰十字繡讓細節發亮，一點橄欖綠讓座艙多了自然的沉靜。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#7A2430",
+    "seat-bolster": "#1E1C1D",
+    "seat-center": "#6E1F2A",
+    "console": "#1E1C1D",
+    "console-arm": "#7A2430",
+    "steering": "#1E1C1D",
+    "ip-lower": "#2A2A2C",
+    "accent-pod": "#B9BBBE",
+    "accent-pod2": "#4E5B32"
+   }
+  }
+ }
+}

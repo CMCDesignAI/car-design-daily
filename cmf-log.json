@@ -921,5 +921,29 @@
   "angle": "Mustang GTD 1901：Royal Red 配 Mahogany Red 皮革",
   "url": "https://www.hagerty.com/media/news/new-mustang-gtd-1901-is-a-nod-to-henry-fords-sweepstakes-race-car/",
   "image": "cmf-paint-mustang-gtd-1901.jpg"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "car",
+  "car_key": "car:porsche-911-turbo-s-sadu-interior",
+  "angle": "Sadu Edition 黑與波爾多紅雙色座艙",
+  "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html",
+  "image": "cmf-car-911-sadu.jpg"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "material",
+  "car_key": "material:porsche-sadu-textile",
+  "angle": "Sadu 傳統織紋座椅與門板織物",
+  "url": "https://newsroom.porsche.com/en_PME/2026/products/porsche-kuwait-911-turbo-s-sadu-edition-42455.html",
+  "image": "cmf-mat-sadu-textile.jpg"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "paint",
+  "car_key": "paint:genesis-gv90-shift-in-stillness",
+  "angle": "GV90 八款新外觀色與內裝雙色",
+  "url": "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/",
+  "image": "cmf-paint-genesis-gv90.jpg"
  }
 ]

@@ -1,0 +1,22 @@
+<svg class="diagram" viewBox="0 0 520 340" width="100%" role="img" aria-label="後葉子板上揚線示意：1950 年代雙門車側面，前葉子板線往後長滑，後葉子板線在後輪前由低處猛然上揚，包住圓潤的後輪拱" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M44 214 Q46 186 92 178 L170 168 Q206 128 262 124 Q318 122 350 146 Q392 158 440 172 Q474 182 478 206 L476 222 Q470 230 456 230 L430 230 A36 36 0 0 0 358 230 L170 230 A36 36 0 0 0 98 230 L62 230 Q44 228 44 214 Z"/>
+    <path d="M190 166 Q216 134 262 130 Q306 130 336 150 L344 166 Z" stroke-width="1.6"/>
+    <circle cx="134" cy="232" r="32"/><circle cx="134" cy="232" r="14" stroke-width="1.6"/>
+    <circle cx="394" cy="232" r="32"/><circle cx="394" cy="232" r="14" stroke-width="1.6"/>
+    <path d="M30 270 L490 270" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="none" stroke="#9aa0a6" stroke-width="1.8" stroke-linecap="round">
+    <path d="M70 196 Q160 188 250 194"/>
+  </g>
+  <g fill="none" stroke="#f08a5d" stroke-width="3" stroke-linecap="round">
+    <path d="M250 212 Q300 214 330 204 Q352 190 380 182 Q420 176 452 186"/>
+  </g>
+  <g fill="#f08a5d" font-size="14" font-family="sans-serif">
+    <text x="296" y="110">kick-up：後葉子板線由低處上揚</text>
+    <path d="M340 116 L342 190" stroke="#f08a5d" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/>
+  </g>
+  <g fill="#9aa0a6" font-size="13" font-family="sans-serif">
+    <text x="64" y="300">前葉子板線往後長滑（灰）</text>
+  </g>
+</svg>
