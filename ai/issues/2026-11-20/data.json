@@ -1,0 +1,755 @@
+{
+ "date": "2026-11-20",
+ "weekday": "週五",
+ "issue_no": 44,
+ "lede": "Gemini Mac App 開放「電腦操作」，能在背景視窗替你操作 Blender 等桌面軟體；ChatGPT 語音聽寫改成即時並取消 10 分鐘上限，Apple 也放出可即時生成的影片模型 FastFrames。文字榜 Gemini 4 Neon 新進第 2，圖像、影片榜沒有變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "gemini-mac-computer-use",
+   "org": "Google",
+   "tag": "新功能",
+   "date": "2026-11-20",
+   "title": "Gemini Mac App 加入「電腦操作」：在背景視窗替你點選、打字、填表，跨本機檔案、桌面 App 與網頁",
+   "short_title": "Gemini 能操作你的 Mac 了",
+   "one": "在 Gemini Mac App 描述要做的事，它會在獨立的背景視窗自己點選、打字完成多步驟工作，你的螢幕和滑鼠照常能用；目前限美國英文、AI Plus／Pro／Ultra 訂閱。",
+   "orig": "With computer use in the Gemini app for Mac, you can now hand off tasks across your folders, apps, and the web, while your screen and cursor stay yours.",
+   "summary": "【官方說法】Gemini 在隔離的背景視窗工作，聊天中有即時預覽；你可選擇允許它使用哪些 App、隨時一鍵暫停或停止，遇到登入或付款會暫停，敏感動作前會先請你確認。官方示範：把小孩畫的蝴蝶草圖在 Blender 建模並綁骨架；其他範例包括在設計軟體批次調色照片、架設複雜 3D 場景、從本機 PDF 擷取重量尺寸填運費報價、從即時儀表板抓數據做成 Google Slides 簡報。\n【怎麼用】依 9to5Google，在提示詞加上 @Computer use；Customize > Connectors 會多出 Blender、Autodesk Fusion 等「Desktop」App。\n【限制與哪裡能用】美國、英文先開放，需 Google AI Plus、Pro 或 Ultra 訂閱、18 歲以上個人帳號，Apple Silicon Mac 且 macOS Sequoia 15.0 以上；從 gemini.google/mac 下載。Macworld 實測時下載到的舊版（1.147.5.1526）還沒有這個功能，屬逐步推送。TechCrunch 指出 OpenAI、Anthropic、Meta 的桌面 App 已先有類似代理功能。",
+   "links": [
+    [
+     "Google 官方部落格",
+     "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+    ],
+    [
+     "Gemini 版本更新說明",
+     "https://gemini.google/release-notes/"
+    ],
+    [
+     "9to5Google（用法與 Desktop 連接器）",
+     "https://9to5google.com/2026/11/19/gemini-mac-computer-use/"
+    ],
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+    ],
+    [
+     "Macworld 試用",
+     "https://www.macworld.com/article/3291400/gemini-can-now-tap-into-your-mac-for-app-automation.html"
+    ],
+    [
+     "@GeminiApp 貼文",
+     "https://x.com/GeminiApp/status/2123513203745538423"
+    ]
+   ],
+   "image": {
+    "file": "gemini-mac-cu.webp",
+    "alt": "Gemini Mac App 以電腦操作在 Blender 建模蝴蝶的官方示意圖",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+   },
+   "gloss": [
+    [
+     "電腦操作（computer use）",
+     "讓 AI 像人一樣看畫面、移動游標、點選與打字，直接操作電腦上的軟體"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-mobile-health-dictation",
+   "org": "OpenAI",
+   "tag": "產品更新",
+   "date": "2026-11-20",
+   "title": "ChatGPT 本週三連更：Live Dictation 全方案上線並取消 10 分鐘上限、新版手機介面、Health 擴到 Android 與桌面版",
+   "short_title": "ChatGPT 聽寫變即時、手機改版",
+   "one": "用語音輸入時文字會邊講邊出現，而且不再有 10 分鐘限制，所有方案都能用；另外手機 App 改版（先給 Pro）、健康功能擴到更多平台（限美國）。",
+   "orig": "With Live Dictation, your speech turns into text as you talk, so you spend less time waiting for your message to finish transcribing.",
+   "summary": "【Live Dictation（11/18 發布）】語音邊說邊轉成文字，點波形可顯示或隱藏即時文字，取消原本 10 分鐘錄音上限；iOS、Android、網頁、桌面版全球所有方案逐步上線（The Verge）。\n【新版手機介面（11/19）】dot 有獨立分頁，可把 Codex、Projects、Images 釘在底部分頁列；先給 18 歲以上的 Pro 用戶（排除歐洲經濟區、英國、瑞士、韓國），少數 Plus 用戶也會看到，可在設定開關。\n【Health 擴平台（11/19）】Health 擴到桌面 App、dots、Sites 與 Android（支援 Health Connect），可讓 dot 主動建議運動時間、用桌面版做馬拉松訓練追蹤網站；限美國 Free／Go／Plus／Pro，dots 目前只給 Pro（9to5Mac）。",
+   "links": [
+    [
+     "The Verge：Live Dictation",
+     "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+    ],
+    [
+     "9to5Mac：Health 擴平台",
+     "https://9to5mac.com/2026/11/19/chatgpt-health-feature-will-soon-work-with-mac-app-dots-more/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "dot",
+     "ChatGPT 的主動助理功能，會依你的資料主動提醒與建議，目前限 Pro"
+    ]
+   ]
+  },
+  {
+   "id": "apple-fastframes",
+   "org": "Apple",
+   "tag": "開源",
+   "date": "2026-11-19",
+   "title": "Apple 開放 FastFrames-S（1.3B）／L（14B）影片模型權重：兩步生成、單卡每格約 36 毫秒，可即時互動",
+   "short_title": "Apple 開源即時影片模型 FastFrames",
+   "one": "Apple 研究團隊放出兩個能「即時」生成 480p 影片的模型權重，速度快到可以邊操作邊出畫面；但授權不是一般開源，商用受限。",
+   "orig": "We release FastFrames-S (1.3B) and FastFrames-L (14B). Both are autoregressive, two-step video diffusion models that generate 480p video at interactive latency.",
+   "summary": "【模型卡說法】FastFrames-S（1.3B）與 FastFrames-L（14B）都是自回歸、兩步去噪的影片擴散模型，基礎模型為 Wan2.1-T2V-14B；文生影片輸出 832×480、81 格、16fps。FastFrames-S 單張 GPU、480p 下每格各元件合計約 35.4 毫秒（論文寫 36 毫秒）。另附一個比官方快 16 倍、可流暢控制鏡頭的 LingBot 1.3B 優化版。\n【限制】需要 Linux x86-64 加 NVIDIA GPU（CUDA 12.8 驅動）；FastFrames-L 的延遲測試範例用 8 張 GPU。模型卡授權標 apple-amlr，程式碼為 Apple Sample Code License，LingBot-World v2 部分沿用 CC BY-NC-SA 4.0（不可商用），用前要看清授權（OpenSourceCoder 整理）。\n【哪裡能用】Hugging Face 下載權重、GitHub 專案頁有安裝與示範；目前沒有官方線上試用。",
+   "links": [
+    [
+     "Hugging Face：FastFrames-L",
+     "https://huggingface.co/apple/FastFrames-L"
+    ],
+    [
+     "Hugging Face：FastFrames-S",
+     "https://huggingface.co/apple/FastFrames-S"
+    ],
+    [
+     "專案頁",
+     "https://apple-aiml-research.github.io/ml-fastframes/"
+    ],
+    [
+     "arXiv 論文",
+     "https://arxiv.org/abs/2611.23226"
+    ],
+    [
+     "OpenSourceCoder：授權整理",
+     "https://opensourcecoder.com/news/apple-fastframes-l-interactive-video-generation/"
+    ]
+   ],
+   "image": {
+    "file": "fastframes.webp",
+    "alt": "FastFrames 加速前後的 LingBot 鏡頭控制示範畫面",
+    "credit": "Apple（Hugging Face 模型卡示範圖）",
+    "credit_url": "https://huggingface.co/apple/FastFrames-L"
+   },
+   "gloss": [
+    [
+     "自回歸",
+     "一格接一格依序生成，前面生成的內容會當作後面的條件"
+    ],
+    [
+     "蒸餾",
+     "用大模型當老師，訓練出步數更少、更快的學生模型"
+    ]
+   ]
+  },
+  {
+   "id": "claude-code-code-mode",
+   "org": "Anthropic",
+   "tag": "新功能（實驗）",
+   "date": "2026-11-13",
+   "title": "Claude Code 實驗功能 Code Mode：Claude 改寫一段 JavaScript 一次呼叫多個工具，可平行執行、在呼叫間傳結果",
+   "short_title": "Claude Code 新增 Code Mode",
+   "one": "Claude 不再一個工具叫完等結果再叫下一個，而是寫一小段程式一次跑多個指令，適合跨多檔重複修改、先過濾再讀的大量搜尋；目前要手動開啟。",
+   "orig": "Code Mode, an experimental feature in which Claude writes JavaScript that makes several tool calls in one step.",
+   "summary": "【官方文件】Code Mode 讓 Claude 寫 JavaScript 由 Claude Code 在你的工作階段執行，可平行跑指令、把結果傳給下一個呼叫，只回傳需要的輸出；功能隨 v2.1.323（台北時間 11/13）推出，可能變動或移除。\n【條件與限制】Claude Code v2.1.323 以上原生版、互動式終端機；需 Claude 訂閱或 Console 帳號；支援 Opus 5.5、Sonnet 5.5、Haiku 5.5、Fable 5.2。不支援 -p、Agent SDK、VS Code 面板、桌面 App、雲端工作階段，也不能透過 Bedrock、Google Cloud、Foundry 等使用；搭配 agent teams 需 v2.1.326 以上。\n【開法】設定環境變數 CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1；組織管理員可封鎖但不能強制開啟。Anthropic 未公布省多少 token 或效能數字。",
+   "links": [
+    [
+     "Claude Code 官方文件：Code Mode",
+     "https://code.claude.com/docs/en/code-mode"
+    ],
+    [
+     "GitHub v2.1.323 版本說明",
+     "https://github.com/anthropics/claude-code/releases/tag/v2.1.323"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "工具呼叫",
+     "AI 代理請程式幫它執行一個動作（跑指令、讀檔、改檔）再拿回結果"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-app-android-go",
+   "org": "Google",
+   "tag": "平台",
+   "date": "2026-11-19",
+   "title": "Gemini App 重構後支援低記憶體 Android 手機，含符合條件的 Android（Go 版）機型",
+   "short_title": "Gemini App 進入低階 Android 手機",
+   "one": "Google 重寫 Gemini App，讓記憶體較小的入門 Android 手機也能順跑核心功能，從 Google Play 下載。",
+   "orig": "Brainstorm, learn, and create with the Gemini app, now on lower-memory @Android devices, including eligible Android (Go edition) phones.",
+   "summary": "【官方說法】@GeminiApp 表示重新設計了 App 架構，讓核心 Gemini 體驗在記憶體較少的手機上也能順暢執行，涵蓋符合條件的 Android（Go 版）手機；從 Google Play 下載即可。官方貼文未列出支援機型與功能差異。",
+   "links": [
+    [
+     "@GeminiApp 貼文",
+     "https://x.com/GeminiApp/status/2123100943604707606"
+    ]
+   ],
+   "image": null,
+   "gloss": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "2 則：用事件觸發取代輪詢來省用量；用 iPhone 捷徑透過 webhook 啟動 routine。",
+   "updates": [
+    {
+     "title": "Elisa：Slack／Discord 的 Bot 不要一直輪詢新訊息，改設 listener 只在需要時喚醒",
+     "short_title": "用 listener 喚醒 Bot 省用量",
+     "date": "2026-11-19",
+     "one": "學到：讓 Bot 一直檢查頻道新訊息很耗用量，改用 Slack 觸發（Discord 用 webhook 加外部 listener）的 routine，只在符合條件的訊息出現時才叫醒 Bot；作者說這是她省用量的做法。",
+     "summary": "@eeelistar 11/19 晚間（台北）分享，附 8 秒示範影片。作者的步驟：1) 先把 Bot 連到要監看的頻道；2) 建一個用 Slack 觸發的 Grok Bot routine，Discord 則用 webhook 觸發搭配另外的 listener；3) 自訂哪些訊息才會觸發 Bot。作者另提供可匯入的 skill 檔（需留言索取，本刊未取得）。未提供量化的省用量數字。",
+     "links": [
+      [
+       "X 貼文",
+       "https://x.com/eeelistar/status/2123406165593956670"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "listener（監聽觸發）",
+       "事件發生時才啟動任務，而不是定時去檢查有沒有新東西"
+      ]
+     ]
+    },
+    {
+     "title": "Everyday Eddie 整理：iPhone 捷徑「離開家」時透過 webhook 自動啟動 Grok Bot routine",
+     "short_title": "iPhone 捷徑觸發 routine",
+     "date": "2026-11-19",
+     "one": "學到：請 Bot 幫 routine 加 webhook 觸發，在 iPhone 捷徑的個人自動化用「取得 URL 內容」送 POST，就能在離家、關鬧鐘時自動跑晨報或查路況。",
+     "summary": "@EverydayEddie_ 整理 alexmichael 的做法（作者說源自 nicksmind_fs），附設定截圖：1) 請 Bot 幫 routine 加 webhook 觸發；2) 在桌面版打開該 routine，複製 POST 網址與金鑰；3) 捷徑 App 建個人自動化（例如「當我離開家」）；4) 加「取得 URL 內容」動作，方法設 POST，加 Authorization 標頭「Bearer + 金鑰」；5) JSON 內容可放任意資料，作者引用文件說 Bot 會連同 routine 指令一起收到。回應 200 只代表已開始執行，結果要到 Bot 對話看。金鑰等同密碼，不要分享這個捷徑。",
+     "links": [
+      [
+       "X 貼文",
+       "https://x.com/EverydayEddie_/status/2123424050449899987"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "webhook",
+       "一個專屬網址，外部程式送資料到這裡就會觸發指定任務"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": [
+  {
+   "id": "col-aisd-gemini4-neon",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-19",
+   "title": "Gemini 4 Neon 在 Antigravity 五道開發題實測：清明上河圖虹橋、恐龍沙盒、背單字 App，並與 GPT-6.2 Astra Ultra 對照",
+   "short_title": "Gemini 4 Neon 五題開發實測",
+   "orig": "🚀深度实测Gemini 4 Neon，超越GPT-6.2 Astra模型！在Antigravity中实测Unity和Godot游戏开发、iOS和macOS原生应用开发！程序员必备大模型，开发效率倍增！",
+   "one": "昨天剛上線的 Gemini 4 Neon 實際寫程式表現如何：作者用最高推理等級跑 5 道題，把成品逐一實機展示，可和前一期 GPT-6.2 Astra 實測對照著看。",
+   "points": [
+    "作者在 Antigravity 把推理等級設為最高，五道題為古畫場景（清明上河圖虹橋）、恐龍沙盒、原生背單字應用、科幻動畫（智子工程）與原生音樂播放器。",
+    "虹橋場景檢查構圖、船隻與第一人稱探索，並用同一提示詞對照 GPT-6.2 Astra 開到 Ultra 推理後的重測結果；章節也標出「細節問題」段落。",
+    "恐龍沙盒經過需求迭代修復後實機試玩射擊、飛行和地形破壞；片尾有五項實測結果總結（作者說：遊戲能玩、應用能用）。"
+   ],
+   "url": "https://www.youtube.com/watch?v=u6lZ4zr4D2o",
+   "image": {
+    "file": "col-aisd-gemini4-neon.webp",
+    "alt": "Gemini 4 Neon 深度實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=u6lZ4zr4D2o"
+   },
+   "links": [
+    [
+     "Google Antigravity 官網",
+     "https://antigravity.google/"
+    ],
+    [
+     "Google 官方：Gemini 4 Neon",
+     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+    ]
+   ],
+   "gloss": [
+    [
+     "Antigravity",
+     "Google 的 AI 程式開發工具，讓模型以代理方式寫、跑、修整個專案"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-install-custom-nodes",
+   "title": "ComfyUI 安裝自訂節點：用 Manager、Git 或 ZIP 三種方法，順便避開惡意外掛",
+   "learn": "學會用 ComfyUI Manager 一鍵安裝自訂節點，Manager 找不到時改用 Git clone 或 ZIP，並正確安裝相依套件。",
+   "level": "入門",
+   "vram": "不需額外顯存（安裝操作）；節點本身需求依各自 README 為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "自訂節點（custom nodes）",
+     "社群寫的 ComfyUI 擴充功能，放進 custom_nodes 資料夾就能用新節點"
+    ],
+    [
+     "requirements.txt",
+     "列出外掛需要哪些 Python 套件的清單檔，用 pip 一次安裝"
+    ]
+   ],
+   "steps": [
+    "先看外掛的 README，只裝可信作者、社群常用的節點（官方提醒來路不明的外掛可能危害電腦）。",
+    "推薦：用內建的 ComfyUI Manager 搜尋並安裝，會自動處理相依套件；Desktop 版預設是新介面。",
+    "Manager 找不到時：在 ComfyUI/custom_nodes 資料夾執行 git clone [GitHub 網址]，再進節點資料夾 pip install -r requirements.txt（Windows 免安裝版要用 python_embeded\\python.exe -m pip …，別裝到系統 Python）。",
+    "不會 Git 可在 GitHub 按 Code → Download ZIP，解壓後放進 custom_nodes，同樣手動裝相依套件（官方不推薦，因為沒有版本控管）。",
+    "重啟 ComfyUI 並重新整理瀏覽器，檢查啟動紀錄有沒有 import failed 錯誤。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：安裝自訂節點",
+     "https://docs.comfy.org/installation/install_custom_node"
+    ],
+    [
+     "ComfyUI 官方：Manager 介紹",
+     "https://docs.comfy.org/manager/overview"
+    ]
+   ]
+  },
+  {
+   "id": "tut-hunyuan-video",
+   "title": "ComfyUI 跑 Hunyuan Video：文生影片與兩種圖生影片（concat／replace）",
+   "learn": "學會擺好 Hunyuan Video 共用的文字編碼器與 VAE，跑文生影片，並分辨圖生影片 v1「concat」和 v2「replace」的差別。",
+   "level": "中階",
+   "vram": "官方頁未標示；模型為 13B、720p bf16 版，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "DiT",
+     "Diffusion Transformer，用 Transformer 架構做擴散生成，Sora 類模型多用這種"
+    ],
+    [
+     "3D VAE",
+     "把影片壓縮成小的潛空間再還原的模組，讓影片生成更省運算"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI 到最新版；在範本庫搜尋「Hunyuan Video」或把官方頁的工作流圖片拖進 ComfyUI（會提示下載模型）。",
+    "共用模型：clip_l 與 llava_llama3_fp8_scaled 放 models/text_encoders，hunyuan_video_vae_bf16 放 models/vae。",
+    "文生影片：hunyuan_video_t2v_720p_bf16 放 models/diffusion_models，確認 DualCLIPLoader、Load Diffusion Model、Load VAE 載入正確後按 Queue（Ctrl+Enter）；EmptyHunyuanLatentVideo 的 length 設 1 可只出一張靜態圖。",
+    "圖生影片：另需 llava_llama3_vision 放 models/clip_vision；v1「concat」動作較流暢但較不貼近原圖，v2「replace」較貼近原圖但動態較少，只要在 Load Diffusion Model 換模型即可。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Hunyuan Video",
+     "https://docs.comfy.org/tutorials/video/hunyuan/hunyuan-video"
+    ],
+    [
+     "Tencent HunyuanVideo GitHub",
+     "https://github.com/Tencent-Hunyuan/HunyuanVideo"
+    ]
+   ]
+  }
+ ],
+ "video": {
+  "youtube_id": "vKobP6DkC1E",
+  "url": "https://www.youtube.com/watch?v=vKobP6DkC1E",
+  "title": "Build a 1 Person Media Machine With Grok Bot",
+  "channel": "Greg Isenberg",
+  "date": "2026-11-18",
+  "one": "約 50 分鐘示範把 Grok Bot 變成一人內容團隊：餵它喜歡的創作者、收藏的開場和電子報，讓它找出有效題材、寫腳本、剪片到發布；同集也示範用每週 routine 找上升中的 YouTube 關鍵字。",
+  "thumb": {
+   "file": "vid-greg-media-machine.webp",
+   "alt": "Build a 1 Person Media Machine With Grok Bot 影片縮圖",
+   "credit": "Greg Isenberg（YouTube 縮圖）"
+  }
+ },
+ "caveats": [
+  "Gemini 電腦操作目前只在美國、英文開放並逐步推送；OpenAI 說明中心擋直接抓取，ChatGPT 一則依 The Verge、9to5Mac 與搜尋摘要整理。",
+  "Grok Bot 教學兩則為作者自述做法，未附量化成效；FastFrames 授權限制多，商用前請自行查證。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-20",
+  "compared_to": "2026-11-19",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-20",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "changed",
+    "compared_to": "2026-11-19",
+    "diff": {
+     "summary": [
+      "NEW #2 Gemini 4 Neon (high) (Google) 1530",
+      "Gemini 4 Argon (high): #2→#3 (-1 名), 1529→1529 (+0)",
+      "Claude Opus 5.5 (high): #3→#4 (-1 名), 1514→1514 (+0)",
+      "Claude Fable 5.1 (max): #4→#5 (-1 名), 1512→1512 (+0)",
+      "Claude Opus 5 (max): #5→#6 (-1 名), 1507→1506 (-1)",
+      "Muse Wonder (max): #6→#7 (-1 名), 1503→1503 (+0)",
+      "Claude Opus 5 (high): #7→#8 (-1 名), 1502→1502 (+0)",
+      "Gemini 4 Hydrogen (high): #8→#9 (-1 名), 1502→1502 (+0)",
+      "Claude Opus 4.6 (high): #9→#10 (-1 名), 1501→1501 (+0)",
+      "OUT Gemini 3.8 Flash (high) (前次 #10 1500)"
+     ],
+     "dropped": [
+      {
+       "model": "Gemini 3.8 Flash (high)",
+       "org": "Google",
+       "rank": 10,
+       "score": 1500
+      }
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1538,
+      "ci": 10
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1530,
+      "ci": 10,
+      "new": true
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1529,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1514,
+      "ci": 6,
+      "move": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6,
+      "move": -1
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9,
+      "move": -1
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3,
+      "move": -1
+     }
+    ],
+    "dropped": [
+     {
+      "model": "Gemini 3.8 Flash (high)",
+      "org": "Google",
+      "rank": 10,
+      "score": 1500
+     }
+    ],
+    "analysis": "LMArena 文字總榜（資料日 11/18）最大變化是前天上線的 Gemini 4 Neon (high) 直接新進第 2，1530 分，只比第 1 名 Gemini 4 Carbon 少 8 分。Google 因此包辦前 3 名（Carbon、Neon、Argon）。原本第 2 到第 9 名的 Argon、Claude Opus 5.5、Fable 5.1 等模型分數幾乎沒變，只是各被擠下一名，Gemini 3.8 Flash 則跌出前 10。這次沒有模型突破第 1 名的分數。",
+    "analysis_short": "Gemini 4 Neon 新進第 2（1530 分），Google 包辦前三；Gemini 3.8 Flash 跌出前 10，第 1 名不變。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-20",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-20",
+    "status": "unchanged",
+    "compared_to": "2026-11-19",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-20",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-20",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-19",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   }
+  ]
+ }
+}

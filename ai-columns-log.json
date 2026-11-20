@@ -187,5 +187,12 @@
   "creator_key": "aisuperdomain",
   "url": "https://www.youtube.com/watch?v=HMA3dYdmSLo",
   "topic": "gpt-6.2-astra-8-tests"
+ },
+ {
+  "date": "2026-11-20",
+  "key": "col-aisd-gemini4-neon",
+  "creator_key": "aisuperdomain",
+  "url": "https://www.youtube.com/watch?v=u6lZ4zr4D2o",
+  "topic": "gemini-4-neon-5-dev-tests"
  }
 ]
