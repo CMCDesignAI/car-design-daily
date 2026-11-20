@@ -184,5 +184,11 @@
   "key": "hmi-tesla-cybercab-joystick",
   "url": "https://www.notateslaapp.com/news/5034/youll-be-able-to-move-cybercab-with-on-screen-controls-like-a-video-game",
   "image": "hmi-tesla-cybercab-joystick.jpg"
+ },
+ {
+  "date": "2026-11-20",
+  "key": "hmi-tesla-app-4-63-precondition",
+  "url": "https://www.notateslaapp.com/tesla-app-updates/version/4.63.0/release-notes",
+  "image": "hmi-tesla-app-precondition.jpg"
  }
 ]

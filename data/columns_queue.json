@@ -2217,7 +2217,7 @@
       "image": null,
       "excerpt": "At the 2026 Paris Motor Show, Vauxhall has unveiled the STX Concept, a striking interpretation of... The post Vauxhall STX Concept: Reinventing the Electric Estate Car appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "craft": 18,
       "craft_news": 0,
       "craft_ok": true,
@@ -5548,6 +5548,36 @@
       "image": "https://image.cardesignnews.com/2770555.jpg?imageId=2770555&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "excerpt": "CDN caught up with the previous winners of the sketch battle to see where they are now and how winning the sketch battle boosted their careers",
       "added": "2026-11-19",
+      "used": false
+    },
+    "cdtv-is-your-business-idea-worth-more-time-and-money-join-the-foresee-venture-intelligence-pilot": {
+      "id": "cdtv-is-your-business-idea-worth-more-time-and-money-join-the-foresee-venture-intelligence-pilot",
+      "source": "Car Design TV",
+      "credit": "Car Design TV",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Design Analysis",
+      "title_en": "Is your business idea worth more time and money? Join the Foresee Venture Intelligence pilot",
+      "date": "2026-11-19",
+      "url": "https://www.cardesigntv.com/is-your-business-idea-worth-more-time-and-money-join-the-foresee-venture-intelligence-pilot/",
+      "image": null,
+      "excerpt": "By Cor Steenstra I’m looking for 10–20 people in the Netherlands and the United States... The post Is your business idea worth more time and money? Join the Foresee Venture Intelligence pilot appeared first on Car Design TV .",
+      "added": "2026-11-20",
+      "used": false
+    },
+    "cdn-2771080": {
+      "id": "cdn-2771080",
+      "source": "Car Design News",
+      "credit": "Car Design News",
+      "paywalled": true,
+      "kind": "interview",
+      "column": "Interview",
+      "title_en": "Lancia's design boss talks product design, architecture and the new Gamma",
+      "date": "2026-11-19",
+      "url": "https://www.cardesignnews.com/designers/lancia-design-boss-on-product-design-architecture-and-the-new-gamma/2771080",
+      "image": "https://image.cardesignnews.com/2771114.jpg?imageId=2771114&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "excerpt": "Lancia head of design Gianni Colonello explains why external influences like architecture and inteior design is such a rich source of inspiration for the new Gamma – and for the brand at large",
+      "added": "2026-11-20",
       "used": false
     }
   }

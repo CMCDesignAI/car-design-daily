@@ -945,5 +945,29 @@
   "angle": "GV90 八款新外觀色與內裝雙色",
   "url": "https://newsroom.genesis.com/genesis-gv90-a-palette-of-light-place-and-personal-taste/",
   "image": "cmf-paint-genesis-gv90.jpg"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "car",
+  "car_key": "car:mitsubishi-delica-d5-chamonix-cabin",
+  "angle": "雪山主題黑色座艙、銀色縫線、白色車頂樑燈飾",
+  "url": "https://www.mitsubishi-motors.com/jp/newsroom/newsrelease/2026/20261119_1.html",
+  "image": "cmf-car-delica-chamonix.jpg"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "material",
+  "car_key": "material:delica-chamonix-forged-carbon-panel",
+  "angle": "鍛造碳纖維圖紋飾板",
+  "url": "https://www.mitsubishi-motors.com/jp/newsroom/newsrelease/2026/20261119_1.html",
+  "image": "cmf-mat-delica-forged-carbon.jpg"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "paint",
+  "car_key": "paint:bmw-m3-40-jahre-laguna-seca-wildberry",
+  "angle": "Laguna Seca Blue／Wildberry Metallic＋Gold Bronze 輪圈",
+  "url": "https://www.bmwblog.com/2026/11/18/bmw-m3-40-jahre-edition-japan/",
+  "image": "cmf-paint-bmw-m3-40-jahre.jpg"
  }
 ]
