@@ -969,5 +969,29 @@
   "angle": "Laguna Seca Blue／Wildberry Metallic＋Gold Bronze 輪圈",
   "url": "https://www.bmwblog.com/2026/11/18/bmw-m3-40-jahre-edition-japan/",
   "image": "cmf-paint-bmw-m3-40-jahre.jpg"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "car",
+  "car_key": "car:honda-avancier-2-cabin",
+  "angle": "背光壓紋飾板、平滑合成皮與本革壓紋座椅",
+  "url": "https://motor-fan.jp/article/1684584/",
+  "image": "cmf-car-avancier-cabin.jpg"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "material",
+  "car_key": "material:chrysler-pacifica-copper-alloy-parquet-nappa",
+  "angle": "Copper Alloy 飾框、銅色縫線與拼花打孔 Nappa",
+  "url": "https://www.autoevolution.com/news/2026-la-auto-show-2027-chrysler-pacifica-goes-copperline-and-also-packs-a-new-ski-grey-interior-278586.html",
+  "image": "cmf-mat-pacifica-copper-alloy.jpg"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "paint",
+  "car_key": "paint:bentley-torcal-frgmt-beluga-solid",
+  "angle": "Beluga 實色漆＋Anthracite Satin 單色極簡",
+  "url": "https://www.bentleymedia.com/en/newsitem/1855-frgmt-culture-reimagined-hiroshi-fujiwara-designs-exclusive-bentley-commission",
+  "image": "cmf-paint-bentley-torcal-frgmt.jpg"
  }
 ]

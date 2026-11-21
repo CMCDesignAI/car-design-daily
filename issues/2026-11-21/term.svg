@@ -1,0 +1,27 @@
+<svg class="diagram" viewBox="0 0 520 330" width="100%" role="img" aria-label="輪拱外擴示意：從車尾看，葉子板在車輪上方向外鼓出，比車身側面更寬，以 Honda Avancier 與 VW ID. Polo GTI Clubsport Concept 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 100 Q160 72 200 66 L320 66 Q360 72 370 100 L384 150"/>
+    <path d="M136 150 L384 150"/>
+    <path d="M136 150 Q118 156 112 176 L110 214 Q110 230 126 232 L394 232 Q410 230 410 214 L408 176 Q402 156 384 150"/>
+    <path d="M150 100 L136 150"/>
+    <path d="M170 104 L350 104 L362 144 L158 144 Z" stroke-width="1.6"/>
+    <path d="M150 180 L210 180 M310 180 L370 180" stroke-width="3"/>
+    <rect x="226" y="196" width="68" height="18" rx="3" stroke-width="1.6"/>
+    <rect x="118" y="232" width="40" height="40" rx="8"/>
+    <rect x="362" y="232" width="40" height="40" rx="8"/>
+    <path d="M24 272 L496 272" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="none" stroke="#f08a5d" stroke-width="2.8">
+    <path d="M136 150 Q100 160 96 200 L98 232" stroke-dasharray="7 5"/>
+    <path d="M384 150 Q420 160 424 200 L422 232" stroke-dasharray="7 5"/>
+    <path d="M60 214 L96 214 M424 214 L460 214"/>
+    <path d="M60 206 L60 222 M460 206 L460 222" stroke-width="2"/>
+  </g>
+  <g fill="#f08a5d" font-size="15" font-family="sans-serif">
+    <text x="20" y="140">① 輪拱外擴</text>
+    <text x="20" y="158" font-size="12">比車身側面更寬</text>
+    <text x="400" y="140">① 輪拱外擴</text>
+    <text x="22" y="300" font-size="13">② 車尾收窄＋外擴輪拱 → 寬、低、穩的站姿（例：Avancier）</text>
+    <text x="22" y="320" font-size="13">③ ID. Polo GTI Clubsport Concept：前後葉子板各外擴 50 mm</text>
+  </g>
+</svg>

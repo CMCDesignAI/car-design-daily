@@ -190,5 +190,11 @@
   "key": "hmi-tesla-app-4-63-precondition",
   "url": "https://www.notateslaapp.com/tesla-app-updates/version/4.63.0/release-notes",
   "image": "hmi-tesla-app-precondition.jpg"
+ },
+ {
+  "date": "2026-11-21",
+  "key": "hmi-polestar-f2030-buttons",
+  "url": "https://www.automotiveinteriorsworld.com/news/haptics/polestar-brings-physical-buttons-back-in-formula-2030-concept.html",
+  "image": "hmi-polestar-f2030-buttons.jpg"
  }
 ]
