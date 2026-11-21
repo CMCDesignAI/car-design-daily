@@ -2,7 +2,7 @@
  "date": "2026-11-21",
  "weekday": "週六",
  "issue_no": 45,
- "lede": "Gemini App 開放用影片模型 Omni 1.2 Flash 直接生成 GIF；Thinking Machines 放出筆電能跑的開源模型 Inkling 2 Mini。AI 汽車設計方面，有研究用生成式 AI 讓尾門減重 7.1%。文字榜前三名次互換，圖像、影片榜無重大變化。",
+ "lede": "Gemini App 開放用影片模型 Omni 1.2 Flash 直接生成 GIF；Grok Bot 1.2.3 讓每個連接器工具可分別設權限；Thinking Machines 放出筆電能跑的開源模型 Inkling 2 Mini。AI 汽車設計方面，有研究用生成式 AI 讓尾門減重 7.1%；文字榜前三名次互換。",
  "closed": [],
  "open": [],
  "news": [],
@@ -37,6 +37,38 @@
     [
      "帕累托前緣",
      "在多個目標互相拉扯時，「改善一項就會犧牲另一項」的一組最佳折衷解"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-1-2-3",
+   "org": "SpaceXSI",
+   "tag": "平台更新",
+   "date": "2026-11-18",
+   "title": "Grok Bot 1.2.3：每個連接器工具可設「永遠允許／自動審查／需要核准／封鎖」，routine 斷線會暫停並通知重連",
+   "short_title": "Grok Bot 可逐一設定工具權限",
+   "one": "官方更新紀錄：連接器頁面現在能替每個工具分別設定權限，例如「讀資料」放行、「寄信／改資料」要你核准；routine 的帳號登入失效時會先跳過排程，並把重連提醒發到通知與 Slack／Teams 私訊。",
+   "orig": "Connector pages let you set each tool to Always allow, Auto-review, Needs approval, or Blocked.",
+   "summary": "【權限】連接器頁面可把每個工具設為 Always allow、Auto-review、Needs approval 或 Blocked（需 Grok Bot 0.70.2 以上）；團隊管理員可限制內建 GitHub 連接器提供哪些工具。\n【routine】登入失效的 routine 會跳過排程直到重新登入；重連卡片同時以通知和 Slack／Microsoft Teams 私訊送達；routine 可讀取所在對話先前的內容。\n【其他】有連接器的網站會先用連接器而不是開瀏覽器；記憶分成人與組織、個人檔案、長期指示、專案；註冊須年滿 18 歲；訂機票會照各航空公司流程走，無法確認最終購買時改傳連結給你。\n【使用者反應】X 上 @pedrofragoso 說最喜歡的是讀取可自動跑、寄送或花錢要等核准的設定（作者說）。",
+   "links": [
+    [
+     "Grok Bot 官方更新紀錄（v1.2.3）",
+     "https://x.ai/changelog/bot"
+    ],
+    [
+     "X：@MichaelGannotti 談 routine 斷線處理",
+     "https://x.com/MichaelGannotti/status/2123747698167677268"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "連接器（connector）",
+     "讓 Bot 連到 Gmail、Slack 等外部服務的授權通道"
+    ],
+    [
+     "routine",
+     "Bot 的排程或觸發式自動任務"
     ]
    ]
   },
@@ -174,8 +206,33 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "教學",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "1 則：用 Meta 開發者後台＋Cloudflare Worker 中繼，讓 WhatsApp 新訊息自動喚醒 Bot 回覆並存名單。",
+   "updates": [
+    {
+     "title": "Elisa：10 步把 WhatsApp Business 接上 Grok Bot，新訊息透過 webhook routine 自動喚醒 Bot",
+     "short_title": "WhatsApp 訊息自動叫醒 Bot",
+     "date": "2026-11-20",
+     "one": "學到：WhatsApp 不能直接帶 Grok Bot 要的金鑰，作者用免費 Cloudflare Worker 當中繼轉送 webhook，Bot 收到新訊息就能草擬回覆、問篩選問題並把名單存到 Google Sheet 或 Notion；作者附可匯入的範本。",
+     "summary": "@eeelistar 11/20 晚間（台北）發文。步驟：1) developers.facebook.com 建 App，選「透過 WhatsApp 與顧客聯繫」並連到 Meta 商業帳號；2) 加 WhatsApp Business 號碼（可保留手機 App 繼續用）；3) 商業設定建「系統使用者」產生 token，抄下 token、WhatsApp 帳號 ID、電話號碼 ID；4) Grok Bot 加 WhatsApp Business 連接器貼上這三項；5) 請 Bot 建「每有新 WhatsApp 訊息就執行」的 webhook routine，複製網址與金鑰；6) Cloudflare 建 Worker 貼中繼程式、填入網址與金鑰；7) Meta 的 Webhook 設定填 Worker 網址並訂閱 messages；8) 告訴 Bot 每則訊息要做什麼；9) 注意 Meta 24 小時規則：超過 24 小時只能發預先核准的範本；10) 用另一支手機測試。作者說測試時應看到回覆草稿與存好的名單；未附量化成效。",
+     "links": [
+      [
+       "X 貼文",
+       "https://x.com/eeelistar/status/2123722662619017659"
+      ],
+      [
+       "作者範本：WhatsApp Receptionist Bot",
+       "https://grok-bot.directory/bots/whatsapp-receptionist"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "中繼（relay）",
+       "放在兩個服務中間轉送資料的小程式，用來補上對方不支援的欄位"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "columns": [],
@@ -251,10 +308,22 @@
    ]
   }
  ],
- "video": null,
+ "video": {
+  "youtube_id": "rQmu_PxHtkI",
+  "url": "https://www.youtube.com/watch?v=rQmu_PxHtkI",
+  "title": "The Smartest Way to Manage Your Grok Bots",
+  "channel": "Van Did This!",
+  "date": "2026-11-20",
+  "one": "約 6 分鐘示範：作者替 31 個 Grok Bot 用一段提示詞做出 3D 虛擬辦公室，免費架在 Cloudflare，每個 Bot 自己回報狀態卡，卡住的 Bot 一眼就看得到；片中也介紹其他使用者做的辦公室版本（作者說）。",
+  "thumb": {
+   "file": "vid-van-bot-office.webp",
+   "alt": "The Smartest Way to Manage Your Grok Bots 影片縮圖",
+   "credit": "Van Did This!（YouTube 縮圖）"
+  }
+ },
  "caveats": [
   "Gemini GIF 目前限美日韓英德法加澳八國，台灣暫不在名單；尾門研究為單一案例的學術成果。",
-  "名家專欄稍後補；松音 FB 以未登入公開檢視（headless Chrome）檢查。"
+  "名家專欄本期無合格內容；松音 FB 以未登入公開檢視（headless Chrome）檢查，頁面顯示無法使用、未取得貼文。"
  ],
  "leaderboards": {
   "snapshot": "2026-11-21",
