@@ -1,0 +1,614 @@
+{
+ "date": "2026-11-21",
+ "weekday": "週六",
+ "issue_no": 45,
+ "lede": "Gemini App 開放用影片模型 Omni 1.2 Flash 直接生成 GIF；Thinking Machines 放出筆電能跑的開源模型 Inkling 2 Mini。AI 汽車設計方面，有研究用生成式 AI 讓尾門減重 7.1%。文字榜前三名次互換，圖像、影片榜無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "genai-tailgate-closure",
+   "org": "學術研究",
+   "tag": "AI 汽車設計",
+   "topic": "ai-car-design",
+   "date": "2026-11-16",
+   "title": "生成式 AI 設計尾門：擴散模型＋流匹配產生參數組合，回到 CATIA 與 CAE 驗證，重量降 7.1%、最大位移降 29.4%",
+   "short_title": "生成式 AI 幫尾門減重又更剛",
+   "one": "研究團隊把量產用的 CATIA 尾門模型改成 13 個參數的範本，讓生成式 AI 提出設計組合、再丟回原生 CAD／CAE 驗證；折衷最佳解比原設計輕 7.1%、變形少 29.4%。",
+   "orig": "The knee-point design reduced mass and maximum displacement by 7.1% and 29.4%, respectively, relative to the baseline.",
+   "summary": "【誰在做】arXiv 2611.20451（11/16 提交），作者 Dongeon Lee、Namwoo Kang 等 8 人。\n【流程】1) 把量產導向的 CATIA 尾門總成改寫成 13 維參數範本；2) 自動化 CAD/CAE 流程從 200 組抽樣跑出 189 組有效的「設計—性能」資料（重量、最大位移、最大應力）；3) 用高斯過程回歸當代理模型預測性能，擴散模型與流匹配模型產生候選設計；4) 與傳統 NSGA-II 在相同評估預算下比較；5) 帕累托前緣候選全部回到 CATIA 重建、原生 CAE 重算，全部成功。\n【成效】折衷最佳點重量 −7.1%、最大位移 −29.4%；極端方案最多 −10.3% 重量、−37.3% 位移。\n【限制】是結構工程設計（尾門內部結構），不是外型造型；只在單一尾門案例驗證。",
+   "links": [
+    [
+     "arXiv：論文摘要",
+     "https://arxiv.org/abs/2611.20451"
+    ],
+    [
+     "arXivDaily：中文摘要",
+     "https://www.arxivdaily.com/papers/2611.20451"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "CAE",
+     "電腦輔助工程分析，用模擬算出零件受力、變形等性能"
+    ],
+    [
+     "帕累托前緣",
+     "在多個目標互相拉扯時，「改善一項就會犧牲另一項」的一組最佳折衷解"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-gif-omni",
+   "org": "Google",
+   "tag": "新功能",
+   "date": "2026-11-20",
+   "title": "Gemini App 可以直接做 GIF：由影片模型 Gemini Omni 1.2 Flash 生成約 3 秒循環動圖，八個國家免費",
+   "short_title": "Gemini 能自己做 GIF 了",
+   "one": "在 Gemini 主對話或影像／影片工具選「GIF」格式、描述畫面（可附圖片或影片當參考），就會生成約 3 秒的循環動圖，可直接複製或下載；美日韓英德法加澳免費、逐步推送。",
+   "orig": "Say hello to GIFs in Gemini... create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash.",
+   "summary": "【怎麼用】主對話直接要求，或選影像／影片工具後在格式選單選 GIF，輸入描述；可上傳最多 5 張圖與 1 段影片當參考，也能用 @ 帶入自己的虛擬分身。成品是約 3 秒、無聲的循環 GIF，可複製、下載 .gif。\n【哪裡能用】@GeminiApp 說所有 Google AI 訂閱者可用，且在美國、日本、韓國、澳洲、加拿大、英國、德國、法國免費；Google 說明頁註明逐步推送、未滿 18 歲不可用。\n【背景】Android Authority 指出 OpenAI 約兩週前已讓 ChatGPT 能做 GIF；AlphaSignal 提到 Omni 1.2 Flash 的 API 720p 價格降 30% 至每秒約 0.07 美元，但沒有專用 GIF 端點。台灣目前不在名單內。",
+   "links": [
+    [
+     "X：@GeminiApp 宣布",
+     "https://x.com/GeminiApp/status/2123813017855103449"
+    ],
+    [
+     "Google 說明：用 Gemini 生成影片與 GIF",
+     "https://support.google.com/gemini/answer/16126339?hl=en"
+    ],
+    [
+     "The Verge",
+     "https://www.theverge.com/tech/1038771/googles-gemini-app-can-now-make-gifs"
+    ],
+    [
+     "Android Authority",
+     "https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Gemini Omni 1.2 Flash",
+     "Google 最新的影片生成模型，也能編輯、延長影片"
+    ]
+   ]
+  },
+  {
+   "id": "inkling-2-mini",
+   "org": "Thinking Machines Lab",
+   "tag": "開源",
+   "date": "2026-11-20",
+   "title": "Thinking Machines 開放 Inkling 2 Mini：26.4B MoE、約 20GB 記憶體可在筆電跑，Apache 2.0 授權",
+   "short_title": "Inkling 2 Mini：筆電能跑的開源模型",
+   "one": "Thinking Machines Lab 釋出小型開源模型 Inkling 2 Mini，總記憶體約 20GB、能在筆電離線跑，官方說在 100B 以下開源模型中寫程式代理類測試領先；Ollama、llama.cpp、MLX 首日支援。",
+   "orig": "Today we are releasing Inkling 2 Mini, a fast, powerful model that’s small enough to run on your laptop.",
+   "summary": "【規格】MoE 架構，總參數 26.4B、每個 token 啟用 3.4B；中間 12 層會重複跑 3 次（looped transformer），等於用 24 層實體做出 48 層的推理深度。主要權重原生 NVFP4、最後 4 層 MXFP8，總記憶體約 20GB；支援 1M token 上下文，可輸入圖片與文字。\n【官方成績】DeepSWE v1.1 48.2%、Vals Index v2.2 46.5%，官方說領先所有 100B 以下的開源模型；Hugging Face 團隊的主觀試用認為至少與 Qwen 3.8 27B 相當，並說還需要更多驗證。官方示範在飛機上用 MacBook Pro 離線做出可玩的飛行模擬器。\n【哪裡能用】Hugging Face 權重（Apache 2.0）；Tinker 推論與微調；開源推論支援 SGLang、vLLM、Ollama、Unsloth、Llama App（llama.cpp）、MLX。",
+   "links": [
+    [
+     "Thinking Machines 官方公告",
+     "https://thinkingmachines.ai/news/inkling-2-mini/"
+    ],
+    [
+     "Hugging Face 部落格",
+     "https://huggingface.co/blog/inkling2mini"
+    ],
+    [
+     "Hugging Face 模型卡",
+     "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+    ]
+   ],
+   "image": {
+    "file": "inkling2mini.webp",
+    "alt": "Inkling 2 Mini 登上 Hugging Face 的宣傳圖",
+    "credit": "Hugging Face 部落格",
+    "credit_url": "https://huggingface.co/blog/inkling2mini"
+   },
+   "gloss": [
+    [
+     "MoE（混合專家）",
+     "模型裡有很多「專家」子網路，每次只叫用其中幾個，所以跑起來比總參數量看起來輕"
+    ],
+    [
+     "looped transformer",
+     "把同一組中間層重複跑好幾次，用較少參數換更深的推理"
+    ]
+   ]
+  },
+  {
+   "id": "chatgpt-business-agents-intl",
+   "org": "OpenAI",
+   "tag": "平台",
+   "date": "2026-11-21",
+   "title": "ChatGPT Business Hub 擴大：美國以外的電商與線上服務業者也能認領商家、發布 Business Agent",
+   "short_title": "非美國商家也能在 ChatGPT 開代理",
+   "one": "OpenAI 宣布美國以外的電商與線上服務業者，現在也能在 ChatGPT 認領自家商家頁、發布 Business Agent，回答顧客問題並放上即時價格與庫存。",
+   "orig": "Ecommerce and online service businesses based outside the U.S. are now eligible to claim their business and publish agents in ChatGPT.",
+   "summary": "【內容】@OpenAI 11/21 凌晨（台北）在 Business Hub 串文補充：美國以外的電商與線上服務商家可認領商家並在 ChatGPT 發布代理。依 11/10 的原串文，通過驗證後可建立 Business Agent、更新商家資料、上傳含即時價格與庫存的商品資料，並看到 ChatGPT 中提及自家商家的彙整數據。\n【限制】貼文只說「電商與線上服務」類別；實體店等其他類別與各國開放細節未說明。",
+   "links": [
+    [
+     "X：@OpenAI 公告",
+     "https://x.com/OpenAI/status/2123861461877588180"
+    ],
+    [
+     "X：Business Hub 原串文（11/10）",
+     "https://x.com/OpenAI/status/2120216596753121411"
+    ]
+   ],
+   "image": null,
+   "gloss": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-flux-kontext-dev",
+   "title": "ComfyUI 跑 FLUX.1 Kontext Dev：用一句話在本機修改圖片，保留角色與構圖",
+   "learn": "學會下載 Kontext Dev 所需的 4 個模型檔、載入官方範本，上傳一張圖並用文字指令做局部修改或換風格。",
+   "level": "入門",
+   "vram": "官方頁未列最低顯存；模型為 12B 參數，官方提供 fp8 版本權重",
+   "kind": "模型教學",
+   "gloss": [
+    [
+     "FLUX.1 Kontext",
+     "Black Forest Labs 的圖像編輯模型，可以同時讀圖片和文字指令，只改你指定的地方"
+    ],
+    [
+     "fp8",
+     "把權重壓成 8 位元的格式，檔案和記憶體需求比原始權重小"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版（範本找不到或缺節點，多半是版本太舊）。",
+    "在「工作流程範本」找到 FLUX.1 Kontext Dev 範本，或從官方頁拖入範例圖。",
+    "下載模型：擴散模型 flux1-dev-kontext_fp8_scaled.safetensors、VAE ae.safetensors、文字編碼器 clip_l.safetensors 與 t5xxl（fp16 或 fp8 版），依頁面說明放進 models 對應資料夾。",
+    "在 Load Image 上傳要改的圖，在提示詞寫修改指令（例如換顏色、換背景），執行即可；可以把結果再當輸入繼續疊加修改。",
+    "Dev 版主要供研究用；要更高品質可改用 Partner Nodes 呼叫 Pro／Max（API 付費）。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：FLUX.1 Kontext Dev",
+     "https://docs.comfy.org/tutorials/flux/flux-1-kontext-dev"
+    ],
+    [
+     "ComfyUI 官方：更新 ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  },
+  {
+   "id": "tut-hunyuan3d-2",
+   "title": "ComfyUI 跑 Hunyuan3D 2：用正面圖（或多視角圖）生成 3D 網格 .glb",
+   "learn": "學會載入 Hunyuan3D-2mv／2.1 官方範例工作流，從一張或多張視角圖產生可匯出的 3D 模型。",
+   "level": "中階",
+   "vram": "官方頁：2mini 約 5GB、標準版形狀生成約 6GB、形狀＋貼圖完整流程約 12GB（ComfyUI 原生目前只支援形狀）",
+   "kind": "模型教學",
+   "gloss": [
+    [
+     "多視角輸入",
+     "同一物件的正面、側面、背面照片一起給模型，讓 3D 形狀更準"
+    ],
+    [
+     ".glb",
+     "常見的 3D 模型檔格式，Blender 等軟體都能開"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI 到最新版，打開工作流程範本或把官方頁的範例 PNG 直接拖進 ComfyUI（圖裡內含工作流程）。",
+    "依提示下載模型；四種範例：2mv、2mv-turbo（多視角）、Hunyuan3D-2 與 2.1（單張圖）。",
+    "上傳正面圖（多視角版可再加左、後視圖，非必要）。",
+    "執行後 .glb 會輸出到 ComfyUI/output/mesh；ComfyUI 原生目前只產生形狀、不含貼圖材質。",
+    "想要貼圖可參考騰訊官方 GitHub 的完整流程（約需 12GB 顯存）。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Hunyuan3D 2.0／2.1",
+     "https://docs.comfy.org/tutorials/3d/hunyuan3D-2"
+    ],
+    [
+     "GitHub：Tencent Hunyuan3D-2",
+     "https://github.com/Tencent/Hunyuan3D-2"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "Gemini GIF 目前限美日韓英德法加澳八國，台灣暫不在名單；尾門研究為單一案例的學術成果。",
+  "名家專欄稍後補；松音 FB 以未登入公開檢視（headless Chrome）檢查。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-21",
+  "compared_to": "2026-11-20",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-21",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-11",
+    "status": "changed",
+    "compared_to": "2026-11-20",
+    "diff": {
+     "summary": [
+      "Gemini 4 Carbon (high): #1→#1 (0 名), 1538→1539 (+1)",
+      "Gemini 4 Argon (high): #3→#2 (+1 名), 1529→1528 (-1)",
+      "Gemini 4 Neon (high): #2→#3 (-1 名), 1530→1524 (-6)",
+      "Claude Opus 5.5 (high): #4→#4 (0 名), 1514→1513 (-1)"
+     ],
+     "dropped": []
+    },
+    "dropped": [],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ],
+    "analysis": "LMArena 11/19 更新的資料中，Gemini 4 Carbon 以 1539 分續居第 1。前一天新進第 2 的 Gemini 4 Neon 掉 6 分到 1524，被 Gemini 4 Argon（1528）超車退到第 3，Google 仍包辦前三。第 4 到第 10 名的 Claude、Muse、Gemini 4 Hydrogen 名次不變，分數只差 1 分內的微調。前 10 名沒有新面孔，Neon 剛上榜、票數還少，分數先回落是常見現象。",
+    "analysis_short": "Gemini 4 Neon 回落 6 分退到第 3，Gemini 4 Argon 升上第 2；前 10 名沒有新面孔。"
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-21",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-21",
+    "status": "unchanged",
+    "compared_to": "2026-11-20",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1262 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1216 (+2)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1194 (+2)",
+      "Kling Image 4.0: #7→#7 (0 名), 1180→1181 (+1)",
+      "MAI-Image-2.6: #9→#9 (0 名), 1168→1169 (+1)",
+      "Grok Imagine Image 2.0: #10→#10 (0 名), 1167→1166 (-1)"
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-21",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-21",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-20",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1174→1176 (+2)",
+      "Utopai X: #2→#2 (0 名), 1168→1170 (+2)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1159→1161 (+2)",
+      "Dreamina Seedance 2.5: #4→#4 (0 名), 1156→1157 (+1)",
+      "Hyperflow H3: #5→#5 (0 名), 1154→1155 (+1)",
+      "Gemini Omni Flash 1.2: #7→#6 (+1 名), 1151→1154 (+3)",
+      "FLUX 3 Max: #6→#7 (-1 名), 1152→1150 (-2)",
+      "HeyGen Video 1: #8→#8 (0 名), 1149→1148 (-1)",
+      "MiniMax H3 Max: #9→#9 (0 名), 1143→1145 (+2)",
+      "FLUX 3: #10→#10 (0 名), 1136→1138 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
