@@ -2,7 +2,7 @@
  "date": "2026-11-22",
  "weekday": "週日",
  "issue_no": 46,
- "lede": "Anthropic 數學家宣布與 Claude 合作證明黎曼猜想，1,700 萬行 Lean 證明已獲社群認證；Grok Bot 接上 QuickBooks，Tesla 推送 FSD V15。三張榜單本週無重大變化。",
+ "lede": "Anthropic 數學家宣布與 Claude 合作證明黎曼猜想，1,700 萬行 Lean 證明已獲社群認證；Grok Bot 接上 QuickBooks，Tesla 推送 FSD V15。三張榜單本週無重大變化，名家專欄有 T8 的 H3 Image 混合精度跑法。",
  "closed": [],
  "open": [],
  "news": [],
@@ -165,11 +165,78 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "教學",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "1 則：Brock Mesarich 49 分鐘「7 個等級」課程，從傳訊息、接 App 到多 Bot 團隊與省用量技巧。",
+   "updates": [
+    {
+     "title": "Brock Mesarich〈GROK BOT FULL COURSE: All 7 Levels Explained〉：從第一則訊息到多 Bot 團隊的 7 個等級",
+     "short_title": "Grok Bot 7 等級完整課程",
+     "date": "2026-11-16",
+     "one": "學到：作者把用法分成 7 級（傳訊息→接 App→指揮中心→自動駕駛→記憶與技能→範本→Bot 團隊），每級附實際操作示範，例如把 SOP 變成 Bot、把 YouTube 影片轉成輪播圖、一則筆記分給五個 Bot；片尾有省用量技巧（作者說）。",
+     "summary": "影片約 49.5 分鐘，11/16（台北）上傳，觀看約 7.3 萬。章節包含：Level 1 直接傳訊息、從 Mac 瀏海列跟 Bot 對話；Level 2 接上 App（多帳號、購物卡片、替每個 Bot 換外觀、SOP 轉 Bot、內容團隊、YouTube 轉輪播）；Level 3 Agent 指揮中心（表格回答、會議記錄 Bot）；Level 4 自動駕駛（一則筆記五個 Bot、Pages、共用資料庫）；Level 5 記憶與技能；Level 6 範本；Level 7 Bot 團隊，以及「Grok Bot 團隊怎麼用」「Claude Code 常駐」「降低用量」等技巧。注意：說明欄有多個第三方工具的推廣連結，片中部分段落示範這些工具（Higgsfield、Fish Audio、Gamma 等），屬作者個人選擇。",
+     "links": [
+      [
+       "YouTube：GROK BOT FULL COURSE: All 7 Levels Explained",
+       "https://www.youtube.com/watch?v=bH2x8jtHyXM"
+      ]
+     ],
+     "image": {
+      "file": "gb-brock-7levels.webp",
+      "alt": "GROK BOT FULL COURSE 影片縮圖",
+      "credit": "Brock Mesarich | AI for Non Techies（YouTube 縮圖）",
+      "credit_url": "https://www.youtube.com/watch?v=bH2x8jtHyXM"
+     },
+     "gloss": [
+      [
+       "SOP",
+       "標準作業流程，把一件工作固定的步驟寫下來"
+      ]
+     ]
+    }
+   ]
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-t8-h3-mlp100",
+   "creator": "T8star-Aix",
+   "creator_key": "t8star-aix",
+   "platform": "YouTube",
+   "date": "2026-11-21",
+   "title": "T8 開源 MiniMax H3 Image 混合精度（QKV BF16）模型＋MLP100 修正 LoRA＋單頭注意力節點：50 步、CFG 3 效果對比",
+   "short_title": "H3 Image 混合精度＋MLP100 修正",
+   "orig": "T8开源最强Minimax H3 Image混合精度QKV BF16模型+100MLP微调Lora+单头注意力节点，50步 CFG3效果对比测评",
+   "one": "作者放出自己調整的 MiniMax H3 Image 本地跑法：混合精度模型搭配一個修正用 LoRA 與專用節點，並提醒很多人下載後直接用的方式不對。",
+   "points": [
+    "說明欄寫明：除了 BF16 模型外還有其他注意事項，作者說很多人下載直接用是不對的，務必照設定。",
+    "「單頭節點」決定模型用哪個輸出頭做去噪預測；MLP100 是訓練出來的修正 LoRA，負責修改模型內部 100 個前饋線性層的計算。",
+    "「Bypass 載入器」負責把 MLP100 的修正加到這些層的輸出上；建議 CFG 3、50 步，獨立的 sigma 排程已放進工作流裡。",
+    "影片約 7.5 分鐘，內容為效果對比測評（作者實測）。"
+   ],
+   "url": "https://www.youtube.com/watch?v=-DhCCqoneOU",
+   "image": {
+    "file": "col-t8-h3-mlp100.webp",
+    "alt": "T8star-Aix MiniMax H3 Image 混合精度模型影片縮圖",
+    "credit": "T8star-Aix（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=-DhCCqoneOU"
+   },
+   "links": [
+    [
+     "ComfyUI 官方：MiniMax H3 Image",
+     "https://docs.comfy.org/tutorials/image/minimax/minimax-h3-image"
+    ]
+   ],
+   "gloss": [
+    [
+     "混合精度",
+     "模型不同部位用不同位數存放（例如注意力 QKV 用 BF16、其餘壓更小），在檔案大小與畫質間取平衡"
+    ],
+    [
+     "CFG",
+     "提示詞引導強度，數字越高越貼近提示詞，但太高畫面容易過度"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-z-image",
