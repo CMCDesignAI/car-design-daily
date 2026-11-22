@@ -1,0 +1,599 @@
+{
+ "date": "2026-11-22",
+ "weekday": "週日",
+ "issue_no": 46,
+ "lede": "Anthropic 數學家宣布與 Claude 合作證明黎曼猜想，1,700 萬行 Lean 證明已獲社群認證；Grok Bot 接上 QuickBooks，Tesla 推送 FSD V15。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "claude-riemann-proof",
+   "org": "Anthropic",
+   "tag": "重大突破",
+   "date": "2026-11-21",
+   "title": "Anthropic 數學家 Levent Alpöge 宣布與 Claude 合作證明黎曼猜想，1,700 萬行 Lean 形式化證明獲 Lean／Mathlib 社群認證",
+   "short_title": "Claude 協助證明黎曼猜想",
+   "one": "困擾數學界 160 多年的黎曼猜想，有人說用 Claude 找出了證明，並交出可由電腦逐行檢查的程式碼；Lean 與 Mathlib 社群已認證證明正確，但人類要真正讀懂可能還要好幾年。",
+   "orig": "We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement.",
+   "summary": "【誰、做了什麼】Anthropic 的數學家 Levent Alpöge 11/20（美東）在個人網站貼出 4 頁短文，說他與 Claude 合作約六週找到黎曼猜想的證明；同時公開約 1,700 萬行的 Lean 程式庫（175,187 個檔案），也涵蓋 Dirichlet L 函數的廣義黎曼猜想。Science 報導他說 AI 產生的完整說明超過 25 萬頁，尚未公開。\n【驗證】11/21 Lean 與 Mathlib 社群（Lean FRO、Mathlib Initiative 背書）發表聯合聲明：程式庫可正常編譯、證明的定理與 Mathlib 內的黎曼猜想敘述完全一致（兩套工具比對），並經 Lean 官方核心與多個獨立檢查器驗證，宣布「完全確信證明正確」。滑鐵盧大學 Michael Rubinstein 也用 Claude Code 重跑檢查，175,187 個模組全部通過，只依賴 Lean 三個標準公理。\n【限制】證明正確不等於人看得懂：Science 引述數學家說，要從這堆程式碼整理出人類能理解的想法可能要好幾年。另有數學家 Alessandro Masullo（與 Stanford 的 Brian Conrad）趕在同日公開一份不用 AI、約 940 頁的人工證明草稿，尚未驗證。",
+   "links": [
+    [
+     "Lean 社群聯合聲明（2026-11-21）",
+     "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    ],
+    [
+     "The Guardian 報導",
+     "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+    ],
+    [
+     "Nature 報導",
+     "https://www.nature.com/articles/d41586-026-03812-7"
+    ],
+    [
+     "Rubinstein：Alpöge／Claude 證明的檢查紀錄",
+     "https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "黎曼猜想",
+     "1859 年提出、關於質數分布規律的數學猜想，是最有名的未解難題之一"
+    ],
+    [
+     "Lean",
+     "一種「證明輔助」程式語言，數學證明寫成程式後可由電腦逐步檢查有沒有錯"
+    ]
+   ]
+  },
+  {
+   "id": "grok-bot-quickbooks",
+   "org": "SpaceXSI",
+   "tag": "平台更新",
+   "date": "2026-11-21",
+   "title": "Grok Bot 新增 Intuit QuickBooks 連接器：問現金流、獲利、誰還欠款，並草擬發票、報價與催款提醒給你核准",
+   "short_title": "Grok Bot 接上 QuickBooks 記帳",
+   "one": "官方 @bot 宣布：連上 QuickBooks 後可以直接問 Bot 公司帳務狀況，也能讓它先擬好發票、報價單和付款提醒，由你確認後才送出。",
+   "orig": "Grok Bot now connects to Intuit QuickBooks.",
+   "summary": "【官方說法】@bot 11/21 02:04（台北）發文：可詢問現金流、獲利、哪些客戶還沒付款；可草擬發票（invoice）、報價（estimate）與付款提醒，交給你核准。\n【意義】延續近期 Google Search Console、Google Ads、Analytics 等連接器擴充，記帳是小公司最常見的重複工作之一。\n【限制】官方貼文未說明支援地區與方案；需要你本來就在用 QuickBooks。",
+   "links": [
+    [
+     "X：@bot 官方宣布",
+     "https://x.com/bot/status/2123840024747946383"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "QuickBooks",
+     "Intuit 出的雲端會計記帳軟體，小型企業常用"
+    ]
+   ]
+  },
+  {
+   "id": "tesla-fsd-v15",
+   "org": "Tesla",
+   "tag": "AI 駕駛",
+   "date": "2026-11-22",
+   "title": "Tesla FSD V15 開始推送：端對端駕駛網路全面升級，新的 Reality View 視覺化讓你看到並點選 FSD 要去哪",
+   "short_title": "Tesla FSD V15 推送",
+   "one": "Tesla 的自動輔助駕駛 FSD 推出 V15：官方說處理安全關鍵狀況好 25 倍，車機畫面改成像遊戲的即時 3D 視角，點畫面上的位置就能讓車開過去（Musk 說）。",
+   "orig": "v15 upgrades every part of the end-to-end driving network.",
+   "summary": "【官方發布說明（@TeslaSI 轉貼）】視覺編碼器升級，由 FSD、Robotaxi 與 Optimus 共用，用數百萬支網路影片訓練，關鍵介入率改善 25 倍；新增 Tesla Reality View，把原本分散的模型訊號改成單一端對端視覺化，總運算量更少；出發與抵達段的導航改由車隊路線偏好資料端對端學習（之後版本擴到全程）；停車位置參考個人停車紀錄、地圖顯示多個停車選項；駕駛監控戴帽子或墨鏡也較能使用；改善路標、小動物、路面碎片、坑洞、積水偵測與學區、天候的速度控制；新增測速照相減速與 Bike Rack Mode。\n【Musk 說法】Musk 稱可以點 Reality View 上任一點讓車開過去，並說新架構「配得上叫超級智慧」（作者說，未有第三方實測）。\n【限制】逐步推送中，地區與車型未在貼文說明。",
+   "links": [
+    [
+     "X：@TeslaSI 完整發布說明",
+     "https://x.com/TeslaSI/status/2124229673056113100"
+    ],
+    [
+     "X：Musk 談 Reality View",
+     "https://x.com/elonmusk/status/2124238164512714925"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "端對端（end-to-end）",
+     "從鏡頭畫面直接學到駕駛動作，中間不靠人寫的規則分段處理"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-transcribe-voice-edit",
+   "org": "Google",
+   "tag": "API 更新",
+   "date": "2026-11-17",
+   "title": "Gemini 3.5 Transcribe 加入「用說的改文字」：口述修改、改語氣、轉條列，也能修改你貼進去的既有文稿",
+   "short_title": "Gemini 語音轉文字可用說的改稿",
+   "one": "Google 的語音轉文字模型 Gemini 3.5 Transcribe 在 SMART 模式下，可以聽懂「把時間改成三點半」「改正式一點」這類口頭指令，直接改好整段文字；開發者可在 Gemini API 使用。",
+   "orig": "gemini-3.5-transcribe and gemini-3.5-transcribe-live now support voice-driven editing, rewriting, and formatting of dictated speech or pre-existing text (source_text).",
+   "summary": "【更新內容】Gemini API 更新紀錄 11/17：gemini-3.5-transcribe（檔案）與 gemini-3.5-transcribe-live（即時串流）支援語音編輯，可改寫、格式化口述內容或事先傳入的文字（source_text，最多 64 KiB）。SMART 模式預設開啟，會去掉贅字、套用口誤更正、自動排列表與日期數字。\n【限制】即時版每段 10 分鐘；檔案版最長 1 小時（開說話者分離或逐字時間戳時 30 分鐘）；語音編輯只在 SMART 模式；每次請求互相獨立，要連續修改需把上次輸出再傳回去。支援 85 種以上語言自動偵測。\n【哪裡用】Google AI Studio／Gemini API；價格見官方定價頁。",
+   "links": [
+    [
+     "Gemini API 更新紀錄",
+     "https://aistudio.google.com/docs/changelog"
+    ],
+    [
+     "官方：Gemini 3.5 Transcribe 模型頁",
+     "https://aistudio.google.com/docs/models/gemini-3.5-transcribe"
+    ],
+    [
+     "官方：Live 即時轉寫與語音編輯",
+     "https://aistudio.google.com/docs/live-api/live-transcribe"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "API",
+     "讓程式呼叫雲端服務的介面，給開發者串進自己的 App 用"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-z-image",
+   "title": "ComfyUI 跑 Z-Image：阿里通義 6B 文生圖基礎模型，中英文字都能畫對",
+   "learn": "學會下載 Z-Image 的 3 個模型檔、放進正確資料夾，用官方範本跑出第一張寫實圖。",
+   "level": "入門",
+   "vram": "官方頁未列最低顯存；模型為 6B 參數（bf16 權重），依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "Z-Image（造相）",
+     "阿里巴巴通義實驗室的 6B 參數文生圖模型，擅長寫實與中英文字"
+    ],
+    [
+     "基礎模型（Base）",
+     "未經蒸餾加速的原始版本，適合拿來再微調"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版；範本找不到或缺節點，多半是版本太舊。",
+    "在「工作流程範本」找 Z-Image 文生圖範本，或從官方頁下載工作流 JSON 拖進 ComfyUI。",
+    "下載 3 個檔案：文字編碼器 qwen_3_4b.safetensors 放 models/text_encoders；擴散模型 z_image_bf16.safetensors 放 models/diffusion_models；VAE ae.safetensors 放 models/vae。",
+    "在提示詞輸入想要的畫面（可含中英文字），按執行；官方說 Base 版對負面提示詞有反應、生成多樣性高。",
+    "想要更快出圖可另找 Z-Image Turbo（官方另有教學頁）；Base 版主要用來微調。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Z-Image",
+     "https://docs.comfy.org/tutorials/image/z-image/z-image"
+    ],
+    [
+     "ComfyUI 官方：更新 ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  },
+  {
+   "id": "tut-qwen-image-edit-2511",
+   "title": "ComfyUI 跑 Qwen-Image-Edit-2511：用參考圖換材質、用 3D 相機節點換拍攝角度",
+   "learn": "學會用官方範本做「材質替換」（例如把皮革沙發換成毛料）和「同一物件換角度重拍」，適合產品與 CMF 提案草圖。",
+   "level": "中階",
+   "vram": "官方頁未列最低顯存；文字編碼器為 7B fp8、擴散模型為 bf16 權重，依原頁為準",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "CMF",
+     "Color, Material, Finish：產品的顏色、材料與表面處理設計"
+    ],
+    [
+     "Lightning LoRA",
+     "把生成步數壓到 4 步左右的加速外掛權重，速度快但細節可能略降"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，在範本庫搜尋「Qwen-Image-Edit-2511」。",
+    "下載模型：qwen_2.5_vl_7b_fp8_scaled.safetensors（text_encoders）、qwen_image_edit_2511_bf16.safetensors（diffusion_models）、qwen_image_vae.safetensors（vae）；想加速再放 Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors 到 loras（選用）。",
+    "材質替換：在兩個 Load Image 分別上傳物件圖與材質圖（官方範例是皮沙發＋毛料紋理），執行後得到換好材質的物件。",
+    "換角度：載入「Generate Multiple Angles with 3D Camera Node」範本，上傳一張圖，在 Compose Camera Angle Prompt 節點的 3D 視窗拖到想要的角度，節點會自動寫好鏡頭描述。",
+    "官方說 2511 版改善了編輯時畫面漂移與人物一致性，並加強工業設計批次生成與材質替換。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Qwen-Image-Edit-2511",
+     "https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit-2511"
+    ],
+    [
+     "ComfyUI 官方：更新 ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "黎曼猜想的 Lean 證明已通過機器驗證，但人類可讀的完整說明尚未公開；FSD V15 的 25 倍改善為 Tesla 自家數字。",
+  "本期 AI 輔助汽車設計近 7 天無新的合格案例（小鵬、Ford、BMW、Nissan 均已報過）。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-22",
+  "compared_to": "2026-11-21",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-22",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-19",
+    "status": "unchanged",
+    "compared_to": "2026-11-21",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "dropped": [],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-22",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-22",
+    "status": "unchanged",
+    "compared_to": "2026-11-21",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1263 (+2)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1229→1230 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1215 (+1)",
+      "GPT Image 2.5 Flare (max): #5→#5 (0 名), 1210→1209 (-1)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1194 (+2)",
+      "Kling Image 4.0: #7→#7 (0 名), 1180→1181 (+1)",
+      "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)"
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-22",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-21",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1174→1175 (+1)",
+      "Utopai X: #2→#2 (0 名), 1168→1170 (+2)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1159→1162 (+3)",
+      "Hyperflow H3: #5→#5 (0 名), 1154→1155 (+1)",
+      "Gemini Omni Flash 1.2: #7→#6 (+1 名), 1151→1153 (+2)",
+      "FLUX 3 Max: #6→#7 (-1 名), 1152→1149 (-3)",
+      "HeyGen Video 1: #8→#8 (0 名), 1149→1147 (-2)",
+      "MiniMax H3 Max: #9→#9 (0 名), 1143→1144 (+1)",
+      "FLUX 3: #10→#10 (0 名), 1136→1138 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
