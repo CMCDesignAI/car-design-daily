@@ -2046,7 +2046,7 @@
       "image": null,
       "excerpt": "Mercedes-AMG has introduced the new AMG GT SUV, marking an important milestone in the performance division’s... The post Mercedes-AMG GT SUV: Bringing Supercar Performance to the Electric SUV appeared first on Car Design TV .",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "craft": 19,
       "craft_news": 18,
       "craft_ok": true,
@@ -5717,6 +5717,22 @@
       "image": "https://motor-fan.jp/wp-content/uploads/2025/06/mf-ogp-2025.png",
       "excerpt": "バッテリーパックのアルミ製エンクロージャー（外枠トレイ）を深絞りプレス加工や押出材の溶接で成形する際、材料の割れやシワを防ぐために、四隅のコーナー部分にはどうしても大きめの丸み（R：曲率半径）をつける必要がある。しかし、 […]",
       "added": "2026-11-21",
+      "used": false,
+      "language": "ja"
+    },
+    "mft-1685058": {
+      "id": "mft-1685058",
+      "source": "Motor-Fan TECH",
+      "credit": "Motor-Fan TECH",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Motor-Fan TECH",
+      "title_en": "金属芯材を捨てて従来比44％軽量化。クーパー・スタンダードが実用化した完全樹脂製ドアシール「FlexiCore」の構造",
+      "date": "2026-11-21",
+      "url": "https://motor-fan.jp/article/1685058/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/Cooper-Standard-FlexiCore-Body-Sealing-Technology-Named-2026-SPE-Automotive-Innovation-Award-Winner.jpg?v=1795215818",
+      "excerpt": "ドアやトランクの開口部に装着されるウェザーストリップ（ボディシール）は、車体鉄板のフランジにしっかり挟み込んで固定するため、EPDM（エチレンプロピレンジエンゴム）の内部に「金属製の骨格（アルミや鋼板のインサート芯材）」 […]",
+      "added": "2026-11-22",
       "used": false,
       "language": "ja"
     }

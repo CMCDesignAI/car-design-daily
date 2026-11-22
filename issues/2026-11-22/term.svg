@@ -1,0 +1,40 @@
+<svg class="diagram" viewBox="0 0 520 330" width="100%" role="img" aria-label="前保桿導流翼片示意：從正前方看跑車，前保桿兩側角落各有兩片向外伸出的小翼片，氣流打在翼片上把車頭往下壓，以 Ferrari 296 Challenge Stradale 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M190 92 Q200 70 260 68 Q320 70 330 92"/>
+    <path d="M170 132 L190 92 L330 92 L350 132"/>
+    <path d="M200 98 L320 98 L336 128 L184 128 Z" stroke-width="1.6"/>
+    <path d="M120 170 Q124 140 170 132 L350 132 Q396 140 400 170"/>
+    <path d="M120 170 L114 224 Q114 236 128 236 L392 236 Q406 236 406 224 L400 170"/>
+    <path d="M142 168 L196 176 L192 186 L140 180 Z" stroke-width="1.8"/>
+    <path d="M378 168 L324 176 L328 186 L380 180 Z" stroke-width="1.8"/>
+    <path d="M210 196 L310 196 L300 222 L220 222 Z" stroke-width="1.6"/>
+    <path d="M128 236 L392 236" />
+    <path d="M150 248 L370 248" stroke-width="1.6"/>
+    <rect x="132" y="236" width="34" height="34" rx="6"/>
+    <rect x="354" y="236" width="34" height="34" rx="6"/>
+    <path d="M24 272 L496 272" stroke-width="1.4" stroke-dasharray="4 5"/>
+  </g>
+  <g fill="none" stroke="#f08a5d" stroke-width="3" stroke-linecap="round">
+    <path d="M118 204 L92 200 M118 216 L90 214"/>
+    <path d="M402 204 L428 200 M402 216 L430 214"/>
+  </g>
+  <g fill="none" stroke="#f08a5d" stroke-width="2" stroke-dasharray="6 5">
+    <path d="M40 150 Q80 170 96 196"/>
+    <path d="M480 150 Q440 170 424 196"/>
+    <path d="M260 34 L260 60"/>
+  </g>
+  <g fill="#f08a5d">
+    <path d="M96 196 L86 190 L92 186 Z"/>
+    <path d="M424 196 L434 190 L428 186 Z"/>
+    <path d="M260 62 L254 52 L266 52 Z"/>
+  </g>
+  <g fill="#f08a5d" font-size="15" font-family="sans-serif">
+    <text x="20" y="246">① 導流翼片</text>
+    <text x="400" y="246">① Dive plane</text>
+    <text x="20" y="140">② 迎面氣流</text>
+    <text x="272" y="44">③ 車頭被往下壓（下壓力）</text>
+  </g>
+  <g fill="currentColor" font-size="13" font-family="sans-serif" opacity="0.8">
+    <text x="20" y="300">例：Ferrari 296 Challenge Stradale 前保桿兩側的 dive planes 取自賽車版 296 Challenge Evo</text>
+  </g>
+</svg>

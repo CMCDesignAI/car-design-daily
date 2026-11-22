@@ -1,0 +1,804 @@
+{
+ "date": "2026-11-22",
+ "weekday": "日",
+ "issue_no": 46,
+ "lede": "Ferrari 拆掉油電系統、把賽車空力直接外露，推出 296 Challenge Stradale；比亞迪全新漢實車曝光，Maserati 新 GranCabrio 與 Grecale 在日本亮相。設計專欄看 Mercedes-AMG GT SUV 如何用寬度與肩部量體，把 GT 比例放進大型電動休旅。",
+ "design_news": [
+  {
+   "id": "ferrari-296cs",
+   "tag": "全球首發 · 義大利",
+   "date": "2026-11-21",
+   "brand": "Ferrari",
+   "title": "Ferrari 296 Challenge Stradale：拆掉油電系統、外露賽車空力的公路版",
+   "orig": "Ferrari 296 Challenge Stradale Is the Purest Prancing Horse in Years",
+   "summary": "Ferrari 11/21 在巴塞隆納賽道同時發表 296 Challenge Stradale 與賽車 296 Challenge Evo。公路版拿掉 296 GTB 的電池與電動馬達，只留 3.0 升雙渦輪 V6（670 匹），減重約 140 公斤；Challenge Stradale 之名是 360 CS 停產後首度回歸，義大利售價 29.1 萬歐元。",
+   "analysis": [
+    [
+     "空力外露",
+     "碳纖維尾翼、前保桿導流翼片、可調前下擾流與開孔引擎蓋幾乎直接取自賽車版，只為公路法規做了調整。"
+    ],
+    [
+     "引擎蓋開孔",
+     "擋風玻璃前的兩個開孔把兩具前置散熱器的熱氣導過車頂往後排，減少離地高度變化造成的空力波動。"
+    ],
+    [
+     "尾翼致敬",
+     "固定式尾翼造型呼應 F40；配合平整化底盤與前三對、後兩對渦流產生器，250 km/h 時下壓力約 617 公斤。"
+    ],
+    [
+     "純粹化",
+     "引擎室裡不再有橘色高壓線；後網罩重新出現 Challenge Stradale 字樣，強調最接近賽車的公路 Ferrari。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car and Driver（11/21）",
+     "https://www.caranddriver.com/news/a74498034/ferrari-296-challenge-stradale-revealed/"
+    ],
+    [
+     "Motor Sport（11/21）",
+     "https://www.motorsportmagazine.com/articles/road-cars/we-eliminated-everything-hybrid-ferrari-unveils-raw-296-challenge-stradale/"
+    ]
+   ],
+   "image": {
+    "file": "news-ferrari-296cs.jpg",
+    "alt": "白色 296 Challenge Stradale 在賽道彎道的車尾，碳纖維尾翼與雙出排氣",
+    "credit": "Ferrari (via Car and Driver)",
+    "credit_url": "https://www.caranddriver.com/news/a74498034/ferrari-296-challenge-stradale-revealed/"
+   },
+   "more_images": [
+    {
+     "file": "news-ferrari-296cs-2.jpg",
+     "alt": "296 Challenge Stradale 側前方，前保桿導流翼片與開孔引擎蓋",
+     "credit": "Ferrari (via Car and Driver)",
+     "credit_url": "https://www.caranddriver.com/news/a74498034/ferrari-296-challenge-stradale-revealed/"
+    },
+    {
+     "file": "news-ferrari-296cs-3.jpg",
+     "alt": "296 Challenge Stradale 與賽車版 296 Challenge Evo 並排行駛",
+     "credit": "Ferrari (via Car and Driver)",
+     "credit_url": "https://www.caranddriver.com/news/a74498034/ferrari-296-challenge-stradale-revealed/"
+    }
+   ]
+  },
+  {
+   "id": "byd-han-new",
+   "tag": "實車曝光 · 中國",
+   "date": "2026-11-19",
+   "brand": "BYD 比亞迪",
+   "title": "報導：比亞迪全新漢實車曝光，溜背車身與更簡潔的貫穿燈",
+   "orig": "设计越来越国际化 比亚迪全新汉实车曝光 有望广州车展首发",
+   "summary": "網路流出未偽裝的全新一代比亞迪漢實車，汽車之家稱可能在 11/27 開幕的廣州車展首發（官方尚未證實）。依申報資料，車長 5,156 mm、軸距 3,030 mm，比現款長 161 mm、軸距多 110 mm，尺寸超過漢 L。",
+   "analysis": [
+    [
+     "前臉",
+     "蚌式前蓋配修長貫穿式頭燈，拉寬視覺；續用中文「漢」字標，前保桿導流槽加大，車頂有光達。"
+    ],
+    [
+     "側面",
+     "腰線在接近車尾處加強，隱藏式窗框水切、半隱藏門把與新低風阻輪圈。"
+    ],
+    [
+     "車尾",
+     "保留漢系列中國結貫穿尾燈但弱化紋理，搭配溜背造型與鍍鉻飾條。"
+    ],
+    [
+     "座艙",
+     "跟進王朝家族設計：簡潔方向盤、大尺寸懸浮螢幕，中央島台保留實體快捷鍵並改用懷擋。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（11/19）",
+     "https://www.autohome.com.cn/news/202611/1318448.html"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-han.jpg",
+    "alt": "紅色全新比亞迪漢實車側前方，貫穿式頭燈與溜背車身",
+    "credit": "汽車之家",
+    "credit_url": "https://www.autohome.com.cn/news/202611/1318448.html"
+   },
+   "more_images": [
+    {
+     "file": "news-byd-han-2.jpg",
+     "alt": "紅色全新比亞迪漢側面，溜背車頂與半隱藏門把",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318448.html"
+    },
+    {
+     "file": "news-byd-han-3.jpg",
+     "alt": "紅色全新比亞迪漢車尾，中國結貫穿尾燈",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318448.html"
+    }
+   ]
+  },
+  {
+   "id": "maserati-gt-grecale-jp",
+   "tag": "日本首發 · 義大利",
+   "date": "2026-11-21",
+   "brand": "Maserati",
+   "title": "Maserati 新 GranCabrio、Grecale 登日：鯊魚鼻前臉與八角形數位時鐘",
+   "orig": "マセラティ、新型「グランカブリオ」「グレカーレ」国内初披露",
+   "summary": "Maserati Japan 11/20 在銀座首次展出今年 6 月小改款的 GranCabrio 與 Grecale，並舉辦品牌百年活動。官方說這次改款把 MC Extrema、GT2 Stradale 等賽車的空力與設計哲學帶進量產車，也大幅更新座艙 HMI。",
+   "analysis": [
+    [
+     "鯊魚鼻",
+     "GranTurismo／GranCabrio 換上新保桿與水箱罩的「シャークノーズ」（鯊魚鼻）前臉，優化下擾流與冷卻路徑，前下壓力大增。"
+    ],
+    [
+     "車尾",
+     "尾燈改成透明燈殼，讓車身色更突出；新輪圈搭配加寬 10 mm 的輪距。"
+    ],
+    [
+     "Grecale",
+     "共用同一套新前臉語彙，保桿兩側加入氣簾，車尾也把氣簾造型做成看得見的設計元素。"
+    ],
+    [
+     "座艙",
+     "換檔鍵改為金屬加真水晶的新設計；儀表板中央智慧時鐘改為與方向盤一致的八角形，可切換 Stile、Classico、Trofeo 錶面。"
+    ]
+   ],
+   "sources": [
+    [
+     "Car Watch（11/21）",
+     "https://car.watch.impress.co.jp/docs/news/2158416.html"
+    ]
+   ],
+   "image": {
+    "file": "news-maserati-mc.jpg",
+    "alt": "Verde Giada 翡翠綠新 GranCabrio 車頭，鯊魚鼻水箱罩",
+    "credit": "Car Watch",
+    "credit_url": "https://car.watch.impress.co.jp/docs/news/2158416.html"
+   },
+   "more_images": [
+    {
+     "file": "news-maserati-mc-2.jpg",
+     "alt": "紅色新 Grecale 揭幕瞬間，新前臉與保桿兩側氣簾",
+     "credit": "Car Watch",
+     "credit_url": "https://car.watch.impress.co.jp/docs/news/2158416.html"
+    }
+   ]
+  },
+  {
+   "id": "nio-es9-gold",
+   "tag": "特別版上市 · 中國",
+   "date": "2026-11-21",
+   "brand": "NIO 蔚來",
+   "title": "蔚來 ES9 地平線鎏金特別版：天山日出三主題與 24K 鎏金腰線",
+   "orig": "BaaS方案售53万起 蔚来ES9地平线鎏金特别版正式上市",
+   "summary": "蔚來品牌十週年之際推出 ES9 地平線鎏金特別版，11/21 上市，售價人民幣 63.80 萬元起（BaaS 租電 53 萬元起）。設計靈感來自天山山脈的地平線日出，分「鎏金拂曉」「鎏金晨曦」「鎏金朗照」三個主題。",
+   "analysis": [
+    [
+     "三主題",
+     "極夜黑、M42 星雲紅、雲白三種車身，各配「鎏金雙疊地平線腰線」，比喻劃破夜色或越過山脊的第一道陽光。"
+    ],
+    [
+     "鎏金細節",
+     "標配 24K 鎏金前後車標與 24K 鎏金懸浮輪標，另有鎏金主題迎賓光毯。"
+    ],
+    [
+     "內裝配色",
+     "蘇木紅配雲貝米、可可棕配帕米爾棕兩種雙色主題。"
+    ],
+    [
+     "工藝",
+     "門檻踏板上的山紋峰頂以鎏金工藝點染，座艙有「河山錦繡」鎏金刺繡與頭枕鎏金標識。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（11/21）",
+     "https://www.autohome.com.cn/news/202611/1318493.html"
+    ]
+   ],
+   "image": {
+    "file": "news-nio-es9-gold.jpg",
+    "alt": "極夜黑 ES9 地平線鎏金特別版側面，停在日出山景前",
+    "credit": "NIO (via 汽車之家)",
+    "credit_url": "https://www.autohome.com.cn/news/202611/1318493.html"
+   },
+   "more_images": [
+    {
+     "file": "news-nio-es9-gold-2.jpg",
+     "alt": "M42 星雲紅 ES9 鎏金晨曦主題側面",
+     "credit": "NIO (via 汽車之家)",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318493.html"
+    },
+    {
+     "file": "news-nio-es9-gold-3.jpg",
+     "alt": "雲白 ES9 鎏金朗照主題側面",
+     "credit": "NIO (via 汽車之家)",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318493.html"
+    },
+    {
+     "file": "news-nio-es9-gold-4.jpg",
+     "alt": "ES9 門檻踏板上的鎏金山紋與 NIO 字樣",
+     "credit": "NIO (via 汽車之家)",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318493.html"
+    }
+   ]
+  },
+  {
+   "id": "genesis-g80-hybrid",
+   "tag": "全球首發 · 韓國",
+   "date": "2026-11-19",
+   "brand": "Genesis",
+   "title": "Genesis G80 Hybrid 洛杉磯全球首發：立體 G-Matrix 水箱罩與新輪圈",
+   "orig": "Genesis expands product portfolio with new hybrid powertrain; debuts GV80 Hybrid and G80 Hybrid",
+   "summary": "Genesis 在洛杉磯車展前的活動上推出首套油電系統：G80 Hybrid 全球首發、GV80 Hybrid 北美首發。2.5 升渦輪油電合計 347 匹，G80 Hybrid 油耗比汽油版改善約 30%，預估續航超過 500 英里。",
+   "analysis": [
+    [
+     "前臉",
+     "水箱罩換成內嵌立體 G-Matrix 紋理的新設計，維持 Genesis 盾形格柵輪廓。"
+    ],
+    [
+     "輪圈與色彩",
+     "G80 Hybrid 提供新 18 吋與 20 吋輪圈，新增 Wadden Gray、Milos Blue、Barolo Red 等車色。"
+    ],
+    [
+     "座艙",
+     "27 吋 OLED 螢幕整合儀表與導航，可選 Nappa 皮椅與 Bang & Olufsen 音響。"
+    ],
+    [
+     "品牌策略",
+     "後驅縱置架構專用的油電系統，讓 Genesis 的轎車與休旅都有電氣化選項。"
+    ]
+   ],
+   "sources": [
+    [
+     "Genesis Newsroom（11/19）",
+     "https://newsroom.genesis.com/genesis-expands-product-portfolio-with-new-hybrid-powertrain-debuts-gv80-hybrid-and-g80-hybrid/"
+    ],
+    [
+     "Car and Driver",
+     "https://www.caranddriver.com/news/a74473109/2028-genesis-g80-hybrid-revealed/"
+    ]
+   ],
+   "image": {
+    "file": "news-genesis-g80h.jpg",
+    "alt": "淺藍灰色 Genesis G80 Hybrid 停在海岸岩石上的側前方",
+    "credit": "Genesis",
+    "credit_url": "https://newsroom.genesis.com/genesis-expands-product-portfolio-with-new-hybrid-powertrain-debuts-gv80-hybrid-and-g80-hybrid/"
+   },
+   "more_images": [
+    {
+     "file": "news-genesis-g80h-2.jpg",
+     "alt": "G80 Hybrid 側面停在白色建築與泳池旁",
+     "credit": "Genesis",
+     "credit_url": "https://newsroom.genesis.com/genesis-expands-product-portfolio-with-new-hybrid-powertrain-debuts-gv80-hybrid-and-g80-hybrid/"
+    }
+   ]
+  },
+  {
+   "id": "nissan-gtr-next-design",
+   "tag": "設計方向 · 日本",
+   "date": "2026-11-20",
+   "brand": "Nissan",
+   "title": "下一代 GT-R 設計方向：圓燈可以有，但不會是純復古",
+   "orig": "The Next Nissan GT-R Won't Be Purely Retro, Even If It Gets Round Headlights",
+   "summary": "Nissan 新任全球設計主管 Matthew Weaver 先前說「如果做 R36，它會有圓形頭燈」。北美規劃長 Ponz Pandikuthira 在洛杉磯車展告訴 The Drive，下一代 GT-R 不會純復古，預計 2030–2031 年量產，造型要撐到 2045 年。",
+   "analysis": [
+    [
+     "不鎖定造型",
+     "Pandikuthira 說 2026 年不需要定案 2030 年後量產車的設計，還有很多要修。"
+    ],
+    [
+     "長壽命",
+     "R35 從 2007 年賣到 2024 年，新車希望撐 15 年，所以不能有「六年後就不酷」的兩極化復古元素。"
+    ],
+    [
+     "圓燈怎麼做",
+     "他提到日本有台 Z 概念車用內凹圓形頭燈，認為可以復古但很現代，方向會落在兩者之間。"
+    ],
+    [
+     "參考圖",
+     "圖為 Nissan Hyper Force 概念車，並非下一代 GT-R 的設計。"
+    ]
+   ],
+   "sources": [
+    [
+     "The Drive（11/20）",
+     "https://www.thedrive.com/news/the-next-nissan-gt-r-wont-be-purely-retro-even-if-it-gets-round-headlights"
+    ]
+   ],
+   "image": {
+    "file": "news-nissan-gtr.jpg",
+    "alt": "Nissan Hyper Force 概念車側前方（非下一代 GT-R）",
+    "credit": "Nissan (via The Drive)",
+    "credit_url": "https://www.thedrive.com/news/the-next-nissan-gt-r-wont-be-purely-retro-even-if-it-gets-round-headlights"
+   }
+  },
+  {
+   "id": "chery-guangzhou-2026",
+   "tag": "車展預告 · 中國",
+   "date": "2026-11-21",
+   "brand": "Chery 奇瑞",
+   "title": "奇瑞廣州車展陣容：星途 EX6 量產版、縱橫 R700 與風雲新概念車",
+   "orig": "全新艾瑞泽7预售 奇瑞集团广州车展阵容曝光 还有全新概念车首秀",
+   "summary": "奇瑞集團公布 2026 廣州車展陣容：全新艾瑞澤 7 開啟預售，風雲全新概念車與代號 T18D 的新車首秀，星途 EX6 量產版與縱橫 R700 也將發表。",
+   "analysis": [
+    [
+     "星途 EX6",
+     "無邊界格柵帶蜂巢狀飾紋，兩側「Atlantix 之光」頭燈，全車 776 顆 LED 燈語矩陣可做動態光影。"
+    ],
+    [
+     "縱橫 R700",
+     "延續概念版的未來硬派方盒子輪廓，車尾八角形外掛置物盒是視覺焦點，與豎向燈組、前臉呼應。"
+    ],
+    [
+     "艾瑞澤 7",
+     "全新一代採最新家族設計，提供燃油與插混，車長 4,739 mm、軸距 2,770 mm。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車之家（11/21）",
+     "https://www.autohome.com.cn/news/202611/1318483.html"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-gz.jpg",
+    "alt": "深藍色星途 EX6 俯視側前方，無邊界格柵與貫穿燈",
+    "credit": "Chery (via 汽車之家)",
+    "credit_url": "https://www.autohome.com.cn/news/202611/1318483.html"
+   },
+   "more_images": [
+    {
+     "file": "news-chery-gz-2.jpg",
+     "alt": "縱橫 R700 概念版在展台上，方盒子車身與豎向頭燈",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318483.html"
+    },
+    {
+     "file": "news-chery-gz-3.jpg",
+     "alt": "深藍色全新艾瑞澤 7 在展廳的側前方",
+     "credit": "汽車之家",
+     "credit_url": "https://www.autohome.com.cn/news/202611/1318483.html"
+    }
+   ]
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "cdtv-mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv",
+   "source": "Car Design TV",
+   "credit": "Car Design TV",
+   "kind": "analysis",
+   "column": "Analysis",
+   "date": "2026-10-18",
+   "url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/",
+   "paywalled": false,
+   "orig": "Mercedes-AMG GT SUV: Bringing Supercar Performance to the Electric SUV",
+   "design_tag": "造型手法",
+   "title": "Mercedes-AMG GT SUV：用寬度與肩部量體，把 GT 比例放進大型電動休旅",
+   "points": [
+    "AMG 首台完全自主開發的大型休旅，設計目標是把 GT 跑車的比例與氣質放進 5 米車身。",
+    "不掩飾尺寸，反而強調寬度、水平比例與輪拱上方的肩部，讓高大的車看起來貼地。",
+    "六顆渦輪造型圓形尾燈與發光格柵建立辨識，但作者提醒車身比例本身仍要撐得住。",
+    "AEROKINETICS 主動進氣柵與車頂擾流把空力做進造型，風阻 0.27，座艙則刻意壓低坐姿。"
+   ],
+   "image": {
+    "file": "col-amg-gt-suv.jpg",
+    "alt": "黃色 Mercedes-AMG GT SUV 行駛中的俯視側前方，低矮車頂與寬肩",
+    "credit": "Mercedes-AMG (via Car Design TV)",
+    "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/"
+   },
+   "more_images": [
+    {
+     "file": "col-amg-gt-suv-2.jpg",
+     "alt": "AMG GT SUV 側後方渲染圖，六顆圓形尾燈與寬肩",
+     "credit": "Mercedes-AMG (via Car Design TV)",
+     "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/"
+    },
+    {
+     "file": "col-amg-gt-suv-3.jpg",
+     "alt": "黃色 AMG GT SUV 側面行駛，無框車窗與下滑車頂",
+     "credit": "Mercedes-AMG (via Car Design TV)",
+     "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/"
+    }
+   ],
+   "sources": [
+    [
+     "Car Design TV（10/18）",
+     "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/"
+    ]
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景：AMG 第一台自己從零開發的大型休旅",
+      "p": [
+       "Mercedes-AMG 成立 59 年來，第一次不是把現成的 Mercedes-Benz 車款改成高性能版，而是從頭自主開發一台全尺寸休旅：AMG GT SUV。它建立在新的 AMG.EA 電動架構上，最高 1,169 匹。",
+       "Car Design TV 認為它的意義不只在數字，而是 AMG 設計哲學的一次延伸：要把傳統 Grand Turismo（長途高速跑車）的比例、視覺性格和駕駛感受，轉譯到一台大得多、也更實用的車上。"
+      ]
+     },
+     {
+      "h": "比例：不躲尺寸，而是強調寬與低",
+      "p": [
+       "車長 5.08 米、寬 2.00 米、高約 1.65 米，毫無疑問是大型休旅。設計團隊沒有試圖掩飾，而是用 3.04 米長軸距、短前後懸和寬輪距做出穩穩站著的 stance（站姿），再用緩降的車頂線與較平躺的擋風玻璃帶入 GT 的影子。",
+       "輪拱與後肩被刻意放大，力量集中在車輪周圍。作者指出這些雕塑感的量體很關鍵，因為它們能在視覺上「吃掉」車身的高度與質量；無框車窗、小後視鏡與延伸到後三角窗的亮飾，則讓側面更像雙門轎跑。"
+      ]
+     },
+     {
+      "h": "識別：燈光簽名與比例的平衡",
+      "p": [
+       "車頭保留 AMG 招牌的直條金屬格柵，可發光，中央星徽也能點亮；頭燈內是 Mercedes-Benz 越來越常用的星形日行燈圖像，用燈光而不只是車身細節建立品牌辨識。",
+       "車尾六顆渦輪造型的圓形尾燈是最獨特的圖像，可選配發光連接燈條強調寬度。作者也提出一個設計問題：燈光越來越能做出差異，但車子熄燈時，比例和面處理仍必須足以自己建立身分——好在寬肩、低車頂與控制得當的曲面撐住了這點。"
+      ]
+     },
+     {
+      "h": "空力：把主動機構做進造型",
+      "p": [
+       "對高性能電動車來說，降低風阻直接等於續航。GT 55 與 GT 63 配備名為 AEROKINETICS 的主動空力系統：前方 Airpanel 直立百葉平常關閉以減阻，需要散熱時才打開；車速超過 150 km/h 時，車頂擾流會依駕駛狀況調整角度，激烈駕駛時更陡以增加效果。",
+       "成果是 GT 55／GT 63 風阻係數 0.27、GT 53 為 0.28。以這樣的車寬與性能需求而言，作者認為這說明了工程手段如何幫忙調和性能、效率和造型之間互相衝突的需求。"
+      ]
+     },
+     {
+      "h": "座艙與人因：在休旅裡重現 GT 的坐姿",
+      "p": [
+       "內裝的目標是讓駕駛像坐在傳統 AMG GT 裡：坐姿相對低，儀表板設計強調包覆的駕駛艙，而不是休旅常見的高坐姿。10.2 吋數位儀表、偏向駕駛的 14 吋中控螢幕，再加一塊 14 吋副駕螢幕。",
+       "GT 55 與 GT 63 的中控台保留三顆實體旋鈕，用來調整油門反應、過彎與循跡特性（AMG RACE ENGINEER）。作者特別肯定這個人因決定：在以駕馭為核心的車上，實體控制能立即回饋，不必在選單裡找功能。後座則保留大型休旅的三人座與可傾倒椅背。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "col-amg-gt-suv-d1.jpg",
+      "alt": "AMG GT SUV 側後方鉛筆草圖，強調下滑車頂與寬肩",
+      "credit": "Mercedes-AMG (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/",
+      "section": 1
+     },
+     {
+      "file": "col-amg-gt-suv-d2.jpg",
+      "alt": "AMG GT SUV 頭燈設計草圖，星形日行燈圖像",
+      "credit": "Mercedes-AMG (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/",
+      "section": 2
+     },
+     {
+      "file": "col-amg-gt-suv-d3.jpg",
+      "alt": "黃色 AMG GT SUV 車頭，直條發光格柵與前方進氣口",
+      "credit": "Mercedes-AMG (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/",
+      "section": 3
+     },
+     {
+      "file": "col-amg-gt-suv-d4.jpg",
+      "alt": "AMG GT SUV 座艙，偏向駕駛的中控螢幕與中控台實體旋鈕",
+      "credit": "Mercedes-AMG (via Car Design TV)",
+      "credit_url": "https://www.cardesigntv.com/mercedes-amg-gt-suv-bringing-supercar-performance-to-the-electric-suv/",
+      "section": 4
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-elantra-cabin",
+   "kind": "car",
+   "car": "Hyundai Elantra（第八代）",
+   "tag": "內裝 · 韓國",
+   "title": "新 Elantra 座艙：家具感「Curve of Upholstery」與六組雙色內裝",
+   "points": [
+    "座艙以家具為靈感的「Curve of Upholstery」設計，對稱式儀表板布局。",
+    "12.9 吋 Pleos Connect 觸控螢幕居中，基本功能保留實體按鍵。",
+    "全新座艙尺寸放大，軸距比前代長 30 mm，後座腿部空間 993 mm。"
+   ],
+   "image": {
+    "file": "cmf-elantra-cabin.jpg",
+    "alt": "新 Elantra 前座艙，淺灰座椅、深色對稱儀表板與綠色氛圍燈",
+    "credit": "Hyundai (via PR Newswire)",
+    "credit_url": "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html"
+   },
+   "more_images": [
+    {
+     "file": "cmf-elantra-cabin-2.jpg",
+     "alt": "新 Elantra 淺色前座與門板，深色上儀表板",
+     "credit": "Hyundai (via PR Newswire)",
+     "credit_url": "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html"
+    }
+   ],
+   "sources": [
+    [
+     "PR Newswire／Hyundai Motor America（11/19）",
+     "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html"
+    ],
+    [
+     "Dottimes（11/21）",
+     "https://dottimes.in/auto/hyundai-eighth-gen-elantra-hybrid-unveiled-la-auto-show"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-elantra-graphene-green",
+   "kind": "paint",
+   "car": "Hyundai Elantra（第八代）",
+   "tag": "車色 · 韓國",
+   "title": "Graphene Green 與 Kodiak Blue：新 Elantra 的礦物系新車色",
+   "points": [
+    "Hyundai 說新車色進一步強化新 Elantra 的設計：Graphene Green 帶出當代感。",
+    "Kodiak Blue 的靈感來自鈷礦；其他市場另有 Kodiak Blue Matte 消光版與 Raptor Gray Matte。",
+    "北美色盤另有 Quantum Metal 金屬灰與 Volcanic Red 火山紅。"
+   ],
+   "image": {
+    "file": "cmf-elantra-green.jpg",
+    "alt": "Graphene Green Pearl 車色的新 Elantra 俯視側前方，在陽光下呈綠灰色",
+    "credit": "Hyundai",
+    "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+   },
+   "more_images": [
+    {
+     "file": "cmf-elantra-green-2.jpg",
+     "alt": "Graphene Green Pearl 新 Elantra 側面，停在街區陰影交界",
+     "credit": "Hyundai",
+     "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+    }
+   ],
+   "swatch": {
+    "hex": "#7E8B86",
+    "label": "Graphene Green（示意色）"
+   },
+   "sources": [
+    [
+     "PR Newswire／Hyundai Motor America（11/19）",
+     "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html"
+    ],
+    [
+     "Dottimes（11/21）",
+     "https://dottimes.in/auto/hyundai-eighth-gen-elantra-hybrid-unveiled-la-auto-show"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-nio-metal-embroidery",
+   "kind": "material",
+   "car": "NIO ES9 地平線鎏金特別版",
+   "tag": "刺繡工藝 · 中國",
+   "title": "ES9「河山錦繡」：金屬繡線加插針繡的座椅工藝",
+   "points": [
+    "蔚來說 ES9 鎏金特別版在業界首次把「金屬繡線」用在座艙，並輔以插針繡工藝。",
+    "座艙「河山錦繡」鎏金刺繡呼應天山日出主題，頭枕另有鎏金刺繡標識。",
+    "車身鎏金雙疊地平線腰線經 8 次噴塗、5 次烘烤，再以 12 道工序、109 小時打磨。",
+    "內裝配蘇木紅＋雲貝米、可可棕＋帕米爾棕兩種雙色主題。"
+   ],
+   "image": {
+    "file": "cmf-nio-embroidery.jpg",
+    "alt": "ES9 鎏金特別版淺色座椅，椅背上的金色刺繡紋理",
+    "credit": "NIO (via 汽車之家)",
+    "credit_url": "https://www.autohome.com.cn/news/202611/1318493.html"
+   },
+   "swatch": {
+    "hex": "#C9A45C",
+    "label": "鎏金繡線（示意色）"
+   },
+   "sources": [
+    [
+     "IT之家（11/21）",
+     "https://www.ithome.com/1/030/329.htm"
+    ],
+    [
+     "汽車之家（11/21）",
+     "https://www.autohome.com.cn/news/202611/1318493.html"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-maserati-octagon-clock",
+   "kind": "case",
+   "brand": "Maserati",
+   "tag": "介面與 HMI",
+   "title": "Maserati 八角形數位時鐘：錶面也顯示駕駛模式",
+   "date": "2026-11-21",
+   "points": [
+    "GranTurismo／GranCabrio／Grecale 小改款，儀表板中央數位智慧時鐘改用金屬錶圈與礦物玻璃風防。",
+    "外形改成與新方向盤共通的八角形。",
+    "新增駕駛模式指示，切換模式時不必用彈出視窗遮住中控導航畫面。",
+    "可顯示 Stile、Classico、Trofeo 錶面，以及指南針、G 值表、油門開度與車速檔位。",
+    "顯示內容由中控台下方的螢幕切換。"
+   ],
+   "image": {
+    "file": "hmi-maserati-clock.jpg",
+    "alt": "Maserati 儀表板中央的八角形數位時鐘，顯示數字錶面",
+    "credit": "Maserati (via Car Watch)",
+    "credit_url": "https://car.watch.impress.co.jp/docs/news/2158416.html"
+   },
+   "sources": [
+    [
+     "Car Watch（11/21）",
+     "https://car.watch.impress.co.jp/docs/news/2158416.html"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "工廠 · 加拿大",
+   "date": "2026-11-21",
+   "title": "Ford 加拿大 Oakville 廠完成 35 億美元改造復工，改產 Super Duty 皮卡",
+   "summary": "Ford 11/20（當地時間）讓停工兩年的安大略 Oakville 廠重新開工，改造後生產 Super Duty 皮卡；加拿大聯邦與省政府合計投入 4.64 億加幣。美國對加拿大製車輛與零件課徵高關稅，美加貿易談判 8 月破局後近期重啟，Ford 加拿大 CEO 強調北美整合製造網路的價值。",
+   "sources": [
+    [
+     "ETManufacturing（11/21，引述外電）",
+     "https://manufacturing.economictimes.indiatimes.com/news/automotive/ford-reopens-canada-auto-plant-defying-trump-tariffs/136047139"
+    ]
+   ]
+  },
+  {
+   "tag": "投資 · 日本",
+   "date": "2026-11-17",
+   "title": "Honda 投資 4.62 億美元擴充阿拉巴馬廠，新增油電新引擎產線",
+   "summary": "Honda 11/17 宣布在北美最大的阿拉巴馬工廠投資 4.62 億美元（約 740 億日圓），新設油電車用新型引擎組裝線，增產熱銷車型。該廠年產能 34 萬輛車與 34 萬具引擎；Honda 本月也已決定在俄亥俄州建油電新廠，美國市場轉向油電的動作加快。",
+   "sources": [
+    [
+     "日本經濟新聞（11/17，會員限定，僅讀導言）",
+     "https://www.nikkei.com/article/DGXZQOFD17CNY0X11C26A1000000/"
+    ]
+   ]
+  },
+  {
+   "tag": "財報 · 中國",
+   "date": "2026-11-21",
+   "title": "零跑第三季營收 317 億人民幣、年增 63%，出口占兩成",
+   "summary": "零跑汽車公布 2026 年第三季財報：營收 317.0 億元人民幣、年增 63.0%，連續季度獲利，前三季淨利 2.5 億元創新高。第三季銷量 31.01 萬輛（年增 78.3%），其中出口 6.33 萬輛、年增 263.7%，占總銷量 20.4%；CFO 表示 2027 年是產品大年。",
+   "sources": [
+    [
+     "汽車之家（11/21）",
+     "https://www.autohome.com.cn/news/202611/1318489.html"
+    ]
+   ]
+  },
+  {
+   "tag": "出口 · 中國",
+   "date": "2026-11-20",
+   "title": "嵐圖夢想家右舵版千台發運，當晚在泰國上市",
+   "summary": "嵐圖 11/20 在武漢工廠舉行千台夢想家 9 右舵版發運儀式，官方稱是湖北近年出口金額最大的高端新能源車集中發運，並拿下十億級訂單。該車當晚在泰國同步上市，12 月中旬登陸香港，嵐圖由此進入高端右舵市場。",
+   "sources": [
+    [
+     "汽車之家（嵐圖新聞稿，11/20）",
+     "https://www.autohome.com.cn/news/202611/1318488.html"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 中國",
+   "date": "2026-11-20",
+   "title": "余承東稱 L3「開車可以睡覺」後發文更正：享界 V8 仍是 L2",
+   "summary": "華為余承東在 11/20 享界 V8 發表會上說 L3 來了「開車是可以睡覺的」，隨後在社群更正：享界 V8 目前提供的是 L2 輔助駕駛，L3 硬體已具備但尚未開放，駕駛仍須專心並握好方向盤。享界官方表示 V8 已開始全國首個 120 km/h L3 跨城高速路測。",
+   "sources": [
+    [
+     "汽車之家（11/21）",
+     "https://www.autohome.com.cn/news/202611/1318485.html"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 台灣",
+   "date": "2026-11-21",
+   "title": "和泰：股市重挫未明顯衝擊買氣，國瑞產 Noah、Voxy 回銷日本逾 600 輛",
+   "summary": "和泰車 11/20 法說表示尚未觀察到股市波動明顯影響新車銷售，維持全年台灣車市 43 萬輛預估。轉投資的國瑞汽車 10 月起生產 Toyota Noah、Voxy 回銷日本，目前出口已超過 600 輛，後續依日本需求彈性調整，被視為國瑞新的營運動能。",
+   "sources": [
+    [
+     "工商時報（11/21）",
+     "https://www.ctee.com.tw/news/20261121700130-439901"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Dive plane",
+  "zh": "前保桿導流翼片",
+  "body": "Dive plane（前保桿導流翼片，也常叫 canard）是裝在前保桿兩側角落、像小翅膀一樣往外伸的薄片。車子高速前進時，氣流打在翼片上會把車頭往下壓，並在前輪外側製造渦流，把亂流帶離車身側面，讓前輪抓地更穩。本期新聞的 Ferrari 296 Challenge Stradale 就是例子：Car and Driver 指出它的碳纖維尾翼、dive planes 與可調前下擾流幾乎直接取自賽車 296 Challenge Evo，配合其他空力件，250 km/h 時下壓力約 617 公斤。",
+  "source": [
+   [
+    "Car and Driver：Ferrari 296 Challenge Stradale（carbon-fiber rear wing, dive planes, adjustable front splitter）",
+    "https://www.caranddriver.com/news/a74498034/ferrari-296-challenge-stradale-revealed/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Burgundy, Rose Ivory & Gilded Thread",
+   "zh": "酒紅、玫瑰象牙配鎏金繡線：溫潤的雙色座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板取新 Elantra Burgundy/Rose Ivory 內裝的深酒紅，門板嵌飾與扶手用玫瑰象牙色；飾條借蔚來 ES9 鎏金特別版的鎏金色，縫線用同色金線；Graphene Green Pearl 的綠灰當作點綴。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Burgundy（示意）",
+     "#5A2A30",
+     false,
+     "ip-upper",
+     {
+      "src": "Elantra Burgundy/Rose Ivory 內裝",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+     }
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "鎏金（示意）",
+     "#B8924E",
+     false,
+     "ip-decor",
+     {
+      "src": "ES9 鎏金特別版",
+      "url": "https://www.ithome.com/1/030/329.htm"
+     }
+    ],
+    [
+     "門板嵌飾 · 合成皮",
+     "Rose Ivory（示意）",
+     "#E6D5CB",
+     false,
+     "door-insert",
+     {
+      "src": "Elantra Burgundy/Rose Ivory 內裝",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+     }
+    ],
+    [
+     "門扶手 · 合成皮",
+     "Rose Ivory（示意）",
+     "#DCC8BC",
+     false,
+     "armrest",
+     {
+      "src": "Elantra Burgundy/Rose Ivory 內裝",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+     }
+    ],
+    [
+     "縫線",
+     "鎏金繡線（示意）",
+     "#C9A45C",
+     false,
+     "stitch",
+     {
+      "src": "ES9 金屬繡線",
+      "url": "https://www.ithome.com/1/030/329.htm"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Deep Wine（示意）",
+     "#2E1C1F",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "Hyundai Newsroom：all-new ELANTRA 內裝配色",
+     "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001306"
+    ],
+    [
+     "IT之家：ES9 地平線鎏金特別版",
+     "https://www.ithome.com/1/030/329.htm"
+    ]
+   ],
+   "mood": "burgundy rose ivory gilded",
+   "mood_text": "深酒紅包住上半部，玫瑰象牙色讓門板與扶手變得柔和；一點鎏金飾條與金色縫線，像燈光下的老家具。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#E6D5CB",
+    "seat-bolster": "#5A2A30",
+    "seat-center": "#E6D5CB",
+    "console": "#2E1C1F",
+    "console-arm": "#DCC8BC",
+    "steering": "#2A1D20",
+    "ip-lower": "#2E1C1F",
+    "accent-pod": "#B8924E",
+    "accent-pod2": "#7E8B86"
+   }
+  }
+ },
+ "design_fallback": {
+  "reason": "今日候選沒有設計師專訪或草圖流程型文章；ADP 唯一候選是 2024 年影音平台創辦人專訪，和車款設計無關；改用 Car Design TV 對 Mercedes-AMG GT SUV 的造型、空力與座艙人因解析（含官方草圖）。CDTV 11/20 剛用過，但同級沒有其他合格來源。"
+ }
+}

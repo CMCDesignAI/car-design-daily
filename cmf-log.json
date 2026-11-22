@@ -993,5 +993,29 @@
   "angle": "Beluga 實色漆＋Anthracite Satin 單色極簡",
   "url": "https://www.bentleymedia.com/en/newsitem/1855-frgmt-culture-reimagined-hiroshi-fujiwara-designs-exclusive-bentley-commission",
   "image": "cmf-paint-bentley-torcal-frgmt.jpg"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "car",
+  "car_key": "car:hyundai-elantra-cn8-cabin",
+  "angle": "新 Elantra 座艙：家具感「Curve of Upholstery」與六組雙色內裝",
+  "url": "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html",
+  "image": "cmf-elantra-cabin.jpg"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "paint",
+  "car_key": "paint:hyundai-elantra-graphene-green-kodiak-blue",
+  "angle": "Graphene Green 與 Kodiak Blue：新 Elantra 的礦物系新車色",
+  "url": "https://www.prnewswire.com/news-releases/2027-hyundai-elantra-and-2028-elantra-hybrid-revealed-at-los-angeles-auto-show-302945048.html",
+  "image": "cmf-elantra-green.jpg"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "material",
+  "car_key": "material:nio-es9-metal-thread-embroidery",
+  "angle": "ES9「河山錦繡」：金屬繡線加插針繡的座椅工藝",
+  "url": "https://www.ithome.com/1/030/329.htm",
+  "image": "cmf-nio-embroidery.jpg"
  }
 ]
