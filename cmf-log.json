@@ -1017,5 +1017,29 @@
   "angle": "ES9「河山錦繡」：金屬繡線加插針繡的座椅工藝",
   "url": "https://www.ithome.com/1/030/329.htm",
   "image": "cmf-nio-embroidery.jpg"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "car",
+  "car_key": "car:lexus-tz-cabin",
+  "angle": "Lexus TZ「移動會客廳」：竹韻飾板、再生鋁與生物基材質",
+  "url": "https://www.lexus.com.cn/node/5389",
+  "image": "cmf-lexus-tz-cabin.jpg"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "paint",
+  "car_key": "paint:hongqi-celadon",
+  "angle": "紅旗 EHS4 專屬「Celadon」青瓷色：把龍泉青瓷搬上車身",
+  "url": "https://www.bitauto.hk/zh/news/hongqi-ehs4-pure-electric-suv-global-debut-in-venice-maximum-1001955/",
+  "image": "cmf-hongqi-celadon.jpg"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "material",
+  "car_key": "material:benecke-acella-soft",
+  "angle": "貝內克長順 Acella Soft 超柔表皮：柔軟度比業界標準高 30–50%",
+  "url": "https://auto.gasgoo.com/news/202610/27I70475881C103.shtml",
+  "image": "cmf-benecke-acella-soft.jpg"
  }
 ]

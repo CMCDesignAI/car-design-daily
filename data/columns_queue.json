@@ -5669,7 +5669,7 @@
       "image": "https://motor-fan.jp/wp-content/uploads/2027/11/honda_new_avancier_ex_13.jpg?v=1795141197",
       "excerpt": "長距離移動を上質にする「グランドジャーニー」。先進とスポーティーを柱に、要素を絞り込む 新型アヴァンシアは、ハイブリッドシステムとプラットフォームを一新した次世代ハイブリッド車の第一弾だ。ホンダは2029年度までに、北米 […]",
       "added": "2026-11-21",
-      "used": false,
+      "used": true,
       "language": "ja"
     },
     "mft-1684320": {
@@ -5733,6 +5733,22 @@
       "image": "https://motor-fan.jp/wp-content/uploads/2026/11/Cooper-Standard-FlexiCore-Body-Sealing-Technology-Named-2026-SPE-Automotive-Innovation-Award-Winner.jpg?v=1795215818",
       "excerpt": "ドアやトランクの開口部に装着されるウェザーストリップ（ボディシール）は、車体鉄板のフランジにしっかり挟み込んで固定するため、EPDM（エチレンプロピレンジエンゴム）の内部に「金属製の骨格（アルミや鋼板のインサート芯材）」 […]",
       "added": "2026-11-22",
+      "used": false,
+      "language": "ja"
+    },
+    "mf-1686075": {
+      "id": "mf-1686075",
+      "source": "CAR STYLING / Motor-Fan",
+      "credit": "CAR STYLING / Motor-Fan",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "CAR STYLING",
+      "title_en": "裏原宿の感性をベントレー・トルカルに。藤原ヒロシがデザインした20台限定のビスポーク仕様",
+      "date": "2026-11-22",
+      "url": "https://motor-fan.jp/article/1686075/",
+      "image": "https://motor-fan.jp/wp-content/uploads/2026/11/FRGMT_bentley_torcal_8.jpg?v=1795305876",
+      "excerpt": "装飾を抑え、細部で見せる。FRGMTの美意識をトルカル初のビスポークコミッションに反映 英国のベントレーモーターズは11月19日、藤原ヒロシ氏がデザインしたトルカルの特別仕様「FRGMTコミッション」を発表した。製作はベ […]",
+      "added": "2026-11-23",
       "used": false,
       "language": "ja"
     }

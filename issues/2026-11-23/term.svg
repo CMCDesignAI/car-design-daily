@@ -1,0 +1,17 @@
+<svg class="diagram" viewBox="0 0 560 330" width="100%" role="img" aria-label="平齊面示意：上圖車門把手與車身有高低差，下圖門把、車窗與 C 柱都和車身外板齊平，以 Honda Avancier 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M40 130 Q55 70 150 62 L360 58 Q430 62 470 95 L520 102 Q535 110 532 140 L40 140 Z"/>
+    <path d="M160 70 L150 100 L440 100 L420 70"/>
+    <rect x="230" y="108" width="46" height="12" rx="5" stroke-width="3"/>
+    <path d="M300 64 L300 100"/>
+    <path d="M40 285 Q55 225 150 217 L360 213 Q430 217 470 250 L520 257 Q535 265 532 295 L40 295 Z"/>
+    <path d="M160 225 L150 255 L440 255 L420 225" stroke-dasharray="1 0"/>
+    <line x1="230" y1="268" x2="276" y2="268" stroke-dasharray="4 3"/>
+  </g>
+  <g fill="currentColor" font-size="15" font-family="sans-serif">
+    <text x="20" y="28">一般做法：門把、柱子凸出或凹入車身</text>
+    <text x="300" y="160" font-size="13">門把外凸 → 面有雜訊、風切聲</text>
+    <text x="20" y="190">Flush surface：零件與車身外板齊平</text>
+    <text x="230" y="318" font-size="13">門把、玻璃、C 柱同一平面（例：Honda Avancier）</text>
+  </g>
+</svg>

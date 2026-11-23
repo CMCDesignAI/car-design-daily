@@ -202,5 +202,11 @@
   "key": "hmi-maserati-octagon-clock",
   "url": "https://car.watch.impress.co.jp/docs/news/2158416.html",
   "image": "hmi-maserati-clock.jpg"
+ },
+ {
+  "date": "2026-11-23",
+  "key": "hmi-porsche-pcm-gen",
+  "url": "https://www.automotiveinteriorsworld.com/news/hmi/porsche-upgrades-infotainment-systems-across-model-lines.html",
+  "image": "hmi-porsche-pcm.jpg"
  }
 ]
