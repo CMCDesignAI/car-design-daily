@@ -178,7 +178,43 @@
    ]
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-songyin-sprite-stacking",
+   "creator": "松音",
+   "creator_key": "dseditor",
+   "platform": "Facebook",
+   "date": "2026-11-22",
+   "title": "用 sprite-stacking Skill 加 GPT 生圖，快速做出 45 度斜角像素 RPG 地圖",
+   "short_title": "sprite-stacking 假 3D 像素地圖",
+   "orig": "sprite-stacking是個很有趣的Skill，用途是製作「假」的3D物件。",
+   "one": "網頁遊戲的迷宮或地圖看起來太簡單時，可以用這個 Skill 堆疊像素 2D 圖層做出「假 3D」效果，再讓 GPT 生圖幫忙打出斜角地圖。",
+   "points": [
+    "作者說：sprite-stacking 不是真的 3D（不同於 Three.js），而是把像素 2D 圖層堆疊起來，能讓網頁遊戲看起來很不一樣。",
+    "作者說：可以快速堆出可愛的像素小型迷宮或地圖，遊戲場景太單調時值得參考。",
+    "作者實測：地圖在 GPT 裡只用一兩行提示就生成 45 度斜角 RPG 地圖，但參考圖的假 3D 很精細，仍需好好調整才有更好的結果。"
+   ],
+   "url": "https://www.facebook.com/dseditorlab/posts/pfbid023dgCANNojiBVy9V6cL2bFahZQfMpuWV1sDk9Ptp7fVLTS4fsy1e31XJU6YfrQjk6l",
+   "image": {
+    "file": "col-songyin-sprite-stacking.webp",
+    "alt": "松音貼文附圖：GPT 生成的 45 度斜角像素 RPG 地圖",
+    "credit": "松音（Facebook 貼文附圖）",
+    "credit_url": "https://www.facebook.com/dseditorlab/posts/pfbid023dgCANNojiBVy9V6cL2bFahZQfMpuWV1sDk9Ptp7fVLTS4fsy1e31XJU6YfrQjk6l"
+   },
+   "links": [
+    [
+     "GitHub：sprite-stacking",
+     "https://github.com/danielwh2/sprite-stacking"
+    ]
+   ],
+   "gloss": [
+    [
+     "sprite-stacking",
+     "把多層像素 2D 圖片疊起來，營造出立體感的做法，實際上不是真 3D"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-flux2-klein",
