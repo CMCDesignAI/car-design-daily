@@ -1,0 +1,613 @@
+{
+ "date": "2026-11-23",
+ "weekday": "週一",
+ "issue_no": 47,
+ "lede": "ChatGPT Space 開放全球 Plus 用戶，Obsidian 推出官方 Grok Bot 外掛讓 Bot 直接讀寫你的筆記庫，Gemini API 加入工具按需載入。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "chatgpt-space-plus",
+   "org": "OpenAI",
+   "tag": "平台更新",
+   "date": "2026-11-20",
+   "title": "ChatGPT Space 開放給全球 Plus 用戶：和 ChatGPT 一起做互動頁面與簡報，可邀人共編、依連接的 App 自動更新",
+   "short_title": "ChatGPT Space 開放 Plus",
+   "one": "ChatGPT 側邊欄多了「Space」，取代原本的 Library：可以讓 ChatGPT 做成會自己更新的頁面或簡報（例如連 Slack 的專案計畫），再邀同事一起改。",
+   "orig": "Starting today, ChatGPT Space is rolling out globally to Plus users ages 18 and older.",
+   "summary": "【更新內容】OpenAI 官方更新紀錄 11/20：Space 全球開放給 18 歲以上 Plus 用戶。可和 ChatGPT 建立互動頁面與簡報，邀請有 Space 權限的人一起編輯；頁面和投影片可設定依連接的 App／工具自動更新（官方舉例：自己會更新的待辦清單、附可旋轉 3D 模型的讀書指南、跟著 Slack 決策同步的專案計畫）。在留言裡標記 ChatGPT 就能請它修改；有 dot 的人也能邀 dot 一起協作。\n【限制】開啟分享的頁面需要有權限，且要登入有 Space 的 Plus、Pro、Business 或 Enterprise 帳號；免費版無法開啟分享頁面，也沒有公開連結。\n【哪裡能用】側邊欄的 Space（取代 Library，成為頁面、投影片、圖片與上傳檔案的新家），網頁、桌面版、iOS、Android 都能建立與編輯。",
+   "links": [
+    [
+     "OpenAI：ChatGPT 更新紀錄（11/20）",
+     "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "dot",
+     "OpenAI 給 ChatGPT Pro 用戶的常駐 AI 助理，可主動提醒、代辦事情"
+    ]
+   ]
+  },
+  {
+   "id": "obsidian-grok-bot-plugin",
+   "org": "Obsidian",
+   "tag": "平台更新",
+   "date": "2026-11-19",
+   "title": "Obsidian 推出官方 Grok Bot 外掛：Bot 可在你本機的筆記庫建立、搜尋、整理筆記，也能做 Bases 與 Canvas",
+   "short_title": "Obsidian 官方 Grok Bot 外掛",
+   "one": "筆記軟體 Obsidian 出了官方外掛，按「Add to Grok Bot」後，你的 Bot 就能直接讀寫你電腦裡的 Obsidian 筆記，把它當成看得到、改得了的長期記憶。",
+   "orig": "Obsidian is an official plugin for ChatGPT, Codex, Cursor, and Grok Bot.",
+   "summary": "【官方說法】Obsidian 說明頁「Skills」：Obsidian 是 ChatGPT、Codex、Cursor 與 Grok Bot 的官方外掛；Grok Bot 用戶打開「Obsidian for Grok Bot」頁面按 Add to Grok Bot 即可。外掛內含 7 個開源技能：obsidian-markdown（寫筆記、雙向連結）、obsidian-bases、json-canvas、obsidian-cli（操作執行中的 App）、obsidian-headless（不開 App 也能同步／發布）、defuddle（把網頁擷取成乾淨的 Markdown）、knap（用 JSON／CSV 套模板）。\n【需求與限制】obsidian-cli 技能需要 Obsidian 桌面版保持開啟並在設定開啟 Command line interface，Bot 也要能在那台電腦執行指令；Markdown／Bases／Canvas 技能只需讀寫筆記庫檔案。Defuddle、Knap、Headless 是另外的工具，缺少時技能會先詢問再從 npm 安裝。\n【隱私】官方提醒：技能本身不傳送資料，但 Bot 讀到的筆記會成為對話內容、交給 AI 模型處理，敏感筆記庫要先看隱私政策。",
+   "links": [
+    [
+     "Obsidian 官方說明：Skills",
+     "https://obsidian.md/help/skills"
+    ],
+    [
+     "Obsidian for Grok Bot 外掛頁",
+     "https://x.ai/bot/plugin/88871845"
+    ],
+    [
+     "GitHub：obsidianmd/obsidian-skills",
+     "https://github.com/obsidianmd/obsidian-skills"
+    ]
+   ],
+   "image": {
+    "file": "obsidian-grok-bot.webp",
+    "alt": "Obsidian for Grok Bot 外掛頁分享圖",
+    "credit": "xAI／Obsidian 外掛頁",
+    "credit_url": "https://x.ai/bot/plugin/88871845"
+   },
+   "gloss": [
+    [
+     "Obsidian",
+     "把筆記存成本機 Markdown 純文字檔的筆記軟體，可用雙向連結串起筆記"
+    ],
+    [
+     "Canvas",
+     "Obsidian 的白板檔，可把筆記、圖片排成心智圖"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-api-tool-retrieval",
+   "org": "Google",
+   "tag": "API 更新",
+   "date": "2026-11-19",
+   "title": "Gemini API 推出 Tool Retrieval（預覽）：工具很多時，模型只在需要時載入參數格式，省 token 也選得更準",
+   "short_title": "Gemini API 工具按需載入",
+   "one": "給開發者：AI 代理接了幾十上百個工具時，不必每次把全部工具說明塞進提示，Gemini 會自己搜尋、只載入要用的那幾個，降低成本與延遲。",
+   "orig": "Load tool parameter schemas on demand instead of sending your full tool library in every prompt.",
+   "summary": "【怎麼用】在 Interactions API（v1beta）的 tools 加一個 {\"type\":\"tool_search\"}，再把要延後載入的工具設 defer_loading: true；模型仍看得到每個工具的名稱和描述，需要時才在同一次請求中載入完整參數格式並呼叫。遠端 MCP 伺服器也能整台設 defer_loading。若自己有工具庫或權限過濾，可設 execution: \"client\" 由你的程式做搜尋（每次搜尋多一次往返）。\n【價格】不另收費，照模型標準 token 計價；開啟 tool_search 會多一小段固定 token，載入的格式之後都算輸入。官方建議用自己的流量實測是否划算。\n【限制】仍是預覽，API 可能變動；只支援 Interactions API，不支援 generateContent；適用 Gemini 3.6 以後（含所有 Gemini 4）模型。官方建議工具少於 20 個且穩定時，照舊全部載入即可。",
+   "links": [
+    [
+     "Google 官方部落格（11/19）",
+     "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+    ],
+    [
+     "官方文件：Tool retrieval",
+     "https://aistudio.google.com/docs/tool-retrieval"
+    ],
+    [
+     "Gemini API 更新紀錄",
+     "https://aistudio.google.com/docs/changelog"
+    ]
+   ],
+   "image": {
+    "file": "gemini-tool-retrieval.webp",
+    "alt": "Google 部落格 Tool Retrieval 文章主視覺",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+   },
+   "gloss": [
+    [
+     "token",
+     "AI 計算文字量與費用的單位，大約一個中文字 1–2 個 token"
+    ],
+    [
+     "MCP",
+     "讓 AI 連接外部工具與資料的開放標準"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "2 則：用 Obsidian 當所有 Bot 共用的「第二大腦」；Hei_Ai 的 15 個上手技巧（技能、排程、代理分工）。",
+   "updates": [
+    {
+     "title": "Kacper Rutkiewicz（AI Made Simple）：用 Obsidian 筆記庫當所有 Bot 共用的第二大腦，只讓一個 VaultBot 負責整理",
+     "short_title": "Obsidian 共用第二大腦",
+     "date": "2026-11-19",
+     "one": "學到：筆記庫分 raw（原始文件，Bot 只讀）、wiki（Bot 整理出的主題頁）、index.md、inbox、trash，只准一個 VaultBot 寫入、先列計畫等你同意；作者實測示範中，Bot 依 wiki 報出夜間通水管 250 美元並標明出處，查無資料時直接說沒有。",
+     "summary": "整理自 The Grok Bot Guide（11/19）。作者說內建記憶是存成看不到的片段，可能新舊版本並存；改用 Obsidian 筆記庫（本機純文字檔）照 Karpathy 的「LLM wiki」做法分資料夾。規則：VaultBot 是唯一能整理筆記庫的 Bot，寫入前先給計畫、等你說 yes；不刪檔只移到 trash；每個事實都要指回 raw 的檔案；不存密碼、金鑰、卡號或客戶機密。其他 Bot 把新資訊丟進 inbox 由 VaultBot 歸檔。作者實測（虛構水電行示範）：Bot 回答夜間通水管 250 美元（175＋晚上 6 點後加收 75）並標出引用頁；問屋頂維修時說 wiki 沒有；還拒絕了一個會和價目表矛盾的「錯字修正」。需要：Obsidian 桌面版（1.12.7 以上開啟 CLI）並保持開啟，以及在 Grok Bot 加入 Obsidian 外掛。",
+     "links": [
+      [
+       "The Grok Bot Guide：Obsidian 第二大腦做法",
+       "https://thegrokbotguide.com/tips/obsidian-vault-second-brain-curator-bot/"
+      ]
+     ]
+    },
+    {
+     "title": "Hei_Ai 成長日記〈Grok Bot 15 個技巧〉：讓 AI 學會技能、排程與代理分工、記住你的做法",
+     "short_title": "Grok Bot 15 個技巧（繁中）",
+     "date": "2026-11-18",
+     "one": "學到：先設一個專用代理記住長期規則，Gmail 找信後把回信留在草稿等你審；每週要做的事先手動跑一次、核對成果，再存成技能並排程，工作多了再分給多個代理交接。",
+     "summary": "約 12 分鐘繁中影片，11/18（台北）上傳，觀看約 3 萬。章節：設定專用代理、確認要求與保存技能（0:42）；連接 Gmail、審核草稿與整理頁面（3:50）；設定排程、查看紀錄與代理分工（6:09）；示範操作、檢查用量與分享範本（9:51）；從一個代理開始（12:04）。說明欄附作者的付費社群連結，屬作者推廣。",
+     "links": [
+      [
+       "YouTube：Grok Bot 15 個技巧",
+       "https://www.youtube.com/watch?v=Uxrt11vNpBw"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-flux2-klein",
+   "title": "ComfyUI 跑 FLUX.2 Klein 4B：約 1 秒出圖的小型文生圖＋多參考圖編輯",
+   "learn": "學會下載 FLUX.2 Klein 4B 的模型檔、放到正確資料夾，用官方範本跑文生圖與「拿參考圖換風格／換物件」的編輯。",
+   "level": "入門",
+   "vram": "官方數字：蒸餾版約 8.4GB、Base 版約 9.2GB（RTX 5090 實測；9B 版需求更高，依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "蒸餾（distilled）",
+     "把大模型壓成只需少數步數（這裡 4 步）就能出圖的快速版本，速度快、彈性略低"
+    ],
+    [
+     "多參考圖編輯",
+     "同時給模型幾張圖（例如人物＋椅子），讓它照指令組合或改圖"
+    ]
+   ],
+   "steps": [
+    "先把 ComfyUI 更新到最新版；範本找不到或缺節點，多半是版本太舊。",
+    "在「工作流程範本」搜尋 FLUX.2 Klein，或從官方頁下載 4B Text-to-Image 工作流 JSON 拖進 ComfyUI。",
+    "下載模型：文字編碼器 qwen_3_4b.safetensors 放 models/text_encoders；flux-2-klein-4b-fp8.safetensors（蒸餾版，快）或 flux-2-klein-base-4b-fp8.safetensors（Base，適合微調）放 models/diffusion_models；flux2-vae.safetensors 放 models/vae。",
+    "文生圖：改提示詞後按 Run；蒸餾版官方標示 5090 約 1.2 秒一張、Base 版約 17 秒。",
+    "圖像編輯：開 4B Image Edit 範本，在 LoadImage 節點上傳官方範例圖（robed_women.png、pink_tone_chair.png）或自己的圖，寫下要怎麼改再 Run。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：FLUX.2 Klein",
+     "https://docs.comfy.org/tutorials/flux/flux-2-klein"
+    ],
+    [
+     "Hugging Face：FLUX.2-klein-4b-fp8 模型卡",
+     "https://huggingface.co/black-forest-labs/FLUX.2-klein-4b-fp8"
+    ],
+    [
+     "ComfyUI 官方：更新 ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  },
+  {
+   "id": "tut-batch-generation",
+   "title": "ComfyUI 批次出圖：一次換種子、換提示詞、換 CFG，排成對照網格比較",
+   "learn": "學會用 Batch count、batch_size 和清單節點一次跑多張，做出「同一張圖只改一個設定」的對照網格，快速找到最好的參數。",
+   "level": "入門",
+   "vram": "依所用模型而定；batch_size 一次同時算多張，張數越多越吃顯存（官方說明）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "種子（seed）",
+     "決定起始雜訊的數字，換種子就會換構圖"
+    ],
+    [
+     "CFG",
+     "提示詞的影響強度，數字越大越照字面畫，太大會過飽和"
+    ]
+   ],
+   "steps": [
+    "換種子：把 KSampler 的 control after generate 設成 randomize 或 increment，再把 Run 旁邊的 Batch count 設成想要的張數，按 Run。",
+    "一次同算多張：在 Empty Latent Image 把 batch_size 設成 4，按一次 Run 就出 4 張（較吃顯存）。",
+    "換提示詞或任何設定：用清單（List）餵入多個提示詞或 CFG 值，每個值跑一次；需要逐次執行可用 Start Loop／End Loop。",
+    "做對照網格：固定提示詞和種子，只改一兩個設定，再用 Make Image Grid 之類節點排版加標籤；想先看效果，可到 Comfy Hub 文生圖頁的 Grid 分頁。",
+    "部分步驟用到自訂節點，本機要先安裝對應節點包（官方頁有列）。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Batch Generation",
+     "https://docs.comfy.org/tutorials/basic/batch-generation"
+    ],
+    [
+     "ComfyUI 官方：安裝自訂節點",
+     "https://docs.comfy.org/installation/install_custom_node"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "本期 AI 輔助汽車設計近 7 天無新的合格案例（小鵬、Ford、BMW、Nissan、Mazda 均已報過）；週末各大廠在 X 上沒有新產品宣布。",
+  "Grok Bot 第二大腦做法整理自 The Grok Bot Guide 的轉述，示範為作者自行設計的虛構情境。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-23",
+  "compared_to": "2026-11-22",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-23",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-19",
+    "status": "unchanged",
+    "compared_to": "2026-11-22",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    },
+    "dropped": [],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-23",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-23",
+    "status": "unchanged",
+    "compared_to": "2026-11-22",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1263 (+2)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1229→1230 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1215 (+1)",
+      "GPT Image 2.5 Flare (max): #5→#5 (0 名), 1210→1209 (-1)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1194 (+2)",
+      "Kling Image 4.0: #7→#7 (0 名), 1180→1181 (+1)",
+      "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)"
+     ]
+    },
+    "dropped": [
+     {
+      "model": "Kling Image 4.0 (preview)",
+      "org": "Kuaishou",
+      "rank": 6,
+      "score": 1180
+     },
+     {
+      "model": "Canva Craft",
+      "org": "Canva",
+      "rank": 10,
+      "score": 1158
+     }
+    ],
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-23",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-23",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-22",
+    "diff": {
+     "summary": [
+      "Wan 3.0: #1→#1 (0 名), 1174→1175 (+1)",
+      "Utopai X: #2→#2 (0 名), 1168→1171 (+3)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1159→1163 (+4)",
+      "Hyperflow H3: #5→#4 (+1 名), 1154→1157 (+3)",
+      "Dreamina Seedance 2.5: #4→#5 (-1 名), 1156→1156 (+0)",
+      "Gemini Omni Flash 1.2: #7→#6 (+1 名), 1151→1154 (+3)",
+      "FLUX 3 Max: #6→#7 (-1 名), 1152→1151 (-1)",
+      "HeyGen Video 1: #8→#8 (0 名), 1149→1150 (+1)",
+      "MiniMax H3 Max: #9→#9 (0 名), 1143→1146 (+3)",
+      "FLUX 3: #10→#10 (0 名), 1136→1138 (+2)"
+     ]
+    }
+   }
+  ]
+ }
+}
