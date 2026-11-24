@@ -1,0 +1,22 @@
+<svg class="diagram" viewBox="0 0 560 330" width="100%" role="img" aria-label="轎跑休旅示意：上圖是車尾直立的方正 SUV，下圖是車頂線向後快速下滑的轎跑休旅，以 BMW iX4 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M50 130 L58 92 Q62 80 80 78 L150 74 L190 42 L455 42 Q470 42 472 56 L478 96 L505 100 Q515 104 514 130 L50 130 Z"/>
+    <path d="M200 50 L170 76 L462 76 L458 50 Z"/>
+    <circle cx="130" cy="132" r="22"/><circle cx="425" cy="132" r="22"/>
+    <path d="M50 290 L58 252 Q62 240 80 238 L150 234 L205 202 Q300 192 360 204 Q430 222 492 254 L505 260 Q515 264 514 290 L50 290 Z"/>
+    <path d="M212 210 L180 236 L440 236 Q400 220 360 212 Q300 200 212 210 Z"/>
+    <circle cx="130" cy="292" r="22"/><circle cx="425" cy="292" r="22"/>
+  </g>
+  <g fill="none" stroke="#d2462f" stroke-width="2.4" stroke-dasharray="6 5">
+    <path d="M190 34 L470 34 L486 100"/>
+    <path d="M205 194 Q300 184 362 196 Q432 214 500 252"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="currentColor">
+    <text x="50" y="22">一般 SUV：車頂平直、車尾直立（例：iX3）</text>
+    <text x="50" y="180">轎跑休旅：車頂線向後快速下滑（例：iX4，Cd 0.23）</text>
+  </g>
+  <g font-family="sans-serif" font-size="13" fill="#d2462f">
+    <text x="372" y="26">直立車尾</text>
+    <text x="400" y="200">斜背車尾</text>
+  </g>
+</svg>
