@@ -486,17 +486,18 @@
     "FORVIA 表示它能明顯降低碳足跡，同時維持高級車要求的品質與表面質感。",
     "這張座椅入選 11/21–22 愛麗舍宮「法國製造」大展，代表 Haute-Saône 省。"
    ],
-   "swatch": {
-    "hex": "#8A8378",
-    "label": "Ecorium（示意色，非官方色值）"
+   "image": {
+    "file": "cmf-forvia-ecorium-a390.jpg",
+    "alt": "Alpine A390 GT 運動座椅，FORVIA 新聞稿所附照片",
+    "credit": "FORVIA（新聞稿附 Alpine 座椅照）",
+    "credit_url": "https://www.forvia.com/en/press/forvia-spotlight-elysee-alpine-a390-gts-seat-selected-2026-made-france-exhibition"
    },
    "sources": [
     [
      "FORVIA 新聞稿（愛麗舍宮展 11/21–22）",
      "https://www.forvia.com/en/press/forvia-spotlight-elysee-alpine-a390-gts-seat-selected-2026-made-france-exhibition"
     ]
-   ],
-   "note": "FORVIA 新聞稿只附一張 Alpine 運動座椅照，檔名標示為 Alcantara 座椅，無法確認是 Ecorium 椅面，所以不放照片，只用示意色票。"
+   ]
   },
   {
    "id": "cmf-paint-firefly-haven-calm-green",
