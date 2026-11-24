@@ -185,8 +185,42 @@
    "id": "grok-bot-tips",
    "model": "Grok Bot 教學與實用資訊",
    "kind": "教學",
-   "status": "今天沒有新消息。",
-   "updates": []
+   "status": "1 則：官方影片〈What's new in Grok Bot – Nov 23〉示範訂飯店／機票、Tailscale 連家用 MCP、連接器逐項權限與圖片標註修圖。",
+   "updates": [
+    {
+     "title": "Matt Palmer（SpaceXSI Grok Bot 團隊）〈What's new in Grok Bot – Nov 23, 2026〉：訂飯店與機票、Tailscale 連家中 MCP 伺服器、連接器逐項權限、圖片標註修圖",
+     "short_title": "官方 11/23 新功能導覽",
+     "date": "2026-11-23",
+     "one": "學到：把旅行計畫交給 Bot 就能找飯店並到業者網站完成預訂（機票陸續開放）；連接器可以逐個工具設「自動允許／需要核准／封鎖」；桌面版在圖上圈選加註，Bot 就照著改圖。",
+     "summary": "3 分半官方影片（YouTube，11/23）。影片說明列出四項：1) 旅行預訂：給 Bot 旅行計畫，它會找飯店和航班並透過業者網站預訂，最後導你到航空公司或飯店完成手續，機票預訂陸續開放中。2) Tailscale：透過 Tailscale MCP，Bot 能連到架在你 tailnet（私人網路）上的 MCP 伺服器，例如 Plex 影音伺服器或控制家中設備的伺服器；官方舉例有用戶用它幫孩子排睡前歌單、有人調整 Wi-Fi 打線上遊戲。3) 連接器工具權限：在連接器頁面把每個工具設為 Always allow、Auto-review、Needs approval 或 Blocked。4) 圖片標註：桌面版打開圖片、標出要改的地方並加註，Bot 會照著修改。",
+     "links": [
+      [
+       "YouTube：What's new in Grok Bot – Nov 23, 2026",
+       "https://www.youtube.com/watch?v=TNPIQ7lCLBY"
+      ],
+      [
+       "Tesla North 文字整理",
+       "https://teslanorth.com/2026/11/23/grok-bot-flights-hotels-connector-permissions/"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-whats-new-1123.webp",
+      "alt": "What's new in Grok Bot – Nov 23, 2026 影片縮圖",
+      "credit": "Matt Palmer（YouTube 縮圖）",
+      "credit_url": "https://www.youtube.com/watch?v=TNPIQ7lCLBY"
+     },
+     "gloss": [
+      [
+       "MCP",
+       "讓 AI 連接外部工具與服務的共通插座規格"
+      ],
+      [
+       "Tailscale",
+       "把自己的多台裝置串成私人網路的工具，外人連不進來"
+      ]
+     ]
+    }
+   ]
   }
  ],
  "columns": [],
@@ -273,7 +307,8 @@
  ],
  "video": null,
  "caveats": [
-  "本期 AI 輔助汽車設計近 7 天無新的合格案例（小鵬、Ford、BMW、GM 等均已報過或較舊）；追蹤清單模型近一天無新的官方消息。"
+  "本期 AI 輔助汽車設計近 7 天無新的合格案例（小鵬、Ford、BMW、GM 等均已報過或較舊）；追蹤模型近一天無新的官方消息。",
+  "名家專欄本期無合格內容（7 天內新片多為已報過、以連結／邀請碼為主或越獄類內容）。"
  ],
  "leaderboards": {
   "snapshot": "2026-11-24",
