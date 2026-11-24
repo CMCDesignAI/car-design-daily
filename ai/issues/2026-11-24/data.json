@@ -1,0 +1,612 @@
+{
+ "date": "2026-11-24",
+ "weekday": "週二",
+ "issue_no": 48,
+ "lede": "Anthropic 推出 Claude Ship 讓 AI 代理一路審查、修正到核准 PR，OpenAI 與 Cisco 開源 Linux 臨時防護盾 Shirudo，Google 也為 Gemini API 加入檔案切片。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "claude-ship",
+   "org": "Anthropic",
+   "tag": "新產品",
+   "date": "2026-11-23",
+   "title": "Anthropic 推出 Claude Ship（beta）：AI 代理幫你審 PR、修到測試通過，還能依團隊規則決定能不能合併",
+   "short_title": "Claude Ship：AI 審碼到核准",
+   "one": "寫程式的團隊可以讓 Claude 一路包辦「審查 → 修正 → 核准」，例行的小改動不用再等人按核准，但哪些改動要人簽核由團隊自己定。",
+   "orig": "That's why we built Claude Ship, available today in beta. It can review PRs, fix them, and decide what's ready to merge based on policies each team sets.",
+   "summary": "【內容】Claude Ship 由三部分組成：已正式上線的 Code Review（多角度審查 PR，可選 Quick／Standard／Deep 三種深度），以及兩個 beta 新代理——PR Steward（處理 CI 失敗、合併衝突和審查意見，每次推送後留言說明改了什麼、怎麼復原；設計上不會核准或合併，留言 @claude stop 可叫它停手）和 Claude Approvals（依團隊寫在 repo 裡的核准政策檔，自動核准例行改動或要求人工簽核，官方形容像更聰明的 CODEOWNERS）。官方建議先用「只觀察」模式建立信心。\n【官方數據】Claude Code 團隊 6 月到 9 月合併的 PR 增加一倍以上，被回退的比例下降超過 40%（Claude 審查只是其流程的一層）。\n【限制與價格】只支援 GitHub 上的 repo，限 Claude Team 與 Enterprise 方案；依 token 計費，管理員可設 Code Review 與 PR Steward 的花費上限；Approvals 無基本費，但政策中的分類器與觸發的 Code Review 照 token 計費。啟用零資料保留、HIPAA 設定或客戶自管金鑰的組織不能用。",
+   "links": [
+    [
+     "Anthropic：Introducing Claude Ship",
+     "https://claude.com/resources/articles/introducing-claude-ship"
+    ],
+    [
+     "TechCrunch 報導",
+     "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    ]
+   ],
+   "image": {
+    "file": "claude-ship.webp",
+    "alt": "Claude Ship 官方分享圖",
+    "credit": "Anthropic",
+    "credit_url": "https://claude.com/resources/articles/introducing-claude-ship"
+   },
+   "gloss": [
+    [
+     "PR（Pull Request）",
+     "把自己改好的程式碼送出、請別人審查後再合併進主程式的請求"
+    ],
+    [
+     "CI",
+     "每次改程式就自動跑測試的流程，紅燈代表有東西壞了"
+    ]
+   ]
+  },
+  {
+   "id": "openai-cisco-shirudo",
+   "org": "OpenAI × Cisco",
+   "tag": "重磅開源",
+   "date": "2026-11-23",
+   "title": "OpenAI 與 Cisco 開源 Shirudo：讓 AI 代理替還沒打補丁的 Linux 系統先裝「臨時防護盾」，服務不用重開",
+   "short_title": "OpenAI 開源 Shirudo 防護盾",
+   "one": "發現漏洞後，正式補丁常要等好幾天；Shirudo 讓 AI 先寫一段小程式擋住攻擊路徑，人工核准後直接套上正在跑的系統。",
+   "orig": "OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches.",
+   "summary": "【怎麼運作】Shirudo（日文「盾」）用 Linux 的 eBPF 技術，在系統執行中觀察可疑行為並套用針對性的防護（shield），只擋住漏洞會用到的程式路徑、正常請求照常通過；代理負責調查漏洞、產生並驗證 shield，由維運人員決定是否部署。shield 會加密簽章、載入前驗證，並用 TPM 硬體記錄每次載入／移除，供事後查核。\n【官方實測】受控測試中，用 Codex 產生的 shield 在 Java 的 Base64 解碼器加上輸入檢查，擋下對執行中 Elasticsearch 的 Java4Shell 攻擊，服務不用重啟（屬實驗室測試，非正式環境）。\n【限制】GitHub 標示仍是預發布版；正式環境需要帶 signed-loader ABI 與 Shirudo 核心修補的 Linux 核心，以及 TPM 2.0。授權 BSD 2-Clause（BPF 程式另採 BSD／GPL 雙授權）。Cisco 旗下 Isovalent 說明它是 Tetragon 為 AI 代理重寫的版本。",
+   "links": [
+    [
+     "OpenAI：OpenAI and Cisco introduce Shirudo",
+     "https://openai.com/index/introducing-shirudo"
+    ],
+    [
+     "GitHub：shirudo-dev/shirudo",
+     "https://github.com/shirudo-dev/shirudo"
+    ],
+    [
+     "Isovalent（Cisco）技術說明",
+     "https://isovalent.com/blog/post/cisco-openai-shirudo"
+    ],
+    [
+     "OpenAI 在 X 的宣布",
+     "https://x.com/OpenAI/status/2124980590717911527"
+    ]
+   ],
+   "image": {
+    "file": "shirudo.webp",
+    "alt": "Shirudo 官方圖：OpenAI 與 Cisco 標誌",
+    "credit": "OpenAI",
+    "credit_url": "https://openai.com/index/introducing-shirudo"
+   },
+   "gloss": [
+    [
+     "eBPF",
+     "可以在 Linux 系統執行中插入小程式、觀察或改變系統行為的技術，不用重開機"
+    ],
+    [
+     "TPM",
+     "電腦裡的安全晶片，能留下不可竄改的紀錄"
+    ]
+   ]
+  },
+  {
+   "id": "gemini-api-file-slicing",
+   "org": "Google",
+   "tag": "開發者更新",
+   "date": "2026-11-23",
+   "title": "Gemini API 加入檔案切片：大型 PDF、試算表、影片只送需要的頁數、儲存格或片段，只付看到那部分的 token",
+   "short_title": "Gemini API 檔案切片",
+   "one": "用 Gemini API 處理長文件或長影片時，可以指定只讀第幾頁、哪個儲存格範圍或哪段時間，省錢也讓回答更聚焦。",
+   "orig": "You can now pass PDFs, Office files (docs, slides, spreadsheets), audio, and video directly to the Gemini API and request only the pages, spreadsheet cells, media segments, and layers you need.",
+   "summary": "【更新內容】Google AI Studio 與 Gemini 平台的 API 新增伺服器端檔案切片，並原生支援上傳 Microsoft Office 與 OpenDocument 格式。檔案用 Files API 上傳一次即可跨回合重複使用；代理可在 function response 裡自己指定要看哪一段；可以先用文字、低解析預覽或逐字稿粗看，再對重要的圖表或畫面用高解析。\n【可調項目】文件／簡報：頁碼範圍、解析度（low／medium／high）、只要文字或頁面影像；試算表：分頁與儲存格範圍、資料／公式／視覺；影片：起訖時間、fps、解析度、逐字稿／畫面／音訊；音訊：起訖時間。\n【限制】適用所有 Gemini 4 模型，原本的檔案大小與頁數上限不變。",
+   "links": [
+    [
+     "Google：Introducing file slicing controls in the Gemini API",
+     "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+    ]
+   ],
+   "image": {
+    "file": "gemini-file-slicing.webp",
+    "alt": "Gemini API 檔案切片功能官方宣傳圖",
+    "credit": "Google",
+    "credit_url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+   },
+   "gloss": [
+    [
+     "token",
+     "AI 計算文字與圖片份量的單位，API 依 token 數收費"
+    ]
+   ]
+  },
+  {
+   "id": "search-pi-wallet-drive",
+   "org": "Google",
+   "tag": "平台更新",
+   "date": "2026-11-23",
+   "title": "Google 搜尋 AI Mode 的個人化再擴大：可連 Google Wallet，Drive 與 Gemini App 幾週內跟進",
+   "short_title": "AI Mode 可連 Wallet、Drive",
+   "one": "在 Google 搜尋的 AI Mode 裡，可以選擇讓它讀你的 Wallet 消費紀錄、之後還有 Drive 文件和 Gemini 對話，回答會更貼近你的狀況。",
+   "orig": "Starting to roll out today, you can opt in to securely connect Google Wallet to Personal Intelligence in AI Mode, with support for Drive and the Gemini app following in the coming weeks.",
+   "summary": "【更新內容】Personal Intelligence 原本可連 Gmail、日曆、相簿；今天開始陸續開放連 Google Wallet（AI Mode 與 Gemini App 都能用，可分析花費、最大化信用卡回饋），Drive 與 Gemini App 將在未來幾週加入，讓 Gemini App 和 AI Mode 互通對話脈絡。\n【限制】需自行選擇開啟（opt-in），可隨時關閉；連 Wallet 後 AI Mode 只能讀取，不能轉帳、管理或投資你的錢。\n【哪裡設定】搜尋個人化設定 → Connected Apps → 選擇要連的 App。官方未說明開放地區。",
+   "links": [
+    [
+     "Google：Tailored Google Search with Personal Intelligence apps",
+     "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+    ]
+   ],
+   "image": {
+    "file": "search-pi-apps.webp",
+    "alt": "Google 官方圖：AI Mode 連接 Drive 的個人化回答",
+    "credit": "Google",
+    "credit_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+   },
+   "gloss": [
+    [
+     "AI Mode",
+     "Google 搜尋裡的對話式 AI 搜尋模式"
+    ],
+    [
+     "Personal Intelligence",
+     "Google 讓 AI 參考你自己的 App 資料（信件、行事曆等）來回答的功能"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "今天沒有新消息。",
+   "updates": []
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-rmbg-3",
+   "title": "ComfyUI 用 RMBG 3.0 去背：頭髮、玻璃、紗也能留下半透明邊緣",
+   "learn": "學會下載 RMBG 3.0 的三個模型檔、用官方範本把照片一次輸出成透明背景圖（RGBA）、背景圖和遮罩，並知道去背出錯時該調哪個參數。",
+   "level": "入門",
+   "vram": "官方頁未列 VRAM（模型為 8B，範本用 int8 版本，另有更吃記憶體的 BF16 版；依原頁為準）",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "Alpha matte（透明度遮罩）",
+     "一張灰階圖，白＝保留、黑＝透明、灰＝半透明，讓頭髮等細邊自然"
+    ],
+    [
+     "RGBA",
+     "多了一個透明通道的圖片格式，去背後的圖就是這種"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到 0.46.0 以上（官方註明範本需要這個版本）。",
+    "在範本庫搜尋「Remove Background: RMBG 3.0」，或從官方頁下載工作流 JSON 拖進 ComfyUI。",
+    "下載模型：rmbg3_int8_convrot.safetensors 放 models/diffusion_models；qwen3vl_4b_int8_convrot.safetensors 放 models/text_encoders；flux2-vae.safetensors 放 models/vae。",
+    "把照片丟進 LoadImage，打開 auto_prompt（範本預設是關的），可在 subject_note 寫一句材質描述，例如「Clear glass bottle, paper label, metal cap」。",
+    "按 Run，結果存在 ComfyUI/output/rmbg3/；cfg 維持 1.0。玻璃或紗變成不透明時，開 auto_prompt、寫材質後把 cfg 提到 1.5～2.0；背景有灰霧就降低 alpha_brightness 或開 hard_mask。",
+    "注意授權：權重是 CC BY-NC 4.0，商用要另外和 Bria 談授權或改用 Bria API。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：RMBG 3.0",
+     "https://docs.comfy.org/tutorials/utility/rmbg-3-0"
+    ],
+    [
+     "Hugging Face：briaai/RMBG-3.0-Comfy",
+     "https://huggingface.co/briaai/RMBG-3.0-Comfy"
+    ],
+    [
+     "ComfyUI 官方：更新 ComfyUI",
+     "https://docs.comfy.org/installation/update_comfyui"
+    ]
+   ]
+  },
+  {
+   "id": "tut-ltx-2-3",
+   "title": "ComfyUI 跑 LTX-2.3：開源影片＋聲音一起生成，從文字或一張圖做出短片",
+   "learn": "學會從範本庫開 LTX-2.3 文生影片／圖生影片工作流，下載正確的模型檔並放到對的資料夾，做出帶聲音的短影片。",
+   "level": "中階",
+   "vram": "官方頁未列 VRAM（主模型 22B，範本用 fp8 版本，另需 Gemma 12B 文字編碼器；依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "fp8",
+     "把模型數字精度壓低到 8 位元的版本，檔案較小、較省顯存"
+    ],
+    [
+     "FLF2V",
+     "給第一張和最後一張圖，讓模型補出中間的動畫"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版；範本找不到或缺節點，多半是版本太舊。",
+    "到「範本庫 → Video」選 LTX-2.3 的工作流（官方提供文生影片、圖生影片、首尾幀、圖＋音訊對嘴、IC-LoRA 控制、ID-LoRA 六種）。",
+    "依彈窗下載模型，或手動放：ltx-2.3-22b-dev-fp8.safetensors 放 models/checkpoints；distilled 1.1 LoRA 與 gemma abliterated LoRA 放 models/loras；gemma_3_12B_it_fp4_mixed.safetensors 放 models/text_encoders；ltx-2.3-spatial-upscaler-x2-1.1.safetensors 放 models/latent_upscale_models。",
+    "文生影片：改提示詞後按 Run；圖生影片則在 LoadImage 上傳一張圖再寫要怎麼動。",
+    "想要更快可試範本中使用 ltx-2.3-22b-distilled-fp8 的工作流（例如 IC-LoRA 控制）；官方說 9:16 直式影片和聲音品質都比 LTX-2 進步。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：LTX-2.3",
+     "https://docs.comfy.org/tutorials/video/ltx/ltx-2-3"
+    ],
+    [
+     "Hugging Face：Lightricks/LTX-2.3",
+     "https://huggingface.co/Lightricks/LTX-2.3"
+    ],
+    [
+     "Hugging Face：Lightricks/LTX-2.3-fp8",
+     "https://huggingface.co/Lightricks/LTX-2.3-fp8"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "本期 AI 輔助汽車設計近 7 天無新的合格案例（小鵬、Ford、BMW、GM 等均已報過或較舊）；追蹤清單模型近一天無新的官方消息。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-24",
+  "compared_to": "2026-11-23",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-24",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ],
+    "compared_to": "2026-11-23",
+    "diff": {
+     "summary": [
+      "Gemini 4 Neon (high): #3→#3 (0 名), 1524→1523 (-1)",
+      "Claude Opus 5.5 (high): #4→#4 (0 名), 1513→1514 (+1)",
+      "Muse Wonder (max): #7→#7 (0 名), 1503→1504 (+1)",
+      "Claude Opus 4.6 (high): #10→#10 (0 名), 1501→1502 (+1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-24",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-24",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-23",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1263 (+2)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1215 (+1)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1195 (+3)",
+      "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)",
+      "Grok Imagine Image 2.0: #10→#10 (0 名), 1167→1166 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-24",
+    "metric": "Elo",
+    "carried_from": "2026-11-18",
+    "latest_as_of": "2026-11-24",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1174,
+      "ci": 13,
+      "released": "Aug 2026",
+      "delta": -1
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1168,
+      "ci": 13,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1159,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     },
+     {
+      "rank": 4,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1156,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 5,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1154,
+      "ci": 14,
+      "released": "Sep 2026",
+      "new": true
+     },
+     {
+      "rank": 6,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1152,
+      "ci": 15,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 7,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1151,
+      "ci": 14,
+      "released": "Nov 2026",
+      "move": -1,
+      "delta": -3
+     },
+     {
+      "rank": 8,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1149,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 9,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1143,
+      "ci": 14,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -4
+     },
+     {
+      "rank": 10,
+      "model": "FLUX 3",
+      "org": "Black Forest Labs",
+      "score": 1136,
+      "ci": 13,
+      "released": "Jul 2026",
+      "delta": -2
+     }
+    ],
+    "compared_to": "2026-11-23",
+    "diff": {
+     "summary": [
+      "Utopai X: #2→#2 (0 名), 1168→1170 (+2)",
+      "MiniMax H3 (768p): #3→#3 (0 名), 1159→1163 (+4)",
+      "Hyperflow H3: #5→#4 (+1 名), 1154→1156 (+2)",
+      "Dreamina Seedance 2.5: #4→#5 (-1 名), 1156→1155 (-1)",
+      "Gemini Omni Flash 1.2: #7→#6 (+1 名), 1151→1153 (+2)",
+      "FLUX 3 Max: #6→#7 (-1 名), 1152→1150 (-2)",
+      "HeyGen Video 1: #8→#8 (0 名), 1149→1148 (-1)",
+      "MiniMax H3 Max: #9→#9 (0 名), 1143→1144 (+1)",
+      "FLUX 3: #10→#10 (0 名), 1136→1137 (+1)"
+     ]
+    }
+   }
+  ]
+ }
+}
