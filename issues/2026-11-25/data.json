@@ -1,0 +1,812 @@
+{
+ "date": "2026-11-25",
+ "weekday": "三",
+ "issue_no": 49,
+ "lede": "比亞迪第三代唐 EV 上市，五座旗艦配雙大螢幕；保時捷純電 718 Boxster 把電池放在座椅後方保住中置比例；2027 Toyota Sequoia 改款、KGM 新 Rexton 預告、Ford Ranger Wolftrak 與捷途環遊者 EV、長城 H6L HEV 接連亮相。設計專欄看 Hyundai Concept THREE 怎麼從紙雕、彎鋼板走到 1:1 clay。",
+ "design_news": [
+  {
+   "id": "byd-tang-3",
+   "tag": "上市 · 中國",
+   "date": "2026-11-24",
+   "brand": "BYD 比亞迪",
+   "title": "第三代比亞迪唐 EV 上市：五座旗艦休旅、香檳金雙色車身與雙 30 吋級大螢幕",
+   "orig": "BYD launches the new Tang EV, a luxury 5-seat SUV with two +30″ screens for under $30,000",
+   "summary": "比亞迪 11/24 讓第三代唐 EV 正式上市，定位在七座「大唐」之下的五座旗艦純電休旅，售價 18.79 萬人民幣起，比預售價低了約 3.7 萬。車長 5,045 mm、軸距 2,950 mm，尺寸接近 Tesla Model X；座艙主打 35.4 吋一體式「星環」螢幕加 30 吋全景劇院螢幕。",
+   "analysis": [
+    [
+     "雙色車身",
+     "香檳金車身配黑色車頂與 A 柱，做出懸浮車頂效果，讓 5 米長的車身看起來更輕。"
+    ],
+    [
+     "細燈帶車頭",
+     "細長貫穿式日行燈壓在引擎蓋邊緣，下方保險桿兩側是直立式刀鋒造型，車頭維持封閉電動車臉。"
+    ],
+    [
+     "五座換空間",
+     "放棄第三排，換到 1,000 mm 的後座腿部空間與同級最大 205 L 前車廂。"
+    ],
+    [
+     "大螢幕座艙",
+     "35.4 吋星環螢幕橫跨儀表板，加上 30 吋全景劇院螢幕，米白色座椅配絎縫造型。"
+    ]
+   ],
+   "sources": [
+    [
+     "Electrek（11/24）",
+     "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-tang-3.jpg",
+    "alt": "香檳金色第三代比亞迪唐 EV 前三分之二側視，黑色車頂",
+    "credit": "BYD (via Electrek)",
+    "credit_url": "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/"
+   },
+   "more_images": [
+    {
+     "file": "news-byd-tang-3-2.jpg",
+     "alt": "第三代唐 EV 米白色座艙與橫跨儀表板的大螢幕",
+     "credit": "BYD (via Electrek)",
+     "credit_url": "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/"
+    },
+    {
+     "file": "news-byd-tang-3-3.jpg",
+     "alt": "第三代唐 EV 後座米白色絎縫座椅與中央扶手",
+     "credit": "BYD (via Electrek)",
+     "credit_url": "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/"
+    }
+   ]
+  },
+  {
+   "id": "porsche-718-boxster-ev",
+   "tag": "開發進度 · 德國",
+   "date": "2026-11-24",
+   "brand": "Porsche",
+   "title": "純電 718 Boxster 開發進入最後階段：電池放在座椅後方，保住中置引擎的低坐姿",
+   "orig": "Highly emotive driving experience: development of first all-electric 718 Boxster reaches the home straight",
+   "summary": "保時捷宣布首款純電雙門跑車 718 Boxster 已完成約 400 萬公里測試，量產版將在 2027 年第一季全球首發。專為跑車設計的「E-Core」架構把 800V 電池放在座椅正後方、原本引擎的位置，前後配重 40:60，延續中置引擎跑車的比例與坐姿。",
+   "analysis": [
+    [
+     "E-Core 佈局",
+     "電池不鋪在地板下，而是放在座椅後方，讓座椅能維持跑車該有的低位置。"
+    ],
+    [
+     "中置比例",
+     "重量集中在車身中段，40:60 的配重和傳統中置引擎跑車一樣，外觀比例也得以延續 Boxster。"
+    ],
+    [
+     "保留聲浪",
+     "E-Shift 方向盤換檔撥片加上重現的 Boxster 聲浪，把駕駛感受當成設計的一部分。"
+    ],
+    [
+     "開發紀錄片",
+     "官方從 11/24 起每天在 YouTube 與新聞室推出四集開發紀錄片。"
+    ]
+   ],
+   "sources": [
+    [
+     "Porsche Newsroom（11/24）",
+     "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html"
+    ]
+   ],
+   "image": {
+    "file": "news-porsche-718-boxster-ev.jpg",
+    "alt": "純電 718 Boxster 測試車隊行駛在海邊拱形隧道中",
+    "credit": "Porsche Newsroom",
+    "credit_url": "https://newsroom.porsche.com/en/2026/products/porsche-all-electric-718-boxster-development-43799.html"
+   }
+  },
+  {
+   "id": "toyota-sequoia-2027",
+   "tag": "改款 · 日本／美國",
+   "date": "2026-11-24",
+   "brand": "Toyota",
+   "title": "2027 Toyota Sequoia 改款：更寬的水平車頭，首度推出越野套件 Trailhunter",
+   "orig": "トヨタのフルサイズSUV『セコイア』、改良新型を米国発表…オフロード仕様「トレイルハンター」初設定",
+   "summary": "Toyota 美國公布 2027 年式 Sequoia 改款，造型由密西根的 CALTY 設計中心參與。車頭重新設計，強調水平結構與更寬的站姿，矩形霧燈整合進保險桿；同時首度提供以 SR5 為基礎的 Trailhunter 越野套件，TRD Pro 加入新色 Honeycomb。",
+   "analysis": [
+    [
+     "水平車頭",
+     "格柵與保險桿改走水平分層，讓全尺寸休旅看起來更寬、更穩。"
+    ],
+    [
+     "收斂電鍍",
+     "部分車型重新安排鍍鉻飾件的位置，避免過去大面積電鍍的厚重感。"
+    ],
+    [
+     "矩形霧燈",
+     "霧燈改成矩形並嵌進下保險桿，中央下巴加強，營造俐落的越野感。"
+    ],
+    [
+     "Trailhunter 識別",
+     "古銅色輪圈、專屬徽章與前拖車鉤，讓越野套件一眼就能認出。"
+    ]
+   ],
+   "sources": [
+    [
+     "Response（11/24）",
+     "https://response.jp/article/2026/11/24/419346.html"
+    ],
+    [
+     "Toyota USA Newsroom",
+     "https://pressroom.toyota.com/toyota-updates-2027-sequoia-with-elevated-style-advanced-technology-and-newly-available-trailhunter-package/"
+    ]
+   ],
+   "image": {
+    "file": "news-toyota-sequoia-2027.jpg",
+    "alt": "紅色 2027 Toyota Sequoia 改款停在草原上的前三分之二側視",
+    "credit": "Toyota (via Response)",
+    "credit_url": "https://response.jp/article/2026/11/24/419346.html"
+   },
+   "more_images": [
+    {
+     "file": "news-toyota-sequoia-2027-3.jpg",
+     "alt": "紅色 2027 Sequoia 正面，新的水平格柵與保險桿",
+     "credit": "Toyota (via Response)",
+     "credit_url": "https://response.jp/article/2026/11/24/419346.html"
+    },
+    {
+     "file": "news-toyota-sequoia-2027-2.jpg",
+     "alt": "紅色 2027 Sequoia 行駛在泥土路上的車尾",
+     "credit": "Toyota (via Response)",
+     "credit_url": "https://response.jp/article/2026/11/24/419346.html"
+    }
+   ]
+  },
+  {
+   "id": "kgm-rexton-phev",
+   "tag": "預告 · 韓國",
+   "date": "2026-11-24",
+   "brand": "KGM",
+   "title": "KGM 新一代 Rexton 預告：雙層頭燈、五孔發光格柵，車尾走英式豪華休旅路線",
+   "orig": "This Korean SUV Combines A Jeep Face With A Range Rover Tail",
+   "summary": "KG Mobility（前雙龍）公布第三代旗艦休旅 Rexton PHEV 的預告圖，首度搭載插電混合動力，並據報改用奇瑞 T2X 單體式車身平台。12 月公布更多資訊，2027 年 1 月在南韓上市。",
+   "analysis": [
+    [
+     "雙層頭燈",
+     "細長的上層日行燈加下層主燈，搭配五孔發光格柵與方正引擎蓋，車頭非常硬派。"
+    ],
+    [
+     "英式車尾",
+     "尾門造型、直立式 LED 尾燈與隱藏方向燈，讓人聯想到 Range Rover。"
+    ],
+    [
+     "品牌字標",
+     "車尾在牌照上方直接寫上 Rexton 字樣，取代徽章。"
+    ],
+    [
+     "平台轉換",
+     "從大樑式車身改為單體式結構，造型也從越野工具車轉向都會豪華休旅。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/24）",
+     "https://www.carscoops.com/2326239/kgm-rexton-combines-jeep-face-range-rover-tail/"
+    ]
+   ],
+   "image": {
+    "file": "news-kgm-rexton.jpg",
+    "alt": "黑暗中亮起五孔發光格柵與雙層頭燈的 KGM Rexton 預告圖",
+    "credit": "KGM (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2326239/kgm-rexton-combines-jeep-face-range-rover-tail/"
+   },
+   "more_images": [
+    {
+     "file": "news-kgm-rexton-2.jpg",
+     "alt": "KGM Rexton 預告：車頭燈號與側面輪廓",
+     "credit": "KGM (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2326239/kgm-rexton-combines-jeep-face-range-rover-tail/"
+    },
+    {
+     "file": "news-kgm-rexton-3.jpg",
+     "alt": "KGM Rexton 預告：直立式尾燈與尾門",
+     "credit": "KGM (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2326239/kgm-rexton-combines-jeep-face-range-rover-tail/"
+    }
+   ]
+  },
+  {
+   "id": "ford-ranger-wolftrak",
+   "tag": "特仕車 · 歐洲",
+   "date": "2026-11-24",
+   "brand": "Ford",
+   "title": "Ford Ranger Wolftrak 限量版：Traction Green 車色配黑化套件與長腳防滾架",
+   "orig": "New Ford Ranger Wolftrak pick-up arrives focused on style",
+   "summary": "Ford 歐洲推出以 Wildtrak 為基礎的 Ranger Wolftrak 限量版，外觀走接近 Ranger Raptor 的硬派路線，但保留 3,500 kg 拖曳與一噸載重。柴油 V6 與插電混合版都能選，年底前開放預訂。",
+   "analysis": [
+    [
+     "專屬車色",
+     "主色 Traction Green 灰綠，Ford 形容它適合田野、森林與全天候工地。"
+    ],
+    [
+     "黑化對比",
+     "下巴、18 吋輪圈、格柵外框、門把與後視鏡蓋全部黑化，前門與尾門加 Conquer Grey 貼紙。"
+    ],
+    [
+     "長腳防滾架",
+     "加長的運動防滾架既能綁貨，也拉高車斗的視覺重心。"
+    ],
+    [
+     "內裝呼應",
+     "Traction Green 縫線與陽極處理出風口框，雙色座椅繡上 Wolftrak 字樣。"
+    ]
+   ],
+   "sources": [
+    [
+     "Auto Express（11/24）",
+     "https://www.autoexpress.co.uk/ford/ranger/370995/new-ford-ranger-wolftrak-pick-arrives-focused-style"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-ranger-wolftrak.jpg",
+    "alt": "灰綠色 Ford Ranger Wolftrak 停在荒野泥地的前三分之二側視",
+    "credit": "Ford (via Auto Express)",
+    "credit_url": "https://www.autoexpress.co.uk/ford/ranger/370995/new-ford-ranger-wolftrak-pick-arrives-focused-style"
+   },
+   "more_images": [
+    {
+     "file": "news-ford-ranger-wolftrak-2.jpg",
+     "alt": "Ranger Wolftrak 側面，黑化輪圈與長腳防滾架",
+     "credit": "Ford (via Auto Express)",
+     "credit_url": "https://www.autoexpress.co.uk/ford/ranger/370995/new-ford-ranger-wolftrak-pick-arrives-focused-style"
+    },
+    {
+     "file": "news-ford-ranger-wolftrak-3.jpg",
+     "alt": "Ranger Wolftrak 座艙與綠色縫線",
+     "credit": "Ford (via Auto Express)",
+     "credit_url": "https://www.autoexpress.co.uk/ford/ranger/370995/new-ford-ranger-wolftrak-pick-arrives-focused-style"
+    }
+   ]
+  },
+  {
+   "id": "jetour-traveller-ev",
+   "tag": "上市 · 中國",
+   "date": "2026-11-24",
+   "brand": "捷途 Jetour",
+   "title": "捷途環遊者 EV 上市：純電方盒子用「方圓共生」，圓燈配黑色飾條",
+   "orig": "售 8.99 万元起，奇瑞捷途环游者 EV 纯电方盒子 SUV 上市",
+   "summary": "奇瑞旗下捷途的首款純電方盒子休旅環遊者 EV 於 11/24 上市，售價 8.99 萬至 12.59 萬人民幣，比預售再降 1–2 萬。車長 4,475 mm、軸距 2,735 mm，提供 150 L 可沖洗前車廂。",
+   "analysis": [
+    [
+     "方圓共生",
+     "方正車身配上兩顆圓形復古頭燈，中間用貫穿黑色飾條串起來，軟化方盒子的硬度。"
+    ],
+    [
+     "一城一色",
+     "漫霞紫、龍亭御金、珊瑚沙粉、極光綠等六種車色，主打年輕、生活感的配色。"
+    ],
+    [
+     "實用空間",
+     "前車廂可沖洗，後座放倒可形成 2.5 米平床，把露營與車宿寫進造型定位。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（11/24）",
+     "https://www.ithome.com/1/031/856.htm"
+    ],
+    [
+     "汽車之家（11/24）",
+     "https://www.autohome.com.cn/news/202611/1318553.html"
+    ]
+   ],
+   "image": {
+    "file": "news-jetour-traveller-ev.jpg",
+    "alt": "漫霞紫捷途環遊者 EV 車頭，圓形頭燈與 JETOUR 字樣黑色飾條",
+    "credit": "捷途 (via IT之家)",
+    "credit_url": "https://www.ithome.com/1/031/856.htm"
+   }
+  },
+  {
+   "id": "gwm-h6l-hev",
+   "tag": "官圖 · 中國",
+   "date": "2026-11-23",
+   "brand": "長城 Haval",
+   "title": "長城 H6L HEV 混動版官圖：點陣大燈、懸浮車頂，新增悠然青與暮雲灰",
+   "orig": "长城 H6L HEV 混动版官图发布：搭载 1.5T 混动系统，11 月 27 日广州车展上市",
+   "summary": "長城汽車發布 H6L HEV 混動版官圖，將在 11/27 開幕的廣州車展上市。外觀延續燃油版設計並調整後保險桿，車長 4,800 mm、軸距 2,810 mm，座艙升級 Coffee OS 3。",
+   "analysis": [
+    [
+     "點陣頭燈",
+     "前臉沿用「丁達爾之光」點陣式頭燈，用燈組顆粒感做出科技識別。"
+    ],
+    [
+     "懸浮車頂",
+     "黑化 D 柱讓車頂看起來與車身分離，拉長側面比例。"
+    ],
+    [
+     "貫穿尾燈",
+     "細長貫穿式尾燈配上 HAVAL 字標，後保險桿重新調整。"
+    ],
+    [
+     "新車色",
+     "在冰晶白、幻夜黑、遠山灰之外，加入悠然青與暮雲灰兩款新色。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（11/23）",
+     "https://www.ithome.com/1/030/805.htm"
+    ],
+    [
+     "汽車之家（11/23）",
+     "https://www.autohome.com.cn/news/202611/1318517.html"
+    ]
+   ],
+   "image": {
+    "file": "news-gwm-h6l-hev.jpg",
+    "alt": "淺灰藍色長城 H6L HEV 前三分之二側視",
+    "credit": "長城汽車 (via IT之家)",
+    "credit_url": "https://www.ithome.com/1/030/805.htm"
+   },
+   "more_images": [
+    {
+     "file": "news-gwm-h6l-hev-2.jpg",
+     "alt": "H6L HEV 車尾貫穿式尾燈與 HAVAL 字標",
+     "credit": "長城汽車 (via IT之家)",
+     "credit_url": "https://www.ithome.com/1/030/805.htm"
+    },
+    {
+     "file": "news-gwm-h6l-hev-3.jpg",
+     "alt": "H6L HEV 座艙，橫向大螢幕與全景天窗",
+     "credit": "長城汽車 (via IT之家)",
+     "credit_url": "https://www.ithome.com/1/030/805.htm"
+    }
+   ]
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "od-276-s2",
+   "source": "Auto&Design",
+   "credit": "Auto&Design No.276, via OverDrive sample",
+   "kind": "issue_sample",
+   "column": "Cover story",
+   "date": "2026-11-25",
+   "url": "https://downloadlibrary.overdrive.com/media/12764936",
+   "paywalled": false,
+   "orig": "Hyundai THREE: from sketch to clay, Mr. Pix and yellow acrylic (Cover story)",
+   "design_tag": "草圖與流程",
+   "title": "Hyundai Concept THREE：從紙雕、鋼板模型到 1:1 clay，「Aero Hatch」怎麼長出來",
+   "points": [
+    "先用紙雕與彎鋼板找「鋼材自然彎曲」的光影，再加三道交錯折線製造張力。",
+    "從側面剪影比稿開始，選出前低後高、接鴨尾的「Aero Hatch」新車型輪廓。",
+    "2024 年 9 月啟動，電腦草圖後做一兩台 1:1 clay，確認簡潔語彙在立體上成立。",
+    "不噴漆改貼保護膜，黃色壓克力件與 Mr. Pix 像素角色串起內外細節。"
+   ],
+   "image": {
+    "file": "hy-three.jpg",
+    "alt": "銀灰色 Hyundai Concept THREE 側面，黃綠色車窗與鴨尾造型",
+    "credit": "Hyundai (via Hyundai Newsroom)",
+    "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012"
+   },
+   "more_images": [
+    {
+     "file": "hy-three-2.jpg",
+     "alt": "Concept THREE 開門後的座艙，門端是多孔鋁材",
+     "credit": "Hyundai (via Hyundai Newsroom)",
+     "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012"
+    }
+   ],
+   "sources": [
+    [
+     "Auto&Design No.276（OverDrive 公開試閱 p.8–11）",
+     "https://downloadlibrary.overdrive.com/media/12764936"
+    ],
+    [
+     "Hyundai Newsroom：Beyond the Sketchpad（設計團隊訪談）",
+     "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012"
+    ]
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景：一道「歐洲掀背」的考題",
+      "p": [
+       "Concept THREE 是第一款掛上 IONIQ 的小型電動概念車，也是 Hyundai 新設計語彙「Art of Steel」的示範。設計中心負責人 Simon Loasby 說，起點是他和 SangYup Lee 丟給歐洲設計團隊的挑戰：歐洲到處都是出色的掀背車，Hyundai 要怎麼競爭？",
+       "團隊先從側面剪影比稿。一次深夜視訊會議裡，一張剪影「從螢幕跳出來」，就是後來的「Aero Hatch」：車頭壓低換取空力，車頂在後座乘客後方才轉折，保住頭部空間，再收進一個鴨尾擾流。"
+      ]
+     },
+     {
+      "h": "Art of Steel：紙雕、彎鋼板與三道折線",
+      "p": [
+       "Hyundai 是少數自己煉鋼的車廠，所以團隊問：怎麼「讚頌」鋼材？外觀設計主管 Nicola Danza 觀察到，鋼卷在工廠裡只靠重力就會自然彎曲，產生柔和的高光。",
+       "團隊先用紙雕模擬材料最自然的狀態，研究張力與流動，再做彎鋼板模型。只靠柔和彎曲會太單調，所以在前葉子板、車門與 C 柱加入三道交錯的折線，讓柔面和銳利線條互相拉扯。"
+      ]
+     },
+     {
+      "h": "從草圖到 clay：先在螢幕上，再到 1:1",
+      "p": [
+       "Auto&Design 的封面報導寫到，專案在 2024 年 9 月啟動，流程很標準：電腦草圖之後，做了一兩台 1:1 的 clay 模型，確認新語彙與「簡潔」在三度空間裡仍然站得住，最後才進入硬質模型。",
+       "草圖反覆研究的是車側與車尾交界處，柔軟曲面與銳利折線之間的平衡，同時也做了空力研究。車長 4.28 米，設計團隊刻意壓低車高、加入量體的變化來保住比例，Loasby 強調它不是跨界休旅，而是一台掀背車。"
+      ]
+     },
+     {
+      "h": "內裝：四個原則與「像泡沫的鋁」",
+      "p": [
+       "內裝主管 Raphaël Brétécher 用四個原則帶隊：眼睛看路、手不離方向盤，所以把資訊抬到方向盤上方、小螢幕圍繞方向盤；簡潔，讓內裝像一個殼、家具擺進去；永續，例如門端與儀表板用的發泡鋁、再生羊毛與海洋回收織物；最後是顏色。",
+       "月光黃配灰色的組合讓內裝有活力，又不顯得無聊。黃色壓克力件和內裝、輪圈呼應，Danza 說量產時會改成玻璃。"
+      ]
+     },
+     {
+      "h": "保護膜外觀與 Mr. Pix 彩蛋",
+      "p": [
+       "Concept THREE 沒有噴漆，而是包上一層保護膜，呈現鋼材「剛從鋼廠捲出來」的樣子。",
+       "團隊還設計了一個角色「Mr. Pix」，靈感來自頭燈的像素圖形與 IONIQ 子品牌字樣，散落在儀表、抬頭顯示、儀表板兩端與前方像素面板，連尾部喇叭的螺絲頭都是。參與專案的成員名字則印在輪拱內側，像一場給車主的尋寶遊戲。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "hy-three-d1.jpg",
+      "alt": "Concept THREE 草圖牆前的鋼板量體模型",
+      "credit": "Hyundai (via Hyundai Newsroom)",
+      "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012",
+      "section": 1
+     },
+     {
+      "file": "hy-three-d2.jpg",
+      "alt": "研究鋼材彎曲與張力的金屬小模型",
+      "credit": "Hyundai (via Hyundai Newsroom)",
+      "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012",
+      "section": 1
+     },
+     {
+      "file": "hy-three-d3.jpg",
+      "alt": "Simon Loasby 看著 Concept THREE 早期草圖",
+      "credit": "Hyundai (via Hyundai Newsroom)",
+      "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012",
+      "section": 2
+     },
+     {
+      "file": "hy-three-d4.jpg",
+      "alt": "Concept THREE 座艙，月光黃與灰色配色",
+      "credit": "Hyundai (via Hyundai Newsroom)",
+      "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012",
+      "section": 3
+     },
+     {
+      "file": "hy-three-d5.jpg",
+      "alt": "Concept THREE 方向盤旁的小螢幕與 Mr. Pix 像素圖形",
+      "credit": "Hyundai (via Hyundai Newsroom)",
+      "credit_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001012",
+      "section": 4
+     }
+    ],
+    "note": "本文為依原文重點整理改寫的精簡筆記，完整內容請見原文。Auto&Design 部分僅依 OverDrive 公開試閱頁摘要。"
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-aito-m7-shanying-door",
+   "kind": "car",
+   "car": "問界新 M7",
+   "tag": "內裝 · 中國",
+   "title": "問界新 M7：米白配棕紅雙拼，門板用銀色縫線繡出「山影」",
+   "points": [
+    "內裝改成米白與棕紅雙色拼接，延續環抱式、左右對稱的座艙佈局。",
+    "門板以精密排列的微孔與銀色縫線勾勒山巒輪廓，官方稱為「山影入畫」，一路延伸到喇叭罩。",
+    "搭配菱形絎縫、木紋飾條與金屬音響網罩，座椅為淺色打孔皮革。",
+    "前排換上更大的副駕螢幕，出風口位置重新調整。"
+   ],
+   "image": {
+    "file": "cmf-aito-m7-door.jpg",
+    "alt": "問界新 M7 後門板，米白皮革上的山影刺繡、木紋飾條與金屬喇叭罩",
+    "credit": "鴻蒙智行 (via IT之家)",
+    "credit_url": "https://www.ithome.com/1/031/324.htm"
+   },
+   "more_images": [
+    {
+     "file": "cmf-aito-m7-door-2.jpg",
+     "alt": "問界新 M7 米白與棕紅雙色座艙，前排三螢幕",
+     "credit": "鴻蒙智行 (via IT之家)",
+     "credit_url": "https://www.ithome.com/1/031/324.htm"
+    }
+   ],
+   "sources": [
+    [
+     "IT之家（11/24）",
+     "https://www.ithome.com/1/031/324.htm"
+    ],
+    [
+     "鳳凰網汽車（11/24）",
+     "https://auto.ifeng.com/c/8yKAp0vUBJg"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-bcomp-amplitex-romania",
+   "kind": "material",
+   "car": "Bcomp ampliTex",
+   "tag": "材質 · 天然纖維",
+   "title": "Bcomp 在羅馬尼亞設新廠，擴產亞麻纖維 ampliTex 的紗線",
+   "points": [
+    "瑞士 Bcomp 宣布在羅馬尼亞 Timișoara 設廠，預計 2027 年年中投產。",
+    "新廠生產 ampliTex 亞麻織物的基礎紗線 roving，從歐洲亞麻開始自己掌握品質。",
+    "ampliTex 可直接露出亞麻編織紋理當表面，最近用在 BMW M Concept Neue Klasse 與 Suzuki CN Challenge。",
+    "Bcomp 表示，車廠想要「即插即用」的天然纖維複材，用在內外飾件。"
+   ],
+   "image": {
+    "file": "cmf-bcomp-amplitex.jpg",
+    "alt": "Suzuki CN Challenge 賽車尾段，露出褐色亞麻纖維複材表面",
+    "credit": "Bcomp (via Automotive Interiors World)",
+    "credit_url": "https://www.automotiveinteriorsworld.com/news/materials/bcomp-announces-new-natural-fiber-production-site-in-romania.html"
+   },
+   "sources": [
+    [
+     "Automotive Interiors World（11/24）",
+     "https://www.automotiveinteriorsworld.com/news/materials/bcomp-announces-new-natural-fiber-production-site-in-romania.html"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-xpeng-p7-dawn-pink",
+   "kind": "paint",
+   "car": "小鵬 P7",
+   "tag": "塗料 · 中國",
+   "title": "小鵬 P7 新增暮金灰與晨曦粉兩款車漆",
+   "points": [
+    "小鵬 P7 新增暮金灰、晨曦粉兩款車漆，靈感取自一日天光，一明一暗。",
+    "暮金灰以沉靜灰調為底，加入高亮粗閃鋁粉與細緻珠光，光線變化時呈灰金漸層。",
+    "晨曦粉是低飽和、高明度的銀粉色，加入多粒徑金屬鋁粉，隨角度流轉出柔和金屬光澤。",
+    "官方同步發布云境灰內裝：深淺灰雙拼，搭橙色縫線與頭枕撞色，11/25 科技日首展。"
+   ],
+   "image": {
+    "file": "cmf-xpeng-p7-dawn-pink.jpg",
+    "alt": "小鵬 P7 晨曦粉車漆側面官方海報，銀粉色車身呈柔和金屬光澤",
+    "credit": "Xpeng (via PChome)",
+    "credit_url": "https://www.pchome.tech/article/news/xpeng-p7-new-color-options-mujin-gray-chenxi-pink"
+   },
+   "more_images": [
+    {
+     "file": "cmf-xpeng-p7-dusk-gold.jpg",
+     "alt": "小鵬 P7 暮金灰車漆側面官方海報，灰金交織的金屬質感",
+     "credit": "Xpeng (via PChome)",
+     "credit_url": "https://www.pchome.tech/article/news/xpeng-p7-new-color-options-mujin-gray-chenxi-pink"
+    }
+   ],
+   "sources": [
+    [
+     "PChome（11/24）",
+     "https://www.pchome.tech/article/news/xpeng-p7-new-color-options-mujin-gray-chenxi-pink"
+    ],
+    [
+     "易車／鳳凰網（11/23）",
+     "https://auto.ifeng.com/c/8yIVsrpWPkf"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-fsd-v15-calm-map",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Tesla FSD v15：全螢幕地圖與極簡 Calm Mode",
+   "date": "2026-11-24",
+   "points": [
+    "FSD v15 可以隱藏 FSD 視覺化畫面，讓導航地圖佔滿整個中控螢幕。",
+    "全螢幕地圖仍以 3D 顯示路線、周邊建築與目的地附近的建議停車場。",
+    "左下角按鈕可在全螢幕地圖、Reality View 與 Calm Mode 之間切換。",
+    "Calm Mode 同時隱藏視覺化與地圖，只留車速、速限、下一個轉彎與抵達時間。",
+    "Calm Mode 的 Dock 也簡化成車輛設定、空調與音樂，三指下滑即可切換。"
+   ],
+   "image": {
+    "file": "hmi-tesla-fsd-v15-map.jpg",
+    "alt": "Tesla 中控螢幕以全螢幕 3D 地圖顯示導航路線與周邊街區",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/news/5076/tesla-fsd-v15-lets-you-hide-fsd-visuals-with-map-view-and-calm-mode"
+   },
+   "sources": [
+    [
+     "Not a Tesla App（11/24）",
+     "https://www.notateslaapp.com/news/5076/tesla-fsd-v15-lets-you-hide-fsd-visuals-with-map-view-and-calm-mode"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "法規 · 日本",
+   "date": "2026-11-24",
+   "title": "歐盟修正版產業加速法案仍把日本製電動車排除在購車補貼外",
+   "summary": "根據 Nikkei Asia 報導，歐盟《產業加速法》修正提案仍規定只有在歐盟、英國、瑞士與歐洲經濟區組裝的電動車才能拿補貼，日本組裝車款依舊不符資格。Toyota 與日本政府正爭取放寬，東京方面警告此舉恐傷害雙邊關係。",
+   "sources": [
+    [
+     "Nikkei Asia（11/24）",
+     "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-s-ev-incentives-to-exclude-japan-made-cars-even-in-amended-proposal"
+    ],
+    [
+     "OICA 5 News 摘要（11/24）",
+     "https://oica.net/oica-5-news-wednesday-november-24-2026/"
+    ]
+   ]
+  },
+  {
+   "tag": "工廠 · 英國／美國",
+   "date": "2026-11-24",
+   "title": "Ineos 2028 年起在美國生產 Grenadier，法國 Hambach 廠與比亞迪獨家洽售",
+   "summary": "Ineos Automotive 宣布 Grenadier 與 Quartermaster 將從 2028 年起在美國生產，地點尚未決定，也可能用自建、收購或與其他車廠合作的方式。同時與比亞迪就出售法國 Hambach 工廠進行獨家談判，若成交，Grenadier 中期仍會在該廠繼續生產。",
+   "sources": [
+    [
+     "Ineos 官方新聞（11/24）",
+     "https://www.ineos.com/news/ineos-group/american-made-ineos-will-produce-the-grenadier-4x4-in-the-usa-to-drive-the-brands-worldwide-growth/"
+    ],
+    [
+     "Electrek（11/24）",
+     "https://electrek.co/2026/11/24/byd-ineos-hambach-factory-france-grenadier-us/"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 歐洲",
+   "date": "2026-11-24",
+   "title": "歐洲 10 月新車註冊年增 3.4%，連九個月成長，純電加插混占 43%",
+   "summary": "Bloomberg 報導，歐洲 10 月新車註冊量年增 3.4%，成長延續到第九個月，純電與插電混合車合計占 43%。購車補助與高油價撐起需求，但電動車利潤較低、加上中國車廠競爭，車廠降本壓力持續升高。",
+   "sources": [
+    [
+     "Bloomberg（11/24）",
+     "https://www.bloomberg.com/news/articles/2026-11-24/ev-surge-helps-europe-auto-sales-gains-to-nine-month-run"
+    ],
+    [
+     "OICA 5 News 摘要（11/24）",
+     "https://oica.net/oica-5-news-wednesday-november-24-2026/"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 中國",
+   "date": "2026-11-24",
+   "title": "中國 10 月電池出口 46.1 GWh 年增 63%，中創新航單月裝車量拉開與國軒差距",
+   "summary": "依中汽協與動力電池產業創新聯盟數據，10 月中國動力與儲能電池出口 46.1 GWh、年增 63.4%，占當月銷量 20%，其中儲能電池出口年增 94.4%。裝車量排名前三為寧德時代（40%）、比亞迪（21.4%）與中創新航（8.6%），中創新航單月領先第四名國軒高科 2.56 GWh。",
+   "sources": [
+    [
+     "新浪財經／廣東電池（11/24）",
+     "https://finance.sina.com.cn/roll/2026-11-24/doc-inizvzhx9933217.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "車展 · 中國",
+   "date": "2026-11-24",
+   "title": "廣州車展首發主角換人：新勢力幾乎沒有新車，傳統車企重回 C 位",
+   "summary": "11/27 開幕的第 24 屆廣州車展預計有超過 100 款首發新車，但蔚來、小鵬、理想、零跑、小米等新勢力普遍沒有全新車型，媒體日發布會大多取消。寶馬、比亞迪、廣汽本田、東風日產、奇瑞改當主角，寶馬把新世代 iX3、i3 上市排在車展前後。",
+   "sources": [
+    [
+     "界面新聞（via 新浪財經，11/24）",
+     "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvqtf2217428.shtml"
+    ]
+   ]
+  },
+  {
+   "tag": "充電 · 台灣",
+   "date": "2026-11-25",
+   "title": "台灣充電業「結盟打群架」：華城電能聯盟擴至 13 家、1,227 站",
+   "summary": "新款電動車加速上市，第三方充電業者用漫遊合作擴網。華城電能 EVALUE 新增中興電工 iCHARGING 等夥伴，11 月底上線後聯盟將達 13 家、1,227 站、4,899 支充電槍；源點科技 EVOASIS 也串聯同業推漫遊，旭電馳 U-POWER 則擴大合作並升級站點。",
+   "sources": [
+    [
+     "工商時報（11/25）",
+     "https://www.chinatimes.com/newspapers/20261125000341-260210"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Split headlamp",
+  "zh": "分層式頭燈（上下分離頭燈）",
+  "body": "Split headlamp（分層式頭燈）是把車頭燈號拆成上下兩層：上層是貼著引擎蓋邊緣的細長日行燈或方向燈，下層才是真正照明用的主燈組，通常藏在保險桿或格柵兩側。這樣做可以讓車頭看起來更寬、更有個性，也讓引擎蓋線條不必被大燈組打斷；缺點是主燈位置變低、辨識度較依賴上層燈條。今天新車快訊的 KGM Rexton 預告就是例子：Carscoops 指出它用細長的「兩層式」LED 頭燈，夾著會發光的五孔格柵。",
+  "source": [
+   [
+    "Carscoops：KGM Rexton（slim two-story LED headlights）",
+    "https://www.carscoops.com/2326239/kgm-rexton-combines-jeep-face-range-rover-tail/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Ivory, Russet & Flax",
+   "zh": "米白、棕紅配亞麻褐：山影刺繡般的暖色座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板取問界新 M7 的米白，門板嵌飾換成它的棕紅雙拼色，飾條用胡桃木紋，扶手借 Bcomp 亞麻纖維的淺褐，縫線用 M7 山影刺繡那種銀灰。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Ivory 米白（示意）",
+     "#E6DCCB",
+     false,
+     "ip-upper",
+     {
+      "src": "問界新 M7 米白內飾",
+      "url": "https://www.ithome.com/1/031/324.htm"
+     }
+    ],
+    [
+     "儀表板飾條 · 木紋",
+     "Walnut 胡桃木（示意）",
+     "#6B4A33",
+     false,
+     "ip-decor",
+     {
+      "src": "問界新 M7 木紋飾條",
+      "url": "https://auto.ifeng.com/c/8yKAp0vUBJg"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "Russet 棕紅（示意）",
+     "#7A3B2A",
+     false,
+     "door-insert",
+     {
+      "src": "問界新 M7 棕紅雙拼",
+      "url": "https://www.ithome.com/1/031/324.htm"
+     }
+    ],
+    [
+     "門扶手 · 天然纖維",
+     "Flax 亞麻褐（示意）",
+     "#A08A62",
+     false,
+     "armrest",
+     {
+      "src": "Bcomp ampliTex 亞麻",
+      "url": "https://www.automotiveinteriorsworld.com/news/materials/bcomp-announces-new-natural-fiber-production-site-in-romania.html"
+     }
+    ],
+    [
+     "縫線",
+     "Silver Thread 銀灰縫線（示意）",
+     "#C9CCD0",
+     false,
+     "stitch",
+     {
+      "src": "問界新 M7 山影銀色縫線",
+      "url": "https://auto.ifeng.com/c/8yKAp0vUBJg"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Espresso 深咖啡（示意）",
+     "#2B211C",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "IT之家：問界新 M7 內飾（米白棕紅雙拼、山影門板）",
+     "https://www.ithome.com/1/031/324.htm"
+    ],
+    [
+     "鳳凰網汽車：問界新 M7 內飾官圖（銀色縫線、木紋飾條）",
+     "https://auto.ifeng.com/c/8yKAp0vUBJg"
+    ],
+    [
+     "Automotive Interiors World：Bcomp ampliTex 亞麻纖維",
+     "https://www.automotiveinteriorsworld.com/news/materials/bcomp-announces-new-natural-fiber-production-site-in-romania.html"
+    ],
+    [
+     "BASF：EV3 Study Car 2.0 Haptex 合成皮座椅",
+     "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-190"
+    ]
+   ],
+   "mood": "ivory russet flax",
+   "mood_text": "米白包住上半部，棕紅門板像傍晚的山影；亞麻褐扶手讓手碰到的地方帶一點自然纖維的溫度。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#E3D8C6",
+    "seat-bolster": "#7A3B2A",
+    "seat-center": "#E3D8C6",
+    "console": "#3A2D25",
+    "console-arm": "#A08A62",
+    "steering": "#2E2622",
+    "ip-lower": "#3A2D25",
+    "accent-pod": "#C9CCD0",
+    "accent-pod2": "#6B4A33"
+   }
+  }
+ }
+}

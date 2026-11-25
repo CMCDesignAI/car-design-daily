@@ -214,5 +214,11 @@
   "key": "hmi-tesla-fsd-v15-reality-view",
   "url": "https://www.notateslaapp.com/news/5065/tesla-fsd-v15-rolls-out-with-incredible-new-reality-view-and-25x-better-safety-video",
   "image": "hmi-tesla-reality-view.jpg"
+ },
+ {
+  "date": "2026-11-25",
+  "key": "hmi-tesla-fsd-v15-calm-map",
+  "url": "https://www.notateslaapp.com/news/5076/tesla-fsd-v15-lets-you-hide-fsd-visuals-with-map-view-and-calm-mode",
+  "image": "hmi-tesla-fsd-v15-map.jpg"
  }
 ]

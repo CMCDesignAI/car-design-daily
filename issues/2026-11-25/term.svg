@@ -1,0 +1,33 @@
+<svg class="diagram" viewBox="0 0 560 300" width="100%" role="img" aria-label="分層式頭燈示意：左圖是一般整合式頭燈，右圖是上層細燈條加下層主燈的分層式頭燈，以 KGM Rexton 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M40 240 L40 150 Q42 120 70 112 L95 70 Q100 62 112 62 L208 62 Q220 62 225 70 L250 112 Q278 120 280 150 L280 240 Z"/>
+    <path d="M103 74 L217 74 L238 110 L82 110 Z"/>
+    <rect x="52" y="132" width="58" height="34" rx="8"/>
+    <rect x="210" y="132" width="58" height="34" rx="8"/>
+    <rect x="122" y="134" width="76" height="40" rx="4"/>
+    <path d="M40 240 L40 268 L80 268 L80 240 M240 240 L240 268 L280 268 L280 240"/>
+    <path d="M300 240 L300 150 Q302 120 330 112 L355 70 Q360 62 372 62 L468 62 Q480 62 485 70 L510 112 Q538 120 540 150 L540 240 Z"/>
+    <path d="M363 74 L477 74 L498 110 L342 110 Z"/>
+    <rect x="320" y="176" width="40" height="26" rx="5"/>
+    <rect x="480" y="176" width="40" height="26" rx="5"/>
+    <path d="M300 240 L300 268 L340 268 L340 240 M500 240 L500 268 L540 268 L540 240"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M384 134 L384 168 M402 134 L402 168 M420 134 L420 168 M438 134 L438 168 M456 134 L456 168"/>
+  </g>
+  <g fill="none" stroke="#d2462f" stroke-width="4" stroke-linecap="round">
+    <path d="M312 130 L372 130 M468 130 L528 130"/>
+  </g>
+  <g fill="none" stroke="#d2462f" stroke-width="2.2" stroke-dasharray="6 5">
+    <rect x="314" y="170" width="52" height="38" rx="6"/>
+    <rect x="474" y="170" width="52" height="38" rx="6"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="currentColor">
+    <text x="40" y="30">一般頭燈：日行燈與主燈在同一燈組</text>
+    <text x="300" y="30">分層式：上層燈條＋下層主燈</text>
+  </g>
+  <g font-family="sans-serif" font-size="13" fill="#d2462f">
+    <text x="372" y="124">上層細燈條</text>
+    <text x="376" y="226">下層主燈（例：KGM Rexton）</text>
+  </g>
+</svg>
