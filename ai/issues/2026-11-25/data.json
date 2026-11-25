@@ -1,0 +1,541 @@
+{
+  "date": "2026-11-25",
+  "weekday": "週三",
+  "issue_no": 49,
+  "lede": "小鵬設計總監再談 AI 設計流程：L03 從白紙到量產準備只花 10 個月；OpenAI 把 GPT-6.2 換進 ChatGPT 聊天分頁，Anthropic 推出零資料保留的 EFS 並宣布 Opus 4.5 退役日。文生影片榜 Utopai X 分數上升，前 10 名單不變。",
+  "closed": [],
+  "open": [],
+  "news": [],
+  "ainews": [
+    {
+      "id": "xpeng-ai-design-goauto",
+      "org": "XPeng",
+      "tag": "延伸 · AI 汽車設計",
+      "date": "2026-11-24",
+      "title": "延伸：小鵬創意設計總監 Rafik Ferrag 再談 AI 設計流程——L03 從白紙到可量產只花 10 個月，AI 也用在零件對標、可行性與客戶診所回饋分析",
+      "short_title": "小鵬：AI 讓 L03 10 個月完成",
+      "one": "小鵬說 AI 已是外觀、內裝、輪圈、車燈設計的日常工具，並自建內部平台防止未發表設計外流；這次補充了開發時程與 AI 用在哪些「執行面」工作。",
+      "orig": "“For exterior design, interior design, wheel design, lamps—it definitely is a tool that we use.”",
+      "summary": "【誰在做】小鵬創意設計負責人 Rafik Ferrag 在英國 L03 SUV 發表會接受 GoAuto 訪問（11/24 刊出）。\n【怎麼用】AI 用於外觀、內裝、輪圈、車燈設計；用自有 AI 工具與內部平台，理由是保護未發表設計、並能掌握輸出結果。工具也協助零件對標（benchmarking）、可行性評估，以及分析大量客戶診所（clinic）回饋，讓團隊在定案前比較更多方案。\n【成效】作者說：L03 從白紙需求到量產準備只用 10 個月，AI 是加速工具組的一部分；小鵬未公布每款車省下多少成本。\n【作者說】Ferrag 認為未來設計師會像創意總監，指揮多個設計代理；他也承認 AI 可能減少初階設計師的重複視覺化與迭代工作。\n【延伸說明】11/17 已報過 CarExpert 的同場訪談；本則新增 10 個月開發時程、零件對標／可行性／診所回饋的用途與成本說法。",
+      "links": [
+        [
+          "GoAuto：XPeng using AI for cheaper, faster car design",
+          "https://www.goauto.com.au/news/xpeng/xpeng-using-ai-for-cheaper-faster-car-design/2026-11-24/101151.html"
+        ]
+      ],
+      "image": {
+        "file": "xpeng-l03-goauto.webp",
+        "alt": "小鵬車款與 IRON 人形機器人（GoAuto 文章配圖）",
+        "credit": "GoAuto",
+        "credit_url": "https://www.goauto.com.au/news/xpeng/xpeng-using-ai-for-cheaper-faster-car-design/2026-11-24/101151.html"
+      },
+      "gloss": [
+        [
+          "客戶診所（Clinic）",
+          "車廠找目標客群實際看設計、說喜好與理由的調查場合"
+        ]
+      ]
+    },
+    {
+      "id": "chatgpt-gpt-6-2-chat",
+      "org": "OpenAI",
+      "tag": "平台更新",
+      "date": "2026-11-23",
+      "title": "ChatGPT 聊天分頁換上 GPT-6.2（Sol 的聊天調校版），Plus／Pro／Business／Enterprise 全球陸續上線",
+      "short_title": "ChatGPT 聊天改用 GPT-6.2",
+      "one": "付費版 ChatGPT 的一般聊天換成更新的模型，看圖回答、照複雜指示做事和上網查資料都比 GPT-6 好；Work 與 Codex 用的模型不變。",
+      "orig": "We're rolling out a version of GPT-6.2, optimized for the chat tab, for Plus, Pro, Business and Enterprise tiers.",
+      "summary": "【比上一版進步在哪（官方數據，聊天分頁內部測試）】圖片理解 71.7%（GPT-6 為 47.4%）；特別困難的指示遵循 78.1%（62.5%）；最低推理設定下專家級任務內部評測 65%（52%）；內部版 BrowseComp 四種推理設定都勝過 GPT-6，Extra high 為 64.5% vs 54.4%。也較會主動提議後續，例如問有沒有特價時提議降價時通知你。\n【安全】青少年安全評測明顯進步；困難對話的政策符合率 91–94%（GPT-6 為 77–80%）。\n【哪裡能用】11/23 起全球陸續推送給 Plus、Pro、Business、Enterprise 的 Chat 分頁；Enterprise 依管理員設定。底層是 GPT-6.2 Sol 的一個版本、為日常對話調校；Work 與 Codex 的模型這次不變。\n【限制】以上皆為 OpenAI 內部測試，目前尚未見到獨立實測比較。",
+      "links": [
+        [
+          "OpenAI：ChatGPT release notes（11/23）",
+          "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        ]
+      ],
+      "image": null,
+      "gloss": [
+        [
+          "BrowseComp",
+          "測 AI 上網找出難找答案能力的評測"
+        ]
+      ]
+    },
+    {
+      "id": "claude-efs-opus45-retire",
+      "org": "Anthropic",
+      "tag": "平台更新",
+      "date": "2026-11-23",
+      "title": "Claude API 推出 Enterprise Frontier Safeguards（beta）：最強模型也能零資料保留；Claude Opus 4.5 將於 2027/1/22 退役",
+      "short_title": "Claude EFS 零留存＋Opus 4.5 退役",
+      "one": "企業用 Claude 最強模型時可選擇 Anthropic 不保留對話內容；還在用 Opus 4.5 的程式要在明年 1/22 前換到 Opus 5.5。",
+      "orig": "We've launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed).",
+      "summary": "【內容】EFS 是給符合資格組織的零資料保留（ZDR）方案，適用 Claude 最強的模型；Anthropic 不保留提示與回覆，加密副本（Sealed Safety Data）存到客戶自己雲端帳號的 bucket。使用 Anthropic 代管儲存的 workspace 不算 EFS。\n【哪裡能用】beta，Claude Platform、Claude Platform on AWS、Google Cloud 上的 Claude Models（Anthropic 代管）。\n【附帶更新】組織 webhooks（beta）新增 external_storage.failed／recovered 事件，客戶自管 bucket 每日檢查失敗或恢復時通知。\n【退役】Claude Opus 4.5（claude-opus-4-5-20251101、claude-opus-4-5）宣布棄用，Claude API 上 2027-01-22 退役，官方建議改用 Opus 5.5；其他平台日期見 Model deprecations 頁。",
+      "links": [
+        [
+          "Claude Platform：Release notes（11/23）",
+          "https://platform.claude.com/docs/en/release-notes/overview"
+        ]
+      ],
+      "image": null,
+      "gloss": [
+        [
+          "零資料保留（ZDR）",
+          "服務商不把你送出的提示與回覆存下來"
+        ]
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "id": "minimax-h3",
+      "model": "MiniMax H3",
+      "kind": "影片生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "qwen-image-2.1",
+      "model": "Qwen Image 2.1",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "krea-2",
+      "model": "Krea 2",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "moss-image",
+      "model": "MOSS-Image",
+      "kind": "圖像生成",
+      "status": "今天沒有新消息。",
+      "updates": []
+    },
+    {
+      "id": "grok-bot-tips",
+      "model": "Grok Bot 教學與實用資訊",
+      "kind": "教學",
+      "status": "今天沒有新消息。",
+      "updates": []
+    }
+  ],
+  "columns": [],
+  "tutorials": [
+    {
+      "id": "tut-minimax-h3-multiframe",
+      "title": "ComfyUI 跑 MiniMax H3 Multiframe：用關鍵影格串出續拍與多鏡頭影片",
+      "learn": "學會用 Add Guide 節點把幾張靜態圖釘在時間軸上（例如 0、1.5、3、5 秒），讓 MiniMax H3 生成的影片依序經過這些畫面，做出接續鏡頭或多鏡頭場景。",
+      "level": "中階",
+      "vram": "官方頁未列 VRAM（範本用 int8 擴散模型＋32B nvfp4 文字編碼器；依原頁為準）",
+      "kind": "追蹤模型教學",
+      "gloss": [
+        [
+          "關鍵影格（Keyframe）",
+          "指定影片在某個時間點一定要長成某張圖的畫面"
+        ]
+      ],
+      "steps": [
+        "在範本庫搜尋「MiniMax H3: Multiframe Reference」，或從官方頁下載工作流 JSON 拖進 ComfyUI。",
+        "下載模型：minimax_h3_ref2va_pruned_int8_convrot 放 models/diffusion_models；qwen3vl_32b_minimax_h3_nvfp4_awq 放 models/text_encoders；minimax_h3_video_vae_int8_convrot 與 minimax_h3_audio_vae_fp32 放 models/vae；（選用）4-step turbo LoRA 放 models/loras。",
+        "載入 4 張參考圖：第 1 張同時是身分參考與第一個鏡頭的首格，其餘分別釘在 1.5 秒、3 秒、5 秒。",
+        "每個 Add Guide 的 frame_idx 以 24fps 計算（範本用 round(秒數 × 24) 自動換算，負數代表從片尾倒數），影格位置加長度不能超出影片總長。",
+        "提示詞用 <Picture N> 指名參考圖、寫清楚每個鏡頭在哪個時間點切換；只接在 Add Guide 的圖文字編碼器看不到，要讓提示詞能指到它就同時接到 ref_images。",
+        "想快一點就勾 Lightning LoRA（4 步 turbo），代價是聲音與動作品質略降。"
+      ],
+      "links": [
+        [
+          "ComfyUI 官方：MiniMax H3 Multiframe",
+          "https://docs.comfy.org/tutorials/video/minimax/minimax-h3-multiframe"
+        ],
+        [
+          "Hugging Face：Comfy-Org/MiniMax-H3",
+          "https://huggingface.co/Comfy-Org/MiniMax-H3"
+        ],
+        [
+          "MiniMax：參考模式提示詞寫法",
+          "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md"
+        ]
+      ]
+    },
+    {
+      "id": "tut-sensenova-u1-6",
+      "title": "ComfyUI 跑 SenseNova U1.6：8B 一體式模型文生圖＋改圖，還會自己檢查重畫",
+      "learn": "學會下載 SenseNova U1.6 的模型與 8 步 LoRA、在 Turbo（8 步）與 Quality（50 步）之間切換，並用自我修正與提示詞改寫（PE）讓海報、資訊圖的文字更準。",
+      "level": "入門",
+      "vram": "官方頁未列 VRAM（8B int8 checkpoint；選用的 PE 文字編碼器檔案 8.82 GB；依原頁為準）",
+      "kind": "本週新教學",
+      "gloss": [
+        [
+          "自我修正（Self-Correction）",
+          "模型出圖後自己比對提示詞，不符就重畫，最多 5 輪"
+        ],
+        [
+          "PE（提示詞改寫器）",
+          "把一句短提示自動擴寫成完整畫面描述的模型"
+        ]
+      ],
+      "steps": [
+        "把 ComfyUI 更新到 0.46.0 以上（官方註明兩個範本都需要）。",
+        "在範本庫搜尋「SenseNova U1.6: Text to Image」或「Image Edit」，或從官方頁下載工作流 JSON。",
+        "下載 sensenova_u1.6_8b_mot_int8_convrot.safetensors（checkpoint）與 sensenova_u1.6_8b_mot_8step_lora_bf16.safetensors（LoRA）；要用 PE 再下載 Qwen Image 2.1 的 PE 文字編碼器（文生圖用 _pe_t2i、改圖用 _pe_i2i）。",
+        "試做時開 Turbo（8 步、CFG 1.0）；要最好的文字與細節就關 Turbo 改 Quality（50 步、CFG 4.0）。預設解析度 4:3、4MP（2368×1760）。",
+        "要出現在圖上的字都用引號括起來；文字多的版面打開 Self-Correction，單純人像就關掉（每多一輪就多跑一次取樣）。",
+        "改圖模式可放 1–4 張參考圖（上限 5 張，越多越吃記憶體）。"
+      ],
+      "links": [
+        [
+          "ComfyUI 官方：SenseNova U1.6",
+          "https://docs.comfy.org/tutorials/image/sensenova/sensenova-u1-6"
+        ],
+        [
+          "Hugging Face：sensenova/SenseNova-U1.6-8B-MoT",
+          "https://huggingface.co/sensenova/SenseNova-U1.6-8B-MoT"
+        ],
+        [
+          "GitHub：OpenSenseNova/SenseNova-U1",
+          "https://github.com/OpenSenseNova/SenseNova-U1"
+        ]
+      ]
+    }
+  ],
+  "video": null,
+  "caveats": [
+    "X 帳號近 36 小時以研究發表與活動為主（OpenAI 蛋白質設計預印本、Anthropic Siren 沙盒評測等），無新的產品宣布；GPT-6.2 聊天版的進步數據都是 OpenAI 內部測試。",
+    "小鵬一則為 GoAuto 訪談整理，L03 是否有特定零件直接來自 AI 方案，訪談未說明。"
+  ],
+  "leaderboards": {
+    "snapshot": "2026-11-25",
+    "compared_to": "2026-11-24",
+    "boards": [
+      {
+        "id": "text",
+        "title": "文字 LLM 總榜",
+        "en": "Text Arena · Overall",
+        "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+        "source_url": "https://lmarena.ai/leaderboard/text",
+        "metric": "Arena score",
+        "as_of": "2026-11-19",
+        "fetched": "2026-11-25",
+        "carried_from": "2026-11-08",
+        "latest_as_of": "2026-11-22",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Gemini 4 Carbon (high)",
+            "org": "Google",
+            "score": 1539,
+            "ci": 10,
+            "delta": 1
+          },
+          {
+            "rank": 2,
+            "model": "Gemini 4 Argon (high)",
+            "org": "Google",
+            "score": 1528,
+            "ci": 5,
+            "move": 1,
+            "delta": -1
+          },
+          {
+            "rank": 3,
+            "model": "Gemini 4 Neon (high)",
+            "org": "Google",
+            "score": 1524,
+            "ci": 8,
+            "move": -1,
+            "delta": -6
+          },
+          {
+            "rank": 4,
+            "model": "Claude Opus 5.5 (high)",
+            "org": "Anthropic",
+            "score": 1513,
+            "ci": 6,
+            "delta": -1
+          },
+          {
+            "rank": 5,
+            "model": "Claude Fable 5.1 (max)",
+            "org": "Anthropic",
+            "score": 1512,
+            "ci": 5
+          },
+          {
+            "rank": 6,
+            "model": "Claude Opus 5 (max)",
+            "org": "Anthropic",
+            "score": 1506,
+            "ci": 5
+          },
+          {
+            "rank": 7,
+            "model": "Muse Wonder (max)",
+            "org": "Meta",
+            "score": 1503,
+            "ci": 6
+          },
+          {
+            "rank": 8,
+            "model": "Claude Opus 5 (high)",
+            "org": "Anthropic",
+            "score": 1502,
+            "ci": 4
+          },
+          {
+            "rank": 9,
+            "model": "Gemini 4 Hydrogen (high)",
+            "org": "Google",
+            "score": 1502,
+            "ci": 9
+          },
+          {
+            "rank": 10,
+            "model": "Claude Opus 4.6 (high)",
+            "org": "Anthropic",
+            "score": 1501,
+            "ci": 3
+          }
+        ],
+        "compared_to": "2026-11-24",
+        "diff": {
+          "summary": [
+            "Gemini 4 Neon (high): #3→#3 (0 名), 1524→1523 (-1)",
+            "Claude Opus 5.5 (high): #4→#4 (0 名), 1513→1514 (+1)",
+            "Muse Wonder (max): #7→#7 (0 名), 1503→1504 (+1)",
+            "Claude Opus 4.6 (high): #10→#10 (0 名), 1501→1502 (+1)"
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "title": "文生圖排行",
+        "en": "Text-to-Image · AA-Image-T2I v2.1",
+        "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "metric": "Elo",
+        "as_of": "2026-11-18",
+        "fetched": "2026-11-25",
+        "carried_from": "2026-11-11",
+        "latest_as_of": "2026-11-25",
+        "status": "unchanged",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "GPT Image 2.6 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1261,
+            "ci": 1495
+          },
+          {
+            "rank": 2,
+            "model": "GPT Image 2.5 Sunburst (max)",
+            "org": "OpenAI",
+            "score": 1229,
+            "ci": 1095
+          },
+          {
+            "rank": 3,
+            "model": "GPT Image 2.6 Flare (max)",
+            "org": "OpenAI",
+            "score": 1227,
+            "ci": 1295,
+            "delta": 1
+          },
+          {
+            "rank": 4,
+            "model": "MAI-Image-2.7",
+            "org": "Microsoft AI",
+            "score": 1214,
+            "ci": 1495,
+            "new": true
+          },
+          {
+            "rank": 5,
+            "model": "GPT Image 2.5 Flare (max)",
+            "org": "OpenAI",
+            "score": 1210,
+            "ci": 1095,
+            "move": -1
+          },
+          {
+            "rank": 6,
+            "model": "GPT Image 2 (high)",
+            "org": "OpenAI",
+            "score": 1192,
+            "ci": 1195,
+            "move": -1,
+            "delta": 1
+          },
+          {
+            "rank": 7,
+            "model": "Kling Image 4.0",
+            "org": "Kuaishou",
+            "score": 1180,
+            "ci": 1395,
+            "new": true
+          },
+          {
+            "rank": 8,
+            "model": "Nano Banana 2.1",
+            "org": "Google",
+            "score": 1176,
+            "ci": 1295,
+            "move": -1
+          },
+          {
+            "rank": 9,
+            "model": "MAI-Image-2.6",
+            "org": "Microsoft AI",
+            "score": 1168,
+            "ci": 1295,
+            "move": -1,
+            "delta": -1
+          },
+          {
+            "rank": 10,
+            "model": "Grok Imagine Image 2.0",
+            "org": "SpaceXAI",
+            "score": 1167,
+            "ci": 1295,
+            "move": -1,
+            "delta": -1
+          }
+        ],
+        "compared_to": "2026-11-24",
+        "diff": {
+          "summary": [
+            "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1263 (+2)",
+            "MAI-Image-2.7: #4→#4 (0 名), 1214→1215 (+1)",
+            "GPT Image 2 (high): #6→#6 (0 名), 1192→1195 (+3)",
+            "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)",
+            "Grok Imagine Image 2.0: #10→#10 (0 名), 1167→1166 (-1)"
+          ]
+        }
+      },
+      {
+        "id": "video",
+        "title": "文生影片排行",
+        "en": "Text-to-Video · AA-Video-T2V v2.1",
+        "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+        "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+        "as_of": "2026-11-25",
+        "fetched": "2026-11-25",
+        "metric": "Elo",
+        "status": "changed",
+        "rows": [
+          {
+            "rank": 1,
+            "model": "Wan 3.0",
+            "org": "Alibaba",
+            "score": 1175,
+            "ci": 12,
+            "released": "Aug 2026",
+            "delta": 1
+          },
+          {
+            "rank": 2,
+            "model": "Utopai X",
+            "org": "Utopai Studios",
+            "score": 1173,
+            "ci": 12,
+            "released": "Sep 2026",
+            "delta": 5
+          },
+          {
+            "rank": 3,
+            "model": "MiniMax H3 (768p)",
+            "org": "MiniMax",
+            "score": 1163,
+            "ci": 12,
+            "released": "Jul 2026",
+            "delta": 4
+          },
+          {
+            "rank": 4,
+            "model": "Dreamina Seedance 2.5",
+            "org": "ByteDance Seed",
+            "score": 1155,
+            "ci": 12,
+            "released": "Jul 2026",
+            "delta": -1
+          },
+          {
+            "rank": 5,
+            "model": "Hyperflow H3",
+            "org": "Video Rebirth",
+            "score": 1154,
+            "ci": 13,
+            "released": "Sep 2026"
+          },
+          {
+            "rank": 6,
+            "model": "Gemini Omni Flash 1.2",
+            "org": "Google",
+            "score": 1153,
+            "ci": 13,
+            "released": "Nov 2026",
+            "move": 1,
+            "delta": 2
+          },
+          {
+            "rank": 7,
+            "model": "FLUX 3 Max",
+            "org": "Fal",
+            "score": 1150,
+            "ci": 13,
+            "released": "Oct 2026",
+            "move": -1,
+            "delta": -2
+          },
+          {
+            "rank": 8,
+            "model": "HeyGen Video 1",
+            "org": "HeyGen",
+            "score": 1149,
+            "ci": 12,
+            "released": "Oct 2026"
+          },
+          {
+            "rank": 9,
+            "model": "MiniMax H3 Max",
+            "org": "Fal",
+            "score": 1146,
+            "ci": 13,
+            "released": "Aug 2026",
+            "delta": 3
+          },
+          {
+            "rank": 10,
+            "model": "FLUX 3",
+            "org": "Black Forest Labs",
+            "score": 1138,
+            "ci": 12,
+            "released": "Jul 2026",
+            "delta": 2
+          }
+        ],
+        "compared_to": "2026-11-24",
+        "diff": {
+          "summary": [
+            "Wan 3.0: #1→#1 (0 名), 1174→1175 (+1)",
+            "Utopai X: #2→#2 (0 名), 1168→1173 (+5)",
+            "MiniMax H3 (768p): #3→#3 (0 名), 1159→1163 (+4)",
+            "Dreamina Seedance 2.5: #4→#4 (0 名), 1156→1155 (-1)",
+            "Gemini Omni Flash 1.2: #7→#6 (+1 名), 1151→1153 (+2)",
+            "FLUX 3 Max: #6→#7 (-1 名), 1152→1150 (-2)",
+            "MiniMax H3 Max: #9→#9 (0 名), 1143→1146 (+3)",
+            "FLUX 3: #10→#10 (0 名), 1136→1138 (+2)"
+          ],
+          "dropped": []
+        },
+        "dropped": [],
+        "analysis": "文生影片榜前 10 名單與上次快照（11/18 資料）相同，Wan 3.0 以 1175 分續居第 1。變化最大的是第 2 名 Utopai X，從 1168 升到 1173（+5），與 Wan 3.0 只差 2 分；MiniMax H3（768p）也加 4 分到 1163。Gemini Omni Flash 1.2 以 1153 分超過 FLUX 3 Max（1150）升到第 6，兩者互換名次。整體是前段分數拉近，沒有新模型擠進前 10。",
+        "analysis_short": "Utopai X 加 5 分到 1173、逼近第 1 名 Wan 3.0（1175）；Gemini Omni Flash 1.2 升到第 6，前 10 名單不變。"
+      }
+    ]
+  }
+}
