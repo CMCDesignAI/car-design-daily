@@ -1,0 +1,37 @@
+<svg class="diagram" viewBox="0 0 560 300" width="100%" role="img" aria-label="寬體套件示意：左圖是原廠車身正面，右圖加上外擴輪拱、寬胎與下擾流的寬體版本，以 Toyota Hilux Travo Hyper Z 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- stock -->
+    <path d="M70 230 L70 150 Q72 128 96 122 L118 78 Q122 70 134 70 L206 70 Q218 70 222 78 L244 122 Q268 128 270 150 L270 230 Z"/>
+    <path d="M126 82 L214 82 L234 118 L106 118 Z"/>
+    <rect x="84" y="140" width="40" height="18" rx="5"/>
+    <rect x="216" y="140" width="40" height="18" rx="5"/>
+    <rect x="134" y="140" width="72" height="34" rx="4"/>
+    <rect x="80" y="230" width="34" height="36" rx="5"/>
+    <rect x="226" y="230" width="34" height="36" rx="5"/>
+    <!-- widebody -->
+    <path d="M330 230 L330 150 Q332 128 356 122 L378 78 Q382 70 394 70 L466 70 Q478 70 482 78 L504 122 Q528 128 530 150 L530 230 Z"/>
+    <path d="M386 82 L474 82 L494 118 L366 118 Z"/>
+    <rect x="344" y="140" width="40" height="18" rx="5"/>
+    <rect x="476" y="140" width="40" height="18" rx="5"/>
+    <rect x="394" y="140" width="72" height="34" rx="4"/>
+    <rect x="318" y="232" width="50" height="34" rx="5"/>
+    <rect x="492" y="232" width="50" height="34" rx="5"/>
+  </g>
+  <g fill="none" stroke="#d2462f" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M330 160 L306 172 L304 238 L330 238"/>
+    <path d="M530 160 L554 172 L556 238 L530 238"/>
+    <path d="M318 246 L542 246"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="4 4">
+    <path d="M70 284 L270 284 M304 284 L556 284"/>
+  </g>
+  <g font-size="13" fill="currentColor" text-anchor="middle" font-family="system-ui, sans-serif">
+    <text x="170" y="40">原廠車身</text>
+    <text x="430" y="40">寬體套件</text>
+    <text x="170" y="298">車寬</text>
+    <text x="430" y="298">外擴輪拱讓車寬增加、塞進更寬輪胎</text>
+  </g>
+  <g font-size="12" fill="#d2462f" text-anchor="start" font-family="system-ui, sans-serif">
+    <text x="410" y="262">下擾流</text>
+  </g>
+</svg>

@@ -220,5 +220,11 @@
   "key": "hmi-tesla-fsd-v15-calm-map",
   "url": "https://www.notateslaapp.com/news/5076/tesla-fsd-v15-lets-you-hide-fsd-visuals-with-map-view-and-calm-mode",
   "image": "hmi-tesla-fsd-v15-map.jpg"
+ },
+ {
+  "date": "2026-11-26",
+  "key": "hmi-tesla-fsd-v15-parking-picker",
+  "url": "https://www.notateslaapp.com/news/5084/tesla-fsd-v15s-new-parking-features-explained-videos",
+  "image": "hmi-tesla-fsd-v15-parking.jpg"
  }
 ]

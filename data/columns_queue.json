@@ -1075,7 +1075,7 @@
       "excerpt": "Adventurous, elegant, sporty, classic. How many characters can a single brand have? Judging by the sheer breadth of many car makers’ ranges, the answer would seem to be: a great many. And, above all, very different ones. What matters, however, is not losing brand identity: the very thing that allows each of us to instantly recognise a model as belonging to a particular brand. This is the approach taken by Chinese giant Geely, for which the Galaxy TT and the Galaxy Zhanjian 700 represent distinct interpretations. Two types for different audiences The former is an electric saloon with sinuous, e",
       "image": "https://autodesignmagazine.com/wp-content/uploads/2026/08/2026090402_GeelyZhanjian700_TT.jpg?x11123",
       "added": "2026-11-04",
-      "used": false,
+      "used": true,
       "source": "Auto&Design",
       "credit": "Auto&Design",
       "paywalled": false,
@@ -5935,6 +5935,51 @@
       "added": "2026-11-25",
       "used": false,
       "language": "ja"
+    },
+    "ad-hyundai-open-design-lab-design-for-the-common-good": {
+      "id": "ad-hyundai-open-design-lab-design-for-the-common-good",
+      "source": "Auto&Design",
+      "credit": "Auto&Design",
+      "paywalled": false,
+      "kind": "analysis",
+      "column": "Extra",
+      "title_en": "HYUNDAI OPEN DESIGN LAB: DESIGN FOR THE COMMON GOOD",
+      "date": "2026-11-25",
+      "url": "https://autodesignmagazine.com/en/2026/11/hyundai-open-design-lab-design-for-the-common-good/",
+      "image": "https://autodesignmagazine.com/wp-content/uploads/2026/11/2026112302_HyundaiOpenLab.jpg?x58186",
+      "excerpt": "To mark Frankfurt’s designation as World Design Capital 2026, Hyundai opened its design centre to the public through the Open Design Lab, located in the heart of the German city. The initiative transformed the brand’s creative space into a meeting point for designers, students, researchers and visitors. “The idea behind the Open Design Lab is to create a space where we can showcase some of our thinking and ideas, but also receive feedback and learn from people’s reactions,” explains Eduardo Ramirez, Chief Designer at Hyundai Design Europe. “We don’t want to simply present something, but to sha",
+      "added": "2026-11-26",
+      "used": false
+    },
+    "cdn-2715972": {
+      "id": "cdn-2715972",
+      "source": "Car Design News",
+      "credit": "Car Design News",
+      "paywalled": true,
+      "kind": "analysis",
+      "column": "Analysis",
+      "title_en": "Fritz Lang’s Metropolis at 100: why the film’s future still feels contemporary",
+      "date": "2026-11-25",
+      "url": "https://www.cardesignnews.com/cars/fritz-langs-metropolis-at-100-a-future-we-still-recognise/2715972",
+      "image": "https://image.cardesignnews.com/2774700.jpg?imageId=2774700&x=0&y=2.22&cropw=100&croph=95.56&panox=0&panoy=2.22&panow=100&panoh=95.56&width=1200&height=683",
+      "excerpt": "As Metropolis approaches its 2027 centenary, this analysis explores how Fritz Lang’s sci-fi classic predicted modern systems of power, image control, humanoid robots and future car design.",
+      "added": "2026-11-26",
+      "used": false
+    },
+    "cdn-2774594": {
+      "id": "cdn-2774594",
+      "source": "Car Design News",
+      "credit": "Car Design News",
+      "paywalled": true,
+      "kind": "analysis",
+      "column": "Analysis",
+      "title_en": "Suzuki reveals rebranded Ignis as global compact EV",
+      "date": "2026-11-25",
+      "url": "https://www.cardesignnews.com/cars/suzuki-reveals-rebranded-ignis-as-global-compact-ev/2774594",
+      "image": "https://image.cardesignnews.com/2774598.jpg?imageId=2774598&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "excerpt": "The Ignis is Suzuki’s latest electric city car, following the design of both the Japanese e-Sky and previous Ignis model closely",
+      "added": "2026-11-26",
+      "used": false
     }
   }
 }

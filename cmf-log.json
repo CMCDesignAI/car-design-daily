@@ -1088,5 +1088,29 @@
   "angle": "暮金灰／晨曦粉車漆與鋁粉珠光工法",
   "url": "https://www.pchome.tech/article/news/xpeng-p7-new-color-options-mujin-gray-chenxi-pink",
   "image": "cmf-xpeng-p7-dawn-pink.jpg"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "car",
+  "car_key": "car:ford-bronco-dahaidao-yardang-cabin",
+  "angle": "雅丹赤岩黑配淺沙礫雙色、直條絎縫與赤岩紅點綴",
+  "url": "https://www.ford.com.cn/newsroom/2026/20261123",
+  "image": "cmf-bronco-dahaidao-ip.jpg"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "material",
+  "car_key": "material:renault-renative-scenic-recycled-fabric",
+  "angle": "renative 標章：Scenic 座椅 98% 再生織物",
+  "url": "https://www.automotiveworld.com/news/renault-brings-renative-recycled-label-to-new-vehicles/",
+  "image": "cmf-mat-renault-renative.jpg"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "paint",
+  "car_key": "paint:yangwang-dingyao-zongyan-baiyu",
+  "angle": "棕岩白玉三層疊釉棕金雙拼、琥珀金腰線與蘇繡雲紋",
+  "url": "https://www.qlsyzx.com/ctot/202611/1077069.html",
+  "image": "cmf-paint-yangwang-dingyao.jpg"
  }
 ]
