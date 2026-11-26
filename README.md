@@ -160,13 +160,27 @@ tools/
 
 節錄知名 AI 創作者**近 7 天**的影片／貼文裡的**實用應用**（工作流、工具、節點、提示詞技巧、本地部署實測），放在「追蹤清單」之後、「教學區」之前；當期 `columns` 空或缺 → 整區不顯示（導覽也不出現）。程式：`tools/build_ai.py` 的 `column()`；樣式 `.cpts`／`.colthumb`。
 - **追蹤名單與抓法**：`tools/ai_creators.json`（`core` = zley 指定／已同意：松音、T8star-Aix、Work-Fisher、AI超元域、零度解說；`suggested` = 建議名單，zley 同意後才可上）。
-  - 松音（Facebook `facebook.com/dseditorlab`）：未登入用 headless Chrome `--dump-dom` 可讀公開專頁，但只看得到置頂＋最新 1–2 篇 → 每天抓、單篇 permalink 再 dump 取全文、`creation_time`、貼文圖（約 590px）。補充：Threads `@dseditor`（最新約 4 則）、Medium RSS、dslab.tw。不要用任何登入繞過。
+  - 松音（Facebook `facebook.com/dseditorlab`）：**不在每日 AI 日報裡抓**（zley 11/26 起）。改由每週兩次（建議週一、週四 07:15，在 8:10 日報之前）的「收集 run」用已登入 box 瀏覽器（computerUse，**唯讀**：不按讚／追蹤／留言／分享／私訊、不改設定；要求重新登入或驗證就停手通知 zley）往下滑看前幾天的貼文，合格的先存進候選快取（見下「候選快取」）；每天的 AI 日報只從快取挑。未登入的 headless 抓法（只看得到置頂＋最新 1–2 篇）僅作備援／驗證用。補充：Threads `@dseditor`（最新約 4 則）、Medium RSS、dslab.tw。不要用任何登入繞過。
   - T8star-Aix（YouTube `UCCQ8NwZBxQlpE7nQD4i1Viw`；B 站 385085361 未登入被風控擋，B 站影片以 YouTube 同步版為準）、Work-Fisher（YouTube `UCy0mkx9-gcXWbiPcXeAnL7w`）：YouTube RSS 目前回 404，改用 `yt-dlp --flat-playlist --playlist-end 8 --extractor-args youtube:lang=zh-CN https://www.youtube.com/@<handle>/videos` 列新片，再 `yt-dlp --skip-download --write-info-json <url>` 取 `upload_date`、說明欄。字幕常被 429／「確認不是機器人」擋，**不要硬抓、不要用 cookie**；事實以標題、說明欄，以及說明欄連到的 GitHub／Hugging Face README 為準。
 - **選題**：只收實用應用（怎麼做、用什麼工具／節點、硬體需求、實測數字）；純閒聊、帶貨／邀請碼、社群八卦、轉載新聞不收。每期 1–3 則為佳（桌機一列），最多 6 則、每位創作者最多 2 則；都沒有合格的就整區不放。
 - **欄位**：`{id, creator, creator_key（= ai_creators.json key）, platform（YouTube|Bilibili|Facebook|Threads|Medium|X|Web）, date（來源真實發布日，FB 用 creation_time 換成台北日期）, title（繁中標題）, short_title, orig（原標題／貼文首句，原文照抄）, one（一句白話：這是什麼、對讀者有什麼用）, points[2–4 句繁中，每句只寫來源有的事實；作者主觀說法要標「作者說／作者實測」], url（原片／原貼文）, image{file, alt, credit, credit_url}, links[[名稱, url]]（GitHub／HF／官方頁，發布前 curl 200）, gloss?}`。
 - **圖片**：YouTube 用 `https://i.ytimg.com/vi/<id>/maxresdefault.jpg`（credit「<創作者>（YouTube 縮圖）」）；FB 用貼文本身的附圖（credit「松音（Facebook 貼文附圖）」）。轉 WebP 存 `ai/issues/DATE/img/col-*.webp`，`file` 只填檔名。不用 AI 生成圖。
 - **去重（30 天）**：發布後把每則寫進 `ai-columns-log.json`（`{date, key(=id), creator_key, url, topic}`）；`build_ai.py` 每次建置會自動刪掉比最新一期早 30 天以上的紀錄；30 天內同 url／同 key 不再上。和當期 AI 新聞／追蹤清單同主題可以，但卡片要寫創作者的**做法**，不是重複新聞。
 - **檢查**：`publish.sh` 會跑 `python3 tools/check_ai_columns.py`（最新一期：欄位、7 天內、2–4 點、≤6 則、每人 ≤2、圖檔存在、30 天去重、creator 需為 core/approved），失敗就不發布。
+
+### 候選快取（zley 11/26：幾天才查一次的來源 → 先收集、日報一條龍）
+**原則**：每幾天才能查一次、或需要登入瀏覽器的來源，一律**先收集進快取，日報只讀快取**。日報 run 不碰這些來源、不開瀏覽器；快取沒有合格的就**整區不放**，不等待、**不在上線後二次更新**。
+- **快取位置**：`/workspace/ai-digest/column_cache/`（**不在 repo 內**：站點是公開的，貼文全文與原圖不進 git）。`cache.json`（候選清單）、`img/<id>.webp`（收集時就轉好 ≤1600px、<300KB 的 WebP）、`raw/<id>.json`（原始收集記錄，永久保留）。用過、被拒、過期的條目都留著，因此快取同時是**資料備份**。
+- **工具**：`python3 tools/column_cache.py <子命令>`（環境變數 `COLUMN_CACHE_DIR` 可改位置）。
+  - `status [--creator dseditor]`：各狀態數量、待用清單、上次收集時間、`suggested_since`（下次收集要往下滑到哪一天）。
+  - `add FILE.json`：收集 run 把 computerUse 取得的貼文寫成 JSON（`source, creator_key, platform, permalink, date（台北日期）, orig, full_text, topic_hint?, qualified_note?, image_path?（已下載的本機圖）, image{alt, credit, credit_url}`）後匯入；以 permalink 去重、重複匯入只更新原始欄位、**不會重設 status**。
+  - `pick --date YYYY-MM-DD [--window 7] [--max 6] [--per-creator 2] [--copy-images ai/issues/DATE/img]`：唯讀；回傳**發文日在 DATE 前 7 天內**、尚未用過、且通過 30 天去重（對 `ai-columns-log.json` 與近 30 天各期 `columns[]` 的 url／key）的條目（新到舊，每人 ≤2、總數 ≤6）；`--copy-images` 把圖複製成 `col-*.webp` 到該期 `img/`。沒有合格就輸出 `picked: []`。
+  - `mark-used ID… --date DATE`（發布成功後）、`reject ID… --reason …`、`export --out FILE.tgz`（備份）。
+- **日報怎麼用**：AI 日報步驟「名家專欄」→ `pick --date <今天> --copy-images ai/issues/<今天>/img` → 照上面「欄位」「圖片」規則把 `full_text` 改寫成卡片（`points` 事實＋「作者說／作者實測」、`credit` 用快取的 credit）、寫進 `columns[]` → 一次 `publish.sh` → 發布成功後 `mark-used`、並照舊寫 `ai-columns-log.json`。`pick` 為空就不放 松音 的卡（其他 YouTube 創作者照舊每天抓）。
+- **收集 run（每週兩次，日報之前）**：由 parent 派 computerUse 開 `facebook.com/dseditorlab`，從上次收集（`status` 的 `suggested_since`）往下滑看到約前 4–5 天，用「選題」規則（只收實用應用、不收閒聊／帶貨／轉載新聞）挑出候選，點進貼文取 permalink、發文日（台北）、全文、貼文附圖（下載到本機）→ `add` 進快取。**不改任何期、不 push 站點**；只有遇到登入／驗證要求時才通知 zley。
+- **新鮮度**：貼文要在**該期日期前 7 天內**才能上（與 `check_ai_columns.py` 一致）；收集間隔最長 4 天（週一→週四 3 天、週四→週一 4 天），貼文被收集後仍有約 3–7 天可上線。
+- **其他來源套用同樣模式**：目前「每幾天才查」且需要瀏覽器的只有 松音 FB；Automotive Design Planet（ADP）全文瀏覽器讀取（7 天內最多 2 次，汽車日報）可比照辦理，見 `/workspace/notify/proposed_routines_1126/`（待 zley 同意才改 routine）。
+
 
 ## 新聞來源清單
 - 設計專業：Car Design News、Interior Motives、Auto&Design（義）、Dezeen、Designboom、Design Week、Wallpaper*、Yanko Design

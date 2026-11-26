@@ -12,7 +12,7 @@
           "platform": "Facebook",
           "url": "https://www.facebook.com/dseditorlab",
           "primary": true,
-          "fetch": "headless Chrome（未登入公開檢視）：google-chrome --headless=new --no-sandbox --virtual-time-budget=15000 --dump-dom https://www.facebook.com/dseditorlab → 取 /dseditorlab/posts/pfbid… 連結（未登入只看得到置頂＋最新 1–2 篇）→ 再 dump 單篇 permalink 取全文（og:description＋內文）、creation_time（Unix 秒）與貼文圖（scontent…t39.99422-6，未登入約 590px）"
+          "fetch": "【11/26 起】每週二次（週一／四 07:15）由 parent 用已登入瀏覽器 computerUse 往下滑收集 → tools/column_cache.py add；每日日報只讀快取（column_cache.py pick），不抓 FB。以下 headless 抓法僅備援：headless Chrome（未登入公開檢視）：google-chrome --headless=new --no-sandbox --virtual-time-budget=15000 --dump-dom https://www.facebook.com/dseditorlab → 取 /dseditorlab/posts/pfbid… 連結（未登入只看得到置頂＋最新 1–2 篇）→ 再 dump 單篇 permalink 取全文（og:description＋內文）、creation_time（Unix 秒）與貼文圖（scontent…t39.99422-6，未登入約 590px）"
         },
         {
           "platform": "Threads",
