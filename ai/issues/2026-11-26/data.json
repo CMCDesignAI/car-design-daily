@@ -228,7 +228,83 @@
    ]
   }
  ],
- "columns": [],
+ "columns": [
+  {
+   "id": "col-aisd-antigravity-swarm",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-25",
+   "title": "Antigravity 三大新功能實測：Orchestrator 雙模型接力、/swarm 蜂群協作、Dynamic Workflows 動態工作流",
+   "short_title": "Antigravity 雙模型接力＋蜂群實測",
+   "orig": "🚀超越Codex！Antigravity三大新特性实测：Gemini 4 Neon加持！双模型接力、Swarm蜂群协作与Dynamic Wokflows动态工作流！任务分工、消息交流和执行回放都能看到",
+   "one": "想讓多個 AI 分工寫程式的人可以看：作者用真實 Godot 遊戲專案示範 Google Antigravity 三種新的多代理玩法，以及怎麼把一次性的檢查做成可重複用的腳本。",
+   "points": [
+    "Orchestrator 模式：同一輪回覆裡讓 Gemini 4 Neon 當架構師規劃、Claude Sonnet 5.5 當工程師寫程式；作者實測 18 分鐘完成遊戲的存檔／讀檔系統，過程中可用 /btw 側邊視窗查進度與背景任務。",
+    "/swarm 蜂群模式：多個 Agent 在共享看板上分工開發天氣、海浪與音效等「風暴」模組，可在 Open Swarm 蜂窩圖回放訊息往來。",
+    "Dynamic Workflows：用 /run-workflow 自動編排腳本，平行稽核整個專案的 Godot 4 隱患與 Godot 3 舊寫法，結果結構化彙整，腳本可存下重複使用。"
+   ],
+   "url": "https://www.youtube.com/watch?v=oz6sPkw6owI",
+   "image": {
+    "file": "col-oz6sPkw6owI.webp",
+    "alt": "Antigravity 三大新特性實測影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=oz6sPkw6owI"
+   },
+   "links": [
+    [
+     "Google Antigravity 官網",
+     "https://antigravity.google/"
+    ],
+    [
+     "Antigravity 官方文件",
+     "https://antigravity.google/docs"
+    ]
+   ],
+   "gloss": [
+    [
+     "Antigravity",
+     "Google 的 AI 程式開發工具，讓模型以代理方式寫、跑、修整個專案"
+    ],
+    [
+     "Swarm（蜂群）",
+     "多個 AI 代理同時分工合作完成一個大任務"
+    ]
+   ]
+  },
+  {
+   "id": "col-aisd-t3code",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-24",
+   "title": "T3 Code 完整教學：把 Claude Code、Codex、Antigravity 等收進同一個開源工作台，手機也能派任務",
+   "short_title": "T3 Code：多個 AI 程式助手一起管",
+   "one": "手上同時有 Claude Code、Codex 等訂閱的人可以參考：作者示範用開源的 T3 Code 統一操作，多個模型同時改同一個專案，還能用手機遠端派工。",
+   "points": [
+    "T3 Code 是開源控制介面（GitHub：pingdotgg/t3code），影片從安裝設定開始，把 Claude Code、Codex、Antigravity、Grok 與 Pi agent 收進同一個介面，用現有訂閱。",
+    "示範同一個對話中切換模型交叉審查程式碼，以及四個執行緒平行開發、用分支隔離各自的改動。",
+    "手機掃碼下發任務、即時同步，並遠端控制 Mac mini 上的專案；最後用腳本編排多 Agent 自動審查流程。"
+   ],
+   "url": "https://www.youtube.com/watch?v=efw7W3A6N6E",
+   "image": {
+    "file": "col-efw7W3A6N6E.webp",
+    "alt": "T3 Code 完整使用教程影片縮圖",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=efw7W3A6N6E"
+   },
+   "links": [
+    [
+     "GitHub：pingdotgg/t3code",
+     "https://github.com/pingdotgg/t3code"
+    ],
+    [
+     "T3 Code 官網",
+     "https://t3.codes"
+    ]
+   ]
+  }
+ ],
  "tutorials": [
   {
    "id": "tut-flux1-krea-dev",
