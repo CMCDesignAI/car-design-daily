@@ -7,6 +7,8 @@ import email.utils
 import html
 from html.parser import HTMLParser
 import json
+import os
+import shutil
 from pathlib import Path
 import re
 import sys
@@ -402,14 +404,20 @@ def select(items, used, date, n=None, exclude=''):
 def pick(date,n,exclude,imgdir,dry_run=False):
     migrate(); q=load(Q,{'items':{}}); used=load(LOG,{'used':{}})['used']; out=[]
     candidates=list(q['items'].values())
+    cache_root=Path(os.environ.get('ADP_CACHE_DIR','/workspace/ai-digest/source_cache/adp')).expanduser().resolve()
+    cached=load(cache_root / 'cache.json', {'entries': []}).get('entries', [])
     target=n if n is not None else len(select(candidates,used,date,None,exclude))
     # Re-select after rejection so a short teaser never consumes a daily slot.
     while len(out) < target:
         batch=select(candidates,used,date,1,exclude)
         if not batch: break
         x=batch[0]; candidates=[y for y in candidates if y['id'] != x['id']]
-        body=''; images=[]; reason=None
-        if x.get('paywalled') or x['source']=='Car Design News':
+        body=''; images=[]; reason=None; cache_entry=None
+        if x.get('needs_browser') or x.get('source') == ADP:
+            cache_entry=next((e for e in cached if e.get('status') == 'pending' and (e.get('id') == x['id'] or e.get('url') == x.get('url')) and isinstance(e.get('full_text'), str) and e['full_text'].strip()), None)
+            if not cache_entry: continue
+            body=cache_entry['full_text']
+        elif x.get('paywalled') or x['source']=='Car Design News':
             x['paywalled']=True; reason='paywalled'
         elif x['kind']=='issue_sample':
             body=x.get('notes',''); 
@@ -432,18 +440,25 @@ def pick(date,n,exclude,imgdir,dry_run=False):
         x.pop('skipped_reason',None)
         candidates=[y for y in candidates if y['source']!=x['source']]  # 1 per source per day
         o={k:x.get(k) for k in ('id','source','credit','kind','column','date','url','paywalled','excerpt','needs_browser')}
-        o.update(orig=x['title_en'],title='',browser_task=('Signed-in box browser: read the full article text and article-body image URLs at url, then write points' if x.get('needs_browser') else None),design_tag=design_tag(body+' '+x['title_en']),points=[],craft_score=craft_score(body),body=body[:12000],images=images,image=None,image2=None,more_images=[])
+        o.update(orig=x['title_en'],title='',browser_task=None,design_tag=design_tag(body+' '+x['title_en']),points=[],craft_score=craft_score(body),body=body if cache_entry else body[:12000],images=images,image=None,image2=None,more_images=[])
+        if cache_entry: o['from_cache']=True
         if x['kind']=='issue_sample':
             o.update({k:x.get(k) for k in ('issue_no','part','sample_pages','section','language')})
             candidates=[y for y in candidates if y['kind']!='issue_sample']
         if imgdir:
             Path(imgdir).mkdir(parents=True,exist_ok=True)
-            sources=(x.get('crops') or [x.get('crop1'),x.get('crop2')]) if x['kind']=='issue_sample' else images
+            sources=cache_entry.get('images', []) if cache_entry else ((x.get('crops') or [x.get('crop1'),x.get('crop2')]) if x['kind']=='issue_sample' else images)
             downloaded=[]
             for src in sources:
                 if not src: continue
                 if len(downloaded)>=3: break
                 try:
+                    if cache_entry:
+                        path=(cache_root / src['file']).resolve()
+                        if cache_root not in path.parents: raise ValueError('image path is outside cache')
+                        name=path.name; shutil.copyfile(path, Path(imgdir)/name)
+                        downloaded.append(dict(file=name, alt=src.get('alt') or x['title_en'], credit=src.get('credit') or 'via Automotive Design Planet', credit_url=src.get('credit_url') or x['url']))
+                        continue
                     if x['kind']=='issue_sample':
                         ext=Path(src).suffix; data=Path(src).read_bytes(); credit=f"Auto&Design No.{x['issue_no']}, via OverDrive sample"; credit_url=x['overdrive_url']
                     else:
