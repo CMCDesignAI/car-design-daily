@@ -230,6 +230,36 @@
  ],
  "columns": [
   {
+   "id": "col-songyin-pi-h3",
+   "creator": "松音",
+   "creator_key": "dseditor",
+   "platform": "Facebook",
+   "date": "2026-11-22",
+   "title": "ComfyUI 跑 MiniMax H3 加速：PI-H3 兩步採樣實測，720P 約 14 秒",
+   "short_title": "PI-H3 加速實測：720P 約 14 秒",
+   "orig": "也是ComfyUI的技術線。",
+   "one": "用 ComfyUI 跑 H3 影片的人可以看：作者實測 PI-H3 搭配加速設定能把生成時間壓到很短，並指出哪種用法會變油、哪種適合。",
+   "points": [
+    "作者實測：在 RTX 5090 上，PI-H3 兩步採樣 720P 約 14 秒，加上影片壓制約 26 秒；標準 8 步生成時間約為其 3 倍。",
+    "作者說：PI-H3 搭配參考圖時畫面會很油，較適合文字生影片或頭尾格；文生影片的人物相當自然。",
+    "作者說：同樣的 ComfyUI，掛上加速（PI-H3＋Sol＋RTX，甚至再加 RelayVSR）幾步就能到 1080P；用官方工作流不掛加速、跑 20 步則慢很多，示範或評測前最好找懂的人設定。"
+   ],
+   "url": "https://www.facebook.com/dseditorlab/posts/pfbid02CygtCPKnRx6JU1WPVHcxV1knxnrK94TNN51uDVAXncQsPWR7YaMh1wmJ26a3err5l",
+   "image": {
+    "file": "col-songyin-pi-h3.webp",
+    "alt": "松音貼文附圖：PI-H3 與標準 H3 生成結果比較",
+    "credit": "松音（Facebook 貼文附圖）",
+    "credit_url": "https://www.facebook.com/dseditorlab/posts/pfbid02CygtCPKnRx6JU1WPVHcxV1knxnrK94TNN51uDVAXncQsPWR7YaMh1wmJ26a3err5l"
+   },
+   "links": [],
+   "gloss": [
+    [
+     "採樣步數",
+     "影片或圖片模型生成時反覆修正的次數，步數越少越快"
+    ]
+   ]
+  },
+  {
    "id": "col-aisd-antigravity-swarm",
    "creator": "AI超元域",
    "creator_key": "aisuperdomain",
