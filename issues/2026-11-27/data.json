@@ -1,0 +1,732 @@
+{
+ "date": "2026-11-27",
+ "weekday": "五",
+ "issue_no": 51,
+ "lede": "Ford 用 GT41 Hypercar 宣告 2027 年重返利曼，雙色福特藍塗裝藏著白頭鷹與底特律精神；廣州車展今天開幕，阿維塔 T09 中國首秀，新款小米 SU7 Ultra 申報圖曝光；主導三菱造型重啟的設計執行總監 Dambrosio 宣布年底離任。設計專欄聽 Karma 設計團隊談 Invictus 的碳纖維漸層與紐約 Art Deco 細節。",
+ "design_news": [
+  {
+   "id": "ford-gt41",
+   "tag": "全球首發 · 美國",
+   "date": "2026-11-26",
+   "brand": "Ford 福特",
+   "title": "Ford GT41 Hypercar 亮相：比 GT40 高一吋，雙色福特藍藏著白頭鷹與底特律精神",
+   "orig": "Ford Racing unveils Ford GT41 for 2027 Return to Top Class at Le Mans and in FIA World Endurance Championship",
+   "summary": "Ford Racing 11/26 在底特律 Ford Field 的感恩節美式足球賽上揭幕 GT41，這是 Ford 2027 年重返 WEC 最高組別與利曼 24 小時的 Hypercar。車子在歐洲完成 30 小時耐久等測試，搭載 Ford 自行開發的 5.4 升自然進氣 Coyote V8 加油電系統。",
+   "analysis": [
+    [
+     "名字就是尺寸",
+     "跟 GT40 一樣用車高命名：從地面到進氣口 41 吋，延續 1966–69 年連贏四屆利曼的血統。"
+    ],
+    [
+     "雙色藍塗裝",
+     "測試期的偽裝換成兩種福特藍交織的圖案，細看藏有美國國旗、白頭鷹與底特律「The Spirit of Detroit」雕像；正式賽車塗裝 2027 卡達開幕戰前才公布。"
+    ],
+    [
+     "低鼻頭與鏤空輪拱",
+     "Carscoops 指出車頭是弧形碳纖維下擾流加低鼻頭，每顆頭燈有三條橘色細 LED；輪拱上方鏤空露出輪胎，後照鏡做在葉子板上。"
+    ],
+    [
+     "車頂鰭與尾翼",
+     "碳纖維車頂進氣口連到大型鯊魚鰭，車尾是大尾翼、端板細 LED 和一道橫貫的弧形紅色尾燈，下方是碳纖維擴散器。"
+    ]
+   ],
+   "sources": [
+    [
+     "Ford Racing 新聞稿（11/26）",
+     "https://www.fordracing.com/hypercar/press-release"
+    ],
+    [
+     "Carscoops（11/26）",
+     "https://www.carscoops.com/2329264/ford-gt41-le-mans-hypercar/"
+    ]
+   ],
+   "image": {
+    "file": "news-ford-gt41.jpg",
+    "alt": "藍色迷彩塗裝的 Ford GT41 Hypercar 前側方，三條橘色 LED 頭燈",
+    "credit": "Ford (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2329264/ford-gt41-le-mans-hypercar/"
+   },
+   "more_images": [
+    {
+     "file": "news-ford-gt41-2.jpg",
+     "alt": "Ford GT41 車尾：大型碳纖維尾翼、鯊魚鰭與弧形紅色尾燈",
+     "credit": "Ford (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2329264/ford-gt41-le-mans-hypercar/"
+    }
+   ]
+  },
+  {
+   "id": "avatr-t09",
+   "tag": "中國首秀 · 中國",
+   "date": "2026-11-26",
+   "brand": "Avatr 阿維塔",
+   "title": "阿維塔 T09 旗艦休旅廣州車展中國首秀：晶鑽陣列大燈、D 柱發光徽標",
+   "orig": "四激光雷达+三联屏！阿维塔T09旗舰SUV明日广州车展中国首秀",
+   "summary": "阿維塔 11/26 宣布 T09 旗艦 SUV 在 11/27 開幕的廣州車展中國首秀，概念版已在 10/12 全球首秀。這是阿維塔與華為乾崑聯合設計的第一款高端旗艦，設計靈感來自 VISION XPECTRA，配四顆光達。",
+   "analysis": [
+    [
+     "晶鑽燈組",
+     "全新設計語言，前臉是晶鑽陣列大燈配雕塑感格柵。"
+    ],
+    [
+     "雙拼車色",
+     "官圖車色為絳紅與棉白雙拼。"
+    ],
+    [
+     "發光 D 柱",
+     "D 柱發光徽標和車身架構融為一體，車尾是修長的一體式晶鑽尾燈。"
+    ],
+    [
+     "Vortex 座艙",
+     "內裝採「Vortex 情感渦流」設計，三聯屏的互動螢幕向外延伸到車門，做成一體化布局。"
+    ]
+   ],
+   "sources": [
+    [
+     "第一電動網（11/26）",
+     "https://d1ev.com/newsflash/317603"
+    ]
+   ],
+   "image": {
+    "file": "news-avatr-t09.jpg",
+    "alt": "絳紅色阿維塔 T09 正面，直立的晶鑽燈組與雕塑格柵",
+    "credit": "Avatr (via 第一電動網)",
+    "credit_url": "https://d1ev.com/newsflash/317603"
+   },
+   "more_images": [
+    {
+     "file": "news-avatr-t09-2.jpg",
+     "alt": "阿維塔 T09 絳紅引擎蓋與晶鑽燈組近照",
+     "credit": "Avatr (via 第一電動網)",
+     "credit_url": "https://d1ev.com/newsflash/317603"
+    }
+   ]
+  },
+  {
+   "id": "xiaomi-su7-ultra-2027",
+   "tag": "申報圖 · 中國",
+   "date": "2026-11-26",
+   "brand": "Xiaomi 小米",
+   "title": "新款小米 SU7 Ultra 申報圖：可開合的鵝頸尾翼，碳纖維套件全面加量",
+   "orig": "Xiaomi's New SU7 Ultra Wants To Take The Taycan's Nurburgring Crown",
+   "summary": "Carscoops 引述工信部申報圖，新款 SU7 Ultra 沒有加動力，而是主攻空力，目標奪回目前由 Porsche Taycan Turbo GT（Manthey 套件）保持的紐柏林電動量產車紀錄。",
+   "analysis": [
+    [
+     "前後小改",
+     "標準版前葉子板多了百葉，前保桿與格柵微調，後保桿與擴散器重做。"
+    ],
+    [
+     "鵝頸尾翼",
+     "選配超大碳纖維鵝頸尾翼，兩根電動支柱可讓上層翼片打開，做出類似 911 GT3 RS 的 DRS；也有從尾門升起的隱藏尾翼。"
+    ],
+    [
+     "碳纖維選項",
+     "賽道版碳纖維前保桿多了開口與小翼片，另有三種碳纖維車頂、碳纖維引擎蓋、後照鏡蓋與藍／紫碳標誌。"
+    ],
+    [
+     "輪胎與卡鉗",
+     "Pirelli P Zero Trofeo RS 前 295/30、後 325/30，卡鉗有紅、黃、綠、藍四色。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/26）",
+     "https://www.carscoops.com/2329005/xiaomi-su7-ultra-2027/"
+    ]
+   ],
+   "image": {
+    "file": "news-xiaomi-su7-ultra.jpg",
+    "alt": "黃色新款小米 SU7 Ultra 前側方，前葉子板百葉與黑色條紋",
+    "credit": "MIIT (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2329005/xiaomi-su7-ultra-2027/"
+   },
+   "more_images": [
+    {
+     "file": "news-xiaomi-su7-ultra-2.jpg",
+     "alt": "新款小米 SU7 Ultra 車尾：碳纖維尾翼與擴散器",
+     "credit": "MIIT (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2329005/xiaomi-su7-ultra-2027/"
+    }
+   ]
+  },
+  {
+   "id": "mitsubishi-dambrosio-leaves",
+   "tag": "設計人事 · 日本",
+   "date": "2026-11-26",
+   "brand": "Mitsubishi 三菱",
+   "title": "三菱設計執行總監 Alessandro Dambrosio 年底離任：新 Pajero、Destinator 都出自他的團隊",
+   "orig": "DESIGNERS ON THE MOVE | ALESSANDRO DAMBROSIO LEAVES MITSUBISHI",
+   "summary": "Auto&Design 11/26 報導，三菱汽車設計執行總監 Alessandro Dambrosio 基於個人決定，將在 2026 年底結束在三菱的任期。他和經營層一起定義了三菱全球品牌重啟的造型方向，雜誌認為他的影響會延續到三菱未來幾年的新車。",
+   "analysis": [
+    [
+     "主導品牌重啟",
+     "任內帶領設計團隊，和同事與高層一起定出三菱全球重啟的造型願景。"
+    ],
+    [
+     "量產與概念",
+     "量產車有新 Triton、Xforce、Destinator、Delica Mini 與全新 Pajero，概念車有 Engelberg、Mi-Tech、XFC、DST、D:X、Elevance，拿下多項國內外設計獎。"
+    ],
+    [
+     "義德資歷",
+     "從 Lancia 設計中心起步，做過 Alfa Romeo Giulietta、159 與 Kamal 概念車，當過 Maserati 首席設計師（GranCabrio）。"
+    ],
+    [
+     "VW 集團經驗",
+     "後來擔任 Walter de Silva 的副手與集團跨品牌設計負責人，主導 Passat B8、Polo VII、Audi A4／A5／A7 的造型提案與 Lamborghini Egoista。"
+    ]
+   ],
+   "sources": [
+    [
+     "Auto&Design（11/26）",
+     "https://autodesignmagazine.com/en/2026/11/designers-on-the-move-alessandro-dambrosio-lascia-mitsubishi/"
+    ],
+    [
+     "三菱汽車新聞稿：全新 Pajero（10/29）",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+    ]
+   ],
+   "image": {
+    "file": "news-mitsubishi-dambrosio.jpg",
+    "alt": "銅色全新三菱 Pajero 前側方，停在湖邊草地",
+    "credit": "Mitsubishi Motors (via 三菱汽車新聞室)",
+    "credit_url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261029_1.html"
+   }
+  },
+  {
+   "id": "nissan-terrano-miit",
+   "tag": "申報圖 · 中國／日本",
+   "date": "2026-11-26",
+   "brand": "Nissan 日產",
+   "title": "新 Nissan Terrano 申報圖曝光：方正越野車身，插混版尾門塗黑",
+   "orig": "New Nissan Terrano Is A Rugged Land Cruiser Rival America Won't Get",
+   "summary": "Terrano 名稱復活，由鄭州日產生產、與 Frontier Pro 皮卡共用底盤，提供汽油、柴油與插混。它是 4 月北京車展 Terrano PHEV Concept 的量產版，正式發表前先在工信部申報資料曝光，之後可能外銷部分市場。",
+   "analysis": [
+    [
+     "忠於概念",
+     "方正車身、直立車頭、粗壯保桿與肌肉感葉子板，大致保留概念車姿態。"
+    ],
+    [
+     "收斂細節",
+     "拿掉概念車額外的 LED、會發光的三孔格柵和花俏車頂架，尾燈與備胎蓋也改得較傳統。"
+    ],
+    [
+     "插混識別",
+     "插混版尾門塗黑，中間用一根車色橫桿固定備胎。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/26）",
+     "https://www.carscoops.com/2329009/nissan-terrano-miit/"
+    ]
+   ],
+   "image": {
+    "file": "news-nissan-terrano.jpg",
+    "alt": "新 Nissan Terrano 前側方與車尾，方正車身與尾門外掛備胎",
+    "credit": "MIIT (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2329009/nissan-terrano-miit/"
+   }
+  },
+  {
+   "id": "chery-tiggo8-plus-new",
+   "tag": "官圖 · 中國",
+   "date": "2026-11-26",
+   "brand": "Chery 奇瑞",
+   "title": "全新奇瑞瑞虎 8 PLUS 官圖：大尺寸直瀑格柵配貫穿尾燈，廣州車展亮相",
+   "orig": "奇瑞全新瑞虎 8 PLUS 官图公布：全新设计语言，广州车展亮相",
+   "summary": "工信部第 414 批公示中，全新瑞虎 8 PLUS 完成申報並公布官圖，分汽油 1.6T 與 SHEV 混動兩版，車長 4862／4870mm、軸距 2850mm，有 5 座與 7 座，11/27 廣州車展亮相。",
+   "analysis": [
+    [
+     "新設計語言",
+     "前臉重心是大尺寸直瀑式格柵。"
+    ],
+    [
+     "側面與尾部",
+     "側面用傳統機械式門把，尾部是貫穿式尾燈組，雙邊共兩出排氣。"
+    ],
+    [
+     "選裝外觀件",
+     "可選不同造型的輪圈、前位置燈、前格柵與側標，SHEV 另可選光達與卡鉗。"
+    ]
+   ],
+   "sources": [
+    [
+     "IT之家（11/26）",
+     "https://www.ithome.com/1/032/982.htm"
+    ]
+   ],
+   "image": {
+    "file": "news-chery-tiggo8-plus.jpg",
+    "alt": "深藍色全新瑞虎 8 PLUS 前側方，大尺寸直瀑式格柵",
+    "credit": "Chery (via IT之家)",
+    "credit_url": "https://www.ithome.com/1/032/982.htm"
+   },
+   "more_images": [
+    {
+     "file": "news-chery-tiggo8-plus-2.jpg",
+     "alt": "全新瑞虎 8 PLUS 側面，傳統門把與多輻輪圈",
+     "credit": "Chery (via IT之家)",
+     "credit_url": "https://www.ithome.com/1/032/982.htm"
+    }
+   ]
+  },
+  {
+   "id": "ora-5-plus",
+   "tag": "官圖 · 中國",
+   "date": "2026-11-26",
+   "brand": "GWM ORA 歐拉",
+   "title": "歐拉 5 PLUS 官圖：延續圓燈臉，尾部改貫穿燈並放大 GWM 字標",
+   "orig": "长城欧拉5 PLUS官图发布 燃油混动插混纯电四种动力齐上 27日广州车展首发",
+   "summary": "歐拉 5 PLUS 定位年輕家庭的時尚智能 SUV，車長 4758mm、軸距 2720mm，比歐拉 5、5 GT 與 7 更大；同時提供燃油、混動、插混、純電四種動力，插混是家族第一次，11/27 廣州車展首發。",
+   "analysis": [
+    [
+     "家族圓燈",
+     "車頭延續辨識度高的圓形車燈，前包圍保留進氣口與導流槽，純電版充電口在右前側。"
+    ],
+    [
+     "尾部差異",
+     "和家族車型最大的不同在車尾：貫穿式尾燈，並強化長城英文縮寫 GWM 字標。"
+    ],
+    [
+     "拉長車身",
+     "側面用傳統門把，提供多款輪圈；車身與軸距都比既有歐拉 5 家族拉長。"
+    ]
+   ],
+   "sources": [
+    [
+     "汽車中國（11/27）",
+     "https://www.auto-cn.com/views-15109"
+    ]
+   ],
+   "image": {
+    "file": "news-ora-5-plus.jpg",
+    "alt": "淺灰色歐拉 5 PLUS 側面，溜背車頂與傳統門把",
+    "credit": "GWM (via 汽車中國)",
+    "credit_url": "https://www.auto-cn.com/views-15109"
+   }
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "adp-1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+   "source": "Automotive Design Planet",
+   "credit": "Karma Automotive (via Automotive Design Planet)",
+   "kind": "interview",
+   "column": "Design Story",
+   "date": "2024-11-02",
+   "url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+   "paywalled": false,
+   "orig": "In conversation with Karma’s design team on the launch of Karma Invictus ultra-luxury concept",
+   "design_tag": "設計師專訪",
+   "title": "Karma Invictus：用碳纖維漸層與紐約 Art Deco，把現成平台做出「隱藏的寶藏」",
+   "points": [
+    "設計副總裁 Christensen 與資深總監 David 不改車身，而是在 Revero 的低長比例上加工藝與材料。",
+    "引擎蓋、車頂與尾蓋漆面漸層淡出，露出碳纖維，走向呼應品牌 DNA「Comet Line」。",
+    "分岔五輻輪圈與座艙縫線，取材帝國大廈等紐約 Art Deco 建築的線條與窗型。",
+    "設計與工程每天溝通；全新車的單一細節可能來回 10–20 週，Invictus 量產幾乎等於概念。"
+   ],
+   "image": {
+    "file": "karma-invictus-front.jpg",
+    "alt": "Karma Invictus 前側方，引擎蓋與車頂的碳纖維漸層",
+    "credit": "Karma Automotive (via Automotive Design Planet)",
+    "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept"
+   },
+   "more_images": [
+    {
+     "file": "karma-invictus-wheel.jpg",
+     "alt": "Karma Invictus 分岔五輻鍛造輪圈與頭燈特寫",
+     "credit": "Karma Automotive (via Automotive Design Planet)",
+     "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept"
+    },
+    {
+     "file": "karma-invictus-rear.jpg",
+     "alt": "Karma Invictus 後側方，碳纖維車頂與尾翼",
+     "credit": "Karma Automotive (via Automotive Design Planet)",
+     "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept"
+    }
+   ],
+   "sources": [
+    [
+     "Automotive Design Planet（2024/11/02）",
+     "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept"
+    ]
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "在現成比例上做加法",
+      "p": [
+       "Invictus 是 Karma「Reserve Collection」的一員，限量 30 台。Automotive Design Planet 訪問了 Karma 全球設計副總裁 Michelle Christensen 和資深設計總監 Nicholas David。兩人坦言，這台車的基礎在他們加入前就已開發好，任務不是重畫車身，而是做出 Revero 性能取向的演進版。",
+       "David 說 Revero 的比例本來就很有份量：非常低、非常長，可能是市面上最低的四門四座車。團隊在側面加上碳纖維空力套件，讓車身看起來更貼地、更有運動感，其餘力氣都花在工藝與材料細節上。"
+      ]
+     },
+     {
+      "h": "Comet Line 與碳纖維漸層",
+      "p": [
+       "Christensen 介紹 Karma 的設計 DNA「Comet Line（彗星線）」：一道繞過前擋下緣（cowl）的輪廓線，奠定整台車的架構，最早出現在 Kaveya。Invictus 用一套特殊漆面，讓引擎蓋、車頂與尾蓋的漆色漸層淡出，底下的碳纖維依 Comet Line 的走向露出來。",
+       "David 形容這是分層被發現的體驗：遠看是漂亮的比例，走近才看到碳纖維，再更近才發現漸層。團隊把這叫做「hidden treasures（隱藏的寶藏）」，就像 Kaveya 的隱藏式燈具和尾翼，是留給車主慢慢發現的彩蛋。"
+      ]
+     },
+     {
+      "h": "從紐約天際線借來的 Art Deco",
+      "p": [
+       "Christensen 說品牌方向是把「supernatural imagination（超自然想像）」和美國人的巧思結合，把 Karma 推進美國品牌少見的超豪華市場，所以靈感刻意取自美國的藝術、建築與文化。",
+       "外觀上，新的分岔五輻輪圈每根輻條往輪框呈「V」字張開，直接引用紐約老建築的線條與窗型。座艙由資深內裝設計師 Harsha 把帝國大廈等摩天樓的 Art Deco 元素放進座椅縫線與門板細節，讓車內有一種很美國的精緻感。"
+      ]
+     },
+     {
+      "h": "設計與工程每天對話",
+      "p": [
+       "因為建立在既有平台上，Invictus 量產版和概念幾乎 99.9% 相同，頂多微調通風口。David 說如果是 Kaveya 這種從零開始的車，設計和工程會為頭燈位置、照射角度等細節反覆討論，單一個特徵就可能來回 10 到 20 週。",
+       "Christensen 強調工作室不是孤立的造型部門，從一開始就和工程合作，連 Kaveya、Ivara、Gyesera 這些概念車都以能量產為前提。Invictus 同步做了工程升級：底盤加剛、換上 Öhlins 懸吊，碳纖維車頂減重 50 磅並降低重心，配上更寬後胎與輕量鍛造輪圈。"
+      ]
+     },
+     {
+      "h": "客製化四個層級與材料方向",
+      "p": [
+       "Karma 把客製化分成四層：經銷商就能選的 Karma Collection、約需一到兩個月的 Reserve Collection、直接和設計工作室合作提案的 Karma Studio，以及最高等級、只給 Invictus 這類限量車的 Karma Masterwork。",
+       "團隊把客製化也當成永續的一部分：車主能隨時間重新改造自己的車、開得更久，「我們做的是能傳家的車，不是要進掩埋場的車」。材料方面，他們正和供應商評估用創新 PU 取代傳統皮革，提供素食選項。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "karma-invictus-front.jpg",
+      "alt": "Invictus 前側方：低長比例與側面碳纖維空力套件",
+      "credit": "Karma Automotive (via Automotive Design Planet)",
+      "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+      "section": 0
+     },
+     {
+      "file": "karma-invictus-rear.jpg",
+      "alt": "Invictus 後側方：碳纖維車頂與尾蓋的漸層",
+      "credit": "Karma Automotive (via Automotive Design Planet)",
+      "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+      "section": 1
+     },
+     {
+      "file": "karma-invictus-wheel.jpg",
+      "alt": "分岔五輻輪圈：輻條往輪框 V 字張開，取材紐約 Art Deco 建築",
+      "credit": "Karma Automotive (via Automotive Design Planet)",
+      "credit_url": "https://automotivedesignplanet.com/stories/1730512982-in-conversation-with-karma-design-team-on-the-launch-of-karma-invictus-ultra-luxury-concept",
+      "section": 2
+     }
+    ]
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-aito-m7-shanying",
+   "kind": "car",
+   "car": "問界新 M7",
+   "tag": "內裝 · 中國",
+   "title": "問界新 M7 山影內飾：門板微孔排出山巒，雙色拼接座艙",
+   "points": [
+    "新門板用精密排布的微孔勾勒出山影圖樣，主打東方奢雅美學。",
+    "同步推出全新拼色設計，兩種顏色互相映襯，營造雅致的座艙氛圍。",
+    "易車探館指出座椅採菱形絎縫，大面積軟質包覆搭配木紋飾條。",
+    "貫穿式氛圍燈沿門板與中控台延伸，車門、頂棚與音響面罩細節都經過打磨。"
+   ],
+   "image": {
+    "file": "cmf-car-aito-m7-interior.jpg",
+    "alt": "問界新 M7 座艙：米白座椅、棕色飾板與橫向排列的三螢幕",
+    "credit": "AITO (via BitAuto)",
+    "credit_url": "https://www.bitauto.com/article/1003114925339/"
+   },
+   "sources": [
+    [
+     "BitAuto 易車國際（11/25）",
+     "https://www.bitauto.com/article/1003114925339/"
+    ],
+    [
+     "鳳凰網汽車・易車探館（11/26）",
+     "https://auto.ifeng.com/c/8yNUyQgMCKy"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-mat-agua-silcomy",
+   "kind": "material",
+   "car": "Agua Silcomy",
+   "tag": "材質 · 矽膠仿皮",
+   "deep": true,
+   "title": "Agua Silcomy 矽膠仿皮：防水抗污的彩色軟包材料",
+   "points": [
+    "英國軟包布料商 Agua 在 11/25–26 倫敦 HIX 展首發 Silcomy 系列，是以矽膠（silicone）製成的仿皮，有多種鮮豔顏色。",
+    "表面是細緻的霧面皮感，主打耐用與特別好的抗污性，防水、耐 UV，室內外家具都能用。",
+    "Agua 表示矽膠的生產比同類材料耗用更少資源與能源。",
+    "放到車上：防水、抗污、耐曬的特性適合淺色座椅、敞篷或越野車的座椅與門板，以及常被手摸的扶手（此為應用建議，非原廠案例）。"
+   ],
+   "image": {
+    "file": "cmf-material-agua-silcomy.jpg",
+    "alt": "Agua Silcomy 矽膠仿皮色樣：深灰、灰、米白、湖水藍與橘棕扇形排開在木桌上",
+    "credit": "Agua (via Design Insider)",
+    "credit_url": "https://www.designinsiderlive.com/agua-to-unveil-new-silcomy-faux-leather-collection-at-hix-2026/"
+   },
+   "sources": [
+    [
+     "Design Insider（11/23）",
+     "https://www.designinsiderlive.com/agua-to-unveil-new-silcomy-faux-leather-collection-at-hix-2026/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-aito-m7-feilengcui",
+   "kind": "paint",
+   "car": "問界新 M7",
+   "tag": "車色 · 中國",
+   "title": "問界新 M7 新色翡冷翠與暖陽金：一綠一金走自然路線",
+   "points": [
+    "翡冷翠色澤如翡翠般溫潤通透，沉穩但不失明亮。",
+    "暖陽金帶有細膩的金屬質感，官方形容華貴大氣。",
+    "兩款新色和山影內飾一起發表，主題是「自然之韻與東方意境」。"
+   ],
+   "image": {
+    "file": "cmf-paint-aito-m7-jade.jpg",
+    "alt": "翡冷翠綠色問界新 M7 停在草地與雪山前",
+    "credit": "AITO (via BitAuto)",
+    "credit_url": "https://www.bitauto.com/article/1003114925339/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-paint-aito-m7-gold.jpg",
+     "alt": "暖陽金色問界新 M7 停在草原湖畔",
+     "credit": "AITO (via BitAuto)",
+     "credit_url": "https://www.bitauto.com/article/1003114925339/"
+    }
+   ],
+   "sources": [
+    [
+     "BitAuto 易車國際（11/25）",
+     "https://www.bitauto.com/article/1003114925339/"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-tesla-charger-network-view",
+   "kind": "case",
+   "brand": "Tesla",
+   "tag": "介面與 HMI",
+   "title": "Tesla 2026.44.3.1：充電站圖釘縮放自動群聚",
+   "date": "2026-11-26",
+   "points": [
+    "新的 Charger Network View 讓地圖上的充電站圖釘在一般縮放比例下群聚。",
+    "地圖拉遠時，群聚後的圖釘改為呈現整個充電網路的涵蓋範圍。",
+    "同版本新增手動電池預熱，建議在快充前約一小時開始，到溫後維持 30 分鐘。",
+    "入口在 Charging > Precondition for Fast Charging，也能用手機 App 4.63.0 在出發前啟動。"
+   ],
+   "image": {
+    "file": "hmi-tesla-charger-network-view.jpg",
+    "alt": "Tesla 地圖介面上以紅色圓形數字群聚顯示的充電站圖釘",
+    "credit": "Tesla (via Not a Tesla App)",
+    "credit_url": "https://www.notateslaapp.com/software-updates/version/2026.44.3.1/release-notes"
+   },
+   "sources": [
+    [
+     "Not a Tesla App 版本說明",
+     "https://www.notateslaapp.com/software-updates/version/2026.44.3.1/release-notes"
+    ],
+    [
+     "Drive Tesla Canada（11/26）",
+     "https://driveteslacanada.ca/news/tesla-2026-44-3-1-manual-battery-preconditioning/"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "關稅 · 歐盟／中國",
+   "date": "2026-11-26",
+   "title": "歐盟對進口混動車設配額：中國 12/1 起 200 天上限約 19.2 萬輛，歐洲車股反彈",
+   "summary": "歐盟週二（11/24）宣布混合動力車進口配額，中國從 12/1 到明年 6/18 共 200 天上限 191,870 輛，日本、土耳其、英國、南韓與美國也各有配額。隔天歐洲車股反彈，Stellantis 漲 3.58%、VW 漲 4.62%、BMW 漲 3.72%。比亞迪前 10 個月出口約 150 萬輛，年增 93.8%。",
+   "sources": [
+    [
+     "Il Sole 24 Ore（11/26）",
+     "https://en.ilsole24ore.com/art/chinese-car-imports-send-share-prices-soaring-AJFrwYSC"
+    ]
+   ]
+  },
+  {
+   "tag": "工廠 · 中國／歐洲",
+   "date": "2026-11-26",
+   "title": "比亞迪與 INEOS 獨家談判，擬收購法國 Hambach 工廠",
+   "summary": "比亞迪 11/24 確認已和 INEOS Automotive 展開獨家談判，擬收購對方在法國 Hambach 的工廠，交易仍須經工會協商。比亞迪匈牙利廠預計今年第四季大規模投產，並計畫在歐洲設第二、第三座工廠。",
+   "sources": [
+    [
+     "財聯社汽車早報（11/26）",
+     "https://www.cls.cn/detail/2544845"
+    ],
+    [
+     "Il Sole 24 Ore（11/26）",
+     "https://en.ilsole24ore.com/art/chinese-car-imports-send-share-prices-soaring-AJFrwYSC"
+    ]
+   ]
+  },
+  {
+   "tag": "電池 · 日本",
+   "date": "2026-11-26",
+   "title": "Toyota 福岡 EV 電池廠計畫三度延期，觀望全球電動車需求",
+   "summary": "日經 11/26 報導，Toyota 決定再延後在福岡縣苅田町興建 EV 電池工廠的計畫，這是 2025 年 3 月首度延期以來的第三次。該廠原本規劃最快 2028 年投產，Toyota 將視未來 EV 需求審慎推進。",
+   "sources": [
+    [
+     "日本經濟新聞（11/26）",
+     "https://www.nikkei.com/article/DGXZQOFD267MT0W6A121C2000000/"
+    ]
+   ]
+  },
+  {
+   "tag": "充電 · 韓國",
+   "date": "2026-11-25",
+   "title": "現代汽車集團明年在韓國推標準化慢充系統，支援即插即充",
+   "summary": "現代汽車 11/25 表示，集團明年將在韓國推出一套標準化 EV 充電系統，鎖定公寓社區與海外住宅車庫的慢充場景，有 7kW 與 11kW 兩種功率、壁掛與立柱兩種型式，插上即自動完成認證與付款，之後再擴展到美國、歐洲與印度。",
+   "sources": [
+    [
+     "財聯社汽車早報（11/26）",
+     "https://www.cls.cn/detail/2544845"
+    ]
+   ]
+  },
+  {
+   "tag": "車市 · 中國",
+   "date": "2026-11-25",
+   "title": "乘聯會：11 月 1–22 日乘用車零售 98.4 萬輛，年減 25%",
+   "summary": "乘聯會 11/25 數據顯示，11 月 1–22 日全國乘用車零售 98.4 萬輛，年減 25%、較上月同期減 1%；新能源零售 70.2 萬輛，年減 13%、月增 7%，零售滲透率 71.3%。今年累計零售 1,596.2 萬輛，年減 22%。乘聯會說 11 月的增量主要來自雙 11 金融與置換優惠。",
+   "sources": [
+    [
+     "財聯社汽車早報（11/26）",
+     "https://www.cls.cn/detail/2544845"
+    ]
+   ]
+  },
+  {
+   "tag": "售後物流 · 台灣",
+   "date": "2026-11-26",
+   "title": "和泰汽車近 10 億元楊梅物流中心第三倉啟用，導入 110 台 AGV",
+   "summary": "和泰汽車斥資近新台幣 10 億元打造的楊梅物流中心第三倉 11/25 啟用，導入 110 台無人搬運車，保管近 3.5 萬種零件、每日進出約 1 萬點，支援 TOYOTA、LEXUS、HINO 全台近 300 個服務據點；屋頂太陽能 1,349 瓩，年發電約 150.6 萬度。",
+   "sources": [
+    [
+     "經濟日報（11/26）",
+     "https://money.udn.com/money/story/5612/9903974"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Swan-neck wing",
+  "zh": "鵝頸式尾翼（Swan-neck wing）",
+  "body": "鵝頸式尾翼是把尾翼的支架改從翼片「上方」吊住，而不是從下方撐著：支柱從車尾往上、再往前彎成像天鵝脖子的弧形，固定在翼片上表面。原因在於尾翼產生下壓力主要靠下表面的低壓（吸力面），支架接在下面會打亂這一側的氣流、容易造成分離；改從上表面（高壓面）吊掛，下表面就能保持乾淨。這個做法先在利曼原型賽車普及，後來也用到量產性能車上。今天新車快訊的新款小米 SU7 Ultra 就提供選配的碳纖維鵝頸尾翼，上層翼片還能打開做成 DRS。",
+  "source": [
+   [
+    "MotorTrend：Swan Neck Wing Mounts Explained",
+    "https://www.motortrend.com/features/swan-neck-wing-mount-explained-downforce-tech"
+   ],
+   [
+    "Carscoops：新款小米 SU7 Ultra（swan-neck-style wing）",
+    "https://www.carscoops.com/2329005/xiaomi-su7-ultra-2027/"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Porcelain White, Walnut & Jade Stitch",
+   "zh": "瓷白、胡桃棕配翡翠綠縫線：山影氛圍的東方座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板與座椅取問界新 M7 座艙的米白，門板嵌飾用山影微孔那種霧灰，扶手和飾條借木紋的胡桃棕，縫線與點綴換成 M7 新車色翡冷翠的綠，再用 Agua Silcomy 矽膠仿皮的湖水藍當第二點綴。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Porcelain White 瓷白（示意）",
+     "#E4DED3",
+     false,
+     "ip-upper",
+     {
+      "src": "問界新 M7 雙色座艙",
+      "url": "https://www.bitauto.com/article/1003114925339/"
+     }
+    ],
+    [
+     "儀表板飾條 · 木紋",
+     "Walnut 胡桃棕（示意）",
+     "#6A4A33",
+     false,
+     "ip-decor",
+     {
+      "src": "問界新 M7 木紋飾條（易車探館）",
+      "url": "https://auto.ifeng.com/c/8yNUyQgMCKy"
+     }
+    ],
+    [
+     "門板嵌飾 · 微孔",
+     "Mountain Shadow 山影霧灰（示意）",
+     "#8C8E8A",
+     false,
+     "door-insert",
+     {
+      "src": "問界新 M7 山影微孔門板",
+      "url": "https://www.bitauto.com/article/1003114925339/"
+     }
+    ],
+    [
+     "門扶手 · 皮革",
+     "Saddle Brown 鞍棕（示意）",
+     "#7A5236",
+     false,
+     "armrest",
+     {
+      "src": "問界新 M7 雙色座艙",
+      "url": "https://www.bitauto.com/article/1003114925339/"
+     }
+    ],
+    [
+     "縫線",
+     "Jade 翡冷翠縫線（示意）",
+     "#2F6B5B",
+     false,
+     "stitch",
+     {
+      "src": "問界新 M7 翡冷翠車色",
+      "url": "https://www.bitauto.com/article/1003114925339/"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Charcoal 炭灰（示意）",
+     "#2B2A28",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "BitAuto：問界新 M7 新色與山影內飾",
+     "https://www.bitauto.com/article/1003114925339/"
+    ],
+    [
+     "鳳凰網・易車探館：問界新 M7 內飾",
+     "https://auto.ifeng.com/c/8yNUyQgMCKy"
+    ],
+    [
+     "Design Insider：Agua Silcomy 矽膠仿皮",
+     "https://www.designinsiderlive.com/agua-to-unveil-new-silcomy-faux-leather-collection-at-hix-2026/"
+    ]
+   ],
+   "mood": "porcelain walnut jade",
+   "mood_text": "瓷白鋪滿上半部像宣紙，胡桃棕木紋與鞍棕扶手壓住重心，一道翡翠綠縫線像山影裡的一抹青。",
+   "vars": {
+    "headliner": "light",
+    "seat": "#E4DED3",
+    "seat-bolster": "#7A5236",
+    "seat-center": "#E4DED3",
+    "console": "#3A3936",
+    "console-arm": "#7A5236",
+    "steering": "#2E2C2A",
+    "ip-lower": "#3A3936",
+    "accent-pod": "#2F6B5B",
+    "accent-pod2": "#2F7C86"
+   }
+  }
+ }
+}

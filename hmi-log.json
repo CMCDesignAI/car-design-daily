@@ -226,5 +226,11 @@
   "key": "hmi-tesla-fsd-v15-parking-picker",
   "url": "https://www.notateslaapp.com/news/5084/tesla-fsd-v15s-new-parking-features-explained-videos",
   "image": "hmi-tesla-fsd-v15-parking.jpg"
+ },
+ {
+  "date": "2026-11-27",
+  "key": "hmi-tesla-charger-network-view",
+  "url": "https://www.notateslaapp.com/software-updates/version/2026.44.3.1/release-notes",
+  "image": "hmi-tesla-charger-network-view.jpg"
  }
 ]

@@ -1,0 +1,28 @@
+<svg class="diagram" viewBox="0 0 560 300" width="100%" role="img" aria-label="鵝頸式尾翼示意：左圖是傳統下方支撐的尾翼，支架接在翼片下表面；右圖是鵝頸式，支架從車尾往上彎、由上方吊住翼片，讓下表面氣流保持乾淨，以新款小米 SU7 Ultra 為例" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- left: conventional -->
+    <path d="M30 250 L30 200 Q34 188 52 186 L230 186 Q248 188 250 200 L250 250"/>
+    <path d="M70 118 Q140 100 220 112 Q150 128 70 128 Z"/>
+    <path d="M120 186 L124 127"/>
+    <path d="M180 186 L182 122"/>
+    <!-- right: swan neck -->
+    <path d="M310 250 L310 200 Q314 188 332 186 L510 186 Q528 188 530 200 L530 250"/>
+    <path d="M350 138 Q420 120 500 132 Q430 148 350 148 Z"/>
+    <path d="M400 186 Q392 150 402 112 Q410 96 420 104 L422 124"/>
+    <path d="M460 186 Q452 150 462 108 Q470 92 480 100 L480 128"/>
+  </g>
+  <g fill="none" stroke="#d2462f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- underside flow left (disturbed) -->
+    <path d="M50 140 Q100 140 118 136 Q126 146 136 138 Q160 136 176 134 Q186 146 196 136 L236 132"/>
+    <path d="M228 126 L238 132 L228 138"/>
+    <!-- underside flow right (clean) -->
+    <path d="M330 160 Q420 162 516 150"/>
+    <path d="M506 144 L516 150 L507 157"/>
+  </g>
+  <g fill="currentColor" font-size="15" font-family="sans-serif">
+    <text x="140" y="80" text-anchor="middle">傳統：下方支撐</text>
+    <text x="420" y="80" text-anchor="middle">鵝頸式：上方吊掛</text>
+    <text x="140" y="280" text-anchor="middle" font-size="13">支架打亂翼片下表面氣流</text>
+    <text x="420" y="280" text-anchor="middle" font-size="13">下表面（吸力面）保持乾淨</text>
+  </g>
+</svg>
