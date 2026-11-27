@@ -1,0 +1,572 @@
+{
+ "date": "2026-11-27",
+ "weekday": "週五",
+ "issue_no": 51,
+ "lede": "Grok Bot 方案用量多 11%、routine 最多多 50%；OpenAI 修正 GPT-6.2 計費，Astra／Sol 額度會更快用完並補一次重置。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "grok-bot-usage-11pct-130",
+   "org": "xAI",
+   "tag": "方案權益",
+   "date": "2026-11-27",
+   "title": "Grok Bot 用量多 11%、routine 最多多 50%；1.3.0 加 Slack 交接回覆、補貨通知與組織網域限制",
+   "short_title": "Grok Bot 用量多 11%＋1.3.0",
+   "one": "同一個方案現在能用得更久：一般用量約多 11%，排程自動跑的 routine 最多多 50%；新版也讓 Slack 裡 Bot 互相交辦的結果直接回到你的私訊。",
+   "orig": "You should now see an additional 11% more usage out of your plan, and up to 50% more usage for routines!",
+   "summary": "【用量】Grok Bot 團隊的 Sam Sokolin 11/26（台北 11/27 凌晨）在 X 表示，方案用量額外多約 11%，routine 最多多 50%；做法是優化 routine 執行框架，讓簡單、重複的步驟不必呼叫 AI 模型。50% 是上限而非每個 routine 都一樣，官方尚未說明哪些 routine 受惠最多，也沒有價格變動；Tesla North 指出每小時執行次數上限仍照舊。\n【1.3.0（11/24）】官方更新紀錄：Bot 把工作交給另一個 Bot 時，結果會回到你的 Slack 私訊，缺連接的帳號會附 Connect 按鈕；Slack 群組私訊叫 Bot 名字等同 @；一對一私訊可直接在主聊天回覆、不一定開討論串；售完商品卡有 Notify me 補貨通知、手機單一商品卡顯示 Buy now；郵件草稿可加 Bcc；設定頁可列出並移除離線手機；組織可限制成員只能連接組織自有網域的帳號；需核准的購買卡片會顯示已核准／已拒絕／已過期。",
+   "links": [
+    [
+     "X：@SamSokolin 原文",
+     "https://x.com/SamSokolin/status/2126027973568466949"
+    ],
+    [
+     "Grok Bot 官方更新紀錄（1.3.0）",
+     "https://x.ai/changelog/bot"
+    ],
+    [
+     "Tesla North 報導",
+     "https://teslanorth.com/2026/11/26/grok-bot-update-gives-users-up-to-50-more-routine-runs/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "連接器（Connector）",
+     "讓 Bot 直接用你授權的 App（Slack、Gmail 等）的接口，不必開瀏覽器登入"
+    ]
+   ]
+  },
+  {
+   "id": "openai-gpt62-billing-fix-shared-limit",
+   "org": "OpenAI",
+   "tag": "方案權益",
+   "date": "2026-11-26",
+   "title": "OpenAI 修正 GPT-6.2 計費錯誤：Astra 用量上限提早 40%、Sol 提早 25% 到；付費方案各送一次「Banked Reset」，12 月起 ChatGPT 與 Codex 共用額度",
+   "short_title": "GPT-6.2 額度變緊，送一次重置",
+   "one": "ChatGPT／Codex 付費用戶用 GPT-6.2 Astra、Sol 會比上週更快碰到上限；OpenAI 補一次可自選時機的額度重置，12 月起改成 ChatGPT 與 Codex 共用一個以 token 計算的額度。",
+   "orig": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users.",
+   "summary": "【發生什麼】OpenAI 的 Thibault Sottiaux 11/26 在 X 說，GPT-6.2 上線（11/17）時多數用戶的 Astra 與 Sol 用量被錯算成打折；修正後同樣的工作會用掉更多額度，和上週比 Astra 快 40%、Sol 快 25% 碰到上限。其他模型不受影響，過去的用量不追溯；官方仍說兩者比前代 GPT-6 Astra、GPT-6.1 Sol 能用更多。\n【補償】Go、Plus、Pro、Business 各送一次 Banked Reset：在網頁版 Usage 設定或桌面版「Usage & billing」兌換（手機 App 不行），需有額度剩不到 80% 才能用；Plus 會把 5 小時與每週額度回滿，Go 回滿月額度，兌換前會顯示到期日。\n【12 月起】官方說明頁：Plus、Pro、Business 的額度將由 ChatGPT 與 Codex 共用，以 token 計算，Instant 聊天不扣額度；剩餘額度與重置時間在「設定 → Usage」查看，用完可等重置、升級或買點數；少數用戶會提前試行。",
+   "links": [
+    [
+     "OpenAI Help：Understanding ChatGPT and Codex usage limits",
+     "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+    ],
+    [
+     "heise online 報導",
+     "https://www.heise.de/en/news/OpenAI-corrects-billing-error-GPT-6-2-limits-arrive-sooner-11539518.html"
+    ],
+    [
+     "Notebookcheck 報導",
+     "https://www.notebookcheck.net/ChatGPT-users-hit-limits-up-to-40-sooner-after-OpenAI-billing-fix.1460643.0.html"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "Token",
+     "模型計算文字量的單位，約等於一小段字詞；額度改用它計算代表越長越難的任務扣越多"
+    ]
+   ]
+  },
+  {
+   "id": "nvidia-nemotron-labs-image-30b",
+   "org": "NVIDIA",
+   "tag": "重磅開源",
+   "date": "2026-11-25",
+   "title": "NVIDIA 開放 Nemotron-Labs-Image-30B-A3B 權重：自回歸文生圖、總參數 30B／每次只啟用 3B",
+   "short_title": "NVIDIA 開源 30B 文生圖模型",
+   "one": "NVIDIA 把自家「像素當程式」視覺創作框架裡的文生圖模型開放下載，官方跑分在多項文字排版類測試贏過 GPT Image 2，但參考推論範例用 4 張 H100，一般電腦還跑不動。",
+   "orig": "Nemotron-Labs-Image-30B-A3B is its raster image-generation component.",
+   "summary": "【是什麼】Nemotron-Labs-VisualCreation 是可產生圖片與可編輯成品（網頁、簡報、文件、圖表）的代理框架；這次先釋出其中的點陣圖生成模型 Nemotron-Labs-Image-30B-A3B（從 Nemotron 3 Nano 初始化的自回歸模型，30B 總參數、3B 啟用）與約 642M 參數的視覺 tokenizer，框架本體與 VisionCode 模型「待法務許可後」才釋出。\n【官方跑分（整個框架的最佳設定）】GenEval 92.86（GPT Image 2 為 89.00）、LongTextBench 97.98（96.00）、CVTG-2K 92.53（90.03）、BizGenEval 86.0（83.2）；但 GenEval2 65.43、Qwen-Image-Bench 52.46 低於 GPT Image 2 的 81.00、65.23，OneIG 則是 Nano Banana Pro 較高。以上為官方數字，尚無第三方實測。\n【限制】授權為 NVIDIA 自訂授權（license: other，使用前看 LICENSE）；需 Linux、Python 3.12、CUDA 13.0，官方推論範例使用 4 張 H100 80GB。",
+   "links": [
+    [
+     "Hugging Face：nvidia/Nemotron-Labs-Image-30B-A3B",
+     "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+    ]
+   ],
+   "image": {
+    "file": "nemotron-image.webp",
+    "alt": "Nemotron-Labs-Image-30B-A3B Hugging Face 分享卡",
+    "credit": "Hugging Face／NVIDIA",
+    "credit_url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B"
+   },
+   "gloss": [
+    [
+     "自回歸（Autoregressive）",
+     "像寫字一樣一個一個預測下一塊圖像 token 來生成圖片，和擴散模型的逐步去噪不同"
+    ],
+    [
+     "30B-A3B",
+     "總共 300 億參數，但每次生成只動用其中 30 億（MoE 架構），速度與成本較低"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "1 則：Grok Bot 團隊成員的「同一錯誤兩次就停」提示與 6 個省用量做法。",
+   "updates": [
+    {
+     "title": "Larsen Cundric（Grok Bot 團隊）：「同一錯誤兩次就停」提示＋6 個省用量做法（Tesla North 整理）",
+     "short_title": "兩次錯誤就停，省用量",
+     "date": "2026-11-21",
+     "one": "學到：在 Bot 的指示裡加一句「同一個錯誤遇到兩次就停下來告訴我卡在哪」，可避免它卡在重試迴圈燒用量；作者說卡迴圈是 572 份回饋裡最多人抱怨的用量來源。",
+     "summary": "作者說：Grok Bot 團隊的 Larsen Cundric 11/20 在 X 分享，572 人回饋中最常見的用量抱怨是 Bot 卡在重複錯誤。建議指示原文：「If you hit the same error twice, stop and tell me what's blocking you. Don't say done until you've checked.」其他做法：多個 Bot 互傳時合併更新、不回單純的「收到」；不必每小時跑的 routine 改成每天；有連接器的 App 用連接器、不要每次用瀏覽器登入；圖片等媒體先確認、先出一張樣本；大型寫程式或研究任務先要短計畫縮小範圍；簡單工作不必加幫手 Bot。也可請 Bot 依 Bot 與 routine 列出過去一週用量，配合 App 內的用量明細找出最耗的項目。",
+     "links": [
+      [
+       "Tesla North：Grok Bot Burning Through Your Limit? Try the Two-Error Rule",
+       "https://teslanorth.com/2026/11/20/grok-bot-usage-two-error-rule/"
+      ]
+     ],
+     "image": null,
+     "gloss": [
+      [
+       "Routine",
+       "讓 Bot 依排程或事件自動執行的固定工作"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "columns": [],
+ "tutorials": [
+  {
+   "id": "tut-pid-latent-upscale",
+   "title": "ComfyUI 用 NVIDIA PiD 一步把 1024px 放大成 4096px（不用 VAE 解碼）",
+   "learn": "學會用 NVIDIA PixelDiT 家族的 PiD 解碼器，把 Z-Image-Turbo 產生的 latent 直接 4 倍放大成 4096px 大圖，只要 4 步。",
+   "level": "中階",
+   "vram": "官方頁未列 VRAM（依原頁為準）",
+   "kind": "本週新教學",
+   "gloss": [
+    [
+     "Latent",
+     "模型在「壓縮空間」裡的半成品圖，通常要經過 VAE 解碼才變成看得到的圖片"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版（Nightly 才有的節點，雲端版要等正式版），在範本庫搜尋「Image Upscale: PiD Latent Decode」或從官方頁下載 JSON。",
+    "下載 pid_flux1_1024_to_4096_4step_bf16 與 z_image_turbo_bf16 放 models/diffusion_models；qwen_3_4b 與 gemma_2_2b_it_elm_fp8_scaled 放 models/text_encoders；ae.safetensors 放 models/vae。",
+    "PiD 要選和上游模型 VAE 相同的版本：Flux.1／Z-Image 用 flux1 版、Flux.2 用 flux2 版、SD3 用 sd3 版；各有 512→2048 與 1024→4096 兩種。",
+    "先用 Z-Image-Turbo 產生 latent，接到 Latent Upscale Decode (PiD) 子圖；latent_format 設 flux，degrade_sigma 保持 0.0（完全去噪的 latent），輸出尺寸設為輸入的 4 倍後按 Run。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：PiD 4x Latent Upscale",
+     "https://docs.comfy.org/tutorials/image/nvidia/pid-latent-upscale"
+    ],
+    [
+     "Hugging Face：Comfy-Org/PixelDiT",
+     "https://huggingface.co/Comfy-Org/PixelDiT"
+    ],
+    [
+     "Hugging Face：nvidia/PixelDiT-1300M-1024px",
+     "https://huggingface.co/nvidia/PixelDiT-1300M-1024px"
+    ]
+   ]
+  },
+  {
+   "id": "tut-ovis-image",
+   "title": "ComfyUI 跑 Ovis-Image：7B 小模型也能把中英文字寫對",
+   "learn": "學會用官方範本跑 Ovis-Image（7B 文生圖），適合做海報、橫幅、Logo、UI 示意圖這類需要清楚文字的圖。",
+   "level": "入門",
+   "vram": "官方頁只說單張高階 GPU、中等顯存即可，未列具體數字（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "文字渲染（Text rendering）",
+     "讓生成圖裡的文字拼字正確、清楚可讀的能力"
+    ]
+   ],
+   "steps": [
+    "更新 ComfyUI，在範本庫搜尋「Ovis image」或從官方頁下載工作流 JSON 拖進畫布。",
+    "下載 ovis_2.5.safetensors 放 models/text_encoders、ovis_image_bf16.safetensors 放 models/diffusion_models、ae.safetensors 放 models/vae。",
+    "在提示詞裡用引號寫出要出現的文字（中英文都可），確認載入節點選到對的檔案後按 Run。",
+    "官方說它的文字品質接近 20B 級的 Qwen-Image，但仍建議多出幾張挑字最正確的一張。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Ovis-Image",
+     "https://docs.comfy.org/tutorials/image/ovis/ovis-image"
+    ],
+    [
+     "GitHub：AIDC-AI/Ovis-Image",
+     "https://github.com/AIDC-AI/Ovis-Image"
+    ],
+    [
+     "Hugging Face：AIDC-AI/Ovis-Image-7B",
+     "https://huggingface.co/AIDC-AI/Ovis-Image-7B"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "今天沒有近 7 天內的新 AI 輔助汽車設計案例（小鵬、日產等已報）；名家專欄無合格新內容（松音快取為空，YouTube 4 位新片為時事、已報或以連結／廣告為主）。",
+  "Grok Bot 用量提升來自團隊成員 X 貼文（官方尚未發文細節）；NVIDIA 跑分為官方數字；兩次錯誤提示屬作者說。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-27",
+  "compared_to": "2026-11-26",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-27",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-22",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ],
+    "compared_to": "2026-11-26",
+    "diff": {
+     "summary": [
+      "Gemini 4 Neon (high): #3→#3 (0 名), 1524→1523 (-1)",
+      "Claude Opus 5.5 (high): #4→#4 (0 名), 1513→1514 (+1)",
+      "Muse Wonder (max): #7→#7 (0 名), 1503→1504 (+1)",
+      "Claude Opus 4.6 (high): #10→#10 (0 名), 1501→1502 (+1)"
+     ]
+    }
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-27",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-27",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-26",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1264 (+3)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1229→1230 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1216 (+2)",
+      "GPT Image 2.5 Flare (max): #5→#5 (0 名), 1210→1212 (+2)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1196 (+4)",
+      "Kling Image 4.0: #7→#7 (0 名), 1180→1181 (+1)",
+      "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)",
+      "Grok Imagine Image 2.0: #10→#9 (+1 名), 1167→1168 (+1)",
+      "MAI-Image-2.6: #9→#10 (-1 名), 1168→1167 (-1)"
+     ]
+    }
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-26",
+    "fetched": "2026-11-27",
+    "metric": "Elo",
+    "carried_from": "2026-11-26",
+    "latest_as_of": "2026-11-27",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 12,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1173,
+      "ci": 12,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1164,
+      "ci": 12,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1156,
+      "ci": 13,
+      "released": "Sep 2026",
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 5,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1154,
+      "ci": 12,
+      "released": "Jul 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1152,
+      "ci": 13,
+      "released": "Nov 2026",
+      "delta": -1
+     },
+     {
+      "rank": 7,
+      "model": "MAGI-2",
+      "org": "Sand.ai",
+      "score": 1150,
+      "ci": 13,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1150,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1150,
+      "ci": 12,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1145,
+      "ci": 13,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-26",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   }
+  ]
+ }
+}
