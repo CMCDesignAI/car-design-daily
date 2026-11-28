@@ -1,0 +1,640 @@
+{
+ "date": "2026-11-28",
+ "weekday": "週六",
+ "issue_no": 52,
+ "lede": "美國感恩節週末大廠沒發新模型，本期重點是黑五 AI 方案優惠的真假整理，以及螞蟻集團開源的設計向文生圖模型 Ming-Image 0.2。三張榜單本週無重大變化。",
+ "closed": [],
+ "open": [],
+ "news": [],
+ "ainews": [
+  {
+   "id": "black-friday-ai-plans-2026",
+   "org": "Google／xAI／OpenAI",
+   "tag": "方案權益",
+   "date": "2026-11-27",
+   "title": "黑五 AI 訂閱優惠整理：Google AI Pro 首年約半價、Grok Premium 買一送一，ChatGPT Plus／Claude Pro 沒打折",
+   "short_title": "黑五 AI 方案：誰真的有打折",
+   "one": "想趁黑五訂 AI 的人先看：真正有官方優惠的是 Google AI Pro（首年約 99.99 美元）和 Grok Premium（月繳 30 美元用兩個月），ChatGPT Plus、Claude Pro 都沒降價。",
+   "orig": "Only Google and Adobe have an official Black Friday offer, and both come with terms worth reading before you buy.",
+   "summary": "【Google】11/20–11/26 先給已訂 Google One／AI 方案的人「最高 5 折」（AI Plus 與年繳 AI Pro，年繳 AI Pro 約 100 美元首年、原價 199.99）；Google 表示新用戶優惠 11/27 黑五開始，但多家整理站 11/27 早上查官方方案頁仍是原價，價格只會出現在登入後的帳號結帳頁；AI Ultra 不在優惠內。\n【xAI】Grok Premium 月繳方案「付 1 個月送 1 個月」：30 美元用兩個月，之後恢復每月 30 美元自動續訂；Plus、Super、Ultra 與年繳方案不適用，aipromonow 引方案頁倒數到 12/2 09:00（歐洲中部時間，約台北 12/2 16:00）。Notebookcheck 11/27 早上查美國頁面時表示未見 xAI 官方優惠，各地顯示可能不同，請以 grok.com 方案頁實際結帳為準。\n【OpenAI】Go／Plus／Pro 沒有降價；只有 11/23–11/30 新建的 ChatGPT Business 工作區，符合資格的席位到 12/31 有雙倍每週用量。\n【Anthropic】Claude 沒有黑五活動，常態優惠是 Pro 年繳 200 美元（約每月 17 美元）。\n【注意】Notebookcheck 提醒：比價／聯盟網站列的「8 折」多半沒有原廠確認；共享帳號違反 OpenAI 使用條款，被封就拿不回錢。",
+   "links": [
+    [
+     "Which AI to Pay：黑五 AI 訂閱優惠表（11/27 更新）",
+     "https://whichaitopay.com/guides/ai-subscription-black-friday-deals-2026"
+    ],
+    [
+     "Notebookcheck：哪些 AI 黑五折扣是真的",
+     "https://www.notebookcheck.net/AI-subscriptions-on-Black-Friday-Which-discounts-are-real.1456850.0.html"
+    ],
+    [
+     "ScriptByAI：黑五 AI 工具優惠（附原廠連結）",
+     "https://www.scriptbyai.com/ai-black-friday-deals/"
+    ],
+    [
+     "AI Promo Now：Grok Premium 買一送一條款",
+     "https://www.aipromonow.com/en/promos/grok-premium-black-friday-bogo"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "聯盟網站（affiliate）",
+     "靠導購抽佣的比價／優惠站，列的折扣不一定是原廠官方活動"
+    ]
+   ]
+  },
+  {
+   "id": "ming-image-0-2-design",
+   "org": "螞蟻集團 inclusionAI",
+   "tag": "重磅開源",
+   "date": "2026-11-26",
+   "title": "螞蟻集團開源 Ming-Image-0.2-Design：6B 設計向文生圖，官方稱 AA 開放權重總榜第 1、MIT 授權",
+   "short_title": "Ming-Image 0.2 設計向文生圖開源",
+   "one": "專門做電商主視覺、UI 草稿和空間渲染的開源文生圖模型，文字排版更準；不過官方驗證配置是 80GB 顯存，一般顯卡暫時跑不動。",
+   "orig": "This release upgrades and open-sources Ming-Image-0.2-Design. The new version improves complex composition, lighting, and text rendering.",
+   "summary": "【比上一版進步在哪】官方模型卡：0.2 版加強複雜構圖、光影與文字渲染，適用電商主視覺、UI 設計稿與空間渲染；姊妹模型的圖層拆解可細到單一文字部件（拆層模型權重官方說下週才放）。\n【規格與授權】DiT 6B 參數、MIT 授權，權重在 Hugging Face 與 ModelScope；預設 2048×2048、12 步、CFG 1.0、BF16；官方驗證硬體是單張 80 GiB 顯存 GPU（hane-lab 量得權重檔合計約 52.9 GB）。可用 vLLM-Omni 部署，社群已有 ComfyUI 量化版。\n【排名】官方說法：11/25 在 Artificial Analysis AA-Image-T2I v2.1 為開放權重模型總榜第 1（hane-lab 寫 1,095 Elo，尚未獨立驗證；本期文生圖前 10 都是閉源模型）。\n【實測】目前找不到可查證的第三方實測比較；hane-lab 因顯存不足未試跑，屬初步資訊。",
+   "links": [
+    [
+     "Hugging Face：inclusionAI/Ming-Image-0.2-Design",
+     "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design"
+    ],
+    [
+     "GitHub：inclusionAI/Ming-Image（安裝與推論）",
+     "https://github.com/inclusionAI/Ming-Image"
+    ],
+    [
+     "はねラボ：11/26–27 生成 AI 新聞整理",
+     "https://hane-lab.com/en/ai-news-2026-11-27/"
+    ]
+   ],
+   "image": {
+    "file": "ming-image-02-design.webp",
+    "alt": "Hugging Face 上 inclusionAI/Ming-Image-0.2-Design 模型頁分享卡",
+    "credit": "Hugging Face（模型頁分享卡）",
+    "credit_url": "https://huggingface.co/inclusionAI/Ming-Image-0.2-Design"
+   },
+   "gloss": [
+    [
+     "開放權重（open weights）",
+     "模型檔公開可下載、自己的電腦或伺服器就能跑"
+    ],
+    [
+     "DiT",
+     "Diffusion Transformer，用 Transformer 架構做擴散生圖的主流模型結構"
+    ]
+   ]
+  },
+  {
+   "id": "kandinsky-6-5",
+   "org": "Sber",
+   "tag": "世代升級",
+   "date": "2026-11-26",
+   "title": "Sber 發表 Kandinsky 6.5 圖像與影片模型：多張照片合成同一支影片、最長 10 秒、2K",
+   "short_title": "Kandinsky 6.5：多參考圖合成影片",
+   "one": "俄羅斯 Sber 的圖像／影片模型升級到 6.5：可以把人物、商品、場景的照片合進同一支影片，長度從 5 秒拉到 10 秒，已在 GigaChat 可用。",
+   "orig": "«Сбер» представил новое поколение моделей Kandinsky 6.5 для создания изображений и видео.",
+   "summary": "【比上一版進步在哪】Sber 11/26 在莫斯科 AI Journey 2026 發表：Kandinsky 6.5 Video 可上傳多張人物、物品、地點照片並依文字合成同一場景（例如主持人＋商品＋店內場景做廣告片），可指定起始與結束畫面，最長 10 秒（6.0 公開版為 5 秒）、最高 2K，音效與配樂品質也有改善。Kandinsky 6.5 Image 用 KandiShop 技術更準確轉移參考照片的臉部特徵、讓同一角色在多張圖保持一致。\n【哪裡能用】兩個模型都已在 Sber 的 GigaChat 助理可用（圖片在聊天內生成、影片有獨立分頁；GigaChat 內圖片可提升到 4K）。\n【開放狀態】Computerra 引 Sber 說法稱模型「公開提供」，但 hane-lab 11/27 整理時表示僅在 GigaChat 上線、未見開放權重，以官方後續公告為準。\n【實測】目前沒有可查證的第三方實測比較。",
+   "links": [
+    [
+     "Computerra：Sber 發表 Kandinsky 6.5（俄文）",
+     "https://www.computerra.ru/377491/sber-vypustil-kandinsky-6-5-s-generatsiej-izobrazhenij-i-video-v-2k/"
+    ],
+    [
+     "はねラボ：11/26–27 生成 AI 新聞整理",
+     "https://hane-lab.com/en/ai-news-2026-11-27/"
+    ]
+   ],
+   "image": null,
+   "gloss": [
+    [
+     "參考圖合成",
+     "上傳幾張照片當素材，模型照著把人物、物品放進同一個畫面"
+    ]
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "minimax-h3",
+   "model": "MiniMax H3",
+   "kind": "影片生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "qwen-image-2.1",
+   "model": "Qwen Image 2.1",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "krea-2",
+   "model": "Krea 2",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "moss-image",
+   "model": "MOSS-Image",
+   "kind": "圖像生成",
+   "status": "今天沒有新消息。",
+   "updates": []
+  },
+  {
+   "id": "grok-bot-tips",
+   "model": "Grok Bot 教學與實用資訊",
+   "kind": "教學",
+   "status": "2 則：Musk 建議「專職 Bot＋經理 Bot」分工（附 30 個 Bot 的實例），以及鋼構廠用 Bot 把圖紙 PDF 轉成估料試算表。",
+   "updates": [
+    {
+     "title": "Musk：Grok Bot 要像公司一樣分工，專職 Bot 加一個經理 Bot 統籌；網友實例 30 多個 Bot 的組織圖",
+     "short_title": "專職 Bot＋經理 Bot 分工",
+     "date": "2026-11-28",
+     "one": "學到：別把所有工作塞給同一個 Bot，拆成幾個專職 Bot、再由一個總管 Bot 分派；網友實測拆分後漏做的情況立刻改善。",
+     "summary": "Musk 11/27（台北 11/28 凌晨）在 X 說：使用 Grok Bot 時要像真人公司一樣建立專職角色的 Bot，再讓一個經理 Bot 監督與協調；一個 Bot 塞太多工作就會開始漏球。作者實測（@Texas_Twins_Dad）：目前有 30 多個 Bot，所有請求先交給名為 Grok Bot 的「幕僚長／路由」Bot，再分派到顧問、遠端維修、App 工作室、硬體與 3D 四個部門（附組織圖）。作者說（@TheRealBagi）：原本一個「什麼都做」的 Bot 開始漏事，改成多個小任務 Bot 後立刻改善；重點是 Bot 之間仍能互相溝通，例如問某個 Bot「你知道訂單 Bot 跑的 routine 嗎」它會知道。",
+     "links": [
+      [
+       "X：@elonmusk 原文",
+       "https://x.com/elonmusk/status/2126413886576590925"
+      ],
+      [
+       "X：@Texas_Twins_Dad 30 個 Bot 組織圖",
+       "https://x.com/Texas_Twins_Dad/status/2126429518579830914"
+      ],
+      [
+       "X：@TheRealBagi 拆分後的實測心得",
+       "https://x.com/TheRealBagi/status/2126414883394846988"
+      ]
+     ],
+     "image": {
+      "file": "grokbot-30-bots-org.webp",
+      "alt": "@Texas_Twins_Dad 的 Grok Bot 組織圖：最上層 Grok Bot 幕僚長負責分派，下分顧問、遠端維修、App 工作室、硬體與 3D 四個部門",
+      "credit": "@Texas_Twins_Dad（X 貼文附圖）",
+      "credit_url": "https://x.com/Texas_Twins_Dad/status/2126429518579830914"
+     },
+     "gloss": [
+      [
+       "經理 Bot（路由 Bot）",
+       "先接下所有請求、再分派給專職 Bot 的總管角色"
+      ]
+     ]
+    },
+    {
+     "title": "鋼構廠實例：把技術圖紙 PDF 丟給 Grok Bot，直接產出估料用的 Excel 計算表",
+     "short_title": "圖紙 PDF 直接變估料表",
+     "date": "2026-11-28",
+     "one": "學到：重複「看 PDF 抄尺寸進 Excel」的工作很適合交給 Bot；作者說原本每張圖要抄約 1 小時，設定 Bot 只花約 1 小時，之後丟 PDF 就出表。",
+     "summary": "作者說（@larsencc，Grok Bot 團隊成員 Larsen Cundric）：他父親在斯洛維尼亞的鋼構加工公司，每張訂單都從技術圖紙 PDF 開始，估料人員要把每個尺寸與零件表手打進 Excel 才算得出要買多少鋼材，平均每張圖紙約 1 小時。本週他們用約 1 小時設定好 Bot，現在把 PDF 丟進去，含所有計算的試算表就會產出。Musk 轉貼稱「把你最難的問題交給 Grok Bot」。屬作者單一案例，未公開準確率數字。",
+     "links": [
+      [
+       "X：@larsencc 原文",
+       "https://x.com/larsencc/status/2126426739391816118"
+      ]
+     ],
+     "image": null
+    }
+   ]
+  }
+ ],
+ "columns": [
+  {
+   "id": "col-aisuperdomain-antigravity-6-features",
+   "creator": "AI超元域",
+   "creator_key": "aisuperdomain",
+   "platform": "YouTube",
+   "date": "2026-11-27",
+   "title": "Antigravity 進階用法：Rules、/plan、/grill-me、Boost、Teamwork、/goal 六大功能實戰",
+   "short_title": "Antigravity 六大進階功能實戰",
+   "orig": "🚀超越Codex！Antigravity高级用法深度讲解！6大核心功能一次讲透：Rules、Plan、Grill-me、Boost、Teamwork和Goal，真正掌握AI编程的正确打开方式！效率倍增",
+   "one": "用 Google Antigravity 寫程式的人可以看：作者用一款海戰遊戲當實戰專案，示範怎麼先訂規則、先問清需求，再讓多個代理分工把功能做完。",
+   "points": [
+    "Rules 專案規則：示範三種 Rules 的用途與觸發方式，讓 AI 每次開發都照專案規範走。",
+    "/plan 先排跨模組開發計畫；/grill-me 會結合讀程式碼逐題問開發者該決定的事，作者實測回答 7 題，把血量、敵人重生、增援計時、Boss 階段與獎勵恢復等細節先確認。",
+    "Boost 會啟動子代理（Subagents）深入排查複雜 Bug；Teamwork 讓多個代理依同一方案分工推進跨模組功能，可查看各子代理的任務與程式修改。",
+    "/goal 讓代理持續推進開發目標；作者說這套流程讓 Antigravity 也能有接近 Claude Code、Codex 的開發體驗。"
+   ],
+   "url": "https://www.youtube.com/watch?v=mXH0yF5bZtw",
+   "image": {
+    "file": "col-antigravity-advanced.webp",
+    "alt": "AI超元域影片縮圖：Antigravity 高級用法六大功能",
+    "credit": "AI超元域（YouTube 縮圖）",
+    "credit_url": "https://www.youtube.com/watch?v=mXH0yF5bZtw"
+   },
+   "links": [
+    [
+     "Google Antigravity 官網",
+     "https://antigravity.google/"
+    ]
+   ],
+   "gloss": [
+    [
+     "子代理（Subagent）",
+     "主 AI 代理臨時分派出去處理單一子任務的小代理"
+    ]
+   ]
+  }
+ ],
+ "tutorials": [
+  {
+   "id": "tut-depth-t2i-adapter",
+   "title": "ComfyUI 用 Depth T2I-Adapter 以深度圖控制室內空間構圖（比 ControlNet 輕 3 倍快）",
+   "learn": "學會用約 300MB 的 T2I-Adapter 深度模型，照一張深度圖鎖住房間的空間配置與透視，再用提示詞換風格。",
+   "level": "入門",
+   "vram": "官方頁未列 VRAM；SD1.5 模型＋約 300MB 轉接器（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "T2I-Adapter",
+     "騰訊 ARC 實驗室的輕量控制模組（約 77M 參數），用深度圖、線稿等條件引導生圖，不用改原模型"
+    ],
+    [
+     "深度圖",
+     "用黑白深淺表示遠近的圖，越亮越近"
+    ]
+   ],
+   "steps": [
+    "從官方頁下載工作流圖片，拖進 ComfyUI 就會載入流程並提示下載模型。",
+    "手動下載時：interiordesignsuperm_v2.safetensors 放 models/checkpoints，t2iadapter_depth_sd15v2.pth 放 models/controlnet。",
+    "在 Load Checkpoint 與 Load ControlNet 節點選好這兩個檔案，Load Image 上傳官方附的深度圖輸入圖。",
+    "按 Queue（Ctrl＋Enter）生成；深度圖要對比適中、邊界清楚、雜訊少；想同時控制邊緣，可照 Mixing ControlNet 的做法串接多個 Apply ControlNet。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：Depth T2I Adapter",
+     "https://docs.comfy.org/tutorials/controlnet/depth-t2i-adapter"
+    ],
+    [
+     "GitHub：TencentARC/T2I-Adapter",
+     "https://github.com/TencentARC/T2I-Adapter"
+    ]
+   ]
+  },
+  {
+   "id": "tut-relayvsr-video-upscale",
+   "title": "ComfyUI 用 RelayVSR 把影片一次放大 2 倍或 4 倍（音訊、幀率不變）",
+   "learn": "學會用 RelayVSR 範本把 AI 生成或實拍短片放大 2x／4x，例如 MiniMax H3 的 768×1344 影片放大成 1536×2688。",
+   "level": "中階",
+   "vram": "官方頁未列 VRAM；爆顯存就把影片剪短分段放大（依原頁為準）",
+   "kind": "常青教學",
+   "gloss": [
+    [
+     "VSR",
+     "Video Super-Resolution，影片超解析度放大"
+    ]
+   ],
+   "steps": [
+    "把 ComfyUI 更新到最新版（RelayVSR 支援於 ComfyUI #17511 加入），在範本庫搜尋「RelayVSR 2x」或「RelayVSR 4x」。",
+    "2x：relayvsr_x2_lightx2v_int8_convrot.safetensors 放 models/diffusion_models，relayvsr_flash_vae_x2_fp32.safetensors 放 models/vae；4x 換成 x4 那一組。倍率由模型決定，2x 模型只能配 2x VAE，混用會失敗。",
+    "在 Load Video 載入影片；範本預設用 Trim Video 只取前 5 秒，長片要調大長度或分段處理。",
+    "按 Run，結果由 Save Video 存到 ComfyUI/output/video/；幀率與音訊會原樣保留，只放大畫面。"
+   ],
+   "links": [
+    [
+     "ComfyUI 官方：RelayVSR 2x／4x",
+     "https://docs.comfy.org/tutorials/utility/relayvsr"
+    ],
+    [
+     "GitHub：ComfyUI PR #17511",
+     "https://github.com/Comfy-Org/ComfyUI/pull/17511"
+    ]
+   ]
+  }
+ ],
+ "video": null,
+ "caveats": [
+  "黑五優惠依第三方整理站與原廠頁面整理，實際價格以登入帳號後的結帳頁為準；Kandinsky 6.5 是否開放權重各來源說法不一。",
+  "本期無近 7 天內新的 AI 輔助汽車設計案例；松音快取為空故不放其卡片；推薦影片本期無相關新片。"
+ ],
+ "leaderboards": {
+  "snapshot": "2026-11-28",
+  "compared_to": "2026-11-27",
+  "boards": [
+   {
+    "id": "text",
+    "title": "文字 LLM 總榜",
+    "en": "Text Arena · Overall",
+    "source": "LMArena（arena.ai）Text Arena · Overall（官方 Hugging Face 資料集 lmarena-ai/leaderboard-dataset）",
+    "source_url": "https://lmarena.ai/leaderboard/text",
+    "metric": "Arena score",
+    "as_of": "2026-11-19",
+    "fetched": "2026-11-28",
+    "carried_from": "2026-11-08",
+    "latest_as_of": "2026-11-22",
+    "status": "unchanged",
+    "compared_to": "2026-11-27",
+    "diff": {
+     "summary": [
+      "Gemini 4 Neon (high): #3→#3 (0 名), 1524→1523 (-1)",
+      "Claude Opus 5.5 (high): #4→#4 (0 名), 1513→1514 (+1)",
+      "Muse Wonder (max): #7→#7 (0 名), 1503→1504 (+1)",
+      "Claude Opus 4.6 (high): #10→#10 (0 名), 1501→1502 (+1)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Gemini 4 Carbon (high)",
+      "org": "Google",
+      "score": 1539,
+      "ci": 10,
+      "delta": 1
+     },
+     {
+      "rank": 2,
+      "model": "Gemini 4 Argon (high)",
+      "org": "Google",
+      "score": 1528,
+      "ci": 5,
+      "move": 1,
+      "delta": -1
+     },
+     {
+      "rank": 3,
+      "model": "Gemini 4 Neon (high)",
+      "org": "Google",
+      "score": 1524,
+      "ci": 8,
+      "move": -1,
+      "delta": -6
+     },
+     {
+      "rank": 4,
+      "model": "Claude Opus 5.5 (high)",
+      "org": "Anthropic",
+      "score": 1513,
+      "ci": 6,
+      "delta": -1
+     },
+     {
+      "rank": 5,
+      "model": "Claude Fable 5.1 (max)",
+      "org": "Anthropic",
+      "score": 1512,
+      "ci": 5
+     },
+     {
+      "rank": 6,
+      "model": "Claude Opus 5 (max)",
+      "org": "Anthropic",
+      "score": 1506,
+      "ci": 5
+     },
+     {
+      "rank": 7,
+      "model": "Muse Wonder (max)",
+      "org": "Meta",
+      "score": 1503,
+      "ci": 6
+     },
+     {
+      "rank": 8,
+      "model": "Claude Opus 5 (high)",
+      "org": "Anthropic",
+      "score": 1502,
+      "ci": 4
+     },
+     {
+      "rank": 9,
+      "model": "Gemini 4 Hydrogen (high)",
+      "org": "Google",
+      "score": 1502,
+      "ci": 9
+     },
+     {
+      "rank": 10,
+      "model": "Claude Opus 4.6 (high)",
+      "org": "Anthropic",
+      "score": 1501,
+      "ci": 3
+     }
+    ]
+   },
+   {
+    "id": "image",
+    "title": "文生圖排行",
+    "en": "Text-to-Image · AA-Image-T2I v2.1",
+    "source": "Artificial Analysis · AA-Image-T2I v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "metric": "Elo",
+    "as_of": "2026-11-18",
+    "fetched": "2026-11-28",
+    "carried_from": "2026-11-11",
+    "latest_as_of": "2026-11-28",
+    "status": "unchanged",
+    "compared_to": "2026-11-27",
+    "diff": {
+     "summary": [
+      "GPT Image 2.6 Sunburst (max): #1→#1 (0 名), 1261→1264 (+3)",
+      "GPT Image 2.5 Sunburst (max): #2→#2 (0 名), 1229→1230 (+1)",
+      "GPT Image 2.6 Flare (max): #3→#3 (0 名), 1227→1226 (-1)",
+      "MAI-Image-2.7: #4→#4 (0 名), 1214→1216 (+2)",
+      "GPT Image 2.5 Flare (max): #5→#5 (0 名), 1210→1212 (+2)",
+      "GPT Image 2 (high): #6→#6 (0 名), 1192→1196 (+4)",
+      "Kling Image 4.0: #7→#7 (0 名), 1180→1181 (+1)",
+      "Nano Banana 2.1: #8→#8 (0 名), 1176→1175 (-1)",
+      "Grok Imagine Image 2.0: #10→#9 (+1 名), 1167→1168 (+1)",
+      "MAI-Image-2.6: #9→#10 (-1 名), 1168→1167 (-1)"
+     ]
+    },
+    "rows": [
+     {
+      "rank": 1,
+      "model": "GPT Image 2.6 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1261,
+      "ci": 1495
+     },
+     {
+      "rank": 2,
+      "model": "GPT Image 2.5 Sunburst (max)",
+      "org": "OpenAI",
+      "score": 1229,
+      "ci": 1095
+     },
+     {
+      "rank": 3,
+      "model": "GPT Image 2.6 Flare (max)",
+      "org": "OpenAI",
+      "score": 1227,
+      "ci": 1295,
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "MAI-Image-2.7",
+      "org": "Microsoft AI",
+      "score": 1214,
+      "ci": 1495,
+      "new": true
+     },
+     {
+      "rank": 5,
+      "model": "GPT Image 2.5 Flare (max)",
+      "org": "OpenAI",
+      "score": 1210,
+      "ci": 1095,
+      "move": -1
+     },
+     {
+      "rank": 6,
+      "model": "GPT Image 2 (high)",
+      "org": "OpenAI",
+      "score": 1192,
+      "ci": 1195,
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 7,
+      "model": "Kling Image 4.0",
+      "org": "Kuaishou",
+      "score": 1180,
+      "ci": 1395,
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "Nano Banana 2.1",
+      "org": "Google",
+      "score": 1176,
+      "ci": 1295,
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "MAI-Image-2.6",
+      "org": "Microsoft AI",
+      "score": 1168,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 10,
+      "model": "Grok Imagine Image 2.0",
+      "org": "SpaceXAI",
+      "score": 1167,
+      "ci": 1295,
+      "move": -1,
+      "delta": -1
+     }
+    ]
+   },
+   {
+    "id": "video",
+    "title": "文生影片排行",
+    "en": "Text-to-Video · AA-Video-T2V v2.1",
+    "source": "Artificial Analysis · AA-Video-T2V v2.1（盲測 Elo）",
+    "source_url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "as_of": "2026-11-26",
+    "fetched": "2026-11-28",
+    "metric": "Elo",
+    "carried_from": "2026-11-26",
+    "latest_as_of": "2026-11-28",
+    "status": "unchanged",
+    "rows": [
+     {
+      "rank": 1,
+      "model": "Wan 3.0",
+      "org": "Alibaba",
+      "score": 1175,
+      "ci": 12,
+      "released": "Aug 2026"
+     },
+     {
+      "rank": 2,
+      "model": "Utopai X",
+      "org": "Utopai Studios",
+      "score": 1173,
+      "ci": 12,
+      "released": "Sep 2026"
+     },
+     {
+      "rank": 3,
+      "model": "MiniMax H3 (768p)",
+      "org": "MiniMax",
+      "score": 1164,
+      "ci": 12,
+      "released": "Jul 2026",
+      "delta": 1
+     },
+     {
+      "rank": 4,
+      "model": "Hyperflow H3",
+      "org": "Video Rebirth",
+      "score": 1156,
+      "ci": 13,
+      "released": "Sep 2026",
+      "move": 1,
+      "delta": 2
+     },
+     {
+      "rank": 5,
+      "model": "Dreamina Seedance 2.5",
+      "org": "ByteDance Seed",
+      "score": 1154,
+      "ci": 12,
+      "released": "Jul 2026",
+      "move": -1,
+      "delta": -1
+     },
+     {
+      "rank": 6,
+      "model": "Gemini Omni Flash 1.2",
+      "org": "Google",
+      "score": 1152,
+      "ci": 13,
+      "released": "Nov 2026",
+      "delta": -1
+     },
+     {
+      "rank": 7,
+      "model": "MAGI-2",
+      "org": "Sand.ai",
+      "score": 1150,
+      "ci": 13,
+      "released": "Nov 2026",
+      "new": true
+     },
+     {
+      "rank": 8,
+      "model": "FLUX 3 Max",
+      "org": "Fal",
+      "score": 1150,
+      "ci": 13,
+      "released": "Oct 2026",
+      "move": -1
+     },
+     {
+      "rank": 9,
+      "model": "HeyGen Video 1",
+      "org": "HeyGen",
+      "score": 1150,
+      "ci": 12,
+      "released": "Oct 2026",
+      "move": -1,
+      "delta": 1
+     },
+     {
+      "rank": 10,
+      "model": "MiniMax H3 Max",
+      "org": "Fal",
+      "score": 1145,
+      "ci": 13,
+      "released": "Aug 2026",
+      "move": -1,
+      "delta": -1
+     }
+    ],
+    "compared_to": "2026-11-27",
+    "diff": {
+     "summary": [
+      "無變化"
+     ]
+    }
+   }
+  ]
+ }
+}

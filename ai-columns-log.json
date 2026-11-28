@@ -1,26 +1,5 @@
 [
  {
-  "date": "2026-10-28",
-  "key": "col-dseditor-strata-nemotron",
-  "creator_key": "dseditor",
-  "url": "https://www.facebook.com/dseditorlab/posts/pfbid02QduCYoqaxD17HXGJ6Fs9qqzAzXdNQgRa6YQ9v4xV4e4KskqnFiGnjG9MtX77Srdml",
-  "topic": "把 Strata＋Nemotron 編成 Windows 原生版"
- },
- {
-  "date": "2026-10-28",
-  "key": "col-t8-hi3d",
-  "creator_key": "t8star-aix",
-  "url": "https://www.youtube.com/watch?v=2xV7ef6w5Mk",
-  "topic": "T8 開源 Hi3D 3D 創作台"
- },
- {
-  "date": "2026-10-28",
-  "key": "col-fisher-moss-expander",
-  "creator_key": "work-fisher",
-  "url": "https://www.youtube.com/watch?v=XDG9BzlRwy4",
-  "topic": "MOSS 文生圖＋提示詞擴寫 Skill"
- },
- {
   "date": "2026-10-29",
   "key": "col-t8-h3-2k",
   "creator_key": "t8star-aix",
@@ -229,5 +208,12 @@
   "creator_key": "dseditor",
   "url": "https://www.facebook.com/dseditorlab/posts/pfbid02CygtCPKnRx6JU1WPVHcxV1knxnrK94TNN51uDVAXncQsPWR7YaMh1wmJ26a3err5l",
   "topic": "pi-h3-comfyui-acceleration-benchmark"
+ },
+ {
+  "date": "2026-11-28",
+  "key": "col-aisuperdomain-antigravity-6-features",
+  "creator_key": "aisuperdomain",
+  "url": "https://www.youtube.com/watch?v=mXH0yF5bZtw",
+  "topic": "antigravity-rules-plan-grillme-boost-teamwork-goal"
  }
 ]
