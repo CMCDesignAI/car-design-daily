@@ -1,0 +1,12 @@
+<svg class="diagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" font-family="sans-serif">
+<text x="20" y="28" font-size="16" fill="currentColor" stroke="none">一般垂直車頭</text>
+<path d="M40 170 L40 120 L70 112 L130 108 L170 80 L250 76 L290 108 L300 170 Z"/>
+<circle cx="90" cy="172" r="18"/><circle cx="250" cy="172" r="18"/>
+<path d="M40 120 L40 165" stroke-width="6"/>
+<text x="340" y="28" font-size="16" fill="currentColor" stroke="none">鯊魚鼻：前緣前傾、下緣內收</text>
+<path d="M370 170 L382 150 L362 118 L400 110 L450 106 L490 80 L570 76 L610 108 L620 170 Z"/>
+<circle cx="420" cy="172" r="18"/><circle cx="570" cy="172" r="18"/>
+<path d="M362 118 L382 150" stroke-width="6"/>
+<path d="M352 112 L340 150" stroke-dasharray="6 6"/>
+<text x="300" y="232" font-size="14" fill="currentColor" stroke="none">格柵上緣比下緣更往前突出</text>
+</svg>

@@ -1,0 +1,756 @@
+{
+ "date": "2026-11-28",
+ "weekday": "六",
+ "issue_no": 52,
+ "lede": "廣州車展開幕，Hyundai 全球首發中國專屬的 MERCURY Concept，用鯊魚鼻車頭與燈號拼出 H 字；比亞迪海鯨、東風奕派 EP7、星途 EX6 同場亮相，VW 則以限量手排 Golf GTI 1976 為 GTI 50 週年收尾。設計專欄聽 Citroën 設計總監 Leclercq 談 2CV Concept 如何回到 T.P.V. 的原始任務書。",
+ "design_news": [
+  {
+   "id": "hyundai-mercury",
+   "tag": "全球首發 · 廣州車展",
+   "date": "2026-11-27",
+   "brand": "Hyundai 現代",
+   "title": "Hyundai MERCURY Concept 全球首發：鯊魚鼻車頭用燈光拼出「H」，預告中國專屬 IONIQ M",
+   "orig": "Hyundai Motor Accelerates China Expansion with Showcase of IONIQ Brand and Flagship Vehicles at Auto Guangzhou 2026",
+   "summary": "Hyundai 11/27 在廣州車展全球首發 MERCURY Concept，是 IONIQ 為中國市場推出的第三款概念車，定位 B 級純電休旅、IONIQ 家族最入門的車型。量產版命名 IONIQ M，2027 年在中國上市，之後還會和 CATL 合作推出換電版。",
+   "analysis": [
+    [
+     "鯊魚鼻與 H 字燈",
+     "車頭是低趴的鯊魚鼻（shark-nose）造型，細長的邊緣燈號在車頭拼出 Hyundai 的「H」圖形。"
+    ],
+    [
+     "水星軌道的比例",
+     "官方說輪廓取材水星快速公轉的軌跡，擋風玻璃傾角很大、車尾整合式擾流，整體比例偏向低矮跑格。"
+    ],
+    [
+     "Citrine Neon 黃綠漆",
+     "專屬的 Citrine Neon 黃綠色車漆，Carscoops 指出車頭中段改用深灰對比；車身各處還藏有「M」字彩蛋。"
+    ],
+    [
+     "中國團隊主導",
+     "由 Hyundai 在中國的設計與工程團隊開發，量產版會搭卓馭 L2++ 輔助駕駛與字節跳動豆包 AI 座艙；Carscoops 預期量產版除後照鏡外會很接近概念車。"
+    ]
+   ],
+   "sources": [
+    [
+     "Hyundai Motor Group 新聞稿（11/27）",
+     "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+    ],
+    [
+     "Carscoops（11/26 美東）",
+     "https://www.carscoops.com/2329320/hyundai-mercury-concept-china/"
+    ]
+   ],
+   "image": {
+    "file": "news-hyundai-mercury.jpg",
+    "alt": "Citrine Neon 黃綠色的 Hyundai MERCURY Concept 前側方，低趴鯊魚鼻車頭",
+    "credit": "Hyundai (via Hyundai Motor Group Newsroom)",
+    "credit_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+   },
+   "more_images": [
+    {
+     "file": "news-hyundai-mercury-2.jpg",
+     "alt": "MERCURY Concept 後側方，整合式尾部擾流與大傾角後窗",
+     "credit": "Hyundai (via Hyundai Motor Group Newsroom)",
+     "credit_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+    },
+    {
+     "file": "news-hyundai-mercury-3.jpg",
+     "alt": "MERCURY Concept 車頭與車尾並排，燈號拼成 H 字",
+     "credit": "Hyundai (via Hyundai Motor Group Newsroom)",
+     "credit_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+    }
+   ]
+  },
+  {
+   "id": "byd-haijing",
+   "tag": "全球首發 · 廣州車展",
+   "date": "2026-11-27",
+   "brand": "BYD 比亞迪",
+   "title": "比亞迪海鯨 MPV 首發：海洋網首款旗艦 MPV，滿天星貫穿燈與海浪紋尾燈",
+   "orig": "BYD unveils Ocean lineup's first flagship MPV Whale, set to launch in Q1 2027",
+   "summary": "比亞迪在廣州車展發表海洋網第一款旗艦 MPV「海鯨」（Whale），提供插混與純電版，預計 2027 年第一季上市、瞄準 30 萬人民幣級距。車長 5,270 mm、軸距 3,130 mm，屬大型 MPV。",
+   "analysis": [
+    [
+     "滿天星燈帶",
+     "車頭是全寬貫穿燈帶，帶有星點般的點綴，日行燈做成波浪形，延續海洋網家族語言。"
+    ],
+    [
+     "機械門把",
+     "側面保留傳統機械式門把，而非近年流行的隱藏式門把。"
+    ],
+    [
+     "海浪紋尾燈",
+     "車尾是全寬貫穿尾燈，燈內做出海浪紋路，呼應「海鯨」的命名。"
+    ],
+    [
+     "感測器外露",
+     "車頂前緣有光達、前葉子板設有感測攝影機；內裝與座椅配置發表會尚未公布。"
+    ]
+   ],
+   "sources": [
+    [
+     "CnEVPost（11/27）",
+     "https://cnevpost.com/2026/11/27/byd-unveils-ocean-lineup-mpv-whale/"
+    ]
+   ],
+   "image": {
+    "file": "news-byd-haijing.jpg",
+    "alt": "廣州車展展台上的紫紅色比亞迪海鯨 MPV 前側方",
+    "credit": "CnEVPost",
+    "credit_url": "https://cnevpost.com/2026/11/27/byd-unveils-ocean-lineup-mpv-whale/"
+   }
+  },
+  {
+   "id": "dongfeng-ep7",
+   "tag": "首發 · 廣州車展",
+   "date": "2026-11-27",
+   "brand": "Dongfeng eπ 東風奕派",
+   "title": "東風奕派 EP7 實車首發：封閉前臉配星環燈，主動進氣把風阻壓到 0.203",
+   "orig": "Dongfeng eπ EP7 debuts at Guangzhou Auto Show with plans for 1,010 km solid-state battery model",
+   "summary": "東風奕派在廣州車展正式發表中大型純電轎車 EP7，車長 4,910 mm、軸距 2,920 mm，搭載華為鴻蒙座艙與乾崑輔助駕駛，另有 CATL 電池的換電版，並宣布未來推出 1,010 km 固態電池版。",
+   "analysis": [
+    [
+     "封閉前臉",
+     "車頭是封閉式格柵配「星環」燈組，搭配主動進氣格柵，官方風阻係數 0.203。"
+    ],
+    [
+     "溜背輪廓",
+     "側面是流暢的 fastback 溜背線條，配半隱藏式門把與雙五輻輪圈。"
+    ],
+    [
+     "前後呼應",
+     "車尾是貫穿式尾燈，造型呼應車頭燈號。"
+    ],
+    [
+     "實車配色",
+     "展車用紫紅色車身配黑色下緣與紅色卡鉗，比 11/24 申報圖更能看出腰線與肩線的光影。"
+    ]
+   ],
+   "sources": [
+    [
+     "CarNewsChina（11/27）",
+     "https://carnewschina.com/2026/11/27/dongfeng-e%cf%80-ep7-debuts-at-guangzhou-auto-show-with-plans-for-1010-km-solid-state-battery-model/"
+    ]
+   ],
+   "image": {
+    "file": "news-dongfeng-ep7.jpg",
+    "alt": "紫紅色東風奕派 EP7 前側方，封閉前臉與星環燈",
+    "credit": "Autohome (via CarNewsChina)",
+    "credit_url": "https://carnewschina.com/2026/11/27/dongfeng-e%cf%80-ep7-debuts-at-guangzhou-auto-show-with-plans-for-1010-km-solid-state-battery-model/"
+   },
+   "more_images": [
+    {
+     "file": "news-dongfeng-ep7-2.jpg",
+     "alt": "東風奕派 EP7 後側方，溜背車尾與貫穿尾燈",
+     "credit": "Autohome (via CarNewsChina)",
+     "credit_url": "https://carnewschina.com/2026/11/27/dongfeng-e%cf%80-ep7-debuts-at-guangzhou-auto-show-with-plans-for-1010-km-solid-state-battery-model/"
+    }
+   ]
+  },
+  {
+   "id": "golf-gti-1976",
+   "tag": "限量版 · 德國",
+   "date": "2026-11-27",
+   "brand": "Volkswagen 福斯",
+   "title": "Golf GTI 1976 限量 1,976 台：手排與高爾夫球排檔頭回歸，致敬 GTI 50 週年",
+   "orig": "The Manual Golf GTI Is Back, But America Misses Out",
+   "summary": "VW 以 Golf GTI 1976 特別版收尾 GTI 50 週年，限量 1,976 台，裝上 Edition 50 的 325 PS 引擎並改回六速手排，是史上最強的手排 GTI；2027 年第一季在歐洲開賣，美國不引進。",
+   "analysis": [
+    [
+     "紀念年份命名",
+     "車名與限量數都取自初代 GTI 在德國上市的 1976 年，車身側面有 1976 GTI 字樣圖像。"
+    ],
+    [
+     "高爾夫球排檔頭",
+     "手排回歸也帶回經典的高爾夫球造型排檔頭，是 GTI 最具辨識度的內裝符號。"
+    ],
+    [
+     "紅色車身配黑色套件",
+     "官方照為紅色車身搭黑色輪圈、黑色車頂與尾翼，延續 GTI 紅黑配色。"
+    ],
+    [
+     "紅色細節內裝",
+     "Carscoops 圖片可見內裝以黑色為底，配紅色線條與紅色縫線。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/27）",
+     "https://www.carscoops.com/2329333/golf-gti-returns-not-america/"
+    ]
+   ],
+   "image": {
+    "file": "news-golf-gti-1976.jpg",
+    "alt": "紅色 Golf GTI 1976 前側方，黑色輪圈與 1976 GTI 字樣",
+    "credit": "Volkswagen (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2329333/golf-gti-returns-not-america/"
+   },
+   "more_images": [
+    {
+     "file": "news-golf-gti-1976-2.jpg",
+     "alt": "Golf GTI 1976 後側方，黑色尾翼與雙出排氣",
+     "credit": "Volkswagen (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2329333/golf-gti-returns-not-america/"
+    },
+    {
+     "file": "news-golf-gti-1976-3.jpg",
+     "alt": "Golf GTI 1976 內裝，六速手排與高爾夫球排檔頭",
+     "credit": "Volkswagen (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2329333/golf-gti-returns-not-america/"
+    }
+   ]
+  },
+  {
+   "id": "tucson-xrt-pro",
+   "tag": "新車 · 美國",
+   "date": "2026-11-27",
+   "brand": "Hyundai 現代",
+   "title": "美規新 Tucson XRT Pro：233 匹油電越野版，方正車頭配粗獷護板",
+   "orig": "America's Hyundai Tucson XRT Pro Is A 233 HP Hybrid",
+   "summary": "Hyundai 公布美規新一代 Tucson 細節，新增越野取向的 XRT Pro，搭 1.6 升渦輪油電系統、233 匹。汽油版 2027 年第一季到店，油電版第二季跟進。",
+   "analysis": [
+    [
+     "方正越野臉",
+     "Carscoops 照片中 XRT Pro 車頭方正，下方加上深色護板與拖車勾，強調越野。"
+    ],
+    [
+     "粗獷護板",
+     "輪拱與車身下緣包覆深色塑料護板，搭配越野胎與深色輪圈。"
+    ],
+    [
+     "新座艙",
+     "文章標題指出 Hyundai 以新座艙「邁向未來」，照片可見大尺寸橫向螢幕與淺灰內裝。"
+    ]
+   ],
+   "sources": [
+    [
+     "Carscoops（11/27）",
+     "https://www.carscoops.com/2329315/hyundai-tucson-xrt-pro-hybrid-america/"
+    ]
+   ],
+   "image": {
+    "file": "news-tucson-xrt-pro.jpg",
+    "alt": "銅橘色 Hyundai Tucson XRT Pro 在沙地前側方",
+    "credit": "Hyundai (via Carscoops)",
+    "credit_url": "https://www.carscoops.com/2329315/hyundai-tucson-xrt-pro-hybrid-america/"
+   },
+   "more_images": [
+    {
+     "file": "news-tucson-xrt-pro-2.jpg",
+     "alt": "Tucson XRT Pro 後側方，深色護板與越野胎",
+     "credit": "Hyundai (via Carscoops)",
+     "credit_url": "https://www.carscoops.com/2329315/hyundai-tucson-xrt-pro-hybrid-america/"
+    }
+   ]
+  },
+  {
+   "id": "exeed-ex6",
+   "tag": "全球首發 · 廣州車展",
+   "date": "2026-11-27",
+   "brand": "Exeed 星途",
+   "title": "星途 EX6 全球首發：X 型星際之門日行燈，776 顆 LED 矩陣大燈",
+   "orig": "2026广州车展：星途EX6首发亮相",
+   "summary": "星途 EX6 在廣州車展全球首發，定位全球運動智混休旅，用 1.5T 插混系統，兩驅版 CLTC 純電續航 220 km。官方說造型以海洋冰川為靈感，走歐系寬體運動路線。",
+   "analysis": [
+    [
+     "X 型日行燈",
+     "車頭是全新「星際之門」X 型日行燈，配橫向貫穿光帶，把視覺重心拉寬、壓低。"
+    ],
+    [
+     "776 顆 LED",
+     "「星河之光」大燈全車最多 776 顆 LED 矩陣，能顯示不同燈語。"
+    ],
+    [
+     "0.618 溜背",
+     "長軸距、短前後懸，溜背輪廓配 0.618 黃金分割與上揚腰線。"
+    ],
+    [
+     "雙層尾翼",
+     "車尾是鏤空雙層擾流板與擴散器型面，高位剎車燈垂直佈置在擾流板上側。"
+    ]
+   ],
+   "sources": [
+    [
+     "新浪汽車（11/27）",
+     "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaapny8146914.shtml"
+    ]
+   ],
+   "image": {
+    "file": "news-exeed-ex6.jpg",
+    "alt": "廣州車展上的深藍色星途 EX6 側面，溜背車頂",
+    "credit": "新浪汽車",
+    "credit_url": "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaapny8146914.shtml"
+   },
+   "more_images": [
+    {
+     "file": "news-exeed-ex6-2.jpg",
+     "alt": "星途 EX6 後側方，貫穿尾燈與雙層擾流板",
+     "credit": "新浪汽車",
+     "credit_url": "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaapny8146914.shtml"
+    }
+   ]
+  },
+  {
+   "id": "lexus-tz-cn",
+   "tag": "中國首發 · 廣州車展",
+   "date": "2026-11-27",
+   "brand": "Lexus 雷克薩斯",
+   "title": "Lexus TZ 中國首發：一體式紡錘車身配雙 L 燈，三排六座明年首季上市",
+   "orig": "LEXUS雷克萨斯全新TZ中国首发 多款车型亮相2026广州国际车展",
+   "summary": "Lexus 純電三排座休旅 TZ 在廣州車展中國首發，主題「DISCOVER LIMITLESS」，預計 2027 年第一季在中國上市。官方也預告 2027 年將推出上海工廠在地研發的首款國產純電車。",
+   "analysis": [
+    [
+     "一體式紡錘車身",
+     "延續「硬朗簡約」設計哲學，用一體化紡錘形車身配建築感幾何線條，量體乾淨俐落。"
+    ],
+    [
+     "雙 L 燈與發光標",
+     "車頭是雙 L 標誌性燈組，配前臉發光 Logo 強化辨識度。"
+    ],
+    [
+     "寬幅薄型天幕",
+     "平台、座椅與天幕一起開發，寬幅纖薄全景天幕把採光延伸到第三排，同時保留頭部空間。"
+    ],
+    [
+     "隱藏式按鍵",
+     "座艙用隱藏式響應按鍵，圖示在手靠近時才亮起，並保留實體按壓回饋。"
+    ]
+   ],
+   "sources": [
+    [
+     "Lexus 中國官網新聞（11/27）",
+     "https://www.lexus.com.cn/node/5401"
+    ],
+    [
+     "Gasgoo（11/27）",
+     "https://autonews.gasgoo.com/articles/market-industry/lexuss-all-new-tz-makes-china-debut-at-auto-guangzhou-2026-2126257527612125184"
+    ]
+   ],
+   "image": {
+    "file": "news-lexus-tz-cn.jpg",
+    "alt": "廣州車展上的黑色 Lexus TZ 前側方，雙 L 燈組",
+    "credit": "Lexus (via Lexus 中國官網)",
+    "credit_url": "https://www.lexus.com.cn/node/5401"
+   },
+   "more_images": [
+    {
+     "file": "news-lexus-tz-cn-2.jpg",
+     "alt": "Lexus TZ 正面，發光 Logo 與雙 L 燈",
+     "credit": "Lexus (via Lexus 中國官網)",
+     "credit_url": "https://www.lexus.com.cn/node/5401"
+    }
+   ]
+  }
+ ],
+ "autodesign": [
+  {
+   "id": "ad-citroen-2cv-concept-heritage-e-desiderio",
+   "source": "Auto&Design",
+   "credit": "Auto&Design",
+   "kind": "column",
+   "column": "Design Story",
+   "date": "2026-11-05",
+   "url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+   "paywalled": false,
+   "orig": "CITROËN 2CV CONCEPT, HERITAGE AND DESIRABILITY",
+   "design_tag": "設計師專訪",
+   "title": "Citroën 2CV Concept：設計總監 Leclercq 談怎麼把 1948 年的「極小車」重做成電動車",
+   "points": [
+    "不只復刻外型，而是回到 T.P.V. 原始任務書：小、輕、好用、買得起，再把對象換成社區護理師。",
+    "刻意避開「經典」一詞，用外門把、Bakelite 色方向盤等細節重新詮釋，而不是照抄舊件。",
+    "內裝以空間與光線為主題，黃色格紋絎縫座椅帶出 1950 年代的輕快感，傳達原車的 joie de vivre。",
+    "概念車不是所有細節都會量產，但 Leclercq 強調「精神」會延續到 2028 年的量產版。"
+   ],
+   "image": {
+    "file": "col-2cv-main.jpg",
+    "alt": "紅色 Citroën 2CV Concept 正前方渲染圖，圓燈與雙人字標",
+    "credit": "Citroën (via Auto&Design)",
+    "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/"
+   },
+   "more_images": [
+    {
+     "file": "col-2cv-sketch.jpg",
+     "alt": "2CV Concept 外觀草圖：紅色車身多角度與舊 2CV 並列",
+     "credit": "Citroën (via Auto&Design)",
+     "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/"
+    }
+   ],
+   "sources": [
+    [
+     "Auto&Design（11/05）",
+     "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/"
+    ]
+   ],
+   "detail": {
+    "sections": [
+     {
+      "h": "設計背景",
+      "p": [
+       "Citroën 在 10 月巴黎車展發表 2CV Concept，預告 2028 年的量產版。設計總監 Pierre Leclercq 接受 Auto&Design 專訪時說，重做 2CV 一直是雙人字標設計師的心願，早在他加入前就有過各種探索，例如 2009 年的 Revolte 概念車；直到 2025 年，團隊才覺得「是時候認真做一次」。",
+       "雜誌刻意避開被用到爛的「iconic（經典）」一詞，把重點放在：一台有歷史的車，怎麼在今天被重新詮釋，而不是被複製。"
+      ]
+     },
+     {
+      "h": "任務書回到 T.P.V.",
+      "p": [
+       "Leclercq 說團隊原本研究過不同尺寸的提案，有超過 4 公尺的，也有小於 4 公尺的；但 2025 年 6 月上任的品牌執行長 Xavier Chardon 很明確：必須是一台受 T.P.V. 啟發的小型電動車。",
+       "T.P.V.（Toute Petite Voiture，「極小的車」）是 1948 年 2CV 的前身計畫，傳奇任務書要求極速 60 km/h、每百公里 3 公升油耗，還要能載著一籃雞蛋開過最爛的路而不打破任何一顆。這份「先定義用途、再長出造型」的思路，成了新車的設計起點。"
+      ]
+     },
+     {
+      "h": "把對象換成社區護理師",
+      "p": [
+       "近 80 年後，新 2CV 以電動車重生，目標族群不再是鄉村農民，而是在地方社區照顧眾多病患的護理師。原則仍然一樣：簡單、好用、小巧、輕量、價格親民（起價約 15,000 歐元）。",
+       "這是很值得學的手法：保留原車「為誰解決什麼問題」的精神，換掉時代背景，造型自然會往誠實、功能導向的方向走，而不是只剩懷舊符號。"
+      ]
+     },
+     {
+      "h": "內裝與配色",
+      "p": [
+       "從外門把開始就是對舊件的重新詮釋。進到車內，是一個輕鬆友善的座艙，主題是空間與光線。絎縫座椅包覆鮮黃色格紋（tartan）布料，帶出 1950 年代的氣氛；淺米色的方向盤與操作件，則是向原車的 Bakelite（電木）致敬。",
+       "從 Auto&Design 刊出的設計圖可以看到，儀表與門板以大面積黃、橘色塊與簡單的圓形元件組成，用色彩和材質而不是複雜線條來傳達「開心」的感覺。"
+      ]
+     },
+     {
+      "h": "設計師觀點與重點收穫",
+      "p": [
+       "Leclercq 坦言，概念車的內裝不會每項都進量產，但它的精神會被帶到量產車上。對設計師來說，這篇專訪的重點是：復刻經典最難的不是抓住外型，而是找回原本的「任務」與態度——2CV 的 joie de vivre（生活的樂趣）。",
+       "完整專訪刊於 Auto&Design 第 281 期；網站版為節錄。"
+      ]
+     }
+    ],
+    "images": [
+     {
+      "file": "col-2cv-sketch.jpg",
+      "alt": "2CV Concept 外觀草圖：紅色車身前、後、側多角度，右上角是舊款 2CV",
+      "credit": "Citroën (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+      "section": 0
+     },
+     {
+      "file": "col-2cv-main.jpg",
+      "alt": "2CV Concept 正面渲染：圓形頭燈與簡潔車頭",
+      "credit": "Citroën (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+      "section": 1
+     },
+     {
+      "file": "col-2cv-interior-sketch.jpg",
+      "alt": "內裝設計圖：黃色門板、圓形元件與方向盤細節",
+      "credit": "Citroën (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+      "section": 3
+     },
+     {
+      "file": "col-2cv-dash-sketch.jpg",
+      "alt": "儀表板與門板結構設計圖，黃橘色塊與米色操作件",
+      "credit": "Citroën (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+      "section": 3
+     },
+     {
+      "file": "col-2cv-cabin.jpg",
+      "alt": "座艙渲染：黃色調內裝、淺米色方向盤與大面積玻璃",
+      "credit": "Citroën (via Auto&Design)",
+      "credit_url": "https://autodesignmagazine.com/en/2026/11/citroen-2cv-concept-heritage-e-desiderio/",
+      "section": 4
+     }
+    ]
+   }
+  }
+ ],
+ "cmf": [
+  {
+   "id": "cmf-car-zeekr-7x-2027-cabin",
+   "kind": "car",
+   "car": "2027 Zeekr 7X",
+   "tag": "新車內裝 · 中國",
+   "title": "2027 款極氪 7X：淺灰座艙加前排零重力座椅",
+   "points": [
+    "極氪 11/27 在廣州車展上市 2027 款 7X，年度改款新增 2 種外觀新色。",
+    "座艙換上前排雙零重力座椅，主動降噪也全系標配。",
+    "官方內裝圖是淺灰皮椅配深灰下半部，中控台懸浮、螢幕橫放，整體走安靜的淺色調。"
+   ],
+   "image": {
+    "file": "cmf-car-zeekr-7x-cabin.jpg",
+    "alt": "2027 款極氪 7X 座艙：淺灰座椅、橫向中控螢幕與寬廣前擋",
+    "credit": "Zeekr (via CnEVPost)",
+    "credit_url": "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/"
+   },
+   "more_images": [
+    {
+     "file": "cmf-car-zeekr-7x-cabin-2.jpg",
+     "alt": "2027 款極氪 7X 外觀新色（香檳銀灰）",
+     "credit": "Zeekr (via CnEVPost)",
+     "credit_url": "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/"
+    }
+   ],
+   "sources": [
+    [
+     "CnEVPost（11/27）",
+     "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-nio-es8-black-gold",
+   "kind": "paint",
+   "car": "蔚來 ES8 特別版 2.0",
+   "tag": "塗裝 · 烏金釉",
+   "title": "蔚來 ES8 特別版 2.0：烏金釉深黑配雷射金線",
+   "points": [
+    "蔚來 11/27 在廣州車展推出 ES8 特別版 2.0，靈感來自東方陶瓷的「烏金釉」。",
+    "車身以 Deep Black 深黑為底，前保桿與側面光達等處用雷射雕刻勾出低飽和的金色細線。",
+    "前後保桿、門檻與徽標換成黑金色暗鍍鉻套件，讓金色只在細節裡出現。"
+   ],
+   "image": {
+    "file": "cmf-paint-nio-es8-black-gold.jpg",
+    "alt": "深黑色蔚來 ES8 特別版 2.0 車頭，黑金暗鍍鉻細節",
+    "credit": "Nio (via CnEVPost)",
+    "credit_url": "https://cnevpost.com/2026/11/27/nio-launches-es8-mirror-black-edition-2-0-guangzhou-show/"
+   },
+   "sources": [
+    [
+     "CnEVPost（11/27）",
+     "https://cnevpost.com/2026/11/27/nio-launches-es8-mirror-black-edition-2-0-guangzhou-show/"
+    ]
+   ]
+  },
+  {
+   "id": "cmf-paint-hyundai-citrine-neon",
+   "kind": "paint",
+   "car": "Hyundai MERCURY Concept",
+   "tag": "塗裝 · 概念車專屬色",
+   "title": "Hyundai MERCURY Concept 專屬 Citrine Neon 黃綠漆",
+   "points": [
+    "MERCURY Concept 用了專屬調配的 Citrine Neon 黃綠色車漆，是官方列出的主要設計細節之一。",
+    "高彩度黃綠配上黑色下緣與輪圈，讓低趴的鯊魚鼻車頭和邊緣燈號更醒目。",
+    "官方設定這台車是入門城市通勤休旅，用亮色塗裝傳達年輕、輕快的定位。"
+   ],
+   "image": {
+    "file": "cmf-paint-hyundai-citrine-neon.jpg",
+    "alt": "兩台 Citrine Neon 黃綠色 MERCURY Concept 在深色地面上",
+    "credit": "Hyundai (via Hyundai Motor Group Newsroom)",
+    "credit_url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+   },
+   "sources": [
+    [
+     "Hyundai Motor Group 新聞稿（11/27）",
+     "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+    ]
+   ]
+  }
+ ],
+ "hmi": [
+  {
+   "id": "hmi-exeed-ex6-cockpit",
+   "kind": "case",
+   "brand": "Exeed 星途",
+   "tag": "介面與 HMI",
+   "title": "星途 EX6：30 吋懸浮屏與可換角色 AI 助手",
+   "date": "2026-11-27",
+   "points": [
+    "星途 EX6 採星河環抱式運動座艙，配多功能方向盤與 30 吋懸浮式低藍光智慧屏。",
+    "AI 靈犀座艙搭高通 8295P 晶片，官方稱行業首發車內端到端閒聊語音助手。",
+    "AI 智能體「小奇同學」有 6 種風格角色可隨意切換，並配哈曼卡頓 23 揚聲器音響。"
+   ],
+   "image": {
+    "file": "hmi-exeed-ex6-cockpit.jpg",
+    "alt": "星途 EX6 座艙：橫跨儀表板的 30 吋懸浮螢幕與酒紅色座椅",
+    "credit": "Exeed (via 新浪汽車)",
+    "credit_url": "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaapny8146914.shtml"
+   },
+   "sources": [
+    [
+     "新浪汽車（11/27）",
+     "https://auto.sina.com.cn/newcar/2026-11-27/detail-inkaapny8146914.shtml"
+    ]
+   ]
+  }
+ ],
+ "knowledge": [
+  {
+   "tag": "電動化 · 日本／中國",
+   "date": "2026-11-27",
+   "title": "Toyota 首款增程電動車定名 Highlander 9X，明年中國目標產 20 萬輛",
+   "summary": "廣汽豐田 11/27 在廣州車展宣布旗下首款增程電動車（EREV）沿用旗艦休旅名 Highlander 9X，2027 年初上市，電池與 CATL 客製開發、輔助駕駛與座艙用華為方案。據日經報導，Toyota 計畫 2027 年在中國生產 20 萬輛增程車、2028 年約 40 萬輛；此車不會在美國銷售。",
+   "sources": [
+    [
+     "Electrek（11/27）",
+     "https://electrek.co/2026/11/27/toyota-confirms-highlander-9x-first-erev-top-tier-tech/"
+    ],
+    [
+     "Nikkei Asia",
+     "https://asia.nikkei.com/business/automobiles/electric-vehicles/toyota-starts-china-comeback-bid-with-extended-range-ev"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 日本",
+   "date": "2026-11-27",
+   "title": "三菱汽車 10 月全球產量年減 17.9%，日本國內銷量連五個月成長",
+   "summary": "三菱汽車公布 10 月產銷：國內產量 37,751 輛（年減約 20%）、海外產量 30,078 輛（連四個月衰退），合計 67,829 輛，年減 17.9%。日本國內銷售 8,151 輛年增 2.1%，連五個月成長；出口 20,827 輛年增 5.1%。",
+   "sources": [
+    [
+     "Mitsubishi Motors 新聞稿（11/27）",
+     "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20261127_1.html"
+    ]
+   ]
+  },
+  {
+   "tag": "工廠 · 歐洲",
+   "date": "2026-11-26",
+   "title": "Stellantis 擴大歐洲工廠停工，法國 Rennes、Mulhouse 員工放部分失業",
+   "summary": "Bloomberg 報導，Stellantis 因歐洲需求疲弱、成本高與中國車廠進逼，計畫在歐洲更多工廠暫停生產。法國電視台指出，Rennes 與 Mulhouse 廠員工已被安排部分失業（chômage partiel），工會擔心廠區前景。",
+   "sources": [
+    [
+     "Bloomberg（11/26）",
+     "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance"
+    ],
+    [
+     "franceinfo",
+     "https://www.franceinfo.fr/economie/industrie/on-est-quand-meme-inquiets-pour-l-avenir-du-site-des-salaries-de-stellantis-mis-en-chomage-partiel-a-rennes-et-mulhouse-face-aux-difficultes-du-groupe_8303127.html"
+    ]
+   ]
+  },
+  {
+   "tag": "銷量 · 中國",
+   "date": "2026-11-28",
+   "title": "大眾汽車：11 月在華新能源車預計交付 3.2 萬輛，約去年同期 5 倍",
+   "summary": "據汽車中國快訊，大眾汽車官宣 11 月在中國的新能源車預計交付 3.2 萬輛，接近去年同期的 5 倍，並在廣州車展展出品牌在華史上最大的新能源陣容。（單一彙整來源）",
+   "sources": [
+    [
+     "汽車中國 AUTO-CN 快訊（11/28）",
+     "https://www.auto-cn.com/views-15135"
+    ]
+   ]
+  },
+  {
+   "tag": "自駕 · 中國",
+   "date": "2026-11-28",
+   "title": "小鵬科技日發表 AEX360 全向主動避險，宣稱出險率降 13.93%",
+   "summary": "據汽車中國快訊，小鵬在科技日發表 AEX360 全向主動避險系統，讓制動、轉向與懸吊協同動作來規避碰撞，官方稱可讓出險率下降 13.93%。（單一彙整來源）",
+   "sources": [
+    [
+     "汽車中國 AUTO-CN 快訊（11/28）",
+     "https://www.auto-cn.com/views-15135"
+    ]
+   ]
+  },
+  {
+   "tag": "合作與投資 · 台灣／日本",
+   "date": "2026-11-26",
+   "title": "和泰車日本布局落地：和泰ジャパン東京辦公室與日野板橋新據點開業",
+   "summary": "和泰汽車 11/25 在東京舉辦「和泰ジャパン」新辦公室與南關東日野板橋新據點開業儀式。和泰今年取得南關東、北海道等 5 家日野經銷商各 80% 股權，旗下 57 個據點、員工逾 3,000 人、年銷 1.2 萬台以上、年營業規模逾 2,000 億日圓；板橋新據點投資逾 30 億日圓。",
+   "sources": [
+    [
+     "和泰汽車新聞稿（11/26）",
+     "https://www.hotaimotor.com.tw/News/Details/596"
+    ],
+    [
+     "工商時報（11/27）",
+     "https://www.ctee.com.tw/news/20261127700123-430503"
+    ]
+   ]
+  }
+ ],
+ "term": {
+  "name": "Shark nose",
+  "zh": "鯊魚鼻（Shark nose）",
+  "body": "鯊魚鼻指車頭最前緣往前突出、再往下往後收的造型：從側面看，格柵和引擎蓋前端像鯊魚的吻部一樣「前傾」，而不是垂直的一面牆。這樣的車頭看起來更低、更有往前衝的動感，BMW 1970–80 年代的 E21、E28、E24 等車型就是經典例子。現代車因為行人保護法規要求引擎蓋較高、前端結構較軟，又要收納雷達與感測器，設計師多半只能做「收斂版」的鯊魚鼻。今天新車快訊的 Hyundai MERCURY Concept，官方就說它用了低趴的鯊魚鼻車頭，再用細長燈號拼出 H 字。",
+  "source": [
+   [
+    "BMWBLOG：BMW ALPINA's Hidden Design Challenge With The Shark Nose",
+    "https://www.bmwblog.com/2026/05/25/bmw-alpina-biggest-design-challenge/"
+   ],
+   [
+    "Hyundai Motor Group：MERCURY Concept（shark-nose front end）",
+    "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+   ]
+  ],
+  "diagram": "term.svg"
+ },
+ "color_data": {
+  "interior": {
+   "theme": "Graphite, Black Gold & Persimmon",
+   "zh": "石墨灰、烏金配柿橘：暗金點綴的暖色座艙示意",
+   "intro": "每日一組內裝配色示例：上儀表板用沉穩的石墨灰，飾條借蔚來烏金釉特別版的暗金，門板嵌飾換成柿橘棕，縫線點上 Hyundai MERCURY 的 Citrine Neon 黃綠。圖為程式繪製示意，不代表任何真實車款。",
+   "parts": [
+    [
+     "上儀表板 · 軟質",
+     "Graphite 石墨灰（示意）",
+     "#3D3F42",
+     false,
+     "ip-upper"
+    ],
+    [
+     "儀表板飾條 · 金屬",
+     "Black Gold 烏金（示意）",
+     "#6E5A3A",
+     false,
+     "ip-decor",
+     {
+      "src": "蔚來 ES8 烏金釉特別版",
+      "url": "https://cnevpost.com/2026/11/27/nio-launches-es8-mirror-black-edition-2-0-guangzhou-show/"
+     }
+    ],
+    [
+     "門板嵌飾 · 皮革",
+     "Persimmon 柿橘棕（示意）",
+     "#B5653A",
+     false,
+     "door-insert"
+    ],
+    [
+     "門扶手 · 皮革",
+     "Warm Grey 暖灰（示意）",
+     "#77726B",
+     false,
+     "armrest"
+    ],
+    [
+     "縫線",
+     "Citrine Neon 黃綠縫線（示意）",
+     "#C5D23C",
+     false,
+     "stitch",
+     {
+      "src": "Hyundai MERCURY Citrine Neon",
+      "url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+     }
+    ],
+    [
+     "下門板 · 深色",
+     "Charcoal 炭灰（示意）",
+     "#2A2B2D",
+     false,
+     "door-lower"
+    ]
+   ],
+   "evidence": [
+    [
+     "CnEVPost：蔚來 ES8 特別版 2.0",
+     "https://cnevpost.com/2026/11/27/nio-launches-es8-mirror-black-edition-2-0-guangzhou-show/"
+    ],
+    [
+     "Hyundai：MERCURY Concept Citrine Neon",
+     "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026"
+    ]
+   ],
+   "mood": "graphite blackgold persimmon",
+   "mood_text": "石墨灰壓住上半部，烏金飾條與柿橘棕門板帶出溫度，一道黃綠縫線讓整體不沉悶。",
+   "vars": {
+    "headliner": "dark",
+    "seat": "#B5653A",
+    "seat-bolster": "#3D3F42",
+    "seat-center": "#B5653A",
+    "console": "#34363A",
+    "console-arm": "#77726B",
+    "steering": "#2E2F31",
+    "ip-lower": "#34363A",
+    "accent-pod": "#C5D23C",
+    "accent-pod2": "#6E5A3A"
+   }
+  }
+ }
+}

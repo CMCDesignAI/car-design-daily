@@ -1136,5 +1136,29 @@
   "angle": "翡冷翠與暖陽金新車色",
   "url": "https://www.bitauto.com/article/1003114925339/",
   "image": "cmf-paint-aito-m7-jade.jpg"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "car",
+  "car_key": "car:zeekr-7x-2027-cabin",
+  "angle": "2027 款極氪 7X：淺灰座艙加前排零重力座椅",
+  "url": "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/",
+  "image": "cmf-car-zeekr-7x-cabin.jpg"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "paint",
+  "car_key": "paint:nio-es8-black-gold",
+  "angle": "蔚來 ES8 特別版 2.0：烏金釉深黑配雷射金線",
+  "url": "https://cnevpost.com/2026/11/27/nio-launches-es8-mirror-black-edition-2-0-guangzhou-show/",
+  "image": "cmf-paint-nio-es8-black-gold.jpg"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "paint",
+  "car_key": "paint:hyundai-citrine-neon",
+  "angle": "Hyundai MERCURY Concept 專屬 Cit",
+  "url": "https://www.hyundaimotorgroup.com/en/news/hyundai-motor-company-china-ioniq-auto-guangzhou-2026",
+  "image": "cmf-paint-hyundai-citrine-neon.jpg"
  }
 ]
