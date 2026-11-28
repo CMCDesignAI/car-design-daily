@@ -158,7 +158,7 @@
    "analysis": [
     [
      "紀念年份命名",
-     "車名與限量數都取自初代 GTI 在德國上市的 1976 年，車身側面有 1976 GTI 字樣圖像。"
+     "車名與限量數都取自初代 GTI 在德國上市的 1976 年，官方照背景也以 1976 GTI 字樣與手排檔位圖呼應。"
     ],
     [
      "高爾夫球排檔頭",
@@ -166,7 +166,7 @@
     ],
     [
      "紅色車身配黑色套件",
-     "官方照為紅色車身搭黑色輪圈、黑色車頂與尾翼，延續 GTI 紅黑配色。"
+     "官方照為紅色車身搭黑色輪圈、黑色後擾流與黑色下巴，延續 GTI 紅黑配色。"
     ],
     [
      "紅色細節內裝",
@@ -181,7 +181,7 @@
    ],
    "image": {
     "file": "news-golf-gti-1976.jpg",
-    "alt": "紅色 Golf GTI 1976 前側方，黑色輪圈與 1976 GTI 字樣",
+    "alt": "紅色 Golf GTI 1976 前側方，黑色輪圈，背景有 1976 GTI 字樣",
     "credit": "Volkswagen (via Carscoops)",
     "credit_url": "https://www.carscoops.com/2329333/golf-gti-returns-not-america/"
    },
@@ -469,7 +469,7 @@
    "points": [
     "極氪 11/27 在廣州車展上市 2027 款 7X，年度改款新增 2 種外觀新色。",
     "座艙換上前排雙零重力座椅，主動降噪也全系標配。",
-    "官方內裝圖是淺灰皮椅配深灰下半部，中控台懸浮、螢幕橫放，整體走安靜的淺色調。"
+    "官方內裝圖是淺灰座椅與淺色儀表台，螢幕橫放在中控上方，整體走安靜的淺色調。"
    ],
    "image": {
     "file": "cmf-car-zeekr-7x-cabin.jpg",
@@ -477,14 +477,6 @@
     "credit": "Zeekr (via CnEVPost)",
     "credit_url": "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/"
    },
-   "more_images": [
-    {
-     "file": "cmf-car-zeekr-7x-cabin-2.jpg",
-     "alt": "2027 款極氪 7X 外觀新色（香檳銀灰）",
-     "credit": "Zeekr (via CnEVPost)",
-     "credit_url": "https://cnevpost.com/2026/11/27/zeekr-launches-2027-7x/"
-    }
-   ],
    "sources": [
     [
      "CnEVPost（11/27）",
